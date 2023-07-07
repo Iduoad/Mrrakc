@@ -11,6 +11,7 @@ cover:
   alt: "mount-Tidirhine"
   caption: "Mount Tidirhine"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information

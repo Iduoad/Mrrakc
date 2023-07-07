@@ -3,6 +3,7 @@ title: "Cave Dar Es Soltan 1"
 date: 2022-11-29T21:26:08+01:00
 author: "Mohammed Daoudi"
 categories: "Ancient Rock Workes"
+
 regions: "Rabat-Salé-Kénitra"
 tags: ["Paleolithic", "Aterian", "Neolitic"]
 gmaps: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4096.921356905818!2d-6.897980995988573!3d33.978281034962464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d3e70927ce7%3A0xa367b415d1b89942!2sDar%20Es%20Soltan%202%20Cave!5e1!3m2!1sen!2sma!4v1669679547453!5m2!1sen!2sma"
@@ -11,6 +12,7 @@ cover:
   alt: "cave-dar-es-soltan-1"
   caption: "Cave Dar Es Soltan 1"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information

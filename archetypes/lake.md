@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author: []
-categories: []
+categories: "Lakes"
 regions: []
 tags: []
 gmaps: ""
@@ -15,9 +15,9 @@ draft: true
 
 ## General Information
 
-| Depth | Surface Area | Elevation | Type |
-| ---   | ---          | ---       |      |
-| -     | -            | -         | -    |
+| Depth | Surface Area | Elevation |
+| ---   | ---          | ---       |
+| -     | -            | -         |
 
 ## How to get there ?
 

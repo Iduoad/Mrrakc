@@ -11,6 +11,7 @@ cover:
   alt: "mount-toubkal"
   caption: "Mount Toubkal"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information

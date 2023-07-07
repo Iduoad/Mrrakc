@@ -11,6 +11,7 @@ cover:
   alt: "cave-dar-es-soltan-2"
   caption: "Cave Dar Es Soltan 2"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information

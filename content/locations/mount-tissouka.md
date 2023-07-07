@@ -11,6 +11,7 @@ cover:
   alt: "mount-tissouka"
   caption: "Mount Tissouka"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information

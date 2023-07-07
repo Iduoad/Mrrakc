@@ -11,13 +11,14 @@ cover:
   alt: "lake-aguelmam-azegza"
   caption: "Lake Aguelmam Azegza"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information
 
-| Depth | Surface Area | Altitude | Type          |
-| ---   | ---          | ---      | ---           |
-| 26m   | 62ha         | 1474m    | Solution lake |
+| Depth | Surface Area | Altitude |
+| ---   | ---          | ---      |
+| 26m   | 62ha         | 1474m    |
 
 Aguelmam Azegza is one of the largest and most beautiful lakes in the Middle Atlas. Located in the center of the Cider forrest of Khenifra National Park, it is home to many fish species and the main source of water for the varied forrest inhabitants especially Barbary macaques.
 

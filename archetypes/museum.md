@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 author: []
-categories: []
+categories: "Museums"
 regions: []
 tags: []
 gmaps: ""
@@ -15,21 +15,9 @@ draft: true
 
 ## General Information
 
-| City | Type | Collections |
-| ---  | ---  | ---         |
-| -    | -    | -           |
-
-### Hours
-
-| Days | Hours | State |
-| ---  | ---   | ---   |
-|      |       |       |
-
-### Prices
-
-| Category | price |
-| ---      | ---   |
-|          |       |
+| City | Type | Collections | Hours | Prices |
+| ---  | ---  | ---         | ---   | ---    |
+| -    | -    | -           |       |        |
 
 ## How to get there ?
 

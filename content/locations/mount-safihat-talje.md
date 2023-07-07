@@ -11,6 +11,7 @@ cover:
   alt: "mount-safihat-talje"
   caption: "Mount Safihat Talje"
 draft: false
+hiddenInHomeList: true
 ---
 
 ## General Information
