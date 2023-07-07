@@ -15,7 +15,7 @@ cover:
 
 > You know Rabat? I live in the city on the other side of the river.
 
-Whenever I met new friends from all over the world, I find myself repeating this sentence. The reason why I've made the decision to guide you through the streets of Salé's Medina and tell you the tales each corner has to tell.
+Whenever I meet new friends from all over the world, I find myself repeating this sentence. The reason why I've made the decision to guide you through the streets of Salé's Medina and tell you the tales each corner has to tell.
 
 ## The lost history
 Salé is undeniably one of the oldest cities in Morocco, boasting a rich historical legacy. Situated alongside Chellah (Sala Colonia) across the Bouregreg River, Salé held great significance as a vital port for both the Phoenicians and the subsequent Roman occupants.
