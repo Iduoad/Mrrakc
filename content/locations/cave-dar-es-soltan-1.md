@@ -11,7 +11,7 @@ cover:
   image: "/cave-dar-es-soltan-1.webp"
   alt: "cave-dar-es-soltan-1"
   caption: "Cave Dar Es Soltan 1"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 

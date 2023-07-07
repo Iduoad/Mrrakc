@@ -10,7 +10,7 @@ cover:
   image: "/mount-safihat-talje.webp"
   alt: "mount-safihat-talje"
   caption: "Mount Safihat Talje"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 

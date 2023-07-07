@@ -10,7 +10,7 @@ cover:
   image: "/mount-tidirhine.webp"
   alt: "mount-Tidirhine"
   caption: "Mount Tidirhine"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 

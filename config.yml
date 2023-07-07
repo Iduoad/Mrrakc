@@ -11,18 +11,10 @@ minify:
 
 menu:
   main:
-    - identifier: categories
-      name: Categories
-      url: /categories
-      weight: -100
     - identifier: regions
       name: Regions
       url: /regions
       weight: -90
-    - identifier: blog
-      name: Blog
-      url: /posts
-      weight: -80
 
 taxonomies:
   category: 'categories'

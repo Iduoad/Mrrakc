@@ -10,7 +10,7 @@ cover:
   image: "/lake-aguelmam-azegza.webp"
   alt: "lake-aguelmam-azegza"
   caption: "Lake Aguelmam Azegza"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 

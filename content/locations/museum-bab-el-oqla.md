@@ -10,7 +10,7 @@ cover:
   image: "/museum-bab-el-oqla.webp"
   alt: "museum-bab-el-oqla"
   caption: "museum-bab-el-oqla"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 

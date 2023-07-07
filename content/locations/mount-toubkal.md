@@ -10,7 +10,7 @@ cover:
   image: "/mount-toubkal.webp"
   alt: "mount-toubkal"
   caption: "Mount Toubkal"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 

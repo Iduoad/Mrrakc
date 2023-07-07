@@ -10,7 +10,7 @@ cover:
   image: "/mount-tissouka.webp"
   alt: "mount-tissouka"
   caption: "Mount Tissouka"
-draft: false
+draft: true
 hiddenInHomeList: true
 ---
 
