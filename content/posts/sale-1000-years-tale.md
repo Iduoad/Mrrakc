@@ -3,14 +3,13 @@ title: "Salé - a 1000 years tale"
 date: 2022-10-27T22:49:15+01:00
 author: "Mohammed Daoudi"
 regions: "Rabat-Salé-Kénitra"
-tags: ["History", "Salé", "Neolitic"]
+tags: ["History", "Salé"]
 draft: false
 ShowToc: true
 cover:
   image: "/sale-cover.jpeg"
   alt: "Salé - the 1000 years tale"
   caption: "Salé - the 1000 years tale"
-
 ---
 
 > You know Rabat? I live in the city on the other side of the river.
