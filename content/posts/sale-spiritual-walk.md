@@ -4,7 +4,7 @@ date: 2023-07-25T22:49:15+01:00
 author: "Mohammed Daoudi"
 regions: "Rabat-Salé-Kénitra"
 tags: ["History", "Salé", "Spiritual"]
-draft: false
+draft: true
 ShowToc: true
 cover:
   image: "/sale-cover.jpeg"
