@@ -1,8 +1,14 @@
 ---
-title: "Top 7 Official Moroccan Tourism Websites"
+title: "Top 7 Websites about Tourism in Morocco"
 author: "Mohammed Daoudi"
-date: 2023-08-07T05:34:03+01:00
-draft: true
+date: 2023-08-20T05:34:03+01:00
+tags: ["Tourism", "Lists"]
+draft: false
+ShowToc: true
+cover:
+    image: "/chefchaouen.jpeg"
+    alt: "Chefchaouen City"
+    caption: "Chefchaouen: The blue city"
 ---
 
 When I first started traveling around the country, I thought there wasn't much useful information about tourism in Morocco. But over the years, I changed my mind and now believe that the officials and the tourism community in Morocco are actually doing a good job sharing information about different places to visit in Morocco.
@@ -12,22 +18,22 @@ In this post, I'll share my top 7 places to find travel info about Morocco. Some
 ## 1. The main portal
 If you're new to Morocco or want a quick overview of the country, start by checking out the official website of Morocco's National Tourism Office (ONMT). It's the best place to learn about the country before your visit. They provide info about tourist spots all over Morocco and helpful tips for planning your trip.
 
-[VisitMorocco](https://www.visitmorocco.com/en)
+- [VisitMorocco](https://www.visitmorocco.com/en)
 
 ## 2. Marrakech: The Mecca of Moroccan tourism
 When it comes to tourism in Morocco, Marrakech stands out as one of the top choices for travelers. The ONMT has created a dedicated website solely for Marrakech, providing a comprehensive resource about the city. This website offers all the essential details about what to explore and where to go in the city. One of the most interesting features you should look into, is the updated calendar of events taking place in Marrakech.
 
-[VisitMarrakech](https://visitmarrakech.com/)
+- [VisitMarrakech](https://visitmarrakech.com/)
 
 ## 3. Museums
 Exploring museums is something I love doing whenever I'm in a new city. If you share this interest, the National Foundation of Museums (FNM) has us taken care of. On their official website, you can discover a list of all the national museums along with essential details like their locations, ticket prices, and operating hours.
 
-[FNM](https://fnm.ma)
+- [FNM](https://fnm.ma)
 
 ## 4. Documentation award goes to
 The majority of the organisms we've encountered up to now utilize their websites to present all their information. L'Oriental Agency, on the other hand, has undertaken an extensive effort by producing numerous books and magazines about L'Oriental region. These publications are available in both French and English, showcasing the abundant natural and cultural heritage of the Region.
 
-[L'Oriental](https://www.oriental.ma/nos-publications/)
+- [L'Oriental](https://www.oriental.ma/nos-publications/)
 
 ## 5. The national parks you maybe don't know about
 Morocco has 10 National parks, distributed all over the country. These parks are home to many unique plants and animals, with some carrying significant cultural and natural value for both Morocco and the global community. The Moroccan Agency for Ecotourism and preservation of Nature ([AMEPN](https://amepn.ma/reseau-des-parcs/)) has dedicated web pages for each of these parks on their official website. Along with AMEPN, Information Exchange Center for Biodiversity in Morocco ([CHMCBD](https://ma.chm-cbd.net/biodiversity/faun_flor) offers a valuable resource for delving into the world of these national parks and the captivating ecosystems they house.
@@ -55,7 +61,6 @@ Nearly every one of Morocco's 12 regions has a dedicated portal aimed at showcas
 
 ## Bonus
 I know you want more, here you are 😁:
-#### Regions and cities
 - [Visit Tanger](https://www.visittanger.com/en/experience/606c52c08c9a440016c59736): Information about Tanger-Tetouan-AlHouceima Region (They have an API 😁)
 - [Visit Oriental](https://visitoriental.ma/): Information about the Oriental Region
 - [Visit Beni mellal](https://www.visitbenimellal.com/): Information about the Beni Mellal-Khenifra Region
