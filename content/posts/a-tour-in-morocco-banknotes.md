@@ -1,5 +1,5 @@
 ---
-title: "A Tour in Morocco's Money Bills"
+title: "A Tour in Moroccan Banknotes"
 date: 2023-08-09T19:18:29+01:00
 author: "Mohammed Daoudi"
 tags: ["History", "Banknotes"]
