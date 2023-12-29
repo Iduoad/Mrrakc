@@ -72,3 +72,4 @@ I know you want more, here you are 😁:
 - [Explore Essaouira](https://exploreessaouira.com/): Information about Essaouira City
 - [Visit Agadir](https://visitagadir.com/en/): Information about Agadir City
 - [ARIH Marrakech Safi](https://arihmarrakechsafi.com/): Regional Association of the Hotel Industry Marrakech-Safi
+- [Ntla9aw F Bladna](https://www.ntla9awfbladna.ma): Where to go and what to do in Morocco.
