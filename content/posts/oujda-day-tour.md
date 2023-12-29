@@ -1,6 +1,6 @@
 ---
 title: "Oujda - a walk in the pearl of L'Oriental"
-date: 2023-12-29:49:13+01:00
+date: 2023-12-29T13:34:03+01:00
 author: "Mohammed Daoudi"
 regions: "Oriental"
 tags: ["History", "Oujda", "Tour"]
