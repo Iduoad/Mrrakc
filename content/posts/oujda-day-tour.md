@@ -64,6 +64,8 @@ As you wander through the Medina's various souks and alleys, note that each hand
 
 > 💡 This pattern is common in almost all Medinas in Morocco
 
+![Oujda's Marinid School](/oujda-madrassa.jpeg)
+
 Following your souk tour, return to **Khayyatin Alley**. When you reach the end, turn left and then right, where you'll encounter a striking wooden door – welcome to the **Marinid Quranic School**. Embracing the Marinid style from the 13th and 14th centuries, this school bears a resemblance to its counterparts in Fez and Salé and other cities.
 
 In the same neighborhood, discover the **Great Mosque of Oujda**, erected in the 13th century during the reign of Abu Yaakoub Yusuf. Don't forget to pass by the renowned **Three Fountains**, dating back to the same era as the mosque and school. Adjacent to the Great Mosque, explore **Okba Mosque**, equally ancient. En route to Okba's Mosque, take in the **street art** adorning the Medina's streets and walls.
