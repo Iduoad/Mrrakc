@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Marsam",
+    "slug": "marsam",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5935182,
+      "latitude": -7.6417696
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Green Hill Park",
+    "slug": "green-hill-park",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5754402,
+      "latitude": -7.5354464
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

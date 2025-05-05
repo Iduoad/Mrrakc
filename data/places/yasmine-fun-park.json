@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/amusement-park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Yasmine Fun Park",
+    "slug": "yasmine-fun-park",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6386155,
+      "latitude": 33.5785336
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "amusement-park"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

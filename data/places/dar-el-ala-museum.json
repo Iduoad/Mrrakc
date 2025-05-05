@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dar El Ala Museum",
+    "slug": "dar-el-ala-museum",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5780977,
+      "latitude": -7.6035979
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

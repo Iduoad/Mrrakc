@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "C\u00e9zanne Restaurant",
+    "slug": "cezanne-restaurant",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6010095,
+      "latitude": -7.6550441
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

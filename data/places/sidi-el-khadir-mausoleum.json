@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi El Khadir Mausoleum",
+    "slug": "sidi-el-khadir-mausoleum",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5707432,
+      "latitude": -7.6882851
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

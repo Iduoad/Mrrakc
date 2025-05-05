@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/amusement-park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sindibad Park",
+    "slug": "sindibad-park",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6896083,
+      "latitude": 33.5805142
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "amusement-park"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

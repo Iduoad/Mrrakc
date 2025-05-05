@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oceanic",
+    "slug": "oceanic",
+    "description": "1947<br>1954",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.619497,
+      "latitude": -7.5367328
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

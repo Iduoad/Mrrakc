@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/cafe",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Al Watan Cafe",
+    "slug": "al-watan-cafe",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5744823,
+      "latitude": -7.6054613
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

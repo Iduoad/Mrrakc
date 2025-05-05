@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/fountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hay Hassani Fountain",
+    "slug": "hay-hassani-fountain",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5711033,
+      "latitude": -7.6785012
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

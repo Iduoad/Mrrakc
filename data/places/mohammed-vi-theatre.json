@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/theatre",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mohammed VI Theatre",
+    "slug": "mohammed-vi-theatre",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.5969681,
+      "latitude": 33.5913903
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "theatre"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

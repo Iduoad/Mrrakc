@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/villa",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Villa Mirador",
+    "slug": "villa-mirador",
+    "description": "\ud83d\udd3b Description: This villa was home of the US embassy. It hosted Churchill during the Anfa Conference. <br><br>\ud83d\udd17 https://zamane.ma/anfa/",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5888239,
+      "latitude": -7.6631811
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://zamane.ma/anfa/",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

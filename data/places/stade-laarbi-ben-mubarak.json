@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sports/stadium",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Stade Laarbi Ben Mubarak",
+    "slug": "stade-laarbi-ben-mubarak",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5955354,
+      "latitude": -7.6082025
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

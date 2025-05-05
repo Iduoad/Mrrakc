@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/house  ",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "House of Haj Touzzani",
+    "slug": "house-of-haj-touzzani",
+    "description": "\ud83d\udd3b Dates: 19th century<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: Although little information is known about the owner of this house, it may be Haj Mohamed Touzzani who was once the Director of the Casablanca's port.<br>---<br>\ud83d\udd17 https://www.nadorcity.com/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D8%A7%D9%86%D9%8A-%D8%A7%D8%A8%D9%86-%D8%A2%D9%8A%D8%AA-%D8%AA%D9%88%D8%B2%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A8-%D8%A8-%D9%85%D8%B3%D8%AA%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%B1%D8%B3%D9%89-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A_a29247.html",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6001111,
+      "latitude": -7.6165
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.nadorcity.com/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D8%A7%D9%86%D9%8A-%D8%A7%D8%A8%D9%86-%D8%A2%D9%8A%D8%AA-%D8%AA%D9%88%D8%B2%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A8-%D8%A8-%D9%85%D8%B3%D8%AA%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%B1%D8%B3%D9%89-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A_a29247.html",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

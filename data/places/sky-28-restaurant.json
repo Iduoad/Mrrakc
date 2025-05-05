@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sky 28 Restaurant",
+    "slug": "sky-28-restaurant",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: View",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.586646,
+      "latitude": -7.6320104
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

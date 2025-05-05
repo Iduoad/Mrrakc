@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/jewish-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Jewish Cemetery Benmsik",
+    "slug": "jewish-cemetery-benmsik",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5801881,
+      "latitude": -7.5721235
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

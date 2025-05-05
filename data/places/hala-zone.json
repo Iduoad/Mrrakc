@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hala Zone",
+    "slug": "hala-zone",
+    "description": "Escargot and Seafood",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5393982,
+      "latitude": -7.5985483
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

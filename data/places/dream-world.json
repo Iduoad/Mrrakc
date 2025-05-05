@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/amusement-park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dream World",
+    "slug": "dream-world",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6330593,
+      "latitude": 33.5818992
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "amusement-park"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

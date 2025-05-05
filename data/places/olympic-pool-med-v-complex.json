@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sports/swimming-pool",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Olympic Pool Med V Complex",
+    "slug": "olympic-pool-med-v-complex",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6454868,
+      "latitude": 33.5807153
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "swimming"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

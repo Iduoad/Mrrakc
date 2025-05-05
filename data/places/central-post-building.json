@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Central Post Building",
+    "slug": "central-post-building",
+    "description": "\ud83d\udd3b Architect: Adrien Laforgue<br>\ud83d\udd3b Dates: 1918-1920<br>\ud83d\udd3b Current Status: Post<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5928417,
+      "latitude": -7.6194704
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

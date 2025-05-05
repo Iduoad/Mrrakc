@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/hotel",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hotel Plaza",
+    "slug": "hotel-plaza",
+    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Hotel",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5975299,
+      "latitude": -7.6156551
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

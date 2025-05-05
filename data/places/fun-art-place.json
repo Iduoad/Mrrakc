@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/workshop",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Fun Art Place",
+    "slug": "fun-art-place",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6641477,
+      "latitude": 33.5990149
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "art_studio"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

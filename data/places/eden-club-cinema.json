@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/cinema",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Eden Club Cinema",
+    "slug": "eden-club-cinema",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6159506,
+      "latitude": 33.5889454
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "cinema"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

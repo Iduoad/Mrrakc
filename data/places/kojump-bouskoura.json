@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/amusement-park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Kojump Bouskoura",
+    "slug": "kojump-bouskoura",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6329134,
+      "latitude": 33.4876924
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "trampoline_park"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

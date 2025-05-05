@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/cite",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cit\u00e9 Hay Hassani",
+    "slug": "cite-hay-hassani",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5719117,
+      "latitude": -7.6713319
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

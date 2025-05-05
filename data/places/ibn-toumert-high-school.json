@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ibn Toumert High School",
+    "slug": "ibn-toumert-high-school",
+    "description": "\ud83d\udd3b Architect: Georges Jean Grel<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5938393,
+      "latitude": -7.6230291
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

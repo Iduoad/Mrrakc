@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/aquarium",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aquarium Building",
+    "slug": "aquarium-building",
+    "description": "\ud83d\udd3b Architect: Georges Delano\u00eb<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018<br><br>https://www.atelierobservatoire.com/aquarium",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6067073,
+      "latitude": -7.6301385
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.atelierobservatoire.com/aquarium",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

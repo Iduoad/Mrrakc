@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/garage",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Volvo Garage Building",
+    "slug": "volvo-garage-building",
+    "description": "\ud83d\udd3b Architect: Omar Benjelloun<br>\ud83d\udd3b Dates: 1955<br>\ud83d\udd3b Current Status: Garage<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5890486,
+      "latitude": -7.6107749
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

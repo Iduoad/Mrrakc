@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Haj Abdelali MOUTAAB Garden",
+    "slug": "haj-abdelali-moutaab-garden",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5571441,
+      "latitude": -7.557493
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

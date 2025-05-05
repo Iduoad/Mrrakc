@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/archaeological-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Archeological Quarry Sidi Abderrahmane",
+    "slug": "archeological-quarry-sidi-abderrahmane",
+    "description": "Initially intended for construction, this quarry gained importance due to significant archaeological discoveries, leading the government to protect it as part of the National Material Patrimony in 1942 CE.",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6840464,
+      "latitude": 33.5808525
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Inclusion in National Material Patrimony",
+        "description": "The area was included in the National Material Patrimony due to important archaeological findings.",
+        "date": "1942 CE"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.casa-amenagement.ma/fr/nos-projets/parc-archeologique-de-sidi-abderrahmane",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": "20th century"
+  }
+}

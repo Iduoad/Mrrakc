@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Assunna Mosque",
+    "slug": "assunna-mosque",
+    "description": "\ud83d\udd3b Architect: Jean-Francois Zevaco<br>\ud83d\udd3b Date: 1970s<br>\ud83d\udd3b Status: Open",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5616889,
+      "latitude": -7.6094642
+    },
+    "people": [
+      "people/jean-francois-zevaco"
+    ],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

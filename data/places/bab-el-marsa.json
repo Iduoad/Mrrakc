@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bab El Marsa",
+    "slug": "bab-el-marsa",
+    "description": "AKA Bab Diouana",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6005625,
+      "latitude": -7.6170625
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

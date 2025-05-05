@@ -1,0 +1,30 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/beach",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Sebaa Beach",
+    "slug": "ain-sebaa-beach",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.5357248,
+      "latitude": 33.6208397
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "swimming",
+      "sunbathing"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

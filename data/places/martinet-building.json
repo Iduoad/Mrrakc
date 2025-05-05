@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Martinet Building",
+    "slug": "martinet-building",
+    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1919<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: Combination of Art Deco, art Nouveau and Neo-Mauresque styles.",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5949039,
+      "latitude": -7.6129735
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Maret Building",
+    "slug": "maret-building",
+    "description": "\ud83d\udd3b Architect: Hippolyte-Joseph Delaporte<br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5939192,
+      "latitude": -7.6095621
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

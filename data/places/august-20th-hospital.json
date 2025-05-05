@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/hospital",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "August 20th Hospital",
+    "slug": "august-20th-hospital",
+    "description": "\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Hospital<br>\ud83d\udd3b National Material Patrimony Declaration: 2004<br>\ud83d\udd3b Description: Originally a French military hospital with the name Jean VIAL, the hospital was renamed to \"20th August 1953 Hospital\" after the independence in 1956. Today it is part of CHU IBN Rochd<br><br>https://mjcc.gov.ma/fr/departements/culture/patrimoine-materiel-national/",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5747493,
+      "latitude": -7.6199
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://mjcc.gov.ma/fr/departements/culture/patrimoine-materiel-national/",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/lighthouse",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Hank Lighthouse",
+    "slug": "el-hank-lighthouse",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6099692,
+      "latitude": -7.65471
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

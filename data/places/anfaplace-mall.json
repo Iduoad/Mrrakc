@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/mall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Anfaplace Mall",
+    "slug": "anfaplace-mall",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.598129,
+      "latitude": -7.6646354
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dasos Restaurant",
+    "slug": "dasos-restaurant",
+    "description": "\ud83d\udd3b Menu: International",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.4864861,
+      "latitude": -7.6237724
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/garage",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Old Citroen Garage",
+    "slug": "old-citroen-garage",
+    "description": "\ud83d\udd3b Architect: Maurice-Jacques Ravaz\u00e9<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2015",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5932621,
+      "latitude": -7.6188065
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "National Material Patrimony Declaration",
+        "description": "Mosque declared National Material Patrimony",
+        "date": "2015"
+      }
+    ],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

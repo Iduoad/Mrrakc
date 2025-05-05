@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ettedgui Synagogue",
+    "slug": "ettedgui-synagogue",
+    "description": "\ud83d\udd3b Architect: Georges Buan<br>\ud83d\udd3b Dates: 1935<br>\ud83d\udd3b Current Status: Museum<br>\ud83d\udd3b Description: This synagogue was initiated by a Jewish Family from Toudgha who came to Casablanca at the end of the 19th century. This was the second synagogue they built in the Medina.",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6019556,
+      "latitude": -7.6196086
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

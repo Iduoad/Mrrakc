@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "BMCI Building",
+    "slug": "bmci-building",
+    "description": "\ud83d\udd3b Architect: Alexandre Courtois<br>\ud83d\udd3b Dates: 1947-1950<br>\ud83d\udd3b Current Status: Bank",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5958291,
+      "latitude": -7.6172637
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

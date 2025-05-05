@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Enso Restaurant",
+    "slug": "enso-restaurant",
+    "description": "\ud83d\udd3b Menu: Japanese",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6095469,
+      "latitude": -7.6513836
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

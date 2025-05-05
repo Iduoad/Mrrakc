@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/corniche",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Diab Corniche",
+    "slug": "ain-diab-corniche",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5964552,
+      "latitude": -7.6742452
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

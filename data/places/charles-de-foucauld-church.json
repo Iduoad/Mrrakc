@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Charles De Foucauld Church",
+    "slug": "charles-de-foucauld-church",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5718649,
+      "latitude": -7.6186346
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Credit du Maroc Building",
+    "slug": "credit-du-maroc-building",
+    "description": "\ud83d\udd3b Architects: Edmond Brion<br>\ud83d\udd3b Dates: 1947-1950<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b Comments: It was named Credit Lyonnais during the protectorate.<br>---<br>\ud83d\udd17 https://www.creditdumaroc.ma/institutionnel/credit-du-maroc-90-ans-dhistoire-une-exposition-evenement-pour-celebrer-lancrage-dune<br>\ud83d\udd17 https://m.facebook.com/story.php?story_fbid=pfbid02LPM76dpbgKkuJTP8h5iXm1KW56H7sbC99zAPW3J8HSoqXJrJ67HiRnzwSgV7yURCl&id=100067627730273",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5951052,
+      "latitude": -7.6155261
+    },
+    "people": [
+      "people/edmond-brion"
+    ],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.creditdumaroc.ma/institutionnel/credit-du-maroc-90-ans-dhistoire-une-exposition-evenement-pour-celebrer-lancrage-dune<br>\ud83d\udd17",
+        "description": null,
+        "type": "website"
+      },
+      {
+        "url": "https://m.facebook.com/story.php?story_fbid=pfbid02LPM76dpbgKkuJTP8h5iXm1KW56H7sbC99zAPW3J8HSoqXJrJ67HiRnzwSgV7yURCl&id=100067627730273",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

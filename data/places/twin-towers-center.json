@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/skyscraper",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Twin Towers Center",
+    "slug": "twin-towers-center",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5866755,
+      "latitude": -7.632104
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

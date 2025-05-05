@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Chez Latifa Sea food",
+    "slug": "chez-latifa-sea-food",
+    "description": "Fish snacks, including fresh crab and Oysters",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5948681,
+      "latitude": -7.611937
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

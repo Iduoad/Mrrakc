@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "La Princiere Building",
+    "slug": "la-princiere-building",
+    "description": "\ud83d\udd3b Architect: Alexandre Cormier<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2005",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.592924,
+      "latitude": -7.6170402
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

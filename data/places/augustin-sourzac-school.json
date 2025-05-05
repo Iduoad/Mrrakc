@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Augustin Sourzac School",
+    "slug": "augustin-sourzac-school",
+    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5951407,
+      "latitude": -7.6069731
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

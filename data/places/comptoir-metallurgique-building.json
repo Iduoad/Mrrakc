@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Comptoir M\u00e9tallurgique Building",
+    "slug": "comptoir-metallurgique-building",
+    "description": "\ud83d\udd3b Dates: 1913<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5920633,
+      "latitude": -7.6169308
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

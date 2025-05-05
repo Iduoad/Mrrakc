@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "La Nationale Building",
+    "slug": "la-nationale-building",
+    "description": "\ud83d\udd3b Architect: Xavier Rendu & R. Ponsard<br>\ud83d\udd3b Dates: 1930/1931<br>\ud83d\udd3b Current Status: Inhabited",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5898645,
+      "latitude": -7.619565
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

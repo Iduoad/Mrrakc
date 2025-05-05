@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Khnata bent Bakkar Middle School",
+    "slug": "khnata-bent-bakkar-middle-school",
+    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5829908,
+      "latitude": -7.6087975
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

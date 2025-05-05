@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/gaming",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "E-blue Gaming Maroc",
+    "slug": "e-blue-gaming-maroc",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6372703,
+      "latitude": 33.5925209
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "gaming"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

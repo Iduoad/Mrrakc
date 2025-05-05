@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/archaeological-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cap Chatelier",
+    "slug": "cap-chatelier",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.683521,
+      "latitude": 33.5818649
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
+        "description": null,
+        "type": "article"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

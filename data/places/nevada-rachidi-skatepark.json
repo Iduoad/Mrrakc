@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sports/skatepark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nevada Rachidi Skatepark",
+    "slug": "nevada-rachidi-skatepark",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6218081,
+      "latitude": 33.5901256
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "skateboarding"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

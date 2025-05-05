@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nicole's Brasserie",
+    "slug": "nicole-s-brasserie",
+    "description": "\ud83d\udd3b Menu: French",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5897869,
+      "latitude": -7.6323522
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

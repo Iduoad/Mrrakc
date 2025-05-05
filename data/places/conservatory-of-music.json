@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/workshop",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Conservatory Of Music",
+    "slug": "conservatory-of-music",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6195975,
+      "latitude": 33.5933989
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "music_school"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

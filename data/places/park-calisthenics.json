@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sports/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "park calisthenics",
+    "slug": "park-calisthenics",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.5686789,
+      "latitude": 33.5532819
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "calisthenics"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

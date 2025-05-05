@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/kasbah",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Kasbah of Qadi Ben Driss",
+    "slug": "kasbah-of-qadi-ben-driss",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.544822,
+      "latitude": -7.5901284
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

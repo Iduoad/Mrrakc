@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Casa Galicia Restaurant",
+    "slug": "casa-galicia-restaurant",
+    "description": "\ud83d\udd3b Menu: Spanish",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5818906,
+      "latitude": -7.62692
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

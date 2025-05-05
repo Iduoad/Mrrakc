@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Khalifi Building",
+    "slug": "khalifi-building",
+    "description": "\ud83d\udd3b Current Status: Inhabited",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5934231,
+      "latitude": -7.6080259
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

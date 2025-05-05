@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/christian-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "School Notre Dame Ain Sebaa",
+    "slug": "school-notre-dame-ain-sebaa",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6070816,
+      "latitude": -7.5342118
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

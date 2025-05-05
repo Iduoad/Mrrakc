@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/zoo",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sindibad Zoo",
+    "slug": "sindibad-zoo",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6931194,
+      "latitude": 33.5806899
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "zoo"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

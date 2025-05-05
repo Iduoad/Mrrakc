@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sports/aerodrome",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Flysky Morocco Aeroclub",
+    "slug": "flysky-morocco-aeroclub",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.4688229,
+      "latitude": 33.5992676
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "aeroclub"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

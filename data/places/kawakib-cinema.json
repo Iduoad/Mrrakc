@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/cinema",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Kawakib Cinema",
+    "slug": "kawakib-cinema",
+    "description": "\ud83d\udd3b Dates: 1958<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5678863,
+      "latitude": -7.6053727
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

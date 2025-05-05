@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Rick's Caf\u00e9",
+    "slug": "rick-s-cafe",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Fine dinning",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6050488,
+      "latitude": -7.6204046
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

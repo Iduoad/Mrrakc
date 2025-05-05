@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Eyraud Building",
+    "slug": "eyraud-building",
+    "description": "\ud83d\udd3b Architect: George-Jean Grel<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.593558,
+      "latitude": -7.619889
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

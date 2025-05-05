@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Kebir Ben Mohamed Lahrizi Mosque",
+    "slug": "el-kebir-ben-mohamed-lahrizi-mosque",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6211945,
+      "latitude": 33.6029558
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "worship"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

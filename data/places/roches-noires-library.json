@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/library",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Roches Noires Library",
+    "slug": "roches-noires-library",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.5969295,
+      "latitude": 33.5911621
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "library"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

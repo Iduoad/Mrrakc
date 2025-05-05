@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/fountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Pigeon Fountain (Square of Mohammed V)",
+    "slug": "square-of-mohammed-v-pigeon-fountain",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5914402,
+      "latitude": -7.6196399
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

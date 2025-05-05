@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/garage",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Marcel Raygot Garage Building",
+    "slug": "marcel-raygot-garage-building",
+    "description": "\ud83d\udd3b Architect: Georges Renaudin<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5979699,
+      "latitude": -7.6388166
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

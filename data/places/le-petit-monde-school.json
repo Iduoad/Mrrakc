@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Le petit monde School",
+    "slug": "le-petit-monde-school",
+    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: School",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5580205,
+      "latitude": -7.617765
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

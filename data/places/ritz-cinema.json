@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/cinema",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ritz Cinema",
+    "slug": "ritz-cinema",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6147012,
+      "latitude": 33.5944574
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "cinema"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/cinema",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Medina Cinema",
+    "slug": "medina-cinema",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5988805,
+      "latitude": -7.6205493
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

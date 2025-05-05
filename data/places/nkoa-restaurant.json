@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nkoa Restaurant",
+    "slug": "nkoa-restaurant",
+    "description": "\ud83d\udd3b Menu: International",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5866273,
+      "latitude": -7.6291816
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

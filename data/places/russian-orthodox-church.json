@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Russian Orthodox Church",
+    "slug": "russian-orthodox-church",
+    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2013",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5819769,
+      "latitude": -7.6227055
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

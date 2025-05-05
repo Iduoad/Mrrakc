@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Annunciation Greek Orthodox Church",
+    "slug": "annunciation-greek-orthodox-church",
+    "description": "\ud83d\udd3b Dates: 1929-1934",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5820147,
+      "latitude": -7.6135185
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

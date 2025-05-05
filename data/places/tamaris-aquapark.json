@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/amusement-park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tamaris Aquapark",
+    "slug": "tamaris-aquapark",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.7839804,
+      "latitude": 33.5225589
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "aquapark"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

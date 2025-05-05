@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/street-art",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Drawing on the wall of the Moroccan family man",
+    "slug": "drawing-on-the-wall-of-the-moroccan-family-man",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6050963,
+      "latitude": -7.6339152
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

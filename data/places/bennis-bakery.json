@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/bakery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bennis Bakery",
+    "slug": "bennis-bakery",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5780213,
+      "latitude": -7.6054739
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

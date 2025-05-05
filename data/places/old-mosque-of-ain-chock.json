@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Old Mosque of Ain Chock",
+    "slug": "old-mosque-of-ain-chock",
+    "description": "\ud83d\udd3b Era: Mid 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: One of the largest mosques of Casablanca, 2nd only to Hassan II Mosque. It was designed by the French Architect Edmond Brion in 1945 CE.",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.553207,
+      "latitude": -7.5997402
+    },
+    "people": [
+      "people/edmond-brion"
+    ],
+    "timeline": [
+      {
+        "title": "Design",
+        "description": "Mosque designed",
+        "date": "1945 CE"
+      }
+    ],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

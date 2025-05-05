@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Le Cabestan Restaurant",
+    "slug": "le-cabestan-restaurant",
+    "description": "\ud83d\udd3b Menu: Mediterranean",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6081836,
+      "latitude": -7.6554723
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

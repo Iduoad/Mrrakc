@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/cinema",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cin\u00e9Atlas Casablanca",
+    "slug": "cineatlas-casablanca",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6635283,
+      "latitude": 33.5630172
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "cinema"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Celebritea Restaurant",
+    "slug": "celebritea-restaurant",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Brunch",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5760658,
+      "latitude": -7.6586422
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

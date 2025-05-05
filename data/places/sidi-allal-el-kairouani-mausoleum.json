@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Allal El-Kairouani Mausoleum",
+    "slug": "sidi-allal-el-kairouani-mausoleum",
+    "description": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6032368,
+      "latitude": -7.6196207
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
+        "description": null,
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

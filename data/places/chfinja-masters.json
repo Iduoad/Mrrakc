@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/bakery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Chfinja Masters",
+    "slug": "chfinja-masters",
+    "description": "",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.6020879,
+      "latitude": -7.6463305
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

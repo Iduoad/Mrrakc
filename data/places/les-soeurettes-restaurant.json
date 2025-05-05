@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Les Soeurettes Restaurant",
+    "slug": "les-soeurettes-restaurant",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Custom salads",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5910986,
+      "latitude": -7.6443176
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

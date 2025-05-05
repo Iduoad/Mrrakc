@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/workshop",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tinasse Workshop",
+    "slug": "tinasse-workshop",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6337506,
+      "latitude": 33.6007925
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "workshop"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

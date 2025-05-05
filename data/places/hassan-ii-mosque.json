@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hassan II Mosque",
+    "slug": "hassan-ii-mosque",
+    "description": "Designed by Michel Pinseau and completed on August 30, 1993, the Hassan II Mosque is an active religious site and was declared a National Material Patrimony in 2015.",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.632668,
+      "latitude": 33.6082229
+    },
+    "people": [
+      "people/michel-pinseau"
+    ],
+    "timeline": [
+      {
+        "title": "Completion Date",
+        "description": null,
+        "date": "1993-08-30"
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "description": null,
+        "date": "2015"
+      }
+    ],
+    "links": [],
+    "activities": [
+      "worship",
+      "cultural_visits"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": "20th century"
+  }
+}

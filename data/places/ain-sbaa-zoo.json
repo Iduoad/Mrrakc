@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/zoo",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Sbaa Zoo",
+    "slug": "ain-sbaa-zoo",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.5298039,
+      "latitude": 33.6051717
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "zoo"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

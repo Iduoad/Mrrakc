@@ -1,0 +1,30 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/theatre",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Lutetia Cine-Theatre ",
+    "slug": "lutetia-cine-theatre",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.6170859,
+      "latitude": 33.5939391
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "cinema",
+      "theatre"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

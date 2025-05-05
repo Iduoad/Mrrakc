@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mahkama of Pacha Building",
+    "slug": "mahkama-of-pacha-building",
+    "description": "\ud83d\udd3b Dates: 1941-1952<br>\ud83d\udd3b Current Status: El Mechouar Prefecture <br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5785664,
+      "latitude": -7.606479
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

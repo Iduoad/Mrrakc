@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/aquarium",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aquadream Aquarium",
+    "slug": "aquadream-aquarium",
+    "description": null,
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": -7.7063941,
+      "latitude": 33.5766799
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "aquarium"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": null
+  }
+}

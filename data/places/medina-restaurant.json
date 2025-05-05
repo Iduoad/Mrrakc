@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Medina Restaurant",
+    "slug": "medina-restaurant",
+    "description": "\ud83d\udd3b Menu: Moroccan",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.600301,
+      "latitude": -7.6169016
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}

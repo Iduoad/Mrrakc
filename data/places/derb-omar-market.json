@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Derb Omar Market",
+    "slug": "derb-omar-market",
+    "description": "\ud83d\udd3b Era: Early 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The souk was created in the 1920s, and still one of the most popular and largest souks or Casablanca and the entire country especially when it comes to wholesale.",
+    "location": {
+      "administrativeArea": "province/casablanca",
+      "longitude": 33.5922446,
+      "latitude": -7.6111262
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriod": ""
+  }
+}
