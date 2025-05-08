@@ -9,9 +9,9 @@
     "slug": "garage-allal-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.577351,
-      "latitude": -7.6001868
+      "latitude": -7.6001868,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

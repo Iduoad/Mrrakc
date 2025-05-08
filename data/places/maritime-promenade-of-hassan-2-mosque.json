@@ -9,9 +9,9 @@
     "slug": "maritime-promenade-of-hassan-2-mosque",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6048519,
-      "latitude": -7.6386335
+      "latitude": -7.6386335,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

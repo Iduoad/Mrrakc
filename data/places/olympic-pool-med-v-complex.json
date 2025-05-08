@@ -9,9 +9,9 @@
     "slug": "olympic-pool-med-v-complex",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6454868,
-      "latitude": 33.5807153
+      "latitude": 33.5807153,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

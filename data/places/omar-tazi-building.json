@@ -7,11 +7,11 @@
   "spec": {
     "name": "Omar Tazi Building",
     "slug": "omar-tazi-building",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1931<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "🔻 Architect: Aldo Manassi<br>🔻 Dates: 1931<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2004",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5944317,
-      "latitude": -7.6179541
+      "latitude": -7.6179541,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

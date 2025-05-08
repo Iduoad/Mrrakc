@@ -9,9 +9,9 @@
     "slug": "le-maigre-dubreil-roundabout",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5839344,
-      "latitude": -7.61007
+      "latitude": -7.61007,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

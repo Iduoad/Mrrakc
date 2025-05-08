@@ -9,9 +9,9 @@
     "slug": "park-calisthenics",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5686789,
-      "latitude": 33.5532819
+      "latitude": 33.5532819,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

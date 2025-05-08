@@ -7,11 +7,11 @@
   "spec": {
     "name": "Moulay Youssef Pier",
     "slug": "moulay-youssef-pier",
-    "description": "\ud83d\udd3b Dates: 1930s",
+    "description": "🔻 Dates: 1930s",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6159079,
-      "latitude": -7.6019542
+      "latitude": -7.6019542,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "tinasse-workshop",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6337506,
-      "latitude": 33.6007925
+      "latitude": 33.6007925,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "old-zaouiya-kadiriya-boudchichiya",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6020969,
-      "latitude": -7.6191228
+      "latitude": -7.6191228,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

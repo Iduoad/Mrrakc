@@ -9,9 +9,9 @@
     "slug": "al-qods-mosque",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5993561,
-      "latitude": -7.583397
+      "latitude": -7.583397,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

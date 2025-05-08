@@ -9,9 +9,9 @@
     "slug": "beth-el-temple-synagogue",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.595747,
-      "latitude": -7.6268245
+      "latitude": -7.6268245,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "chez-latifa-sea-food",
     "description": "Fish snacks, including fresh crab and Oysters",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5948681,
-      "latitude": -7.611937
+      "latitude": -7.611937,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

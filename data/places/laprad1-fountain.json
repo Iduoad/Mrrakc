@@ -9,9 +9,9 @@
     "slug": "laprad1-fountain",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5910417,
-      "latitude": -7.6226458
+      "latitude": -7.6226458,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

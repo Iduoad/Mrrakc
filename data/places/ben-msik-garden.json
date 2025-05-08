@@ -9,9 +9,9 @@
     "slug": "ben-msik-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5559251,
-      "latitude": -7.5650116
+      "latitude": -7.5650116,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

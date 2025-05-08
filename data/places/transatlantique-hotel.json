@@ -7,11 +7,11 @@
   "spec": {
     "name": "Transatlantique Hotel",
     "slug": "transatlantique-hotel",
-    "description": "\ud83d\udd3b Dates: 1922<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "🔻 Dates: 1922<br>🔻 Current Status: Hotel<br>🔻 National Material Patrimony Declaration: 2004",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5923948,
-      "latitude": -7.6141621
+      "latitude": -7.6141621,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

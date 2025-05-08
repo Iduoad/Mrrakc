@@ -7,11 +7,11 @@
   "spec": {
     "name": "Il Ferrarino Restaurant",
     "slug": "il-ferrarino-restaurant",
-    "description": "\ud83d\udd3b Menu: Italian",
+    "description": "🔻 Menu: Italian",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5877302,
-      "latitude": -7.6423387
+      "latitude": -7.6423387,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

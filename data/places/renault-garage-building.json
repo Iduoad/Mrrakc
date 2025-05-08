@@ -7,11 +7,11 @@
   "spec": {
     "name": "Renault Garage Building",
     "slug": "renault-garage-building",
-    "description": "\ud83d\udd3b Architect: Jean-Fran\u00e7ois Robert<br>\ud83d\udd3b Dates: 1953<br>\ud83d\udd3b Current Status: Poste<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Architect: Jean-François Robert<br>🔻 Dates: 1953<br>🔻 Current Status: Poste<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.592729,
-      "latitude": -7.6066958
+      "latitude": -7.6066958,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

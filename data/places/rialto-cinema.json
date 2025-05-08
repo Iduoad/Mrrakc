@@ -7,11 +7,11 @@
   "spec": {
     "name": "Rialto Cinema",
     "slug": "rialto-cinema",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1929 <br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Architect: Pierre Jabin<br>🔻 Dates: 1929 <br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5943724,
-      "latitude": -7.6145151
+      "latitude": -7.6145151,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "cinerji-cinema",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.7048529,
-      "latitude": 33.5774393
+      "latitude": 33.5774393,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

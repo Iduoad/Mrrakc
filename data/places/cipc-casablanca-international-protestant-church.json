@@ -9,9 +9,9 @@
     "slug": "cipc-casablanca-international-protestant-church",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5954449,
-      "latitude": -7.6055746
+      "latitude": -7.6055746,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

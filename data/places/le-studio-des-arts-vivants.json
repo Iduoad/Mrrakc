@@ -9,9 +9,9 @@
     "slug": "le-studio-des-arts-vivants",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5740336,
-      "latitude": -7.683577
+      "latitude": -7.683577,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "midnight-mqila",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5971778,
-      "latitude": -7.608944
+      "latitude": -7.608944,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

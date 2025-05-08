@@ -9,9 +9,9 @@
     "slug": "ould-el-hamra-mosque",
     "description": "Built in 1783 CE by Ould El-Hamra during the reign of Sultan Mohammed Ibn Abdellah, this mosque is currently open.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6182842,
-      "latitude": 33.6014342
+      "latitude": 33.6014342,
+      "province": "province/casablanca"
     },
     "people": [
       "people/ould-el-hamra",

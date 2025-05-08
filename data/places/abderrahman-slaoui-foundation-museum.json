@@ -9,19 +9,58 @@
     "slug": "abderrahman-slaoui-foundation-museum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
+      "province": "province/casablanca",
       "longitude": 33.5923928,
       "latitude": -7.6225725
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "slug": "people/abderrahman-slaoui",
+        "designations": ["collector"],
+        "comments": [
+          "The Museum consists mainly of items from Abderrahman's collection.",
+          "When Abderrahman died the museum was created by the foundation he created when he was alive."
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction of the villa",
+        "date": "01-01-1921",
+        "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
+      },
+      {
+        "title": "Inauguration",
+        "date": "12-05-2012",
+        "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Abderrahman_Slaoui_Museum",
+        "title": "Wikipedia Page",
+        "type": "article"
+      }
+    ],
+    "activities": ["touring", "exhibitions", "cafe", "private events"],
+    "items": ["moroccan jewelry", "zellij", "ceramics"],
     "access": {
-      "type": "public",
-      "options": []
+      "type": "private",
+      "options": [
+        { 
+          "label": "Museum access for everyone",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": 40
+        },
+        { 
+          "label": "Cafe access is seperate from museum access",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
     },
-    "timePeriod": ""
+    "timePeriod": "21st century"
   }
 }

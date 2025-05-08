@@ -9,9 +9,9 @@
     "slug": "casa-plage-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5828,
-      "latitude": -7.7001933
+      "latitude": -7.7001933,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

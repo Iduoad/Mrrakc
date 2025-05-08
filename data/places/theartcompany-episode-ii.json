@@ -9,9 +9,9 @@
     "slug": "theartcompany-episode-ii",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5853144,
-      "latitude": -7.6465754
+      "latitude": -7.6465754,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

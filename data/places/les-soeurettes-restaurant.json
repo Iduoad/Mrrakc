@@ -7,11 +7,11 @@
   "spec": {
     "name": "Les Soeurettes Restaurant",
     "slug": "les-soeurettes-restaurant",
-    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Custom salads",
+    "description": "🔻 Menu: International<br>🔻 Tags: Custom salads",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5910986,
-      "latitude": -7.6443176
+      "latitude": -7.6443176,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

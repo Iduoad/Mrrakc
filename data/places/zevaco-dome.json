@@ -9,9 +9,9 @@
     "slug": "zevaco-dome",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5964523,
-      "latitude": -7.6176583
+      "latitude": -7.6176583,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

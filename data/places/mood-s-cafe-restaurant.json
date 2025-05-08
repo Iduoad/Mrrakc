@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Mood's Caf\u00e9-Restaurant",
+    "name": "Mood's Café-Restaurant",
     "slug": "mood-s-cafe-restaurant",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6065793,
-      "latitude": -7.6191761
+      "latitude": -7.6191761,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

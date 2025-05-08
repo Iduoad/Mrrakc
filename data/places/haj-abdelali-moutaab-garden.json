@@ -9,9 +9,9 @@
     "slug": "haj-abdelali-moutaab-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5571441,
-      "latitude": -7.557493
+      "latitude": -7.557493,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

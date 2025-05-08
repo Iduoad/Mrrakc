@@ -7,11 +7,11 @@
   "spec": {
     "name": "Volvo Garage Building",
     "slug": "volvo-garage-building",
-    "description": "\ud83d\udd3b Architect: Omar Benjelloun<br>\ud83d\udd3b Dates: 1955<br>\ud83d\udd3b Current Status: Garage<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
+    "description": "🔻 Architect: Omar Benjelloun<br>🔻 Dates: 1955<br>🔻 Current Status: Garage<br>🔻 National Material Patrimony Declaration: 2014",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5890486,
-      "latitude": -7.6107749
+      "latitude": -7.6107749,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

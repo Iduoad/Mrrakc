@@ -7,11 +7,11 @@
   "spec": {
     "name": "Nkoa Restaurant",
     "slug": "nkoa-restaurant",
-    "description": "\ud83d\udd3b Menu: International",
+    "description": "🔻 Menu: International",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5866273,
-      "latitude": -7.6291816
+      "latitude": -7.6291816,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

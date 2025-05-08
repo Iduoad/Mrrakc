@@ -9,9 +9,9 @@
     "slug": "women-mikve-david-hamelekh",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5975528,
-      "latitude": -7.6557329
+      "latitude": -7.6557329,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

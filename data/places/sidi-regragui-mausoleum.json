@@ -9,9 +9,9 @@
     "slug": "sidi-regragui-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6005435,
-      "latitude": -7.6206491
+      "latitude": -7.6206491,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

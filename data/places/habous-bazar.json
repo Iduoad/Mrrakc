@@ -9,9 +9,9 @@
     "slug": "habous-bazar",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5777103,
-      "latitude": -7.6051263
+      "latitude": -7.6051263,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

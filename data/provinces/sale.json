@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Salé",
+    "slug": "sale",
+    "region": "Rabat-Salé-Kénitra",
+    "country": "Morocco"
+  }
+}

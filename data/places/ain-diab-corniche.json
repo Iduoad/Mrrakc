@@ -9,9 +9,9 @@
     "slug": "ain-diab-corniche",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5964552,
-      "latitude": -7.6742452
+      "latitude": -7.6742452,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

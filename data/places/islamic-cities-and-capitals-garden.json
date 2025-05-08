@@ -9,9 +9,9 @@
     "slug": "islamic-cities-and-capitals-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5559595,
-      "latitude": -7.5956659
+      "latitude": -7.5956659,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

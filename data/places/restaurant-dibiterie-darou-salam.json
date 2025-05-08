@@ -9,9 +9,9 @@
     "slug": "restaurant-dibiterie-darou-salam",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5971237,
-      "latitude": -7.620672
+      "latitude": -7.620672,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

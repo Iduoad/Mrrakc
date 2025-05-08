@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Boujdour",
+    "slug": "boujdour",
+    "region": "Laâyoune-Sakia El Hamra",
+    "country": "Morocco"
+  }
+}

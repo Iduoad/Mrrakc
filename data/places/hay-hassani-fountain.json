@@ -9,9 +9,9 @@
     "slug": "hay-hassani-fountain",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5711033,
-      "latitude": -7.6785012
+      "latitude": -7.6785012,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

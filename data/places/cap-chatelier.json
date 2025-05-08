@@ -9,9 +9,9 @@
     "slug": "cap-chatelier",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.683521,
-      "latitude": 33.5818649
+      "latitude": 33.5818649,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

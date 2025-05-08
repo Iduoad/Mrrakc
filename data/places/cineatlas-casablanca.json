@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Cin\u00e9Atlas Casablanca",
+    "name": "CinéAtlas Casablanca",
     "slug": "cineatlas-casablanca",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6635283,
-      "latitude": 33.5630172
+      "latitude": 33.5630172,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

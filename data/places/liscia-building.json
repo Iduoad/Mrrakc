@@ -7,11 +7,11 @@
   "spec": {
     "name": "Liscia Building",
     "slug": "liscia-building",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1937<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Pierre Jabin<br>🔻 Dates: 1937<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.591619,
-      "latitude": -7.6141265
+      "latitude": -7.6141265,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

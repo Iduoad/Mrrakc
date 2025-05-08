@@ -9,9 +9,9 @@
     "slug": "thomas-i-archeological-site",
     "description": "One of the most significant archaeological sites in Morocco and North Africa, famous for the 1969 discovery of a human half-mandible. It is now renowned for yielding the oldest Homo Erectus remains in North Africa, dating back over 500,000 years. The site was recognized as a National Material Patrimony in 1951.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6966561,
-      "latitude": 33.5685715
+      "latitude": 33.5685715,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

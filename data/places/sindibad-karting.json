@@ -9,9 +9,9 @@
     "slug": "sindibad-karting",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6910174,
-      "latitude": 33.5818554
+      "latitude": 33.5818554,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

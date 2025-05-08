@@ -9,9 +9,9 @@
     "slug": "sidi-bernoussi-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6163225,
-      "latitude": -7.498631
+      "latitude": -7.498631,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

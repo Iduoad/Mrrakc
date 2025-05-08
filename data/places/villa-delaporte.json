@@ -7,11 +7,11 @@
   "spec": {
     "name": "Villa Delaporte",
     "slug": "villa-delaporte",
-    "description": "\ud83d\udd3b Architect: Hippolyte Joseph Delaporte<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Hippolyte Joseph Delaporte<br>🔻 Dates: 1930<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.592287,
-      "latitude": -7.6226735
+      "latitude": -7.6226735,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Royal Moroccan Armed Forces Building",
     "slug": "royal-moroccan-armed-forces-building",
-    "description": "\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Military Base<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Dates: 1925<br>🔻 Current Status: Military Base<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5917247,
-      "latitude": -7.6171404
+      "latitude": -7.6171404,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

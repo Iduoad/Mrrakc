@@ -9,9 +9,9 @@
     "slug": "amuzeum",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.8174842,
-      "latitude": 33.512778
+      "latitude": 33.512778,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

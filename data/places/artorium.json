@@ -9,9 +9,9 @@
     "slug": "artorium",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5582931,
-      "latitude": -7.630497
+      "latitude": -7.630497,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

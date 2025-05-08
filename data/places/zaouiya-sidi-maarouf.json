@@ -9,9 +9,9 @@
     "slug": "zaouiya-sidi-maarouf",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5640922,
-      "latitude": -7.6032323
+      "latitude": -7.6032323,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

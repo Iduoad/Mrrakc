@@ -9,9 +9,9 @@
     "slug": "archeological-park-of-sidi-abd-errahmane-melatra",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6876116,
-      "latitude": 33.5792939
+      "latitude": 33.5792939,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

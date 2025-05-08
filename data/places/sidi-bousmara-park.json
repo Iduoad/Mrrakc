@@ -9,9 +9,9 @@
     "slug": "sidi-bousmara-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5996784,
-      "latitude": -7.6157425
+      "latitude": -7.6157425,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

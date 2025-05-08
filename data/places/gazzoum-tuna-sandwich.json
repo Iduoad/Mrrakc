@@ -9,9 +9,9 @@
     "slug": "gazzoum-tuna-sandwich",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5677811,
-      "latitude": -7.5995192
+      "latitude": -7.5995192,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

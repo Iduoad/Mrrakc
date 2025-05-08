@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nador",
+    "slug": "nador",
+    "region": "Oriental",
+    "country": "Morocco"
+  }
+}

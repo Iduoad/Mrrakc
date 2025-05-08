@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Driouch",
+    "slug": "driouch",
+    "region": "Oriental",
+    "country": "Morocco"
+  }
+}

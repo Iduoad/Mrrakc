@@ -9,9 +9,9 @@
     "slug": "habous-olive-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5772805,
-      "latitude": -7.6049397
+      "latitude": -7.6049397,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

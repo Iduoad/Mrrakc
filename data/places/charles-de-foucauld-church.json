@@ -9,9 +9,9 @@
     "slug": "charles-de-foucauld-church",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5718649,
-      "latitude": -7.6186346
+      "latitude": -7.6186346,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "tamaris-aquapark",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.7839804,
-      "latitude": 33.5225589
+      "latitude": 33.5225589,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

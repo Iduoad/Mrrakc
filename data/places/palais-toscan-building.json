@@ -9,9 +9,9 @@
     "slug": "palais-toscan-building",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6003473,
-      "latitude": -7.6156329
+      "latitude": -7.6156329,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

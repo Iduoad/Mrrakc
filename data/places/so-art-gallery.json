@@ -9,9 +9,9 @@
     "slug": "so-art-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.587837,
-      "latitude": -7.6368048
+      "latitude": -7.6368048,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

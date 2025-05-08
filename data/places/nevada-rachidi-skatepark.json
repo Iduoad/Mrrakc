@@ -9,9 +9,9 @@
     "slug": "nevada-rachidi-skatepark",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6218081,
-      "latitude": 33.5901256
+      "latitude": 33.5901256,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Attarik Expo (Les M\u00e9t\u00e9orites Messageres du Ciel)",
+    "name": "Attarik Expo (Les Météorites Messageres du Ciel)",
     "slug": "attarik-expo",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6061353,
-      "latitude": -7.6199447
+      "latitude": -7.6199447,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

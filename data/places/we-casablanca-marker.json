@@ -9,9 +9,9 @@
     "slug": "we-casablanca-marker",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5921128,
-      "latitude": -7.6183182
+      "latitude": -7.6183182,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

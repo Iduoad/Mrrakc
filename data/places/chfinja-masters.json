@@ -9,9 +9,9 @@
     "slug": "chfinja-masters",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6020879,
-      "latitude": -7.6463305
+      "latitude": -7.6463305,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Lincoln Hotel",
     "slug": "lincoln-hotel",
-    "description": "\ud83d\udd3b Architect: Hubert Bride <br>\ud83d\udd3b Dates: 1917<br>\ud83d\udd3b Current Status: Renovated<br>\ud83d\udd3b National Material Patrimony Declaration: 2000<br>\ud83d\udd3b Comments: Also known as Bessonneau Building",
+    "description": "🔻 Architect: Hubert Bride <br>🔻 Dates: 1917<br>🔻 Current Status: Renovated<br>🔻 National Material Patrimony Declaration: 2000<br>🔻 Comments: Also known as Bessonneau Building",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.594192,
-      "latitude": -7.6118726
+      "latitude": -7.6118726,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

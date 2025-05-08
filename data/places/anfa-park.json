@@ -9,9 +9,9 @@
     "slug": "anfa-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5632023,
-      "latitude": -7.657745
+      "latitude": -7.657745,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

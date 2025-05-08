@@ -7,11 +7,11 @@
   "spec": {
     "name": "Khalifi Building",
     "slug": "khalifi-building",
-    "description": "\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5934231,
-      "latitude": -7.6080259
+      "latitude": -7.6080259,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

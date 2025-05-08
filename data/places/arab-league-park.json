@@ -7,11 +7,11 @@
   "spec": {
     "name": "Arab League Park",
     "slug": "arab-league-park",
-    "description": "\ud83d\udd3b Architect: Albert de Laprade<br>\ud83d\udd3b Dates: 1917<br>\ud83d\udd3b Current Status: Park<br>\ud83d\udd3b Comments: Was known as Lyautey Park",
+    "description": "🔻 Architect: Albert de Laprade<br>🔻 Dates: 1917<br>🔻 Current Status: Park<br>🔻 Comments: Was known as Lyautey Park",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5892017,
-      "latitude": -7.6237164
+      "latitude": -7.6237164,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

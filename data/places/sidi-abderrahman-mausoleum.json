@@ -9,9 +9,9 @@
     "slug": "sidi-abderrahman-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.582468,
-      "latitude": -7.7043219
+      "latitude": -7.7043219,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

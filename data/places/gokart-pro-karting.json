@@ -9,9 +9,9 @@
     "slug": "gokart-pro-karting",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6360756,
-      "latitude": 33.4797575
+      "latitude": 33.4797575,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

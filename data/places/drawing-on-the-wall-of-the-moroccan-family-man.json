@@ -9,9 +9,9 @@
     "slug": "drawing-on-the-wall-of-the-moroccan-family-man",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6050963,
-      "latitude": -7.6339152
+      "latitude": -7.6339152,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

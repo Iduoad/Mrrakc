@@ -9,9 +9,9 @@
     "slug": "sraghna-square",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.569566,
-      "latitude": -7.6014511
+      "latitude": -7.6014511,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

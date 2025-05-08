@@ -9,9 +9,9 @@
     "slug": "ritz-cinema",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6147012,
-      "latitude": 33.5944574
+      "latitude": 33.5944574,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

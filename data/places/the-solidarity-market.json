@@ -9,9 +9,9 @@
     "slug": "the-solidarity-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5544187,
-      "latitude": -7.6323625
+      "latitude": -7.6323625,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

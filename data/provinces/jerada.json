@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Jerada",
+    "slug": "jerada",
+    "region": "Oriental",
+    "country": "Morocco"
+  }
+}

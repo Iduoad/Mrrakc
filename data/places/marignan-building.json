@@ -7,11 +7,11 @@
   "spec": {
     "name": "Marignan Building",
     "slug": "marignan-building",
-    "description": "\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Dates: 1950",
+    "description": "🔻 Current Status: Inhabited<br>🔻 Dates: 1950",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5936331,
-      "latitude": -7.6083676
+      "latitude": -7.6083676,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

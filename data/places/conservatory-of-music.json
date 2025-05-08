@@ -9,9 +9,9 @@
     "slug": "conservatory-of-music",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6195975,
-      "latitude": 33.5933989
+      "latitude": 33.5933989,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

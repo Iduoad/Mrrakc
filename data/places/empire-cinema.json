@@ -7,11 +7,11 @@
   "spec": {
     "name": "Empire Cinema",
     "slug": "empire-cinema",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
+    "description": "🔻 Architect: Aldo Manassi<br>🔻 Dates: 1928<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2014",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.595377,
-      "latitude": -7.6157496
+      "latitude": -7.6157496,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

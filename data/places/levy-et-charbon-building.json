@@ -7,11 +7,11 @@
   "spec": {
     "name": "Levy et Charbon Building",
     "slug": "levy-et-charbon-building",
-    "description": "\ud83d\udd3b Architect: Ignacio Sansone & Paul Busuttil<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Ignacio Sansone & Paul Busuttil<br>🔻 Dates: 1929<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5947647,
-      "latitude": -7.6100595
+      "latitude": -7.6100595,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

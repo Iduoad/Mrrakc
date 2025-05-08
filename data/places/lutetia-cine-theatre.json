@@ -9,9 +9,9 @@
     "slug": "lutetia-cine-theatre",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6170859,
-      "latitude": 33.5939391
+      "latitude": 33.5939391,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

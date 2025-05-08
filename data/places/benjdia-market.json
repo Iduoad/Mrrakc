@@ -9,9 +9,9 @@
     "slug": "benjdia-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5861605,
-      "latitude": -7.6113346
+      "latitude": -7.6113346,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

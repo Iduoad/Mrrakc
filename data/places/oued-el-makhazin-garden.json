@@ -9,9 +9,9 @@
     "slug": "oued-el-makhazin-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5952815,
-      "latitude": -7.6237007
+      "latitude": -7.6237007,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "sidi-othmane-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5540745,
-      "latitude": -7.5672
+      "latitude": -7.5672,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

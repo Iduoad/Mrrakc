@@ -9,9 +9,9 @@
     "slug": "ferdaous-lake-oulfa",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6727847,
-      "latitude": 33.5548507
+      "latitude": 33.5548507,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

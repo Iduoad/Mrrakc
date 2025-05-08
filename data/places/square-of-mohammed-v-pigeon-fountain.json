@@ -9,9 +9,9 @@
     "slug": "square-of-mohammed-v-pigeon-fountain",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5914402,
-      "latitude": -7.6196399
+      "latitude": -7.6196399,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Casa Galicia Restaurant",
     "slug": "casa-galicia-restaurant",
-    "description": "\ud83d\udd3b Menu: Spanish",
+    "description": "🔻 Menu: Spanish",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5818906,
-      "latitude": -7.62692
+      "latitude": -7.62692,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

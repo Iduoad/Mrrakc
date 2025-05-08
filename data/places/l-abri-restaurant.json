@@ -7,11 +7,11 @@
   "spec": {
     "name": "L'abri Restaurant",
     "slug": "l-abri-restaurant",
-    "description": "\ud83d\udd3b Menu: Mediterranean",
+    "description": "🔻 Menu: Mediterranean",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5867545,
-      "latitude": -7.6474654
+      "latitude": -7.6474654,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

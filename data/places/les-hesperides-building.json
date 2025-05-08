@@ -7,11 +7,11 @@
   "spec": {
     "name": "Les Hesperides Building",
     "slug": "les-hesperides-building",
-    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Albert Planque<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5965868,
-      "latitude": -7.6149527
+      "latitude": -7.6149527,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

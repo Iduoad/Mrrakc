@@ -9,9 +9,9 @@
     "slug": "la-chope-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.594251,
-      "latitude": -7.6164311
+      "latitude": -7.6164311,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

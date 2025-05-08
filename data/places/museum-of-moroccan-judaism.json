@@ -9,9 +9,9 @@
     "slug": "museum-of-moroccan-judaism",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5522201,
-      "latitude": -7.6391606
+      "latitude": -7.6391606,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

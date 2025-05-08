@@ -9,9 +9,9 @@
     "slug": "berrechid-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5506689,
-      "latitude": -7.5979224
+      "latitude": -7.5979224,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "casa-fish-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6000718,
-      "latitude": -7.6174634
+      "latitude": -7.6174634,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Hotel Particulier 2",
     "slug": "hotel-particulier-2",
-    "description": "\ud83d\udd3b Architect: Emmanuel Chaine<br>\ud83d\udd3b Dates: 1930/1931",
+    "description": "🔻 Architect: Emmanuel Chaine<br>🔻 Dates: 1930/1931",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5901432,
-      "latitude": -7.6249155
+      "latitude": -7.6249155,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

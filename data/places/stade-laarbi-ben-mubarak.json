@@ -9,9 +9,9 @@
     "slug": "stade-laarbi-ben-mubarak",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5955354,
-      "latitude": -7.6082025
+      "latitude": -7.6082025,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

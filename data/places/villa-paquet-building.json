@@ -7,11 +7,11 @@
   "spec": {
     "name": "Villa Paquet Building",
     "slug": "villa-paquet-building",
-    "description": "\ud83d\udd3b Architect: Jacques Gouyon<br>\ud83d\udd3b Dates: 1952<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Jacques Gouyon<br>🔻 Dates: 1952<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5940552,
-      "latitude": -7.608807
+      "latitude": -7.608807,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

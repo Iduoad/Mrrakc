@@ -9,9 +9,9 @@
     "slug": "eden-club-cinema",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6159506,
-      "latitude": 33.5889454
+      "latitude": 33.5889454,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

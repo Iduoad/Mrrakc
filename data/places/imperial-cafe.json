@@ -9,9 +9,9 @@
     "slug": "imperial-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.57781,
-      "latitude": -7.606063
+      "latitude": -7.606063,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

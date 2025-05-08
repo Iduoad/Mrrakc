@@ -7,11 +7,11 @@
   "spec": {
     "name": "Church of Notre Dame of Lourdes",
     "slug": "church-of-notre-dame-of-lourdes",
-    "description": "\ud83d\udd3b Architect: Achille Danglettere<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Church",
+    "description": "🔻 Architect: Achille Danglettere<br>🔻 Dates: 1954<br>🔻 Current Status: Church",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5826724,
-      "latitude": -7.6155733
+      "latitude": -7.6155733,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

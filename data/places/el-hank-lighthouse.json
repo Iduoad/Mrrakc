@@ -9,9 +9,9 @@
     "slug": "el-hank-lighthouse",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6099692,
-      "latitude": -7.65471
+      "latitude": -7.65471,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

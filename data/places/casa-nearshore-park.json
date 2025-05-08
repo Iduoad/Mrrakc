@@ -9,9 +9,9 @@
     "slug": "casa-nearshore-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5267176,
-      "latitude": -7.6436111
+      "latitude": -7.6436111,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

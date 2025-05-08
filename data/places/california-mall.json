@@ -9,9 +9,9 @@
     "slug": "california-mall",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5445568,
-      "latitude": -7.6401545
+      "latitude": -7.6401545,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

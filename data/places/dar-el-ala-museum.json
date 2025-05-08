@@ -9,9 +9,9 @@
     "slug": "dar-el-ala-museum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5780977,
-      "latitude": -7.6035979
+      "latitude": -7.6035979,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

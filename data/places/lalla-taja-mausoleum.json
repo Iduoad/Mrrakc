@@ -7,11 +7,11 @@
   "spec": {
     "name": "Lalla Taja Mausoleum",
     "slug": "lalla-taja-mausoleum",
-    "description": "\ud83d\udd3b Date: Early 20th Century<br>\ud83d\udd3b Comments:\u00a0 This mausoleum, the sole one dedicated to a woman in Casablanca's Medina, honors Lalla Taja, a revered figure known for her care of orphans and support for single mothers.<br>Recognized for her benevolence, she received assistance from the Belgian consulate.<br>Following her passing, the women of the Medina, who esteemed her deeply, came together to bury her and erect this mausoleum in her honor. Lalla Taja remains a cherished symbol for the women of Casablanca's Medina.",
+    "description": "🔻 Date: Early 20th Century<br>🔻 Comments:  This mausoleum, the sole one dedicated to a woman in Casablanca's Medina, honors Lalla Taja, a revered figure known for her care of orphans and support for single mothers.<br>Recognized for her benevolence, she received assistance from the Belgian consulate.<br>Following her passing, the women of the Medina, who esteemed her deeply, came together to bury her and erect this mausoleum in her honor. Lalla Taja remains a cherished symbol for the women of Casablanca's Medina.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.60038,
-      "latitude": -7.6180037
+      "latitude": -7.6180037,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

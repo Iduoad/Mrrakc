@@ -9,9 +9,9 @@
     "slug": "arsat-zerktouni-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6045604,
-      "latitude": -7.6210205
+      "latitude": -7.6210205,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

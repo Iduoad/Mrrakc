@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Béni-Mellal",
+    "slug": "beni-mellal",
+    "region": "Béni Mellal-Khénifra",
+    "country": "Morocco"
+  }
+}

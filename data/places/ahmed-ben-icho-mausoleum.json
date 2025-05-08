@@ -9,9 +9,9 @@
     "slug": "ahmed-ben-icho-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6415831,
-      "latitude": -7.4348249
+      "latitude": -7.4348249,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

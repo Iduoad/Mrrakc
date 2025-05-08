@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Hajeb",
+    "slug": "el-hajeb",
+    "region": "Fès-Meknès",
+    "country": "Morocco"
+  }
+}

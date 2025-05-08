@@ -9,9 +9,9 @@
     "slug": "urban-graffity",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6105053,
-      "latitude": -7.626918
+      "latitude": -7.626918,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

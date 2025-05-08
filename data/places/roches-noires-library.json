@@ -9,9 +9,9 @@
     "slug": "roches-noires-library",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5969295,
-      "latitude": 33.5911621
+      "latitude": 33.5911621,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

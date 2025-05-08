@@ -9,9 +9,9 @@
     "slug": "anfaplace-mall",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.598129,
-      "latitude": -7.6646354
+      "latitude": -7.6646354,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

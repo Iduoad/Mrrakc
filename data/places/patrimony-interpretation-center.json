@@ -9,9 +9,9 @@
     "slug": "patrimony-interpretation-center",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6011366,
-      "latitude": -7.6180961
+      "latitude": -7.6180961,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

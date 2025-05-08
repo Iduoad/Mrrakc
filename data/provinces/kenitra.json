@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Kénitra",
+    "slug": "kenitra",
+    "region": "Rabat-Salé-Kénitra",
+    "country": "Morocco"
+  }
+}

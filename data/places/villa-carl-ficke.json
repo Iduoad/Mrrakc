@@ -7,11 +7,11 @@
   "spec": {
     "name": "Villa Carl Ficke",
     "slug": "villa-carl-ficke",
-    "description": "\ud83d\udd3b Architect: Ulysse Tonci<br>\ud83d\udd3b Dates: 1913<br>\ud83d\udd3b Current Status: Unknown<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Architect: Ulysse Tonci<br>🔻 Dates: 1913<br>🔻 Current Status: Unknown<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5828283,
-      "latitude": -7.609146
+      "latitude": -7.609146,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

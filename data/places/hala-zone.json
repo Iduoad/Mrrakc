@@ -9,9 +9,9 @@
     "slug": "hala-zone",
     "description": "Escargot and Seafood",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5393982,
-      "latitude": -7.5985483
+      "latitude": -7.5985483,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

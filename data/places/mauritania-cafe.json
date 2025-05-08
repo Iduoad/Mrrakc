@@ -9,9 +9,9 @@
     "slug": "mauritania-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5789155,
-      "latitude": -7.6062125
+      "latitude": -7.6062125,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Villa Avenir",
     "slug": "villa-avenir",
-    "description": "\ud83d\udd3b Architect: Louis Henri Fleurant<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Unknown<br>\ud83d\udd3b National Material Patrimony Declaration: 2018<br><br>https://telquel.ma/2018/05/17/visite-de-six-edifices-casablancais-inscrits-au-patrimoine-culturel-national_1593792",
+    "description": "🔻 Architect: Louis Henri Fleurant<br>🔻 Dates: 1929<br>🔻 Current Status: Unknown<br>🔻 National Material Patrimony Declaration: 2018<br><br>https://telquel.ma/2018/05/17/visite-de-six-edifices-casablancais-inscrits-au-patrimoine-culturel-national_1593792",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5822033,
-      "latitude": -7.6137675
+      "latitude": -7.6137675,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "sidi-bousmara-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5997079,
-      "latitude": -7.6155104
+      "latitude": -7.6155104,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

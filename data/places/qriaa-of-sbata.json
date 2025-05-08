@@ -9,9 +9,9 @@
     "slug": "qriaa-of-sbata",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.552771,
-      "latitude": -7.5682288
+      "latitude": -7.5682288,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

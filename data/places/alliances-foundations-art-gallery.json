@@ -9,9 +9,9 @@
     "slug": "alliances-foundations-art-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5876764,
-      "latitude": -7.6667004
+      "latitude": -7.6667004,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Old Tobacco Control building",
     "slug": "old-tobacco-control-building",
-    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Architect: Marius Boyer<br>🔻 Dates: 1932<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5741437,
-      "latitude": -7.609953
+      "latitude": -7.609953,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

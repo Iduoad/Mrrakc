@@ -7,11 +7,11 @@
   "spec": {
     "name": "Quobba Building",
     "slug": "quobba-building",
-    "description": "\ud83d\udd3b Architect: Pierre Gosset<br>\ud83d\udd3b Dates: 1915<br>\ud83d\udd3b Current Status: Cultural Center<br>\ud83d\udd3b Comments: It was originally part of the Moroccan-French Exposition in what is now Marche Central. When Marche Central construction started, the Quobba was moved as is to Arab League Park.",
+    "description": "🔻 Architect: Pierre Gosset<br>🔻 Dates: 1915<br>🔻 Current Status: Cultural Center<br>🔻 Comments: It was originally part of the Moroccan-French Exposition in what is now Marche Central. When Marche Central construction started, the Quobba was moved as is to Arab League Park.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5895732,
-      "latitude": -7.6245064
+      "latitude": -7.6245064,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

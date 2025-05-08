@@ -9,9 +9,9 @@
     "slug": "sidi-allal-el-kairouani-mausoleum",
     "description": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6032368,
-      "latitude": -7.6196207
+      "latitude": -7.6196207,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

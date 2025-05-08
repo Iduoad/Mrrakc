@@ -9,9 +9,9 @@
     "slug": "sqala-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6033295,
-      "latitude": -7.6194196
+      "latitude": -7.6194196,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Customs Building",
     "slug": "customs-building",
-    "description": "\ud83d\udd3b Dates: 1910<br>\ud83d\udd3b Current Status: Customs training center",
+    "description": "🔻 Dates: 1910<br>🔻 Current Status: Customs training center",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6006931,
-      "latitude": -7.614706
+      "latitude": -7.614706,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

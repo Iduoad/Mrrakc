@@ -9,9 +9,9 @@
     "slug": "el-hank-panoramic-view",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6095861,
-      "latitude": -7.6556307
+      "latitude": -7.6556307,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

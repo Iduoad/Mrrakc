@@ -9,9 +9,9 @@
     "slug": "megarama-cinema",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6681593,
-      "latitude": 33.5959707
+      "latitude": 33.5959707,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

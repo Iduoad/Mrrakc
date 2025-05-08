@@ -9,9 +9,9 @@
     "slug": "ahl-fes-pastry-shop",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5762218,
-      "latitude": -7.6040899
+      "latitude": -7.6040899,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

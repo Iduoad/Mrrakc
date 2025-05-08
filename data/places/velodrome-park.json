@@ -9,9 +9,9 @@
     "slug": "velodrome-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5895662,
-      "latitude": -7.6454948
+      "latitude": -7.6454948,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

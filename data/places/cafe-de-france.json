@@ -9,9 +9,9 @@
     "slug": "cafe-de-france",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5956649,
-      "latitude": -7.6175453
+      "latitude": -7.6175453,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

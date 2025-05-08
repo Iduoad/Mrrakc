@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Guelmim",
+    "slug": "guelmim",
+    "region": "Guelmim-Oued Noun",
+    "country": "Morocco"
+  }
+}

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Khnata bent Bakkar Middle School",
     "slug": "khnata-bent-bakkar-middle-school",
-    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5829908,
-      "latitude": -7.6087975
+      "latitude": -7.6087975,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

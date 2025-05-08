@@ -7,11 +7,11 @@
   "spec": {
     "name": "Le Rossignol Restaurant",
     "slug": "le-rossignol-restaurant",
-    "description": "\ud83d\udd3b Menu: French",
+    "description": "🔻 Menu: French",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5902161,
-      "latitude": -7.6304005
+      "latitude": -7.6304005,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

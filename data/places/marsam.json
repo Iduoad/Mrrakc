@@ -9,9 +9,9 @@
     "slug": "marsam",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5935182,
-      "latitude": -7.6417696
+      "latitude": -7.6417696,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

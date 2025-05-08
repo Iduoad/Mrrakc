@@ -7,11 +7,11 @@
   "spec": {
     "name": "El Kastalani Middle School",
     "slug": "el-kastalani-middle-school",
-    "description": "\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Current Status: School<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5746894,
-      "latitude": -7.6078636
+      "latitude": -7.6078636,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

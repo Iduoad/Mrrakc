@@ -7,11 +7,11 @@
   "spec": {
     "name": "Celebritea Restaurant",
     "slug": "celebritea-restaurant",
-    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Brunch",
+    "description": "🔻 Menu: International<br>🔻 Tags: Brunch",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5760658,
-      "latitude": -7.6586422
+      "latitude": -7.6586422,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

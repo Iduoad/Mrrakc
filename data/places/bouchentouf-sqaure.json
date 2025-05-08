@@ -9,9 +9,9 @@
     "slug": "bouchentouf-sqaure",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5696821,
-      "latitude": -7.6030351
+      "latitude": -7.6030351,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

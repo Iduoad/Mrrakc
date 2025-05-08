@@ -7,11 +7,11 @@
   "spec": {
     "name": "Medina Restaurant",
     "slug": "medina-restaurant",
-    "description": "\ud83d\udd3b Menu: Moroccan",
+    "description": "🔻 Menu: Moroccan",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.600301,
-      "latitude": -7.6169016
+      "latitude": -7.6169016,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

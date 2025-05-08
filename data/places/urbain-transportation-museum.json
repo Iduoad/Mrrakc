@@ -9,9 +9,9 @@
     "slug": "urbain-transportation-museum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5777533,
-      "latitude": -7.6342974
+      "latitude": -7.6342974,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

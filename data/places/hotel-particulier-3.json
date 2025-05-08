@@ -7,11 +7,11 @@
   "spec": {
     "name": "Hotel Particulier 3",
     "slug": "hotel-particulier-3",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1930/1931",
+    "description": "🔻 Architect: Pierre Jabin<br>🔻 Dates: 1930/1931",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5901622,
-      "latitude": -7.624768
+      "latitude": -7.624768,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

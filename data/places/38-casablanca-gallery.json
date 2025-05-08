@@ -9,9 +9,9 @@
     "slug": "38-casablanca-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5744777,
-      "latitude": -7.6832173
+      "latitude": -7.6832173,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Le petit monde School",
     "slug": "le-petit-monde-school",
-    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: School",
+    "description": "🔻 Architect: Albert Planque<br>🔻 Current Status: School",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5580205,
-      "latitude": -7.617765
+      "latitude": -7.617765,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

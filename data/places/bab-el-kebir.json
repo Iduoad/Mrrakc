@@ -9,9 +9,9 @@
     "slug": "bab-el-kebir",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5969407,
-      "latitude": -7.6178362
+      "latitude": -7.6178362,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

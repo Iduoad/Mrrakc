@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Path\u00e9 Cinema",
+    "name": "Pathé Cinema",
     "slug": "pathe-cinema",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6398598,
-      "latitude": 33.5440783
+      "latitude": 33.5440783,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

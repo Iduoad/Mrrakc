@@ -9,9 +9,9 @@
     "slug": "poste-office-building",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5945731,
-      "latitude": -7.6132097
+      "latitude": -7.6132097,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

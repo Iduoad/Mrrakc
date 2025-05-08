@@ -9,9 +9,9 @@
     "slug": "al-makane-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.599968,
-      "latitude": -7.617608
+      "latitude": -7.617608,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

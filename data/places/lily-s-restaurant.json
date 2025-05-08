@@ -7,11 +7,11 @@
   "spec": {
     "name": "Lily's Restaurant",
     "slug": "lily-s-restaurant",
-    "description": "\ud83d\udd3b Menu: Asian",
+    "description": "🔻 Menu: Asian",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6080436,
-      "latitude": -7.6555925
+      "latitude": -7.6555925,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

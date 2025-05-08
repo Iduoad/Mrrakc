@@ -9,9 +9,9 @@
     "slug": "bouskoura-forest",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5788975,
-      "latitude": 33.4642281
+      "latitude": 33.4642281,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

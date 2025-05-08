@@ -9,9 +9,9 @@
     "slug": "bousbir-quarter",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5744552,
-      "latitude": -7.602417
+      "latitude": -7.602417,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

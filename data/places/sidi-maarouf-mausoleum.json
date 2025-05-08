@@ -9,9 +9,9 @@
     "slug": "sidi-maarouf-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5138504,
-      "latitude": -7.6523279
+      "latitude": -7.6523279,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

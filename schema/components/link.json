@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Link Schema",
+  "description": "Schema for links in Mrrakc",
+  "type": "object",
+  "required": ["url", "title", "type"],
+  "properties": {
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the link"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the link"
+    },
+    "type": {
+      "type": "string",
+      "description": "Type of linked content",
+      "enum": [
+        "article",
+        "video",
+        "picture",
+        "movie",
+        "website",
+        "book"
+      ]
+    }
+  }
+}

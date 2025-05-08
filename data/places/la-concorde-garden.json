@@ -9,9 +9,9 @@
     "slug": "la-concorde-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5960268,
-      "latitude": -7.6240641
+      "latitude": -7.6240641,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

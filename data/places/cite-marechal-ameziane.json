@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Cit\u00e9 Marechal Ameziane",
+    "name": "Cité Marechal Ameziane",
     "slug": "cite-marechal-ameziane",
-    "description": "\ud83d\udd3b Architect: Maurice Galamand<br>\ud83d\udd3b Dates: 1949/1953<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Maurice Galamand<br>🔻 Dates: 1949/1953<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.585308,
-      "latitude": -7.619261
+      "latitude": -7.619261,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

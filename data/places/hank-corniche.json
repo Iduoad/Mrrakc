@@ -9,9 +9,9 @@
     "slug": "hank-corniche",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6067083,
-      "latitude": -7.6492645
+      "latitude": -7.6492645,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

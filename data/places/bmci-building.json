@@ -7,11 +7,11 @@
   "spec": {
     "name": "BMCI Building",
     "slug": "bmci-building",
-    "description": "\ud83d\udd3b Architect: Alexandre Courtois<br>\ud83d\udd3b Dates: 1947-1950<br>\ud83d\udd3b Current Status: Bank",
+    "description": "🔻 Architect: Alexandre Courtois<br>🔻 Dates: 1947-1950<br>🔻 Current Status: Bank",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5958291,
-      "latitude": -7.6172637
+      "latitude": -7.6172637,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

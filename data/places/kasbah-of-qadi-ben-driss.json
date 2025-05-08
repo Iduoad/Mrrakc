@@ -9,9 +9,9 @@
     "slug": "kasbah-of-qadi-ben-driss",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.544822,
-      "latitude": -7.5901284
+      "latitude": -7.5901284,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

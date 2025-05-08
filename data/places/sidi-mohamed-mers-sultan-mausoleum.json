@@ -9,9 +9,9 @@
     "slug": "sidi-mohamed-mers-sultan-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5814648,
-      "latitude": -7.62256
+      "latitude": -7.62256,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "alesco-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5506442,
-      "latitude": -7.5660275
+      "latitude": -7.5660275,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

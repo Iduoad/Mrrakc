@@ -9,9 +9,9 @@
     "slug": "sidi-moumen-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5802228,
-      "latitude": -7.5188917
+      "latitude": -7.5188917,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

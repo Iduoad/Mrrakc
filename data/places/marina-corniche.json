@@ -9,9 +9,9 @@
     "slug": "marina-corniche",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6105592,
-      "latitude": -7.6244311
+      "latitude": -7.6244311,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

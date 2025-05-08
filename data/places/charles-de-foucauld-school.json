@@ -9,9 +9,9 @@
     "slug": "charles-de-foucauld-school",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5715684,
-      "latitude": -7.6179825
+      "latitude": -7.6179825,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

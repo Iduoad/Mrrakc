@@ -7,11 +7,11 @@
   "spec": {
     "name": "Colmard Building",
     "slug": "colmard-building",
-    "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2011",
+    "description": "🔻 Dates: 1920s<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2011",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5864724,
-      "latitude": -7.6133279
+      "latitude": -7.6133279,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

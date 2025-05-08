@@ -7,11 +7,11 @@
   "spec": {
     "name": "Petit Poucet Restaurant",
     "slug": "petit-poucet-restaurant",
-    "description": "\ud83d\udd3b Dates: 1920",
+    "description": "🔻 Dates: 1920",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5947964,
-      "latitude": -7.6141587
+      "latitude": -7.6141587,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

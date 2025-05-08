@@ -7,11 +7,11 @@
   "spec": {
     "name": "La Sqala Restaurant",
     "slug": "la-sqala-restaurant",
-    "description": "\ud83d\udd3b Menu: Moroccan",
+    "description": "🔻 Menu: Moroccan",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6028737,
-      "latitude": -7.6194179
+      "latitude": -7.6194179,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

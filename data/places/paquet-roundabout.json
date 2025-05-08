@@ -9,9 +9,9 @@
     "slug": "paquet-roundabout",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5939906,
-      "latitude": -7.6085837
+      "latitude": -7.6085837,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

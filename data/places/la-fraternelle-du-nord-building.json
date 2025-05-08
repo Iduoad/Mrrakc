@@ -7,11 +7,11 @@
   "spec": {
     "name": "La Fraternelle du Nord Building",
     "slug": "la-fraternelle-du-nord-building",
-    "description": "\ud83d\udd3b Architect: Marcel Desmet<br>\ud83d\udd3b Dates: 1931/1932<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Marcel Desmet<br>🔻 Dates: 1931/1932<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5934008,
-      "latitude": -7.6072909
+      "latitude": -7.6072909,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

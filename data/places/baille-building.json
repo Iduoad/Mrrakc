@@ -7,11 +7,11 @@
   "spec": {
     "name": "Baille Building",
     "slug": "baille-building",
-    "description": "\ud83d\udd3b Architect: Auguste Cadet & Edmond Brion<br>\ud83d\udd3b Dates: 1931<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "🔻 Architect: Auguste Cadet & Edmond Brion<br>🔻 Dates: 1931<br>🔻 Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.594368,
-      "latitude": -7.616434
+      "latitude": -7.616434,
+      "province": "province/casablanca"
     },
     "people": [
       "people/auguste-cadet",

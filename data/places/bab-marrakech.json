@@ -9,9 +9,9 @@
     "slug": "bab-marrakech",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5982195,
-      "latitude": -7.621492
+      "latitude": -7.621492,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

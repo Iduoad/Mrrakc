@@ -7,11 +7,11 @@
   "spec": {
     "name": "Volkswagen Garage",
     "slug": "volkswagen-garage",
-    "description": "\ud83d\udd3b Dates: 1950s",
+    "description": "🔻 Dates: 1950s",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5892827,
-      "latitude": -7.611496
+      "latitude": -7.611496,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

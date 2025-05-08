@@ -1,0 +1,166 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mrrakc Places Schema",
+  "description": "Schema for places data in Mrrakc",
+  "type": "object",
+  "required": ["kind"],
+  "allOf": [{"$ref": "base.json"}],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+/[a-z0-9-]+$",
+      "description": "Category and type of place in format 'category/kind'",
+      "$ref": "enums/kinds.json"
+    },
+    "spec": {
+      "type": "object",
+      "required": ["name", "slug", "description", "location", "access", "timePeriod"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Place name"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "URL-friendly version of name in kebab-case"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the place"
+        },
+        "location": {
+          "type": "object",
+          "required": ["province", "longitude", "latitude"],
+          "properties": {
+            "longitude": {
+              "type": "number",
+              "description": "Longitude coordinate"
+            },
+            "latitude": {
+              "type": "number",
+              "description": "Latitude coordinate"
+            },
+            "province": {
+              "type": "string",
+              "pattern": "^province/[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "description": "Reference to province where place is located"
+            }
+          }
+        },
+        "people": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["person", "designations"],
+            "properties": {
+              "person": {
+                "type": "string",
+                "pattern": "^people/[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "description": "Reference to a person associated with this place"
+              },
+              "designations": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "List of designations of the person in relation to this place"
+              },
+              "comments": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "description": "Comments about the relationship between the person and place"
+              }
+            }
+          }
+        },
+        "timeline": {
+          "type": "array",
+          "items": {
+            "$ref": "components/event.json"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "components/link.json"
+          }
+        },
+        "activities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of activities possible at this place"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of notable items at this place"
+        },
+        "access": {
+          "type": "object",
+          "required": ["type"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "description": "Access type for the place",
+              "enum": [
+                "private",
+                "public",
+                "restricted",
+                "forbidden"
+              ]
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["label", "modality", "audience", "entranceFee"],
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "description": "Label explaining the access option"
+                  },
+                  "modality": {
+                    "type": "string",
+                    "description": "Payment or access modality",
+                    "enum": [
+                      "one-time-payment",
+                      "subscription",
+                      "donation",
+                      "free"
+                    ]
+                  },
+                  "audience": {
+                    "type": "string",
+                    "description": "Target audience for this access option",
+                    "enum": [
+                      "all",
+                      "local",
+                      "tourist",
+                      "child"
+                    ]
+                  },
+                  "entranceFee": {
+                    "type": "number",
+                    "minimum": -1,
+                    "description": "Entrance fee amount (or -1 if not applicable)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "timePeriod": {
+          "type": "string",
+          "description": "Time period or era of the place"
+        }
+      }
+    }
+  }
+}

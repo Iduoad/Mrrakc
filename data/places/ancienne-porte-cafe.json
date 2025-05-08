@@ -9,9 +9,9 @@
     "slug": "ancienne-porte-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5995107,
-      "latitude": -7.61596
+      "latitude": -7.61596,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -7,11 +7,11 @@
   "spec": {
     "name": "Enso Restaurant",
     "slug": "enso-restaurant",
-    "description": "\ud83d\udd3b Menu: Japanese",
+    "description": "🔻 Menu: Japanese",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6095469,
-      "latitude": -7.6513836
+      "latitude": -7.6513836,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "cameo-cinema",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6589402,
-      "latitude": 33.5891741
+      "latitude": 33.5891741,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

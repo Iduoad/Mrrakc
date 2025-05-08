@@ -9,9 +9,9 @@
     "slug": "mohammadi-mosque-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5770745,
-      "latitude": -7.6067381
+      "latitude": -7.6067381,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

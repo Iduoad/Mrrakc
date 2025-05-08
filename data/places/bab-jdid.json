@@ -9,9 +9,9 @@
     "slug": "bab-jdid",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6022713,
-      "latitude": -7.6231108
+      "latitude": -7.6231108,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

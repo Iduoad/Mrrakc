@@ -9,9 +9,9 @@
     "slug": "dar-el-makhzen",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5984101,
-      "latitude": -7.6166649
+      "latitude": -7.6166649,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

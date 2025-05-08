@@ -7,11 +7,11 @@
   "spec": {
     "name": "Marcel Raygot Garage Building",
     "slug": "marcel-raygot-garage-building",
-    "description": "\ud83d\udd3b Architect: Georges Renaudin<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Architect: Georges Renaudin<br>🔻 Dates: 1954<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5979699,
-      "latitude": -7.6388166
+      "latitude": -7.6388166,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

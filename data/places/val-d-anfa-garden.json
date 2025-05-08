@@ -9,9 +9,9 @@
     "slug": "val-d-anfa-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5912973,
-      "latitude": -7.6537498
+      "latitude": -7.6537498,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

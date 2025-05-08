@@ -7,11 +7,11 @@
   "spec": {
     "name": "IMCAMA Building",
     "slug": "imcama-building",
-    "description": "\ud83d\udd3b Architect: Albert Greslin<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2005<br>\ud83d\udd3b Description: AKA Sony Building, <br>\ud83d\udd3b Tags: Art Deco<br><br>https://www.maghress.com/fr/lagazette/12189",
+    "description": "🔻 Architect: Albert Greslin<br>🔻 Dates: 1928<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2005<br>🔻 Description: AKA Sony Building, <br>🔻 Tags: Art Deco<br><br>https://www.maghress.com/fr/lagazette/12189",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.587506,
-      "latitude": -7.6207911
+      "latitude": -7.6207911,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

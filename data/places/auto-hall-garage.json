@@ -7,11 +7,11 @@
   "spec": {
     "name": "Auto Hall Garage",
     "slug": "auto-hall-garage",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Garage",
+    "description": "🔻 Architect: Pierre Bousquet<br>🔻 Dates: 1930<br>🔻 Current Status: Garage",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5902041,
-      "latitude": -7.6120012
+      "latitude": -7.6120012,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

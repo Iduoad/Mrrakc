@@ -9,9 +9,9 @@
     "slug": "casablanca-port",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6024486,
-      "latitude": -7.6144007
+      "latitude": -7.6144007,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

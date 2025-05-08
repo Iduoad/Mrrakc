@@ -9,9 +9,9 @@
     "slug": "ain-sbaa-zoo",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5298039,
-      "latitude": 33.6051717
+      "latitude": 33.6051717,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

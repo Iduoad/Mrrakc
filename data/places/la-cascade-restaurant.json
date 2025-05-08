@@ -7,11 +7,11 @@
   "spec": {
     "name": "La Cascade Restaurant",
     "slug": "la-cascade-restaurant",
-    "description": "\ud83d\udd3b Menu: International",
+    "description": "🔻 Menu: International",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6059074,
-      "latitude": -7.6575883
+      "latitude": -7.6575883,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

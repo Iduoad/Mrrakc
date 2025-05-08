@@ -7,11 +7,11 @@
   "spec": {
     "name": "Church of San Buenaventura",
     "slug": "church-of-san-buenaventura",
-    "description": "\ud83d\udd3b Dates: 1891<br>\ud83d\udd3b Current Status: Converted to Cultural center<br>\ud83d\udd3b Description: The church was home to the Spanish Franciscains. It is a evidence of the important role the Spanish community played in Casablanca before the French Colonialism.",
+    "description": "🔻 Dates: 1891<br>🔻 Current Status: Converted to Cultural center<br>🔻 Description: The church was home to the Spanish Franciscains. It is a evidence of the important role the Spanish community played in Casablanca before the French Colonialism.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6014996,
-      "latitude": -7.6201236
+      "latitude": -7.6201236,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

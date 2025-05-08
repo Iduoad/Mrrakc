@@ -9,9 +9,9 @@
     "slug": "sidi-othmane-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5597611,
-      "latitude": -7.5726133
+      "latitude": -7.5726133,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "yasmina-park-for-games",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5870567,
-      "latitude": -7.6233168
+      "latitude": -7.6233168,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

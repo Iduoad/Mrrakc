@@ -9,9 +9,9 @@
     "slug": "abdelwahab-doukkali-small-museum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5843636,
-      "latitude": -7.6103204
+      "latitude": -7.6103204,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

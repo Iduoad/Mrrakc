@@ -9,9 +9,9 @@
     "slug": "villa-d-anfa",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5888109,
-      "latitude": -7.6640112
+      "latitude": -7.6640112,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

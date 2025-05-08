@@ -9,9 +9,9 @@
     "slug": "bab-sqala",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6026841,
-      "latitude": -7.6188606
+      "latitude": -7.6188606,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

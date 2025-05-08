@@ -9,9 +9,9 @@
     "slug": "souk-ouald-mina",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5686798,
-      "latitude": -7.6741414
+      "latitude": -7.6741414,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

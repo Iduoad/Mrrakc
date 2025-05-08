@@ -9,9 +9,9 @@
     "slug": "bears-cave",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6826227,
-      "latitude": 33.5821033
+      "latitude": 33.5821033,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

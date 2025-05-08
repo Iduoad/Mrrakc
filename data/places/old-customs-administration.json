@@ -9,9 +9,9 @@
     "slug": "old-customs-administration",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6004794,
-      "latitude": -7.6167707
+      "latitude": -7.6167707,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

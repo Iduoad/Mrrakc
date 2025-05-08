@@ -9,9 +9,9 @@
     "slug": "mohammed-v-square",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5912075,
-      "latitude": -7.6186758
+      "latitude": -7.6186758,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

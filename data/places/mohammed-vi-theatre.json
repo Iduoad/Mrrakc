@@ -9,9 +9,9 @@
     "slug": "mohammed-vi-theatre",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5969681,
-      "latitude": 33.5913903
+      "latitude": 33.5913903,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

@@ -9,9 +9,9 @@
     "slug": "the-house-of-rabbi-chaim-pinto",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5991204,
-      "latitude": -7.6174471
+      "latitude": -7.6174471,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

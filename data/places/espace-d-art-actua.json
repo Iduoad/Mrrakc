@@ -9,9 +9,9 @@
     "slug": "espace-d-art-actua",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5905557,
-      "latitude": -7.6255699
+      "latitude": -7.6255699,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

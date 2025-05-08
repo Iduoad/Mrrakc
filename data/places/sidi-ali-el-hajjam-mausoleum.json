@@ -9,9 +9,9 @@
     "slug": "sidi-ali-el-hajjam-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.516838,
-      "latitude": -7.6270712
+      "latitude": -7.6270712,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

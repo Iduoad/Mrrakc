@@ -9,9 +9,9 @@
     "slug": "the-24-rooftop",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5981877,
-      "latitude": -7.6139111
+      "latitude": -7.6139111,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

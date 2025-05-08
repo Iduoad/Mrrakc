@@ -9,9 +9,9 @@
     "slug": "el-baladia-barbecue-square",
     "description": "You can have Camel meat barbecue",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5755161,
-      "latitude": -7.6039606
+      "latitude": -7.6039606,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

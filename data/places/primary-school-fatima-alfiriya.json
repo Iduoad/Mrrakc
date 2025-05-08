@@ -9,9 +9,9 @@
     "slug": "primary-school-fatima-alfiriya",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6019693,
-      "latitude": -7.6188368
+      "latitude": -7.6188368,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

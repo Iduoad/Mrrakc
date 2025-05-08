@@ -9,9 +9,9 @@
     "slug": "ragouba-panoramic-view",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6122675,
-      "latitude": -7.6509204
+      "latitude": -7.6509204,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

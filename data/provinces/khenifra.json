@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Khénifra",
+    "slug": "khenifra",
+    "region": "Béni Mellal-Khénifra",
+    "country": "Morocco"
+  }
+}

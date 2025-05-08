@@ -7,11 +7,11 @@
   "spec": {
     "name": "Russian Orthodox Church",
     "slug": "russian-orthodox-church",
-    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2013",
+    "description": "🔻 National Material Patrimony Declaration: 2013",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5819769,
-      "latitude": -7.6227055
+      "latitude": -7.6227055,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

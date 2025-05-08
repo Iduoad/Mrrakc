@@ -7,11 +7,11 @@
   "spec": {
     "name": "Youth Hostel Casablanca",
     "slug": "youth-hostel-casablanca",
-    "description": "\ud83d\udd3b Dates: 1930s<br>\ud83d\udd3b Current Status: Hostel<br>\ud83d\udd3bDescription: The oldest youth hostel in Morocco, created before the creation of the network in Morocco.",
+    "description": "🔻 Dates: 1930s<br>🔻 Current Status: Hostel<br>🔻Description: The oldest youth hostel in Morocco, created before the creation of the network in Morocco.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6003443,
-      "latitude": -7.6174283
+      "latitude": -7.6174283,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

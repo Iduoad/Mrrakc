@@ -9,9 +9,9 @@
     "slug": "synagogue-bennaroch",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5944302,
-      "latitude": -7.6262018
+      "latitude": -7.6262018,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

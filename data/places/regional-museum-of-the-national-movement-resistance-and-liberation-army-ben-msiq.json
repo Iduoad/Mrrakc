@@ -9,9 +9,9 @@
     "slug": "regional-museum-of-the-national-movement-resistance-and-liberation-army-ben-msiq",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.557173,
-      "latitude": -7.5830903
+      "latitude": -7.5830903,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

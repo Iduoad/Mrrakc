@@ -9,9 +9,9 @@
     "slug": "twin-towers-center",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5866755,
-      "latitude": -7.632104
+      "latitude": -7.632104,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

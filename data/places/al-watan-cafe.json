@@ -9,9 +9,9 @@
     "slug": "al-watan-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5744823,
-      "latitude": -7.6054613
+      "latitude": -7.6054613,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

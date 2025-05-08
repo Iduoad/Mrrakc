@@ -9,9 +9,9 @@
     "slug": "loft-art-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5923345,
-      "latitude": -7.6436402
+      "latitude": -7.6436402,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

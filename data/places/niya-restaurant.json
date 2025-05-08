@@ -9,9 +9,9 @@
     "slug": "niya-restaurant",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5888478,
-      "latitude": -7.6323284
+      "latitude": -7.6323284,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

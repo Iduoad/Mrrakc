@@ -9,9 +9,9 @@
     "slug": "habous-small-square",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5780337,
-      "latitude": -7.6049167
+      "latitude": -7.6049167,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

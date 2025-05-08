@@ -9,9 +9,9 @@
     "slug": "jardin-sunday",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5380076,
-      "latitude": -7.5763572
+      "latitude": -7.5763572,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

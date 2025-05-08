@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "The View 360\u00b0 Restaurant",
+    "name": "The View 360° Restaurant",
     "slug": "the-view-360-restaurant",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6245545,
-      "latitude": -7.5263393
+      "latitude": -7.5263393,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

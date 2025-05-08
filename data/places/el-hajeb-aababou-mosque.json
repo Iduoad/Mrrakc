@@ -9,9 +9,9 @@
     "slug": "el-hajeb-aababou-mosque",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.605178,
-      "latitude": 33.5789904
+      "latitude": 33.5789904,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

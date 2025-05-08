@@ -7,11 +7,11 @@
   "spec": {
     "name": "Omar Ibn Abdelaziz School (Prev. German Consulate)",
     "slug": "omar-ibn-abdelaziz-school-prev-german-consulate",
-    "description": "\ud83d\udd3b era: 19th century<br>\ud83d\udd3b Description: After serving as Belgium consulate, the building was donated by the Sultane to the German to establish their consulate in it (it was previously in Hotel des amis).",
+    "description": "🔻 era: 19th century<br>🔻 Description: After serving as Belgium consulate, the building was donated by the Sultane to the German to establish their consulate in it (it was previously in Hotel des amis).",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6004833,
-      "latitude": -7.6179323
+      "latitude": -7.6179323,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

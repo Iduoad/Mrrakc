@@ -9,9 +9,9 @@
     "slug": "zaouiya-derkaouia",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6026101,
-      "latitude": -7.6191527
+      "latitude": -7.6191527,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

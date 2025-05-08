@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tétouan",
+    "slug": "tetouan",
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "country": "Morocco"
+  }
+}

@@ -7,11 +7,11 @@
   "spec": {
     "name": "The Clock Tower",
     "slug": "the-clock-tower",
-    "description": "\ud83d\udd3b Architect: G\u00e9nie Bouillot<br>\ud83d\udd3b Dates: 1909 (Rebuilt in 1993)<br>\ud83d\udd3b Current Status: Clock<br>\ud83d\udd3b Comments: The clock was one of the first built by the French Administration. It was demolished in 1948 and then rebuilt in 1993.",
+    "description": "🔻 Architect: Génie Bouillot<br>🔻 Dates: 1909 (Rebuilt in 1993)<br>🔻 Current Status: Clock<br>🔻 Comments: The clock was one of the first built by the French Administration. It was demolished in 1948 and then rebuilt in 1993.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.596889,
-      "latitude": -7.617253
+      "latitude": -7.617253,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

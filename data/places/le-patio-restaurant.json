@@ -7,11 +7,11 @@
   "spec": {
     "name": "Le Patio Restaurant",
     "slug": "le-patio-restaurant",
-    "description": "\ud83d\udd3b Menu: Mediterranean",
+    "description": "🔻 Menu: Mediterranean",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5874208,
-      "latitude": -7.6295032
+      "latitude": -7.6295032,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

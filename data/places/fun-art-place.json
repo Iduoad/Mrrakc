@@ -9,9 +9,9 @@
     "slug": "fun-art-place",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6641477,
-      "latitude": 33.5990149
+      "latitude": 33.5990149,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

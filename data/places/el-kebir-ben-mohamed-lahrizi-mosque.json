@@ -9,9 +9,9 @@
     "slug": "el-kebir-ben-mohamed-lahrizi-mosque",
     "description": null,
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6211945,
-      "latitude": 33.6029558
+      "latitude": 33.6029558,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

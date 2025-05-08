@@ -9,9 +9,9 @@
     "slug": "tit-mellil-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5536456,
-      "latitude": -7.4846486
+      "latitude": -7.4846486,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

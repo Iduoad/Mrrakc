@@ -7,11 +7,11 @@
   "spec": {
     "name": "Neptune Building",
     "slug": "neptune-building",
-    "description": "\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.597776,
-      "latitude": -7.6154541
+      "latitude": -7.6154541,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

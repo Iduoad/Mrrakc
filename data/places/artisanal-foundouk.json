@@ -9,9 +9,9 @@
     "slug": "artisanal-foundouk",
     "description": "This a work in progress photography school and museum.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6003918,
-      "latitude": -7.619617
+      "latitude": -7.619617,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

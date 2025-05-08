@@ -7,11 +7,11 @@
   "spec": {
     "name": "Dar Dada Restaurant",
     "slug": "dar-dada-restaurant",
-    "description": "\ud83d\udd3b Menu: Moroccan<br>\ud83d\udd3b Tags: Fine Dining",
+    "description": "🔻 Menu: Moroccan<br>🔻 Tags: Fine Dining",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6039639,
-      "latitude": -7.6213916
+      "latitude": -7.6213916,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],

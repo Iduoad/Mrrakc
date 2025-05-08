@@ -9,9 +9,9 @@
     "slug": "habous-quarter",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5781393,
-      "latitude": -7.6059877
+      "latitude": -7.6059877,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
