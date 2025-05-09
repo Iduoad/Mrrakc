@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sraghna Square",
-    "slug": "sraghna-square",
+    "id": "sraghna-square",
     "description": "",
     "location": {
       "longitude": 33.569566,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

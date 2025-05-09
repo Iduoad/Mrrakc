@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Midelt",
-    "slug": "midelt",
-    "region": "Drâa-Tafilalet",
+    "id": "midelt",
+    "region": "Draa-Tafilalet",
     "country": "Morocco"
   }
 }

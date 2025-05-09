@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Zevaco dome",
-    "slug": "zevaco-dome",
+    "id": "zevaco-dome",
     "description": "",
     "location": {
       "longitude": 33.5964523,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Ettedgui et Mellul Building",
-    "slug": "ettedgui-et-mellul-building",
-    "description": "🔻 Architect: Jean Balois & Paul Perrotte <br>🔻 Dates: 1932<br>🔻 Current Status: Inhabited",
+    "id": "ettedgui-et-mellul-building",
+    "description": "\ud83d\udd3b Architect: Jean Balois & Paul Perrotte <br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.593087,
       "latitude": -7.62378,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

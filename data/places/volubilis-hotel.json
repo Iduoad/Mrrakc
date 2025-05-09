@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Volubilis Hotel",
-    "slug": "volubilis-hotel",
-    "description": "🔻 Dates: 1919<br>🔻 Current Status: Hotel<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "volubilis-hotel",
+    "description": "\ud83d\udd3b Dates: 1919<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.59223,
       "latitude": -7.613728,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Horticulture Garden",
-    "slug": "horticulture-garden",
+    "id": "horticulture-garden",
     "description": "",
     "location": {
       "longitude": 33.5638052,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

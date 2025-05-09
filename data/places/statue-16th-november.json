@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Statue 16th November",
-    "slug": "statue-16th-november",
-    "description": "🔻 Architect: Abdelhaq Sijelmassi<br>🔻 Dates: 1982<br>---<br>🔗 https://fr.le360.ma/societe/la-sculpture-sur-la-place-du-16-novembre-a-casablanca-restauree-ou-denaturee-259092/",
+    "id": "statue-16th-november",
+    "description": "\ud83d\udd3b Architect: Abdelhaq Sijelmassi<br>\ud83d\udd3b Dates: 1982<br>---<br>\ud83d\udd17 https://fr.le360.ma/societe/la-sculpture-sur-la-place-du-16-novembre-a-casablanca-restauree-ou-denaturee-259092/",
     "location": {
       "longitude": 33.5944875,
       "latitude": -7.6168128,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://fr.le360.ma/societe/la-sculpture-sur-la-place-du-16-novembre-a-casablanca-restauree-ou-denaturee-259092/",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

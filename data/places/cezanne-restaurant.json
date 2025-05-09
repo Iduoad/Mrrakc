@@ -5,8 +5,8 @@
     "tags": []
   },
   "spec": {
-    "name": "Cézanne Restaurant",
-    "slug": "cezanne-restaurant",
+    "name": "C\u00e9zanne Restaurant",
+    "id": "cezanne-restaurant",
     "description": "",
     "location": {
       "longitude": 33.6010095,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

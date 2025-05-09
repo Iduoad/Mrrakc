@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Moulay Youssef Pier",
-    "slug": "moulay-youssef-pier",
-    "description": "🔻 Dates: 1930s",
+    "id": "moulay-youssef-pier",
+    "description": "\ud83d\udd3b Dates: 1930s",
     "location": {
       "longitude": 33.6159079,
       "latitude": -7.6019542,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

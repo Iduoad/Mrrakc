@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Hyatt Regency Casablanca",
-    "slug": "hyatt-regency-casablanca",
-    "description": "🔻 Dates: 1970s<br>🔻 Current Status: Hotel",
+    "id": "hyatt-regency-casablanca",
+    "description": "\ud83d\udd3b Dates: 1970s<br>\ud83d\udd3b Current Status: Hotel",
     "location": {
       "longitude": 33.5961773,
       "latitude": -7.6188509,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Al Watan Cafe",
-    "slug": "al-watan-cafe",
+    "id": "al-watan-cafe",
     "description": "",
     "location": {
       "longitude": 33.5744823,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

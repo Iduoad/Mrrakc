@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Old Citroen Garage",
-    "slug": "old-citroen-garage",
-    "description": "🔻 Architect: Maurice-Jacques Ravazé<br>🔻 Dates: 1928<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2015",
+    "id": "old-citroen-garage",
+    "description": "\ud83d\udd3b Architect: Maurice-Jacques Ravaz\u00e9<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2015",
     "location": {
       "longitude": 33.5932621,
       "latitude": -7.6188065,
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

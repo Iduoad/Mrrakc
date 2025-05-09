@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Abderrahman Slaoui Foundation Museum",
-    "slug": "abderrahman-slaoui-foundation-museum",
+    "id": "abderrahman-slaoui-foundation-museum",
     "description": "",
     "location": {
       "province": "province/casablanca",
@@ -15,12 +15,12 @@
     },
     "people": [
       {
-        "slug": "people/abderrahman-slaoui",
-        "designations": ["collector"],
-        "comments": [
-          "The Museum consists mainly of items from Abderrahman's collection.",
-          "When Abderrahman died the museum was created by the foundation he created when he was alive."
-        ]
+        "id": "people/abderrahman-slaoui",
+        "relationship": [
+          "collector",
+          "godfather"
+        ],
+        "comment": "The Museum consists mainly of items from Abderrahman's collection. When he died the museum was created by the foundation he created when he was alive."
       }
     ],
     "timeline": [
@@ -42,25 +42,36 @@
         "type": "article"
       }
     ],
-    "activities": ["touring", "exhibitions", "cafe", "private events"],
-    "items": ["moroccan jewelry", "zellij", "ceramics"],
+    "activities": [
+      "touring",
+      "exhibitions",
+      "cafe",
+      "private events"
+    ],
+    "items": [
+      "moroccan jewelry",
+      "zellij",
+      "ceramics"
+    ],
     "access": {
       "type": "private",
       "options": [
-        { 
-          "label": "Museum access for everyone",
+        {
+          "title": "Museum access for everyone",
           "modality": "one-time-payment",
           "audience": "all",
           "entranceFee": 40
         },
-        { 
-          "label": "Cafe access is seperate from museum access",
+        {
+          "title": "Cafe access is seperate from museum access",
           "modality": "one-time-payment",
           "audience": "all",
           "entranceFee": -1
         }
       ]
     },
-    "timePeriod": "21st century"
+    "timePeriods": [
+      "21st century"
+    ]
   }
 }

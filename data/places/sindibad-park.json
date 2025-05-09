@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Sindibad Park",
-    "slug": "sindibad-park",
-    "description": null,
+    "id": "sindibad-park",
+    "description": "",
     "location": {
       "longitude": -7.6896083,
       "latitude": 33.5805142,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

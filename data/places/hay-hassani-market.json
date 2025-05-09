@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Hay Hassani Market",
-    "slug": "hay-hassani-market",
+    "id": "hay-hassani-market",
     "description": "",
     "location": {
       "longitude": 33.5717838,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "El Hajeb",
-    "slug": "el-hajeb",
-    "region": "Fès-Meknès",
+    "id": "el-hajeb",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

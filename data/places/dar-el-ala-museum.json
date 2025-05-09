@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Dar El Ala Museum",
-    "slug": "dar-el-ala-museum",
+    "id": "dar-el-ala-museum",
     "description": "",
     "location": {
       "longitude": 33.5780977,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Saada Cinema",
-    "slug": "saada-cinema",
-    "description": "🔻 Dates: 1950s<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018<br>🔻 Description: Literal translation = Happiness Cinema",
+    "id": "saada-cinema",
+    "description": "\ud83d\udd3b Dates: 1950s<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018<br>\ud83d\udd3b Description: Literal translation = Happiness Cinema",
     "location": {
       "longitude": 33.5895796,
       "latitude": -7.5677833,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

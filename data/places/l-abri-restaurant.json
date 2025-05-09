@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "L'abri Restaurant",
-    "slug": "l-abri-restaurant",
-    "description": "🔻 Menu: Mediterranean",
+    "id": "l-abri-restaurant",
+    "description": "\ud83d\udd3b Menu: Mediterranean",
     "location": {
       "longitude": 33.5867545,
       "latitude": -7.6474654,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

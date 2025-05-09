@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Petit Poucet Restaurant",
-    "slug": "petit-poucet-restaurant",
-    "description": "🔻 Dates: 1920",
+    "id": "petit-poucet-restaurant",
+    "description": "\ud83d\udd3b Dates: 1920",
     "location": {
       "longitude": 33.5947964,
       "latitude": -7.6141587,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "School Notre Dame Ain Sebaa",
-    "slug": "school-notre-dame-ain-sebaa",
+    "id": "school-notre-dame-ain-sebaa",
     "description": "",
     "location": {
       "longitude": 33.6070816,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Errachidia",
-    "slug": "errachidia",
-    "region": "Drâa-Tafilalet",
+    "id": "errachidia",
+    "region": "Draa-Tafilalet",
     "country": "Morocco"
   }
 }

@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Tinghir",
-    "slug": "tinghir",
-    "region": "Drâa-Tafilalet",
+    "id": "tinghir",
+    "region": "Draa-Tafilalet",
     "country": "Morocco"
   }
 }

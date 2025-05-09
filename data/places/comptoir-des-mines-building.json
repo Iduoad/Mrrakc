@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Comptoir des mines Building",
-    "slug": "comptoir-des-mines-building",
-    "description": "🔻 Dates: 1930<br>🔻 Current Status: Bank<br>🔻 National Material Patrimony Declaration: 2018<br>🔻 Description: AKA Taher Sebti Building",
+    "id": "comptoir-des-mines-building",
+    "description": "\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b National Material Patrimony Declaration: 2018<br>\ud83d\udd3b Description: AKA Taher Sebti Building",
     "location": {
       "longitude": 33.5926494,
       "latitude": -7.6150295,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

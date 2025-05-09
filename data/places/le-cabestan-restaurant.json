@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Le Cabestan Restaurant",
-    "slug": "le-cabestan-restaurant",
-    "description": "🔻 Menu: Mediterranean",
+    "id": "le-cabestan-restaurant",
+    "description": "\ud83d\udd3b Menu: Mediterranean",
     "location": {
       "longitude": 33.6081836,
       "latitude": -7.6554723,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

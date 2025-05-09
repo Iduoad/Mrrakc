@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Dasos Restaurant",
-    "slug": "dasos-restaurant",
-    "description": "🔻 Menu: International",
+    "id": "dasos-restaurant",
+    "description": "\ud83d\udd3b Menu: International",
     "location": {
       "longitude": 33.4864861,
       "latitude": -7.6237724,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

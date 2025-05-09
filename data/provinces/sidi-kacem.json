@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Sidi Kacem",
-    "slug": "sidi-kacem",
-    "region": "Rabat-Salé-Kénitra",
+    "id": "sidi-kacem",
+    "region": "Rabat-Sale-Kenitra",
     "country": "Morocco"
   }
 }

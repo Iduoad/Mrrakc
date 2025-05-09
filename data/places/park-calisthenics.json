@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "park calisthenics",
-    "slug": "park-calisthenics",
-    "description": null,
+    "id": "park-calisthenics",
+    "description": "",
     "location": {
       "longitude": -7.5686789,
       "latitude": 33.5532819,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

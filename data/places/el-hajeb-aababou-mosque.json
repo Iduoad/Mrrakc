@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "El Hajeb Aababou Mosque",
-    "slug": "el-hajeb-aababou-mosque",
-    "description": null,
+    "id": "el-hajeb-aababou-mosque",
+    "description": "",
     "location": {
       "longitude": -7.605178,
       "latitude": 33.5789904,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

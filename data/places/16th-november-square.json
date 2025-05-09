@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "16th November Square",
-    "slug": "16th-november-square",
-    "description": "🔻 Comments:  Ex - Edmond Doutte Square",
+    "id": "16th-november-square",
+    "description": "\ud83d\udd3b Comments:\u00a0 Ex - Edmond Doutte Square",
     "location": {
       "longitude": 33.5946752,
       "latitude": -7.6169569,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

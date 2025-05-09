@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Casablanca Settat Chamber of Commerce - Industry and Services Building",
-    "slug": "casablanca-settat-chamber-of-commerce-industry-and-services-building",
-    "description": "🔻 Architect: Pierre Bousquet<br>🔻 Dates: 1929<br>🔻 Current Status: Chamber of Commerce, Industry and Services<br>🔻 Comments: Ex. Stock exchange, the first in Morocco and among the first in Africa (Third according to wikipedia https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
+    "id": "casablanca-settat-chamber-of-commerce-industry-and-services-building",
+    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Chamber of Commerce, Industry and Services<br>\ud83d\udd3b Comments: Ex. Stock exchange, the first in Morocco and among the first in Africa (Third according to wikipedia https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
     "location": {
       "longitude": 33.5946816,
       "latitude": -7.613631,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

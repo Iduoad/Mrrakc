@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "British Cemetery",
-    "slug": "british-cemetery",
-    "description": "🔻 Dates: 1864",
+    "id": "british-cemetery",
+    "description": "\ud83d\udd3b Dates: 1864",
     "location": {
       "longitude": 33.5953661,
       "latitude": -7.6207523,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

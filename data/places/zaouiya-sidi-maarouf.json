@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Zaouiya Sidi Maarouf",
-    "slug": "zaouiya-sidi-maarouf",
+    "id": "zaouiya-sidi-maarouf",
     "description": "",
     "location": {
       "longitude": 33.5640922,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Skhirate-Témara",
-    "slug": "skhirate-temara",
-    "region": "Rabat-Salé-Kénitra",
+    "id": "skhirate-temara",
+    "region": "Rabat-Sale-Kenitra",
     "country": "Morocco"
   }
 }

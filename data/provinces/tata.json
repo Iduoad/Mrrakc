@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Tata",
-    "slug": "tata",
+    "id": "tata",
     "region": "Souss-Massa",
     "country": "Morocco"
   }

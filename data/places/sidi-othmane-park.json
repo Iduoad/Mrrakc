@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sidi Othmane Park",
-    "slug": "sidi-othmane-park",
+    "id": "sidi-othmane-park",
     "description": "",
     "location": {
       "longitude": 33.5540745,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

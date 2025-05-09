@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Alliances Foundations Art Gallery",
-    "slug": "alliances-foundations-art-gallery",
+    "id": "alliances-foundations-art-gallery",
     "description": "",
     "location": {
       "longitude": 33.5876764,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

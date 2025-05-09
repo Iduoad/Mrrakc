@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Tazi Laboratory Building",
-    "slug": "tazi-laboratory-building",
-    "description": "🔻 Dates: ~1930s",
+    "id": "tazi-laboratory-building",
+    "description": "\ud83d\udd3b Dates: ~1930s",
     "location": {
       "longitude": 33.590908,
       "latitude": -7.6255254,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

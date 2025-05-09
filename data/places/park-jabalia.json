@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Park Jabalia",
-    "slug": "park-jabalia",
+    "id": "park-jabalia",
     "description": "",
     "location": {
       "longitude": 33.5257293,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

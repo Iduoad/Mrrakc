@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Pigeon Fountain (Square of Mohammed V)",
-    "slug": "square-of-mohammed-v-pigeon-fountain",
+    "id": "square-of-mohammed-v-pigeon-fountain",
     "description": "",
     "location": {
       "longitude": 33.5914402,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

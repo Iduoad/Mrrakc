@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Moulay Thami Mausoleum",
-    "slug": "moulay-thami-mausoleum",
+    "id": "moulay-thami-mausoleum",
     "description": "",
     "location": {
       "longitude": 33.4699961,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

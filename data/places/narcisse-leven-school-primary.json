@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Narcisse Leven School Primary",
-    "slug": "narcisse-leven-school-primary",
-    "description": "🔻 Architect: Elias & Joseph Suraqui<br>🔻 Dates: 1927<br>🔻 Current Status: School",
+    "id": "narcisse-leven-school-primary",
+    "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1927<br>\ud83d\udd3b Current Status: School",
     "location": {
       "longitude": 33.5956467,
       "latitude": -7.6306501,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Larache",
-    "slug": "larache",
+    "id": "larache",
     "region": "Tanger-Tetouan-Al Hoceima",
     "country": "Morocco"
   }

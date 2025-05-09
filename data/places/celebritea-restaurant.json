@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Celebritea Restaurant",
-    "slug": "celebritea-restaurant",
-    "description": "🔻 Menu: International<br>🔻 Tags: Brunch",
+    "id": "celebritea-restaurant",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Brunch",
     "location": {
       "longitude": 33.5760658,
       "latitude": -7.6586422,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

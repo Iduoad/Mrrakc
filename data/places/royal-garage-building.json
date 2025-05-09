@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Royal Garage Building",
-    "slug": "royal-garage-building",
-    "description": "🔻 Architect: Amédée Anicet & Louis Perrin-Hoppenot<br>🔻 Dates: 1957<br>🔻 Current Status: Garage<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "royal-garage-building",
+    "description": "\ud83d\udd3b Architect: Am\u00e9d\u00e9e Anicet & Louis Perrin-Hoppenot<br>\ud83d\udd3b Dates: 1957<br>\ud83d\udd3b Current Status: Garage<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5931028,
       "latitude": -7.6063146,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

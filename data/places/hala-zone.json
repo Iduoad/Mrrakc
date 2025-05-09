@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Hala Zone",
-    "slug": "hala-zone",
+    "id": "hala-zone",
     "description": "Escargot and Seafood",
     "location": {
       "longitude": 33.5393982,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

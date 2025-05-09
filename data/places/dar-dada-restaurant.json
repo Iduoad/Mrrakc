@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Dar Dada Restaurant",
-    "slug": "dar-dada-restaurant",
-    "description": "🔻 Menu: Moroccan<br>🔻 Tags: Fine Dining",
+    "id": "dar-dada-restaurant",
+    "description": "\ud83d\udd3b Menu: Moroccan<br>\ud83d\udd3b Tags: Fine Dining",
     "location": {
       "longitude": 33.6039639,
       "latitude": -7.6213916,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

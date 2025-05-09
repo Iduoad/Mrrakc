@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Ain Diab Corniche",
-    "slug": "ain-diab-corniche",
+    "id": "ain-diab-corniche",
     "description": "",
     "location": {
       "longitude": 33.5964552,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

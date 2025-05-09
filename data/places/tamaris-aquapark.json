@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Tamaris Aquapark",
-    "slug": "tamaris-aquapark",
-    "description": null,
+    "id": "tamaris-aquapark",
+    "description": "",
     "location": {
       "longitude": -7.7839804,
       "latitude": 33.5225589,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

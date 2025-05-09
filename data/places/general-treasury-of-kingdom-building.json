@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "General Treasury of Kingdom Building",
-    "slug": "general-treasury-of-kingdom-building",
-    "description": "🔻 Current Status: Treasury of the Kingdom<br>🔻 National Material Patrimony Declaration: 2003",
+    "id": "general-treasury-of-kingdom-building",
+    "description": "\ud83d\udd3b Current Status: Treasury of the Kingdom<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
     "location": {
       "longitude": 33.5924842,
       "latitude": -7.6198634,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Gokart pro Karting",
-    "slug": "gokart-pro-karting",
-    "description": null,
+    "id": "gokart-pro-karting",
+    "description": "",
     "location": {
       "longitude": -7.6360756,
       "latitude": 33.4797575,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

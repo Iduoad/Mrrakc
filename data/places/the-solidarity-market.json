@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "The Solidarity Market",
-    "slug": "the-solidarity-market",
+    "id": "the-solidarity-market",
     "description": "",
     "location": {
       "longitude": 33.5544187,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

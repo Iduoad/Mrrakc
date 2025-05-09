@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Garage Coli Building",
-    "slug": "garage-coli-building",
-    "description": "🔻 Architect: Amédée Anicet<br>🔻 Dates: 1955<br>🔻 Current Status: Hotel + Businesses<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "garage-coli-building",
+    "description": "\ud83d\udd3b Architect: Am\u00e9d\u00e9e Anicet<br>\ud83d\udd3b Dates: 1955<br>\ud83d\udd3b Current Status: Hotel + Businesses<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5934273,
       "latitude": -7.611898,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

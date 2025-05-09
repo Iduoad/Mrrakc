@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Fquih Ben Salah",
-    "slug": "fquih-ben-salh",
-    "region": "Béni Mellal-Khénifra",
+    "id": "fquih-ben-salh",
+    "region": "Beni Mellal-Khenifra",
     "country": "Morocco"
   }
 }

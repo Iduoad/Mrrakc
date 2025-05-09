@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Socifrance Building",
-    "slug": "socifrance-building",
-    "description": "🔻 Architect: Erwin Hinnen<br>🔻 Dates: 1934-1935<br>🔻 Current Status: Inhabited",
+    "id": "socifrance-building",
+    "description": "\ud83d\udd3b Architect: Erwin Hinnen<br>\ud83d\udd3b Dates: 1934-1935<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5955348,
       "latitude": -7.6175283,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

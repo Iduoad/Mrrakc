@@ -5,8 +5,8 @@
     "tags": []
   },
   "spec": {
-    "name": "Cité Hay Hassani",
-    "slug": "cite-hay-hassani",
+    "name": "Cit\u00e9 Hay Hassani",
+    "id": "cite-hay-hassani",
     "description": "",
     "location": {
       "longitude": 33.5719117,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

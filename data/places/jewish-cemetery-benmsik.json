@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Jewish Cemetery Benmsik",
-    "slug": "jewish-cemetery-benmsik",
+    "id": "jewish-cemetery-benmsik",
     "description": "",
     "location": {
       "longitude": 33.5801881,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

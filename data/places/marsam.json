@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Marsam",
-    "slug": "marsam",
+    "id": "marsam",
     "description": "",
     "location": {
       "longitude": 33.5935182,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

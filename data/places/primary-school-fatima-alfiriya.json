@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Primary School Fatima Alfiriya",
-    "slug": "primary-school-fatima-alfiriya",
+    "id": "primary-school-fatima-alfiriya",
     "description": "",
     "location": {
       "longitude": 33.6019693,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Hassan et de la Salle Building",
-    "slug": "hassan-et-de-la-salle-building",
-    "description": "🔻 Architect: Elias & Joseph Suraqui<br>🔻 Dates: 1928<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "hassan-et-de-la-salle-building",
+    "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.594891,
       "latitude": -7.619924,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

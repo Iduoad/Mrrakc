@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Royal Air Maroc Old planes Museum",
-    "slug": "royal-air-maroc-old-planes-museum",
+    "id": "royal-air-maroc-old-planes-museum",
     "description": "Old Anfa Aeroport",
     "location": {
       "longitude": 33.5609475,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

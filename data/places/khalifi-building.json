@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Khalifi Building",
-    "slug": "khalifi-building",
-    "description": "🔻 Current Status: Inhabited",
+    "id": "khalifi-building",
+    "description": "\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5934231,
       "latitude": -7.6080259,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

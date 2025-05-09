@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Fun Art Place",
-    "slug": "fun-art-place",
-    "description": null,
+    "id": "fun-art-place",
+    "description": "",
     "location": {
       "longitude": -7.6641477,
       "latitude": 33.5990149,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

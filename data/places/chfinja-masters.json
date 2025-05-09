@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Chfinja Masters",
-    "slug": "chfinja-masters",
+    "id": "chfinja-masters",
     "description": "",
     "location": {
       "longitude": 33.6020879,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

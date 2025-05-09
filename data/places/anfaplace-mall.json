@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Anfaplace Mall",
-    "slug": "anfaplace-mall",
+    "id": "anfaplace-mall",
     "description": "",
     "location": {
       "longitude": 33.598129,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

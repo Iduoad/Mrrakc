@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Gallinari Building",
-    "slug": "gallinari-building",
-    "description": "🔻 Architect: Elias & Joseph Suraqui<br>🔻 Dates: 1924<br>🔻 Current Status: Inhabited<br>🔻 Comments: The face on the facade is of Dionysus the god of Wine.",
+    "id": "gallinari-building",
+    "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1924<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: The face on the facade is of Dionysus the god of Wine.",
     "location": {
       "longitude": 33.5950876,
       "latitude": -7.6140746,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Mamouniya Cinema",
-    "slug": "mamouniya-cinema",
-    "description": "🔻 Dates: 1940-1950<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "mamouniya-cinema",
+    "description": "\ud83d\udd3b Dates: 1940-1950<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5838878,
       "latitude": -7.6023812,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

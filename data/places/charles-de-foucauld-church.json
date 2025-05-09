@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Charles De Foucauld Church",
-    "slug": "charles-de-foucauld-church",
+    "id": "charles-de-foucauld-church",
     "description": "",
     "location": {
       "longitude": 33.5718649,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

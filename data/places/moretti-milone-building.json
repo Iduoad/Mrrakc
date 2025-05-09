@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Moretti-Milone Building",
-    "slug": "moretti-milone-building",
-    "description": "🔻 Architect: Pierre Jabin<br>🔻 Dates: 1934<br>🔻 Current Status: Inhabited",
+    "id": "moretti-milone-building",
+    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1934<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5972394,
       "latitude": -7.6161201,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

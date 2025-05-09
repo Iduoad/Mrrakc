@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Bennis Bakery",
-    "slug": "bennis-bakery",
+    "id": "bennis-bakery",
     "description": "",
     "location": {
       "longitude": 33.5780213,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

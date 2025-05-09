@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Taounate",
-    "slug": "taounate",
-    "region": "Fès-Meknès",
+    "id": "taounate",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

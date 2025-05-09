@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Zagora",
-    "slug": "zagora",
-    "region": "Drâa-Tafilalet",
+    "id": "zagora",
+    "region": "Draa-Tafilalet",
     "country": "Morocco"
   }
 }

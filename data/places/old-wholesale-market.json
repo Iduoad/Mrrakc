@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Old wholesale market",
-    "slug": "old-wholesale-market",
-    "description": "🔻 Architect: Paul Perrot<br>🔻 Dates: 1930s<br>🔻 Current Status: Closed",
+    "id": "old-wholesale-market",
+    "description": "\ud83d\udd3b Architect: Paul Perrot<br>\ud83d\udd3b Dates: 1930s<br>\ud83d\udd3b Current Status: Closed",
     "location": {
       "longitude": 33.5905895,
       "latitude": -7.5964451,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

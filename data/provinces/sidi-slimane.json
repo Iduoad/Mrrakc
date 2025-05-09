@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Sidi Slimane",
-    "slug": "sidi-slimane",
-    "region": "Rabat-Salé-Kénitra",
+    "id": "sidi-slimane",
+    "region": "Rabat-Sale-Kenitra",
     "country": "Morocco"
   }
 }

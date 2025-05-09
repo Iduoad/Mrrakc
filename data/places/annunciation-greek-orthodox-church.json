@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Annunciation Greek Orthodox Church",
-    "slug": "annunciation-greek-orthodox-church",
-    "description": "🔻 Dates: 1929-1934",
+    "id": "annunciation-greek-orthodox-church",
+    "description": "\ud83d\udd3b Dates: 1929-1934",
     "location": {
       "longitude": 33.5820147,
       "latitude": -7.6135185,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

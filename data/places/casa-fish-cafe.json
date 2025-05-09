@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Casa Fish Cafe",
-    "slug": "casa-fish-cafe",
+    "id": "casa-fish-cafe",
     "description": "",
     "location": {
       "longitude": 33.6000718,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

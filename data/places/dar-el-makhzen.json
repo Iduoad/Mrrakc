@@ -1,12 +1,12 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace ",
+  "kind": "architecture/palace",
   "metadata": {
     "tags": []
   },
   "spec": {
     "name": "Dar el Makhzen",
-    "slug": "dar-el-makhzen",
+    "id": "dar-el-makhzen",
     "description": "",
     "location": {
       "longitude": 33.5984101,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

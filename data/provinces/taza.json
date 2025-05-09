@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Taza",
-    "slug": "taza",
-    "region": "Fès-Meknès",
+    "id": "taza",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

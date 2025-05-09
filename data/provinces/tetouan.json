@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Tétouan",
-    "slug": "tetouan",
+    "id": "tetouan",
     "region": "Tanger-Tetouan-Al Hoceima",
     "country": "Morocco"
   }

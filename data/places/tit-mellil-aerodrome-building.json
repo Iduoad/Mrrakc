@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Tit Mellil Aerodrome Building",
-    "slug": "tit-mellil-aerodrome-building",
-    "description": "🔻 Architect: Jean-François Zevaco<br>🔻 Dates: 1950-1955<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "tit-mellil-aerodrome-building",
+    "description": "\ud83d\udd3b Architect: Jean-Fran\u00e7ois Zevaco<br>\ud83d\udd3b Dates: 1950-1955<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5965304,
       "latitude": -7.4669785,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

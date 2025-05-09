@@ -14,13 +14,13 @@
     },
     "spec": {
       "type": "object",
-      "required": ["name", "slug", "description", "location", "access", "timePeriod"],
+      "required": ["name", "id", "description", "location", "access", "timePeriods"],
       "properties": {
         "name": {
           "type": "string",
           "description": "Place name"
         },
-        "slug": {
+        "id": {
           "type": "string",
           "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
           "description": "URL-friendly version of name in kebab-case"
@@ -52,26 +52,23 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["person", "designations"],
+            "required": ["id", "relationship"],
             "properties": {
-              "person": {
+              "id": {
                 "type": "string",
                 "pattern": "^people/[a-z0-9]+(?:-[a-z0-9]+)*$",
                 "description": "Reference to a person associated with this place"
               },
-              "designations": {
+              "relationship": {
                 "type": "array",
                 "items": {
                   "type": "string"
                 },
                 "description": "List of designations of the person in relation to this place"
               },
-              "comments": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                },
-                "description": "Comments about the relationship between the person and place"
+              "comment": {
+                "type": "string",
+                "description": "Comment about the relationship between the person and place"
               }
             }
           }
@@ -120,9 +117,9 @@
               "type": "array",
               "items": {
                 "type": "object",
-                "required": ["label", "modality", "audience", "entranceFee"],
+                "required": ["title", "modality", "audience", "entranceFee"],
                 "properties": {
-                  "label": {
+                  "title": {
                     "type": "string",
                     "description": "Label explaining the access option"
                   },
@@ -156,9 +153,12 @@
             }
           }
         },
-        "timePeriod": {
-          "type": "string",
-          "description": "Time period or era of the place"
+        "timePeriods": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Time periods or era of the place"
         }
       }
     }

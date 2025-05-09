@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Médiouna",
-    "slug": "mediouna",
+    "id": "mediouna",
     "region": "Casablanca-Settat",
     "country": "Morocco"
   }

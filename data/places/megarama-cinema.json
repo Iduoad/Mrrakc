@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Megarama Cinema",
-    "slug": "megarama-cinema",
-    "description": null,
+    "id": "megarama-cinema",
+    "description": "",
     "location": {
       "longitude": -7.6681593,
       "latitude": 33.5959707,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

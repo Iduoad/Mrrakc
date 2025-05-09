@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "El Baladia Barbecue square",
-    "slug": "el-baladia-barbecue-square",
+    "id": "el-baladia-barbecue-square",
     "description": "You can have Camel meat barbecue",
     "location": {
       "longitude": 33.5755161,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

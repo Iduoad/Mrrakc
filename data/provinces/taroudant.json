@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Taroudant",
-    "slug": "taroudant",
+    "id": "taroudant",
     "region": "Souss-Massa",
     "country": "Morocco"
   }

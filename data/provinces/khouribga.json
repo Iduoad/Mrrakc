@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Khouribga",
-    "slug": "khouribga",
-    "region": "Béni Mellal-Khénifra",
+    "id": "khouribga",
+    "region": "Beni Mellal-Khenifra",
     "country": "Morocco"
   }
 }

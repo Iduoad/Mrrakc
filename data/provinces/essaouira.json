@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Essaouira",
-    "slug": "essaouira",
+    "id": "essaouira",
     "region": "Marrakesh-Safi",
     "country": "Morocco"
   }

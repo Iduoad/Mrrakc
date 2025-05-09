@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Chez Latifa Sea food",
-    "slug": "chez-latifa-sea-food",
+    "id": "chez-latifa-sea-food",
     "description": "Fish snacks, including fresh crab and Oysters",
     "location": {
       "longitude": 33.5948681,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

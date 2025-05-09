@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Twin Towers Center",
-    "slug": "twin-towers-center",
+    "id": "twin-towers-center",
     "description": "",
     "location": {
       "longitude": 33.5866755,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

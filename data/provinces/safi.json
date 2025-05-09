@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Safi",
-    "slug": "safi",
+    "id": "safi",
     "region": "Marrakesh-Safi",
     "country": "Morocco"
   }

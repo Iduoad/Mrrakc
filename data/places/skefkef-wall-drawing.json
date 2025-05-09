@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Skefkef wall drawing",
-    "slug": "skefkef-wall-drawing",
+    "id": "skefkef-wall-drawing",
     "description": "",
     "location": {
       "longitude": 33.6014609,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Zaouiya Tidjania - Ain chock",
-    "slug": "zaouiya-tidjania-ain-chock",
+    "id": "zaouiya-tidjania-ain-chock",
     "description": "",
     "location": {
       "longitude": 33.5534369,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

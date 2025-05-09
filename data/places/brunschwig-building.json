@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Brunschwig Building",
-    "slug": "brunschwig-building",
-    "description": "🔻 Architect: Elias & Joseph Suraqui<br>🔻 Dates: 1928<br>🔻 Current Status: Inhabited",
+    "id": "brunschwig-building",
+    "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.594246,
       "latitude": -7.61965,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

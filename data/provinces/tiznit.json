@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Tiznit",
-    "slug": "tiznit",
+    "id": "tiznit",
     "region": "Souss-Massa",
     "country": "Morocco"
   }

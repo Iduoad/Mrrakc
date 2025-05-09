@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Le Rossignol Restaurant",
-    "slug": "le-rossignol-restaurant",
-    "description": "🔻 Menu: French",
+    "id": "le-rossignol-restaurant",
+    "description": "\ud83d\udd3b Menu: French",
     "location": {
       "longitude": 33.5902161,
       "latitude": -7.6304005,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

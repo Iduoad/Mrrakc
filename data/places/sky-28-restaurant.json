@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Sky 28 Restaurant",
-    "slug": "sky-28-restaurant",
-    "description": "🔻 Menu: International<br>🔻 Tags: View",
+    "id": "sky-28-restaurant",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: View",
     "location": {
       "longitude": 33.586646,
       "latitude": -7.6320104,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

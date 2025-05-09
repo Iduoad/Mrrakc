@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Tinasse Workshop",
-    "slug": "tinasse-workshop",
-    "description": null,
+    "id": "tinasse-workshop",
+    "description": "",
     "location": {
       "longitude": -7.6337506,
       "latitude": 33.6007925,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

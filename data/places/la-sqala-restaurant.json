@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "La Sqala Restaurant",
-    "slug": "la-sqala-restaurant",
-    "description": "🔻 Menu: Moroccan",
+    "id": "la-sqala-restaurant",
+    "description": "\ud83d\udd3b Menu: Moroccan",
     "location": {
       "longitude": 33.6028737,
       "latitude": -7.6194179,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

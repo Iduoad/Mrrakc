@@ -1,12 +1,12 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace ",
+  "kind": "architecture/palace",
   "metadata": {
     "tags": []
   },
   "spec": {
     "name": "Royal Palace",
-    "slug": "royal-palace",
+    "id": "royal-palace",
     "description": "",
     "location": {
       "longitude": 33.5803387,
@@ -19,9 +19,11 @@
     "activities": [],
     "items": [],
     "access": {
-      "type": "public",
+      "type": "forbidden",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

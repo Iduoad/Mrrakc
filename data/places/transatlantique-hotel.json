@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Transatlantique Hotel",
-    "slug": "transatlantique-hotel",
-    "description": "🔻 Dates: 1922<br>🔻 Current Status: Hotel<br>🔻 National Material Patrimony Declaration: 2004",
+    "id": "transatlantique-hotel",
+    "description": "\ud83d\udd3b Dates: 1922<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
     "location": {
       "longitude": 33.5923948,
       "latitude": -7.6141621,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

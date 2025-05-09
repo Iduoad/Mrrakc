@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Muhammadi Mosque",
-    "slug": "muhammadi-mosque",
+    "id": "muhammadi-mosque",
     "description": "Also known as Mohammed Ben Youssef Mosque, it was designed by French architects Auguste Cadet and Edmond Brion between 1934 and 1936 CE and named after Sultan Mohammed Ben Youssef (King Mohammed V). It is currently open.",
     "location": {
       "longitude": -7.6060377,
@@ -14,14 +14,23 @@
       "province": "province/casablanca"
     },
     "people": [
-      "people/auguste-cadet",
-      "people/edmond-brion",
-      "people/mohammed-ben-youssef"
+      {
+        "id": "people/mohammed-v",
+        "relationship": ["sultan", "founder"]
+      },
+      {
+        "id": "people/auguste-cadet",
+        "relationship": ["architect"]
+      },
+      {
+        "id": "people/edmond-brion",
+        "relationship": ["architect"]
+      }
     ],
     "timeline": [
       {
         "title": "Construction Period",
-        "description": null,
+        "description": "",
         "date": "1934-1936 CE"
       }
     ],
@@ -34,6 +43,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": "20th century"
+    "timePeriods": [
+      "20th century"
+    ]
   }
 }

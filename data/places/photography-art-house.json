@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Photography Art House",
-    "slug": "photography-art-house",
-    "description": "🔻 Architect: Tadao Ando<br>🔻 Current Status: In Progress<br><br>- https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/<br>- https://www.facebook.com/Maison.Photographie.Ennadre.Medina.Casablanca/?locale=fr_FR",
+    "id": "photography-art-house",
+    "description": "\ud83d\udd3b Architect: Tadao Ando<br>\ud83d\udd3b Current Status: In Progress<br><br>- https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/<br>- https://www.facebook.com/Maison.Photographie.Ennadre.Medina.Casablanca/?locale=fr_FR",
     "location": {
       "longitude": 33.6021729,
       "latitude": -7.6199751,
@@ -18,13 +18,13 @@
     "links": [
       {
         "url": "https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/<br>-",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       },
       {
         "url": "https://www.facebook.com/Maison.Photographie.Ennadre.Medina.Casablanca/?locale=fr_FR",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -33,6 +33,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

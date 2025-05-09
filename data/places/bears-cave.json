@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Bears Cave",
-    "slug": "bears-cave",
-    "description": null,
+    "id": "bears-cave",
+    "description": "",
     "location": {
       "longitude": -7.6826227,
       "latitude": 33.5821033,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
-        "description": null,
-        "type": "article"
+        "type": "article",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

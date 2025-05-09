@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Bouchentouf Sqaure",
-    "slug": "bouchentouf-sqaure",
+    "id": "bouchentouf-sqaure",
     "description": "",
     "location": {
       "longitude": 33.5696821,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

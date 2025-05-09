@@ -5,8 +5,8 @@
     "tags": []
   },
   "spec": {
-    "name": "Attarik Expo (Les Météorites Messageres du Ciel)",
-    "slug": "attarik-expo",
+    "name": "Attarik Expo (Les M\u00e9t\u00e9orites Messageres du Ciel)",
+    "id": "attarik-expo",
     "description": "",
     "location": {
       "longitude": 33.6061353,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

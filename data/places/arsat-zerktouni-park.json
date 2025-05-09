@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Arsat Zerktouni Park",
-    "slug": "arsat-zerktouni-park",
+    "id": "arsat-zerktouni-park",
     "description": "",
     "location": {
       "longitude": 33.6045604,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

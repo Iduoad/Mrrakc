@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Bab Jdid",
-    "slug": "bab-jdid",
+    "id": "bab-jdid",
     "description": "",
     "location": {
       "longitude": 33.6022713,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

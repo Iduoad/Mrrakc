@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Azilal",
-    "slug": "azilal",
-    "region": "Béni Mellal-Khénifra",
+    "id": "azilal",
+    "region": "Beni Mellal-Khenifra",
     "country": "Morocco"
   }
 }

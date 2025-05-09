@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Moulay Youssef Mosque",
-    "slug": "moulay-youssef-mosque",
+    "id": "moulay-youssef-mosque",
     "description": "Designed by French architects Auguste Cadet and Edmond Brion, this mosque was named after Sultan Moulay Youssef and was completed in 1923. It is currently open.",
     "location": {
       "longitude": -7.6045346,
@@ -14,14 +14,23 @@
       "province": "province/casablanca"
     },
     "people": [
-      "people/auguste-cadet",
-      "people/edmond-brion",
-      "people/moulay-youssef"
+      {
+        "id": "people/moulay-youssef",
+        "relationship": ["sultan", "founder"]
+      },
+      {
+        "id": "people/auguste-cadet",
+        "relationship": ["architect"]
+      },
+      {
+        "id": "people/edmond-brion",
+        "relationship": ["architect"]
+      }
     ],
     "timeline": [
       {
         "title": "Completion Date",
-        "description": null,
+        "description": "",
         "date": "1923"
       }
     ],
@@ -34,6 +43,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": "20th century"
+    "timePeriods": [
+      "20th century"
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Il Ferrarino Restaurant",
-    "slug": "il-ferrarino-restaurant",
-    "description": "🔻 Menu: Italian",
+    "id": "il-ferrarino-restaurant",
+    "description": "\ud83d\udd3b Menu: Italian",
     "location": {
       "longitude": 33.5877302,
       "latitude": -7.6423387,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

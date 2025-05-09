@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Casablanca Port",
-    "slug": "casablanca-port",
+    "id": "casablanca-port",
     "description": "",
     "location": {
       "longitude": 33.6024486,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

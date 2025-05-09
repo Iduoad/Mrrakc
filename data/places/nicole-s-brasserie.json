@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Nicole's Brasserie",
-    "slug": "nicole-s-brasserie",
-    "description": "🔻 Menu: French",
+    "id": "nicole-s-brasserie",
+    "description": "\ud83d\udd3b Menu: French",
     "location": {
       "longitude": 33.5897869,
       "latitude": -7.6323522,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

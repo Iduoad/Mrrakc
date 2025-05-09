@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Roches Noires Library",
-    "slug": "roches-noires-library",
-    "description": null,
+    "id": "roches-noires-library",
+    "description": "",
     "location": {
       "longitude": -7.5969295,
       "latitude": 33.5911621,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

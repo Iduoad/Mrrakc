@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sidi Ali El Hajjam Mausoleum",
-    "slug": "sidi-ali-el-hajjam-mausoleum",
+    "id": "sidi-ali-el-hajjam-mausoleum",
     "description": "",
     "location": {
       "longitude": 33.516838,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

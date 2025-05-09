@@ -5,9 +5,9 @@
     "tags": []
   },
   "spec": {
-    "name": "CinéAtlas Casablanca",
-    "slug": "cineatlas-casablanca",
-    "description": null,
+    "name": "Cin\u00e9Atlas Casablanca",
+    "id": "cineatlas-casablanca",
+    "description": "",
     "location": {
       "longitude": -7.6635283,
       "latitude": 33.5630172,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

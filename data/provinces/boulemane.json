@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Boulemane",
-    "slug": "boulemane",
-    "region": "Fès-Meknès",
+    "id": "boulemane",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

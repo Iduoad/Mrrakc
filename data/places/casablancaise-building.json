@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Casablancaise Building",
-    "slug": "casablancaise-building",
-    "description": "🔻 Architect: Robert Lievre<br>🔻 Dates: 1936<br>🔻 Current Status: Renovating <br>🔻 Comments: It was dedicated for Physical Education and Sports.",
+    "id": "casablancaise-building",
+    "description": "\ud83d\udd3b Architect: Robert Lievre<br>\ud83d\udd3b Dates: 1936<br>\ud83d\udd3b Current Status: Renovating <br>\ud83d\udd3b Comments: It was dedicated for Physical Education and Sports.",
     "location": {
       "longitude": 33.5894334,
       "latitude": -7.6217188,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

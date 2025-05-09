@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Cinerji Cinema",
-    "slug": "cinerji-cinema",
-    "description": null,
+    "id": "cinerji-cinema",
+    "description": "",
     "location": {
       "longitude": -7.7048529,
       "latitude": 33.5774393,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Bennarosh Building",
-    "slug": "bennarosh-building",
-    "description": "🔻 Architect: Aldo Manassi<br>🔻 Dates: 1932<br>🔻 Current Status: Inhabited",
+    "id": "bennarosh-building",
+    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5943554,
       "latitude": -7.6167903,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

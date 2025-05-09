@@ -6,15 +6,18 @@
   },
   "spec": {
     "name": "Hotel Particulier 4",
-    "slug": "hotel-particulier-4",
-    "description": "🔻 Architect: Edmond Brion<br>🔻 Dates: 1936",
+    "id": "hotel-particulier-4",
+    "description": "\ud83d\udd3b Architect: Edmond Brion<br>\ud83d\udd3b Dates: 1936",
     "location": {
       "longitude": 33.5925371,
       "latitude": -7.6233119,
       "province": "province/casablanca"
     },
     "people": [
-      "people/edmond-brion"
+      {
+        "id": "people/edmond-brion",
+        "relationship": ["architect"]
+      }
     ],
     "timeline": [],
     "links": [],
@@ -24,6 +27,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

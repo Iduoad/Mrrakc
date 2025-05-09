@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Synagogue Bennaroch",
-    "slug": "synagogue-bennaroch",
+    "id": "synagogue-bennaroch",
     "description": "",
     "location": {
       "longitude": 33.5944302,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

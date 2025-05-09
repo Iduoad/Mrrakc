@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Le Patio Restaurant",
-    "slug": "le-patio-restaurant",
-    "description": "🔻 Menu: Mediterranean",
+    "id": "le-patio-restaurant",
+    "description": "\ud83d\udd3b Menu: Mediterranean",
     "location": {
       "longitude": 33.5874208,
       "latitude": -7.6295032,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

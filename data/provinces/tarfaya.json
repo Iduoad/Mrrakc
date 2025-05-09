@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Tarfaya",
-    "slug": "tarfaya",
-    "region": "Laâyoune-Sakia El Hamra",
+    "id": "tarfaya",
+    "region": "Laayoune-Sakia El Hamra",
     "country": "Morocco"
   }
 }

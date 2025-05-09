@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Worker neighborhood Cosuma",
-    "slug": "worker-neighborhood-cosuma",
-    "description": "🔻 Architect: Edmon Brion<br>🔻 Dates: 1932-1937<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "worker-neighborhood-cosuma",
+    "description": "\ud83d\udd3b Architect: Edmon Brion<br>\ud83d\udd3b Dates: 1932-1937<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.6006246,
       "latitude": -7.5715161,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

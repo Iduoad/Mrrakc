@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Attijari Wafabank Building",
-    "slug": "attijari-wafabank-building",
-    "description": "🔻 Architect: Henri Prost & Antoine Marchisio<br>🔻 Dates: 1928<br>🔻 Current Status: Bank<br>🔻 Comment: Used to house the \"Companie Algerienne\" which was an Algerian bank during the French Protectorate.<br>------<br>🔗 https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
+    "id": "attijari-wafabank-building",
+    "description": "\ud83d\udd3b Architect: Henri Prost & Antoine Marchisio<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b Comment: Used to house the \"Companie Algerienne\" which was an Algerian bank during the French Protectorate.<br>------<br>\ud83d\udd17 https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
     "location": {
       "longitude": 33.5949227,
       "latitude": -7.6178758,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

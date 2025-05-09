@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Lily's Restaurant",
-    "slug": "lily-s-restaurant",
-    "description": "🔻 Menu: Asian",
+    "id": "lily-s-restaurant",
+    "description": "\ud83d\udd3b Menu: Asian",
     "location": {
       "longitude": 33.6080436,
       "latitude": -7.6555925,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

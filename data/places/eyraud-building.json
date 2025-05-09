@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Eyraud Building",
-    "slug": "eyraud-building",
-    "description": "🔻 Architect: George-Jean Grel<br>🔻 Dates: 1930<br>🔻 Current Status: Inhabited",
+    "id": "eyraud-building",
+    "description": "\ud83d\udd3b Architect: George-Jean Grel<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.593558,
       "latitude": -7.619889,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

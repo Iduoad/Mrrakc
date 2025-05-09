@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sidi Othmane Mausoleum",
-    "slug": "sidi-othmane-mausoleum",
+    "id": "sidi-othmane-mausoleum",
     "description": "",
     "location": {
       "longitude": 33.5597611,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Medina Restaurant",
-    "slug": "medina-restaurant",
-    "description": "🔻 Menu: Moroccan",
+    "id": "medina-restaurant",
+    "description": "\ud83d\udd3b Menu: Moroccan",
     "location": {
       "longitude": 33.600301,
       "latitude": -7.6169016,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

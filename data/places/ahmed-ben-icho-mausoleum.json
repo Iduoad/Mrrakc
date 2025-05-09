@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Ahmed Ben Icho Mausoleum",
-    "slug": "ahmed-ben-icho-mausoleum",
+    "id": "ahmed-ben-icho-mausoleum",
     "description": "",
     "location": {
       "longitude": 33.6415831,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -5,8 +5,8 @@
     "tags": []
   },
   "spec": {
-    "name": "Ak'dart / Décoration et Art",
-    "slug": "ak-dart-decoration-et-art",
+    "name": "Ak'dart / D\u00e9coration et Art",
+    "id": "ak-dart-decoration-et-art",
     "description": "",
     "location": {
       "longitude": 33.5340022,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Casa Galicia Restaurant",
-    "slug": "casa-galicia-restaurant",
-    "description": "🔻 Menu: Spanish",
+    "id": "casa-galicia-restaurant",
+    "description": "\ud83d\udd3b Menu: Spanish",
     "location": {
       "longitude": 33.5818906,
       "latitude": -7.62692,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

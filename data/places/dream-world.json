@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Dream World",
-    "slug": "dream-world",
-    "description": null,
+    "id": "dream-world",
+    "description": "",
     "location": {
       "longitude": -7.6330593,
       "latitude": 33.5818992,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

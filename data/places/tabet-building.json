@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Tabet Building",
-    "slug": "tabet-building",
-    "description": "🔻 Architect: Joseph & Elias Suraqui<br>🔻 Dates: 1929<br>🔻 Current Status: Inhabited",
+    "id": "tabet-building",
+    "description": "\ud83d\udd3b Architect: Joseph & Elias Suraqui<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.593584,
       "latitude": -7.620145,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

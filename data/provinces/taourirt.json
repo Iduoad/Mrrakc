@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Taourirt",
-    "slug": "taourirt",
+    "id": "taourirt",
     "region": "Oriental",
     "country": "Morocco"
   }

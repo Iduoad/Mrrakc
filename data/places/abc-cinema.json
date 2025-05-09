@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "ABC Cinema",
-    "slug": "abc-cinema",
-    "description": "🔻 Architect: Aldo Manassi<br>🔻 Dates: 1927<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2013<br>🔻 links: https://www.zupimages.net/viewer.php?id=18/06/ksb0.jpg",
+    "id": "abc-cinema",
+    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1927<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2013<br>\ud83d\udd3b links: https://www.zupimages.net/viewer.php?id=18/06/ksb0.jpg",
     "location": {
       "longitude": 33.5954405,
       "latitude": -7.6161793,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://www.zupimages.net/viewer.php?id=18/06/ksb0.jpg",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

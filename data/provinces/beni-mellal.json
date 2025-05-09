@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Béni-Mellal",
-    "slug": "beni-mellal",
-    "region": "Béni Mellal-Khénifra",
+    "id": "beni-mellal",
+    "region": "Beni Mellal-Khenifra",
     "country": "Morocco"
   }
 }

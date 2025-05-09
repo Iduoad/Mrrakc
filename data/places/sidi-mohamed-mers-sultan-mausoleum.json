@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sidi Mohamed Mers Sultan Mausoleum",
-    "slug": "sidi-mohamed-mers-sultan-mausoleum",
+    "id": "sidi-mohamed-mers-sultan-mausoleum",
     "description": "",
     "location": {
       "longitude": 33.5814648,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

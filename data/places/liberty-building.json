@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Liberty Building",
-    "slug": "liberty-building",
-    "description": "🔻 Architect: \tLéonard Morandi<br>🔻 Dates: 1950<br>🔻 Current Status: Inhabited<br>🔻 Comments: It's also called 17 floors building. When it was built it was the highest building in Africa.",
+    "id": "liberty-building",
+    "description": "\ud83d\udd3b Architect: \tL\u00e9onard Morandi<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: It's also called 17 floors building. When it was built it was the highest building in Africa.",
     "location": {
       "longitude": 33.5847033,
       "latitude": -7.6103865,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

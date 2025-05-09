@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Fiat Garage Building",
-    "slug": "fiat-garage-building",
-    "description": "🔻 Architect: Aldo Manassi<br>🔻 Dates: 1920<br>🔻 Current Status: closed<br>🔻 National Material Patrimony Declaration: 2012",
+    "id": "fiat-garage-building",
+    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1920<br>\ud83d\udd3b Current Status: closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2012",
     "location": {
       "longitude": 33.5891085,
       "latitude": -7.6152511,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

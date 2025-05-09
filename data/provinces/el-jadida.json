@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "El Jadida",
-    "slug": "el-jadida",
+    "id": "el-jadida",
     "region": "Casablanca-Settat",
     "country": "Morocco"
   }

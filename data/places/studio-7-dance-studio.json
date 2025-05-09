@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Studio 7 Dance Studio",
-    "slug": "studio-7-dance-studio",
-    "description": null,
+    "id": "studio-7-dance-studio",
+    "description": "",
     "location": {
       "longitude": -7.6282876,
       "latitude": 33.5888173,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

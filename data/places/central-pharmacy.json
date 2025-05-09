@@ -6,16 +6,22 @@
   },
   "spec": {
     "name": "Central Pharmacy",
-    "slug": "central-pharmacy",
-    "description": "🔻 Architect: Auguste Cadet & Edmond Brion<br>🔻 Dates: 1925<br>🔻 Current Status: Pharmacy<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "central-pharmacy",
+    "description": "\ud83d\udd3b Architect: Auguste Cadet & Edmond Brion<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Pharmacy<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5923842,
       "latitude": -7.6091272,
       "province": "province/casablanca"
     },
     "people": [
-      "people/auguste-cadet",
-      "people/edmond-brion"
+      {
+        "id": "people/edmond-brion",
+        "relationship": ["architect"]
+      },
+      {
+        "id": "people/auguste-cadet",
+        "relationship": ["architect"]
+      }
     ],
     "timeline": [],
     "links": [],
@@ -25,6 +31,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

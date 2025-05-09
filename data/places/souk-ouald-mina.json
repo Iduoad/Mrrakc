@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Souk Ouald Mina",
-    "slug": "souk-ouald-mina",
+    "id": "souk-ouald-mina",
     "description": "",
     "location": {
       "longitude": 33.5686798,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

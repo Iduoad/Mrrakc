@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "J. Parrain Building",
-    "slug": "j-parrain-building",
-    "description": "🔻 Architect: Robert Lièvre<br>🔻 Dates: 1928<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "j-parrain-building",
+    "description": "\ud83d\udd3b Architect: Robert Li\u00e8vre<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5881786,
       "latitude": -7.6195222,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

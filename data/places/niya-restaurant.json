@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Niya Restaurant",
-    "slug": "niya-restaurant",
+    "id": "niya-restaurant",
     "description": "",
     "location": {
       "longitude": 33.5888478,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

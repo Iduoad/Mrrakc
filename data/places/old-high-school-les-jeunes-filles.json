@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Old high school les jeunes filles",
-    "slug": "old-high-school-les-jeunes-filles",
-    "description": "🔻 Architect: Alexandre Courtois<br>🔻 Dates: 1954<br>🔻 Current Status: Abdelmoumen School",
+    "id": "old-high-school-les-jeunes-filles",
+    "description": "\ud83d\udd3b Architect: Alexandre Courtois<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Abdelmoumen School",
     "location": {
       "longitude": 33.5833258,
       "latitude": -7.6162296,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

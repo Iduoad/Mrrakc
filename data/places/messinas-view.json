@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Messinas View",
-    "slug": "messinas-view",
+    "id": "messinas-view",
     "description": "",
     "location": {
       "longitude": 33.6051641,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

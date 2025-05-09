@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Alexandre Building",
-    "slug": "alexandre-building",
-    "description": "🔻 Dates: 1920s<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2013",
+    "id": "alexandre-building",
+    "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2013",
     "location": {
       "longitude": 33.5886066,
       "latitude": -7.6147004,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

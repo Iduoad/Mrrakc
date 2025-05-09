@@ -5,8 +5,8 @@
     "tags": []
   },
   "spec": {
-    "name": "Cité Ain Chock",
-    "slug": "cite-ain-chock",
+    "name": "Cit\u00e9 Ain Chock",
+    "id": "cite-ain-chock",
     "description": "",
     "location": {
       "longitude": 33.5527953,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Augustin Sourzac School",
-    "slug": "augustin-sourzac-school",
-    "description": "🔻 Architect: Pierre Bousquet<br>🔻 Dates: 1925<br>🔻 Current Status: School<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "augustin-sourzac-school",
+    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5951407,
       "latitude": -7.6069731,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

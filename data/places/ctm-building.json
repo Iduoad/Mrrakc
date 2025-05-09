@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "CTM Building",
-    "slug": "ctm-building",
-    "description": "🔻 Architect: Alexandre Courtois<br>🔻 Dates: 1951/1955<br>🔻 Current Status: Bus Station",
+    "id": "ctm-building",
+    "description": "\ud83d\udd3b Architect: Alexandre Courtois<br>\ud83d\udd3b Dates: 1951/1955<br>\ud83d\udd3b Current Status: Bus Station",
     "location": {
       "longitude": 33.5960914,
       "latitude": -7.6110031,
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "La Princiere Building",
-    "slug": "la-princiere-building",
-    "description": "🔻 Architect: Alexandre Cormier<br>🔻 Dates: 1925<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2005",
+    "id": "la-princiere-building",
+    "description": "\ud83d\udd3b Architect: Alexandre Cormier<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2005",
     "location": {
       "longitude": 33.592924,
       "latitude": -7.6170402,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

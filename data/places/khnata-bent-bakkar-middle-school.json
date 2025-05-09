@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Khnata bent Bakkar Middle School",
-    "slug": "khnata-bent-bakkar-middle-school",
-    "description": "🔻 National Material Patrimony Declaration: 2018",
+    "id": "khnata-bent-bakkar-middle-school",
+    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5829908,
       "latitude": -7.6087975,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

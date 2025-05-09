@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "French General Consulate",
-    "slug": "french-general-consulate",
-    "description": "🔻 Architect: Albert Laprade<br>🔻 Dates: 1916-1922<br>🔻 Current Status: French Consulate<br>🔻 Comments: Military Subdivision Hotel",
+    "id": "french-general-consulate",
+    "description": "\ud83d\udd3b Architect: Albert Laprade<br>\ud83d\udd3b Dates: 1916-1922<br>\ud83d\udd3b Current Status: French Consulate<br>\ud83d\udd3b Comments: Military Subdivision Hotel",
     "location": {
       "longitude": 33.5897138,
       "latitude": -7.6180301,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

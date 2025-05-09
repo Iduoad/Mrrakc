@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Marignan Building",
-    "slug": "marignan-building",
-    "description": "🔻 Current Status: Inhabited<br>🔻 Dates: 1950",
+    "id": "marignan-building",
+    "description": "\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Dates: 1950",
     "location": {
       "longitude": 33.5936331,
       "latitude": -7.6083676,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

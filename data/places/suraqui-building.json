@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Suraqui Building",
-    "slug": "suraqui-building",
-    "description": "🔻 Architect: Joseph & Elias Suraqui<br>🔻 Dates: 1929<br>🔻 Current Status: Inhabited",
+    "id": "suraqui-building",
+    "description": "\ud83d\udd3b Architect: Joseph & Elias Suraqui<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5937055,
       "latitude": -7.6199917,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

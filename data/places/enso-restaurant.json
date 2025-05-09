@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Enso Restaurant",
-    "slug": "enso-restaurant",
-    "description": "🔻 Menu: Japanese",
+    "id": "enso-restaurant",
+    "description": "\ud83d\udd3b Menu: Japanese",
     "location": {
       "longitude": 33.6095469,
       "latitude": -7.6513836,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

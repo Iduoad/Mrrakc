@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Cinema Opera",
-    "slug": "cinema-opera",
-    "description": "🔻 Architect: Léon Aroutcheff<br>🔻 Dates: 1950<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "cinema-opera",
+    "description": "\ud83d\udd3b Architect: L\u00e9on Aroutcheff<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5949098,
       "latitude": -7.621793,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

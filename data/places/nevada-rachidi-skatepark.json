@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Nevada Rachidi Skatepark",
-    "slug": "nevada-rachidi-skatepark",
-    "description": null,
+    "id": "nevada-rachidi-skatepark",
+    "description": "",
     "location": {
       "longitude": -7.6218081,
       "latitude": 33.5901256,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

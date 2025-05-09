@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Boujdour",
-    "slug": "boujdour",
-    "region": "Laâyoune-Sakia El Hamra",
+    "id": "boujdour",
+    "region": "Laayoune-Sakia El Hamra",
     "country": "Morocco"
   }
 }

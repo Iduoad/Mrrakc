@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Les Soeurettes Restaurant",
-    "slug": "les-soeurettes-restaurant",
-    "description": "🔻 Menu: International<br>🔻 Tags: Custom salads",
+    "id": "les-soeurettes-restaurant",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Custom salads",
     "location": {
       "longitude": 33.5910986,
       "latitude": -7.6443176,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

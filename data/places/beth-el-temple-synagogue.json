@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Beth-El Temple Synagogue",
-    "slug": "beth-el-temple-synagogue",
+    "id": "beth-el-temple-synagogue",
     "description": "",
     "location": {
       "longitude": 33.595747,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

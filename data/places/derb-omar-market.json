@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Derb Omar Market",
-    "slug": "derb-omar-market",
-    "description": "🔻 Era: Early 20th Century<br>🔻 Status: Open<br>🔻 Description: The souk was created in the 1920s, and still one of the most popular and largest souks or Casablanca and the entire country especially when it comes to wholesale.",
+    "id": "derb-omar-market",
+    "description": "\ud83d\udd3b Era: Early 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The souk was created in the 1920s, and still one of the most popular and largest souks or Casablanca and the entire country especially when it comes to wholesale.",
     "location": {
       "longitude": 33.5922446,
       "latitude": -7.6111262,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

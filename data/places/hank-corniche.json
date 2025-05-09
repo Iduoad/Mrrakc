@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Hank Corniche",
-    "slug": "hank-corniche",
+    "id": "hank-corniche",
     "description": "",
     "location": {
       "longitude": 33.6067083,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

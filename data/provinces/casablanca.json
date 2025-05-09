@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Casablanca",
-    "slug": "casablanca",
+    "id": "casablanca",
     "region": "Casablanca-Settat",
     "country": "Morocco"
   }

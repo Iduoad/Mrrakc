@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Loft Art Gallery",
-    "slug": "loft-art-gallery",
+    "id": "loft-art-gallery",
     "description": "",
     "location": {
       "longitude": 33.5923345,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

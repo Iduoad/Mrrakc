@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Crazy Park",
-    "slug": "crazy-park",
-    "description": null,
+    "id": "crazy-park",
+    "description": "",
     "location": {
       "longitude": -7.7686459,
       "latitude": 33.5388025,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

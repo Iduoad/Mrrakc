@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Trade Square",
-    "slug": "trade-square",
-    "description": "🔻 Dates: 19th and 20th century<br>🔻 Description: This was a very important square, where traders from all over the world used to gather to discuss business. Also this was a place where real estate brokers and owners used to make their deals.",
+    "id": "trade-square",
+    "description": "\ud83d\udd3b Dates: 19th and 20th century<br>\ud83d\udd3b Description: This was a very important square, where traders from all over the world used to gather to discuss business. Also this was a place where real estate brokers and owners used to make their deals.",
     "location": {
       "longitude": 33.5997684,
       "latitude": -7.6175058,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

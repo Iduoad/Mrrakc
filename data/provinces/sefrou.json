@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Sefrou",
-    "slug": "sefrou",
-    "region": "Fès-Meknès",
+    "id": "sefrou",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

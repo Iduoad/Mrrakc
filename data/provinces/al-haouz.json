@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Al Haouz",
-    "slug": "al-haouz",
+    "id": "al-haouz",
     "region": "Marrakesh-Safi",
     "country": "Morocco"
   }

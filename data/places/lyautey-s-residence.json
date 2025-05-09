@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Lyautey-s Residence",
-    "slug": "lyautey-s-residence",
-    "description": "🔻 Architect: Pierre Bousquet<br>🔻 Dates: 1915<br>🔻 Current Status: Office for the Morocco Union of workers<br>🔻 Description: This used to be the residency of the General Resident Marechal Lyautey.",
+    "id": "lyautey-s-residence",
+    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1915<br>\ud83d\udd3b Current Status: Office for the Morocco Union of workers<br>\ud83d\udd3b Description: This used to be the residency of the General Resident Marechal Lyautey.",
     "location": {
       "longitude": 33.6015568,
       "latitude": -7.6188157,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

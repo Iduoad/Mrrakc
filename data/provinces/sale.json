@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Salé",
-    "slug": "sale",
-    "region": "Rabat-Salé-Kénitra",
+    "id": "sale",
+    "region": "Rabat-Sale-Kenitra",
     "country": "Morocco"
   }
 }

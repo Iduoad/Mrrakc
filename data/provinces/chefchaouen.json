@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Chefchaouen",
-    "slug": "chefchaouen",
+    "id": "chefchaouen",
     "region": "Tanger-Tetouan-Al Hoceima",
     "country": "Morocco"
   }

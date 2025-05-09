@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Thomas I Archeological Site",
-    "slug": "thomas-i-archeological-site",
+    "id": "thomas-i-archeological-site",
     "description": "One of the most significant archaeological sites in Morocco and North Africa, famous for the 1969 discovery of a human half-mandible. It is now renowned for yielding the oldest Homo Erectus remains in North Africa, dating back over 500,000 years. The site was recognized as a National Material Patrimony in 1951.",
     "location": {
       "longitude": -7.6966561,
@@ -18,13 +18,13 @@
     "links": [
       {
         "url": "https://www.researchgate.net/publication/47563559_Hominid_Cave_at_Thomas_Quarry_I_Casablanca_Morocco_Recent_findings_and_their_context",
-        "description": null,
-        "type": "article"
+        "type": "article",
+        "title": ""
       },
       {
         "url": "https://www.hominides.com/html/actualites/erectus-mandibule-maroc-0130.php",
-        "description": null,
-        "type": "article"
+        "type": "article",
+        "title": ""
       }
     ],
     "activities": [],
@@ -33,6 +33,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

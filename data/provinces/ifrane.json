@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Ifrane",
-    "slug": "ifrane",
-    "region": "Fès-Meknès",
+    "id": "ifrane",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

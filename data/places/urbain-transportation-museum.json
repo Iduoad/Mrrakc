@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Urbain transportation museum",
-    "slug": "urbain-transportation-museum",
+    "id": "urbain-transportation-museum",
     "description": "",
     "location": {
       "longitude": 33.5777533,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

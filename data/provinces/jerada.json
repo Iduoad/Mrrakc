@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Jerada",
-    "slug": "jerada",
+    "id": "jerada",
     "region": "Oriental",
     "country": "Morocco"
   }

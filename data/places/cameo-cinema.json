@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Cameo Cinema",
-    "slug": "cameo-cinema",
-    "description": null,
+    "id": "cameo-cinema",
+    "description": "",
     "location": {
       "longitude": -7.6589402,
       "latitude": 33.5891741,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

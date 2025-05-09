@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Yasmina Park For Games",
-    "slug": "yasmina-park-for-games",
+    "id": "yasmina-park-for-games",
     "description": "",
     "location": {
       "longitude": 33.5870567,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

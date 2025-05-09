@@ -5,9 +5,9 @@
     "tags": []
   },
   "spec": {
-    "name": "Pathé Cinema",
-    "slug": "pathe-cinema",
-    "description": null,
+    "name": "Path\u00e9 Cinema",
+    "id": "pathe-cinema",
+    "description": "",
     "location": {
       "longitude": -7.6398598,
       "latitude": 33.5440783,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

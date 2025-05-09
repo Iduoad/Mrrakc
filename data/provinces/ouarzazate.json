@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Ouarzazate",
-    "slug": "ouarzazate",
-    "region": "Drâa-Tafilalet",
+    "id": "ouarzazate",
+    "region": "Draa-Tafilalet",
     "country": "Morocco"
   }
 }

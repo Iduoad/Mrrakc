@@ -5,9 +5,9 @@
     "tags": []
   },
   "spec": {
-    "name": "Lévy-Bendayan Building",
-    "slug": "levy-bendayan-building",
-    "description": "🔻 Architect: Marius Boyer<br>🔻 Dates: 1929<br>🔻 Current Status: Inhabited",
+    "name": "L\u00e9vy-Bendayan Building",
+    "id": "levy-bendayan-building",
+    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5914412,
       "latitude": -7.6147646,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -7,13 +7,13 @@
   "properties": {
     "spec": {
       "type": "object",
-      "required": ["name", "slug", "region", "country"],
+      "required": ["name", "id", "region", "country"],
       "properties": {
         "name": {
           "type": "string",
           "description": "Province name"
         },
-        "slug": {
+        "id": {
           "type": "string",
           "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
           "description": "URL-friendly version of name in kebab-case"
@@ -26,7 +26,6 @@
           "type": "string",
           "$ref": "enums/countries.json",
           "description": "Country containing the province"
-          }
         }
       }
     }

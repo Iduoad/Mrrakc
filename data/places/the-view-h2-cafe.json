@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "The view H2 Cafe",
-    "slug": "the-view-h2-cafe",
+    "id": "the-view-h2-cafe",
     "description": "",
     "location": {
       "longitude": 33.6079998,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

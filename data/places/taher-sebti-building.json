@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Taher Sebti Building",
-    "slug": "taher-sebti-building",
-    "description": "🔻 Dates: 1930<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2006",
+    "id": "taher-sebti-building",
+    "description": "\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2006",
     "location": {
       "longitude": 33.591874,
       "latitude": -7.614992,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

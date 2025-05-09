@@ -5,9 +5,9 @@
     "tags": []
   },
   "spec": {
-    "name": "Rick's Café",
-    "slug": "rick-s-cafe",
-    "description": "🔻 Menu: International<br>🔻 Tags: Fine dinning",
+    "name": "Rick's Caf\u00e9",
+    "id": "rick-s-cafe",
+    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Fine dinning",
     "location": {
       "longitude": 33.6050488,
       "latitude": -7.6204046,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

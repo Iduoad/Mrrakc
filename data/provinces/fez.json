@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Fez",
-    "slug": "fez",
-    "region": "Fès-Meknès",
+    "id": "fez",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

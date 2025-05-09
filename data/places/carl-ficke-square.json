@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Carl Ficke Square",
-    "slug": "carl-ficke-square",
+    "id": "carl-ficke-square",
     "description": "",
     "location": {
       "longitude": 33.583483,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

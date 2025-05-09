@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Radiology clinic Building",
-    "slug": "radiology-clinic-building",
-    "description": "🔻 Architect: Pierre Bousquet<br>🔻 Dates: 1928<br>🔻 Current Status: Oued El Makhazine Radiology Center.",
+    "id": "radiology-clinic-building",
+    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status:\u00a0Oued El Makhazine Radiology Center.",
     "location": {
       "longitude": 33.5943259,
       "latitude": -7.6239265,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

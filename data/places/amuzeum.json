@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Amuzeum",
-    "slug": "amuzeum",
-    "description": null,
+    "id": "amuzeum",
+    "description": "",
     "location": {
       "longitude": -7.8174842,
       "latitude": 33.512778,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

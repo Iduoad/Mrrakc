@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Nkoa Restaurant",
-    "slug": "nkoa-restaurant",
-    "description": "🔻 Menu: International",
+    "id": "nkoa-restaurant",
+    "description": "\ud83d\udd3b Menu: International",
     "location": {
       "longitude": 33.5866273,
       "latitude": -7.6291816,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

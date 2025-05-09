@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Mohammadi Mosque Garden",
-    "slug": "mohammadi-mosque-garden",
+    "id": "mohammadi-mosque-garden",
     "description": "",
     "location": {
       "longitude": 33.5770745,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

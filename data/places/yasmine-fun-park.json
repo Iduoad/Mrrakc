@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Yasmine Fun Park",
-    "slug": "yasmine-fun-park",
-    "description": null,
+    "id": "yasmine-fun-park",
+    "description": "",
     "location": {
       "longitude": -7.6386155,
       "latitude": 33.5785336,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

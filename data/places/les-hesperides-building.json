@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Les Hesperides Building",
-    "slug": "les-hesperides-building",
-    "description": "🔻 Architect: Albert Planque<br>🔻 Current Status: Inhabited",
+    "id": "les-hesperides-building",
+    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
       "longitude": 33.5965868,
       "latitude": -7.6149527,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

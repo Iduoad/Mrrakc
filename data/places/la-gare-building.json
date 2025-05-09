@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "La Gare Building",
-    "slug": "la-gare-building",
-    "description": "🔻 Dates: 1920s<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2012",
+    "id": "la-gare-building",
+    "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2012",
     "location": {
       "longitude": 33.5941736,
       "latitude": -7.6038941,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

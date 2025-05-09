@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Aquarium Building",
-    "slug": "aquarium-building",
-    "description": "🔻 Architect: Georges Delanoë<br>🔻 Dates: 1950<br>🔻 Current Status: Closed<br>🔻 National Material Patrimony Declaration: 2018<br><br>https://www.atelierobservatoire.com/aquarium",
+    "id": "aquarium-building",
+    "description": "\ud83d\udd3b Architect: Georges Delano\u00eb<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018<br><br>https://www.atelierobservatoire.com/aquarium",
     "location": {
       "longitude": 33.6067073,
       "latitude": -7.6301385,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://www.atelierobservatoire.com/aquarium",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

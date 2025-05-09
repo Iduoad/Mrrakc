@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sidi Allal El-Kairouani Mausoleum",
-    "slug": "sidi-allal-el-kairouani-mausoleum",
+    "id": "sidi-allal-el-kairouani-mausoleum",
     "description": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
     "location": {
       "longitude": 33.6032368,
@@ -18,8 +18,8 @@
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

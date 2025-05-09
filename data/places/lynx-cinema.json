@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Lynx Cinema",
-    "slug": "lynx-cinema",
-    "description": "🔻 Architect: Dominique Basciano<br>🔻 Dates: 1950<br>🔻 Current Status: Closed",
+    "id": "lynx-cinema",
+    "description": "\ud83d\udd3b Architect: Dominique Basciano<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed",
     "location": {
       "longitude": 33.587321,
       "latitude": -7.6174612,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

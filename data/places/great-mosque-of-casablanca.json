@@ -1,0 +1,65 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "The Great Mosque of Casablanca",
+    "id": "great-mosque-of-casablanca",
+    "description": "Also known as Makhzen Mosque, this is one of the oldest mosques in Casablanca, built around the 1780s CE during the reign of Sultan Sidi Mohammed Ibn Abdellah, the founder of the city. It is currently open.",
+    "location": {
+      "longitude": -7.6160814,
+      "latitude": 33.5989621,
+      "province": "province/casablanca"
+    },
+    "people": [
+      {
+        "id": "people/sidi-mohammed-ibn-abdellah",
+        "relationship": ["sultan", "founder"]
+      },
+      {
+        "id": "people/moulay-hassan-i",
+        "relationship": ["sultan", "renovator"]
+      },
+      {
+        "id": "people/mohammed-v",
+        "relationship": ["king", "renovator"]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Founding and construction",
+        "description": "The mosque was founded during the early year of the the new Casablanca, during the reign of Sidi Mohammed Ibn Abdellah.",
+        "date": "1780-01-01"
+      },
+      {
+        "title": "First renovation and enlarging",
+        "description": "The mosque was renovated and enlarged by Sultan Moulay Hassan I.",
+        "date": "1890-01-01"
+      },
+      {
+        "title": "Minaret Demolition",
+        "description": "The mosque's Minaret was demolished during the French attack on Casablanca.",
+        "date": "1907"
+      },
+      {
+        "title": "Second Renovation and new minaret",
+        "description": "The mosque was renovated after the independance during the reign of king Mohammed V. The mosque got a new minaret inspired by Koutoubia's Minaret",
+        "date": "1960"
+      }
+    ],
+    "links": [],
+    "activities": [
+      "worship"
+    ],
+    "items": [],
+    "access": {
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "18th century"
+    ]
+  }
+}

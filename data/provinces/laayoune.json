@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Laâyoune",
-    "slug": "laayoune",
-    "region": "Laâyoune-Sakia El Hamra",
+    "id": "laayoune",
+    "region": "Laayoune-Sakia El Hamra",
     "country": "Morocco"
   }
 }

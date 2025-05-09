@@ -5,8 +5,8 @@
   },
   "spec": {
     "name": "Moulay Yacoub",
-    "slug": "moulay-yacoub",
-    "region": "Fès-Meknès",
+    "id": "moulay-yacoub",
+    "region": "Fes-Meknes",
     "country": "Morocco"
   }
 }

@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Covered Market of Ain Chock",
-    "slug": "covered-market-of-ain-chock",
+    "id": "covered-market-of-ain-chock",
     "description": "",
     "location": {
       "longitude": 33.5521697,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

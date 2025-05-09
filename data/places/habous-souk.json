@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Habous Souk",
-    "slug": "habous-souk",
+    "id": "habous-souk",
     "description": "",
     "location": {
       "longitude": 33.5778377,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

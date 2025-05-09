@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Place Kinds Enumeration",
+  "description": "List of valid regions",
+  "type": "string",
+  "enum": [
+    "Beni Mellal-Khenifra",
+    "Casablanca-Settat",
+    "Dakhla-Oued Ed-Dahab",
+    "Draa-Tafilalet",
+    "Fes-Meknes",
+    "Guelmim-Oued Noun",
+    "Laayoune-Sakia El Hamra",
+    "Marrakesh-Safi",
+    "Oriental",
+    "Rabat-Sale-Kenitra",
+    "Souss-Massa",
+    "Tanger-Tetouan-Al Hoceima,
+  ]
+}

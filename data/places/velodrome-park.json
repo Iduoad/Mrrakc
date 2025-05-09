@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Velodrome Park",
-    "slug": "velodrome-park",
+    "id": "velodrome-park",
     "description": "",
     "location": {
       "longitude": 33.5895662,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

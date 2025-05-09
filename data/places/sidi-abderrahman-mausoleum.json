@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Sidi Abderrahman Mausoleum",
-    "slug": "sidi-abderrahman-mausoleum",
+    "id": "sidi-abderrahman-mausoleum",
     "description": "",
     "location": {
       "longitude": 33.582468,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

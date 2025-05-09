@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Stade Laarbi Ben Mubarak",
-    "slug": "stade-laarbi-ben-mubarak",
+    "id": "stade-laarbi-ben-mubarak",
     "description": "",
     "location": {
       "longitude": 33.5955354,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

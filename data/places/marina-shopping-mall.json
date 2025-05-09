@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Marina Shopping Mall",
-    "slug": "marina-shopping-mall",
+    "id": "marina-shopping-mall",
     "description": "",
     "location": {
       "longitude": 33.6069868,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

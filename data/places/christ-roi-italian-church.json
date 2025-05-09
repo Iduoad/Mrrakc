@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Christ-Roi Italian Church",
-    "slug": "christ-roi-italian-church",
-    "description": "🔻 National Material Patrimony Declaration: 2015",
+    "id": "christ-roi-italian-church",
+    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2015",
     "location": {
       "longitude": 33.5807803,
       "latitude": -7.624705,
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

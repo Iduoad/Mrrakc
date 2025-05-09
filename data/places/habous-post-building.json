@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Habous Post Building",
-    "slug": "habous-post-building",
-    "description": "🔻 Current Status: Post<br>🔻 National Material Patrimony Declaration: 2018",
+    "id": "habous-post-building",
+    "description": "\ud83d\udd3b Current Status: Post<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5766857,
       "latitude": -7.604426,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Excelsior Palace Hotel",
-    "slug": "excelsior-palace-hotel",
-    "description": "🔻 Architect: Hippolyte-Joseph Delaporte<br>🔻 Dates: 1914-1916<br>🔻 Current Status: Hotel<br>🔻 National Material Patrimony Declaration: 2003<br>🔻 Description: This was the first modern building built outside of the Medina walls. Although built using reinforced concrete, it uses Moroccan element for its decoration and interior design.",
+    "id": "excelsior-palace-hotel",
+    "description": "\ud83d\udd3b Architect: Hippolyte-Joseph Delaporte<br>\ud83d\udd3b Dates: 1914-1916<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2003<br>\ud83d\udd3b Description: This was the first modern building built outside of the Medina walls. Although built using reinforced concrete, it uses Moroccan element for its decoration and interior design.",
     "location": {
       "longitude": 33.5962616,
       "latitude": -7.6168511,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

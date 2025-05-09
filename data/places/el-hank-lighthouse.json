@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "El Hank Lighthouse",
-    "slug": "el-hank-lighthouse",
+    "id": "el-hank-lighthouse",
     "description": "",
     "location": {
       "longitude": 33.6099692,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

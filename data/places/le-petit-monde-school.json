@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Le petit monde School",
-    "slug": "le-petit-monde-school",
-    "description": "🔻 Architect: Albert Planque<br>🔻 Current Status: School",
+    "id": "le-petit-monde-school",
+    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: School",
     "location": {
       "longitude": 33.5580205,
       "latitude": -7.617765,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

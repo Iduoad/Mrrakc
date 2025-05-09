@@ -5,17 +5,17 @@
   },
   "spec": {
     "name": "Abderrahman Slaoui",
-    "slug": "abderrahman-slaoui"
+    "id": "abderrahman-slaoui",
     "bio": "",
-    "nationality": "Moroccan"
-    "birthPlace": "province/fes"
-    "designations": ["business man", "collector"]
+    "nationality": "Moroccan",
+    "birthPlace": "province/fes",
+    "designations": ["business man", "collector"],
     "timeline": [
       {
         "title": "Construction of the villa",
         "date": "01-01-1921",
         "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
-      },
+      }
     ],
     "links": [
       {

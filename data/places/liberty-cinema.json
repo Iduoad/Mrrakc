@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Liberty Cinema",
-    "slug": "liberty-cinema",
-    "description": "🔻 Architect: Albert Planque<br>🔻 Dates: 1954<br>🔻 Current Status: Marjane Market<br>🔻 National Material Patrimony Declaration: 2014",
+    "id": "liberty-cinema",
+    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Marjane Market<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
     "location": {
       "longitude": 33.5879236,
       "latitude": -7.6124881,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

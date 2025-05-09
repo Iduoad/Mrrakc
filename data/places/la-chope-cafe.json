@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "La Chope Cafe",
-    "slug": "la-chope-cafe",
+    "id": "la-chope-cafe",
     "description": "",
     "location": {
       "longitude": 33.594251,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

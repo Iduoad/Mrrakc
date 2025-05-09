@@ -5,7 +5,7 @@
   },
   "spec": {
     "name": "Tangier-Assilah",
-    "slug": "tangier-assilah",
+    "id": "tangier-assilah",
     "region": "Tanger-Tetouan-Al Hoceima",
     "country": "Morocco"
   }

@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Al-Malik Mosque",
-    "slug": "al-malik-mosque",
-    "description": "🔻 Era: Mid 20th Century<br>🔻 Status: Open<br>🔻 Description: The construction works started during King Mohammed V reign and the mosque was inaugurated by his son King Hassan II in 1961 CE.",
+    "id": "al-malik-mosque",
+    "description": "\ud83d\udd3b Era: Mid 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The construction works started during King Mohammed V reign and the mosque was inaugurated by his son King Hassan II in 1961 CE.",
     "location": {
       "longitude": 33.5865766,
       "latitude": -7.5657735,
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

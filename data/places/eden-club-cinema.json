@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Eden Club Cinema",
-    "slug": "eden-club-cinema",
-    "description": null,
+    "id": "eden-club-cinema",
+    "description": "",
     "location": {
       "longitude": -7.6159506,
       "latitude": 33.5889454,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

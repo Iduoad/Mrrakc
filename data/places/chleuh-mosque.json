@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Chleuh Mosque",
-    "slug": "chleuh-mosque",
+    "id": "chleuh-mosque",
     "description": "Built in 1899 by Mohammed Sanhaji, this mosque was initially named Karma (Fig Tree) Mosque and later renamed Chleuh (Amazigh) Mosque. It is currently temporarily closed.",
     "location": {
       "longitude": -7.620906,
@@ -14,13 +14,19 @@
       "province": "province/casablanca"
     },
     "people": [
-      "people/mohammed-sanhaji",
-      "people/mohammed-ibn-abdellah"
+      {
+        "id": "people/mohammed-sanhaji",
+        "relationship": ["founder"]
+      },
+      {
+        "id": "people/mohammed-ibn-abdellah",
+        "relationship": ["sultan"]
+      }
     ],
     "timeline": [
       {
         "title": "Construction Date",
-        "description": null,
+        "description": "",
         "date": "1899"
       }
     ],
@@ -33,14 +39,15 @@
       "type": "public",
       "options": [
         {
-          "description": "Temporarily Closed",
-          "audience": [],
-          "modality": null,
-          "price": null,
-          "comment": null
+          "title": "Temporarily Closed",
+          "audience": "all",
+          "modality": "free",
+          "entranceFee": 0
         }
       ]
     },
-    "timePeriod": "19th century"
+    "timePeriods": [
+      "19th century"
+    ]
   }
 }

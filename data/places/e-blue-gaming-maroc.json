@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "E-blue Gaming Maroc",
-    "slug": "e-blue-gaming-maroc",
-    "description": null,
+    "id": "e-blue-gaming-maroc",
+    "description": "",
     "location": {
       "longitude": -7.6372703,
       "latitude": 33.5925209,
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

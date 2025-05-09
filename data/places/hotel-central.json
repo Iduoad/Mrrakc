@@ -6,8 +6,8 @@
   },
   "spec": {
     "name": "Hotel Central",
-    "slug": "hotel-central",
-    "description": "🔻 Dates: 1912<br>🔻 Current Status: Hotel",
+    "id": "hotel-central",
+    "description": "\ud83d\udd3b Dates: 1912<br>\ud83d\udd3b Current Status: Hotel",
     "location": {
       "longitude": 33.5999815,
       "latitude": -7.6173343,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

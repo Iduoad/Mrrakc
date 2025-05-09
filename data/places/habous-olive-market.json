@@ -6,7 +6,7 @@
   },
   "spec": {
     "name": "Habous Olive Market",
-    "slug": "habous-olive-market",
+    "id": "habous-olive-market",
     "description": "",
     "location": {
       "longitude": 33.5772805,
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }
