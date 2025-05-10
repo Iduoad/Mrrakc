@@ -7,6 +7,7 @@
   "properties": {
     "title": {
       "type": "string",
+      "minLength": 1,
       "description": "Title of the event"
     },
     "date": {
@@ -16,6 +17,7 @@
     },
     "description": {
       "type": "string",
+      "minLength": 1,
       "description": "Description of the event"
     }
   }

@@ -12,6 +12,7 @@
     },
     "title": {
       "type": "string",
+      "minLength": 1,
       "description": "Title of the link"
     },
     "type": {

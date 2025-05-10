@@ -11,6 +11,7 @@
       "properties": {
         "name": {
           "type": "string",
+          "minLength": 1,
           "description": "Province name"
         },
         "id": {
@@ -20,6 +21,7 @@
         },
         "region": {
           "type": "string",
+          "$ref": "enums/regions.json",
           "description": "Region containing the province"
         },
         "country": {
