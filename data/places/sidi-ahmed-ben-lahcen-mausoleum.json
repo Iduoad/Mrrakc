@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Sidi Ahmed Ben Lahcen Mausoleum",
-    "slug": "sidi-ahmed-ben-lahcen-mausoleum",
+    "id": "sidi-ahmed-ben-lahcen-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.4519001,
-      "latitude": -7.5172016
+      "latitude": -7.5172016,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

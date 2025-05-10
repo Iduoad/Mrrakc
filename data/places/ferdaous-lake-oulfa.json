@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Ferdaous Lake (Oulfa)",
-    "slug": "ferdaous-lake-oulfa",
-    "description": null,
+    "id": "ferdaous-lake-oulfa",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6727847,
-      "latitude": 33.5548507
+      "latitude": 33.5548507,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -25,6 +25,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

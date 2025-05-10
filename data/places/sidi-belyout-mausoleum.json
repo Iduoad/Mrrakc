@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Sidi Belyout Mausoleum",
-    "slug": "sidi-belyout-mausoleum",
+    "id": "sidi-belyout-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5988639,
-      "latitude": -7.6138653
+      "latitude": -7.6138653,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

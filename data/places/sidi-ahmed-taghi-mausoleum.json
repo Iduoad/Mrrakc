@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Sidi Ahmed Taghi Mausoleum",
-    "slug": "sidi-ahmed-taghi-mausoleum",
+    "id": "sidi-ahmed-taghi-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5892207,
-      "latitude": -7.6806356
+      "latitude": -7.6806356,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

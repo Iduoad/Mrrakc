@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Bouskoura Forest",
-    "slug": "bouskoura-forest",
-    "description": null,
+    "id": "bouskoura-forest",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5788975,
-      "latitude": 33.4642281
+      "latitude": 33.4642281,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -25,6 +25,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

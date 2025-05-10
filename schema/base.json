@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mrrakc Base Schema",
+  "description": "Base schema for all Mrrakc data types",
+  "type": "object",
+  "required": ["version", "spec"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "enum": ["mrrakc/v0"],
+      "description": "Schema version"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Optional list of tags"
+        }
+      }
+    },
+    "spec": {
+      "type": "object",
+      "description": "The specification varies by data type"
+    }
+  }
+}

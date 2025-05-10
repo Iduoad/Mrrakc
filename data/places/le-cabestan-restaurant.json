@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Le Cabestan Restaurant",
-    "slug": "le-cabestan-restaurant",
+    "id": "le-cabestan-restaurant",
     "description": "\ud83d\udd3b Menu: Mediterranean",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6081836,
-      "latitude": -7.6554723
+      "latitude": -7.6554723,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

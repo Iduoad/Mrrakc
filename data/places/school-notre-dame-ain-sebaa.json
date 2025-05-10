@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "School Notre Dame Ain Sebaa",
-    "slug": "school-notre-dame-ain-sebaa",
+    "id": "school-notre-dame-ain-sebaa",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6070816,
-      "latitude": -7.5342118
+      "latitude": -7.5342118,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

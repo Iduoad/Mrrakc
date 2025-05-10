@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Carl Ficke Square",
-    "slug": "carl-ficke-square",
+    "id": "carl-ficke-square",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.583483,
-      "latitude": -7.6098199
+      "latitude": -7.6098199,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Tamaris Aquapark",
-    "slug": "tamaris-aquapark",
-    "description": null,
+    "id": "tamaris-aquapark",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.7839804,
-      "latitude": 33.5225589
+      "latitude": 33.5225589,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

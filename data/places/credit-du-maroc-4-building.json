@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Cr\u00e9dit Du Maroc 4 Building",
-    "slug": "credit-du-maroc-4-building",
+    "id": "credit-du-maroc-4-building",
     "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5876982,
-      "latitude": -7.6169237
+      "latitude": -7.6169237,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

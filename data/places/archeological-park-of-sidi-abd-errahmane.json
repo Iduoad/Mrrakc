@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Archeological Park of Sidi abd Errahmane (Melatra)",
-    "slug": "archeological-park-of-sidi-abd-errahmane-melatra",
-    "description": null,
+    "id": "archeological-park-of-sidi-abd-errahmane",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6876116,
-      "latitude": 33.5792939
+      "latitude": 33.5792939,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

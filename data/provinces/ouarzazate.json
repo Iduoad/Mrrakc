@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ouarzazate",
+    "id": "ouarzazate",
+    "region": "Draa-Tafilalet",
+    "country": "Morocco"
+  }
+}

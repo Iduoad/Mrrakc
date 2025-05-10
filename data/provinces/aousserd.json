@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aousserd",
+    "id": "aousserd",
+    "region": "Dakhla-Oued Ed-Dahab",
+    "country": "Morocco"
+  }
+}

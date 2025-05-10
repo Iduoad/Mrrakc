@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Crio Market",
-    "slug": "crio-market",
+    "id": "crio-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5521948,
-      "latitude": -7.5578566
+      "latitude": -7.5578566,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

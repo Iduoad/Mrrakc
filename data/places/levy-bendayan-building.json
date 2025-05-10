@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "L\u00e9vy-Bendayan Building",
-    "slug": "levy-bendayan-building",
+    "id": "levy-bendayan-building",
     "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5914412,
-      "latitude": -7.6147646
+      "latitude": -7.6147646,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Ritz Cinema",
-    "slug": "ritz-cinema",
-    "description": null,
+    "id": "ritz-cinema",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6147012,
-      "latitude": 33.5944574
+      "latitude": 33.5944574,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

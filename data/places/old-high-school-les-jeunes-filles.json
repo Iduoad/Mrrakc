@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Old high school les jeunes filles",
-    "slug": "old-high-school-les-jeunes-filles",
+    "id": "old-high-school-les-jeunes-filles",
     "description": "\ud83d\udd3b Architect: Alexandre Courtois<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Abdelmoumen School",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5833258,
-      "latitude": -7.6162296
+      "latitude": -7.6162296,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

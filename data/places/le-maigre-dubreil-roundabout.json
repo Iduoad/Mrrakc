@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Le Maigre Dubreil Roundabout",
-    "slug": "le-maigre-dubreil-roundabout",
+    "id": "le-maigre-dubreil-roundabout",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5839344,
-      "latitude": -7.61007
+      "latitude": -7.61007,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Skefkef wall drawing",
-    "slug": "skefkef-wall-drawing",
+    "id": "skefkef-wall-drawing",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6014609,
-      "latitude": -7.6198431
+      "latitude": -7.6198431,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

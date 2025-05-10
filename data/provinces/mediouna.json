@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Médiouna",
+    "id": "mediouna",
+    "region": "Casablanca-Settat",
+    "country": "Morocco"
+  }
+}

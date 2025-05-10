@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Taounate",
+    "id": "taounate",
+    "region": "Fes-Meknes",
+    "country": "Morocco"
+  }
+}

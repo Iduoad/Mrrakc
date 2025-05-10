@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Megarama Cinema",
-    "slug": "megarama-cinema",
-    "description": null,
+    "id": "megarama-cinema",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6681593,
-      "latitude": 33.5959707
+      "latitude": 33.5959707,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

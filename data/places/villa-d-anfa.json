@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Villa d'anfa",
-    "slug": "villa-d-anfa",
+    "id": "villa-d-anfa",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5888109,
-      "latitude": -7.6640112
+      "latitude": -7.6640112,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

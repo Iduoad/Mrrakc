@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Lyautey-s Residence",
-    "slug": "lyautey-s-residence",
+    "id": "lyautey-s-residence",
     "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1915<br>\ud83d\udd3b Current Status: Office for the Morocco Union of workers<br>\ud83d\udd3b Description: This used to be the residency of the General Resident Marechal Lyautey.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6015568,
-      "latitude": -7.6188157
+      "latitude": -7.6188157,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Habous park",
-    "slug": "habous-park",
+    "id": "habous-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5778777,
-      "latitude": -7.6046811
+      "latitude": -7.6046811,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

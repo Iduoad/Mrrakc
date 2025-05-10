@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Ain Chock mosque Park",
-    "slug": "ain-chock-mosque-park",
+    "id": "ain-chock-mosque-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.553271,
-      "latitude": -7.6009371
+      "latitude": -7.6009371,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

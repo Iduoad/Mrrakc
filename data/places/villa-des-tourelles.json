@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Villa des Tourelles",
-    "slug": "villa-des-tourelles",
+    "id": "villa-des-tourelles",
     "description": "\ud83d\udd3b Architect:\u00a0Marius Boyer<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.59205,
-      "latitude": -7.625001
+      "latitude": -7.625001,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

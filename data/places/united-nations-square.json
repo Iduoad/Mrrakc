@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "United Nations Square",
-    "slug": "united-nations-square",
+    "id": "united-nations-square",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5948128,
-      "latitude": -7.6187715
+      "latitude": -7.6187715,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Habous Souk",
-    "slug": "habous-souk",
+    "id": "habous-souk",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5778377,
-      "latitude": -7.6045511
+      "latitude": -7.6045511,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

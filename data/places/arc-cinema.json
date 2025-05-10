@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Arc Cinema",
-    "slug": "arc-cinema",
+    "id": "arc-cinema",
     "description": "\ud83d\udd3b Dates: 1940s<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5950839,
-      "latitude": -7.6327468
+      "latitude": -7.6327468,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

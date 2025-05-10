@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Rif Cinema",
-    "slug": "rif-cinema",
-    "description": null,
+    "id": "rif-cinema",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6154385,
-      "latitude": 33.5965653
+      "latitude": 33.5965653,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

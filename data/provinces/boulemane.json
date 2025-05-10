@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Boulemane",
+    "id": "boulemane",
+    "region": "Fes-Meknes",
+    "country": "Morocco"
+  }
+}

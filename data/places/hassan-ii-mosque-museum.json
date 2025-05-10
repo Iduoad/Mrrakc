@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Hassan II Mosque Museum",
-    "slug": "hassan-ii-mosque-museum",
+    "id": "hassan-ii-mosque-museum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6052962,
-      "latitude": -7.6307589
+      "latitude": -7.6307589,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

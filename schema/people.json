@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mrrakc People Schema",
+  "description": "Schema for people data in Mrrakc",
+  "type": "object",
+  "allOf": [{"$ref": "base.json"}],
+  "properties": {
+    "spec": {
+      "type": "object",
+      "required": ["name", "id", "bio"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Person's full name"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "URL-friendly version of name in kebab-case"
+        },
+        "bio": {
+          "type": "string",
+          "description": "Biography of the person"
+        },
+        "birthPlace": {
+          "type": "string",
+          "pattern": "^province/[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "Reference to province where person was born"
+        },
+        "designations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of roles or positions"
+        },
+        "timeline": {
+          "type": "array",
+          "items": {
+            "$ref": "components/event.json"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "components/link.json"
+          }
+        }
+      }
+    }
+  }
+}

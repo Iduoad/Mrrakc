@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "J. Parrain Building",
-    "slug": "j-parrain-building",
+    "id": "j-parrain-building",
     "description": "\ud83d\udd3b Architect: Robert Li\u00e8vre<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5881786,
-      "latitude": -7.6195222
+      "latitude": -7.6195222,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

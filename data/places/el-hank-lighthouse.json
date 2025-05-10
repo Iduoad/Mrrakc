@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "El Hank Lighthouse",
-    "slug": "el-hank-lighthouse",
+    "id": "el-hank-lighthouse",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6099692,
-      "latitude": -7.65471
+      "latitude": -7.65471,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

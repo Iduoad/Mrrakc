@@ -1,17 +1,17 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace ",
+  "kind": "architecture/palace",
   "metadata": {
     "tags": []
   },
   "spec": {
     "name": "Royal Palace",
-    "slug": "royal-palace",
+    "id": "royal-palace",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5803387,
-      "latitude": -7.6054573
+      "latitude": -7.6054573,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -19,9 +19,11 @@
     "activities": [],
     "items": [],
     "access": {
-      "type": "public",
+      "type": "forbidden",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

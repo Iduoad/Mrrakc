@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Chichaoua",
+    "id": "chichaoua",
+    "region": "Marrakesh-Safi",
+    "country": "Morocco"
+  }
+}

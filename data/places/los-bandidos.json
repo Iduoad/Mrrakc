@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Los Bandidos",
-    "slug": "los-bandidos",
+    "id": "los-bandidos",
     "description": "\ud83d\udd3b Menu: Mexican",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5914948,
-      "latitude": -7.6331592
+      "latitude": -7.6331592,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

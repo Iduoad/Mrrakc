@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Christ-Roi Italian Church",
-    "slug": "christ-roi-italian-church",
+    "id": "christ-roi-italian-church",
     "description": "\ud83d\udd3b National Material Patrimony Declaration: 2015",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5807803,
-      "latitude": -7.624705
+      "latitude": -7.624705,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

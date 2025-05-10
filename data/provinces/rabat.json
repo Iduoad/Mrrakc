@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Rabat",
+    "id": "rabat",
+    "region": "Rabat-Sale-Kenitra",
+    "country": "Morocco"
+  }
+}

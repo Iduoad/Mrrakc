@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Settat",
+    "id": "settat",
+    "region": "Casablanca-Settat",
+    "country": "Morocco"
+  }
+}

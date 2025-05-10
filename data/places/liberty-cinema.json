@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Liberty Cinema",
-    "slug": "liberty-cinema",
+    "id": "liberty-cinema",
     "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Marjane Market<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5879236,
-      "latitude": -7.6124881
+      "latitude": -7.6124881,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

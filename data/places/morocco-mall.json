@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Morocco Mall",
-    "slug": "morocco-mall",
+    "id": "morocco-mall",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5758954,
-      "latitude": -7.706821
+      "latitude": -7.706821,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

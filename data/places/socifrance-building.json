@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Socifrance Building",
-    "slug": "socifrance-building",
+    "id": "socifrance-building",
     "description": "\ud83d\udd3b Architect: Erwin Hinnen<br>\ud83d\udd3b Dates: 1934-1935<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5955348,
-      "latitude": -7.6175283
+      "latitude": -7.6175283,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

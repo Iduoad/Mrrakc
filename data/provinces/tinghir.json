@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tinghir",
+    "id": "tinghir",
+    "region": "Draa-Tafilalet",
+    "country": "Morocco"
+  }
+}

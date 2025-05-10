@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Conservatory Of Music",
-    "slug": "conservatory-of-music",
-    "description": null,
+    "id": "conservatory-of-music",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6195975,
-      "latitude": 33.5933989
+      "latitude": 33.5933989,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

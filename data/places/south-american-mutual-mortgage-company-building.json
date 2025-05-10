@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "South American Mutual Mortgage Company Building",
-    "slug": "south-american-mutual-mortgage-company-building",
+    "id": "south-american-mutual-mortgage-company-building",
     "description": "\ud83d\udd3b Architect: Marius Boyer & Jean Balois<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: In French it is \"Societe mutuelle hypothecaire sud-americaine\",,,,Marius Boyer & Jean Balois,,,In French it is Societe mutuelle hypothecaire sud-americaine",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5937697,
-      "latitude": -7.612655
+      "latitude": -7.612655,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Bennarosh Building",
-    "slug": "bennarosh-building",
+    "id": "bennarosh-building",
     "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5943554,
-      "latitude": -7.6167903
+      "latitude": -7.6167903,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

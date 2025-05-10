@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Garage Coli Building",
-    "slug": "garage-coli-building",
+    "id": "garage-coli-building",
     "description": "\ud83d\udd3b Architect: Am\u00e9d\u00e9e Anicet<br>\ud83d\udd3b Dates: 1955<br>\ud83d\udd3b Current Status: Hotel + Businesses<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5934273,
-      "latitude": -7.611898
+      "latitude": -7.611898,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

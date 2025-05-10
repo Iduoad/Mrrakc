@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Fun Art Place",
-    "slug": "fun-art-place",
-    "description": null,
+    "id": "fun-art-place",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6641477,
-      "latitude": 33.5990149
+      "latitude": 33.5990149,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

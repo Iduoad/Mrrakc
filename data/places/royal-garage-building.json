@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Royal Garage Building",
-    "slug": "royal-garage-building",
+    "id": "royal-garage-building",
     "description": "\ud83d\udd3b Architect: Am\u00e9d\u00e9e Anicet & Louis Perrin-Hoppenot<br>\ud83d\udd3b Dates: 1957<br>\ud83d\udd3b Current Status: Garage<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5931028,
-      "latitude": -7.6063146
+      "latitude": -7.6063146,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

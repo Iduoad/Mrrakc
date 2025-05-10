@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Cit\u00e9 Hay Hassani",
-    "slug": "cite-hay-hassani",
+    "id": "cite-hay-hassani",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5719117,
-      "latitude": -7.6713319
+      "latitude": -7.6713319,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

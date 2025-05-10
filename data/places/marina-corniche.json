@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Marina Corniche",
-    "slug": "marina-corniche",
+    "id": "marina-corniche",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6105592,
-      "latitude": -7.6244311
+      "latitude": -7.6244311,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

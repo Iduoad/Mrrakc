@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sefrou",
+    "id": "sefrou",
+    "region": "Fes-Meknes",
+    "country": "Morocco"
+  }
+}

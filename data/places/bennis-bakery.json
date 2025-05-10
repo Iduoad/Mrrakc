@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Bennis Bakery",
-    "slug": "bennis-bakery",
+    "id": "bennis-bakery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5780213,
-      "latitude": -7.6054739
+      "latitude": -7.6054739,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

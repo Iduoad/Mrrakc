@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Ain Sbaa Zoo",
-    "slug": "ain-sbaa-zoo",
-    "description": null,
+    "id": "ain-sbaa-zoo",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5298039,
-      "latitude": 33.6051717
+      "latitude": 33.6051717,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

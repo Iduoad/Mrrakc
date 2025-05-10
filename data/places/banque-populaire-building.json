@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Banque Populaire Building",
-    "slug": "banque-populaire-building",
+    "id": "banque-populaire-building",
     "description": "\ud83d\udd3b Architect: Georges Virmot<br>\ud83d\udd3b Dates: 1918<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b Comments: Ex. headquarter for the British West African Bank",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5948864,
-      "latitude": -7.6166715
+      "latitude": -7.6166715,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

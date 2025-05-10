@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Hay Hassani Market",
-    "slug": "hay-hassani-market",
+    "id": "hay-hassani-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5717838,
-      "latitude": -7.6773637
+      "latitude": -7.6773637,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

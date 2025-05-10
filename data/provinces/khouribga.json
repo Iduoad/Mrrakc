@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Khouribga",
+    "id": "khouribga",
+    "region": "Beni Mellal-Khenifra",
+    "country": "Morocco"
+  }
+}

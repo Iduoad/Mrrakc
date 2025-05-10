@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Municipal Market of Ain Chok",
-    "slug": "municipal-market-of-ain-chok",
+    "id": "municipal-market-of-ain-chok",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5477509,
-      "latitude": -7.597614
+      "latitude": -7.597614,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

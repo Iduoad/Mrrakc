@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Jadida",
+    "id": "el-jadida",
+    "region": "Casablanca-Settat",
+    "country": "Morocco"
+  }
+}

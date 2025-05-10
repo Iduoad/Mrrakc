@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Central park of Ain Chok",
-    "slug": "central-park-of-ain-chok",
+    "id": "central-park-of-ain-chok",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5519639,
-      "latitude": -7.6003933
+      "latitude": -7.6003933,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

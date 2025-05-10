@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Moulay Thami Mausoleum",
-    "slug": "moulay-thami-mausoleum",
+    "id": "moulay-thami-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.4699961,
-      "latitude": -7.8282761
+      "latitude": -7.8282761,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Roches Noires Library",
-    "slug": "roches-noires-library",
-    "description": null,
+    "id": "roches-noires-library",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5969295,
-      "latitude": 33.5911621
+      "latitude": 33.5911621,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Fez",
+    "id": "fez",
+    "region": "Fes-Meknes",
+    "country": "Morocco"
+  }
+}

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Jewish Cemetery Benmsik",
-    "slug": "jewish-cemetery-benmsik",
+    "id": "jewish-cemetery-benmsik",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5801881,
-      "latitude": -7.5721235
+      "latitude": -7.5721235,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

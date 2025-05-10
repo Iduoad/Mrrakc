@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Mamouniya Cinema",
-    "slug": "mamouniya-cinema",
+    "id": "mamouniya-cinema",
     "description": "\ud83d\udd3b Dates: 1940-1950<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5838878,
-      "latitude": -7.6023812
+      "latitude": -7.6023812,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

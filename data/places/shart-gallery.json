@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Shart Gallery",
-    "slug": "shart-gallery",
+    "id": "shart-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5879496,
-      "latitude": -7.6407818
+      "latitude": -7.6407818,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

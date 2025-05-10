@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Imp\u00e9rial Cinema",
-    "slug": "imperial-cinema",
+    "id": "imperial-cinema",
     "description": "\ud83d\udd3b Dates: Early 20th century<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5988998,
-      "latitude": -7.6170491
+      "latitude": -7.6170491,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Taroudant",
+    "id": "taroudant",
+    "region": "Souss-Massa",
+    "country": "Morocco"
+  }
+}

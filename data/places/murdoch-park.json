@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Murdoch Park",
-    "slug": "murdoch-park",
+    "id": "murdoch-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5794719,
-      "latitude": -7.613182
+      "latitude": -7.613182,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

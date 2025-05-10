@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Al Haouz",
+    "id": "al-haouz",
+    "region": "Marrakesh-Safi",
+    "country": "Morocco"
+  }
+}

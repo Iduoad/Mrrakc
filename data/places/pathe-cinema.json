@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Path\u00e9 Cinema",
-    "slug": "pathe-cinema",
-    "description": null,
+    "id": "pathe-cinema",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6398598,
-      "latitude": 33.5440783
+      "latitude": 33.5440783,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Brunschwig Building",
-    "slug": "brunschwig-building",
+    "id": "brunschwig-building",
     "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.594246,
-      "latitude": -7.61965
+      "latitude": -7.61965,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Zaouiya Kadiriya Boudchichiya Sidi Lkhadir",
-    "slug": "zaouiya-kadiriya-boudchichiya-sidi-lkhadir",
+    "id": "zaouiya-kadiriya-boudchichiya-sidi-lkhadir",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5716564,
-      "latitude": -7.6880995
+      "latitude": -7.6880995,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

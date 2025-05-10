@@ -6,20 +6,20 @@
   },
   "spec": {
     "name": "Majestic Hotel",
-    "slug": "majestic-hotel",
+    "id": "majestic-hotel",
     "description": "\ud83d\udd3b Dates: 1948<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2005<br><br>https://fr.wikipedia.org/wiki/Fichier:Hotel_Majestic,_Casablanca_1867.jpg",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5911054,
-      "latitude": -7.6134255
+      "latitude": -7.6134255,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
     "links": [
       {
         "url": "https://fr.wikipedia.org/wiki/Fichier:Hotel_Majestic,_Casablanca_1867.jpg",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

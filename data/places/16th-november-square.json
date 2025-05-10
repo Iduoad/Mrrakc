@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "16th November Square",
-    "slug": "16th-november-square",
+    "id": "16th-november-square",
     "description": "\ud83d\udd3b Comments:\u00a0 Ex - Edmond Doutte Square",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5946752,
-      "latitude": -7.6169569
+      "latitude": -7.6169569,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

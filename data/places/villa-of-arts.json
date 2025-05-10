@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Villa of Arts",
-    "slug": "villa-of-arts",
+    "id": "villa-of-arts",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.586399,
-      "latitude": -7.6295476
+      "latitude": -7.6295476,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Meknès",
+    "id": "meknes",
+    "region": "Fes-Meknes",
+    "country": "Morocco"
+  }
+}

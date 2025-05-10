@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Ain Sebaa Beach",
-    "slug": "ain-sebaa-beach",
-    "description": null,
+    "id": "ain-sebaa-beach",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.5357248,
-      "latitude": 33.6208397
+      "latitude": 33.6208397,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -25,6 +25,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

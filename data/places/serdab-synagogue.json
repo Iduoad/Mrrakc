@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Serdab Synagogue",
-    "slug": "serdab-synagogue",
+    "id": "serdab-synagogue",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5981926,
-      "latitude": -7.6209819
+      "latitude": -7.6209819,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

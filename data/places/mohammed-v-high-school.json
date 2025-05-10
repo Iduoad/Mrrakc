@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Mohammed V high school",
-    "slug": "mohammed-v-high-school",
+    "id": "mohammed-v-high-school",
     "description": "\ud83d\udd3b Architect: Isaac L\u00e9vy & Elie Azagury<br>\ud83d\udd3b Dates: 1922-1954<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5779565,
-      "latitude": -7.6151533
+      "latitude": -7.6151533,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

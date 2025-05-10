@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tata",
+    "id": "tata",
+    "region": "Souss-Massa",
+    "country": "Morocco"
+  }
+}

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Mkila Hotgam Baabou",
-    "slug": "mkila-hotgam-baabou",
+    "id": "mkila-hotgam-baabou",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5619021,
-      "latitude": -7.552115
+      "latitude": -7.552115,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

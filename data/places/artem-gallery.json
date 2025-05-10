@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "ARTEM GALLERY",
-    "slug": "artem-gallery",
+    "id": "artem-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5881276,
-      "latitude": -7.6418433
+      "latitude": -7.6418433,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

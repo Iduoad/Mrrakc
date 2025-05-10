@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Zaouiya Tidjania - Ain chock",
-    "slug": "zaouiya-tidjania-ain-chock",
+    "id": "zaouiya-tidjania-ain-chock",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5534369,
-      "latitude": -7.6002424
+      "latitude": -7.6002424,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

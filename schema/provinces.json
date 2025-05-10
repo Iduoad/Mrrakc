@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mrrakc Provinces Schema",
+  "description": "Schema for provinces data in Mrrakc",
+  "type": "object",
+  "allOf": [{"$ref": "base.json"}],
+  "properties": {
+    "spec": {
+      "type": "object",
+      "required": ["name", "id", "region", "country"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Province name"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "URL-friendly version of name in kebab-case"
+        },
+        "region": {
+          "type": "string",
+          "$ref": "enums/regions.json",
+          "description": "Region containing the province"
+        },
+        "country": {
+          "type": "string",
+          "$ref": "enums/countries.json",
+          "description": "Country containing the province"
+        }
+      }
+    }
+  }
+}

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Kojump Bouskoura",
-    "slug": "kojump-bouskoura",
-    "description": null,
+    "id": "kojump-bouskoura",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6329134,
-      "latitude": 33.4876924
+      "latitude": 33.4876924,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

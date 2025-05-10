@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Amuzeum",
-    "slug": "amuzeum",
-    "description": null,
+    "id": "amuzeum",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.8174842,
-      "latitude": 33.512778
+      "latitude": 33.512778,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

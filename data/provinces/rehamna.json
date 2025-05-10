@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Rehamna",
+    "id": "rehamna",
+    "region": "Marrakesh-Safi",
+    "country": "Morocco"
+  }
+}

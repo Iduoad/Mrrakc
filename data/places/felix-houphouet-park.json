@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Felix Houphouet Park",
-    "slug": "felix-houphouet-park",
+    "id": "felix-houphouet-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5973941,
-      "latitude": -7.616273
+      "latitude": -7.616273,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

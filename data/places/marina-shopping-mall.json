@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Marina Shopping Mall",
-    "slug": "marina-shopping-mall",
+    "id": "marina-shopping-mall",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6069868,
-      "latitude": -7.6210527
+      "latitude": -7.6210527,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

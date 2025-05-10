@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Medina Cinema",
-    "slug": "medina-cinema",
+    "id": "medina-cinema",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5988805,
-      "latitude": -7.6205493
+      "latitude": -7.6205493,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

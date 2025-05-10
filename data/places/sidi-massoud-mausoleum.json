@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Sidi Massoud Mausoleum",
-    "slug": "sidi-massoud-mausoleum",
+    "id": "sidi-massoud-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5164052,
-      "latitude": -7.6287886
+      "latitude": -7.6287886,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

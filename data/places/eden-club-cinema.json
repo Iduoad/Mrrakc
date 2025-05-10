@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Eden Club Cinema",
-    "slug": "eden-club-cinema",
-    "description": null,
+    "id": "eden-club-cinema",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6159506,
-      "latitude": 33.5889454
+      "latitude": 33.5889454,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

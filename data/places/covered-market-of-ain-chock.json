@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Covered Market of Ain Chock",
-    "slug": "covered-market-of-ain-chock",
+    "id": "covered-market-of-ain-chock",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5521697,
-      "latitude": -7.5993081
+      "latitude": -7.5993081,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

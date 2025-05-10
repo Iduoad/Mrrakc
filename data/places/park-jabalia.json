@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Park Jabalia",
-    "slug": "park-jabalia",
+    "id": "park-jabalia",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5257293,
-      "latitude": -7.6164953
+      "latitude": -7.6164953,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

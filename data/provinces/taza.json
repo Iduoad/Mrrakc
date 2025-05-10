@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Taza",
+    "id": "taza",
+    "region": "Fes-Meknes",
+    "country": "Morocco"
+  }
+}

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Oceanic",
-    "slug": "oceanic",
+    "id": "oceanic",
     "description": "1947<br>1954",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.619497,
-      "latitude": -7.5367328
+      "latitude": -7.5367328,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

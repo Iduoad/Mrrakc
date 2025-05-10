@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "C\u00e9zanne Restaurant",
-    "slug": "cezanne-restaurant",
+    "id": "cezanne-restaurant",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6010095,
-      "latitude": -7.6550441
+      "latitude": -7.6550441,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

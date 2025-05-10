@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Green Hill Park",
-    "slug": "green-hill-park",
+    "id": "green-hill-park",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5754402,
-      "latitude": -7.5354464
+      "latitude": -7.5354464,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

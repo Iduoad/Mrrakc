@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Bab Sqala",
-    "slug": "bab-sqala",
+    "id": "bab-sqala",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6026841,
-      "latitude": -7.6188606
+      "latitude": -7.6188606,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

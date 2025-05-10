@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Annunciation Greek Orthodox Church",
-    "slug": "annunciation-greek-orthodox-church",
+    "id": "annunciation-greek-orthodox-church",
     "description": "\ud83d\udd3b Dates: 1929-1934",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5820147,
-      "latitude": -7.6135185
+      "latitude": -7.6135185,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

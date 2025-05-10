@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Moroccan Sfenj (Donuts)",
-    "slug": "moroccan-sfenj-donuts",
+    "id": "moroccan-sfenj-donuts",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5985609,
-      "latitude": -7.6152916
+      "latitude": -7.6152916,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

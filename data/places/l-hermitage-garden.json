@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "l'Hermitage Garden",
-    "slug": "l-hermitage-garden",
+    "id": "l-hermitage-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5644556,
-      "latitude": -7.6132002
+      "latitude": -7.6132002,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

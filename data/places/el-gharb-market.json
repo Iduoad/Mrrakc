@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "El Gharb Market",
-    "slug": "el-gharb-market",
+    "id": "el-gharb-market",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5736197,
-      "latitude": -7.6040516
+      "latitude": -7.6040516,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

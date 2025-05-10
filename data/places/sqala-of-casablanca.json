@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Sqala Of Casablanca",
-    "slug": "sqala-of-casablanca",
+    "id": "sqala-of-casablanca",
     "description": "\ud83d\udd3b Date: 1755<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The Sqala (Bastion) was fiirst built in the 15th century to defend the Atlantic coast. When Sultane Mohammed Ben Abdellah decided to build a new city in Anfa (Casablanca) he rebuilt the Sqala in 1755 CE to strengthen the defense of the city.<br><br>- https://en.wikipedia.org/wiki/Fortifications_of_Vauban",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6029533,
-      "latitude": -7.619094
+      "latitude": -7.619094,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [
@@ -24,8 +24,8 @@
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/Fortifications_of_Vauban",
-        "description": null,
-        "type": "website"
+        "type": "website",
+        "title": ""
       }
     ],
     "activities": [],
@@ -34,6 +34,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

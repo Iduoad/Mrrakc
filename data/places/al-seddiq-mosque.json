@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Al Seddiq Mosque",
-    "slug": "al-seddiq-mosque",
+    "id": "al-seddiq-mosque",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5822741,
-      "latitude": -7.6012336
+      "latitude": -7.6012336,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

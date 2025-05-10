@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Raffaello Pizzeria",
-    "slug": "raffaello-pizzeria",
+    "id": "raffaello-pizzeria",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5930885,
-      "latitude": -7.6169457
+      "latitude": -7.6169457,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

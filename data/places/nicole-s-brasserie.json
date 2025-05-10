@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Nicole's Brasserie",
-    "slug": "nicole-s-brasserie",
+    "id": "nicole-s-brasserie",
     "description": "\ud83d\udd3b Menu: French",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5897869,
-      "latitude": -7.6323522
+      "latitude": -7.6323522,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

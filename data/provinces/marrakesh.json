@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Marrakesh",
+    "id": "marrakesh",
+    "region": "Marrakesh-Safi",
+    "country": "Morocco"
+  }
+}

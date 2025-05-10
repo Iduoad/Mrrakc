@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Casa Voyageurs old station",
-    "slug": "casa-voyageurs-old-station",
+    "id": "casa-voyageurs-old-station",
     "description": "\ud83d\udd3b Dates: 1923<br>\ud83d\udd3b Current Status: Closed",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5897653,
-      "latitude": -7.5908846
+      "latitude": -7.5908846,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [
@@ -28,6 +28,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

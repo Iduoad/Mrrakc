@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Banon Building",
-    "slug": "banon-building",
+    "id": "banon-building",
     "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5954066,
-      "latitude": -7.6156142
+      "latitude": -7.6156142,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

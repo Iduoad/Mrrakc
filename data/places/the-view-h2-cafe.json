@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "The view H2 Cafe",
-    "slug": "the-view-h2-cafe",
+    "id": "the-view-h2-cafe",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6079998,
-      "latitude": -7.6288981
+      "latitude": -7.6288981,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

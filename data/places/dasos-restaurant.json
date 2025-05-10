@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Dasos Restaurant",
-    "slug": "dasos-restaurant",
+    "id": "dasos-restaurant",
     "description": "\ud83d\udd3b Menu: International",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.4864861,
-      "latitude": -7.6237724
+      "latitude": -7.6237724,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

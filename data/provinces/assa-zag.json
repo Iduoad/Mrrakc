@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Assa-Zag",
+    "id": "assa-zag",
+    "region": "Guelmim-Oued Noun",
+    "country": "Morocco"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Ed-Dahab",
+    "id": "oued-ed-dahab",
+    "region": "Dakhla-Oued Ed-Dahab",
+    "country": "Morocco"
+  }
+}

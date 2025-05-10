@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "St John's Church",
-    "slug": "st-john-s-church",
+    "id": "st-john-s-church",
     "description": "\ud83d\udd3b Dates: 1906<br>\ud83d\udd3b Current Status: Church<br>\ud83d\udd3b Comments: The oldest church still in use in Casablanca.The cemetery nearby was built in\u00a01864.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5954169,
-      "latitude": -7.6210617
+      "latitude": -7.6210617,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

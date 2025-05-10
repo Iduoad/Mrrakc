@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Lynx Cinema",
-    "slug": "lynx-cinema",
+    "id": "lynx-cinema",
     "description": "\ud83d\udd3b Architect: Dominique Basciano<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.587321,
-      "latitude": -7.6174612
+      "latitude": -7.6174612,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Ahmed Ben Icho Mausoleum",
-    "slug": "ahmed-ben-icho-mausoleum",
+    "id": "ahmed-ben-icho-mausoleum",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6415831,
-      "latitude": -7.4348249
+      "latitude": -7.4348249,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

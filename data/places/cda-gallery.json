@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "CDA GALLERY",
-    "slug": "cda-gallery",
+    "id": "cda-gallery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5929345,
-      "latitude": -7.6418531
+      "latitude": -7.6418531,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

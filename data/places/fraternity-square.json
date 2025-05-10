@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Fraternity Square",
-    "slug": "fraternity-square",
+    "id": "fraternity-square",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5939147,
-      "latitude": -7.6287499
+      "latitude": -7.6287499,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

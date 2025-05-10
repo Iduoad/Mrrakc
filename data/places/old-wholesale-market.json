@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Old wholesale market",
-    "slug": "old-wholesale-market",
+    "id": "old-wholesale-market",
     "description": "\ud83d\udd3b Architect: Paul Perrot<br>\ud83d\udd3b Dates: 1930s<br>\ud83d\udd3b Current Status: Closed",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5905895,
-      "latitude": -7.5964451
+      "latitude": -7.5964451,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

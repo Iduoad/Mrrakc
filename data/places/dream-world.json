@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Dream World",
-    "slug": "dream-world",
-    "description": null,
+    "id": "dream-world",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6330593,
-      "latitude": 33.5818992
+      "latitude": 33.5818992,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "El Korimat Garden",
-    "slug": "el-korimat-garden",
+    "id": "el-korimat-garden",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5494546,
-      "latitude": -7.6035631
+      "latitude": -7.6035631,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

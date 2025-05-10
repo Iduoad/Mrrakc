@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Hammam of Hassan II Mosque",
-    "slug": "hammam-of-hassan-ii-mosque",
+    "id": "hammam-of-hassan-ii-mosque",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6069284,
-      "latitude": -7.6322774
+      "latitude": -7.6322774,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "El Kebir Ben Mohamed Lahrizi Mosque",
-    "slug": "el-kebir-ben-mohamed-lahrizi-mosque",
-    "description": null,
+    "id": "el-kebir-ben-mohamed-lahrizi-mosque",
+    "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": -7.6211945,
-      "latitude": 33.6029558
+      "latitude": 33.6029558,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -24,6 +24,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": null
+    "timePeriods": [
+      ""
+    ]
   }
 }

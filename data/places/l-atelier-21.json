@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "L'Atelier 21",
-    "slug": "l-atelier-21",
+    "id": "l-atelier-21",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5860724,
-      "latitude": -7.6432651
+      "latitude": -7.6432651,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Bab El Marsa",
-    "slug": "bab-el-marsa",
+    "id": "bab-el-marsa",
     "description": "AKA Bab Diouana",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6005625,
-      "latitude": -7.6170625
+      "latitude": -7.6170625,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

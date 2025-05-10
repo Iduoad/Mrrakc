@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Jewish Cemetery",
-    "slug": "jewish-cemetery",
+    "id": "jewish-cemetery",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6007292,
-      "latitude": -7.6254864
+      "latitude": -7.6254864,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

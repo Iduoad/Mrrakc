@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Es Semara",
+    "id": "es-semara",
+    "region": "Laayoune-Sakia El Hamra",
+    "country": "Morocco"
+  }
+}

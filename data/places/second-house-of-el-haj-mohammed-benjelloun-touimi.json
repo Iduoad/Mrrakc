@@ -1,17 +1,17 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/house  ",
+  "kind": "architecture/house",
   "metadata": {
     "tags": []
   },
   "spec": {
     "name": "Second House of El Haj Mohammed Benjelloun Touimi",
-    "slug": "second-house-of-el-haj-mohammed-benjelloun-touimi",
+    "id": "second-house-of-el-haj-mohammed-benjelloun-touimi",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6021814,
-      "latitude": -7.6191936
+      "latitude": -7.6191936,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

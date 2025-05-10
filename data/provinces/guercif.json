@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Guercif",
+    "id": "guercif",
+    "region": "Oriental",
+    "country": "Morocco"
+  }
+}

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Flore Maison des Arts",
-    "slug": "flore-maison-des-arts",
+    "id": "flore-maison-des-arts",
     "description": "",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.6049609,
-      "latitude": -7.6333464
+      "latitude": -7.6333464,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

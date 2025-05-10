@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Sky 28 Restaurant",
-    "slug": "sky-28-restaurant",
+    "id": "sky-28-restaurant",
     "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: View",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.586646,
-      "latitude": -7.6320104
+      "latitude": -7.6320104,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

@@ -6,12 +6,12 @@
   },
   "spec": {
     "name": "Radiology clinic Building",
-    "slug": "radiology-clinic-building",
+    "id": "radiology-clinic-building",
     "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status:\u00a0Oued El Makhazine Radiology Center.",
     "location": {
-      "administrativeArea": "province/casablanca",
       "longitude": 33.5943259,
-      "latitude": -7.6239265
+      "latitude": -7.6239265,
+      "province": "province/casablanca"
     },
     "people": [],
     "timeline": [],
@@ -22,6 +22,8 @@
       "type": "public",
       "options": []
     },
-    "timePeriod": ""
+    "timePeriods": [
+      ""
+    ]
   }
 }

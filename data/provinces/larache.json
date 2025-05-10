@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Larache",
+    "id": "larache",
+    "region": "Tanger-Tetouan-Al Hoceima",
+    "country": "Morocco"
+  }
+}

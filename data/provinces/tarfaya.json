@@ -1,0 +1,12 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tarfaya",
+    "id": "tarfaya",
+    "region": "Laayoune-Sakia El Hamra",
+    "country": "Morocco"
+  }
+}
