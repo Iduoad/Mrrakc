@@ -7,7 +7,7 @@
   "spec": {
     "name": "Zaouiya Dekaouiya Park",
     "id": "zaouiya-dekaouiya-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5104142,
       "latitude": -7.6069533,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

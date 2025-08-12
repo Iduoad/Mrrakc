@@ -16,27 +16,30 @@
     "people": [
       {
         "id": "people/edmond-brion",
-        "relationship": ["architect"]
+        "relationship": [
+          "architect"
+        ]
       }
     ],
     "timeline": [],
     "links": [
       {
-        "url": "https://www.creditdumaroc.ma/institutionnel/credit-du-maroc-90-ans-dhistoire-une-exposition-evenement-pour-celebrer-lancrage-dune<br>\ud83d\udd17",
+        "url": "https://www.creditdumaroc.ma/institutionnel/credit-du-maroc-90-ans-dhistoire-une-exposition-evenement-pour-celebrer-lancrage-dune",
         "type": "website",
-        "title": ""
+        "title": "Crédit du Maroc, 90 ans d’histoire » Une exposition évènement pour célébrer l'ancrage d'une banque dans l'histoire du Maroc"
       },
       {
         "url": "https://m.facebook.com/story.php?story_fbid=pfbid02LPM76dpbgKkuJTP8h5iXm1KW56H7sbC99zAPW3J8HSoqXJrJ67HiRnzwSgV7yURCl&id=100067627730273",
         "type": "website",
-        "title": ""
+        "title": "Facebook post about the Building"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Chfinja Masters",
     "id": "chfinja-masters",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6020879,
       "latitude": -7.6463305,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

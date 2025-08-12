@@ -19,14 +19,15 @@
       {
         "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
         "type": "website",
-        "title": ""
+        "title": "Mausoleum of Allal al-Qairawani"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Othmane Park",
     "id": "sidi-othmane-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5540745,
       "latitude": -7.5672,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

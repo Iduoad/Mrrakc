@@ -103,8 +103,19 @@
         },
         "access": {
           "type": "object",
-          "required": ["type"],
+          "required": ["type", "status"],
           "properties": {
+            "status": {
+              "type": "string",
+              "description": "Status of the place",
+              "enum": [
+                "open",
+                "closed",
+                "temporarily_closed",
+                "under_construction",
+                "under_renovation"
+              ]
+            },
             "type": {
               "type": "string",
               "description": "Access type for the place",
@@ -161,6 +172,13 @@
             "type": "string"
           },
           "description": "Time periods or era of the place"
+        },
+        "comments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Free comments about the place"
         }
       }
     }

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Ahmed Taghi Mausoleum",
     "id": "sidi-ahmed-taghi-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5892207,
       "latitude": -7.6806356,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

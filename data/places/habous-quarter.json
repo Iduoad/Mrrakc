@@ -7,7 +7,7 @@
   "spec": {
     "name": "Habous Quarter",
     "id": "habous-quarter",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5781393,
       "latitude": -7.6059877,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

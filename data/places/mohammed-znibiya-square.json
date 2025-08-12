@@ -7,7 +7,7 @@
   "spec": {
     "name": "Mohammed Znibiya Square",
     "id": "mohammed-znibiya-square",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5608398,
       "latitude": -7.5639887,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sindibad Park",
     "id": "sindibad-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6896083,
       "latitude": 33.5805142,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

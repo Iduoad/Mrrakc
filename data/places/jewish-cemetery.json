@@ -7,7 +7,7 @@
   "spec": {
     "name": "Jewish Cemetery",
     "id": "jewish-cemetery",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6007292,
       "latitude": -7.6254864,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

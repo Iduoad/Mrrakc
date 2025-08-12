@@ -7,7 +7,7 @@
   "spec": {
     "name": "Villa d'anfa",
     "id": "villa-d-anfa",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5888109,
       "latitude": -7.6640112,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

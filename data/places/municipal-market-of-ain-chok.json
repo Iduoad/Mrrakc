@@ -7,7 +7,7 @@
   "spec": {
     "name": "Municipal Market of Ain Chok",
     "id": "municipal-market-of-ain-chok",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5477509,
       "latitude": -7.597614,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Green Hill Park",
     "id": "green-hill-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5754402,
       "latitude": -7.5354464,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

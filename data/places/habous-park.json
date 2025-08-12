@@ -7,7 +7,7 @@
   "spec": {
     "name": "Habous park",
     "id": "habous-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5778777,
       "latitude": -7.6046811,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -17,21 +17,22 @@
     "timeline": [],
     "links": [
       {
-        "url": "https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/<br>-",
+        "url": "https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/",
         "type": "website",
-        "title": ""
+        "title": "Maison de la photographie project page"
       },
       {
         "url": "https://www.facebook.com/Maison.Photographie.Ennadre.Medina.Casablanca/?locale=fr_FR",
         "type": "website",
-        "title": ""
+        "title": "Maison de la Photographie - Médina de Casablanca Facebook page"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Moulay Youssef Ibn Hassan",
+    "id": "moulay-youssef",
+    "bio": "Moulay Youssef (1881–1927) was the Sultan of Morocco from 1912 to 1927. His reign coincided with the establishment of the French Protectorate in Morocco following the Treaty of Fes in March 1912. During his rule, the French Resident-General, Marshal Louis Lyautey, exerted significant influence over Moroccan administration. Moulay Youssef's period also saw various resistance movements against colonial rule, most notably the Rif War led by Abd el-Krim.",
+    "designations": ["sultan"],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1881-01-01",
+        "description": "Born in 1881."
+      },
+      {
+        "title": "Became Sultan of Morocco",
+        "date": "1912-01-01",
+        "description": "Ascended to the throne as Sultan of Morocco, marking the beginning of the French Protectorate."
+      },
+      {
+        "title": "Death",
+        "date": "1927-01-01",
+        "description": "Died in 1927."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/youssef-mulay",
+        "title": "Encyclopedia.com Page",
+        "type": "article"
+      },
+      {
+        "url": "https://encyclopedia.1914-1918-online.net/histperson/moulay-youssef-of-morocco-1881-1927/",
+        "title": "1914-1918 Online Page",
+        "type": "article"
+      }
+    ]
+  }
+}

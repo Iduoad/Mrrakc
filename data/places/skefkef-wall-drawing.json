@@ -7,7 +7,7 @@
   "spec": {
     "name": "Skefkef wall drawing",
     "id": "skefkef-wall-drawing",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6014609,
       "latitude": -7.6198431,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

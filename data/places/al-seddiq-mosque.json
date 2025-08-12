@@ -7,7 +7,7 @@
   "spec": {
     "name": "Al Seddiq Mosque",
     "id": "al-seddiq-mosque",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5822741,
       "latitude": -7.6012336,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

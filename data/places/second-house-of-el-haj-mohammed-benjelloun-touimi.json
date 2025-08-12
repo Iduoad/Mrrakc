@@ -7,7 +7,7 @@
   "spec": {
     "name": "Second House of El Haj Mohammed Benjelloun Touimi",
     "id": "second-house-of-el-haj-mohammed-benjelloun-touimi",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6021814,
       "latitude": -7.6191936,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

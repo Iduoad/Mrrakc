@@ -18,21 +18,22 @@
       {
         "title": "Rebuilt",
         "description": "Sqala rebuilt",
-        "date": "1755"
+        "date": "1755-01-01"
       }
     ],
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/Fortifications_of_Vauban",
         "type": "website",
-        "title": ""
+        "title": "Fortification of Vauban"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

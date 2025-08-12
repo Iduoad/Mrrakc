@@ -7,7 +7,7 @@
   "spec": {
     "name": "Habous Bazar",
     "id": "habous-bazar",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5777103,
       "latitude": -7.6051263,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

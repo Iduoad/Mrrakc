@@ -7,7 +7,7 @@
   "spec": {
     "name": "Tit Mellil park",
     "id": "tit-mellil-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5536456,
       "latitude": -7.4846486,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

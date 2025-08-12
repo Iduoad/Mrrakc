@@ -7,7 +7,7 @@
   "spec": {
     "name": "Crio Market",
     "id": "crio-market",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5521948,
       "latitude": -7.5578566,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

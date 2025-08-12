@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Belyout Mausoleum",
     "id": "sidi-belyout-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5988639,
       "latitude": -7.6138653,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

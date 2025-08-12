@@ -7,7 +7,7 @@
   "spec": {
     "name": "Paquet Roundabout",
     "id": "paquet-roundabout",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5939906,
       "latitude": -7.6085837,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

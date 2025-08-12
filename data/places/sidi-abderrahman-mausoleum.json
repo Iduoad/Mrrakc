@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Abderrahman Mausoleum",
     "id": "sidi-abderrahman-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.582468,
       "latitude": -7.7043219,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

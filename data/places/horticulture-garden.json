@@ -7,7 +7,7 @@
   "spec": {
     "name": "Horticulture Garden",
     "id": "horticulture-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5638052,
       "latitude": -7.6137688,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

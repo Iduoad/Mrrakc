@@ -2,34 +2,108 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historic",
+      "art deco",
+      "cultural"
+    ]
   },
   "spec": {
     "name": "ABC Cinema",
     "id": "abc-cinema",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1927<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2013<br>\ud83d\udd3b links: https://www.zupimages.net/viewer.php?id=18/06/ksb0.jpg",
+    "description": "ABC Cinema, located on Boulevard Mohammed V in Casablanca, is an iconic establishment with a rich history in the city's film scene. While some sources indicate a construction date in the 1950s, other historical records attribute its design to architect Aldo Manassi in 1927, making it a significant architectural landmark. It's recognized for its classic facade and elegant interior, evoking the golden age of cinema. Although it was previously listed as 'Closed', current information suggests it remains a popular choice for film lovers, offering a diverse program that includes recent films, classics, and local productions. The cinema is renowned for its comfort and quality acoustics, aiming to provide a pleasant experience for every screening. It also hosts special events and festivals, contributing to Casablanca's cultural vibrancy. The building was declared National Material Patrimony in 2013.",
     "location": {
       "longitude": 33.5954405,
       "latitude": -7.6161793,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/aldo-manassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect credited with the design of ABC Cinema in 1927."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Ettedgui Building Designed by Aldo Manassi",
+        "date": "1927-01-01",
+        "description": "The original design of the building with cinema is attributed to architect Aldo Manassi."
+      },
+      {
+        "title": "Inauguration",
+        "date": "1947-01-01",
+        "description": "The cinema is opened, becoming an iconic establishment."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2013-01-01",
+        "description": "Recognized as National Material Patrimony."
+      }
+    ],
     "links": [
       {
         "url": "https://www.zupimages.net/viewer.php?id=18/06/ksb0.jpg",
+        "type": "image",
+        "title": "Historical Image"
+      },
+      {
+        "url": "https://visitcasablanca.ma/en/pois/cinema-abc/",
+        "type": "article",
+        "title": "Visit Casablanca"
+      },
+      {
+        "url": "https://mapstr.com/place/vZkZW2CzHRg",
         "type": "website",
-        "title": ""
+        "title": "Mapstr Listing"
+      },
+      {
+        "url": "http://www.artmap.ma/fr/adresse/cin%C3%A9ma-abc-casablanca",
+        "type": "article",
+        "title": "Artmap.ma Listing"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "films",
+      "special events",
+      "film festivals"
+    ],
+    "items": [
+      "classic facade",
+      "elegant interior",
+      "auditorium",
+      "screen",
+      "seating"
+    ],
     "access": {
-      "type": "public",
-      "options": []
+      "type": "private",
+      "options": [
+        {
+          "title": "Normal Ticket Price",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": 35
+        },
+        {
+          "title": "Monday Special Price",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": 25
+        },
+        {
+          "title": "11 AM Session Price",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": 20
+        }
+      ],
+      "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "21st century"
     ]
   }
 }

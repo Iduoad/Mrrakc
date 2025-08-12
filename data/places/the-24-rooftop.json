@@ -7,7 +7,7 @@
   "spec": {
     "name": "The 24 rooftop",
     "id": "the-24-rooftop",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5981877,
       "latitude": -7.6139111,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

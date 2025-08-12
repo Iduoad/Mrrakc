@@ -7,7 +7,7 @@
   "spec": {
     "name": "School Notre Dame Ain Sebaa",
     "id": "school-notre-dame-ain-sebaa",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6070816,
       "latitude": -7.5342118,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Charles De Foucauld Church",
     "id": "charles-de-foucauld-church",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5718649,
       "latitude": -7.6186346,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

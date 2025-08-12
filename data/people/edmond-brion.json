@@ -1,0 +1,87 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Edmond Brion",
+    "id": "edmond-brion",
+    "bio": "French architect known for his contributions to Moroccan architecture during the early 20th century.",
+    "birthPlace": "province/soissons",
+    "designations": ["architect"],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1885-05-23",
+        "description": "Born in Soissons, France."
+      },
+      {
+        "title": "Graduated from École des Beaux-Arts",
+        "date": "1913-01-01",
+        "description": "Graduated as a DPLG architect from the École Nationale et Spéciale des Beaux-Arts in Paris."
+      },
+      {
+        "title": "Moved to Morocco",
+        "date": "1919-01-01",
+        "description": "Arrived in Morocco and began his practice, associating with Auguste Cadet."
+      },
+      {
+        "title": "Collaboration on Habous Quarter",
+        "date": "1918-01-01",
+        "description": "Collaborated with Auguste Cadet on the design and construction of the Habous Quarter in Casablanca (period between 1918-1949)."
+      },
+      {
+        "title": "Founded Moroccan Chapter of SADG",
+        "date": "1930-01-01",
+        "description": "Founded the Moroccan chapter of SADG (Société des architectes diplômés par le gouvernement)."
+      },
+      {
+        "title": "Designed Tasso Building",
+        "date": "1931-01-01",
+        "description": "Designed the Tasso Building in Casablanca."
+      },
+      {
+        "title": "Designed Bendahan Building",
+        "date": "1935-01-01",
+        "description": "Designed the Bendahan Building in Casablanca."
+      },
+      {
+        "title": "Designed State Bank of Morocco (Casablanca branch)",
+        "date": "1937-01-01",
+        "description": "Designed the Casablanca branch of the State Bank of Morocco."
+      },
+      {
+        "title": "Designed Cité Ouvrière Indigène",
+        "date": "1939-01-01",
+        "description": "Designed the 'cité ouvrière indigène' for the Compagnie Sucriere Marocaine (COSUMA)."
+      },
+      {
+        "title": "Death",
+        "date": "1973-01-01",
+        "description": "Died in 1973."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Edmond_Brion",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://www.archnet.org/authorities/7082",
+        "title": "Archnet Profile",
+        "type": "website"
+      },
+      {
+        "url": "https://www.maghress.com/fr/lagazette/8761",
+        "title": "Small Edmon Brion bio",
+        "type": "article"
+      },
+      {
+        "url": "https://moroccanview.com/les-architectes-du-quartier-des-habous-de-casablanca/",
+        "title": "Les architectes du Quartier des Habous de Casablanca (French)",
+        "type": "article"
+      }
+    ]
+  }
+}

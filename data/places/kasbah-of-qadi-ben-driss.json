@@ -7,7 +7,7 @@
   "spec": {
     "name": "Kasbah of Qadi Ben Driss",
     "id": "kasbah-of-qadi-ben-driss",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.544822,
       "latitude": -7.5901284,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

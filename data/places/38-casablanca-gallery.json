@@ -7,7 +7,7 @@
   "spec": {
     "name": "38 Casablanca Gallery",
     "id": "38-casablanca-gallery",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5744777,
       "latitude": -7.6832173,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

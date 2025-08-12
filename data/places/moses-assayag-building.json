@@ -19,14 +19,15 @@
       {
         "url": "https://medias24.com/2022/02/04/visite-guidee-le-casablanca-de-rachid-andaloussi/",
         "type": "website",
-        "title": ""
+        "title": "Visite Guidee. Le Casablanca de Rachid Andaloussi"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

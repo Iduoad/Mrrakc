@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Ahmed Ben Lahcen Mausoleum",
     "id": "sidi-ahmed-ben-lahcen-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.4519001,
       "latitude": -7.5172016,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

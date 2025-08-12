@@ -7,7 +7,7 @@
   "spec": {
     "name": "Anfaplace Mall",
     "id": "anfaplace-mall",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.598129,
       "latitude": -7.6646354,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

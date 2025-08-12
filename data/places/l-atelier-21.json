@@ -7,7 +7,7 @@
   "spec": {
     "name": "L'Atelier 21",
     "id": "l-atelier-21",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5860724,
       "latitude": -7.6432651,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

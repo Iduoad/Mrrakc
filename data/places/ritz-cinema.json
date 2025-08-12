@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ritz Cinema",
     "id": "ritz-cinema",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6147012,
       "latitude": 33.5944574,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

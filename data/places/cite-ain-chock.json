@@ -7,7 +7,7 @@
   "spec": {
     "name": "Cit\u00e9 Ain Chock",
     "id": "cite-ain-chock",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5527953,
       "latitude": -7.5964832,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

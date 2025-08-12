@@ -7,7 +7,7 @@
   "spec": {
     "name": "Crazy Park",
     "id": "crazy-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.7686459,
       "latitude": 33.5388025,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

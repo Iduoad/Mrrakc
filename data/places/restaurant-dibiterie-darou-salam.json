@@ -7,7 +7,7 @@
   "spec": {
     "name": "Restaurant Dibiterie Darou Salam",
     "id": "restaurant-dibiterie-darou-salam",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5971237,
       "latitude": -7.620672,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

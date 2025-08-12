@@ -7,7 +7,7 @@
   "spec": {
     "name": "Le Studio Des Arts Vivants",
     "id": "le-studio-des-arts-vivants",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5740336,
       "latitude": -7.683577,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Mauritania Cafe",
     "id": "mauritania-cafe",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5789155,
       "latitude": -7.6062125,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

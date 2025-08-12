@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ain Sbaa Zoo",
     "id": "ain-sbaa-zoo",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.5298039,
       "latitude": 33.6051717,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

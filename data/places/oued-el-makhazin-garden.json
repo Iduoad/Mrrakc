@@ -7,7 +7,7 @@
   "spec": {
     "name": "Oued El Makhazin Garden",
     "id": "oued-el-makhazin-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5952815,
       "latitude": -7.6237007,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

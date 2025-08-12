@@ -7,7 +7,7 @@
   "spec": {
     "name": "Casa plage Cafe",
     "id": "casa-plage-cafe",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5828,
       "latitude": -7.7001933,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Cin\u00e9Atlas Casablanca",
     "id": "cineatlas-casablanca",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6635283,
       "latitude": 33.5630172,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

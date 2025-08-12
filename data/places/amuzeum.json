@@ -7,7 +7,7 @@
   "spec": {
     "name": "Amuzeum",
     "id": "amuzeum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.8174842,
       "latitude": 33.512778,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

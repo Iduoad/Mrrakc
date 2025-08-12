@@ -7,7 +7,7 @@
   "spec": {
     "name": "California Mall",
     "id": "california-mall",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5445568,
       "latitude": -7.6401545,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

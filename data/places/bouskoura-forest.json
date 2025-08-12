@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bouskoura Forest",
     "id": "bouskoura-forest",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.5788975,
       "latitude": 33.4642281,
@@ -23,7 +23,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

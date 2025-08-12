@@ -7,7 +7,7 @@
   "spec": {
     "name": "Shart Gallery",
     "id": "shart-gallery",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5879496,
       "latitude": -7.6407818,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

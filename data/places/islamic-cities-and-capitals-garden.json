@@ -7,7 +7,7 @@
   "spec": {
     "name": "Islamic cities and capitals Garden",
     "id": "islamic-cities-and-capitals-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5559595,
       "latitude": -7.5956659,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

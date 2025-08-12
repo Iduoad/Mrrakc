@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ain Chock mosque Park",
     "id": "ain-chock-mosque-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.553271,
       "latitude": -7.6009371,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

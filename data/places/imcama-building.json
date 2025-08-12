@@ -19,14 +19,15 @@
       {
         "url": "https://www.maghress.com/fr/lagazette/12189",
         "type": "website",
-        "title": ""
+        "title": "À la une : L'immeuble Albert Greslin"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

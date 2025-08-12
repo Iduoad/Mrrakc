@@ -7,7 +7,7 @@
   "spec": {
     "name": "El Gharb Market",
     "id": "el-gharb-market",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5736197,
       "latitude": -7.6040516,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "l'Hermitage Garden",
     "id": "l-hermitage-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5644556,
       "latitude": -7.6132002,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

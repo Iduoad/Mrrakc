@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Othmane Mausoleum",
     "id": "sidi-othmane-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5597611,
       "latitude": -7.5726133,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

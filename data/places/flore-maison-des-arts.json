@@ -7,7 +7,7 @@
   "spec": {
     "name": "Flore Maison des Arts",
     "id": "flore-maison-des-arts",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6049609,
       "latitude": -7.6333464,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

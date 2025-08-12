@@ -21,7 +21,7 @@
       "enum": [
         "article",
         "video",
-        "picture",
+        "image",
         "movie",
         "website",
         "book"

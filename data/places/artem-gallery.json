@@ -7,7 +7,7 @@
   "spec": {
     "name": "ARTEM GALLERY",
     "id": "artem-gallery",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5881276,
       "latitude": -7.6418433,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

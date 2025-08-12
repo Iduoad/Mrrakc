@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sindibad Karting",
     "id": "sindibad-karting",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6910174,
       "latitude": 33.5818554,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

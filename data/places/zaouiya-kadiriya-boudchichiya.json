@@ -7,7 +7,7 @@
   "spec": {
     "name": "Zaouiya Kadiriya Boudchichiya",
     "id": "zaouiya-kadiriya-boudchichiya",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5991839,
       "latitude": -7.6200174,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Le Maigre Dubreil Roundabout",
     "id": "le-maigre-dubreil-roundabout",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5839344,
       "latitude": -7.61007,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

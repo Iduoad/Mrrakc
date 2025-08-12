@@ -7,7 +7,7 @@
   "spec": {
     "name": "Serdab Synagogue",
     "id": "serdab-synagogue",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5981926,
       "latitude": -7.6209819,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

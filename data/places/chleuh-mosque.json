@@ -16,18 +16,22 @@
     "people": [
       {
         "id": "people/mohammed-sanhaji",
-        "relationship": ["founder"]
+        "relationship": [
+          "founder"
+        ]
       },
       {
         "id": "people/mohammed-ibn-abdellah",
-        "relationship": ["sultan"]
+        "relationship": [
+          "sultan"
+        ]
       }
     ],
     "timeline": [
       {
         "title": "Construction Date",
-        "description": "",
-        "date": "1899"
+        "description": "The mosque was constructed under the rule of Sultan Mohammed Ibn Abdellah",
+        "date": "1899-01-01"
       }
     ],
     "links": [],
@@ -44,7 +48,8 @@
           "modality": "free",
           "entranceFee": 0
         }
-      ]
+      ],
+      "status": "open"
     },
     "timePeriods": [
       "19th century"

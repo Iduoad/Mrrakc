@@ -1,0 +1,61 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Michel Pinseau",
+    "id": "michel-pinseau",
+    "bio": "Michel Pinseau (1926 – 15 September 1999) was a French architect primarily known for designing the Hassan II Mosque in Casablanca, Morocco, which features the second tallest minaret in the world. He graduated from École Nationale Supérieure des Beaux-Arts in Paris in 1956. Pinseau became known as King Hassan II's architect after their meeting in the 1970s and worked on numerous royal projects in Morocco for over two decades, including royal residences, universities, administrative buildings, and social housing.",
+    "designations": ["architect"],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1926-01-01",
+        "description": "Born in 1926."
+      },
+      {
+        "title": "Graduated from École Nationale Supérieure des Beaux-Arts",
+        "date": "1956-01-01",
+        "description": "Graduated from École Nationale Supérieure des Beaux-Arts in Paris."
+      },
+      {
+        "title": "Met King Hassan II",
+        "date": "1970-01-01",
+        "description": "Met King Hassan II of Morocco, marking a turning point in his career."
+      },
+      {
+        "title": "Began Construction of Hassan II Mosque",
+        "date": "1986-01-01",
+        "description": "Began the construction of the Hassan II Mosque in Casablanca, inaugurated by King Hassan II."
+      },
+      {
+        "title": "Designed Morocco Pavilion for Seville Expo",
+        "date": "1992-01-01",
+        "description": "Designed the Morocco Pavilion for the Seville Universal Exhibition."
+      },
+      {
+        "title": "Completion of Hassan II Mosque",
+        "date": "1993-01-01",
+        "description": "The Hassan II Mosque in Casablanca was completed."
+      },
+      {
+        "title": "Death",
+        "date": "1999-09-15",
+        "description": "Died in Paris."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Michel_Pinseau",
+        "title": "Wikipedia Page",
+        "type": "article"
+      },
+      {
+        "url": "https://expositions-virtuelles.citedelarchitecture.fr/portraits_architectes/pinmi.php",
+        "title": "Portraits d'architectes (French)",
+        "type": "website"
+      }
+    ]
+  }
+}

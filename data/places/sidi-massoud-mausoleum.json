@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Massoud Mausoleum",
     "id": "sidi-massoud-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5164052,
       "latitude": -7.6287886,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

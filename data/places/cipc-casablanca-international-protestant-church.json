@@ -7,7 +7,7 @@
   "spec": {
     "name": "CIPC Casablanca International Protestant Church",
     "id": "cipc-casablanca-international-protestant-church",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5954449,
       "latitude": -7.6055746,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

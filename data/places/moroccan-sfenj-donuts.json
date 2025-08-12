@@ -7,7 +7,7 @@
   "spec": {
     "name": "Moroccan Sfenj (Donuts)",
     "id": "moroccan-sfenj-donuts",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5985609,
       "latitude": -7.6152916,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Lutetia Cine-Theatre ",
     "id": "lutetia-cine-theatre",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6170859,
       "latitude": 33.5939391,
@@ -23,7 +23,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

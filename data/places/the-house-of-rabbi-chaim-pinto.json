@@ -7,7 +7,7 @@
   "spec": {
     "name": "The House of Rabbi Chaim Pinto",
     "id": "the-house-of-rabbi-chaim-pinto",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5991204,
       "latitude": -7.6174471,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

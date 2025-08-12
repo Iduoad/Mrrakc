@@ -16,18 +16,23 @@
     "people": [
       {
         "id": "people/sidi-mohammed-ibn-abdellah",
-        "relationship": ["sultan", "founder"]
+        "relationship": [
+          "sultan",
+          "founder"
+        ]
       },
       {
         "id": "people/ould-el-hamra",
-        "relationship": ["founder"]
+        "relationship": [
+          "founder"
+        ]
       }
     ],
     "timeline": [
       {
         "title": "Construction Date",
-        "description": "",
-        "date": "1783 CE"
+        "description": "The Mosque was constructed",
+        "date": "1783-01-01"
       }
     ],
     "links": [],
@@ -37,7 +42,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       "18th century"

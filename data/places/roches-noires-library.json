@@ -7,7 +7,7 @@
   "spec": {
     "name": "Roches Noires Library",
     "id": "roches-noires-library",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.5969295,
       "latitude": 33.5911621,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

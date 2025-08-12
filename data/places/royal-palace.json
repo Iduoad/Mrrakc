@@ -7,7 +7,7 @@
   "spec": {
     "name": "Royal Palace",
     "id": "royal-palace",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5803387,
       "latitude": -7.6054573,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "forbidden",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

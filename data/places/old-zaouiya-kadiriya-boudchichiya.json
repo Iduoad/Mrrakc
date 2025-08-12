@@ -7,7 +7,7 @@
   "spec": {
     "name": "Zaouiya Kadiriya Boudchichiya (Old)",
     "id": "old-zaouiya-kadiriya-boudchichiya",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6020969,
       "latitude": -7.6191228,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

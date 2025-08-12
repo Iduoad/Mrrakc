@@ -7,7 +7,7 @@
   "spec": {
     "name": "Twin Towers Center",
     "id": "twin-towers-center",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5866755,
       "latitude": -7.632104,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

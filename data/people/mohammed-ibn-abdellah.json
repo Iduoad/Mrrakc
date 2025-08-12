@@ -1,0 +1,52 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mohammed ibn Abdellah",
+    "id": "mohammed-ibn-abdellah",
+    "bio": "Sidi Mohammed ben Abdallah al-Khatib, also known as Mohammed III, was the Sultan of Morocco from 1757 to 1790, belonging to the 'Alawi dynasty. Born in Fes in 1710, he is often referred to as 'the architect of modern Morocco' for his extensive rebuilding efforts after the 1755 earthquake, including cities like Mogador (Essaouira), Casablanca, and Rabat. He was also notable for being the first head of state to recognize American independence and for expelling the Portuguese from Mazagan (El Jadida) in 1769.",
+    "birthPlace": "province/fes",
+    "designations": ["sultan"],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1710-01-01",
+        "description": "Born in Fes, Morocco."
+      },
+      {
+        "title": "Became Sultan of Morocco",
+        "date": "1757-01-01",
+        "description": "Ascended to the throne as Sultan of Morocco."
+      },
+      {
+        "title": "Rebuilding Efforts (post-earthquake)",
+        "date": "1757-01-01",
+        "description": "Initiated major rebuilding projects in cities like Mogador, Casablanca, and Rabat following the 1755 Lisbon earthquake."
+      },
+      {
+        "title": "Expelled Portuguese from Mazagan",
+        "date": "1769-01-01",
+        "description": "Expelled the Portuguese from Mazagan (present-day El Jadida)."
+      },
+      {
+        "title": "First Leader to Recognize American Independence",
+        "date": "1777-01-01",
+        "description": "Recognized American independence, making Morocco the first country to do so."
+      },
+      {
+        "title": "Death",
+        "date": "1790-04-09",
+        "description": "Died in Meknes, Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mohammed_ben_Abdallah",
+        "title": "Wikipedia Page",
+        "type": "article"
+      }
+    ]
+  }
+}

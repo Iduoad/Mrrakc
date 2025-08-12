@@ -7,7 +7,7 @@
   "spec": {
     "name": "Christ-Roi Italian Church",
     "id": "christ-roi-italian-church",
-    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2015",
+    "description": "Italian Church",
     "location": {
       "longitude": 33.5807803,
       "latitude": -7.624705,
@@ -17,8 +17,8 @@
     "timeline": [
       {
         "title": "National Material Patrimony Declaration",
-        "description": "Mosque declared National Material Patrimony",
-        "date": "2015"
+        "description": "The Church Building was declared National Material Patrimony",
+        "date": "2015-01-01"
       }
     ],
     "links": [],
@@ -26,7 +26,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mohammed V",
+    "id": "mohammed-v",
+    "bio": "Mohammed V (born August 10, 1909, Fès, Morocco—died February 26, 1961, Rabat) was the Sultan of Morocco from 1927 to 1957 and subsequently King from 1957 to 1961. He became a central figure in Moroccan nationalist aspirations, successfully leading the country to independence from French colonial rule. His resistance to French demands and his exile further cemented his image as a national hero.",
+    "birthPlace": "province/fes",
+    "designations": ["sultan", "king"],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1909-08-10",
+        "description": "Born in Fes, Morocco."
+      },
+      {
+        "title": "Became Sultan of Morocco",
+        "date": "1927-01-01",
+        "description": "Ascended to the throne as Sultan of Morocco under the French Protectorate."
+      },
+      {
+        "title": "Exile by French Authorities",
+        "date": "1953-08-20",
+        "description": "Exiled by French authorities, first to Corsica and then to Madagascar, due to his support for Moroccan independence."
+      },
+      {
+        "title": "Return from Exile",
+        "date": "1955-11-16",
+        "description": "Returned to Morocco, signaling the imminent end of the Protectorate."
+      },
+      {
+        "title": "Moroccan Independence",
+        "date": "1956-03-02",
+        "description": "Morocco gained independence from France with Mohammed V as Sultan."
+      },
+      {
+        "title": "Became King of Morocco",
+        "date": "1957-08-14",
+        "description": "Adopted the title of King of Morocco."
+      },
+      {
+        "title": "Death",
+        "date": "1961-02-26",
+        "description": "Died in Rabat, Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.britannica.com/biography/Muhammad-V-sultan-of-Morocco",
+        "title": "Britannica Page",
+        "type": "article"
+      }
+    ]
+  }
+}
