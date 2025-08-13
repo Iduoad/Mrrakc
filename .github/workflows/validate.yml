@@ -1,0 +1,34 @@
+name: Validate JSON Data
+
+# This workflow runs on pushes or pull requests to the 'main' branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-json:
+    name: Validate Mrrakc Data
+    permissions: 
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate Data
+        uses: dsanders11/json-schema-validate-action@v1.4.0
+        with:
+          schema: schema/provinces.json
+          files: data/provinces/**.json
+
+      - name: Validate Data
+        uses: dsanders11/json-schema-validate-action@v1.4.0
+        with:
+          schema: schema/people.json
+          files: data/people/**.json
+
+      - name: Validate Data
+        uses: dsanders11/json-schema-validate-action@v1.4.0
+        with:
+          schema: schema/places
+          files: data/places/**.json
+
