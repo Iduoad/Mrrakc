@@ -13,22 +13,16 @@ jobs:
     permissions: 
       contents: read
     runs-on: ubuntu-latest
+    container:
+      image: registry.gitlab.com/idspace/agora/akioud:798b02ecf00a9964171cb82625af8f9bf9afca44
     steps:
-      - name: Validate Data
-        uses: dsanders11/json-schema-validate-action@v1.4.0
-        with:
-          schema: schema/provinces.json
-          files: data/provinces/**.json
+      - uses: actions/checkout@v5
 
-      - name: Validate Data
-        uses: dsanders11/json-schema-validate-action@v1.4.0
-        with:
-          schema: schema/people.json
-          files: data/people/**.json
+      - name: Validate Provinces 
+        run: /boon schema/provinces.json data/provinces/*.json
 
-      - name: Validate Data
-        uses: dsanders11/json-schema-validate-action@v1.4.0
-        with:
-          schema: schema/places
-          files: data/places/**.json
+      - name: Validate People
+        run: /boon schema/people.json data/people/*.json
 
+      - name: Validate Places
+        run: /boon schema/places.json data/places/*.json
