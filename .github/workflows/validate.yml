@@ -13,16 +13,18 @@ jobs:
     permissions: 
       contents: read
     runs-on: ubuntu-latest
-    container:
-      image: registry.gitlab.com/idspace/agora/akioud:798b02ecf00a9964171cb82625af8f9bf9afca44
     steps:
       - uses: actions/checkout@v5
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Install boon 
+        run: cargo install boon-cli
 
       - name: Validate Provinces 
-        run: /boon schema/provinces.json data/provinces/*.json
+        run: boon schema/provinces.json data/provinces/*.json
 
       - name: Validate People
-        run: /boon schema/people.json data/people/*.json
+        run: boon schema/people.json data/people/*.json
 
       - name: Validate Places
-        run: /boon schema/places.json data/places/*.json
+        run: boon schema/places.json data/places/*.json
