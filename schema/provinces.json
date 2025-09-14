@@ -20,11 +20,11 @@
           "description": "URL-friendly version of name in kebab-case"
         },
         "region": {
-          "$ref": "./enums/regions.json",
+          "$ref": "enums/regions.json",
           "description": "Region containing the province"
         },
         "country": {
-          "$ref": "./enums/countries.json",
+          "$ref": "enums/countries.json",
           "description": "Country containing the province"
         }
       }

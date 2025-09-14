@@ -8,7 +8,6 @@
   "properties": {
     "kind": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+/[a-z0-9-]+$",
       "description": "Category and type of place in format 'category/kind'",
       "$ref": "enums/kinds.json"
     },
