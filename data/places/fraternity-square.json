@@ -7,7 +7,7 @@
   "spec": {
     "name": "Fraternity Square",
     "id": "fraternity-square",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5939147,
       "latitude": -7.6287499,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

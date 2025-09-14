@@ -15,18 +15,13 @@
     },
     "people": [],
     "timeline": [],
-    "links": [
-      {
-        "url": "https://docplayer.fr/84787303-Villa-ronde-casablanca-wolfgang-ewerth-1963-1964.html",
-        "type": "website",
-        "title": ""
-      }
-    ],
+    "links": [],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

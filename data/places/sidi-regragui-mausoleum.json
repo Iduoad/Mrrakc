@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Regragui Mausoleum",
     "id": "sidi-regragui-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6005435,
       "latitude": -7.6206491,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

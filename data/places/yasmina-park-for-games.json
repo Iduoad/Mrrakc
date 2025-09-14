@@ -7,7 +7,7 @@
   "spec": {
     "name": "Yasmina Park For Games",
     "id": "yasmina-park-for-games",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5870567,
       "latitude": -7.6233168,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

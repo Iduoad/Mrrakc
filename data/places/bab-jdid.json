@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bab Jdid",
     "id": "bab-jdid",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6022713,
       "latitude": -7.6231108,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

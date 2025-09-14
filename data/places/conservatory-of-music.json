@@ -7,7 +7,7 @@
   "spec": {
     "name": "Conservatory Of Music",
     "id": "conservatory-of-music",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6195975,
       "latitude": 33.5933989,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

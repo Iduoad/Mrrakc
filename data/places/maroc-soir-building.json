@@ -19,14 +19,15 @@
       {
         "url": "https://en.wikipedia.org/wiki/La_Vigie_Marocaine",
         "type": "website",
-        "title": ""
+        "title": "La Vigie Marocaine"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

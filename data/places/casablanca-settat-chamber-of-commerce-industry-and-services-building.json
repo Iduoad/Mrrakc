@@ -19,14 +19,15 @@
       {
         "url": "https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
         "type": "website",
-        "title": ""
+        "title": "List of African Stock Exchanges from Wikipedia"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

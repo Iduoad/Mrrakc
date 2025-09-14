@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hassan II Mosque Museum",
     "id": "hassan-ii-mosque-museum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6052962,
       "latitude": -7.6307589,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

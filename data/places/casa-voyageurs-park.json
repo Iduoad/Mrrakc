@@ -7,7 +7,7 @@
   "spec": {
     "name": "Casa Voyageurs Park",
     "id": "casa-voyageurs-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5901041,
       "latitude": -7.5923135,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

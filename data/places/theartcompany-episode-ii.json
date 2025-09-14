@@ -7,7 +7,7 @@
   "spec": {
     "name": "TheArtCompany... Episode II",
     "id": "theartcompany-episode-ii",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5853144,
       "latitude": -7.6465754,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

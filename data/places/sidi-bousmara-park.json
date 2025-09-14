@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Bousmara Park",
     "id": "sidi-bousmara-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5996784,
       "latitude": -7.6157425,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

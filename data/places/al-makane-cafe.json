@@ -7,7 +7,7 @@
   "spec": {
     "name": "Al Makane Cafe",
     "id": "al-makane-cafe",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.599968,
       "latitude": -7.617608,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

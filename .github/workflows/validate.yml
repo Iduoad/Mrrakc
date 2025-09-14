@@ -1,0 +1,70 @@
+name: Validate JSON Data
+
+# This workflow runs on pushes or pull requests to the 'main' branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-json:
+    name: Validate Mrrakc Data
+    permissions: 
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code 
+        uses: actions/checkout@v5
+
+      - name: Setup Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache boon installation
+        uses: actions/cache@v4
+        with:
+          path: ~/.cargo/bin/boon
+          key: boon-cli-${{ hashFiles('Cargo.lock') }}
+
+      - name: Install boon (if not cached)
+        run: |
+          if ! command -v boon &> /dev/null; then
+            cargo install boon-cli
+          fi
+
+      - name: Validate JSON Schemas
+        run: |
+          echo "🔍 Validating JSON schemas..."
+          # Validate that schemas are valid JSON Schema
+          boon schema/people.json
+          boon schema/provinces.json
+          boon schema/places.json
+          echo "✅ Boon is ready for validation"
+
+
+      - name: Validate Provinces Data
+        run: |
+          echo "🏛️ Validating provinces data..."
+          boon schema/provinces.json data/provinces/*.json || {
+            echo "❌ Province validation failed"
+            exit 1
+          }
+          echo "✅ Provinces validation passed"
+
+      - name: Validate People Data
+        run: |
+          echo "�� Validating people data..."
+          boon schema/people.json data/people/*.json || {
+            echo "❌ People validation failed"
+            exit 1
+          }
+          echo "✅ People validation passed"
+
+      - name: Validate Places Data
+        run: |
+          echo "🏛️ Validating places data..."
+          boon schema/places.json data/places/*.json || {
+            echo "❌ Places validation failed"
+            exit 1
+          }
+          echo "✅ Places validation passed"

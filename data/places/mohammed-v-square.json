@@ -7,7 +7,7 @@
   "spec": {
     "name": "Mohammed V Square",
     "id": "mohammed-v-square",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5912075,
       "latitude": -7.6186758,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

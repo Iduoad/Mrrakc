@@ -7,7 +7,7 @@
   "spec": {
     "name": "Aquadream Aquarium",
     "id": "aquadream-aquarium",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.7063941,
       "latitude": 33.5766799,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

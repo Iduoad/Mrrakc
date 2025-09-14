@@ -7,7 +7,7 @@
   "spec": {
     "name": "Museum of Moroccan Judaism",
     "id": "museum-of-moroccan-judaism",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5522201,
       "latitude": -7.6391606,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

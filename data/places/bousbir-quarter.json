@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bousbir Quarter",
     "id": "bousbir-quarter",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5744552,
       "latitude": -7.602417,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

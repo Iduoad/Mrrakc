@@ -7,7 +7,7 @@
   "spec": {
     "name": "Garage Allal Market",
     "id": "garage-allal-market",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.577351,
       "latitude": -7.6001868,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

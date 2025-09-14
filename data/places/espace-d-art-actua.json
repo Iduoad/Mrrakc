@@ -7,7 +7,7 @@
   "spec": {
     "name": "Espace d'art Actua",
     "id": "espace-d-art-actua",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5905557,
       "latitude": -7.6255699,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

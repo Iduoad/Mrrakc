@@ -7,7 +7,7 @@
   "spec": {
     "name": "Mkila Hotgam Baabou",
     "id": "mkila-hotgam-baabou",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5619021,
       "latitude": -7.552115,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

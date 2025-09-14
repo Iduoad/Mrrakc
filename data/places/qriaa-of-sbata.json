@@ -7,7 +7,7 @@
   "spec": {
     "name": "Qriaa of Sbata",
     "id": "qriaa-of-sbata",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.552771,
       "latitude": -7.5682288,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

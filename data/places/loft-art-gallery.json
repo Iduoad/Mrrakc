@@ -7,7 +7,7 @@
   "spec": {
     "name": "Loft Art Gallery",
     "id": "loft-art-gallery",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5923345,
       "latitude": -7.6436402,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

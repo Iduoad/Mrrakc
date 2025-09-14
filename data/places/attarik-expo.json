@@ -7,7 +7,7 @@
   "spec": {
     "name": "Attarik Expo (Les M\u00e9t\u00e9orites Messageres du Ciel)",
     "id": "attarik-expo",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6061353,
       "latitude": -7.6199447,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

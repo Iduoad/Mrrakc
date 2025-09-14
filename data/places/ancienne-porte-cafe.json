@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ancienne Porte Cafe",
     "id": "ancienne-porte-cafe",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5995107,
       "latitude": -7.61596,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -18,7 +18,7 @@
       {
         "title": "Construction",
         "description": "Mosque designed",
-        "date": "1923"
+        "date": "1923-01-01"
       }
     ],
     "links": [],
@@ -26,7 +26,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Rif Cinema",
     "id": "rif-cinema",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6154385,
       "latitude": 33.5965653,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

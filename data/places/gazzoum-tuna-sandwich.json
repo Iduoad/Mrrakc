@@ -7,7 +7,7 @@
   "spec": {
     "name": "Gazzoum Tuna Sandwich",
     "id": "gazzoum-tuna-sandwich",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5677811,
       "latitude": -7.5995192,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

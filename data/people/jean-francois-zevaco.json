@@ -1,0 +1,82 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Jean-François Zévaco",
+    "id": "jean-francois-zevaco",
+    "bio": "Jean-François Zévaco (1916–2003) was a French-Moroccan architect born in Casablanca. He is considered an emblematic figure of the modernist architectural movement in Morocco and in Africa, known for his prolific work, diverse constructions, and international recognition. He established a private practice in Morocco after his studies in Paris and Marseille, and his career spanned from 1947 to 1999. Zévaco's work is characterized by a resolutely modern approach that deeply engaged with the local context, people, and landscapes. He was a member of the Group of Moroccan Modern Architects (GAMMA).",
+    "birthPlace": "province/casablanca",
+    "designations": ["architect"],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1916-08-08",
+        "description": "Born in Casablanca, Morocco, to a French family from Corsica."
+      },
+      {
+        "title": "Began Studies at École nationale supérieure des Beaux-Arts",
+        "date": "1937-01-01",
+        "description": "Entered the National School of Fine Arts in Paris, joining the Pontrémoli-Leconte studio."
+      },
+      {
+        "title": "Continued Studies in Marseille",
+        "date": "1940-01-01",
+        "description": "Continued his architectural studies in Marseille in the studio of Eugène Beaudoin during World War II."
+      },
+      {
+        "title": "Graduated and Established Practice in Morocco",
+        "date": "1945-01-01",
+        "description": "Finished his studies at the École nationale supérieure des Beaux-Arts in Paris and Marseille, and established a private practice in Morocco."
+      },
+      {
+        "title": "Began Architectural Career",
+        "date": "1947-01-01",
+        "description": "Started his architectural career in Casablanca, initially designing private villas such as Villa Suissa and Villa Gilardi with Paul Messina."
+      },
+      {
+        "title": "Joined Group of Moroccan Modern Architects (GAMMA)",
+        "date": "1950-01-01",
+        "description": "Joined the Group of Moroccan Modern Architects (GAMMA), the Moroccan branch of CIAM, founded by Michel Ecochard."
+      },
+      {
+        "title": "Designed Casablanca Tit Mellil Airport",
+        "date": "1953-01-01",
+        "description": "Designed the Casablanca Tit Mellil Airport with Dominique Basciano."
+      },
+      {
+        "title": "Designed Courtyard Houses in Agadir",
+        "date": "1965-01-01",
+        "description": "Designed courtyard houses in Agadir, which later earned him an Aga Khan Award for Architecture."
+      },
+      {
+        "title": "Renovated United Nations Square",
+        "date": "1974-01-01",
+        "description": "Renovated United Nations Square in Casablanca, including the 'Kora Ardia' underground passageway."
+      },
+      {
+        "title": "Designed Agadir Street Market",
+        "date": "1975-01-01",
+        "description": "Designed the Agadir Street Market."
+      },
+      {
+        "title": "Received Aga Khan Award for Architecture",
+        "date": "1978-01-01",
+        "description": "Received the Aga Khan Award for Architecture for his 1965 Courtyard Houses in Agadir (1978-1980 cycle)."
+      },
+      {
+        "title": "Death",
+        "date": "2003-01-01",
+        "description": "Died in 2003."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Zevaco",
+        "title": "Wikipedia Page",
+        "type": "article"
+      }
+    ]
+  }
+}

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Drawing on the wall of the Moroccan family man",
     "id": "drawing-on-the-wall-of-the-moroccan-family-man",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6050963,
       "latitude": -7.6339152,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

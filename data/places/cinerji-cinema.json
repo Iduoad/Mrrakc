@@ -7,7 +7,7 @@
   "spec": {
     "name": "Cinerji Cinema",
     "id": "cinerji-cinema",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.7048529,
       "latitude": 33.5774393,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

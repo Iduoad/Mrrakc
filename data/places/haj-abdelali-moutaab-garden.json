@@ -7,7 +7,7 @@
   "spec": {
     "name": "Haj Abdelali MOUTAAB Garden",
     "id": "haj-abdelali-moutaab-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5571441,
       "latitude": -7.557493,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

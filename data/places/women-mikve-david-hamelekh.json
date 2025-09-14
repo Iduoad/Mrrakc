@@ -7,7 +7,7 @@
   "spec": {
     "name": "Women Mikve David Hamelekh",
     "id": "women-mikve-david-hamelekh",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5975528,
       "latitude": -7.6557329,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

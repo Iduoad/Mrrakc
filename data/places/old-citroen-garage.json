@@ -17,8 +17,8 @@
     "timeline": [
       {
         "title": "National Material Patrimony Declaration",
-        "description": "Mosque declared National Material Patrimony",
-        "date": "2015"
+        "description": "The Garage declared National Material Patrimony",
+        "date": "2015-01-01"
       }
     ],
     "links": [],
@@ -26,7 +26,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

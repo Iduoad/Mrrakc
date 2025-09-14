@@ -7,7 +7,7 @@
   "spec": {
     "name": "Val d'Anfa Garden",
     "id": "val-d-anfa-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5912973,
       "latitude": -7.6537498,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

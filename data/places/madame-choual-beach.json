@@ -7,7 +7,7 @@
   "spec": {
     "name": "Madame Choual Beach",
     "id": "madame-choual-beach",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.7138364,
       "latitude": 33.5721214,
@@ -23,7 +23,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

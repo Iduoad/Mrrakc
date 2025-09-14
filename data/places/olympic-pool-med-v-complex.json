@@ -7,7 +7,7 @@
   "spec": {
     "name": "Olympic Pool Med V Complex",
     "id": "olympic-pool-med-v-complex",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6454868,
       "latitude": 33.5807153,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

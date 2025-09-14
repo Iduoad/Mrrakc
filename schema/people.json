@@ -46,6 +46,13 @@
           "items": {
             "$ref": "components/link.json"
           }
+        },
+        "comments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Free comments about the person"
         }
       }
     }

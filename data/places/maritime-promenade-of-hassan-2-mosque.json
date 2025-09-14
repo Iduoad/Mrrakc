@@ -7,7 +7,7 @@
   "spec": {
     "name": "Maritime Promenade of Hassan 2 mosque",
     "id": "maritime-promenade-of-hassan-2-mosque",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6048519,
       "latitude": -7.6386335,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

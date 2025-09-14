@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ahl Fes Pastry Shop",
     "id": "ahl-fes-pastry-shop",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5762218,
       "latitude": -7.6040899,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

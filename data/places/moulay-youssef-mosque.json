@@ -16,22 +16,29 @@
     "people": [
       {
         "id": "people/moulay-youssef",
-        "relationship": ["sultan", "founder"]
+        "relationship": [
+          "sultan",
+          "founder"
+        ]
       },
       {
         "id": "people/auguste-cadet",
-        "relationship": ["architect"]
+        "relationship": [
+          "architect"
+        ]
       },
       {
         "id": "people/edmond-brion",
-        "relationship": ["architect"]
+        "relationship": [
+          "architect"
+        ]
       }
     ],
     "timeline": [
       {
         "title": "Completion Date",
-        "description": "",
-        "date": "1923"
+        "description": "The mosque was completed",
+        "date": "1923-01-01"
       }
     ],
     "links": [],
@@ -41,7 +48,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       "20th century"

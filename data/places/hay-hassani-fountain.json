@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hay Hassani Fountain",
     "id": "hay-hassani-fountain",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5711033,
       "latitude": -7.6785012,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

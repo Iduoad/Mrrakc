@@ -7,7 +7,7 @@
   "spec": {
     "name": "Dar El Ala Museum",
     "id": "dar-el-ala-museum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5780977,
       "latitude": -7.6035979,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

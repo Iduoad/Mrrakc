@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ferdaous Lake (Oulfa)",
     "id": "ferdaous-lake-oulfa",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6727847,
       "latitude": 33.5548507,
@@ -23,7 +23,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

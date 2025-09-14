@@ -7,7 +7,7 @@
   "spec": {
     "name": "Moulay Thami Mausoleum",
     "id": "moulay-thami-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.4699961,
       "latitude": -7.8282761,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

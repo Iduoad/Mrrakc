@@ -7,7 +7,7 @@
   "spec": {
     "name": "Velodrome Park",
     "id": "velodrome-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5895662,
       "latitude": -7.6454948,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

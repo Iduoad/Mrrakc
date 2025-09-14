@@ -7,7 +7,7 @@
   "spec": {
     "name": "Central park of Ain Chok",
     "id": "central-park-of-ain-chok",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5519639,
       "latitude": -7.6003933,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

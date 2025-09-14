@@ -7,7 +7,7 @@
   "spec": {
     "name": "Jardin Sunday",
     "id": "jardin-sunday",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5380076,
       "latitude": -7.5763572,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

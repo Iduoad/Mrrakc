@@ -7,7 +7,7 @@
   "spec": {
     "name": "Laprad1 Fountain",
     "id": "laprad1-fountain",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5910417,
       "latitude": -7.6226458,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

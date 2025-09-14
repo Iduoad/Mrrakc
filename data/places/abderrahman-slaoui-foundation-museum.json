@@ -7,7 +7,7 @@
   "spec": {
     "name": "Abderrahman Slaoui Foundation Museum",
     "id": "abderrahman-slaoui-foundation-museum",
-    "description": "",
+    "description": "None",
     "location": {
       "province": "province/casablanca",
       "longitude": 33.5923928,
@@ -26,12 +26,12 @@
     "timeline": [
       {
         "title": "Construction of the villa",
-        "date": "01-01-1921",
+        "date": "1921-01-01",
         "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
       },
       {
         "title": "Inauguration",
-        "date": "12-05-2012",
+        "date": "2012-05-12",
         "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
       }
     ],
@@ -68,7 +68,8 @@
           "audience": "all",
           "entranceFee": -1
         }
-      ]
+      ],
+      "status": "open"
     },
     "timePeriods": [
       "21st century"

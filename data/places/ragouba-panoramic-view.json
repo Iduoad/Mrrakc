@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ragouba Panoramic View",
     "id": "ragouba-panoramic-view",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6122675,
       "latitude": -7.6509204,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

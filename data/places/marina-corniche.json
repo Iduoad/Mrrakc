@@ -7,7 +7,7 @@
   "spec": {
     "name": "Marina Corniche",
     "id": "marina-corniche",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6105592,
       "latitude": -7.6244311,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

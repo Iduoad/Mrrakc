@@ -7,7 +7,7 @@
   "spec": {
     "name": "Mohammadi Mosque Garden",
     "id": "mohammadi-mosque-garden",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5770745,
       "latitude": -7.6067381,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

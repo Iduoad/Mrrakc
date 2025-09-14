@@ -7,7 +7,7 @@
   "spec": {
     "name": "C\u00e9zanne Restaurant",
     "id": "cezanne-restaurant",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6010095,
       "latitude": -7.6550441,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "United Nations Square",
     "id": "united-nations-square",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5948128,
       "latitude": -7.6187715,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

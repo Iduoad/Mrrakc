@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sraghna Square",
     "id": "sraghna-square",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.569566,
       "latitude": -7.6014511,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

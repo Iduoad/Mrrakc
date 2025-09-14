@@ -7,7 +7,7 @@
   "spec": {
     "name": "Habous Small Square",
     "id": "habous-small-square",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5780337,
       "latitude": -7.6049167,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

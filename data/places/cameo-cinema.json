@@ -7,7 +7,7 @@
   "spec": {
     "name": "Cameo Cinema",
     "id": "cameo-cinema",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6589402,
       "latitude": 33.5891741,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

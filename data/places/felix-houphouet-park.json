@@ -7,7 +7,7 @@
   "spec": {
     "name": "Felix Houphouet Park",
     "id": "felix-houphouet-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5973941,
       "latitude": -7.616273,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

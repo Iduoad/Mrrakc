@@ -7,7 +7,7 @@
   "spec": {
     "name": "The View 360\u00b0 Restaurant",
     "id": "the-view-360-restaurant",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6245545,
       "latitude": -7.5263393,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

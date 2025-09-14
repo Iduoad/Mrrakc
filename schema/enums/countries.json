@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Place Kinds Enumeration",
+  "title": "Countries Enumeration",
   "description": "List of valid countries",
   "type": "string",
   "enum": [

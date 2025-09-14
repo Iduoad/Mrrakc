@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ain Sebaa Beach",
     "id": "ain-sebaa-beach",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.5357248,
       "latitude": 33.6208397,
@@ -23,7 +23,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

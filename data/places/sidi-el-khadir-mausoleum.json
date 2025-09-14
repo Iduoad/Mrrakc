@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi El Khadir Mausoleum",
     "id": "sidi-el-khadir-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5707432,
       "latitude": -7.6882851,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Palais Toscan Building",
     "id": "palais-toscan-building",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6003473,
       "latitude": -7.6156329,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

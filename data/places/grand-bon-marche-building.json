@@ -16,7 +16,9 @@
     "people": [
       {
         "id": "people/auguste-cadet",
-        "relationship": ["architect"]
+        "relationship": [
+          "architect"
+        ]
       }
     ],
     "timeline": [],
@@ -25,7 +27,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

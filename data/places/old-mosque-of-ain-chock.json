@@ -16,14 +16,16 @@
     "people": [
       {
         "id": "people/edmond-brion",
-        "relationship": ["architect"]
+        "relationship": [
+          "architect"
+        ]
       }
     ],
     "timeline": [
       {
         "title": "Design",
         "description": "Mosque designed",
-        "date": "1945 CE"
+        "date": "1945-01-01"
       }
     ],
     "links": [],
@@ -31,7 +33,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

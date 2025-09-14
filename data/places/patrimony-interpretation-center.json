@@ -7,7 +7,7 @@
   "spec": {
     "name": "Patrimony Interpretation Center",
     "id": "patrimony-interpretation-center",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6011366,
       "latitude": -7.6180961,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

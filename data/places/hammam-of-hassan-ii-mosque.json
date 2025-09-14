@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hammam of Hassan II Mosque",
     "id": "hammam-of-hassan-ii-mosque",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6069284,
       "latitude": -7.6322774,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

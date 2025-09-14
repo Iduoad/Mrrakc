@@ -7,7 +7,7 @@
   "spec": {
     "name": "Morocco Mall",
     "id": "morocco-mall",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5758954,
       "latitude": -7.706821,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

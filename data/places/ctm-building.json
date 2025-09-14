@@ -18,7 +18,7 @@
       {
         "title": "National Material Patrimony",
         "description": "Site considered as National Material Patrimony",
-        "date": "1951"
+        "date": "1951-01-01"
       }
     ],
     "links": [],
@@ -26,7 +26,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

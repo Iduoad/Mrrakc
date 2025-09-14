@@ -7,7 +7,7 @@
   "spec": {
     "name": "Charles de Foucauld School",
     "id": "charles-de-foucauld-school",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5715684,
       "latitude": -7.6179825,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

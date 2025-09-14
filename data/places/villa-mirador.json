@@ -19,14 +19,15 @@
       {
         "url": "https://zamane.ma/anfa/",
         "type": "website",
-        "title": ""
+        "title": "Anfa"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

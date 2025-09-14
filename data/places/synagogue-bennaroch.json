@@ -7,7 +7,7 @@
   "spec": {
     "name": "Synagogue Bennaroch",
     "id": "synagogue-bennaroch",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5944302,
       "latitude": -7.6262018,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

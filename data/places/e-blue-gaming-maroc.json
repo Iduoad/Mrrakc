@@ -7,7 +7,7 @@
   "spec": {
     "name": "E-blue Gaming Maroc",
     "id": "e-blue-gaming-maroc",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6372703,
       "latitude": 33.5925209,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

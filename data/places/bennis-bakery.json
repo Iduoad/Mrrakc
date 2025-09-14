@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bennis Bakery",
     "id": "bennis-bakery",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5780213,
       "latitude": -7.6054739,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

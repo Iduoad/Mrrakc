@@ -7,7 +7,7 @@
   "spec": {
     "name": "Kojump Bouskoura",
     "id": "kojump-bouskoura",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6329134,
       "latitude": 33.4876924,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bab Marrakech",
     "id": "bab-marrakech",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5982195,
       "latitude": -7.621492,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

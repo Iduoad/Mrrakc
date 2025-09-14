@@ -7,7 +7,7 @@
   "spec": {
     "name": "Artorium",
     "id": "artorium",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5582931,
       "latitude": -7.630497,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

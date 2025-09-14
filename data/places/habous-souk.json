@@ -7,7 +7,7 @@
   "spec": {
     "name": "Habous Souk",
     "id": "habous-souk",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5778377,
       "latitude": -7.6045511,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

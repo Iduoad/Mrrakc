@@ -7,7 +7,7 @@
   "spec": {
     "name": "Cap Chatelier",
     "id": "cap-chatelier",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.683521,
       "latitude": 33.5818649,
@@ -19,14 +19,15 @@
       {
         "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
         "type": "article",
-        "title": ""
+        "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre r\u00e9gional"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

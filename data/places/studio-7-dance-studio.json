@@ -7,7 +7,7 @@
   "spec": {
     "name": "Studio 7 Dance Studio",
     "id": "studio-7-dance-studio",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6282876,
       "latitude": 33.5888173,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

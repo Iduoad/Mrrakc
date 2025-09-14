@@ -8,7 +8,6 @@
   "properties": {
     "kind": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+/[a-z0-9-]+$",
       "description": "Category and type of place in format 'category/kind'",
       "$ref": "enums/kinds.json"
     },
@@ -103,8 +102,19 @@
         },
         "access": {
           "type": "object",
-          "required": ["type"],
+          "required": ["type", "status"],
           "properties": {
+            "status": {
+              "type": "string",
+              "description": "Status of the place",
+              "enum": [
+                "open",
+                "closed",
+                "temporarily_closed",
+                "under_construction",
+                "under_renovation"
+              ]
+            },
             "type": {
               "type": "string",
               "description": "Access type for the place",
@@ -161,6 +171,13 @@
             "type": "string"
           },
           "description": "Time periods or era of the place"
+        },
+        "comments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Free comments about the place"
         }
       }
     }

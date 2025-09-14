@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sindibad Zoo",
     "id": "sindibad-zoo",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6931194,
       "latitude": 33.5806899,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

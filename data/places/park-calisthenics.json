@@ -7,7 +7,7 @@
   "spec": {
     "name": "park calisthenics",
     "id": "park-calisthenics",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.5686789,
       "latitude": 33.5532819,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

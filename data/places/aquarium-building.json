@@ -19,14 +19,15 @@
       {
         "url": "https://www.atelierobservatoire.com/aquarium",
         "type": "website",
-        "title": ""
+        "title": "Article about the Aquarium from l'Observatoire"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Moumen Mausoleum",
     "id": "sidi-moumen-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5802228,
       "latitude": -7.5188917,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

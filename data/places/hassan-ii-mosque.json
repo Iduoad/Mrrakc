@@ -16,23 +16,28 @@
     "people": [
       {
         "id": "people/hassan-ii",
-        "relationship": ["king", "founder"]
+        "relationship": [
+          "king",
+          "founder"
+        ]
       },
       {
         "id": "people/michel-pinseau",
-        "relationship": ["architect"]
+        "relationship": [
+          "architect"
+        ]
       }
     ],
     "timeline": [
       {
         "title": "Completion Date",
-        "description": "",
+        "description": "The Mosque was completed",
         "date": "1993-08-30"
       },
       {
         "title": "National Material Patrimony Declaration",
-        "description": "",
-        "date": "2015"
+        "description": "The mosque was declared as a National Patrimony",
+        "date": "2015-01-01"
       }
     ],
     "links": [],
@@ -43,7 +48,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       "20th century"

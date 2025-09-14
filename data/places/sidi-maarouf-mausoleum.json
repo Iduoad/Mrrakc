@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Maarouf Mausoleum",
     "id": "sidi-maarouf-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5138504,
       "latitude": -7.6523279,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

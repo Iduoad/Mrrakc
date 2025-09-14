@@ -9,8 +9,8 @@
     "id": "alexandre-building",
     "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2013",
     "location": {
-      "longitude": 33.5886066,
-      "latitude": -7.6147004,
+      "longitude": 33.58818,
+      "latitude": -7.61433,
       "province": "province/casablanca"
     },
     "people": [],
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

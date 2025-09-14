@@ -7,7 +7,7 @@
   "spec": {
     "name": "The Solidarity Market",
     "id": "the-solidarity-market",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5544187,
       "latitude": -7.6323625,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

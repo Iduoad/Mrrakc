@@ -7,7 +7,7 @@
   "spec": {
     "name": "Path\u00e9 Cinema",
     "id": "pathe-cinema",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": -7.6398598,
       "latitude": 33.5440783,
@@ -22,7 +22,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

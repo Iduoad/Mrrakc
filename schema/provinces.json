@@ -20,12 +20,10 @@
           "description": "URL-friendly version of name in kebab-case"
         },
         "region": {
-          "type": "string",
           "$ref": "enums/regions.json",
           "description": "Region containing the province"
         },
         "country": {
-          "type": "string",
           "$ref": "enums/countries.json",
           "description": "Country containing the province"
         }

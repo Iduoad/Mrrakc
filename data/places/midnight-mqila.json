@@ -7,7 +7,7 @@
   "spec": {
     "name": "Midnight Mqila",
     "id": "midnight-mqila",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5971778,
       "latitude": -7.608944,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

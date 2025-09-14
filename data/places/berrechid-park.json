@@ -7,7 +7,7 @@
   "spec": {
     "name": "Berrechid Park",
     "id": "berrechid-park",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.5506689,
       "latitude": -7.5979224,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

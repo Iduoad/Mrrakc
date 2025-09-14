@@ -7,7 +7,7 @@
   "spec": {
     "name": "Sidi Bernoussi Mausoleum",
     "id": "sidi-bernoussi-mausoleum",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6163225,
       "latitude": -7.498631,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

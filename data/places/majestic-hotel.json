@@ -18,15 +18,16 @@
     "links": [
       {
         "url": "https://fr.wikipedia.org/wiki/Fichier:Hotel_Majestic,_Casablanca_1867.jpg",
-        "type": "website",
-        "title": ""
+        "type": "image",
+        "title": "Hotel Majectic, Casablanca 1867"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

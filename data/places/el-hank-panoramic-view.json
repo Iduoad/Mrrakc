@@ -7,7 +7,7 @@
   "spec": {
     "name": "El Hank Panoramic View",
     "id": "el-hank-panoramic-view",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.6095861,
       "latitude": -7.6556307,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

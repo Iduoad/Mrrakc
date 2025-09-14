@@ -7,7 +7,7 @@
   "spec": {
     "name": "Imperial Cafe",
     "id": "imperial-cafe",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.57781,
       "latitude": -7.606063,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -18,7 +18,7 @@
       {
         "title": "Inclusion in National Material Patrimony",
         "description": "The area was included in the National Material Patrimony due to important archaeological findings.",
-        "date": "1942 CE"
+        "date": "1942-01-01"
       }
     ],
     "links": [
@@ -32,7 +32,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       "20th century"

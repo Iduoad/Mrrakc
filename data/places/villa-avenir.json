@@ -18,15 +18,16 @@
     "links": [
       {
         "url": "https://telquel.ma/2018/05/17/visite-de-six-edifices-casablancais-inscrits-au-patrimoine-culturel-national_1593792",
-        "type": "website",
-        "title": ""
+        "type": "article",
+        "title": "Visite de six edifices casablancais inscrits au patrimoine culturel national"
       }
     ],
     "activities": [],
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""

@@ -6,21 +6,50 @@
   "spec": {
     "name": "Abderrahman Slaoui",
     "id": "abderrahman-slaoui",
-    "bio": "",
-    "nationality": "Moroccan",
+    "bio": "Abderrahman Slaoui (1919-2001) was a prominent Moroccan businessman and art collector. Born in Fes, he was known for his passion for art and his extensive collection of Moroccan and Orientalist pieces. His collection, which includes Moroccan gold and Berber jewelry, figurative paintings by Muhammad Ben Ali Rabati, landscape paintings by Jacques Majorelle, crystal objects, and vintage Orientalist posters, forms the core of the permanent exhibition at the Abderrahman Slaoui Museum in Casablanca, which opened posthumously in 2012 by the Abderrahman Slaoui Foundation. He was an aesthete and humanist, often referred to as a 'treasure hunter' who dedicated over fifty years to building his collections.",
     "birthPlace": "province/fes",
-    "designations": ["business man", "collector"],
+    "designations": ["businessman", "art-collector"],
     "timeline": [
       {
-        "title": "Construction of the villa",
-        "date": "01-01-1921",
-        "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
+        "title": "Birth",
+        "date": "1919-01-01",
+        "description": "Born in Fes, Morocco."
+      },
+      {
+        "title": "Began Art Collection",
+        "date": "1950-01-01",
+        "description": "Dedicated over fifty years to collecting artistic and ethnographic pieces."
+      },
+      {
+        "title": "Published 'L'affiche orientaliste'",
+        "date": "1998-01-01",
+        "description": "Published a book titled 'L'affiche orientaliste: 100 ans de création', showcasing his collection of Orientalist posters."
+      },
+      {
+        "title": "Death",
+        "date": "2001-01-01",
+        "description": "Died in 2001."
+      },
+      {
+        "title": "Abderrahman Slaoui Museum Opens",
+        "date": "2012-05-15",
+        "description": "The Abderrahman Slaoui Museum, housing his extensive art collection, opened in Casablanca, established by the Abderrahman Slaoui Foundation."
       }
     ],
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/Abderrahman_Slaoui_Museum",
-        "title": "Wikipedia Page",
+        "title": "Abderrahman Slaoui Museum Wikipedia Page",
+        "type": "article"
+      },
+      {
+        "url": "https://visitcasablanca.ma/en/pois/musee-fondation-abderrahman-slaoui/",
+        "title": "Musée de la Fondation Abderrahman Slaoui (Visit Casablanca)",
+        "type": "website"
+      },
+      {
+        "url": "https://moroccotravelblog.com/2012/10/21/abderrahman-slaouis-casablanca-museumyour-morocco-tour-guide/",
+        "title": "Abderrahman Slaoui's Casablanca Museum (Travel Exploration Morocco)",
         "type": "article"
       }
     ]

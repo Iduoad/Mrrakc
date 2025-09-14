@@ -7,7 +7,7 @@
   "spec": {
     "name": "Villa of Arts",
     "id": "villa-of-arts",
-    "description": "",
+    "description": "None",
     "location": {
       "longitude": 33.586399,
       "latitude": -7.6295476,
@@ -20,7 +20,8 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": []
+      "options": [],
+      "status": "open"
     },
     "timePeriods": [
       ""
