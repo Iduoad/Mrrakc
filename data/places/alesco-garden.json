@@ -7,30 +7,53 @@
   "spec": {
     "name": "ALESCO Garden",
     "id": "alesco-garden",
-    "description": "ALESCO Garden (Jardin Alesco) is a substantial urban green space in Casablanca, covering an area of approximately 17.3 acres. It is a vital recreational area for the city, providing a much-needed natural retreat from the urban environment. The park is suitable for walking, jogging, and general relaxation, contributing to the quality of life for residents and offering a space for outdoor family activities. The name 'ALESCO' may refer to the organization or project involved in its creation or maintenance.",
+    "description": "ALESCO Garden (Jardin Alecso) is a significant urban green space located in the Sidi Othmane neighborhood of Casablanca, covering approximately 8 hectares (20 acres). Originally created in 1984, the park underwent an extensive 12-month rehabilitation project by local authorities, officially reopening in August 2025 on the occasion of Youth Day. The renovated park is a vital recreational hub, featuring new amenities such as fountains, vast tree-lined paths, shaded resting areas, a children's play area, a walking circuit, sports courts (like basketball and pétanque), and an open-air theater. Notably, the park implements sustainable practices by utilizing treated wastewater from the Mediouna purification station for irrigation.",
     "location": {
       "longitude": 33.5506442,
       "latitude": -7.5660275,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/mohammed-nejjari",
+        "relationship": [
+          "project-manager"
+        ],
+        "comment": "Chief of service overseeing the rehabilitation project who detailed the park's new features."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Park Creation",
+        "date": "1984-01-01",
+        "description": "The Jardin Alecso was originally created."
+      },
+      {
+        "title": "Rehabilitation Completed and Reopening",
+        "date": "2025-08-21",
+        "description": "The park officially reopened to the public after 12 months of extensive rehabilitation work."
+      }
+    ],
     "links": [
       {
-        "url": "https://www.mypacer.com/parks/334109/jardin-alesco-casablanca",
-        "type": "website",
-        "title": "Jardin Alesco on Pacer Walking App"
+        "url": "https://fr.le360.ma/societe/casablanca-le-jardin-alecso-rouvre-ses-portes-a-sidi-othmane-apres-12-mois-de-travaux_S7V4OFJOXRBGBJ2XYIUOFI42CA/",
+        "type": "article",
+        "title": "Casablanca: le jardin Alecso rouvre ses portes à Sidi Othmane après 12 mois de travaux (Le360, 2025)"
       }
     ],
     "activities": [
-      "walking and jogging",
-      "relaxing and picnicking",
+      "walking and jogging on the circuit",
+      "playing basketball and pétanque",
+      "attending open-air theater events",
+      "relaxing in shaded areas",
       "children's play"
     ],
     "items": [
-      "green lawns",
-      "walking paths",
-      "trees and plants"
+      "fountains",
+      "sports courts",
+      "open-air theater",
+      "children's play area",
+      "walking circuit"
     ],
     "access": {
       "type": "public",

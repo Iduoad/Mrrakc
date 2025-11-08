@@ -2,7 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": ["religious", "local-mosque", "architecture"]
+    "tags": [
+      "religious",
+      "local-mosque",
+      "architecture",
+      "community"
+    ]
   },
   "spec": {
     "name": "Al Seddiq Mosque",
@@ -21,7 +26,10 @@
       "religious study",
       "community gatherings"
     ],
-    "items": [],
+    "items": [
+      "minaret",
+      "prayer hall"
+    ],
     "access": {
       "type": "public",
       "options": [

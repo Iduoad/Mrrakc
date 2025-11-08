@@ -1,30 +1,101 @@
-{
-  "version": "mrrakc/v0",
-  "kind": "nature/park",
-  "metadata": {
-    "tags": []
+  {
+    "version": "mrrakc/v0",
+    "kind": "nature/park",
+    "metadata": {
+      "tags": [
+        "urban-park",
+        "historical-site",
+        "french-protectorate-history",
+        "lyautey-park",
+        "recreational",
+        "landscape-architecture"
+      ]
+    },
+    "spec": {
+      "name": "Arab League Park",
+      "id": "arab-league-park",
+      "description": "The Arab League Park (Parc de la Ligue Arabe) is the largest and one of the oldest parks in central Casablanca, covering approximately 30 acres. Designed in 1913 by French architect Albert Laprade under the general supervision of urban planner Henri Prost, it was originally named Lyautey Park, in honor of the first Resident-General of the French Protectorate, Hubert Lyautey. The park is a vital green oasis and features long avenues of palm trees, a large pond, and exotic plants. It underwent an extensive reconstruction in the early 21st century and also incorporates historical elements, such as arches relocated from the old Portuguese prison of Anfa.",
+      "location": {
+        "longitude": 33.5892017,
+        "latitude": -7.6237164,
+        "province": "province/casablanca"
+      },
+      "people": [
+        {
+          "id": "people/albert-laprade",
+          "relationship": [
+            "architect",
+            "landscape-designer"
+          ],
+          "comment": "French architect commissioned to redesign the park in 1913."
+        },
+        {
+          "id": "people/henri-prost",
+          "relationship": [
+            "urban-planner"
+          ],
+          "comment": "General supervisor of the park's redesign, central to Casablanca's colonial urban development."
+        },
+        {
+          "id": "people/hubert-lyautey",
+          "relationship": [
+            "namesake",
+            "commissioner"
+          ],
+          "comment": "First Resident-General of the French Protectorate, after whom the park was originally named."
+        }
+      ],
+      "timeline": [
+        {
+          "title": "Redesign Commissioned",
+          "date": "1913-01-01",
+          "description": "Albert Laprade was commissioned to redesign the central city park, originally named Lyautey Park."
+        },
+        {
+          "title": "Inclusion of Anfa Prison Arches",
+          "date": "1913-01-01",
+          "description": "Arches from the old Portuguese prison of Anfa were relocated to the park to support a pergola, by order of Lyautey (approximate date)."
+        },
+        {
+          "title": "Extensive Reconstruction",
+          "date": "2016-01-01",
+          "description": "The park underwent a major reconstruction and rehabilitation project (approximate start)."
+        }
+      ],
+      "links": [
+        {
+          "url": "https://www.gpsmycity.com/attractions/parc-de-la-ligue-arabe-(arab-league-park)-34559.html",
+          "type": "article",
+          "title": "Parc de la Ligue Arabe (Arab League Park), Casablanca - GPSmyCity"
+        }
+      ],
+      "activities": [
+        "walking and jogging",
+        "relaxing and picnicking",
+        "observing palm tree avenues",
+        "visiting the pond and exotic plants"
+      ],
+      "items": [
+        "palm tree avenues",
+        "central pond with water lilies",
+        "arches from the old anfa prison"
+      ],
+      "access": {
+        "type": "public",
+        "options": [
+          {
+            "title": "Park access",
+            "modality": "free",
+            "audience": "all",
+            "entranceFee": 0
+          }
+        ],
+        "status": "open"
+      },
+      "timePeriods": [
+        "french protectorate era (1912-1956)",
+        "20th century",
+        "contemporary period"
+      ]
+    }
   },
-  "spec": {
-    "name": "Arab League Park",
-    "id": "arab-league-park",
-    "description": "\ud83d\udd3b Architect: Albert de Laprade<br>\ud83d\udd3b Dates: 1917<br>\ud83d\udd3b Current Status: Park<br>\ud83d\udd3b Comments: Was known as Lyautey Park",
-    "location": {
-      "longitude": 33.5892017,
-      "latitude": -7.6237164,
-      "province": "province/casablanca"
-    },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
-    "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
-    },
-    "timePeriods": [
-      ""
-    ]
-  }
-}

@@ -2,29 +2,68 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "education",
+      "colonial-architecture",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Augustin Sourzac School",
     "id": "augustin-sourzac-school",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Augustin Sourzac School (often known locally as **'la Foncière'** due to its location in the Foncière district) is a historically significant educational establishment in Casablanca. It was designed by the French architect **Pierre Bousquet** and built in 1925 during the French Protectorate era. The school's architecture is characteristic of the time, often employing the Neo-Moorish style favored by colonial authorities for public buildings. Its enduring presence and architectural heritage were recognized in 2018 when it was designated a **National Material Patrimony** site.",
     "location": {
       "longitude": 33.5951407,
       "latitude": -7.6069731,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the school building in 1925."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction and Opening",
+        "date": "1925-01-01",
+        "description": "The school building was completed and opened, designed by Pierre Bousquet."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.visitmorocco.com/en/blog/discover-six-new-casablanca-buildings-inscribed-national-cultural-heritage",
+        "type": "article",
+        "title": "Discover the six new Casablanca buildings inscribed in the national cultural heritage (Visit Morocco)"
+      }
+    ],
+    "activities": [
+      "education and learning",
+      "architectural observation"
+    ],
+    "items": [
+      "historical school architecture",
+      "classrooms and playgrounds"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
