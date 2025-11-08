@@ -112,7 +112,8 @@
                 "closed",
                 "temporarily_closed",
                 "under_construction",
-                "under_renovation"
+                "under_renovation",
+                "restricted"
               ]
             },
             "type": {
