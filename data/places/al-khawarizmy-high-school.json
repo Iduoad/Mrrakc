@@ -48,14 +48,7 @@
     ],
     "access": {
       "type": "restricted",
-      "options": [
-        {
-          "title": "Access for students and staff",
-          "modality": "free",
-          "audience": "students",
-          "entranceFee": 0
-        }
-      ],
+      "options": [],
       "status": "open",
       "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },

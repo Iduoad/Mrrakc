@@ -63,7 +63,7 @@
       "options": [
         {
           "title": "Entrance Fee (Expected upon Re-opening)",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         }
