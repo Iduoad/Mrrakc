@@ -2,29 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "nature/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "transportation-hub",
+      "modern"
+    ]
   },
   "spec": {
     "name": "Casa Voyageurs Park",
     "id": "casa-voyageurs-park",
-    "description": "None",
+    "description": "Casa Voyageurs Park is a green space developed near the modern Casa Voyageurs railway station. It is an integral part of the urban planning surrounding the major transportation hub, designed to soften the harshness of the surrounding concrete infrastructure. The park provides a waiting area and a brief moment of nature for travelers, commuters, and local residents in this busy commercial and transport district.",
     "location": {
       "longitude": 33.5901041,
       "latitude": -7.5923135,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Park Development",
+        "date": "2018-01-01",
+        "description": "The park was developed in coordination with the renovation and expansion of the Casa Voyageurs transport hub (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "outdoor relaxation",
+      "waiting area for train travel"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

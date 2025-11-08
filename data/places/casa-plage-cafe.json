@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cafe",
+      "seaside",
+      "beach-front",
+      "corniche",
+      "leisure"
+    ]
   },
   "spec": {
-    "name": "Casa plage Cafe",
+    "name": "Casa Plage Cafe",
     "id": "casa-plage-cafe",
-    "description": "None",
+    "description": "Casa Plage Cafe (Café Casa Plage) is a beach-front cafe located along the famous Ain Diab Corniche. Its location, directly facing the Atlantic Ocean, makes it a highly desirable spot for casual dining, coffee, and drinks. These establishments are central to the Casablanca leisure experience, providing a relaxed atmosphere for enjoying the sea view and the coastal breeze. It caters to beachgoers, locals, and tourists looking for a scenic break.",
     "location": {
       "longitude": 33.5828,
       "latitude": -7.7001933,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "drinking coffee and tea",
+      "dining with an ocean view",
+      "socializing"
+    ],
+    "items": [
+      "seating terrace with ocean view",
+      "light snacks and drinks"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Cafe services",
+          "modality": "pay-as-you-go",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

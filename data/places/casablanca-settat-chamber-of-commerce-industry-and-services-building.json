@@ -2,35 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "finance",
+      "stock-exchange",
+      "commerce-chamber",
+      "art-deco",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Casablanca Settat Chamber of Commerce - Industry and Services Building",
     "id": "casablanca-settat-chamber-of-commerce-industry-and-services-building",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Chamber of Commerce, Industry and Services<br>\ud83d\udd3b Comments: Ex. Stock exchange, the first in Morocco and among the first in Africa (Third according to wikipedia https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
+    "description": "This prominent building, designed by architect **Pierre Bousquet** and completed in 1929, is historically significant as the former site of the **Casablanca Stock Exchange (Bourse de Casablanca)**, one of the first stock exchanges in Africa. Located in the heart of the city's financial district, its architecture reflects the Art Deco influence characteristic of major public and financial buildings of the French Protectorate era. It now houses the Casablanca-Settat Chamber of Commerce, Industry, and Services (CCIS), continuing its tradition as a center for economic activity and governance.",
     "location": {
       "longitude": 33.5946816,
       "latitude": -7.613631,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building, completed in 1929."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed (as Stock Exchange)",
+        "date": "1929-01-01",
+        "description": "The building was completed and operated as the Casablanca Stock Exchange."
+      }
+    ],
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
-        "type": "website",
+        "type": "wikipedia",
         "title": "List of African Stock Exchanges from Wikipedia"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "conducting commercial and industry services",
+      "architectural observation"
+    ],
+    "items": [
+      "historical stock exchange hall (original function)",
+      "art deco facade elements"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as a Chamber of Commerce office; general interior access is limited to members and staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

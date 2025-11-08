@@ -2,29 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "industrial-commerce",
+      "national-heritage",
+      "early-colonial",
+      "1910s"
+    ]
   },
   "spec": {
-    "name": "Comptoir M\u00e9tallurgique Building",
+    "name": "Comptoir Métallurgique Building",
     "id": "comptoir-metallurgique-building",
-    "description": "\ud83d\udd3b Dates: 1913<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Comptoir Métallurgique Building is one of the oldest extant European-style commercial buildings in Casablanca's new town, dating back to 1913, shortly after the start of the French Protectorate. It was a center for metallurgical commerce and industry, reflecting the raw material and construction boom that defined early colonial Casablanca. Its pre-Art Deco, functional commercial style is historically important, leading to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5920633,
       "latitude": -7.6169308,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1913-01-01",
+        "description": "The Comptoir Métallurgique building was completed, making it one of the city's oldest structures outside the medina."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "conducting business (limited public access)"
+    ],
+    "items": [
+      "early 20th century commercial architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

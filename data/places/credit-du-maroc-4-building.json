@@ -2,29 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
-    "name": "Cr\u00e9dit Du Maroc 4 Building",
+    "name": "Crédit Du Maroc 4 Building",
     "id": "credit-du-maroc-4-building",
-    "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Crédit Du Maroc 4 Building is a historical residential and commercial structure dating from the 1920s, located in Casablanca's highly valued central district. It is architecturally significant as a prime example of the early Art Deco period that characterized the 'new town' construction. Its preservation and historical value were formally recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5876982,
       "latitude": -7.6169237,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1920-01-01",
+        "description": "The building was completed during the 1920s (Approximate date)."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

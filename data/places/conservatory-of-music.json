@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/workshop",
   "metadata": {
-    "tags": []
+    "tags": [
+      "music-education",
+      "cultural-institution",
+      "performance-venue",
+      "arts"
+    ]
   },
   "spec": {
     "name": "Conservatory Of Music",
     "id": "conservatory-of-music",
-    "description": "None",
+    "description": "The Conservatory of Music (Conservatoire de Musique) in Casablanca is a foundational cultural institution dedicated to musical education and performance. It offers training in various musical disciplines, including traditional Moroccan music, classical Western music, and contemporary styles. The conservatory plays a vital role in preserving and promoting Moroccan musical heritage while fostering new artistic talent. It often hosts student and professional concerts open to the public.",
     "location": {
       "longitude": -7.6195975,
       "latitude": 33.5933989,
@@ -15,18 +20,43 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "music_school"
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/conservatoire-de-musique/",
+        "type": "article",
+        "title": "Conservatoire de Musique (We See Casa)"
+      }
     ],
-    "items": [],
+    "activities": [
+      "attending music classes (restricted)",
+      "attending concerts and performances",
+      "musical education"
+    ],
+    "items": [
+      "performance halls",
+      "music practice rooms",
+      "musical instruments"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Concert/Performance access",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "School enrollment",
+          "modality": "enrollment-fee",
+          "audience": "students",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
