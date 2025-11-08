@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "colonial-architecture",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Eyraud Building",
     "id": "eyraud-building",
-    "description": "\ud83d\udd3b Architect: George-Jean Grel<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Eyraud Building is a historical residential and commercial building located in the central Art Deco district of Casablanca. Designed by architect **George-Jean Grel** and completed in 1930, it embodies the modernist and Art Deco aesthetics of the period. Like other buildings in the area, it features a functional design that combines commerce on the lower floors with multi-story residential units above, reflecting the dense urban development fostered during the French Protectorate. It remains an actively inhabited building today.",
     "location": {
       "longitude": 33.593558,
       "latitude": -7.619889,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/george-jean-grel",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the Eyraud Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1930-01-01",
+        "description": "The Eyraud Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

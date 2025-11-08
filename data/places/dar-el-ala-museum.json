@@ -2,29 +2,64 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "music-history",
+      "moroccan-music",
+      "habous-quarter",
+      "cultural-heritage"
+    ]
   },
   "spec": {
     "name": "Dar El Ala Museum",
     "id": "dar-el-ala-museum",
-    "description": "None",
+    "description": "The Dar El Ala Museum (Musée Dar El Ala) is a specialized cultural institution dedicated to the preservation and promotion of **Andalusian music (Al-Âla)**, one of the most sophisticated genres of Moroccan classical music. Located in the cultural **Habous Quarter (Nouvelle Médina)**, the museum showcases historical instruments, documents, and archives related to the tradition. It serves as a vital center for musicology, helping visitors understand the deep historical and cultural roots of Al-Âla music, which originated in Al-Andalus (Islamic Spain and Portugal) and flourished in Moroccan cities.",
     "location": {
       "longitude": 33.5780977,
       "latitude": -7.6035979,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/mohamed-choukri",
+        "relationship": [
+          "cultural-figure"
+        ],
+        "comment": "Prominent cultural figures often support the preservation of Al-Âla music."
+      }
+    ],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.moroccanladies.com/moroccan-culture/ala-al-andalusia-moroccan-andalusian-music-heritage-71607",
+        "type": "article",
+        "title": "Al-Âla Al-Andalusia: Moroccan Andalusian Music Heritage"
+      }
+    ],
+    "activities": [
+      "viewing musical instrument collections",
+      "learning about al-âla music history",
+      "attending musical lectures or workshops"
+    ],
+    "items": [
+      "traditional andalusian musical instruments (rebab, oud, kamanja)",
+      "historical music manuscripts and scores"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Museum entrance fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "al-andalus heritage",
+      "contemporary period"
     ]
   }
 }

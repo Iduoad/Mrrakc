@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "urban/viewpoint",
   "metadata": {
-    "tags": []
+    "tags": [
+      "viewpoint",
+      "panoramic-view",
+      "coastal-area",
+      "el-hank",
+      "casablanca-skyline"
+    ]
   },
   "spec": {
     "name": "El Hank Panoramic View",
     "id": "el-hank-panoramic-view",
-    "description": "None",
+    "description": "El Hank Panoramic View is a scenic coastal point located on the El Hank peninsula, offering sweeping vistas of Casablanca's skyline, the Atlantic Ocean, and the iconic Hassan II Mosque. Situated near the El Hank Lighthouse, this area is a popular destination for locals and tourists seeking photo opportunities, particularly at sunset, and for enjoying the sea breeze. It showcases the dramatic intersection of Casablanca's modern urban development and its natural coastline.",
     "location": {
       "longitude": 33.6095861,
       "latitude": -7.6556307,
@@ -16,15 +22,30 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "photography",
+      "sightseeing and observation",
+      "relaxing by the coast"
+    ],
+    "items": [
+      "view of the hassan ii mosque",
+      "view of the casablanca skyline",
+      "atlantic ocean view"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Viewpoint access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
