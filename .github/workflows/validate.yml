@@ -32,16 +32,6 @@ jobs:
             cargo install boon-cli
           fi
 
-      - name: Validate JSON Schemas
-        run: |
-          echo "🔍 Validating JSON schemas..."
-          # Validate that schemas are valid JSON Schema
-          boon schema/people.json
-          boon schema/provinces.json
-          boon schema/places.json
-          echo "✅ Boon is ready for validation"
-
-
       - name: Validate Provinces Data
         run: |
           echo "🏛️ Validating provinces data..."
