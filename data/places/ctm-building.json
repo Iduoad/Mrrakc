@@ -2,35 +2,75 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "transportation",
+      "bus-station",
+      "modernist",
+      "national-heritage",
+      "1950s"
+    ]
   },
   "spec": {
     "name": "CTM Building",
     "id": "ctm-building",
-    "description": "\ud83d\udd3b Architect: Alexandre Courtois<br>\ud83d\udd3b Dates: 1951/1955<br>\ud83d\udd3b Current Status: Bus Station",
+    "description": "The CTM Building (Compagnie de Transports Marocains), located on the Place de la Victoire, is a landmark of Casablanca's post-war modernist architecture. Designed by architect **Alexandre Courtois** and constructed between 1951 and 1955, it served as the central bus station and headquarters for the country's main intercity bus operator. The building is renowned for its functional, streamlined design and large, covered bus shelters, representing the era's focus on modern infrastructure and mobility. It is considered a site of **National Material Patrimony**.",
     "location": {
       "longitude": 33.5960914,
       "latitude": -7.6110031,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [
+    "people": [
       {
-        "title": "National Material Patrimony",
-        "description": "Site considered as National Material Patrimony",
-        "date": "1951-01-01"
+        "id": "people/alexandre-courtois",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the CTM bus station and headquarters."
       }
     ],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1951-01-01",
+        "description": "Construction of the CTM Building began."
+      },
+      {
+        "title": "Building Completed and Opened",
+        "date": "1955-01-01",
+        "description": "The CTM Building was completed and functioned as the central bus station."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ctm.ma/en",
+        "type": "official",
+        "title": "CTM Bus Company Official Website"
+      }
+    ],
+    "activities": [
+      "intercity bus travel",
+      "architectural observation"
+    ],
+    "items": [
+      "modernist bus station architecture",
+      "bus terminal and ticketing offices"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Bus ticket purchase",
+          "modality": "pay-as-you-go",
+          "audience": "travelers",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (1950s)",
+      "contemporary period"
     ]
   }
 }

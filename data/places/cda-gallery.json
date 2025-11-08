@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "exhibition-space",
+      "modern-art"
+    ]
   },
   "spec": {
     "name": "CDA GALLERY",
     "id": "cda-gallery",
-    "description": "None",
+    "description": "CDA GALLERY (Galerie CDA - Centre d'Art Contemporain) is a contemporary art gallery in Casablanca dedicated to showcasing the works of modern and contemporary artists, both Moroccan and international. The gallery plays an important role in the city's cultural landscape by hosting curated exhibitions, promoting artistic dialogue, and offering a space for the appreciation of contemporary visual arts.",
     "location": {
       "longitude": 33.5929345,
       "latitude": -7.6418531,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing art exhibitions",
+      "purchasing artwork",
+      "attending cultural events"
+    ],
+    "items": [
+      "contemporary paintings and sculptures",
+      "curated exhibitions"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

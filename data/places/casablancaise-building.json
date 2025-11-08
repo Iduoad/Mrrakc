@@ -2,29 +2,58 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "art-deco",
+      "modernist",
+      "sports-history",
+      "renovating",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Casablancaise Building",
     "id": "casablancaise-building",
-    "description": "\ud83d\udd3b Architect: Robert Lievre<br>\ud83d\udd3b Dates: 1936<br>\ud83d\udd3b Current Status: Renovating <br>\ud83d\udd3b Comments: It was dedicated for Physical Education and Sports.",
+    "description": "The Casablancaise Building, dedicated to **Physical Education and Sports**, is an architecturally significant structure designed by **Robert Lièvre** and completed in 1936. This building is a noteworthy example of the Modernist style that evolved in Casablanca in the 1930s, prioritizing functionality and clean lines. Its original use reflects the colonial administration's focus on public health and recreation. The building is currently undergoing renovation, signaling efforts to preserve its historical and architectural value while potentially preparing it for a new function.",
     "location": {
       "longitude": 33.5894334,
       "latitude": -7.6217188,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/robert-lievre",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building dedicated to physical education and sports."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1936-01-01",
+        "description": "The Casablancaise Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "modernist facade",
+      "historical sports facilities (original function)"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "under_renovation",
+      "comment": "The building is currently undergoing renovation; access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

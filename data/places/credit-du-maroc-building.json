@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "bank-headquarters",
+      "art-deco",
+      "modernist",
+      "credit-lyonnais",
+      "1940s-1950s"
+    ]
   },
   "spec": {
     "name": "Credit du Maroc Building",
     "id": "credit-du-maroc-building",
-    "description": "\ud83d\udd3b Architects: Edmond Brion<br>\ud83d\udd3b Dates: 1947-1950<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b Comments: It was named Credit Lyonnais during the protectorate.<br>---<br>\ud83d\udd17 https://www.creditdumaroc.ma/institutionnel/credit-du-maroc-90-ans-dhistoire-une-exposition-evenement-pour-celebrer-lancrage-dune<br>\ud83d\udd17 https://m.facebook.com/story.php?story_fbid=pfbid02LPM76dpbgKkuJTP8h5iXm1KW56H7sbC99zAPW3J8HSoqXJrJ67HiRnzwSgV7yURCl&id=100067627730273",
+    "description": "The Credit du Maroc Building, designed by architect **Edmond Brion** and completed between 1947 and 1950, is a major post-war commercial structure. During the French Protectorate, it was known as the **Crédit Lyonnais Building**. The architecture reflects the streamlined Modernist style of the late 1940s and early 1950s. The building is significant for its association with the history of the Crédit Lyonnais in Morocco and the subsequent formation of Crédit du Maroc, symbolizing a major continuity in the nation's financial sector across the colonial and independent eras.",
     "location": {
       "longitude": 33.5951052,
       "latitude": -7.6155261,
@@ -18,31 +25,46 @@
         "id": "people/edmond-brion",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who designed the building."
       }
     ],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1947-01-01",
+        "description": "Construction of the building began."
+      },
+      {
+        "title": "Building Completed",
+        "date": "1950-01-01",
+        "description": "The building was completed and opened as Crédit Lyonnais."
+      }
+    ],
     "links": [
       {
         "url": "https://www.creditdumaroc.ma/institutionnel/credit-du-maroc-90-ans-dhistoire-une-exposition-evenement-pour-celebrer-lancrage-dune",
         "type": "website",
-        "title": "Crédit du Maroc, 90 ans d’histoire » Une exposition évènement pour célébrer l'ancrage d'une banque dans l'histoire du Maroc"
-      },
-      {
-        "url": "https://m.facebook.com/story.php?story_fbid=pfbid02LPM76dpbgKkuJTP8h5iXm1KW56H7sbC99zAPW3J8HSoqXJrJ67HiRnzwSgV7yURCl&id=100067627730273",
-        "type": "website",
-        "title": "Facebook post about the Building"
+        "title": "Crédit du Maroc, 90 ans d’histoire (Official history page)"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "conducting banking business (limited public access)",
+      "architectural observation"
+    ],
+    "items": [
+      "modernist bank facade"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as an active bank; interior access is limited to bank clients and staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

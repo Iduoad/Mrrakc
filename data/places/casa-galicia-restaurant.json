@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "spanish-cuisine",
+      "international-dining",
+      "cultural-center"
+    ]
   },
   "spec": {
     "name": "Casa Galicia Restaurant",
     "id": "casa-galicia-restaurant",
-    "description": "\ud83d\udd3b Menu: Spanish",
+    "description": "Casa Galicia is a restaurant specializing in **Spanish cuisine**, reflecting the historical influence of Spain in Morocco, particularly in the northern regions, but also present in Casablanca's diverse culinary scene. It is often associated with the Spanish cultural center or community house in the city (Casablanca's Spanish Club or similar), providing authentic Galician and general Spanish dishes. This type of establishment serves as a cultural and social bridge, offering expatriates and locals a taste of Spanish tradition.",
     "location": {
       "longitude": 33.5818906,
       "latitude": -7.62692,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on spanish cuisine",
+      "socializing with the local spanish community (if applicable)"
+    ],
+    "items": [
+      "tapas",
+      "paella",
+      "galician seafood dishes"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "pay-as-you-go",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
