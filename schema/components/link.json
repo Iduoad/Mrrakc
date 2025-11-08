@@ -24,7 +24,9 @@
         "image",
         "movie",
         "website",
-        "book"
+        "book",
+        "social",
+        "map"
       ]
     }
   }
