@@ -43,14 +43,14 @@
       "options": [
         {
           "title": "Weekday Rate (Before 4:00 PM)",
-          "modality": "one-time-payment",
-          "audience": "child (accompanied)",
+          "modality": "ticket",
+          "audience": "children",
           "entranceFee": 120
         },
         {
           "title": "Weekend Rate (Before 4:00 PM)",
-          "modality": "one-time-payment",
-          "audience": "child (accompanied)",
+          "modality": "ticket",
+          "audience": "children",
           "entranceFee": 180
         }
       ],

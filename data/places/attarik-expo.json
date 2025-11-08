@@ -60,7 +60,7 @@
       "options": [
         {
           "title": "Museum entrance fee",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         }
