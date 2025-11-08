@@ -58,7 +58,7 @@
       "options": [
         {
           "title": "Aquarium entrance fee",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         }

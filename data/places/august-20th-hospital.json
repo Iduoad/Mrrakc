@@ -81,14 +81,7 @@
     ],
     "access": {
       "type": "public",
-      "options": [
-        {
-          "title": "Access to services",
-          "modality": "fee-for-service",
-          "audience": "patients",
-          "entranceFee": -1
-        }
-      ],
+      "options": [],
       "status": "open",
       "comment": "Functions as an active public hospital; general access is limited to patients, visitors, and staff."
     },

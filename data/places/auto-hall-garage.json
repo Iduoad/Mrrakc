@@ -65,7 +65,7 @@
       },
       {
         "url": "https://fr.wikipedia.org/wiki/Auto_Hall",
-        "type": "wikipedia",
+        "type": "article",
         "title": "Auto Hall Wikipedia Page"
       }
     ],
@@ -83,7 +83,7 @@
         {
           "title": "Access to showroom and service areas",
           "modality": "free",
-          "audience": "clients",
+          "audience": "all",
           "entranceFee": 0
         }
       ],

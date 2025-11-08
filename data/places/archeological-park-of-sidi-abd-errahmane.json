@@ -56,7 +56,7 @@
       "options": [
         {
           "title": "Park access (Upon completion of development)",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         }
