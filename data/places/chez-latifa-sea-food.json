@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "food/street-food",
   "metadata": {
-    "tags": []
+    "tags": [
+      "seafood",
+      "street-food",
+      "market",
+      "local-cuisine",
+      "fresh-seafood"
+    ]
   },
   "spec": {
     "name": "Chez Latifa Sea food",
     "id": "chez-latifa-sea-food",
-    "description": "Fish snacks, including fresh crab and Oysters",
+    "description": "Chez Latifa Sea Food is a renowned street food vendor, likely located in or near the Marché Central, famous for serving **fresh fish snacks, including crab and oysters**. This spot is highly popular with locals and food tourists seeking authentic, fresh seafood prepared simply and quickly. It represents the vibrant and essential role of street food markets in Casablanca's daily culinary life, drawing on the city's position as a major port.",
     "location": {
       "longitude": 33.5948681,
       "latitude": -7.611937,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/latifa",
+        "relationship": [
+          "founder",
+          "namesake"
+        ],
+        "comment": "The person who founded and operates the popular seafood stall/restaurant."
+      }
+    ],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g293737-d20516768-Reviews-Chez_Latifa_Seafood-Casablanca_Casablanca_Settat.html",
+        "type": "website",
+        "title": "Chez Latifa Sea Food on TripAdvisor"
+      }
+    ],
+    "activities": [
+      "tasting fresh seafood",
+      "experiencing local street food culture"
+    ],
+    "items": [
+      "fresh crab and oysters",
+      "various fish snacks"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Food purchase",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

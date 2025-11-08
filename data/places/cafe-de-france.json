@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cafe",
+      "city-center",
+      "art-deco-neighborhood",
+      "social-hub",
+      "traditional"
+    ]
   },
   "spec": {
     "name": "Cafe de France",
     "id": "cafe-de-france",
-    "description": "None",
+    "description": "Cafe de France is a classic, long-standing café located in the heart of Casablanca, near the city's central administrative and financial district. Dating back to the French Protectorate era, cafes of this kind were central to the social and intellectual life of the European and Moroccan elite. Situated amidst the city's signature Art Deco and Modernist architecture, the café maintains a traditional atmosphere, making it a popular spot for locals to socialize, read newspapers, and observe city life. It is an enduring symbol of Casablanca's cafe culture.",
     "location": {
       "longitude": 33.5956649,
       "latitude": -7.6175453,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The cafe was established during the period of rapid development in Casablanca's new town (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "drinking coffee and tea",
+      "socializing and people-watching",
+      "quick meal stop"
+    ],
+    "items": [
+      "traditional moroccan coffee and mint tea",
+      "seating terrace"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Cafe services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "contemporary period"
     ]
   }
 }

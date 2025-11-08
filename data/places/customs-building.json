@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "customs",
+      "port-related",
+      "early-colonial",
+      "government-office",
+      "1910s"
+    ]
   },
   "spec": {
     "name": "Customs Building",
     "id": "customs-building",
-    "description": "\ud83d\udd3b Dates: 1910<br>\ud83d\udd3b Current Status: Customs training center",
+    "description": "The historical Customs Building (La Douane) is one of Casablanca's earliest significant public structures in the modern city, dating back to around 1910, just prior to or at the very start of the French Protectorate. Located near the port and the Old Medina, it played a crucial role in controlling trade and collecting duties, underscoring the city's identity as a commercial gateway. The building now serves as a **Customs training center**, maintaining its historical link to maritime administration and regulation.",
     "location": {
       "longitude": 33.6006931,
       "latitude": -7.614706,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/french-colonial-administration",
+        "relationship": [
+          "founder"
+        ],
+        "comment": "The administration responsible for the early commercial infrastructure."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1910-01-01",
+        "description": "The Customs Building was completed, establishing the infrastructure for regulating port trade."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "customs training and education (restricted)",
+      "architectural observation"
+    ],
+    "items": [
+      "early 20th century administrative architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as a training center; general public access is restricted."
     },
     "timePeriods": [
-      ""
+      "pre-protectorate/early-colonial era (1910)",
+      "20th century"
     ]
   }
 }

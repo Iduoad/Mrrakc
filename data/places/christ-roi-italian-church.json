@@ -2,35 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "historical-church",
+      "catholic",
+      "italian-community",
+      "national-heritage",
+      "art-deco-neighborhood"
+    ]
   },
   "spec": {
     "name": "Christ-Roi Italian Church",
     "id": "christ-roi-italian-church",
-    "description": "Italian Church",
+    "description": "The Christ-Roi Italian Church (Église du Christ-Roi) is a significant religious structure established by Casablanca's former **Italian community**. Built in the central part of the city, its architecture often reflects the styles prevalent in Italy during the mid-20th century. Like the city's other non-Muslim places of worship, it serves as a historical testament to Casablanca's once-large European population. The building's importance was recognized when it was designated a **National Material Patrimony** site in 2015.",
     "location": {
       "longitude": 33.5807803,
       "latitude": -7.624705,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/italian-community",
+        "relationship": [
+          "founder",
+          "patron"
+        ],
+        "comment": "The community responsible for the construction and maintenance of the church."
+      }
+    ],
     "timeline": [
       {
         "title": "National Material Patrimony Declaration",
-        "description": "The Church Building was declared National Material Patrimony",
-        "date": "2015-01-01"
+        "date": "2015-01-01",
+        "description": "The Church Building was officially declared a National Material Patrimony site."
       }
     ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "attending religious services",
+      "architectural observation"
+    ],
+    "items": [
+      "historical church architecture",
+      "religious artifacts"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Worship services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

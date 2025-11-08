@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "french-cuisine",
+      "fine-dining",
+      "modern-dining"
+    ]
   },
   "spec": {
-    "name": "C\u00e9zanne Restaurant",
+    "name": "Cézanne Restaurant",
     "id": "cezanne-restaurant",
-    "description": "None",
+    "description": "Cézanne Restaurant is a contemporary dining venue in Casablanca, often associated with high-end international or French-inspired cuisine, given its name, which references the famous French post-impressionist painter, Paul Cézanne. Located in an area known for modern restaurants, it likely offers a sophisticated ambiance and refined culinary experience, catering to both local professionals and expatriates.",
     "location": {
       "longitude": 33.6010095,
       "latitude": -7.6550441,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "fine dining",
+      "socializing"
+    ],
+    "items": [
+      "gourmet international menu",
+      "wine list (if applicable)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

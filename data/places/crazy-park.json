@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/amusement-park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "amusement-park",
+      "theme-park",
+      "rides",
+      "family-fun",
+      "leisure"
+    ]
   },
   "spec": {
     "name": "Crazy Park",
     "id": "crazy-park",
-    "description": "None",
+    "description": "Crazy Park is a modern amusement park located outside the immediate city center, designed to offer a variety of rides, games, and entertainment options for families and children. As a destination for leisure, it provides a much-needed venue for active recreation and fun, contributing to the city's modern entertainment infrastructure.",
     "location": {
       "longitude": -7.7686459,
       "latitude": 33.5388025,
@@ -15,18 +21,36 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "amusement-park"
+    "links": [
+      {
+        "url": "https://www.crazy-park.ma/",
+        "type": "website",
+        "title": "Crazy Park Official Website"
+      }
     ],
-    "items": [],
+    "activities": [
+      "riding amusement park rides",
+      "playing carnival games",
+      "family entertainment"
+    ],
+    "items": [
+      "various amusement rides",
+      "game booths"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Entrance Fee/Ride Tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

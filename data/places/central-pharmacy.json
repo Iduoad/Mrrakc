@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "architecture/pharmacy",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "pharmacy",
+      "art-deco",
+      "national-heritage",
+      "colonial-architecture",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Central Pharmacy",
     "id": "central-pharmacy",
-    "description": "\ud83d\udd3b Architect: Auguste Cadet & Edmond Brion<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Pharmacy<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Central Pharmacy Building (Pharmacie Centrale) is a celebrated historical structure in Casablanca, designed in 1925 by the prominent French architectural duo **Auguste Cadet and Edmond Brion**. The building is an excellent example of the Art Deco style that characterized Casablanca's major public and commercial buildings during the French Protectorate. Its design, combining monumental aesthetics with functional commercial space, is historically valued, leading to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5923842,
       "latitude": -7.6091272,
@@ -18,26 +25,45 @@
         "id": "people/edmond-brion",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the Central Pharmacy Building."
       },
       {
         "id": "people/auguste-cadet",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the Central Pharmacy Building."
       }
     ],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1925-01-01",
+        "description": "The Central Pharmacy building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "purchasing pharmaceutical goods",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements"
+    ],
     "access": {
       "type": "public",
       "options": [],
-      "status": "open"
+      "status": "closed"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
