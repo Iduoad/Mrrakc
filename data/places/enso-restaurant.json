@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "japanese-cuisine",
+      "sushi",
+      "fine-dining",
+      "modern-dining"
+    ]
   },
   "spec": {
     "name": "Enso Restaurant",
     "id": "enso-restaurant",
-    "description": "\ud83d\udd3b Menu: Japanese",
+    "description": "Enso Restaurant is a specialized dining establishment in Casablanca, serving **Japanese cuisine**, often focusing on sushi, ramen, or other modern Japanese dishes. The name 'Enso' (a sacred circle in Zen Buddhism) suggests a focus on aesthetic perfection and simplicity, reflecting in its cuisine and likely its decor. Located in a high-end or prominent area of the city, it caters to an urban clientele seeking international, contemporary flavors and a sophisticated dining experience.",
     "location": {
       "longitude": 33.6095469,
       "latitude": -7.6513836,
@@ -15,16 +21,36 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://enso-restaurant.business.site/",
+        "type": "website",
+        "title": "Enso Restaurant Business Site"
+      }
+    ],
+    "activities": [
+      "dining on japanese cuisine",
+      "sushi and sashimi tasting",
+      "socializing"
+    ],
+    "items": [
+      "sushi and sashimi",
+      "specialty japanese dishes"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "moroccan-cuisine",
+      "fine-dining",
+      "traditional-architecture",
+      "old-medina"
+    ]
   },
   "spec": {
     "name": "Dar Dada Restaurant",
     "id": "dar-dada-restaurant",
-    "description": "\ud83d\udd3b Menu: Moroccan<br>\ud83d\udd3b Tags: Fine Dining",
+    "description": "Dar Dada Restaurant is a renowned fine-dining establishment in Casablanca, celebrated for its authentic and sophisticated **Moroccan cuisine**. Located near the Old Medina (or often in a riad-style setting reflecting traditional architecture), Dar Dada aims to provide a cultural and culinary immersion. The term 'Dada' refers to the traditional head cook of a Moroccan household, emphasizing authenticity and heritage. The restaurant is popular among tourists and locals seeking a high-quality, atmospheric dining experience, often featuring traditional music and decor.",
     "location": {
       "longitude": 33.6039639,
       "latitude": -7.6213916,
@@ -15,16 +21,37 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g293737-d1565457-Reviews-Dar_Dada-Casablanca_Casablanca_Settat.html",
+        "type": "website",
+        "title": "Dar Dada Restaurant on TripAdvisor"
+      }
+    ],
+    "activities": [
+      "fine dining on moroccan cuisine",
+      "experiencing traditional ambiance",
+      "attending cultural performances (if offered)"
+    ],
+    "items": [
+      "moroccan tagines and pastillas",
+      "traditional dessert selections"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Dining services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Reservations are often required for fine dining."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

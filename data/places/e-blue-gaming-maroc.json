@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/gaming",
   "metadata": {
-    "tags": []
+    "tags": [
+      "e-sports",
+      "gaming-center",
+      "pc-gaming",
+      "internet-cafe",
+      "contemporary-leisure"
+    ]
   },
   "spec": {
     "name": "E-blue Gaming Maroc",
     "id": "e-blue-gaming-maroc",
-    "description": "None",
+    "description": "E-blue Gaming Maroc is a modern, dedicated gaming center or cyber café in Casablanca, part of the E-blue brand specializing in high-performance computer gaming environments and peripherals. It serves the growing Moroccan e-sports and gaming community, offering high-speed internet access, powerful PCs, and comfortable setups for competitive and casual gaming. It is a social hub for young people interested in video games and e-sports events.",
     "location": {
       "longitude": -7.6372703,
       "latitude": 33.5925209,
@@ -15,18 +21,36 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "gaming"
+    "links": [
+      {
+        "url": "https://www.facebook.com/EBlueGamingMaroc/",
+        "type": "social",
+        "title": "E-blue Gaming Maroc Facebook Page"
+      }
     ],
-    "items": [],
+    "activities": [
+      "pc gaming",
+      "e-sports competition",
+      "socializing with gamers"
+    ],
+    "items": [
+      "high-performance gaming pcs",
+      "gaming peripherals and monitors"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Hourly Gaming Rate",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
