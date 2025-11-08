@@ -55,7 +55,7 @@
       "options": [
         {
           "title": "Bakery access",
-          "modality": "pay-as-you-go",
+          "modality": "consumption",
           "audience": "all",
           "entranceFee": -1
         }
