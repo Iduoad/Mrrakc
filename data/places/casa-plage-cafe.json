@@ -36,7 +36,7 @@
       "options": [
         {
           "title": "Cafe services",
-          "modality": "pay-as-you-go",
+          "modality": "consumption",
           "audience": "all",
           "entranceFee": -1
         }
