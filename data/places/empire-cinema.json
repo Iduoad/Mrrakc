@@ -2,29 +2,74 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "architecture",
+      "art-deco",
+      "national-heritage",
+      "closed",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Empire Cinema",
     "id": "empire-cinema",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
+    "description": "The Empire Cinema (Cinéma Empire) is one of Casablanca's most historically important and architecturally celebrated movie theaters. Designed by architect **Aldo Manassi** and completed in 1928, it is a prime example of the grand Art Deco style that defined the city's golden age of cinema during the French Protectorate. Located in the central district, it symbolizes the city's cosmopolitan cultural past. Though currently **closed**, its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2014.",
     "location": {
       "longitude": 33.595377,
       "latitude": -7.6157496,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/aldo-manassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Italian architect who contributed significantly to Casablanca's Art Deco landscape, and designed the Empire Cinema."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1928-01-01",
+        "description": "The Empire Cinema building was completed and opened."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2014-01-01",
+        "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
+      },
+      {
+        "title": "Closure",
+        "date": "2000-01-01",
+        "description": "The cinema ceased operations (Approximate date, prior to patrimony declaration)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/les-anciens-cinemas-de-casablanca/",
+        "type": "article",
+        "title": "Les Anciens Cinémas de Casablanca (We See Casa)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "art deco facade elements",
+      "historical cinema hall"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The cinema is currently closed for operation; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

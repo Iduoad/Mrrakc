@@ -2,31 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "movie-theater",
+      "art-deco-neighborhood",
+      "entertainment"
+    ]
   },
   "spec": {
     "name": "Eden Club Cinema",
     "id": "eden-club-cinema",
-    "description": "None",
+    "description": "Eden Club Cinema (Cinéma Eden Club) is a historical movie theater in Casablanca, located in the central, architecturally rich district. Like many of Casablanca's historical cinemas built during the mid-20th century, its architecture likely features Art Deco or post-war Modernist influences. It contributes to the city's rich cinematic heritage, though many older single-screen cinemas have either closed or struggled to compete with modern multiplexes.",
     "location": {
       "longitude": -7.6159506,
       "latitude": 33.5889454,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1940-01-01",
+        "description": "The cinema was likely established during the period of high demand for cinema in the Protectorate era (Approximate date)."
+      }
+    ],
     "links": [],
     "activities": [
-      "cinema"
+      "watching films and movies"
     ],
-    "items": [],
+    "items": [
+      "cinema screen and seating",
+      "historical facade (if preserved)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Ticket price",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Status assumed open based on input, but many historical cinemas face closure."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

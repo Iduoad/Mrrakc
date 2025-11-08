@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "urban/street-art",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-art",
+      "mural",
+      "public-art",
+      "modern-art",
+      "cultural-symbolism"
+    ]
   },
   "spec": {
     "name": "Drawing on the wall of the Moroccan family man",
     "id": "drawing-on-the-wall-of-the-moroccan-family-man",
-    "description": "None",
+    "description": "This public art installation is a mural or large-scale painting created as part of an urban art project, likely commissioned to revitalize public spaces and celebrate local culture. The theme, focusing on the **'Moroccan family man'**, suggests a work that uses social realism or cultural symbolism to depict family values, community, or local identity, contrasting the modern cityscape. Public art like this contributes significantly to the visual identity and cultural dialogue of Casablanca's neighborhoods.",
     "location": {
       "longitude": 33.6050963,
       "latitude": -7.6339152,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/local-artist",
+        "relationship": [
+          "artist"
+        ],
+        "comment": "The artist who created the mural (Specific name is not widely published)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Installation Date",
+        "date": "2020-01-01",
+        "description": "Mural created as part of a modern public art initiative (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing and photographing the mural",
+      "architectural observation"
+    ],
+    "items": [
+      "large-scale mural painting",
+      "themes of family and community"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mural viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

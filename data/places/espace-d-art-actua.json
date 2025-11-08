@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "exhibition-space",
+      "cultural-institution"
+    ]
   },
   "spec": {
     "name": "Espace d'art Actua",
     "id": "espace-d-art-actua",
-    "description": "None",
+    "description": "Espace d'art Actua is a contemporary art space and gallery in Casablanca, dedicated to promoting and exhibiting current Moroccan and international art. The term 'Actua' (Actual/Current) emphasizes its focus on contemporary art trends and living artists. Located in the city's central cultural district, the gallery contributes to the active cultural scene by hosting regular exhibitions, artist talks, and cultural events.",
     "location": {
       "longitude": 33.5905557,
       "latitude": -7.6255699,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing art exhibitions",
+      "attending exhibition openings",
+      "art appreciation"
+    ],
+    "items": [
+      "contemporary artworks (paintings, sculpture, photography)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

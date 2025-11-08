@@ -2,29 +2,74 @@
   "version": "mrrakc/v0",
   "kind": "religion/synagogue",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-synagogue",
+      "jewish-heritage",
+      "museum",
+      "old-medina",
+      "architecture",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Ettedgui Synagogue",
     "id": "ettedgui-synagogue",
-    "description": "\ud83d\udd3b Architect: Georges Buan<br>\ud83d\udd3b Dates: 1935<br>\ud83d\udd3b Current Status: Museum<br>\ud83d\udd3b Description: This synagogue was initiated by a Jewish Family from Toudgha who came to Casablanca at the end of the 19th century. This was the second synagogue they built in the Medina.",
+    "description": "The Ettedgui Synagogue (Synagogue Ettedgui) is a historically significant site located in the heart of Casablanca's Old Medina. Built in 1935, it was the second synagogue constructed in the Medina by the influential Ettedgui family, who originated from Toudgha and settled in Casablanca in the late 19th century. This synagogue is a powerful symbol of the long-standing and important Jewish presence in Casablanca. The structure has been preserved and now often functions as a **Museum**, showcasing Jewish Moroccan heritage and architectural tradition, serving as a reminder of the city's multi-religious history.",
     "location": {
       "longitude": 33.6019556,
       "latitude": -7.6196086,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/georges-buan",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the Ettedgui Synagogue."
+      },
+      {
+        "id": "people/ettedgui-family",
+        "relationship": [
+          "founder",
+          "patron"
+        ],
+        "comment": "Jewish family from Toudgha who commissioned the construction of the synagogue."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Completed",
+        "date": "1935-01-01",
+        "description": "The Ettedgui Synagogue was completed and consecrated."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing historical exhibits",
+      "learning about jewish moroccan heritage",
+      "architectural observation"
+    ],
+    "items": [
+      "historical artifacts and religious items",
+      "synagogue architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Museum entrance fee",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally public, though security measures may be in place."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

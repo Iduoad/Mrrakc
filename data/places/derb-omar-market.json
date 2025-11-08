@@ -2,29 +2,64 @@
   "version": "mrrakc/v0",
   "kind": "shopping/market",
   "metadata": {
-    "tags": []
+    "tags": [
+      "market",
+      "souk",
+      "wholesale",
+      "commerce",
+      "historical-market",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Derb Omar Market",
     "id": "derb-omar-market",
-    "description": "\ud83d\udd3b Era: Early 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The souk was created in the 1920s, and still one of the most popular and largest souks or Casablanca and the entire country especially when it comes to wholesale.",
+    "description": "Derb Omar is arguably the most famous and largest commercial district and market in Casablanca, and one of the largest centers for wholesale and retail trade in Morocco. Established in the **1920s** during the city's rapid colonial-era expansion, Derb Omar specializes in imported goods, electronics, household items, and textiles, serving as a primary distribution hub for the entire country. The area is characterized by dense, intense commercial activity and reflects the city's identity as Morocco's economic powerhouse.",
     "location": {
       "longitude": 33.5922446,
       "latitude": -7.6111262,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Market Establishment",
+        "date": "1920-01-01",
+        "description": "The commercial district began developing as a major trade and wholesale center during the French Protectorate era (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Casablanca",
+        "type": "article",
+        "title": "Casablanca Wikipedia Page (References Derb Omar as a major market)"
+      }
+    ],
+    "activities": [
+      "wholesale and retail shopping",
+      "experiencing intense commercial activity",
+      "street photography"
+    ],
+    "items": [
+      "imported electronics and appliances",
+      "wholesale textiles and goods"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }
