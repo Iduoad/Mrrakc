@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "sports/aerodrome",
   "metadata": {
-    "tags": []
+    "tags": [
+      "aeroclub",
+      "aviation",
+      "recreational-flying",
+      "flight-training",
+      "sports"
+    ]
   },
   "spec": {
     "name": "Flysky Morocco Aeroclub",
     "id": "flysky-morocco-aeroclub",
-    "description": "None",
+    "description": "Flysky Morocco Aeroclub is a private or public organization dedicated to promoting general aviation, recreational flying, and flight training in Casablanca. Located outside the main city near a smaller aerodrome (like Tit Mellil), it offers activities such as introductory flights, pilot licensing programs, and aircraft rental. It is a center for aviation enthusiasts and those seeking unique aerial views of the region.",
     "location": {
       "longitude": -7.4688229,
       "latitude": 33.5992676,
@@ -15,18 +21,43 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "aeroclub"
+    "links": [
+      {
+        "url": "https://flyskymorocco.com/",
+        "type": "website",
+        "title": "Flysky Morocco Official Website"
+      }
     ],
-    "items": [],
+    "activities": [
+      "recreational flying and excursions",
+      "pilot training and licensing",
+      "aeroclub membership and events"
+    ],
+    "items": [
+      "light aircraft fleet",
+      "runway and hangars"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Flight training/Activity Fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Aeroclub Access",
+          "modality": "membership",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access to facilities and activities is generally fee-based or requires membership/booking."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

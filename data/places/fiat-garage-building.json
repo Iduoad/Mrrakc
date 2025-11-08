@@ -2,29 +2,69 @@
   "version": "mrrakc/v0",
   "kind": "architecture/garage",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "industrial-architecture",
+      "art-deco",
+      "national-heritage",
+      "closed",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Fiat Garage Building",
     "id": "fiat-garage-building",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1920<br>\ud83d\udd3b Current Status: closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2012",
+    "description": "The historical Fiat Garage Building is an architecturally significant commercial structure in central Casablanca. Designed by Italian architect **Aldo Manassi** and completed in 1920, it is one of the earliest examples of monumental industrial architecture erected in the new city during the French Protectorate. Its design, blending functional industrial elements with early Art Deco aesthetics, reflects the rapid growth of the automotive sector in colonial Casablanca. Though currently **closed** or repurposed, its historical value was recognized with its designation as a **National Material Patrimony** site in 2012.",
     "location": {
       "longitude": 33.5891085,
       "latitude": -7.6152511,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/aldo-manassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Italian architect who designed the original Fiat Garage building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1920-01-01",
+        "description": "The Fiat Garage building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2012-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa - References historical buildings)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "early industrial architecture",
+      "historical showroom space"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The building is closed or repurposed; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
