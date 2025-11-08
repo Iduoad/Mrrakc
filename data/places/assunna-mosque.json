@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "modernist-architecture",
+      "brutalist",
+      "jean-francois-zevaco",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Assunna Mosque",
     "id": "assunna-mosque",
-    "description": "\ud83d\udd3b Architect: Jean-Francois Zevaco<br>\ud83d\udd3b Date: 1970s<br>\ud83d\udd3b Status: Open",
+    "description": "Assunna Mosque (Masjid As-Sunna) is a notable example of modernist religious architecture in Casablanca, designed by the celebrated French-Moroccan architect Jean-François Zevaco. Built in 1966, the mosque is distinguished by its brutalist architectural style, featuring the use of raw concrete and unconventional forms, drawing inspiration from works like Oscar Niemeyer's Church of Saint Francis of Assisi. Its unique design marks a distinct departure from traditional Moroccan mosque architecture, representing the experimentation of the post-independence era. It remains an active place of worship for the local community.",
     "location": {
       "longitude": 33.5616889,
       "latitude": -7.6094642,
@@ -18,20 +24,47 @@
         "id": "people/jean-francois-zevaco",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French-Moroccan architect known for his modernist and brutalist work, who designed the mosque in 1966."
       }
     ],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Mosque Construction",
+        "date": "1966-01-01",
+        "description": "Construction of the mosque was completed (The initial snippet indicates 1970s, but 1966 is a more precise date found in sources)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Assunna_Mosque",
+        "type": "wikipedia",
+        "title": "Assunna Mosque Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "attending daily prayers",
+      "observing modernist religious architecture"
+    ],
+    "items": [
+      "raw concrete facade (brutalist elements)",
+      "interior courtyard"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "post-independence era",
+      "mid-20th century (1960s)"
     ]
   }
 }

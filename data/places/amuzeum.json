@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/amusement-park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "children-museum",
+      "play-area",
+      "educational",
+      "family-friendly",
+      "indoor-park"
+    ]
   },
   "spec": {
     "name": "Amuzeum",
     "id": "amuzeum",
-    "description": "None",
+    "description": "Amuzeum is a family-friendly educational play park and children's museum located in Dar Bouazza, near Casablanca. Spanning nearly 2000 m² across three levels, its mission is to make learning fun for children aged 18 months to 12 years by encouraging them to touch, experiment, and explore. It offers a unique concept in Morocco, combining the joy of an amusement park with the educational value of a museum, with activities designed to awaken curiosity in subjects like history, science, and knowledge.",
     "location": {
       "longitude": -7.8174842,
       "latitude": 33.512778,
@@ -15,18 +21,44 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "museum"
+    "links": [
+      {
+        "url": "https://amuzeum.ma/?lang=en",
+        "type": "official",
+        "title": "Amuzeum Official Website"
+      }
     ],
-    "items": [],
+    "activities": [
+      "educational play and learning",
+      "interactive exhibitions",
+      "birthday parties",
+      "group school visits"
+    ],
+    "items": [
+      "interactive play exhibits (across 3 levels)",
+      "themed zones for exploration"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Weekday Rate (Before 4:00 PM)",
+          "modality": "one-time-payment",
+          "audience": "child (accompanied)",
+          "entranceFee": 120
+        },
+        {
+          "title": "Weekend Rate (Before 4:00 PM)",
+          "modality": "one-time-payment",
+          "audience": "child (accompanied)",
+          "entranceFee": 180
+        }
+      ],
+      "status": "open",
+      "comment": "Fees are for one accompanied child (under 7) or unaccompanied child (over 7); one accompanying adult is free."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,97 @@
   "version": "mrrakc/v0",
   "kind": "architecture/garage",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "industrial-architecture",
+      "art-deco",
+      "automobile-history",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Auto Hall Garage",
     "id": "auto-hall-garage",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Garage",
+    "description": "The historic **Auto Hall Garage** building in Casablanca, a key piece of the city's early industrial and automotive history, was designed by architect **Pierre Bousquet** and completed around 1930. The structure is significant for its application of early **Art Deco** and functional industrial design principles to a commercial setting, featuring large, open spaces required for vehicle display and maintenance. Auto Hall itself is one of Morocco's oldest automotive distributors, founded in 1907 by Gabriel Veyre as the exclusive representative of Ford, and transformed into Auto Hall S.A. in 1920. The building is a landmark reflecting the growth of transportation and modern commerce in Casablanca during the French Protectorate.",
     "location": {
       "longitude": 33.5902041,
       "latitude": -7.6120012,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the garage structure around 1930."
+      },
+      {
+        "id": "people/gabriel-veyre",
+        "relationship": [
+          "founder"
+        ],
+        "comment": "Pioneer of the automotive industry in Morocco and founder of the company that became Auto Hall in 1907."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Company Founded (as Établissements Gabriel Veyre)",
+        "date": "1907-01-01",
+        "description": "Gabriel Veyre founded the first concessionaire, eventually renamed Auto Hall."
+      },
+      {
+        "title": "Company Becomes Auto Hall S.A.",
+        "date": "1920-01-01",
+        "description": "The company was transformed into a public limited company named Auto Hall."
+      },
+      {
+        "title": "Garage Building Completed",
+        "date": "1930-01-01",
+        "description": "The historic garage building, designed by Pierre Bousquet, was completed."
+      },
+      {
+        "title": "Stock Exchange Listing",
+        "date": "1942-01-01",
+        "description": "Auto Hall stock was introduced for quotation on the Casablanca Stock Exchange."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://francearchives.gouv.fr/facomponent/cf15ac5de4b30940e796bf85ba33915812881199",
+        "type": "website",
+        "title": "Garage automobile pour la société Auto-hall (France Archives)"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Auto_Hall",
+        "type": "wikipedia",
+        "title": "Auto Hall Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "conducting automobile sales and services",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco industrial facade",
+      "automobile showrooms and service bays"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Access to showroom and service areas",
+          "modality": "free",
+          "audience": "clients",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Functions as a commercial garage/dealership; public access is limited to business areas."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

@@ -2,29 +2,75 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "cultural-foundation",
+      "oasis-neighborhood"
+    ]
   },
   "spec": {
     "name": "Artorium",
     "id": "artorium",
-    "description": "None",
+    "description": "Artorium is an art space and gallery in the Oasis neighborhood of Casablanca, founded by the TGCC Foundation. Inaugurated in November 2017, its mission is to actively democratize and promote culture in Morocco by hosting a variety of cultural events, including group and solo art exhibitions, conferences, and workshops. It serves as a space for exchange and sharing, aiming to introduce art and culture to novices and the wider public, beyond just professionals and enthusiasts.",
     "location": {
       "longitude": 33.5582931,
       "latitude": -7.630497,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/tgcc-foundation",
+        "relationship": [
+          "founder",
+          "patron"
+        ],
+        "comment": "The foundation responsible for creating and operating Artorium, dedicated to cultural promotion."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Artorium Inauguration",
+        "date": "2017-11-01",
+        "description": "Artorium was officially inaugurated and opened to the public."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://fondationtgcc.com/",
+        "type": "official",
+        "title": "TGCC Foundation Official Website"
+      },
+      {
+        "url": "https://visitcasablanca.ma/en/pois/artorium/",
+        "type": "article",
+        "title": "Artorium - VISIT CASABLANCA"
+      }
+    ],
+    "activities": [
+      "viewing art exhibitions",
+      "attending conferences and workshops",
+      "cultural discovery"
+    ],
+    "items": [
+      "art collection of the tgcc foundation",
+      "exhibited contemporary artworks"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Gallery access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Entrance is typically free, though special events may require a ticket."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

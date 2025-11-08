@@ -2,29 +2,78 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "moorish-revival",
+      "modernist",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Alexandre Building",
     "id": "alexandre-building",
-    "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2013",
+    "description": "The Alexandre Building is a historically significant residential and commercial structure in Casablanca, noted for its rich colonial-era architecture. It was constructed between 1918 and 1920 in a Moorish Revival style blended with early Modernist influences, a characteristic fusion of the French Protectorate's urban planning efforts by figures like Henri Prost. The building features an impressive blue entrance that stands out and is recognized as a part of Casablanca's architectural heritage. Its historical importance was formally recognized when it was declared a National Material Patrimony site in 2013.",
     "location": {
       "longitude": 33.58818,
       "latitude": -7.61433,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/adrien-laforgue",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect credited with the design of the Alexandre Building."
+      },
+      {
+        "id": "people/henri-prost",
+        "relationship": [
+          "urban-planner"
+        ],
+        "comment": "Major figure in the French Protectorate's urban development of Casablanca, whose plans informed the context of the building's construction."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1918-01-01",
+        "description": "The building was constructed, showcasing a blend of Moorish Revival and Modernist styles."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2013-01-01",
+        "description": "The Alexandre Building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://iberiaclubmagazine.iberia.com/en/articles/2024/5/architecture-casablanca/",
+        "type": "article",
+        "title": "An architecture route in Casablanca (Iberia Club magazine)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "blue entrance facade",
+      "wooden interior ceiling",
+      "moorish revival architectural elements"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited (residential/commercial); exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

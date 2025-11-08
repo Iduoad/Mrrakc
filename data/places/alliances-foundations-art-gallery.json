@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "cultural-foundation",
+      "exhibition-space",
+      "cultural-mediation"
+    ]
   },
   "spec": {
     "name": "Alliances Foundations Art Gallery",
     "id": "alliances-foundations-art-gallery",
-    "description": "None",
+    "description": "The Alliances Foundations Art Gallery is part of the initiatives by the Fondation Alliances, a non-profit entity dedicated to promoting access to culture, preserving architectural heritage, and disseminating art in Morocco. This gallery space, through the Foundation's work, focuses on cultural mediation programs aimed at making art accessible to a wide audience. The Foundation is also known for other projects, notably the Al Maaden Museum of Contemporary African Art (MACAAL) and the LCC Program for young photography creation, indicating its significant role in the Moroccan art scene.",
     "location": {
       "longitude": 33.5876764,
       "latitude": -7.6667004,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Fondation Alliances established",
+        "date": "2009-01-01",
+        "description": "The Fondation Alliances was created to promote culture and heritage in Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "http://www.alliances.co.ma/en/foundation",
+        "type": "official",
+        "title": "Fondation Alliances Official Website"
+      }
+    ],
+    "activities": [
+      "viewing art exhibitions",
+      "attending cultural events",
+      "participating in cultural workshops"
+    ],
+    "items": [
+      "contemporary art pieces",
+      "photography works (via LCC Program)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Gallery access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Entrance fees may apply to special events or guided tours; general access is typically free during open hours."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
