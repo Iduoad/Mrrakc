@@ -42,13 +42,13 @@
       "options": [
         {
           "title": "Concert/Performance access",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         },
         {
           "title": "School enrollment",
-          "modality": "enrollment-fee",
+          "modality": "membership",
           "audience": "students",
           "entranceFee": -1
         }
