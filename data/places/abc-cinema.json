@@ -82,24 +82,24 @@
       "options": [
         {
           "title": "Normal Ticket Price",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": 35
         },
         {
           "title": "Monday Special Price",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": 25
         },
         {
           "title": "11 AM Session Price",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": 20
         }
       ],
-      "status": "open"
+      "status": "closed"
     },
     "timePeriods": [
       "20th century",

@@ -58,13 +58,13 @@
       "options": [
         {
           "title": "Museum access for everyone",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": 40
         },
         {
           "title": "Cafe access is seperate from museum access",
-          "modality": "one-time-payment",
+          "modality": "consumption",
           "audience": "all",
           "entranceFee": -1
         }

@@ -140,10 +140,11 @@
                     "type": "string",
                     "description": "Payment or access modality",
                     "enum": [
-                      "one-time-payment",
-                      "subscription",
+                      "ticket",
+                      "membership",
                       "donation",
-                      "free"
+                      "free",
+                      "consumption"
                     ]
                   },
                   "audience": {
@@ -151,9 +152,10 @@
                     "description": "Target audience for this access option",
                     "enum": [
                       "all",
-                      "local",
-                      "tourist",
-                      "child"
+                      "locals",
+                      "tourists",
+                      "children",
+                      "muslims"
                     ]
                   },
                   "entranceFee": {

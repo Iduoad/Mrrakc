@@ -95,7 +95,7 @@
       "options": [
         {
           "title": "Museum tour",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": 95
         }
