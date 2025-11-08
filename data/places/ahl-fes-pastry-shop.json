@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ahl Fes Pastry Shop",
     "id": "ahl-fes-pastry-shop",
-    "description": "None",
+    "description": "Ahl Fes is a traditional Moroccan pastry shop in Derb Sultabe specializing in authentic Fassi and Moroccan pastries and sweets. The shop offers a wide variety of traditional Moroccan delicacies including baklava, chebakia, gazelle horns (kaab el ghzal), and other regional specialties. Known for its quality ingredients and traditional preparation methods, Ahl Fes provides locals and visitors with an authentic taste of Moroccan culinary heritage.",
     "location": {
       "longitude": 33.5762218,
       "latitude": -7.6040899,
@@ -16,15 +16,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "purchasing traditional pastries",
+      "tasting Moroccan sweets",
+      "learning about traditional recipes",
+      "gift shopping for special occasions"
+    ],
+    "items": [
+      "traditional Moroccan pastries",
+      "baklava",
+      "chebakia (sesame cookies)",
+      "kaab el ghzal (gazelle horns)",
+      "almond-based sweets",
+      "honey-based confections",
+      "traditional gift boxes"
+    ],
     "access": {
-      "type": "public",
+      "type": "private",
       "options": [],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "21st century"
     ]
   }
 }

@@ -12,7 +12,7 @@
   "spec": {
     "name": "Abdelwahab Doukkali Small Museum",
     "id": "abdelwahab-doukkali-small-museum",
-    "description": "The Petit Mus\u00e9e Abdelwahab Doukkali is a unique cultural space located on the 17th floor of the historic 'Immeuble Libert\u00e9' (also known as the '17 \u00e9tages' building), designed by Swiss architect L\u00e9onard Ren\u00e9 Morandi, in the heart of Casablanca. It serves as a personal museum and 'place of memory' for the renowned Moroccan artist Abdelwahab Doukkali, a legend of Moroccan cultural heritage known for his contributions to music, composition, acting, cinema, drawing, and painting. The museum houses his personal collections, including photos, medals, albums, and even sentimental items like his father's watch. It aims to tell a fragment of his autobiography and offers a vibrant space for art and culture. Beyond permanent displays, the museum actively hosts temporary exhibitions, literary gatherings, and intimate concerts, fostering a dynamic environment for young artists and promoting Moroccan cultural heritage.",
+    "description": "The Petit Musuee Abdelwahab Doukkali is a unique cultural space located on the 17th floor of the historic 'Immeuble Liberte' (also known as the '17eme etage' building), designed by Swiss architect Leonard Rene Morandi, in the heart of Casablanca. It serves as a personal museum and 'place of memory' for the renowned Moroccan artist Abdelwahab Doukkali, a legend of Moroccan cultural heritage known for his contributions to music, composition, acting, cinema, drawing, and painting. The museum houses his personal collections, including photos, medals, albums, and even sentimental items like his father's watch. It aims to tell a fragment of his autobiography and offers a vibrant space for art and culture. Beyond permanent displays, the museum actively hosts temporary exhibitions, literary gatherings, and intimate concerts, fostering a dynamic environment for young artists and promoting Moroccan cultural heritage.",
     "location": {
       "longitude": 33.5843636,
       "latitude": -7.6103204,
@@ -32,14 +32,14 @@
         "relationship": [
           "architect"
         ],
-        "comment": "Swiss architect who designed the 'Immeuble Libert\u00e9' building, where the museum is located."
+        "comment": "Swiss architect who designed the 'Immeuble Liberte' building, where the museum is located."
       }
     ],
     "timeline": [
       {
         "title": "Immeuble Liberte Construction",
         "date": "1951-01-01",
-        "description": "The museum is housed in the historic 'Immeuble Libert\u00e9' (17-story building), a significant architectural landmark in Casablanca."
+        "description": "The museum is housed in the historic 'Immeuble Liberte' (17-story building), a significant architectural landmark in Casablanca."
       },
       {
         "title": "Museum Opening",
@@ -72,6 +72,11 @@
         "url": "https://lematin.ma/culture/reve-dun-8-mars-au-petit-musee-de-abdelwahab-doukkali/267943",
         "type": "article",
         "title": "Le Matin Article on Exhibitions"
+      },
+      {
+        "url": "https://maps.app.goo.gl/eUWHXMTfEbCdGYybA",
+        "type": "map",
+        "title": "Google Maps"
       }
     ],
     "activities": [
@@ -79,7 +84,9 @@
       "attending temporary exhibitions",
       "attending literary gatherings",
       "attending intimate concerts",
-      "attending art workshops (projected)"
+      "attending art workshops",
+      "learning about Moroccan cultural heritage",
+      "participating in cultural events"
     ],
     "items": [
       "personal photos",

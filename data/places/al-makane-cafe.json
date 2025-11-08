@@ -2,12 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": []
+    "tags": ["cafe", "restaurant", "riad", "old-medina", "artisan-heritage"]
   },
   "spec": {
     "name": "Al Makane Cafe",
     "id": "al-makane-cafe",
-    "description": "None",
+    "description": "Al Makane Cafe, also known as 'Al Makan Restaurant Riad' or 'Genious Medina', is more than just a cafe; it is a restaurant and riad concept located in the heart of the Old Medina (Ancienne Médina) of Casablanca. The project is explicitly innovative and aims to preserve artisanal heritage, often hosting exhibitions for creative women and promoting traditional Moroccan craftsmanship alongside its food and beverage services. It offers a culturally rich dining experience within a traditional architectural setting.",
     "location": {
       "longitude": 33.599968,
       "latitude": -7.617608,
@@ -15,16 +15,42 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=sYYZNJZ0nnk",
+        "type": "video",
+        "title": "Al Makan Restaurant Riad Casablanca (YouTube)"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=9CaPmG92f6M",
+        "type": "video",
+        "title": "LE PATRIMOINE MAROCAIN À AL MAKANE Ancienne médina Casablanca (YouTube)"
+      }
+    ],
+    "activities": [
+      "dining and drinking",
+      "attending cultural exhibitions",
+      "viewing artisanal heritage displays",
+      "exploring riad architecture"
+    ],
+    "items": [
+      "traditional moroccan cuisine",
+      "artisan crafts and decorations"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Dining and cafe services",
+          "modality": "pay-as-you-go",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

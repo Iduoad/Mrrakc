@@ -2,12 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": ["religious", "architecture", "local-mosque", "park-adjacent"]
   },
   "spec": {
     "name": "Ain Chock mosque Park",
     "id": "ain-chock-mosque-park",
-    "description": "None",
+    "description": "The Ain Chock Mosque is a local place of worship in the Aïn Chock neighborhood of Casablanca. The naming convention 'Ain Chock Mosque Park' suggests it is either situated within a park or, more likely, adjacent to a public green space, providing both a religious and communal area for the local population. Mosques like this are centers for daily prayers and community gatherings.",
     "location": {
       "longitude": 33.553271,
       "latitude": -7.6009371,
@@ -15,16 +15,33 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
+    "links": [
+      {
+        "url": "https://www.waze.com/live-map/directions/ma/casablanca-settat/casablanca/.masjid-msalla,-ain-chock?to=place.ChIJ2fXMs7wypg0RYzTA3A1UdSM",
+        "type": "map",
+        "title": "Waze Driving Directions for Masjid M'salla, Aïn Chock"
+      }
+    ],
+    "activities": [
+      "attending daily prayers",
+      "community activities",
+      "religious study"
+    ],
     "items": [],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

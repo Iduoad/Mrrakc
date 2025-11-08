@@ -2,29 +2,67 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": []
+    "tags": ["historical-building", "education", "national-heritage", "colonial-architecture", "technical-school"]
   },
   "spec": {
     "name": "Al Khawarizmy High School",
     "id": "al-khawarizmy-high-school",
-    "description": "\ud83d\udd3b Dates: 1917<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "Al Khawarizmy High School, formerly known as 'l'INDUS' (the Industrial and Commercial School of Casablanca), is considered the oldest high school in the city. Inaugurated in 1917 during the French Protectorate, the school was historically a prestigious institution, attracting the country's top mathematics students and training a significant portion of the Moroccan elite in technical and scientific fields. Its long history and architectural significance led to its classification as a National Material Patrimony site in 2004.",
     "location": {
       "longitude": 33.5792242,
       "latitude": -7.5991565,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "School Inauguration",
+        "date": "1917-01-01",
+        "description": "The school, originally the Industrial and Commercial School of Casablanca, was inaugurated, making it the oldest high school in Casablanca."
+      },
+      {
+        "title": "Centennial Celebration",
+        "date": "2017-01-01",
+        "description": "The high school celebrated its 100th anniversary."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2004-01-01",
+        "description": "The building was officially declared a part of the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://ledesk.ma/encontinu/le-lycee-al-khawarizmi-fete-ses-100-ans/",
+        "type": "article",
+        "title": "Casablanca : le lycée Al Khawarizmi fête ses 100 ans (Le Desk)"
+      }
+    ],
+    "activities": [
+      "education and learning",
+      "architectural observation"
+    ],
+    "items": [
+      "colonial era school architecture",
+      "historical archives (internal)"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for students and staff",
+          "modality": "free",
+          "audience": "students",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

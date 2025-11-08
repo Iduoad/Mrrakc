@@ -2,31 +2,77 @@
   "version": "mrrakc/v0",
   "kind": "nature/zoo",
   "metadata": {
-    "tags": []
+    "tags": ["recreational", "wildlife", "urban-park", "rehabilitation-project", "temporarily-closed"]
   },
   "spec": {
     "name": "Ain Sbaa Zoo",
     "id": "ain-sbaa-zoo",
-    "description": "None",
+    "description": "The Ain Sbaa Zoo (or Parc Zoologique d'Aïn Sebaâ) is an important urban green and recreational space in the Ain Sebaâ neighborhood of Casablanca. The zoo was historically a popular attraction but was closed in 2015 for a major rehabilitation project aimed at modernizing the facility and improving animal welfare. The renovated site is set to cover 13 hectares, with 10 hectares reserved for over 300 specimens representing about 45 species. After numerous delays, local authorities are finalizing the last adjustments, including the reconstruction of the perimeter wall, with an anticipated re-opening to the public.",
     "location": {
       "longitude": -7.5298039,
       "latitude": 33.6051717,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "zoo"
+    "people": [
+      {
+        "id": "people/mohamed-taouss",
+        "relationship": ["local-authority"],
+        "comment": "Governor of the Ain Sebaâ-Hay Mohammadi prefecture, involved in overseeing the zoo's rehabilitation project."
+      },
+      {
+        "id": "people/nabila-rmili",
+        "relationship": ["local-authority"],
+        "comment": "Mayor of Casablanca, involved in the oversight of the zoo's rehabilitation."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Zoo Closure for Rehabilitation",
+        "date": "2015-01-01",
+        "description": "The zoo was closed to the public to undergo a major rehabilitation and modernization project."
+      },
+      {
+        "title": "Final Adjustments and Anticipated Re-opening",
+        "date": "2025-10-25",
+        "description": "Local authorities conducted a field visit to accelerate the final adjustments, aiming for a re-opening before the end of December 2025."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://h24info.ma/maroc/societe/zoo-ain-sebaa-derniers-ajustements/",
+        "type": "article",
+        "title": "Casablanca: le zoo d'Aïn Sebaâ finalise ses derniers ajustements avant l'ouverture (H24info, 2025)"
+      },
+      {
+        "url": "https://mobile.telquel.ma/2025/10/21/apres-onze-ans-dattente-le-zoo-dain-sebaa-prepare-enfin-sa-reouverture_1956677",
+        "type": "article",
+        "title": "Après onze ans d'attente, le zoo d'Aïn Sebaâ prépare enfin sa réouverture (Telquel, 2025)"
+      }
+    ],
+    "activities": [
+      "observing wildlife (upon re-opening)",
+      "recreational walking (upon re-opening)",
+      "family outings (upon re-opening)"
+    ],
+    "items": [
+      "over 300 animal specimens (upon re-opening)",
+      "13-hectare park area"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Entrance Fee (Expected upon Re-opening)",
+          "modality": "one-time-payment",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "temporarily_closed",
+      "comment": "Closed for major rehabilitation since 2015; anticipated re-opening before the end of December 2025."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
