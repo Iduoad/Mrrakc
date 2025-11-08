@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "religion/synagogue",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "jewish-heritage",
+      "synagogue",
+      "historical-site",
+      "community-center"
+    ]
   },
   "spec": {
     "name": "Beth-El Temple Synagogue",
     "id": "beth-el-temple-synagogue",
-    "description": "None",
+    "description": "The Beth-El Temple Synagogue is the most famous and largest synagogue in Casablanca, serving as the spiritual heart of the city's once-vibrant and now diminished Jewish community. It is renowned for its magnificent stained glass windows, elegant architecture, and striking interior design, which reflect the wealth and culture of the Jewish community during its peak in the mid-20th century. While the majority of Moroccan Jews emigrated after 1948, Beth-El remains an active place of worship and a powerful symbol of Morocco's history of religious pluralism and tolerance.",
     "location": {
       "longitude": 33.595747,
       "latitude": -7.6268245,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Construction/Inauguration",
+        "date": "1940-01-01",
+        "description": "The synagogue was built/inaugurated, marking a peak period for the Casablanca Jewish community (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.jewishvirtuallibrary.org/casablanca-jewish-history-tour",
+        "type": "article",
+        "title": "Casablanca Jewish History Tour (Jewish Virtual Library)"
+      }
+    ],
+    "activities": [
+      "attending religious services (limited to community)",
+      "architectural observation (guided tours)"
+    ],
+    "items": [
+      "magnificent stained glass windows",
+      "historical artifacts of the jewish community"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for general public",
+          "modality": "free",
+          "audience": "tourists",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally restricted to community members, but tourists can often visit the interior by appointment or with a local guide, often requiring security checks."
     },
     "timePeriods": [
-      ""
+      "mid-20th century",
+      "contemporary period"
     ]
   }
 }

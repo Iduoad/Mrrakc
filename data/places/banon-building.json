@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "colonial-architecture",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Banon Building",
     "id": "banon-building",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Banon Building is a residential and commercial block in the historic center of Casablanca, designed by architect **Aldo Manassi** and completed in 1929. Manassi was an Italian architect who contributed significantly to Casablanca's Art Deco and early modern urban landscape during the Protectorate era. The Banon Building is representative of the multi-story apartment and commercial structures that rapidly defined the city's new center, featuring the decorative elements and streamlined forms typical of the late 1920s.",
     "location": {
       "longitude": 33.5954066,
       "latitude": -7.6156142,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/aldo-manassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Italian architect active in Casablanca who designed the Banon Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1929-01-01",
+        "description": "The Banon Building was completed, designed by Aldo Manassi."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa - References historical architecture)"
+      }
+    ],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "commercial ground floor"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

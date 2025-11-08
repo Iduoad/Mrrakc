@@ -2,29 +2,72 @@
   "version": "mrrakc/v0",
   "kind": "religion/christian-site",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cemetery",
+      "historical-site",
+      "british-community",
+      "colonial-era",
+      "war-graves"
+    ]
   },
   "spec": {
     "name": "British Cemetery",
     "id": "british-cemetery",
-    "description": "\ud83d\udd3b Dates: 1864",
+    "description": "The British Cemetery in Casablanca is a historical burial ground established in 1864, pre-dating the French Protectorate and the major expansion of the modern city. It serves as the final resting place for members of the British community who lived and worked in Casablanca, including merchants, diplomats, and their families. It is maintained by the Commonwealth War Graves Commission (CWGC), indicating the presence of graves from the World Wars. The cemetery is an important, tranquil reminder of the long-standing international presence and trade history in Casablanca.",
     "location": {
       "longitude": 33.5953661,
       "latitude": -7.6207523,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/british-community",
+        "relationship": [
+          "historical-occupants"
+        ],
+        "comment": "Members of the British community in Casablanca, including those from the World Wars."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1864-01-01",
+        "description": "The British Cemetery was established, pre-dating the French Protectorate."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.cwgc.org/visit-us/find-cemeteries-memorials/cemetery-details/5795/CASABLANCA%20BRITISH%20CEMETERY/",
+        "type": "official",
+        "title": "Casablanca British Cemetery (Commonwealth War Graves Commission)"
+      }
+    ],
+    "activities": [
+      "historical research",
+      "visiting war graves",
+      "meditation and quiet reflection"
+    ],
+    "items": [
+      "historical gravestones",
+      "war memorials and plaques"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Cemetery access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally available during daylight hours."
     },
     "timePeriods": [
-      ""
+      "pre-colonial era (1864)",
+      "20th century (World Wars)",
+      "contemporary period"
     ]
   }
 }

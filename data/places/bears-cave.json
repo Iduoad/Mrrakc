@@ -2,35 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "nature/cave",
   "metadata": {
-    "tags": []
+    "tags": [
+      "archaeological-site",
+      "prehistoric",
+      "paleontology",
+      "fauna-remains",
+      "sidi-abderrahmane"
+    ]
   },
   "spec": {
     "name": "Bears Cave",
     "id": "bears-cave",
-    "description": "None",
+    "description": "The Bears Cave (Grotte des Ours) is a significant prehistoric cave located in the Sidi Abderrahmane area of Casablanca, close to the famous Archaeological Quarry. It is primarily known as a **paleontological** site, yielding important remains of prehistoric fauna, which helps researchers establish the biochronology of the Quaternary period in Atlantic Morocco. The cave's sediment layers contain evidence of ancient animals, contributing to the understanding of the environment and ecosystems that existed alongside early human populations in the region. Although the site name is derived from bear remains, it is a key site for a broad range of faunal studies.",
     "location": {
       "longitude": -7.6826227,
       "latitude": 33.5821033,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Initial Paleontological Discoveries",
+        "date": "1940-01-01",
+        "description": "The cave began yielding significant Quaternary mammalian remains, contributing to regional biochronology (Approximate start of major research)."
+      }
+    ],
     "links": [
       {
         "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
         "type": "article",
-        "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre régional"
+        "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre régional (Source referring to faunal discoveries)"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "archaeological and paleontological research (restricted)",
+      "historical observation"
+    ],
+    "items": [
+      "fossilized quaternary mammalian remains",
+      "cave formations"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "restricted",
+      "comment": "The cave is a sensitive archaeological and paleontological site; access is highly restricted to authorized researchers."
     },
     "timePeriods": [
-      ""
+      "quaternary period",
+      "prehistoric era",
+      "20th century (research)"
     ]
   }
 }

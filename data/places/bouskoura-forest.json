@@ -2,32 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "nature/forest",
   "metadata": {
-    "tags": []
+    "tags": [
+      "forest",
+      "nature",
+      "hiking",
+      "recreational",
+      "urban-lung",
+      "eucalyptus"
+    ]
   },
   "spec": {
     "name": "Bouskoura Forest",
     "id": "bouskoura-forest",
-    "description": "None",
+    "description": "Bouskoura Forest (Forêt de Bouskoura) is a large, man-made forest situated southeast of Casablanca, acting as a crucial green lung for the city. It primarily consists of eucalyptus trees, originally planted in the early 20th century, though significant efforts have been made to diversify its flora. The forest is highly popular for outdoor activities, offering an extensive network of trails for cycling, hiking, jogging, and nature walks. Despite facing environmental challenges, it remains one of the largest and most accessible natural spaces for recreation in the Casablanca region.",
     "location": {
       "longitude": -7.5788975,
       "latitude": 33.4642281,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
+    "timeline": [
+      {
+        "title": "Initial Planting Period",
+        "date": "1912-01-01",
+        "description": "Eucalyptus trees were planted in the early years of the French Protectorate as part of afforestation efforts (Approximate start date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.tripadvisor.com/Attraction_Review-g293737-d10207865-Reviews-Bouskoura_Forest-Casablanca_Casablanca_Settat.html",
+        "type": "website",
+        "title": "Bouskoura Forest on TripAdvisor"
+      }
+    ],
     "activities": [
       "hiking",
-      "nature_walks"
+      "nature walks",
+      "mountain biking",
+      "jogging",
+      "picnicking"
     ],
-    "items": [],
+    "items": [
+      "eucalyptus trees",
+      "extensive network of walking and cycling trails"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Forest access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (planting)",
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "food/bakery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "bakery",
+      "patisserie",
+      "moroccan-pastries",
+      "local-business",
+      "historical-institution"
+    ]
   },
   "spec": {
     "name": "Bennis Bakery",
     "id": "bennis-bakery",
-    "description": "None",
+    "description": "Bennis Bakery (Pâtisserie Bennis Habous) is an institution in Casablanca, renowned for being one of the city's oldest and most respected traditional Moroccan patisseries. Located in the Habous Quarter (Nouvelle Médina), it specializes in authentic Moroccan sweets, cookies, and pastries, particularly those associated with special occasions. The bakery is famous for maintaining traditional recipes and craftsmanship, making it a cultural landmark for those seeking authentic local culinary heritage.",
     "location": {
       "longitude": 33.5780213,
       "latitude": -7.6054739,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/bennis-family",
+        "relationship": [
+          "founder",
+          "owner"
+        ],
+        "comment": "The family that established and continues to operate the traditional bakery."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment in Habous Quarter",
+        "date": "1930-01-01",
+        "description": "The bakery was established in the Habous Quarter, likely shortly after the district's construction in the 1920s-1930s (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.atlasobscura.com/places/patisserie-bennis-habous",
+        "type": "article",
+        "title": "Pâtisserie Bennis Habous (Atlas Obscura)"
+      }
+    ],
+    "activities": [
+      "purchasing traditional moroccan pastries",
+      "culinary observation"
+    ],
+    "items": [
+      "traditional moroccan sweets (ghriba, kaab el ghazal, etc.)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Bakery access",
+          "modality": "pay-as-you-go",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

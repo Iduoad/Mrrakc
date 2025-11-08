@@ -2,29 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "history/gate",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-gate",
+      "old-medina",
+      "new-gate",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "Bab Jdid",
     "id": "bab-jdid",
-    "description": "None",
+    "description": "Bab Jdid (meaning 'The New Gate') is a historical access point to the Old Medina of Casablanca. As its name suggests, it was likely constructed or rebuilt later than the original gates, possibly to accommodate the city's expansion or to provide a more direct route to the newly developing areas outside the walls in the 19th or early 20th century. While less grand than some imperial city gates, it remains an important relic of Casablanca's pre-Protectorate fortifications, allowing visitors to traverse the boundary between the historic walled city and the modern urban grid.",
     "location": {
       "longitude": 33.6022713,
       "latitude": -7.6231108,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Probable Construction Date",
+        "date": "1800-01-01",
+        "description": "The gate was likely constructed or substantially modified after the original walls, indicating a 19th-century date or later (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "exploring the old medina"
+    ],
+    "items": [
+      "historical city wall remnants"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gate access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "pre-colonial era",
+      "19th century"
     ]
   }
 }
