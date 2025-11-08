@@ -39,7 +39,7 @@
       "options": [
         {
           "title": "Ticket price",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         }

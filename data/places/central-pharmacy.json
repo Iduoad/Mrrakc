@@ -58,15 +58,8 @@
     ],
     "access": {
       "type": "public",
-      "options": [
-        {
-          "title": "Pharmacy services",
-          "modality": "pay-as-you-go",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
+      "options": [],
+      "status": "closed"
     },
     "timePeriods": [
       "french protectorate era (1912-1956)",
