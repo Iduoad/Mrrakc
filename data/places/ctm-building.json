@@ -44,7 +44,7 @@
     "links": [
       {
         "url": "https://www.ctm.ma/en",
-        "type": "official",
+        "type": "website",
         "title": "CTM Bus Company Official Website"
       }
     ],
@@ -58,14 +58,7 @@
     ],
     "access": {
       "type": "public",
-      "options": [
-        {
-          "title": "Bus ticket purchase",
-          "modality": "pay-as-you-go",
-          "audience": "travelers",
-          "entranceFee": -1
-        }
-      ],
+      "options": [],
       "status": "open"
     },
     "timePeriods": [

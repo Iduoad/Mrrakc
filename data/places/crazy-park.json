@@ -24,7 +24,7 @@
     "links": [
       {
         "url": "https://www.crazy-park.ma/",
-        "type": "official",
+        "type": "website",
         "title": "Crazy Park Official Website"
       }
     ],
@@ -42,7 +42,7 @@
       "options": [
         {
           "title": "Entrance Fee/Ride Tickets",
-          "modality": "one-time-payment",
+          "modality": "ticket",
           "audience": "all",
           "entranceFee": -1
         }
