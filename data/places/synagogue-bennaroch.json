@@ -2,29 +2,58 @@
   "version": "mrrakc/v0",
   "kind": "religion/synagogue",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-synagogue",
+      "jewish-heritage",
+      "old-medina-vicinity",
+      "religious"
+    ]
   },
   "spec": {
     "name": "Synagogue Bennaroch",
     "id": "synagogue-bennaroch",
-    "description": "None",
+    "description": "Synagogue Bennaroch is a historical place of worship for the Jewish community in Casablanca, located in the central district. Synagogues in this area were often built to accommodate the growing Jewish population who moved out of the old mellah (Jewish quarter) into the new town during the Protectorate era. It represents the religious and communal life of the Jewish populace.",
     "location": {
       "longitude": 33.5944302,
       "latitude": -7.6262018,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/bennaroch-family",
+        "relationship": [
+          "founder",
+          "patron"
+        ],
+        "comment": "Likely the family that founded or sponsored the synagogue."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "religious services (restricted to community)",
+      "historical observation"
+    ],
+    "items": [
+      "historical synagogue architecture",
+      "religious artifacts"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Jewish Community",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted, primarily serving the Jewish community; tourists often require prior arrangement."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

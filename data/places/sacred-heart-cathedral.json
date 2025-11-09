@@ -2,29 +2,82 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-church",
+      "catholic",
+      "art-deco",
+      "cultural-center",
+      "national-heritage",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Sacred Heart Cathedral",
     "id": "sacred-heart-cathedral",
-    "description": "\ud83d\udd3b Architect: Paul Tournon<br>\ud83d\udd3b Dates: 1930-1953<br>\ud83d\udd3b Current Status: Cultural Center<br>\ud83d\udd3b National Material Patrimony Declaration: 2003<br>\ud83d\udd3b Tags: Art Deco",
+    "description": "The Sacred Heart Cathedral (Cathédrale Sacré-Cœur) is a former Catholic cathedral and one of Casablanca's most iconic architectural landmarks. Designed by French architect **Paul Tournon**, construction began in 1930 and was completed in 1953. The architecture is a striking fusion of **Art Deco** and Gothic styles, featuring clean lines, large volume, and intricate detailing. Since its deconsecration, it now functions as a **Cultural Center**, hosting exhibitions and events. It was declared a **National Material Patrimony** site in 2003.",
     "location": {
       "longitude": 33.591314,
       "latitude": -7.6244202,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/paul-tournon",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the distinctive Art Deco-Gothic fusion cathedral."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Began",
+        "date": "1930-01-01",
+        "description": "Construction of the cathedral began."
+      },
+      {
+        "title": "Completion Date",
+        "date": "1953-01-01",
+        "description": "The cathedral building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2003-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sacred_Heart_Cathedral,_Casablanca",
+        "type": "article",
+        "title": "Sacred Heart Cathedral, Casablanca Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "attending cultural events and exhibitions",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco and gothic architectural elements",
+      "large stained-glass windows (if extant)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Cultural Center Access (Event-dependent)",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally public for events and exhibitions."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period (cultural center)"
     ]
   }
 }

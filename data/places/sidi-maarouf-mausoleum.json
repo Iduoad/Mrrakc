@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "local-shrine",
+      "sufism"
+    ]
   },
   "spec": {
     "name": "Sidi Maarouf Mausoleum",
     "id": "sidi-maarouf-mausoleum",
-    "description": "None",
+    "description": "The Sidi Maarouf Mausoleum (Marabout de Sidi Maarouf) is a local religious shrine located in the Sidi Maarouf neighborhood, which is named after the saint. The site is a traditional center for local veneration, pilgrimage, and spiritual gatherings, reflecting the importance of Sufi tradition in the area's identity.",
     "location": {
       "longitude": 33.5138504,
       "latitude": -7.6523279,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-maarouf",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint after whom the neighborhood is named."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi maarouf",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

@@ -2,35 +2,68 @@
   "version": "mrrakc/v0",
   "kind": "urban/landmark",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-art",
+      "monument",
+      "national-identity",
+      "historical-commemoration",
+      "1980s"
+    ]
   },
   "spec": {
     "name": "Statue 16th November",
     "id": "statue-16th-november",
-    "description": "\ud83d\udd3b Architect: Abdelhaq Sijelmassi<br>\ud83d\udd3b Dates: 1982<br>---<br>\ud83d\udd17 https://fr.le360.ma/societe/la-sculpture-sur-la-place-du-16-novembre-a-casablanca-restauree-ou-denaturee-259092/",
+    "description": "The Statue (or Monument) of 16th November is a significant piece of public art and a national landmark located in the city center. It commemorates **November 16, 1955**, the date that King Mohammed V returned from exile, marking a crucial step towards Moroccan independence. The sculpture was designed by architect **Abdelhaq Sijelmassi** and completed in 1982. It stands as a symbolic reminder of national pride and the struggle for sovereignty.",
     "location": {
       "longitude": 33.5944875,
       "latitude": -7.6168128,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/abdelhaq-sijelmassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect and designer of the monumental sculpture."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Sculpture Completed and Unveiled",
+        "date": "1982-01-01",
+        "description": "The statue was completed to commemorate the 16th November 1955."
+      }
+    ],
     "links": [
       {
         "url": "https://fr.le360.ma/societe/la-sculpture-sur-la-place-du-16-novembre-a-casablanca-restauree-ou-denaturee-259092/",
-        "type": "website",
-        "title": "La sculpture sur la Place du 16 novembre, à Casablanca: restaurée ou dénaturée?"
+        "type": "article",
+        "title": "La sculpture sur la Place du 16 novembre, à Casablanca: restaurée ou dénaturée? (Le360)"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "sightseeing and photography",
+      "historical observation"
+    ],
+    "items": [
+      "abstract sculpture representing national identity",
+      "plaque commemorating 16th november 1955"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Monument viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period (1980s construction)"
     ]
   }
 }
