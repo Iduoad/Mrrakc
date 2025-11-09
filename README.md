@@ -9,15 +9,8 @@ Mrrakc is a structured data project that documents places, people, and provinces
   - `places/` - Information about locations, landmarks, and sites
   - `provinces/` - Information about administrative regions
 - `schema/` - JSON schema definitions that validate the data structure
-- `scripts/` - Utility scripts for validating and working with the data
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14 or later)
-- [Just](https://github.com/casey/just) command runner (optional, for convenience)
-- [Docker](https://www.docker.com/) (optional, for containerized validation)
 
 ### Installation
 
@@ -33,19 +26,10 @@ cd mrrakc
 To validate all data files:
 
 ```bash
-node scripts/validate.js
-```
-
-If you have Just installed:
-
-```bash
-just validate
-```
-
-Using Docker (no local dependencies required):
-
-```bash
-just docker-validate
+mise install
+boon schema/provinces data/provinces
+boon schema/people data/people
+boon schema/places data/places
 ```
 
 ## 📝 Data Structure
@@ -84,7 +68,7 @@ Provinces represent administrative regions in Morocco. Each province has:
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to add or modify data.
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to add or modify data. We encourage the use of AI; however, all outputs should be carefully verified to ensure their accuracy and reliability.
 
 ## 📊 Usage Ideas
 
