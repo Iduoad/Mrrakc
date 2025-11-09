@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "architecture/villa",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "villa",
+      "art-deco",
+      "hippolyte-delaporte",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Villa Delaporte",
     "id": "villa-delaporte",
-    "description": "\ud83d\udd3b Architect: Hippolyte Joseph Delaporte<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "Villa Delaporte is a historical residential villa completed in 1930, notable as the personal residence of its architect, **Hippolyte Joseph Delaporte**. Delaporte was a highly influential French architect who designed the Excelsior Hotel and the Maret Building, among others. The villa reflects his own residential style, blending the prevailing Art Deco movement with private, upscale functionality. It remains an important example of period architecture in a central location.",
     "location": {
       "longitude": 33.592287,
       "latitude": -7.6226735,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/hippolyte-joseph-delaporte",
+        "relationship": [
+          "architect",
+          "original-owner"
+        ],
+        "comment": "Architect who designed and resided in the villa."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1930-01-01",
+        "description": "The villa was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco villa architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "private",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is an inhabited private residence; exterior viewing is public, interior access is restricted to residents."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

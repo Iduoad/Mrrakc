@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "religion/zaouiya",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "sufism",
+      "zaouiya",
+      "sidi-maarouf",
+      "local-shrine"
+    ]
   },
   "spec": {
     "name": "Zaouiya Sidi Maarouf",
     "id": "zaouiya-sidi-maarouf",
-    "description": "None",
+    "description": "Zaouiya Sidi Maarouf is a local spiritual center associated with the Sidi Maarouf saint, serving as a hub for a specific Sufi or religious fraternity in the neighborhood. It facilitates spiritual retreats, religious study, and communal support for its members.",
     "location": {
       "longitude": 33.5640922,
       "latitude": -7.6032323,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-maarouf",
+        "relationship": [
+          "namesake",
+          "marabout"
+        ],
+        "comment": "The saint after whom the area is named."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "religious devotion and ritual",
+      "spiritual guidance"
+    ],
+    "items": [
+      "prayer and gathering rooms"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Community/Members",
+          "modality": "donation",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally restricted to members or with prior permission."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

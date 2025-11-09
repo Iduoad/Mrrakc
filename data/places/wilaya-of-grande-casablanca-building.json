@@ -2,29 +2,76 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "government",
+      "administrative",
+      "neo-moorish",
+      "national-heritage",
+      "1920s-1930s"
+    ]
   },
   "spec": {
     "name": "Wilaya of Grande Casablanca Building",
     "id": "wilaya-of-grande-casablanca-building",
-    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1928-1936<br>\ud83d\udd3b Current Status: Wilaya (Prefecture)<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
+    "description": "The Wilaya of Grande Casablanca Building (Hôtel de Ville / Préfecture) is the main administrative building and city hall for the Casablanca region. Designed by architect **Marius Boyer** and constructed between 1928 and 1936, it is a monumental structure central to the Place Mohammed V complex. The building is a prime example of the **Neo-Moorish** style, featuring a majestic clock tower and ornate decoration that reflects the colonial administration's architectural mandate. It was declared a **National Material Patrimony** site in 2003.",
     "location": {
       "longitude": 33.5903455,
       "latitude": -7.6190468,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Began",
+        "date": "1928-01-01",
+        "description": "Construction of the administrative building began."
+      },
+      {
+        "title": "Building Completed",
+        "date": "1936-01-01",
+        "description": "The Wilaya Building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2003-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "conducting government and administrative business (restricted)",
+      "architectural observation"
+    ],
+    "items": [
+      "neo-moorish architectural facade",
+      "monumental clock tower"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Official Business",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Functions as a high-level government office; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

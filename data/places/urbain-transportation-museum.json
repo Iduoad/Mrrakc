@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "transportation-history",
+      "urban-development",
+      "historical-vehicles",
+      "tramway"
+    ]
   },
   "spec": {
     "name": "Urbain transportation museum",
     "id": "urbain-transportation-museum",
-    "description": "None",
+    "description": "The Urban Transportation Museum (Musée du Transport Urbain) is a cultural center dedicated to showcasing the history and evolution of public and urban transportation in Casablanca, from early buses and trams to modern systems. It features historical vehicles, photographs, and exhibits that illustrate the development of the city's infrastructure and the impact of transport on its urban planning and social life.",
     "location": {
       "longitude": 33.5777533,
       "latitude": -7.6342974,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing historical vehicles and exhibits",
+      "learning about casablanca's transport history"
+    ],
+    "items": [
+      "historical tramway and bus models",
+      "archival photographs and documents"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Museum entrance fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

@@ -2,35 +2,72 @@
   "version": "mrrakc/v0",
   "kind": "architecture/villa",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "villa",
+      "world-war-ii-history",
+      "diplomacy",
+      "anfa-conference",
+      "winston-churchill"
+    ]
   },
   "spec": {
     "name": "Villa Mirador",
     "id": "villa-mirador",
-    "description": "\ud83d\udd3b Description: This villa was home of the US embassy. It hosted Churchill during the Anfa Conference. <br><br>\ud83d\udd17 https://zamane.ma/anfa/",
+    "description": "Villa Mirador is a residential villa of immense historical importance, located in the Anfa district. During World War II, it was reportedly one of the sites used by the **US Embassy** in Morocco. Most famously, the villa **hosted Winston Churchill** during the pivotal **Anfa Conference** (Casablanca Conference) in January 1943, where Allied leaders discussed the strategy for the European theater. The villa is a key physical relic of the city's role in World War II diplomacy.",
     "location": {
       "longitude": 33.5888239,
       "latitude": -7.6631811,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/winston-churchill",
+        "relationship": [
+          "historical-figure",
+          "guest"
+        ],
+        "comment": "British Prime Minister who stayed here during the 1943 Anfa Conference."
+      },
+      {
+        "id": "people/franklin-d-roosevelt",
+        "relationship": [
+          "historical-figure",
+          "guest"
+        ],
+        "comment": "U.S. President who attended the 1943 Anfa Conference (stayed nearby)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Anfa Conference Hosting",
+        "date": "1943-01-14",
+        "description": "Winston Churchill stayed at the villa during the Allied summit (Anfa Conference)."
+      }
+    ],
     "links": [
       {
         "url": "https://zamane.ma/anfa/",
-        "type": "website",
-        "title": "Anfa"
+        "type": "article",
+        "title": "Anfa (Zamane Magazine - References historical significance)"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical villa architecture",
+      "site of international diplomacy"
+    ],
     "access": {
-      "type": "public",
+      "type": "private",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is an inhabited private residence; access is generally forbidden."
     },
     "timePeriods": [
-      ""
+      "20th century (World War II)"
     ]
   }
 }

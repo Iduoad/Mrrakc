@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/villa",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "villa",
+      "art-deco",
+      "marius-boyer",
+      "national-heritage",
+      "closed",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Villa des Tourelles",
     "id": "villa-des-tourelles",
-    "description": "\ud83d\udd3b Architect:\u00a0Marius Boyer<br>\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
+    "description": "Villa des Tourelles (Villa of the Turrets) is a historical residential villa completed in 1930, designed by architect **Marius Boyer**. Its name suggests a picturesque style incorporating small towers or turrets, blending European residential revival styles with Art Deco elements. As a major work of Boyer, the villa is architecturally significant and was declared a **National Material Patrimony** site in 2003. It is currently **closed** or awaiting renovation/repurposing.",
     "location": {
       "longitude": 33.59205,
       "latitude": -7.625001,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the villa."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1930-01-01",
+        "description": "The villa was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2003-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical villa architecture with turrets"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The building is closed; exterior viewing is public."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

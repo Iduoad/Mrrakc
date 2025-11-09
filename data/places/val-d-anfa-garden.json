@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "urban/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "coastal-area",
+      "anfa"
+    ]
   },
   "spec": {
     "name": "Val d'Anfa Garden",
     "id": "val-d-anfa-garden",
-    "description": "None",
+    "description": "Val d'Anfa Garden (Jardin du Val d'Anfa) is a public green space located in the exclusive Anfa neighborhood. This park serves as a tranquil, aesthetically pleasing urban amenity, featuring manicured lawns and pathways for relaxation and gentle recreation. It contributes to the high quality of life associated with the Val d'Anfa residential area.",
     "location": {
       "longitude": 33.5912973,
       "latitude": -7.6537498,
@@ -16,15 +22,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "relaxing and picnicking"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

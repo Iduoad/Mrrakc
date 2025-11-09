@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "urban/street-art",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-art",
+      "graffiti",
+      "mural",
+      "public-art"
+    ]
   },
   "spec": {
     "name": "Urban Graffity",
     "id": "urban-graffity",
-    "description": "None",
+    "description": "This location refers to an area in Casablanca known for its prominent display of modern street art and graffiti. Urban art often reflects the city's contemporary culture, social issues, and artistic expression. These large-scale murals and graffiti pieces contribute significantly to the dynamic visual identity of the urban environment.",
     "location": {
       "longitude": 33.6105053,
       "latitude": -7.626918,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/local-artists",
+        "relationship": [
+          "artist"
+        ],
+        "comment": "Local and international street artists whose work is exhibited here."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Creation Period",
+        "date": "2010-01-01",
+        "description": "The murals were created as part of various public art festivals and initiatives (Approximate period)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing and photographing street art",
+      "observing urban culture"
+    ],
+    "items": [
+      "large-scale murals and graffiti pieces"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Viewing access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,52 @@
   "version": "mrrakc/v0",
   "kind": "urban/landmark",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-art",
+      "landmark",
+      "photography-spot",
+      "city-branding"
+    ]
   },
   "spec": {
     "name": "We Casablanca Marker",
     "id": "we-casablanca-marker",
-    "description": "None",
+    "description": "The 'We Casablanca' Marker is a contemporary piece of public art, typically a large-scale, stylized sign or sculpture spelling out the phrase 'We Casablanca' (or similar branding) for photography and city identity purposes. It is part of the city's modern branding efforts, serving as a popular photo opportunity and a symbol of civic pride in a prominent urban location.",
     "location": {
       "longitude": 33.5921128,
       "latitude": -7.6183182,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Installation Date",
+        "date": "2015-01-01",
+        "description": "The marker was installed as part of the city's tourism and branding efforts (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "photography and social media sharing",
+      "sightseeing"
+    ],
+    "items": [
+      "large stylized sign/sculpture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Viewing access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

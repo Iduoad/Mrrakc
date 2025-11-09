@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/cite",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-district",
+      "worker-housing",
+      "social-housing",
+      "modernist",
+      "national-heritage",
+      "1930s",
+      "closed"
+    ]
   },
   "spec": {
     "name": "Worker neighborhood Cosuma",
     "id": "worker-neighborhood-cosuma",
-    "description": "\ud83d\udd3b Architect: Edmon Brion<br>\ud83d\udd3b Dates: 1932-1937<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Worker Neighborhood Cosuma (Cité Ouvrière Cosuma) is a historical residential complex for workers, built between 1932 and 1937, designed by architect **Edmond Brion**. This complex represents early attempts at organized social housing during the French Protectorate, aimed at providing functional, modern residences for the rapidly growing industrial workforce. The architecture reflects early Modernist principles. The complex is historically significant and was declared a **National Material Patrimony** site in 2018. It is currently **closed** or awaiting repurposing.",
     "location": {
       "longitude": 33.6006246,
       "latitude": -7.5715161,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/edmond-brion",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the worker housing complex."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Completed",
+        "date": "1937-01-01",
+        "description": "The worker neighborhood was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The complex was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "modernist social housing units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The complex is currently closed or awaiting renovation/repurposing; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
