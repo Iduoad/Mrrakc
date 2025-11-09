@@ -2,29 +2,121 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "contemporary art",
+      "urban art",
+      "Galerie 38",
+      "Casablanca",
+      "Marrakech",
+      "Geneva",
+      "international artists"
+    ]
   },
   "spec": {
-    "name": "38 Casablanca Gallery",
-    "id": "38-casablanca-gallery",
-    "description": "None",
+    "name": "La Galerie 38",
+    "id": "la-galerie-38",
+    "description": "Founded in 2010 in Casablanca by Fihr Kettani and Mohammed Chaoui El Faiz, La Galerie 38 has become a major reference in Moroccan contemporary art. Based initially in Casablanca at the Studio des Arts Vivants, it expanded to Marrakech in 2023 (Gueliz district), and opened a new space in Geneva in 2025. The gallery exhibits Moroccan and international artists, seeks to foster artistic dialogue across cultures, generations and forms of expression.",
     "location": {
-      "longitude": 33.5744777,
-      "latitude": -7.6832173,
+      "longitude": -7.748955,
+      "latitude": 33.594034,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/fihr-kettani",
+        "relationship": [
+          "co-founder"
+        ],
+        "comment": "Co-founder of La Galerie 38, passionate about contemporary art."
+      },
+      {
+        "id": "people/mohammed-chaoui-el-faiz",
+        "relationship": [
+          "co-founder"
+        ],
+        "comment": "Co-founder of La Galerie 38."
+      },
+      {
+        "id": "people/julie-fazio",
+        "relationship": [
+          "partner",
+          "curator"
+        ],
+        "comment": "Partner leading the Geneva branch of La Galerie 38."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Founded in Casablanca",
+        "date": "2010-01-01",
+        "description": "La Galerie 38 was founded in 2010 in Casablanca by Fihr Kettani and Mohammed Chaoui El Faiz."
+      },
+      {
+        "title": "Opened in Marrakech",
+        "date": "2023-01-01",
+        "description": "La Galerie 38 opened a second space in Marrakech, in the Gueliz district."
+      },
+      {
+        "title": "Geneva opening",
+        "date": "2025-04-09",
+        "description": "La Galerie 38 inaugurated its Geneva space in the Bains district with Julie Fazio as partner."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lagalerie38.com/la-galerie-38/",
+        "type": "website",
+        "title": "About La Galerie 38"
+      },
+      {
+        "url": "https://www.lagalerie38.com/actualites/",
+        "type": "website",
+        "title": "News La Galerie 38"
+      },
+      {
+        "url": "https://www.lagalerie38.com/",
+        "type": "website",
+        "title": "Official site"
+      },
+      {
+        "url": "https://www.instagram.com/lagalerie38/?hl=en",
+        "type": "social",
+        "title": "Instagram"
+      },
+      {
+        "url": "https://linktr.ee/lagalerie38",
+        "type": "social",
+        "title": "Linktree"
+      },
+      {
+        "url": "https://maps.app.goo.gl/MMXnLHtTVZiVoRWD8",
+        "type": "map",
+        "title": "Google Maps"
+      }
+    ],
+    "activities": [
+      "viewing contemporary and urban art exhibitions",
+      "attending vernissages and openings",
+      "promoting emerging and established artists",
+      "participating in international art fairs",
+      "curating cross-cultural dialogues",
+      "exploring geometric abstraction in exhibitions"
+    ],
+    "items": [
+      "paintings",
+      "sculptures",
+      "mixed media artworks",
+      "digital art",
+      "installations"
+    ],
     "access": {
-      "type": "public",
+      "type": "private",
       "options": [],
       "status": "open"
     },
     "timePeriods": [
-      ""
-    ]
+      "21st century"
+    ],
+    "comments": []
   }
 }

@@ -7,7 +7,7 @@
   "spec": {
     "name": "16th November Square",
     "id": "16th-november-square",
-    "description": "Ex - Edmond Doutte Square",
+    "description": "Place du 16 Novembre (formerly Place Edmond Doutte) is a historic public square in Casablanca's medina. This square has been an important gathering place and commercial hub for centuries, serving as one of the main entry points to the old city. The square was renamed to commemorate Morocco's independence day (November 16, 1955) when King Mohammed V returned from exile. It features traditional architecture and remains a vibrant center of local life and commerce.",
     "location": {
       "longitude": 33.5946752,
       "latitude": -7.6169569,
@@ -16,15 +16,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "people watching",
+      "shopping at local markets",
+      "dining at nearby restaurants",
+      "photography",
+      "cultural events and celebrations"
+    ],
+    "items": [
+      "Moroccan architecture",
+      "historic buildings",
+      "local market stalls",
+      "street vendors",
+      "monuments and plaques"
+    ],
     "access": {
       "type": "public",
       "options": [],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "21st century"
     ]
   }
 }

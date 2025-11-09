@@ -2,35 +2,66 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": ["religious", "architecture", "royal-history", "mid-20th-century"]
   },
   "spec": {
     "name": "Al-Malik Mosque",
     "id": "al-malik-mosque",
-    "description": "\ud83d\udd3b Era: Mid 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The construction works started during King Mohammed V reign and the mosque was inaugurated by his son King Hassan II in 1961 CE.",
+    "description": "Al-Malik Mosque (Mosquée Al-Malik) is a significant religious structure in Casablanca, representing the architecture of the mid-20th century. Its construction began during the reign of King Mohammed V and was later inaugurated by his son, King Hassan II, in 1961 CE. The mosque serves as an important local place of worship and a testament to the continuity of royal patronage in building religious and civic structures in post-independence Morocco. The design is characteristic of the time, often blending traditional Moroccan motifs with modern construction techniques.",
     "location": {
       "longitude": 33.5865766,
       "latitude": -7.5657735,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/mohammed-v",
+        "relationship": ["commissioner"],
+        "comment": "King of Morocco who initiated the construction works of the mosque."
+      },
+      {
+        "id": "people/hassan-ii",
+        "relationship": ["inaugurator"],
+        "comment": "King of Morocco who inaugurated the mosque in 1961 CE."
+      }
+    ],
     "timeline": [
       {
+        "title": "Construction Initiated",
+        "date": "1956-01-01",
+        "description": "Construction works started during the reign of King Mohammed V (Approximate start date based on the era of the King's reign)."
+      },
+      {
         "title": "Inauguration",
-        "description": "Mosque inaugurated",
-        "date": "1961-01-01"
+        "date": "1961-01-01",
+        "description": "The mosque was officially inaugurated by King Hassan II."
       }
     ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "attending daily prayers",
+      "religious services",
+      "architectural observation"
+    ],
+    "items": [
+      "prayer hall",
+      "traditional moroccan architectural elements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "mid-20th century (1956-1961)",
+      "post-independence era"
     ]
   }
 }

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Abderrahman Slaoui Foundation Museum",
     "id": "abderrahman-slaoui-foundation-museum",
-    "description": "None",
+    "description": "The Abderrahman Slaoui Foundation Museum is a cultural institution dedicated to preserving and showcasing the personal collection of Abderrahman Slaoui, a prominent Moroccan collector and patron of the arts. Housed in a beautiful Art Deco villa built in 1921, the museum features an impressive collection of Moroccan jewelry, traditional ceramics, zellij (mosaic tilework), and other decorative arts. The museum serves as both a cultural center and a testament to Morocco's rich artistic heritage, offering visitors insight into traditional Moroccan craftsmanship and design.",
     "location": {
       "province": "province/casablanca",
       "longitude": 33.5923928,
@@ -49,9 +49,14 @@
       "private events"
     ],
     "items": [
-      "moroccan jewelry",
-      "zellij",
-      "ceramics"
+      "traditional Moroccan jewelry",
+      "zellij (mosaic tilework)",
+      "ceramics and pottery",
+      "textiles and carpets",
+      "metalwork and brass objects",
+      "wooden artifacts",
+      "historical photographs",
+      "Art Deco architectural elements"
     ],
     "access": {
       "type": "private",
@@ -72,7 +77,8 @@
       "status": "open"
     },
     "timePeriods": [
-      "21st century"
+      "20th century (villa construction)",
+      "21st century (museum establishment)"
     ]
   }
 }

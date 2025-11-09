@@ -16,15 +16,32 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "shopping at traditional markets",
+      "dining at local restaurants",
+      "people watching",
+      "photography",
+      "exploring historic architecture",
+      "visiting nearby souks"
+    ],
+    "items": [
+      "traditional Moroccan architecture",
+      "historic buildings",
+      "market stalls",
+      "street vendors",
+      "Bab El Marsa Gate (nearby)",
+      "colonial-era structures"
+    ],
     "access": {
       "type": "public",
       "options": [],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "18th century",
+      "19th century",
+      "20th century",
+      "21st century"
     ]
   }
 }

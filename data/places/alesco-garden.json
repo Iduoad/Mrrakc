@@ -2,12 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "urban/park",
   "metadata": {
-    "tags": []
+    "tags": ["urban-park", "green-space", "recreational", "garden", "city-garden"]
   },
   "spec": {
     "name": "ALESCO Garden",
     "id": "alesco-garden",
-    "description": "None",
+    "description": "ALESCO Garden (Jardin Alesco) is a substantial urban green space in Casablanca, covering an area of approximately 17.3 acres. It is a vital recreational area for the city, providing a much-needed natural retreat from the urban environment. The park is suitable for walking, jogging, and general relaxation, contributing to the quality of life for residents and offering a space for outdoor family activities. The name 'ALESCO' may refer to the organization or project involved in its creation or maintenance.",
     "location": {
       "longitude": 33.5506442,
       "latitude": -7.5660275,
@@ -15,16 +15,37 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.mypacer.com/parks/334109/jardin-alesco-casablanca",
+        "type": "website",
+        "title": "Jardin Alesco on Pacer Walking App"
+      }
+    ],
+    "activities": [
+      "walking and jogging",
+      "relaxing and picnicking",
+      "children's play"
+    ],
+    "items": [
+      "green lawns",
+      "walking paths",
+      "trees and plants"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
