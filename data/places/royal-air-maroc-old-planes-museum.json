@@ -2,29 +2,69 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "aviation-history",
+      "aircraft",
+      "old-anfa-aerodrome",
+      "transportation"
+    ]
   },
   "spec": {
     "name": "Royal Air Maroc Old planes Museum",
     "id": "royal-air-maroc-old-planes-museum",
-    "description": "Old Anfa Aeroport",
+    "description": "The Royal Air Maroc Old Planes Museum is a specialized museum showcasing retired aircraft from the fleet of Royal Air Maroc (RAM), Morocco's national airline. The museum is located near the **Old Anfa Aerodrome** (Aéroport Casa-Anfa), a site of significant aviation history. It serves to preserve the history of Moroccan civil aviation and air transport, offering a unique collection of historical airplanes.",
     "location": {
       "longitude": 33.5609475,
       "latitude": -7.6663468,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/royal-air-maroc",
+        "relationship": [
+          "owner",
+          "curator"
+        ],
+        "comment": "The national airline responsible for the museum collection."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Aerodrome Establishment",
+        "date": "1910-01-01",
+        "description": "The surrounding Old Anfa Aerodrome was established (Approximate date)."
+      },
+      {
+        "title": "Museum Establishment",
+        "date": "2000-01-01",
+        "description": "The museum was established to house the retired RAM fleet (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing historical aircraft",
+      "learning about moroccan aviation history"
+    ],
+    "items": [
+      "historical royal air maroc aircraft",
+      "aviation memorabilia"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Museum entrance fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

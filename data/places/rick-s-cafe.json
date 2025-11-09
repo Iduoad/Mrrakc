@@ -2,29 +2,81 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "international-cuisine",
+      "cinema-theme",
+      "historical-site",
+      "fine-dining",
+      "old-medina-vicinity"
+    ]
   },
   "spec": {
-    "name": "Rick's Caf\u00e9",
+    "name": "Rick's Café",
     "id": "rick-s-cafe",
-    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Fine dinning",
+    "description": "Rick's Café is a world-famous restaurant and bar in Casablanca, meticulously designed as a faithful recreation of the fictional bar in the classic 1942 film **Casablanca**. Located near the Old Medina, it offers a sophisticated fine-dining experience with an **International menu** and a nostalgic ambiance. It functions as a powerful tribute to cinematic history, attracting tourists and film enthusiasts globally, though the original bar in the movie was entirely fictional.",
     "location": {
       "longitude": 33.6050488,
       "latitude": -7.6204046,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/ingrid-bergman",
+        "relationship": [
+          "historical-figure",
+          "cinematic-namesake"
+        ],
+        "comment": "Actress who played Ilsa Lund in the film 'Casablanca'."
+      },
+      {
+        "id": "people/humphrey-bogart",
+        "relationship": [
+          "historical-figure",
+          "cinematic-namesake"
+        ],
+        "comment": "Actor who played Rick Blaine in the film 'Casablanca'."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Restaurant Opening",
+        "date": "2004-03-01",
+        "description": "The fictional Rick's Café was recreated and opened as a real restaurant."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.rickscafe.ma/",
+        "type": "website",
+        "title": "Rick's Café Official Website"
+      }
+    ],
+    "activities": [
+      "fine dining and bar service",
+      "enjoying the cinematic atmosphere",
+      "listening to live jazz piano"
+    ],
+    "items": [
+      "piano and bar area (replica of the movie set)",
+      "memorabilia from the film era"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Reservations are highly recommended."
     },
     "timePeriods": [
-      ""
+      "contemporary period (recreation)",
+      "1940s (cinematic theme)"
     ]
   }
 }

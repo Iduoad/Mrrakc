@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "urban/viewpoint",
   "metadata": {
-    "tags": []
+    "tags": [
+      "viewpoint",
+      "panoramic-view",
+      "coastal-area",
+      "el-hank",
+      "ocean-view"
+    ]
   },
   "spec": {
     "name": "Ragouba Panoramic View",
     "id": "ragouba-panoramic-view",
-    "description": "None",
+    "description": "Ragouba Panoramic View (Point de vue panoramique de Ragouba) is a scenic vantage point on the El Hank peninsula, offering wide-ranging views of the Atlantic coastline and the northern parts of Casablanca, including the port entrance. It is a popular spot for sightseeing and photography, especially during sunrise or sunset, and contributes to the coastal recreational space.",
     "location": {
       "longitude": 33.6122675,
       "latitude": -7.6509204,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "photography",
+      "sightseeing and observation",
+      "coastal relaxation"
+    ],
+    "items": [
+      "ocean vistas",
+      "viewing platform"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Viewpoint access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
