@@ -2,40 +2,82 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "photography",
+      "art-house",
+      "architecture",
+      "tadao-ando",
+      "in-progress",
+      "old-medina-vicinity"
+    ]
   },
   "spec": {
     "name": "Photography Art House",
     "id": "photography-art-house",
-    "description": "\ud83d\udd3b Architect: Tadao Ando<br>\ud83d\udd3b Current Status: In Progress<br><br>- https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/<br>- https://www.facebook.com/Maison.Photographie.Ennadre.Medina.Casablanca/?locale=fr_FR",
+    "description": "The Photography Art House (Maison de la Photographie) is a major cultural project planned or under construction in the vicinity of the Old Medina. The project is highly notable as the design is attributed to the celebrated Japanese modernist architect **Tadao Ando**, focusing on minimalist, concrete-based aesthetics. The center is intended to serve as a museum, exhibition space, and school dedicated to the art of photography, contributing significantly to Casablanca's contemporary cultural infrastructure and urban renewal efforts.",
     "location": {
       "longitude": 33.6021729,
       "latitude": -7.6199751,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/tadao-ando",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Internationally renowned Japanese modernist architect designing the center."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Design Commissioned",
+        "date": "2015-01-01",
+        "description": "Tadao Ando was commissioned to design the project (Approximate date)."
+      },
+      {
+        "title": "Construction In Progress",
+        "date": "2024-01-01",
+        "description": "The construction is ongoing (Current Status)."
+      }
+    ],
     "links": [
       {
         "url": "https://hearchitecture.ma/en/projet/maison-de-la-photographie-2/",
         "type": "website",
-        "title": "Maison de la photographie project page"
+        "title": "Maison de la photographie project page (HE Architecture)"
       },
       {
         "url": "https://www.facebook.com/Maison.Photographie.Ennadre.Medina.Casablanca/?locale=fr_FR",
-        "type": "website",
+        "type": "social",
         "title": "Maison de la Photographie - Médina de Casablanca Facebook page"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing photography exhibits (future)",
+      "attending photography workshops (future)",
+      "architectural observation"
+    ],
+    "items": [
+      "photography archives and collections (future)",
+      "tadao ando modernist architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "under_construction",
+      "comment": "The project is currently under construction and not fully open to the public."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

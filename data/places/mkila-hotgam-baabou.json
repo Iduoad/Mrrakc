@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "food/street-food",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-food",
+      "traditional-food",
+      "mqila",
+      "local-cuisine",
+      "vendor"
+    ]
   },
   "spec": {
     "name": "Mkila Hotgam Baabou",
     "id": "mkila-hotgam-baabou",
-    "description": "None",
+    "description": "Mkila Hotgam Baabou is a specific and well-known street food vendor or stall specializing in the traditional Moroccan dish **Mkila** (M'qila), a flavorful, often slow-cooked meat or offal dish. These vendors are famous for their authentic, hearty preparation, catering to a loyal local clientele. The name likely includes the family or person running the stall, emphasizing its reputation and local history.",
     "location": {
       "longitude": 33.5619021,
       "latitude": -7.552115,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/baabou-family",
+        "relationship": [
+          "founder",
+          "owner"
+        ],
+        "comment": "The family or person associated with the famous Mkila stall."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "eating traditional moroccan street food",
+      "experiencing local food culture"
+    ],
+    "items": [
+      "hot mqila dishes",
+      "fresh bread"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Food purchase",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

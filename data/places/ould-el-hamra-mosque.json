@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "historical-mosque",
+      "old-medina",
+      "alawite-dynasty",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "Ould el-Hamra Mosque",
     "id": "ould-el-hamra-mosque",
-    "description": "Built in 1783 CE by Ould El-Hamra during the reign of Sultan Mohammed Ibn Abdellah, this mosque is currently open.",
+    "description": "The Ould el-Hamra Mosque (Mosquée Ould el-Hamra) is one of the oldest mosques in Casablanca's Old Medina, built in **1783 CE** by **Ould El-Hamra** during the reign of **Sultan Mohammed Ibn Abdellah** (the founder of modern Casablanca). This mosque is a crucial surviving example of the city's early Alawite architecture and urban renewal after the 1755 earthquake, and is part of the original, modest core of the fortified town. It remains an active and historically significant place of worship.",
     "location": {
       "longitude": -7.6182842,
       "latitude": 33.6014342,
@@ -19,34 +25,49 @@
         "relationship": [
           "sultan",
           "founder"
-        ]
+        ],
+        "comment": "Sultan of Morocco and founder of modern Casablanca."
       },
       {
         "id": "people/ould-el-hamra",
         "relationship": [
-          "founder"
-        ]
+          "founder",
+          "patron"
+        ],
+        "comment": "The individual who commissioned or built the mosque in 1783."
       }
     ],
     "timeline": [
       {
         "title": "Construction Date",
-        "description": "The Mosque was constructed",
-        "date": "1783-01-01"
+        "date": "1783-01-01",
+        "description": "The Mosque was constructed during the reign of Sultan Mohammed Ibn Abdellah."
       }
     ],
     "links": [],
     "activities": [
-      "worship"
+      "attending daily prayers",
+      "architectural observation"
     ],
-    "items": [],
+    "items": [
+      "historical minaret and prayer hall",
+      "18th century architectural elements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      "18th century"
+      "18th century",
+      "pre-colonial era"
     ]
   }
 }

@@ -2,29 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-restaurant",
+      "cafe",
+      "city-center",
+      "art-deco",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Petit Poucet Restaurant",
     "id": "petit-poucet-restaurant",
-    "description": "\ud83d\udd3b Dates: 1920",
+    "description": "Petit Poucet Restaurant (Le Petit Poucet) is one of Casablanca's most historic and legendary café-restaurants, dating back to **1920**. Located in the central Art Deco district, it has served as a famous meeting place for intellectuals, journalists, artists, and political figures throughout the French Protectorate and post-independence eras. The establishment is renowned for its long history, classic ambiance, and traditional French or international menu.",
     "location": {
       "longitude": 33.5947964,
       "latitude": -7.6141587,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/mahmoud-derwich",
+        "relationship": [
+          "notable-patron"
+        ],
+        "comment": "Palestinian poet who was a noted patron of the cafe during his stay in Casablanca."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment Date",
+        "date": "1920-01-01",
+        "description": "The Petit Poucet café-restaurant was opened, becoming a key intellectual and social hub."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccoworldnews.com/2019/04/270425/the-magic-of-casablancas-art-deco-architecture",
+        "type": "article",
+        "title": "The Magic of Casablanca's Art Deco Architecture (References the cafe's significance)"
+      }
+    ],
+    "activities": [
+      "dining on international/french cuisine",
+      "socializing and people-watching",
+      "historical observation"
+    ],
+    "items": [
+      "historical interior decor and furnishings",
+      "classic cafe menu"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

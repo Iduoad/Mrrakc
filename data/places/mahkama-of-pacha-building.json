@@ -2,29 +2,82 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "government",
+      "administrative",
+      "neo-moorish",
+      "national-heritage",
+      "1940s-1950s"
+    ]
   },
   "spec": {
     "name": "Mahkama of Pacha Building",
     "id": "mahkama-of-pacha-building",
-    "description": "\ud83d\udd3b Dates: 1941-1952<br>\ud83d\udd3b Current Status: El Mechouar Prefecture <br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Mahkama of Pacha (literally 'Pacha's Court') is a magnificent administrative and judicial building located in the Habous Quarter, constructed between 1941 and 1952. The building is a stunning example of **Neo-Moorish** architecture, utilizing vast amounts of intricate traditional Moroccan craftsmanship, including carved cedarwood, zellij tilework, and stucco plaster. It originally served as a courthouse and the reception hall for the Pacha of Casablanca. It now functions as the seat of the **El Mechouar Prefecture** and is considered a national architectural treasure, having been declared a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5785664,
       "latitude": -7.606479,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/pacha-of-casablanca",
+        "relationship": [
+          "original-occupant",
+          "historical-figure"
+        ],
+        "comment": "The local governor/administrator during the Protectorate era."
+      },
+      {
+        "id": "people/french-protectorate-administration",
+        "relationship": [
+          "commissioner"
+        ],
+        "comment": "The administration that commissioned the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1941-01-01",
+        "description": "Construction began on the Mahkama, commissioned in the Neo-Moorish style."
+      },
+      {
+        "title": "Completion and Opening",
+        "date": "1952-01-01",
+        "description": "The Mahkama was completed and began functioning as a courthouse and pacha's residence."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mahkama_du_Pacha",
+        "type": "article",
+        "title": "Mahkama du Pacha Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "architectural sightseeing",
+      "historical research",
+      "conducting administrative business (restricted)"
+    ],
+    "items": [
+      "ornate zellij tilework and carved cedarwood",
+      "historical courtyards and reception halls"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as a government office; access is limited to visitors with official business or occasionally permitted for architectural viewing."
     },
     "timePeriods": [
-      ""
+      "20th century (1940s-1950s)"
     ]
   }
 }

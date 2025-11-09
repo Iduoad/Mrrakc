@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "shopping/market",
   "metadata": {
-    "tags": []
+    "tags": [
+      "market",
+      "local-commerce",
+      "municipal-market",
+      "produce",
+      "ain-chock"
+    ]
   },
   "spec": {
     "name": "Municipal Market of Ain Chok",
     "id": "municipal-market-of-ain-chok",
-    "description": "None",
+    "description": "The Municipal Market of Ain Chok (Marché Municipal d'Aïn Chock) is a centrally organized local market serving the Aïn Chock neighborhood. Municipal markets are typically covered or organized public spaces providing essential goods like fresh produce, meat, and fish to the local community. It is a vital spot for daily commerce and local social interaction.",
     "location": {
       "longitude": 33.5477509,
       "latitude": -7.597614,
@@ -16,15 +22,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "shopping for fresh produce and goods",
+      "experiencing local commerce"
+    ],
+    "items": [
+      "market stalls and vendor sections"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,72 @@
   "version": "mrrakc/v0",
   "kind": "shopping/mall",
   "metadata": {
-    "tags": []
+    "tags": [
+      "shopping-center",
+      "retail",
+      "leisure",
+      "aquarium",
+      "landmark",
+      "largest-in-africa"
+    ]
   },
   "spec": {
     "name": "Morocco Mall",
     "id": "morocco-mall",
-    "description": "None",
+    "description": "Morocco Mall is one of the largest shopping and leisure centers in Africa, located on the Ain Diab Corniche in Casablanca. Opened in 2011, it is a key landmark of modern Casablanca, featuring hundreds of international and local retail brands, a vast food court, and major entertainment facilities, including the Aquadream Aquarium and a Cinerji multiplex cinema. Its design is notable for its large scale and modern architectural aesthetic.",
     "location": {
       "longitude": 33.5758954,
       "latitude": -7.706821,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/aksal-group",
+        "relationship": [
+          "developer",
+          "owner"
+        ],
+        "comment": "The company responsible for the mall's development and operation."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Mall Opening",
+        "date": "2011-12-01",
+        "description": "The Morocco Mall officially opened to the public."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://moroccomall.ma/",
+        "type": "website",
+        "title": "Morocco Mall Official Website"
+      }
+    ],
+    "activities": [
+      "retail shopping",
+      "dining and food court access",
+      "visiting the aquarium and cinema"
+    ],
+    "items": [
+      "large central aquarium (aquadream)",
+      "hundreds of retail stores",
+      "ice rink (if applicable)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mall access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

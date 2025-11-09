@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/street-food",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-food",
+      "traditional-food",
+      "sfenj",
+      "bakery",
+      "local-cuisine"
+    ]
   },
   "spec": {
     "name": "Moroccan Sfenj (Donuts)",
     "id": "moroccan-sfenj-donuts",
-    "description": "None",
+    "description": "This location represents a typical street vendor or small shop specializing in **Sfenj** (Moroccan donuts), a popular deep-fried pastry staple of Moroccan street food. Sfenj are traditionally consumed hot, often for breakfast or as a snack. The location indicates a thriving, local street food spot where these classic treats are made and sold.",
     "location": {
       "longitude": 33.5985609,
       "latitude": -7.6152916,
@@ -16,15 +22,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "purchasing and eating fresh sfenj",
+      "experiencing local street food"
+    ],
+    "items": [
+      "sfenj (moroccan donuts)",
+      "traditional deep-frying equipment"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Food purchase",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

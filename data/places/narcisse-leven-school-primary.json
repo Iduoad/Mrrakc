@@ -2,29 +2,78 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "education",
+      "art-deco",
+      "jewish-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Narcisse Leven School Primary",
     "id": "narcisse-leven-school-primary",
-    "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1927<br>\ud83d\udd3b Current Status: School",
+    "description": "Narcisse Leven Primary School is a historical educational building completed in 1927, designed by architects **Elias and Joseph Suraqui**. The school was built to serve the educational needs of the local Jewish community and is named after **Narcisse Leven**, a key figure in the Alliance Israélite Universelle (AIU), which historically funded and ran Jewish schools across North Africa. The architecture is typical of the Art Deco style found in the growing new town, adapted for educational use.",
     "location": {
       "longitude": 33.5956467,
       "latitude": -7.6306501,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/elias-suraqui",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the school building."
+      },
+      {
+        "id": "people/joseph-suraqui",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the school building."
+      },
+      {
+        "id": "people/narcisse-leven",
+        "relationship": [
+          "namesake",
+          "historical-figure"
+        ],
+        "comment": "President of the Alliance Israélite Universelle (AIU), after whom the school is named."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1927-01-01",
+        "description": "The Narcisse Leven School building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "education and learning",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco school architecture"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Students and Staff",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

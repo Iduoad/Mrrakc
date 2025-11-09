@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "modern-art",
+      "exhibition-space"
+    ]
   },
   "spec": {
     "name": "Marsam",
     "id": "marsam",
-    "description": "None",
+    "description": "Marsam (meaning 'artist's studio' or workshop) is a contemporary art gallery in Casablanca dedicated to the promotion of both established and emerging artists, with a focus on modern and contemporary visual arts. Galleries like Marsam are central to the city's cultural scene, offering a venue for exhibitions, artistic critique, and the sale of artwork to collectors.",
     "location": {
       "longitude": 33.5935182,
       "latitude": -7.6417696,
@@ -16,15 +21,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing contemporary art exhibitions",
+      "art appreciation"
+    ],
+    "items": [
+      "paintings, sculptures, and mixed media art"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

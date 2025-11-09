@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "urban/square",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-space",
+      "square",
+      "neighborhood-center",
+      "social-hub"
+    ]
   },
   "spec": {
     "name": "Mohammed Znibiya Square",
     "id": "mohammed-znibiya-square",
-    "description": "None",
+    "description": "Mohammed Znibiya Square (Place Mohammed Znibiya) is a public square located in a residential area of Casablanca. Squares like this serve as vital local gathering points, providing open space, public seating, and pedestrian access to surrounding commercial and residential buildings. It is named after a local or historical figure (Mohammed Znibiya).",
     "location": {
       "longitude": 33.5608398,
       "latitude": -7.5639887,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/mohammed-znibiya",
+        "relationship": [
+          "namesake",
+          "local-figure"
+        ],
+        "comment": "The local figure after whom the square is named."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "socializing and relaxation",
+      "community gatherings"
+    ],
+    "items": [
+      "public seating",
+      "central monument or feature (if present)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Square access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

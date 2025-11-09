@@ -2,29 +2,48 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "government",
+      "customs",
+      "port-related",
+      "old-medina-vicinity"
+    ]
   },
   "spec": {
     "name": "Old customs administration",
     "id": "old-customs-administration",
-    "description": "None",
+    "description": "The Old Customs Administration Building is a historical administrative structure located near the port and the Old Medina. It served as the central office for customs regulation and collection, playing a critical role in controlling the immense trade traffic that passed through the Port of Casablanca in the late 19th and early 20th centuries. Its location and historical function underscore its importance to the city's economic development.",
     "location": {
       "longitude": 33.6004794,
       "latitude": -7.6167707,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1900-01-01",
+        "description": "The building was established to centralize customs administration before the full French Protectorate (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical administrative architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as a government office; interior access is restricted to official business."
     },
     "timePeriods": [
-      ""
+      "pre-protectorate era",
+      "20th century"
     ]
   }
 }

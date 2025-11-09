@@ -2,29 +2,69 @@
   "version": "mrrakc/v0",
   "kind": "architecture/garage",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "industrial-architecture",
+      "modernist",
+      "national-heritage",
+      "1950s"
+    ]
   },
   "spec": {
     "name": "Marcel Raygot Garage Building",
     "id": "marcel-raygot-garage-building",
-    "description": "\ud83d\udd3b Architect: Georges Renaudin<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Marcel Raygot Garage Building is a prime example of post-war modernist industrial architecture in Casablanca, completed in 1954 and designed by architect **Georges Renaudin**. It reflects the functionalist design principles applied to commercial and automotive facilities in the mid-20th century. The building's historical and architectural quality was recognized with its designation as a **National Material Patrimony** site in 2018, preserving it as a testament to the city's urban and industrial expansion.",
     "location": {
       "longitude": 33.5979699,
       "latitude": -7.6388166,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/georges-renaudin",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the garage building."
+      },
+      {
+        "id": "people/marcel-raygot",
+        "relationship": [
+          "namesake",
+          "original-owner"
+        ],
+        "comment": "The person or company after whom the garage was named."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1954-01-01",
+        "description": "The Marcel Raygot Garage building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "commercial/residential use (current function)",
+      "architectural observation"
+    ],
+    "items": [
+      "modernist industrial facade",
+      "large interior space"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "20th century (1950s)"
     ]
   }
 }

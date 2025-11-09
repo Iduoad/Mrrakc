@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "historical-mosque",
+      "neo-moorish",
+      "colonial-architecture",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Old Mosque of Ain Chock",
     "id": "old-mosque-of-ain-chock",
-    "description": "\ud83d\udd3b Era: Mid 20th Century<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: One of the largest mosques of Casablanca, 2nd only to Hassan II Mosque. It was designed by the French Architect Edmond Brion in 1945 CE.",
+    "description": "The Old Mosque of Ain Chock (Mosquée Ancienne d'Aïn Chock) is one of the largest mosques in Casablanca, second only to the Hassan II Mosque in capacity. It was designed by the French architect **Edmond Brion** and the design was completed in 1945 CE. Located in the populous Ain Chock neighborhood, the mosque's architecture reflects the Neo-Moorish style, adapted for a large urban community setting. It serves as a major religious and social center for the district.",
     "location": {
       "longitude": 33.553207,
       "latitude": -7.5997402,
@@ -18,26 +24,42 @@
         "id": "people/edmond-brion",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who designed the large mosque in 1945."
       }
     ],
     "timeline": [
       {
-        "title": "Design",
-        "description": "Mosque designed",
-        "date": "1945-01-01"
+        "title": "Design Completed",
+        "date": "1945-01-01",
+        "description": "The mosque was designed by Edmond Brion."
       }
     ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "attending daily prayers",
+      "religious study",
+      "community gatherings"
+    ],
+    "items": [
+      "neo-moorish minaret and prayer hall",
+      "large courtyard"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (1940s)",
+      "contemporary period"
     ]
   }
 }
