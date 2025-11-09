@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "modern-art",
+      "exhibition-space"
+    ]
   },
   "spec": {
     "name": "Loft Art Gallery",
     "id": "loft-art-gallery",
-    "description": "None",
+    "description": "Loft Art Gallery is a contemporary art space in Casablanca that specializes in promoting established and emerging Moroccan and international artists, with a strong focus on African art. The gallery is recognized for its dynamic exhibition programming and participation in global art fairs, making it one of the city's most influential commercial contemporary art venues.",
     "location": {
       "longitude": 33.5923345,
       "latitude": -7.6436402,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Gallery Establishment",
+        "date": "2009-01-01",
+        "description": "The gallery was established, becoming a major player in Moroccan contemporary art (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.loftartgallery.net/",
+        "type": "website",
+        "title": "Loft Art Gallery Official Website"
+      }
+    ],
+    "activities": [
+      "viewing contemporary art exhibitions",
+      "art appreciation",
+      "purchasing artwork"
+    ],
+    "items": [
+      "contemporary paintings and sculptures",
+      "curated exhibitions"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

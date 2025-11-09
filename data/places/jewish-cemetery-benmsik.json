@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "religion/jewish-site",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-site",
+      "jewish-heritage",
+      "cemetery",
+      "benmsik",
+      "religious"
+    ]
   },
   "spec": {
     "name": "Jewish Cemetery Benmsik",
     "id": "jewish-cemetery-benmsik",
-    "description": "None",
+    "description": "The Jewish Cemetery Benmsik is a historical burial ground located in the Benmsik area, one of the two main Jewish cemeteries in Casablanca. It is a testament to the city's once large and vibrant Jewish community and is often visited by descendants of Moroccan Jews from around the world. The cemetery is actively maintained and serves as an important site for religious observance, historical remembrance, and reflection on Moroccan-Jewish heritage.",
     "location": {
       "longitude": 33.5801881,
       "latitude": -7.5721235,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1940-01-01",
+        "description": "The cemetery was established to serve the Jewish community, particularly following the growth of the new town (Approximate period)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "visiting graves and paying respects",
+      "religious observance",
+      "historical research"
+    ],
+    "items": [
+      "historical gravestones and tombs"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Cemetery access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally granted during daytime hours, often requiring supervision or prior arrangement for security."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

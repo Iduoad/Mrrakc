@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "albert-planque",
+      "city-center"
+    ]
   },
   "spec": {
-    "name": "Les Hesperides Building",
+    "name": "Les Hespérides Building",
     "id": "les-hesperides-building",
-    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "Les Hespérides Building (Immeuble Les Hespérides) is a multi-story residential and commercial structure in central Casablanca. Its architecture, likely designed by **Albert Planque**, reflects the Art Deco or modernist styles of the Protectorate era. The name 'Hespérides' references Greek mythology, suggesting a grand, perhaps garden-themed, design, consistent with the aspirations of the city's new town development.",
     "location": {
       "longitude": 33.5965868,
       "latitude": -7.6149527,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/albert-planque",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1930-01-01",
+        "description": "The building was constructed during the Art Deco boom period (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

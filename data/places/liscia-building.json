@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Liscia Building",
     "id": "liscia-building",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1937<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Liscia Building is a historical residential and commercial structure in Casablanca, completed in 1937 and designed by architect **Pierre Jabin**. Its architecture reflects the later Art Deco and streamlined modernist styles of the mid-1930s, characterized by simpler forms and vertical emphasis compared to earlier Art Deco works. It continues to be an inhabited, multi-use urban building, typical of the city's planned residential blocks.",
     "location": {
       "longitude": 33.591619,
       "latitude": -7.6141265,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-jabin",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1937-01-01",
+        "description": "The Liscia Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

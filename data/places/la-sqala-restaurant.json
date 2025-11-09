@@ -2,29 +2,76 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "moroccan-cuisine",
+      "historical-site",
+      "old-medina",
+      "bastion"
+    ]
   },
   "spec": {
     "name": "La Sqala Restaurant",
     "id": "la-sqala-restaurant",
-    "description": "\ud83d\udd3b Menu: Moroccan",
+    "description": "La Sqala Restaurant is a unique and atmospheric dining establishment specializing in **Moroccan cuisine**. It is famously located within the historical fortifications of the **Sqala**, an 18th-century bastion that was part of the Old Medina's coastal defense system. The restaurant utilizes the historic courtyard and ramparts, offering a picturesque setting, traditional dishes, and often live music. It serves as a major culinary and cultural landmark, blending history with high-quality traditional dining.",
     "location": {
       "longitude": 33.6028737,
       "latitude": -7.6194179,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/sidi-mohammed-ibn-abdellah",
+        "relationship": [
+          "founder"
+        ],
+        "comment": "The Alawite Sultan who rebuilt the city walls and the Sqala bastion in the late 18th century."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Sqala Construction",
+        "date": "1780-01-01",
+        "description": "The fortification (Sqala) that houses the restaurant was built (Approximate date)."
+      },
+      {
+        "title": "Restaurant Establishment",
+        "date": "2000-01-01",
+        "description": "The historical site was converted and opened as La Sqala Restaurant (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lasqala.com/",
+        "type": "website",
+        "title": "La Sqala Restaurant Official Website"
+      }
+    ],
+    "activities": [
+      "dining on traditional moroccan cuisine",
+      "experiencing historical atmosphere",
+      "architectural observation of the bastion"
+    ],
+    "items": [
+      "traditional moroccan tagines and couscous",
+      "historical bastion walls and cannon placements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access requires patronage or may have limited public access to the courtyard."
     },
     "timePeriods": [
-      ""
+      "alawite dynasty (18th century)",
+      "contemporary period (restaurant)"
     ]
   }
 }

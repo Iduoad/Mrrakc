@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "french-cuisine",
+      "modern-dining",
+      "international"
+    ]
   },
   "spec": {
     "name": "Le Rossignol Restaurant",
     "id": "le-rossignol-restaurant",
-    "description": "\ud83d\udd3b Menu: French",
+    "description": "Le Rossignol Restaurant (The Nightingale Restaurant) is a dining establishment in Casablanca specializing in **French cuisine**. It likely aims for a formal or classic ambiance, providing high-quality European dining that reflects the city's strong French cultural legacy. It serves as a popular choice for business lunches and fine dining occasions.",
     "location": {
       "longitude": 33.5902161,
       "latitude": -7.6304005,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on french cuisine",
+      "socializing"
+    ],
+    "items": [
+      "classic french dishes",
+      "wine list (if applicable)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

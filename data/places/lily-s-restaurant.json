@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "asian-cuisine",
+      "fine-dining",
+      "seaside-dining",
+      "modern"
+    ]
   },
   "spec": {
     "name": "Lily's Restaurant",
     "id": "lily-s-restaurant",
-    "description": "\ud83d\udd3b Menu: Asian",
+    "description": "Lily's Restaurant is a contemporary dining establishment in Casablanca specializing in **Asian cuisine**, often focusing on fusion or high-end preparations of Chinese, Thai, or Vietnamese dishes. Located in the popular coastal areas (Corniche/El Hank), the restaurant caters to an urban audience seeking diverse international flavors and a chic, sophisticated dining atmosphere.",
     "location": {
       "longitude": 33.6080436,
       "latitude": -7.6555925,
@@ -16,15 +22,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on asian cuisine",
+      "socializing"
+    ],
+    "items": [
+      "specialty asian dishes",
+      "modern bar area"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
