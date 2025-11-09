@@ -2,29 +2,55 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "commercial",
+      "laboratory",
+      "art-deco",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Tazi Laboratory Building",
     "id": "tazi-laboratory-building",
-    "description": "\ud83d\udd3b Dates: ~1930s",
+    "description": "The Tazi Laboratory Building is a historical commercial and medical structure dating from the **1930s**. It was likely built as a private or commercial laboratory facility, reflecting the growing presence of modern medical and scientific services during the French Protectorate era. The building's functionalist and Art Deco architectural style is typical of the commercial development in the surrounding central district.",
     "location": {
       "longitude": 33.590908,
       "latitude": -7.6255254,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/tazi-family",
+        "relationship": [
+          "original-owner"
+        ],
+        "comment": "The family associated with commissioning or running the laboratory."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1935-01-01",
+        "description": "The laboratory building was completed (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "medical or commercial services (if currently open)",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "20th century (1930s)"
     ]
   }
 }

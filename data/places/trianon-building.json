@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Trianon Building",
     "id": "trianon-building",
-    "description": "\ud83d\udd3b Architect: Marcel Desmet<br>\ud83d\udd3b Dates: 1935<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Trianon Building (Immeuble Trianon) is a historical residential and commercial structure completed in 1935. It was designed by architect **Marcel Desmet**, known for his Modernist and Art Deco contributions to Casablanca. The building's architecture is typical of the multi-story apartment and retail blocks of the mid-1930s, reflecting the continued, refined urban development of the city center.",
     "location": {
       "longitude": 33.5952906,
       "latitude": -7.6164368,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marcel-desmet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1935-01-01",
+        "description": "The Trianon Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

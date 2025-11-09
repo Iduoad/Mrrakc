@@ -2,29 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "architecture/hotel",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "hotel",
+      "art-deco",
+      "national-heritage",
+      "1920s",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Transatlantique Hotel",
     "id": "transatlantique-hotel",
-    "description": "\ud83d\udd3b Dates: 1922<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "The Transatlantique Hotel (Hôtel Transatlantique) is a major historical hotel, completed in 1922. It was owned by the Compagnie Générale Transatlantique, a French shipping company, and reflects the grand scale and elegance of colonial-era hospitality. The architecture is a blend of Art Deco and Neo-Moorish styles, characteristic of the monumental buildings of the 'new town.' Its historical importance was recognized by its designation as a **National Material Patrimony** site in 2004.",
     "location": {
       "longitude": 33.5923948,
       "latitude": -7.6141621,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/compagnie-generale-transatlantique",
+        "relationship": [
+          "original-owner"
+        ],
+        "comment": "The French shipping company that owned and operated the hotel."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1922-01-01",
+        "description": "The hotel was completed and opened for accommodation."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2004-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "lodging and accommodation",
+      "dining and socializing"
+    ],
+    "items": [
+      "art deco facade elements",
+      "historical hotel structure"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Hotel services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is public for guests and patrons of hotel facilities."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

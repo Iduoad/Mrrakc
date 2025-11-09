@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "modern-art",
+      "exhibition-space"
+    ]
   },
   "spec": {
     "name": "TheArtCompany... Episode II",
     "id": "theartcompany-episode-ii",
-    "description": "None",
+    "description": "TheArtCompany... Episode II is a contemporary art gallery and exhibition space that, through its unusual name, suggests a modern, potentially thematic approach to art curation. It showcases contemporary art, providing a platform for artists and promoting cultural dialogue in the city's art scene.",
     "location": {
       "longitude": 33.5853144,
       "latitude": -7.6465754,
@@ -16,15 +21,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing contemporary art exhibitions",
+      "art appreciation"
+    ],
+    "items": [
+      "contemporary paintings and mixed media"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
