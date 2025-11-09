@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "architecture/house",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residence",
+      "old-medina-vicinity",
+      "sports-history"
+    ]
   },
   "spec": {
     "name": "Second House of El Haj Mohammed Benjelloun Touimi",
     "id": "second-house-of-el-haj-mohammed-benjelloun-touimi",
-    "description": "None",
+    "description": "This is a second historical residence associated with **El Haj Mohammed Benjelloun Touimi**, the famous founder of the Wydad Athletic Club (WAC). Its location near the Old Medina and the historical city center suggests that this influential figure maintained multiple important properties in the developing city. The house is a historical urban residence, reflecting the architecture of the era in which it was built.",
     "location": {
       "longitude": 33.6021814,
       "latitude": -7.6191936,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/el-haj-mohammed-benjelloun-touimi",
+        "relationship": [
+          "founder",
+          "original-owner"
+        ],
+        "comment": "Founder of the Wydad Athletic Club (WAC)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1900-01-01",
+        "description": "The house was constructed (Approximate early 20th century date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical residential architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "private",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is an inhabited private residence; access is generally forbidden."
     },
     "timePeriods": [
-      ""
+      "early 20th century",
+      "contemporary period"
     ]
   }
 }

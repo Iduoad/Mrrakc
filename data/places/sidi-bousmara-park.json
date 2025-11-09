@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "nature/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "local-park"
+    ]
   },
   "spec": {
     "name": "Sidi Bousmara Park",
     "id": "sidi-bousmara-park",
-    "description": "None",
+    "description": "Sidi Bousmara Park (Jardin Sidi Bousmara) is a small public green space located adjacent to or near the Sidi Bousmara Mausoleum in the city center. It offers a pocket of natural relief and recreation for the dense urban area, providing benches and shaded areas for local residents to relax and socialize.",
     "location": {
       "longitude": 33.5996784,
       "latitude": -7.6157425,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and relaxation",
+      "socializing",
+      "children's play"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "urban/street-art",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-art",
+      "mural",
+      "public-art",
+      "old-medina-vicinity"
+    ]
   },
   "spec": {
     "name": "Skefkef wall drawing",
     "id": "skefkef-wall-drawing",
-    "description": "None",
+    "description": "Skefkef Wall Drawing (Graffiti Skefkef) is a piece of public street art or a mural located near the Old Medina. The name 'Skefkef' may refer to a local phrase or artistic style. Like many urban art installations, this drawing contributes to the visual culture and atmosphere of the neighborhood, often reflecting social commentary or artistic expression.",
     "location": {
       "longitude": 33.6014609,
       "latitude": -7.6198431,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/local-artist",
+        "relationship": [
+          "artist"
+        ],
+        "comment": "The artist who created the mural (Specific name not widely published)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Creation Date",
+        "date": "2020-01-01",
+        "description": "The mural was created as part of an urban art project (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing and photographing the mural",
+      "observing local art"
+    ],
+    "items": [
+      "large-scale wall mural"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Viewing access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

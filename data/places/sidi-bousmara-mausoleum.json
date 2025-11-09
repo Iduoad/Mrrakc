@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "old-medina-vicinity",
+      "local-shrine"
+    ]
   },
   "spec": {
     "name": "Sidi Bousmara Mausoleum",
     "id": "sidi-bousmara-mausoleum",
-    "description": "None",
+    "description": "The Sidi Bousmara Mausoleum (Marabout de Sidi Bousmara) is a local religious shrine located near the Old Medina. Dedicated to the saint Sidi Bousmara, the site is a place of spiritual importance for the surrounding community, serving as a traditional marabout where followers engage in veneration and prayer. Its proximity to the historical city core makes it a traditional point of local devotion.",
     "location": {
       "longitude": 33.5997079,
       "latitude": -7.6155104,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-bousmara",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi bousmara",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

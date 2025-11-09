@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "modern-art",
+      "exhibition-space"
+    ]
   },
   "spec": {
     "name": "Shart Gallery",
     "id": "shart-gallery",
-    "description": "None",
+    "description": "Shart Gallery is a contemporary art gallery in Casablanca dedicated to showcasing modern and contemporary art, primarily focusing on Moroccan and international artists. It contributes to the city's dynamic arts ecosystem by hosting curated exhibitions and promoting artistic dialogue and collection.",
     "location": {
       "longitude": 33.5879496,
       "latitude": -7.6407818,
@@ -16,15 +21,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing contemporary art exhibitions",
+      "art appreciation"
+    ],
+    "items": [
+      "contemporary paintings, sculptures, and mixed media"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "international-cuisine",
+      "rooftop-bar",
+      "panoramic-view",
+      "fine-dining"
+    ]
   },
   "spec": {
     "name": "Sky 28 Restaurant",
     "id": "sky-28-restaurant",
-    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: View",
+    "description": "Sky 28 Restaurant is a premium dining and bar establishment located on the 28th floor of a high-rise building (often the Kenzi Tower Hotel) in Casablanca's business district. It specializes in **International cuisine** and is renowned for its spectacular **360° panoramic views** of the city, including the Hassan II Mosque and the coastline. It caters to a sophisticated clientele for fine dining, cocktails, and special events.",
     "location": {
       "longitude": 33.586646,
       "latitude": -7.6320104,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/kenzi-group",
+        "relationship": [
+          "owner",
+          "operator"
+        ],
+        "comment": "Operator of the hotel/complex where the restaurant is located."
+      }
+    ],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.kenzitower.com/fr/restaurants-et-bars/sky-28",
+        "type": "website",
+        "title": "Sky 28 Official Page (Kenzi Tower Hotel)"
+      }
+    ],
+    "activities": [
+      "fine dining with a view",
+      "drinking cocktails and socializing",
+      "enjoying panoramic views of casablanca"
+    ],
+    "items": [
+      "international gourmet menu",
+      "360-degree city view",
+      "cocktail bar"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant and Bar services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

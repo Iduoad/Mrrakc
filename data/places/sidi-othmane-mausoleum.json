@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "local-shrine",
+      "sufism",
+      "sidi-othmane"
+    ]
   },
   "spec": {
     "name": "Sidi Othmane Mausoleum",
     "id": "sidi-othmane-mausoleum",
-    "description": "None",
+    "description": "The Sidi Othmane Mausoleum (Marabout de Sidi Othmane) is a local religious shrine located in the Sidi Othmane neighborhood, which is named after the saint. The site is a traditional center for local piety and spiritual gatherings, playing a role in the social and religious identity of the community.",
     "location": {
       "longitude": 33.5597611,
       "latitude": -7.5726133,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-othmane",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint after whom the neighborhood is named."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi othmane",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "local-shrine",
+      "sufism"
+    ]
   },
   "spec": {
     "name": "Sidi El Khadir Mausoleum",
     "id": "sidi-el-khadir-mausoleum",
-    "description": "None",
+    "description": "The Sidi El Khadir Mausoleum (Marabout de Sidi El Khadir) is a local religious shrine dedicated to a saint associated with the mythical Islamic figure Al-Khidr. Located in a peripheral area, it serves as a center for local veneration and spiritual activity, attracting pilgrims from the surrounding neighborhood who seek blessings (baraka).",
     "location": {
       "longitude": 33.5707432,
       "latitude": -7.6882851,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-el-khadir",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi el khadir",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

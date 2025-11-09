@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/workshop",
   "metadata": {
-    "tags": []
+    "tags": [
+      "dance-studio",
+      "performing-arts",
+      "fitness",
+      "education"
+    ]
   },
   "spec": {
     "name": "Studio 7 Dance Studio",
     "id": "studio-7-dance-studio",
-    "description": "None",
+    "description": "Studio 7 Dance Studio is a dedicated facility in Casablanca offering classes and workshops in various forms of dance, ranging from traditional Moroccan to modern and international styles. It serves as a community hub for artistic expression, physical fitness, and cultural activity.",
     "location": {
       "longitude": -7.6282876,
       "latitude": 33.5888173,
@@ -17,16 +22,27 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "dance_studio"
+      "taking dance classes and workshops",
+      "attending rehearsals and performances"
     ],
-    "items": [],
+    "items": [
+      "dance studios with mirrors and barre",
+      "performance space"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Class enrollment fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

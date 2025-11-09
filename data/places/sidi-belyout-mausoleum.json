@@ -2,29 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "city-namesake",
+      "historical-site"
+    ]
   },
   "spec": {
     "name": "Sidi Belyout Mausoleum",
     "id": "sidi-belyout-mausoleum",
-    "description": "None",
+    "description": "The Sidi Belyout Mausoleum (Marabout de Sidi Belyout) is perhaps the most centrally and historically significant shrine in Casablanca, as the city itself is named after the saint, Sidi Belyout, in local Moroccan Arabic ('Dar al-Bayḍāʼ' or 'Beida'). The mausoleum, located near the Old Medina and the financial center, serves as a crucial spiritual and historical landmark. It attracts numerous pilgrims and reflects the deep integration of local Sufi tradition into the city's identity.",
     "location": {
       "longitude": 33.5988639,
       "latitude": -7.6138653,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/sidi-belyout",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint after whom Casablanca is locally named (Bayt al-Yut, House of the Orphans)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1600-01-01",
+        "description": "The shrine was established in the pre-Alawite/pre-rebuilding era, reflecting the ancient identity of the site (Approximate period)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sidi_Belyout",
+        "type": "article",
+        "title": "Sidi Belyout Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "veneration and pilgrimage",
+      "historical and architectural observation"
+    ],
+    "items": [
+      "tomb of sidi belyout",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "pre-colonial era",
+      "contemporary period"
     ]
   }
 }

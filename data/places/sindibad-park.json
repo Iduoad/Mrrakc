@@ -2,31 +2,76 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/amusement-park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "amusement-park",
+      "theme-park",
+      "zoo",
+      "coastal-leisure",
+      "sindibad"
+    ]
   },
   "spec": {
     "name": "Sindibad Park",
     "id": "sindibad-park",
-    "description": "None",
+    "description": "Sindibad Park is a large, integrated leisure and amusement complex that was substantially renovated and reopened in the mid-2010s. It combines an **amusement park** with a **zoo** and various other attractions (including the karting track). Located on the coast, the park offers a wide array of rides, entertainment, and natural environments, making it a major family and tourist destination in Casablanca.",
     "location": {
       "longitude": -7.6896083,
       "latitude": 33.5805142,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "amusement-park"
+    "people": [
+      {
+        "id": "people/sindibad-park-management",
+        "relationship": [
+          "owner",
+          "operator"
+        ],
+        "comment": "The management team responsible for the complex."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Renovation and Reopening",
+        "date": "2015-01-01",
+        "description": "The modernized Sindibad Park opened to the public."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.parcsindibad.com/",
+        "type": "website",
+        "title": "Sindibad Park Official Website"
+      }
+    ],
+    "activities": [
+      "riding amusement park rides",
+      "visiting the zoo and animal exhibits",
+      "family entertainment"
+    ],
+    "items": [
+      "roller coasters and thrill rides",
+      "zoo enclosures and animal collections"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park entrance fee (Day pass)",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Unlimited Ride Pass",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

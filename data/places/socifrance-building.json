@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Socifrance Building",
     "id": "socifrance-building",
-    "description": "\ud83d\udd3b Architect: Erwin Hinnen<br>\ud83d\udd3b Dates: 1934-1935<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Socifrance Building (Immeuble Socifrance) is a historical residential and commercial structure completed between 1934 and 1935. It was designed by architect **Erwin Hinnen**, who contributed to Casablanca's Art Deco and Modernist architectural development. The building's design reflects the elegant, multi-story urban blocks of the mid-1930s. Its name is linked to a French financial or residential company (Société Française), highlighting the foreign investment in the city's infrastructure during the Protectorate.",
     "location": {
       "longitude": 33.5955348,
       "latitude": -7.6175283,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/erwin-hinnen",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1935-01-01",
+        "description": "The Socifrance Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

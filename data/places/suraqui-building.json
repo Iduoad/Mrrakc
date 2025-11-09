@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Suraqui Building",
     "id": "suraqui-building",
-    "description": "\ud83d\udd3b Architect: Joseph & Elias Suraqui<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Suraqui Building is a historical residential and commercial structure completed in 1929 and designed by the architects **Joseph and Elias Suraqui**. The Suraqui brothers were influential Jewish Moroccan architects who significantly contributed to the Art Deco architecture of the 'new town.' The building reflects their signature style of incorporating decorative details and multi-story urban functionality.",
     "location": {
       "longitude": 33.5937055,
       "latitude": -7.6199917,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/joseph-suraqui",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      },
+      {
+        "id": "people/elias-suraqui",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1929-01-01",
+        "description": "The Suraqui Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

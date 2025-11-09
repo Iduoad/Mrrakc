@@ -2,35 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "old-medina",
+      "historical-site"
+    ]
   },
   "spec": {
     "name": "Sidi Allal El-Kairouani Mausoleum",
     "id": "sidi-allal-el-kairouani-mausoleum",
-    "description": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
+    "description": "The Sidi Allal El-Kairouani Mausoleum (Marabout de Sidi Allal al-Qairawani) is a prominent historical and religious shrine located near the Old Medina. It is dedicated to Sidi Allal al-Qairawani, a revered saint whose presence is deeply rooted in the history of Casablanca (formerly Anfa). The shrine is a center for local veneration and is architecturally significant as a preserved religious structure within the historical core of the city. The nearby gate, Bab Allal, is also named after him.",
     "location": {
       "longitude": 33.6032368,
       "latitude": -7.6196207,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/sidi-allal-el-kairouani",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "Revered local saint and spiritual figure associated with the history of Anfa/Casablanca."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1700-01-01",
+        "description": "The shrine was established, reflecting a long history of local veneration (Approximate pre-rebuilding era)."
+      }
+    ],
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/Mausoleum_of_Allal_al-Qairawani",
-        "type": "website",
-        "title": "Mausoleum of Allal al-Qairawani"
+        "type": "article",
+        "title": "Mausoleum of Allal al-Qairawani Wikipedia Page"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage",
+      "architectural observation"
+    ],
+    "items": [
+      "tomb of sidi allal el-kairouani",
+      "historical shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

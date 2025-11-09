@@ -2,41 +2,79 @@
   "version": "mrrakc/v0",
   "kind": "history/bastion",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-site",
+      "fortification",
+      "bastion",
+      "old-medina",
+      "coastal-defense",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "Sqala Of Casablanca",
     "id": "sqala-of-casablanca",
-    "description": "\ud83d\udd3b Date: 1755<br>\ud83d\udd3b Status: Open<br>\ud83d\udd3b Description: The Sqala (Bastion) was fiirst built in the 15th century to defend the Atlantic coast. When Sultane Mohammed Ben Abdellah decided to build a new city in Anfa (Casablanca) he rebuilt the Sqala in 1755 CE to strengthen the defense of the city.<br><br>- https://en.wikipedia.org/wiki/Fortifications_of_Vauban",
+    "description": "The Sqala of Casablanca (Bastion de la Sqala) is a historical coastal fortification built into the city walls. While the site dates back to the **15th century**, the current structure was substantially **rebuilt in 1755 CE** by **Sultan Mohammed Ben Abdellah** as part of his project to found modern Casablanca (then Dār al-Bayḍāʼ). The Sqala was vital for defending the city and port against naval attack. It is a major historical landmark, featuring old cannons and ramparts, and currently houses the popular La Sqala Restaurant.",
     "location": {
       "longitude": 33.6029533,
       "latitude": -7.619094,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-mohammed-ibn-abdellah",
+        "relationship": [
+          "sultan",
+          "rebuilder"
+        ],
+        "comment": "The Alawite Sultan who rebuilt the fortification."
+      }
+    ],
     "timeline": [
       {
+        "title": "Original Construction",
+        "date": "1400-01-01",
+        "description": "The bastion was originally built in the 15th century (Approximate date)."
+      },
+      {
         "title": "Rebuilt",
-        "description": "Sqala rebuilt",
-        "date": "1755-01-01"
+        "date": "1755-01-01",
+        "description": "Sqala rebuilt by Sultan Mohammed Ben Abdellah as part of the city's refortification."
       }
     ],
     "links": [
       {
         "url": "https://en.wikipedia.org/wiki/Fortifications_of_Vauban",
-        "type": "website",
-        "title": "Fortification of Vauban"
+        "type": "article",
+        "title": "Fortification of Vauban (General reference for bastion style)"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research",
+      "visiting the ramparts and cannons"
+    ],
+    "items": [
+      "historical cannons and ramparts",
+      "stone fortification walls"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Bastion access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "The external ramparts are generally free access; interior may be limited by the restaurant."
     },
     "timePeriods": [
-      ""
+      "18th century",
+      "pre-colonial era",
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,73 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "coastal-shrine",
+      "sufism"
+    ]
   },
   "spec": {
     "name": "Sidi Abderrahman Mausoleum",
     "id": "sidi-abderrahman-mausoleum",
-    "description": "None",
+    "description": "The Sidi Abderrahman Mausoleum (Marabout de Sidi Abderrahman) is one of Casablanca's most recognizable religious and cultural sites. It is built on a **rocky islet** just off the Corniche, accessible by foot during low tide via a narrow causeway. The shrine honors a local saint, Sidi Abderrahman, attracting pilgrims who seek blessings and spiritual healing. Its unique location makes it both a religious site and a picturesque landmark.",
     "location": {
       "longitude": 33.582468,
       "latitude": -7.7043219,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/sidi-abderrahman",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "Revered local saint and spiritual figure."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1800-01-01",
+        "description": "The shrine was established on the islet (Approximate historical period)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lonelyplanet.com/morocco/casablanca/attractions/sidi-abderrahman-mausoleum/a/poi-sig/440520/359368",
+        "type": "article",
+        "title": "Sidi Abderrahman Mausoleum (Lonely Planet)"
+      }
+    ],
+    "activities": [
+      "veneration and pilgrimage",
+      "historical and architectural observation",
+      "coastal viewing"
+    ],
+    "items": [
+      "tomb of sidi abderrahman",
+      "rocky islet and causeway"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access to the islet is dependent on low tide; non-Muslims may be restricted from entering the shrine itself."
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

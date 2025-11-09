@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "local-shrine",
+      "sufism"
+    ]
   },
   "spec": {
     "name": "Sidi Ahmed Ben Lahcen Mausoleum",
     "id": "sidi-ahmed-ben-lahcen-mausoleum",
-    "description": "None",
+    "description": "The Sidi Ahmed Ben Lahcen Mausoleum (Marabout de Sidi Ahmed Ben Lahcen) is a local religious shrine located outside the immediate city center. It is dedicated to a local saint, Sidi Ahmed Ben Lahcen, and serves as a traditional site for veneration and seeking spiritual blessings (baraka) within the Moroccan Sufi tradition. These mausoleums are integral to the cultural and religious life of the local community.",
     "location": {
       "longitude": 33.4519001,
       "latitude": -7.5172016,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-ahmed-ben-lahcen",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi ahmed ben lahcen",
+      "traditional mausoleum architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }
