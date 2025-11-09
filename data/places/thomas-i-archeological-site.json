@@ -2,19 +2,45 @@
   "version": "mrrakc/v0",
   "kind": "history/archaeological-site",
   "metadata": {
-    "tags": []
+    "tags": [
+      "archaeological-site",
+      "paleolithic",
+      "hominid-remains",
+      "prehistory",
+      "national-heritage"
+    ]
   },
   "spec": {
     "name": "Thomas I Archeological Site",
     "id": "thomas-i-archeological-site",
-    "description": "One of the most significant archaeological sites in Morocco and North Africa, famous for the 1969 discovery of a human half-mandible. It is now renowned for yielding the oldest Homo Erectus remains in North Africa, dating back over 500,000 years. The site was recognized as a National Material Patrimony in 1951.",
+    "description": "The Thomas I Archaeological Site (Carrière Thomas I) is one of the most critical prehistoric sites in North Africa, famous for the 1969 discovery of a fragmented human half-mandible. The site is now renowned for yielding the **oldest Homo Erectus remains in North Africa**, dating back over 500,000 years. It provides crucial evidence for human evolution and migration. The site, part of the wider Thomas Quarries, was recognized as a **National Material Patrimony** in 1951.",
     "location": {
       "longitude": -7.6966561,
       "latitude": 33.5685715,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-jodin",
+        "relationship": [
+          "archaeologist",
+          "discoverer"
+        ],
+        "comment": "French archaeologist involved in the initial study and discoveries at the Thomas Quarries."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "1951-01-01",
+        "description": "The Thomas Quarries area was declared a National Material Patrimony site."
+      },
+      {
+        "title": "Discovery of Hominid Mandible",
+        "date": "1969-01-01",
+        "description": "Discovery of the crucial human half-mandible confirming early Homo Erectus presence."
+      }
+    ],
     "links": [
       {
         "url": "https://www.researchgate.net/publication/47563559_Hominid_Cave_at_Thomas_Quarry_I_Casablanca_Morocco_Recent_findings_and_their_context",
@@ -27,15 +53,24 @@
         "title": "Homo erectus présent au Maroc il y a 500 000 ans"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "historical and archaeological research",
+      "geological observation"
+    ],
+    "items": [
+      "homo erectus half-mandible remains",
+      "paleolithic stone tools",
+      "fossil deposits"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "The site is primarily for archaeological research; public access is highly restricted."
     },
     "timePeriods": [
-      ""
+      "lower-paleolithic (over 500,000 years ago)",
+      "20th century (discoveries and research)"
     ]
   }
 }

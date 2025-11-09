@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "rooftop-bar",
+      "international-cuisine",
+      "panoramic-view",
+      "modern"
+    ]
   },
   "spec": {
-    "name": "The View 360\u00b0 Restaurant",
+    "name": "The View 360° Restaurant",
     "id": "the-view-360-restaurant",
-    "description": "None",
+    "description": "The View 360° Restaurant is a dining establishment that provides an unparalleled **360-degree panoramic view** of the greater Casablanca area. Typically located atop a high-rise building, the restaurant specializes in international cuisine, leveraging its scenic height for a unique fine dining experience. It is a destination spot for special occasions and sightseeing.",
     "location": {
       "longitude": 33.6245545,
       "latitude": -7.5263393,
@@ -16,15 +22,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "fine dining with a panoramic view",
+      "socializing and sightseeing"
+    ],
+    "items": [
+      "international gourmet menu",
+      "360-degree city view"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

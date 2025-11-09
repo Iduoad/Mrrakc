@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "shopping/mall",
   "metadata": {
-    "tags": []
+    "tags": [
+      "market",
+      "social-commerce",
+      "cooperative",
+      "local-products",
+      "ben-msik"
+    ]
   },
   "spec": {
     "name": "The Solidarity Market",
     "id": "the-solidarity-market",
-    "description": "None",
+    "description": "The Solidarity Market (Marché de la Solidarité) is a commercial space dedicated to promoting goods and products from local cooperatives, associations, and small businesses, often focusing on women's enterprises and traditional crafts. The market embodies a social solidarity economy, offering shoppers authentic local products and supporting community development.",
     "location": {
       "longitude": 33.5544187,
       "latitude": -7.6323625,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/local-cooperatives",
+        "relationship": [
+          "seller",
+          "producer"
+        ],
+        "comment": "The local cooperatives and associations whose goods are sold here."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "shopping for local crafts and products",
+      "supporting local co-operatives"
+    ],
+    "items": [
+      "traditional crafts, textiles, and food products"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
