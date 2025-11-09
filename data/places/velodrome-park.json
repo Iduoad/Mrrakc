@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "nature/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "sports-facility",
+      "velodrome"
+    ]
   },
   "spec": {
     "name": "Velodrome Park",
     "id": "velodrome-park",
-    "description": "None",
+    "description": "Velodrome Park (Parc du Vélodrome) is a large public green space located near the Mohammed V Sports Complex. Its name is derived from the adjacent or former cycling track (velodrome). The park offers expansive lawns and pathways for recreation, serving as an important local resource for exercise and outdoor leisure.",
     "location": {
       "longitude": 33.5895662,
       "latitude": -7.6454948,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "relaxing and picnicking",
+      "children's play"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

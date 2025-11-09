@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "religion/zaouiya",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "sufism",
+      "zaouiya",
+      "tidjania",
+      "ain-chock"
+    ]
   },
   "spec": {
     "name": "Zaouiya Tidjania - Ain chock",
     "id": "zaouiya-tidjania-ain-chock",
-    "description": "None",
+    "description": "Zaouiya Tidjania - Ain Chock is a local religious center associated with the influential **Tijaniyya Sufi order**, one of the largest Sufi brotherhoods in West Africa and Morocco. Located in the Ain Chock neighborhood, it serves as a community hub for members of the order, providing space for collective prayers, spiritual recitation, and teaching.",
     "location": {
       "longitude": 33.5534369,
       "latitude": -7.6002424,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/ahmed-al-tijani",
+        "relationship": [
+          "founder"
+        ],
+        "comment": "The founder of the Tijaniyya Sufi order."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "religious devotion and ritual",
+      "spiritual guidance"
+    ],
+    "items": [
+      "prayer and gathering rooms"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Sufi Members",
+          "modality": "donation",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

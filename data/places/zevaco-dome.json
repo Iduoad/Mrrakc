@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "urban/landmark",
   "metadata": {
-    "tags": []
+    "tags": [
+      "landmark",
+      "architecture",
+      "modernist",
+      "zevaco",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Zevaco dome",
     "id": "zevaco-dome",
-    "description": "None",
+    "description": "The Zevaco Dome (Dôme de Zevaco) is a distinctive architectural landmark in Casablanca's central district. It is a large, modernist concrete dome structure, designed by the celebrated architect **Jean-François Zevaco**. It once housed a market or public facility and is a notable example of the post-war Modernist and Brutalist architecture Zevaco contributed to the city. The dome's unusual form makes it a recognizable urban feature.",
     "location": {
       "longitude": 33.5964523,
       "latitude": -7.6176583,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/jean-francois-zevaco",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French-Moroccan architect who designed the dome."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1950-01-01",
+        "description": "The dome was constructed as part of a post-war public facility (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "concrete dome structure",
+      "modernist and brutalist architectural elements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (1950s)",
+      "contemporary period"
     ]
   }
 }

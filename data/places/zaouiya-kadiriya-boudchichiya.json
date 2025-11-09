@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "religion/zaouiya",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "sufism",
+      "zaouiya",
+      "kadiriya-boudchichiya",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Zaouiya Kadiriya Boudchichiya",
     "id": "zaouiya-kadiriya-boudchichiya",
-    "description": "None",
+    "description": "Zaouiya Kadiriya Boudchichiya is a local religious center (Zaouiya) for the prominent **Qadiriyya Boutchichiyya Sufi order**. This urban location serves as a community and spiritual center for the brotherhood's followers in the city, providing a space for religious rituals (dhikr), spiritual guidance, and social interaction.",
     "location": {
       "longitude": 33.5991839,
       "latitude": -7.6200174,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "religious devotion and ritual",
+      "spiritual guidance",
+      "community gatherings"
+    ],
+    "items": [
+      "prayer and gathering rooms"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Sufi Members",
+          "modality": "donation",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
