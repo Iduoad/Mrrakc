@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "history/gate",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-gate",
+      "old-medina",
+      "port-access",
+      "customs",
+      "bab-diouana",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "Bab El Marsa",
     "id": "bab-el-marsa",
-    "description": "AKA Bab Diouana",
+    "description": "Bab El Marsa (meaning 'Gate of the Port') is one of the most historically and economically significant gates of Casablanca's Old Medina, situated near the harbor. It is also known as **Bab Diouana** (meaning 'Customs Gate'), indicating its primary function as the entry and exit point for goods and people connected to the port and customs house. The gate was central to the town's maritime trade and defense. Its location links the Old Medina's commercial streets directly to the port infrastructure, symbolizing the city's historical reliance on Atlantic trade.",
     "location": {
       "longitude": 33.6005625,
       "latitude": -7.6170625,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Date of Construction",
+        "date": "1780-01-01",
+        "description": "The gate was likely constructed as part of the rebuilding and fortification of Anfa (Casablanca) by Sultan Mohammed Ben Abdallah (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "exploring the old medina",
+      "historical research"
+    ],
+    "items": [
+      "historical city wall remnants",
+      "customs-related inscriptions (if extant)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gate access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "alawite dynasty (18th century)",
+      "pre-colonial era"
     ]
   }
 }

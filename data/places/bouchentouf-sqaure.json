@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "urban/square",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-space",
+      "square",
+      "neighborhood-center",
+      "social-hub",
+      "bouchentouf"
+    ]
   },
   "spec": {
-    "name": "Bouchentouf Sqaure",
+    "name": "Bouchentouf Square",
     "id": "bouchentouf-sqaure",
-    "description": "None",
+    "description": "Bouchentouf Square (Place Bouchentouf) is a prominent public square located in the popular Bouchentouf neighborhood of Casablanca. Public squares are essential components of Moroccan urban life, serving as gathering points, marketplaces, and social hubs. This square likely functions as the central point of the neighborhood, surrounded by local commerce, cafes, and residential buildings, providing a space for both planned and spontaneous community activity.",
     "location": {
       "longitude": 33.5696821,
       "latitude": -7.6030351,
@@ -16,15 +22,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "socializing and people-watching",
+      "local commerce and street market activity"
+    ],
+    "items": [
+      "fountain or monument (typical of Moroccan squares)",
+      "surrounding cafes and shops"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Square access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "shopping/market",
   "metadata": {
-    "tags": []
+    "tags": [
+      "market",
+      "commercial-district",
+      "retail",
+      "electronics",
+      "local-shopping",
+      "benjdia"
+    ]
   },
   "spec": {
     "name": "Benjdia Market",
     "id": "benjdia-market",
-    "description": "None",
+    "description": "Benjdia Market is one of Casablanca's busiest and most well-known commercial districts, particularly famous for a high concentration of retail stores selling electronics, household goods, clothing, and various imported commodities. Located in the central city, the area is characterized by bustling streets and crowded shops, operating as a critical local commercial hub rather than a traditional souk. It is a prime example of the intense retail activity in modern Casablanca.",
     "location": {
       "longitude": 33.5861605,
       "latitude": -7.6113346,
@@ -15,16 +22,36 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.tripadvisor.com/Attraction_Review-g293737-d15025752-Reviews-Benjdia_Market-Casablanca_Casablanca_Settat.html",
+        "type": "website",
+        "title": "Benjdia Market on TripAdvisor"
+      }
+    ],
+    "activities": [
+      "shopping for electronics and goods",
+      "experiencing local commerce",
+      "walking through the commercial district"
+    ],
+    "items": [
+      "retail stores and shops",
+      "diverse commercial goods (electronics, textiles, etc.)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "urban/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "community",
+      "ben-msik"
+    ]
   },
   "spec": {
     "name": "Ben Msik Garden",
     "id": "ben-msik-garden",
-    "description": "None",
+    "description": "Ben Msik Garden (Jardin Ben Msik) is a publicly accessible green space located in the densely populated Ben Msik neighborhood of Casablanca. Parks like this are crucial for providing recreational opportunities, leisure, and a natural respite for urban residents. It is a local center for family activities, sports, and community gathering, reflecting the importance of urban green infrastructure in modern Casablanca.",
     "location": {
       "longitude": 33.5559251,
       "latitude": -7.5650116,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "children's play",
+      "relaxing and socializing"
+    ],
+    "items": [
+      "landscaped areas",
+      "benches and paths"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

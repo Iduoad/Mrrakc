@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "history/gate",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-gate",
+      "old-medina",
+      "commerce",
+      "city-market",
+      "souk",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "Bab Marrakech",
     "id": "bab-marrakech",
-    "description": "None",
+    "description": "Bab Marrakech (meaning 'Gate of Marrakech') is a historical gate in the Old Medina, named for the direction it faces or the trading route it served, which historically linked the coastal city to the imperial city of Marrakech. This gate is particularly significant as it often leads directly to a bustling traditional market or 'souk' (the Souk Bab Marrakech), serving as a central hub for commerce, particularly the sale of traditional Moroccan crafts, leather goods, and spices. It is a vibrant and active part of the medina's surviving historical structure.",
     "location": {
       "longitude": 33.5982195,
       "latitude": -7.621492,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Date of Construction",
+        "date": "1780-01-01",
+        "description": "The gate was likely constructed as part of the rebuilding and fortification of Anfa (Casablanca) by Sultan Mohammed Ben Abdallah (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Casablanca",
+        "type": "article",
+        "title": "Casablanca Wikipedia Page (References the Medina's gates)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "shopping in the souk",
+      "exploring the old medina"
+    ],
+    "items": [
+      "historical city wall remnants",
+      "souk (market) of bab marrakech"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gate access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "alawite dynasty (18th century)",
+      "pre-colonial era"
     ]
   }
 }

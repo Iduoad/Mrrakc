@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "colonial-architecture",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Baille Building",
     "id": "baille-building",
-    "description": "\ud83d\udd3b Architect: Auguste Cadet & Edmond Brion<br>\ud83d\udd3b Dates: 1931<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Baille Building is a prominent residential and commercial structure in central Casablanca, designed in 1931 by the notable French architectural partnership of **Auguste Cadet** and **Edmond Brion**. The building is recognized for its sleek, monumental style, characteristic of the Art Deco movement and early modernism that dominated Casablanca's architecture during the French Protectorate. It forms part of the city's historical downtown area, which was carefully planned by Henri Prost, and remains an active residential building today.",
     "location": {
       "longitude": 33.594368,
       "latitude": -7.616434,
@@ -18,26 +25,47 @@
         "id": "people/auguste-cadet",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the Baille Building."
       },
       {
         "id": "people/edmond-brion",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the Baille Building and other prominent structures in Casablanca."
       }
     ],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1931-01-01",
+        "description": "The Baille Building was completed, designed by Cadet and Brion."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
+        "type": "website",
+        "title": "La Compagnie algérienne... (Reference to surrounding architecture)"
+      }
+    ],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

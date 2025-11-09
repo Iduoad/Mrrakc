@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "colonial-architecture",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Bennarosh Building",
     "id": "bennarosh-building",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Bennarosh Building is a distinctive residential and commercial building in Casablanca, designed by architect **Aldo Manassi** and completed in 1932. Manassi, an Italian architect, made significant contributions to the city's Art Deco and early modernist heritage. The Bennarosh Building exemplifies the period's focus on structured symmetry, geometric decoration, and multi-functional urban living, combining street-level commerce with upper-floor residences. It stands as a testament to the international influences that shaped Casablanca's 'new town' during the Protectorate.",
     "location": {
       "longitude": 33.5943554,
       "latitude": -7.6167903,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/aldo-manassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Italian architect who designed the Bennarosh Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1932-01-01",
+        "description": "The Bennarosh Building was completed, designed by Aldo Manassi."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "commercial ground floor"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

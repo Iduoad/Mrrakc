@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Bendahan Building",
     "id": "bendahan-building",
-    "description": "\ud83d\udd3b Architect: Edmond Brion<br>\ud83d\udd3b Dates: 1935<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2003",
+    "description": "The Bendahan Building is a striking architectural landmark in Casablanca, designed by French architect **Edmond Brion** and completed in 1935. It is known for its elegant Art Deco style, characterized by streamlined geometric forms and a monumental facade. The building, located in a key area of the 'new town,' features commercial space on the ground floor and residential apartments above. It is a prime example of Casablanca's architectural heritage from the Protectorate era, a status formalized by its designation as a **National Material Patrimony** site in 2003.",
     "location": {
       "longitude": 33.5949466,
       "latitude": -7.6170557,
@@ -18,20 +25,45 @@
         "id": "people/edmond-brion",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who designed the building and other notable structures in Casablanca."
       }
     ],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1935-01-01",
+        "description": "The Bendahan Building was completed, designed by Edmond Brion."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2003-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa - References historical bank buildings in the area)"
+      }
+    ],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
