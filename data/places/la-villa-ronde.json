@@ -2,29 +2,81 @@
   "version": "mrrakc/v0",
   "kind": "architecture/villa",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "villa",
+      "modernist",
+      "mid-century-modern",
+      "national-heritage",
+      "1960s"
+    ]
   },
   "spec": {
     "name": "La Villa Ronde",
     "id": "la-villa-ronde",
-    "description": "\ud83d\udd3b Architect: Wolfgang Ewerth<br>\ud83d\udd3b Dates: 1963-1964<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2003<br>\ud83d\udd3b Comments: AKA Villa Camembert, AKA Villa Docteur B.<br><br>https://docplayer.fr/84787303-Villa-ronde-casablanca-wolfgang-ewerth-1963-1964.html",
+    "description": "La Villa Ronde (The Round Villa), famously nicknamed **Villa Camembert** or Villa Docteur B., is an iconic piece of modernist architecture in Casablanca. Designed by German architect **Wolfgang Ewerth** and built between 1963 and 1964, the house is celebrated for its highly unconventional circular shape, which stands out in the urban landscape. It is a key example of post-independence architectural experimentation and design freedom. The villa's unique importance was formally recognized by its designation as a **National Material Patrimony** site in 2003.",
     "location": {
       "longitude": 33.5868853,
       "latitude": -7.66717,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/wolfgang-ewerth",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "German architect who designed the distinctive circular villa."
+      },
+      {
+        "id": "people/docteur-b",
+        "relationship": [
+          "original-owner"
+        ],
+        "comment": "Original owner after whom the villa is sometimes named (Villa Docteur B.)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Began",
+        "date": "1963-01-01",
+        "description": "Construction of the modernist villa began."
+      },
+      {
+        "title": "Building Completed",
+        "date": "1964-01-01",
+        "description": "The villa was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2003-01-01",
+        "description": "The villa was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://docplayer.fr/84787303-Villa-ronde-casablanca-wolfgang-ewerth-1963-1964.html",
+        "type": "article",
+        "title": "Villa Ronde Casablanca Wolfgang Ewerth 1963-1964 (Architectural Document)"
+      }
+    ],
+    "activities": [
+      "architectural observation and photography",
+      "historical research"
+    ],
+    "items": [
+      "circular residential structure",
+      "architectural drawings (in archives)"
+    ],
     "access": {
-      "type": "public",
+      "type": "private",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is an inhabited private residence; exterior view is public, interior access is restricted to residents."
     },
     "timePeriods": [
-      ""
+      "post-independence era",
+      "20th century (1960s)"
     ]
   }
 }

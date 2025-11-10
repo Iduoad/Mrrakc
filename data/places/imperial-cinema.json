@@ -2,29 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "art-deco",
+      "closed",
+      "national-heritage",
+      "early-20th-century"
+    ]
   },
   "spec": {
-    "name": "Imp\u00e9rial Cinema",
+    "name": "Impérial Cinema",
     "id": "imperial-cinema",
-    "description": "\ud83d\udd3b Dates: Early 20th century<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "Impérial Cinema (Cinéma Impérial) is a historically significant movie theater located near the Old Medina and the new town's central commercial district. Dating back to the **early 20th century**, it is one of the oldest grand cinemas established during Casablanca's rapid development under the French Protectorate. Like many of its contemporaries, it was designed in the monumental Art Deco style. Though currently **closed**, its importance to the city's cultural and architectural heritage was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5988998,
       "latitude": -7.6170491,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The cinema was established during the golden age of cinema in Casablanca (Approximate date)."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical cinema facade and interiors"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The cinema is currently closed for operation; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "french protectorate era (1912-1956)"
     ]
   }
 }

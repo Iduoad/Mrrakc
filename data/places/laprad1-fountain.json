@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "urban/fountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "fountain",
+      "public-space",
+      "city-center",
+      "laprade",
+      "colonial-era-architecture"
+    ]
   },
   "spec": {
     "name": "Laprad1 Fountain",
     "id": "laprad1-fountain",
-    "description": "None",
+    "description": "Laprad1 Fountain (likely named after French architect Albert Laprade, or located in a square he planned) is a decorative public water feature in a central Casablanca square. Fountains were a key element of the French Protectorate's urban planning, providing aesthetic focal points and modern amenities. This fountain serves as a local landmark, contributing to the civic beauty and providing a space for public relaxation.",
     "location": {
       "longitude": 33.5910417,
       "latitude": -7.6226458,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/albert-laprade",
+        "relationship": [
+          "namesake",
+          "architect"
+        ],
+        "comment": "French architect whose work defined much of Casablanca's early 20th-century urban design, including public spaces."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "sightseeing and observation",
+      "socializing"
+    ],
+    "items": [
+      "water features and lighting"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Fountain viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,48 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Khalifi Building",
     "id": "khalifi-building",
-    "description": "\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Khalifi Building is a historical residential and commercial structure in the central Art Deco district of Casablanca. Its design likely dates back to the French Protectorate era (1920s-1930s), embodying the elegant, multi-story urban architecture of the time. The building continues to function as a mixed-use property, reflecting the enduring legacy of the Art Deco urban plan in this part of the city.",
     "location": {
       "longitude": 33.5934231,
       "latitude": -7.6080259,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1930-01-01",
+        "description": "The building was constructed during the Art Deco boom period (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

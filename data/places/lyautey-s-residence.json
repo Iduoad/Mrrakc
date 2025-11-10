@@ -2,29 +2,72 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residence",
+      "government",
+      "neo-moorish",
+      "lyautey",
+      "colonial-architecture"
+    ]
   },
   "spec": {
-    "name": "Lyautey-s Residence",
+    "name": "Lyautey's Residence",
     "id": "lyautey-s-residence",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1915<br>\ud83d\udd3b Current Status: Office for the Morocco Union of workers<br>\ud83d\udd3b Description: This used to be the residency of the General Resident Marechal Lyautey.",
+    "description": "Lyautey's Residence (Résidence du Général Lyautey) is a highly significant historical building, constructed in 1915 and designed by architect **Pierre Bousquet**. It was the personal residence of **Marshal Hubert Lyautey**, the first French Resident-General of Morocco and the chief architect of Casablanca's modern urban plan. The architecture is a prime example of the early **Neo-Moorish** style favored by Lyautey. The building is currently repurposed as an office for the **Morocco Union of Workers** (Union Marocaine du Travail - UMT), maintaining its status as a landmark of civic importance.",
     "location": {
       "longitude": 33.6015568,
       "latitude": -7.6188157,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/hubert-lyautey",
+        "relationship": [
+          "original-owner",
+          "historical-figure"
+        ],
+        "comment": "First French Resident-General of Morocco and commissioner of the urban plan."
+      },
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the residence."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1915-01-01",
+        "description": "The residence for General Resident Lyautey was completed."
+      },
+      {
+        "title": "Repurposing",
+        "date": "1960-01-01",
+        "description": "The building was repurposed to serve as the headquarters for the Morocco Union of Workers (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "conducting labor union business (restricted)"
+    ],
+    "items": [
+      "neo-moorish architectural facade",
+      "historical administrative offices"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as a private organization's office; interior access is restricted to members and staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

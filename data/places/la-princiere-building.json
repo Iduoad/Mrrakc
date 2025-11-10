@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
-    "name": "La Princiere Building",
+    "name": "La Princière Building",
     "id": "la-princiere-building",
-    "description": "\ud83d\udd3b Architect: Alexandre Cormier<br>\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2005",
+    "description": "La Princière Building (Immeuble La Princière) is a historical residential and commercial structure in Casablanca, completed in 1925 and designed by architect **Alexandre Cormier**. The building exemplifies the early Art Deco architectural movement, a style that dominated the 'new town' construction during the French Protectorate. Its architectural and historical significance was formally recognized with its designation as a **National Material Patrimony** site in 2005.",
     "location": {
       "longitude": 33.592924,
       "latitude": -7.6170402,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/alexandre-cormier",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1925-01-01",
+        "description": "The building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2005-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

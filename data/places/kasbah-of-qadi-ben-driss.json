@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "history/kasbah",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-site",
+      "kasbah",
+      "fortification",
+      "qadi",
+      "historical-figure",
+      "archaeology"
+    ]
   },
   "spec": {
     "name": "Kasbah of Qadi Ben Driss",
     "id": "kasbah-of-qadi-ben-driss",
-    "description": "None",
+    "description": "The Kasbah of Qadi Ben Driss (Citadel of Judge Ben Driss) refers to the remnants of a historical fortification or administrative complex in the Casablanca region, named after a figure of local authority (Qadi Ben Driss). The presence of a kasbah structure points to a site of historical importance, likely serving as a defensive, residential, and administrative center in the pre-colonial or early colonial era. While much of the original structure may be gone, the site remains a marker of local history.",
     "location": {
       "longitude": 33.544822,
       "latitude": -7.5901284,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/qadi-ben-driss",
+        "relationship": [
+          "namesake",
+          "historical-figure",
+          "administrator"
+        ],
+        "comment": "The Qadi (Judge) after whom the kasbah is named, a figure of local authority."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "historical research",
+      "archaeological observation (if accessible)"
+    ],
+    "items": [
+      "remnants of historical fortifications"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Site access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "pre-colonial era",
+      "19th century"
     ]
   }
 }

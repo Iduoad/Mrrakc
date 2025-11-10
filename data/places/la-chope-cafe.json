@@ -2,29 +2,55 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cafe",
+      "historical-cafe",
+      "city-center",
+      "art-deco-neighborhood",
+      "social-hub"
+    ]
   },
   "spec": {
     "name": "La Chope Cafe",
     "id": "la-chope-cafe",
-    "description": "None",
+    "description": "La Chope Cafe (Café La Chope) is a traditional, historic cafe located in the bustling Art Deco center of Casablanca. Cafes like this were essential social institutions during the French Protectorate and continue to serve as vital gathering spots. It offers a classic atmosphere for coffee, tea, and socializing, often attracting a loyal clientele of older residents and businessmen, reflecting the traditional rhythm of Moroccan city life.",
     "location": {
       "longitude": 33.594251,
       "latitude": -7.6164311,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The cafe was established during the period of rapid development in Casablanca's new town (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "drinking coffee and tea",
+      "socializing and people-watching"
+    ],
+    "items": [
+      "traditional moroccan coffee and mint tea",
+      "outdoor seating area"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Cafe services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

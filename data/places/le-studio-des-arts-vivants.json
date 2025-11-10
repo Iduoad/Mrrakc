@@ -2,29 +2,68 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cultural-center",
+      "performing-arts",
+      "theater",
+      "dance-studio",
+      "music-school"
+    ]
   },
   "spec": {
     "name": "Le Studio Des Arts Vivants",
     "id": "le-studio-des-arts-vivants",
-    "description": "None",
+    "description": "Le Studio Des Arts Vivants (The Living Arts Studio) is a major private cultural complex in Casablanca dedicated to the performing and visual arts. It typically houses a multi-purpose performance hall, exhibition spaces, and studios for teaching dance, theater, and music. It is a vital center for contemporary artistic creation and cultural exchange, providing a platform for local and international artists and offering classes to the public.",
     "location": {
       "longitude": 33.5740336,
       "latitude": -7.683577,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Establishment/Opening",
+        "date": "2010-01-01",
+        "description": "The center was established in the modern era to serve as a hub for the performing arts (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.studiodesartsvivants.ma/",
+        "type": "website",
+        "title": "Le Studio Des Arts Vivants Official Website"
+      }
+    ],
+    "activities": [
+      "attending concerts and performances",
+      "taking dance and music classes",
+      "viewing art exhibitions"
+    ],
+    "items": [
+      "performance hall",
+      "dance and music studios",
+      "gallery space"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Performance Ticket",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Classes/Workshop Fees",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

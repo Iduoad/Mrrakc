@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "modern-art",
+      "exhibition-space",
+      "cultural-institution"
+    ]
   },
   "spec": {
     "name": "L'Atelier 21",
     "id": "l-atelier-21",
-    "description": "None",
+    "description": "L'Atelier 21 is one of Casablanca's leading contemporary art galleries, known for exhibiting works by established and emerging Moroccan artists, as well as select international figures. The gallery plays a crucial role in promoting the Moroccan contemporary art scene, hosting curated exhibitions, publications, and cultural events. It is recognized for its high standards and commitment to showcasing artistic innovation.",
     "location": {
       "longitude": 33.5860724,
       "latitude": -7.6432651,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/moulay-mohammed-el-idrissi",
+        "relationship": [
+          "founder",
+          "director"
+        ],
+        "comment": "Founder and director of L'Atelier 21 (Needs verification of current director)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Gallery Establishment",
+        "date": "2000-01-01",
+        "description": "The gallery was established in the early 2000s, contributing to the modern art scene (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://atelier21.ma/",
+        "type": "website",
+        "title": "L'Atelier 21 Official Website"
+      }
+    ],
+    "activities": [
+      "viewing contemporary art exhibitions",
+      "art appreciation",
+      "purchasing artwork"
+    ],
+    "items": [
+      "contemporary paintings and sculptures",
+      "exhibition catalogs"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

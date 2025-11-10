@@ -2,29 +2,73 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "modernist",
+      "repurposed",
+      "national-heritage",
+      "1950s"
+    ]
   },
   "spec": {
     "name": "Liberty Cinema",
     "id": "liberty-cinema",
-    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Marjane Market<br>\ud83d\udd3b National Material Patrimony Declaration: 2014",
+    "description": "Liberty Cinema (Cinéma Liberté) is a former major movie theater completed in 1954, designed by architect **Albert Planque**. Like many cinemas of the mid-20th century, its architecture reflected the clean lines and functionalism of the Modernist style. The building is historically significant, but the cinema operations have ceased, and the structure has been **repurposed into a commercial space (Marjane Market)**. Its architectural heritage was formally acknowledged by its designation as a **National Material Patrimony** site in 2014.",
     "location": {
       "longitude": 33.5879236,
       "latitude": -7.6124881,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/albert-planque",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the cinema building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1954-01-01",
+        "description": "The Liberty Cinema building was completed."
+      },
+      {
+        "title": "Repurposing",
+        "date": "2000-01-01",
+        "description": "The cinema was closed and the structure repurposed into a supermarket (Approximate date)."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2014-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "retail shopping (current function)",
+      "architectural observation"
+    ],
+    "items": [
+      "historical cinema architecture preserved in facade",
+      "commercial interior space"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

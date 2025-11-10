@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Levy et Charbon Building",
     "id": "levy-et-charbon-building",
-    "description": "\ud83d\udd3b Architect: Ignacio Sansone & Paul Busuttil<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Levy et Charbon Building is a historical residential and commercial structure completed in 1929. It was designed by architects **Ignacio Sansone and Paul Busuttil**, who contributed to the city's rich Art Deco and Mediterranean-influenced architectural landscape. The building's design is typical of the multi-story apartment and retail blocks constructed in Casablanca's central district during the Protectorate era, designed for mixed use and reflecting the era's decorative styles.",
     "location": {
       "longitude": 33.5947647,
       "latitude": -7.6100595,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/ignacio-sansone",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      },
+      {
+        "id": "people/paul-busuttil",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1929-01-01",
+        "description": "The Levy et Charbon Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "urban/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "La Concorde Garden",
     "id": "la-concorde-garden",
-    "description": "None",
+    "description": "La Concorde Garden (Jardin de la Concorde) is a public green space located in a central district of Casablanca. Its name, 'Concorde,' suggests a theme of harmony or civic peace. The park provides a much-needed open area for urban residents, offering paths for walking and benches for resting, contrasting the surrounding commercial and residential density. It contributes to the city's structured public spaces established in the early to mid-20th century.",
     "location": {
       "longitude": 33.5960268,
       "latitude": -7.6240641,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "relaxing and socializing"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

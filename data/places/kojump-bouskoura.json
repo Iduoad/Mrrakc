@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/amusement-park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "trampoline-park",
+      "indoor-amusement",
+      "leisure",
+      "family-fun",
+      "bouskoura"
+    ]
   },
   "spec": {
     "name": "Kojump Bouskoura",
     "id": "kojump-bouskoura",
-    "description": "None",
+    "description": "Kojump Bouskoura is a modern, dedicated **trampoline park** located in the Bouskoura area near Casablanca. It offers a variety of indoor leisure and physical activities, including trampolines, foam pits, and obstacle courses, catering primarily to children, teenagers, and families. It is a popular venue for active entertainment and birthday parties in the suburban zone.",
     "location": {
       "longitude": -7.6329134,
       "latitude": 33.4876924,
@@ -15,18 +21,36 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "trampoline_park"
+    "links": [
+      {
+        "url": "https://kojump.ma/",
+        "type": "website",
+        "title": "Kojump Trampoline Park Official Website"
+      }
     ],
-    "items": [],
+    "activities": [
+      "trampoline jumping and activities",
+      "indoor sports and fitness",
+      "birthday parties and group events"
+    ],
+    "items": [
+      "large trampoline arenas",
+      "foam pits and climbing walls"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Hourly Jumping Rate",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

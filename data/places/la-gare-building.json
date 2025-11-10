@@ -2,29 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "La Gare Building",
     "id": "la-gare-building",
-    "description": "\ud83d\udd3b Dates: 1920s<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2012",
+    "description": "The La Gare Building (Immeuble La Gare) is a historical structure dating from the **1920s**, likely named for its proximity to a train station (Gare). Its central location and architecture reflect the rapid urban development and Art Deco influence of the French Protectorate era. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2012.",
     "location": {
       "longitude": 33.5941736,
       "latitude": -7.6038941,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1925-01-01",
+        "description": "The building was completed during the mid-1920s (Approximate date)."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2012-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

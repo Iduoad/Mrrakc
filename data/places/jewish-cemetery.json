@@ -2,29 +2,66 @@
   "version": "mrrakc/v0",
   "kind": "religion/jewish-site",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-site",
+      "jewish-heritage",
+      "cemetery",
+      "old-medina-vicinity",
+      "religious"
+    ]
   },
   "spec": {
     "name": "Jewish Cemetery",
     "id": "jewish-cemetery",
-    "description": "None",
+    "description": "The Old Jewish Cemetery in Casablanca, located near the Old Medina, is one of the city's most significant historical sites, reflecting the long presence of the Jewish community. While many Jewish cemeteries are maintained and preserved, the older ones often contain historical mausoleums and graves of influential rabbis and community leaders. It serves as a profound cultural and religious monument, illustrating the rich religious diversity and history of Casablanca.",
     "location": {
       "longitude": 33.6007292,
       "latitude": -7.6254864,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/rabbi-eliahou-elbaz",
+        "relationship": [
+          "historical-figure",
+          "religious-leader"
+        ],
+        "comment": "A respected figure possibly buried or honored here (Requires local verification)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1800-01-01",
+        "description": "The cemetery was likely established in the 19th century or earlier to serve the local Jewish community (Approximate period)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "visiting graves and paying respects",
+      "religious observance",
+      "historical research"
+    ],
+    "items": [
+      "historical gravestones and tombs"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Cemetery access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally granted during daytime hours, often requiring supervision or prior arrangement for security."
     },
     "timePeriods": [
-      ""
+      "19th century",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

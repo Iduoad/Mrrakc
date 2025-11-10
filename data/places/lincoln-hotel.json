@@ -2,29 +2,78 @@
   "version": "mrrakc/v0",
   "kind": "architecture/hotel",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "hotel",
+      "art-deco",
+      "renovated",
+      "national-heritage",
+      "1910s"
+    ]
   },
   "spec": {
     "name": "Lincoln Hotel",
     "id": "lincoln-hotel",
-    "description": "\ud83d\udd3b Architect: Hubert Bride <br>\ud83d\udd3b Dates: 1917<br>\ud83d\udd3b Current Status: Renovated<br>\ud83d\udd3b National Material Patrimony Declaration: 2000<br>\ud83d\udd3b Comments: Also known as Bessonneau Building",
+    "description": "The Lincoln Hotel, also known as the **Bessonneau Building**, is one of Casablanca's most famous and architecturally significant landmarks. Designed by architect **Hubert Bride** and completed around 1917, it is an early, monumental Art Deco/Neo-Moorish structure located in the city center. The building fell into disrepair for decades but has been subject to a major **renovation and restoration project** aiming to return it to its former glory. It was declared a **National Material Patrimony** site in 2000, ensuring its preservation as a key piece of the city's architectural identity.",
     "location": {
       "longitude": 33.594192,
       "latitude": -7.6118726,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/hubert-bride",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the Lincoln Hotel/Bessonneau Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1917-01-01",
+        "description": "The Lincoln Hotel building was completed and opened."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2000-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lincoln_Hotel_(Casablanca)",
+        "type": "article",
+        "title": "Lincoln Hotel (Casablanca) Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "historical research",
+      "staying at the renovated hotel (future)"
+    ],
+    "items": [
+      "art deco facade elements",
+      "historical balconies and railings"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "The building is open for exterior observation; interior access is restricted and dependent on the status of renovation."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period (restoration)"
     ]
   }
 }

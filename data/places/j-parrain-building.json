@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "J. Parrain Building",
     "id": "j-parrain-building",
-    "description": "\ud83d\udd3b Architect: Robert Li\u00e8vre<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The J. Parrain Building is a historical residential and commercial structure in central Casablanca, designed in 1928 by architect **Robert Lièvre**. Lièvre was a prolific French architect whose work contributed significantly to the Art Deco and Modernist appearance of the city's 'new town.' The building's design features the typical geometric detailing and functional mix of ground-floor commerce and upper-floor residences. Its historical value was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5881786,
       "latitude": -7.6195222,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/robert-lievre",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1928-01-01",
+        "description": "The J. Parrain Building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

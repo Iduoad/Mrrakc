@@ -2,29 +2,64 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "modernist",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "La Nationale Building",
     "id": "la-nationale-building",
-    "description": "\ud83d\udd3b Architect: Xavier Rendu & R. Ponsard<br>\ud83d\udd3b Dates: 1930/1931<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The La Nationale Building (Immeuble La Nationale) is a historical residential and commercial building completed between 1930 and 1931. It was designed by architects **Xavier Rendu and R. Ponsard**. The building exemplifies the Art Deco and early Modernist styles that characterized Casablanca's downtown area, featuring multi-story units and often decorative architectural elements. These buildings defined the city's commercial and residential boom during the French Protectorate.",
     "location": {
       "longitude": 33.5898645,
       "latitude": -7.619565,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/xavier-rendu",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      },
+      {
+        "id": "people/r-ponsard",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1931-01-01",
+        "description": "The La Nationale Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

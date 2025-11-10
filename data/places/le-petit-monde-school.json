@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": []
+    "tags": [
+      "education",
+      "historical-building",
+      "private-school",
+      "albert-planque",
+      "colonial-architecture"
+    ]
   },
   "spec": {
     "name": "Le petit monde School",
     "id": "le-petit-monde-school",
-    "description": "\ud83d\udd3b Architect: Albert Planque<br>\ud83d\udd3b Current Status: School",
+    "description": "Le petit monde School (L'école Le Petit Monde) is a private educational institution in Casablanca. The school building was designed by architect **Albert Planque**, who was active during the French Protectorate era. Its architecture likely reflects the functional and often aesthetically simple design applied to educational and residential buildings in the mid-20th century, ensuring a healthy and spacious environment for students. It continues to operate as a school.",
     "location": {
       "longitude": 33.5580205,
       "latitude": -7.617765,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/albert-planque",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the school building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1950-01-01",
+        "description": "The school building was likely completed in the post-war/late Protectorate era (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "education and learning"
+    ],
+    "items": [
+      "school buildings and facilities",
+      "playgrounds"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "School Enrollment Fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

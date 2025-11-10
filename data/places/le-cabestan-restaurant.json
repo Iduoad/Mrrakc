@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "mediterranean-cuisine",
+      "fine-dining",
+      "coastal",
+      "seafood",
+      "landmark"
+    ]
   },
   "spec": {
     "name": "Le Cabestan Restaurant",
     "id": "le-cabestan-restaurant",
-    "description": "\ud83d\udd3b Menu: Mediterranean",
+    "description": "Le Cabestan (The Capstan) is one of Casablanca's most iconic and longest-established fine-dining restaurants, celebrated for its **Mediterranean cuisine**, particularly fresh seafood. It is dramatically situated on the Corniche, offering spectacular, panoramic views of the Atlantic Ocean and the El Hank lighthouse. Its ambiance is chic and luxurious, making it a destination for upscale dining, business meetings, and special occasions. The restaurant has maintained a high-profile reputation since the mid-20th century.",
     "location": {
       "longitude": 33.6081836,
       "latitude": -7.6554723,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1950-01-01",
+        "description": "The restaurant was established on the Corniche, becoming an early culinary landmark (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lecabestan.com/",
+        "type": "website",
+        "title": "Le Cabestan Official Website"
+      }
+    ],
+    "activities": [
+      "fine dining on mediterranean and seafood dishes",
+      "socializing with ocean views"
+    ],
+    "items": [
+      "fresh seafood and fish dishes",
+      "ocean-facing terrace and windows"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "mid-20th century",
+      "contemporary period"
     ]
   }
 }

@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "international-cuisine",
+      "seaside-dining",
+      "coastal"
+    ]
   },
   "spec": {
     "name": "La Cascade Restaurant",
     "id": "la-cascade-restaurant",
-    "description": "\ud83d\udd3b Menu: International",
+    "description": "La Cascade Restaurant (The Cascade Restaurant) is a dining establishment in Casablanca, often located in the coastal or high-end leisure districts, specializing in a varied **International menu**. Its name might suggest a setting with water features or an expansive, tiered layout. The restaurant provides a sophisticated culinary experience, catering to an audience seeking diverse cuisine and a pleasant, possibly scenic, ambiance.",
     "location": {
       "longitude": 33.6059074,
       "latitude": -7.6575883,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on international cuisine",
+      "socializing"
+    ],
+    "items": [
+      "international menu items",
+      "cocktail bar (if applicable)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

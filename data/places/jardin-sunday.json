@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "urban/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "local-park"
+    ]
   },
   "spec": {
     "name": "Jardin Sunday",
     "id": "jardin-sunday",
-    "description": "None",
+    "description": "Jardin Sunday (likely named for a nearby street or feature) is a local public park or garden in Casablanca, serving as an important green space for the surrounding community. These parks offer residents a place for outdoor recreation, exercise, and quiet relaxation, contributing to the quality of urban life in the city's residential areas.",
     "location": {
       "longitude": 33.5380076,
       "latitude": -7.5763572,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "relaxing and picnicking",
+      "children's play"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
