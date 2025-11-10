@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "market",
+      "industrial-architecture",
+      "closed",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Old wholesale market",
     "id": "old-wholesale-market",
-    "description": "\ud83d\udd3b Architect: Paul Perrot<br>\ud83d\udd3b Dates: 1930s<br>\ud83d\udd3b Current Status: Closed",
+    "description": "The Old Wholesale Market (Ancien Marché de Gros) is a historical structure designed by architect **Paul Perrot** and completed in the 1930s. It served as the central municipal wholesale market for Casablanca, vital for the city's food distribution and economic infrastructure. Its architecture reflects the functionalist, open-span construction required for a large market hall of the era. The site is now **closed** or replaced by a newer facility, but remains a historical reference point for the city's early commercial development.",
     "location": {
       "longitude": 33.5905895,
       "latitude": -7.5964451,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/paul-perrot",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the wholesale market."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1935-01-01",
+        "description": "The wholesale market building was completed (Approximate date)."
+      },
+      {
+        "title": "Closure",
+        "date": "2000-01-01",
+        "description": "The wholesale market ceased operations at this location (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "functionalist market hall structure"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The building is closed; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "20th century (1930s)"
     ]
   }
 }

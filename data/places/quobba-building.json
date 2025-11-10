@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "exhibition",
+      "cultural-center",
+      "neo-moorish",
+      "reconstructed"
+    ]
   },
   "spec": {
     "name": "Quobba Building",
     "id": "quobba-building",
-    "description": "\ud83d\udd3b Architect: Pierre Gosset<br>\ud83d\udd3b Dates: 1915<br>\ud83d\udd3b Current Status: Cultural Center<br>\ud83d\udd3b Comments: It was originally part of the Moroccan-French Exposition in what is now Marche Central. When Marche Central construction started, the Quobba was moved as is to Arab League Park.",
+    "description": "The Quobba Building (Al Quobba, meaning 'dome' or pavilion) is a historical architectural structure designed by **Pierre Gosset** and constructed in 1915. It was originally part of the Moroccan-French Exposition held on the site of the future Marché Central. When the market construction began, the Quobba was carefully **moved 'as is'** and relocated to its current position in the Arab League Park. This Quobba, featuring Neo-Moorish architectural details, is now often used as a small **Cultural Center** or pavilion, standing as a unique relic of the city's early colonial exhibitions and urban planning changes.",
     "location": {
       "longitude": 33.5895732,
       "latitude": -7.6245064,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-gosset",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the Quobba Pavilion for the 1915 Exposition."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Original Construction (for Exposition)",
+        "date": "1915-01-01",
+        "description": "The Quobba was constructed for the Moroccan-French Exposition."
+      },
+      {
+        "title": "Relocation to Arab League Park",
+        "date": "1917-01-01",
+        "description": "The Quobba was moved to its current location when the Marché Central construction began (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "attending small cultural events (if hosting)",
+      "architectural observation",
+      "relaxing in the park"
+    ],
+    "items": [
+      "neo-moorish dome and pavilion structure"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "The exterior is public; interior access depends on cultural events being hosted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

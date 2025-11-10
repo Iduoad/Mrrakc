@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "sports/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "sports-facility",
+      "calisthenics",
+      "outdoor-gym",
+      "fitness",
+      "public-space"
+    ]
   },
   "spec": {
-    "name": "park calisthenics",
+    "name": "Park Calisthenics",
     "id": "park-calisthenics",
-    "description": "None",
+    "description": "Park Calisthenics (Parc de Calisthénie) is a public fitness and sports area dedicated to calisthenics (bodyweight exercises). These facilities, featuring pull-up bars, parallel bars, and other structured equipment, are increasingly common in modern urban parks. The park provides free access to fitness equipment, promoting public health and physical activity in the local community.",
     "location": {
       "longitude": -7.5686789,
       "latitude": 33.5532819,
@@ -17,16 +23,27 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "calisthenics"
+      "calisthenics and bodyweight exercises",
+      "fitness and training"
     ],
-    "items": [],
+    "items": [
+      "pull-up bars and parallel bars",
+      "outdoor exercise equipment"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access and equipment use",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

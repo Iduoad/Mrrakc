@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "pierre-jabin",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Moretti-Milone Building",
     "id": "moretti-milone-building",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1934<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Moretti-Milone Building is a historical residential and commercial structure completed in 1934. It was designed by architect **Pierre Jabin**, known for his contributions to the Art Deco and Modernist movements in Casablanca. The building is named after its original owners (Moretti and Milone, likely Italian), reflecting the diverse European communities that commissioned key architectural projects during the Protectorate era. It remains an actively inhabited urban block.",
     "location": {
       "longitude": 33.5972394,
       "latitude": -7.6161201,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-jabin",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1934-01-01",
+        "description": "The Moretti-Milone Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

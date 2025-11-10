@@ -2,29 +2,78 @@
   "version": "mrrakc/v0",
   "kind": "shopping/market",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-market",
+      "covered-market",
+      "fresh-produce",
+      "architecture",
+      "national-heritage",
+      "1910s"
+    ]
   },
   "spec": {
-    "name": "March\u00e9 Central",
+    "name": "Marché Central",
     "id": "marche-central",
-    "description": "\ud83d\udd3b Architect:\u00a0 Pierre Bousquet<br>\ud83d\udd3b Dates: 1917<br>\ud83d\udd3b Current Status: Market<br>\ud83d\udd3b National Material Patrimony Declaration: 2003<br>\ud83d\udd3b Description: One of the oldest Marketplaces of the city.",
+    "description": "The Marché Central (Central Market) is the oldest and most famous marketplace in Casablanca's modern city. Designed by architect **Pierre Bousquet** and completed in 1917, it was conceived as a central hub for fresh food and general commerce in the 'new town' during the French Protectorate. The market's architecture combines Neo-Moorish elements (in its entrance) with a functionalist market hall design. Today, it remains a bustling, vibrant space, popular for its fresh fish, produce, flowers, and local crafts. It was declared a **National Material Patrimony** site in 2003.",
     "location": {
       "longitude": 33.5948778,
       "latitude": -7.6121075,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the market building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1917-01-01",
+        "description": "The Marché Central building was completed and opened for commerce."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2003-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lonelyplanet.com/morocco/casablanca/attractions/marche-central/a/poi-sig/427214/359368",
+        "type": "article",
+        "title": "Marché Central (Lonely Planet)"
+      }
+    ],
+    "activities": [
+      "shopping for fresh produce and seafood",
+      "dining at market food stalls",
+      "architectural observation"
+    ],
+    "items": [
+      "fresh seafood and fish market",
+      "produce and flower stalls",
+      "neo-moorish entrance arch"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

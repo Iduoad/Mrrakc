@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cafe-restaurant",
+      "modern-dining",
+      "social-hub",
+      "marina-district"
+    ]
   },
   "spec": {
-    "name": "Mood's Caf\u00e9-Restaurant",
+    "name": "Mood's Café-Restaurant",
     "id": "mood-s-cafe-restaurant",
-    "description": "None",
+    "description": "Mood's Café-Restaurant is a modern dual-function establishment offering both cafe services and a full restaurant menu. Located in the developing Marina district of Casablanca, it caters to urban professionals and visitors to the area, providing a contemporary setting for casual dining, business meetings, and coffee. Its location suggests a focus on modern ambiance and a diverse, international-style menu.",
     "location": {
       "longitude": 33.6065793,
       "latitude": -7.6191761,
@@ -16,15 +21,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining and drinking coffee",
+      "socializing and business meetings"
+    ],
+    "items": [
+      "cafe and restaurant menu options"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Cafe and restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

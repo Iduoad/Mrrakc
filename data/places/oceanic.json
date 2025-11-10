@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "historical-site",
+      "seaside",
+      "coastal"
+    ]
   },
   "spec": {
     "name": "Oceanic",
     "id": "oceanic",
-    "description": "1947<br>1954",
+    "description": "Oceanic (Restaurant Océanic) is a historical restaurant located near the ocean, likely the Ain Sebaa area. The dates 1947 and 1954 refer to important periods, potentially the construction and a major renovation/expansion. Restaurants with this name typically specialize in fresh seafood and have been institutions in coastal cities for decades, capitalizing on the Atlantic setting.",
     "location": {
       "longitude": 33.619497,
       "latitude": -7.5367328,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1947-01-01",
+        "description": "The restaurant was established (Approximate date)."
+      },
+      {
+        "title": "Major Renovation/Reopening",
+        "date": "1954-01-01",
+        "description": "The restaurant underwent a major renovation or reconstruction (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on seafood",
+      "coastal dining"
+    ],
+    "items": [
+      "fresh seafood and fish dishes",
+      "ocean views"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (1940s-1950s)",
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Omar Tazi Building",
     "id": "omar-tazi-building",
-    "description": "\ud83d\udd3b Architect: Aldo Manassi<br>\ud83d\udd3b Dates: 1931<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "The Omar Tazi Building is a historical residential and commercial structure completed in 1931. It was designed by the Italian architect **Aldo Manassi**, a prolific contributor to Casablanca's Art Deco and Modernist heritage. The building's name is associated with the influential Tazi family, reflecting the involvement of wealthy Moroccan families in the city's architectural development during the Protectorate era. Its historical value was recognized by its designation as a **National Material Patrimony** site in 2004.",
     "location": {
       "longitude": 33.5944317,
       "latitude": -7.6179541,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/aldo-manassi",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Italian architect who designed the building."
+      },
+      {
+        "id": "people/omar-tazi-family",
+        "relationship": [
+          "original-owner",
+          "patron"
+        ],
+        "comment": "The family that commissioned the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1931-01-01",
+        "description": "The Omar Tazi Building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2004-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

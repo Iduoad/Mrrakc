@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "moroccan-cuisine",
+      "old-medina-vicinity",
+      "traditional-dining"
+    ]
   },
   "spec": {
     "name": "Medina Restaurant",
     "id": "medina-restaurant",
-    "description": "\ud83d\udd3b Menu: Moroccan",
+    "description": "Medina Restaurant is a dining establishment specializing in **Moroccan cuisine**, likely located close to the Old Medina. Restaurants in this area often focus on providing traditional dishes (tagines, couscous, pastilla) in an authentic, or Neo-Moorish inspired, setting, catering to both tourists exploring the historic district and locals seeking traditional food.",
     "location": {
       "longitude": 33.600301,
       "latitude": -7.6169016,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on moroccan cuisine",
+      "socializing"
+    ],
+    "items": [
+      "tagines and couscous dishes",
+      "traditional moroccan decor"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

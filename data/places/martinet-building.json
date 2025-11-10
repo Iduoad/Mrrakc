@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "neo-moorish",
+      "1910s"
+    ]
   },
   "spec": {
     "name": "Martinet Building",
     "id": "martinet-building",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1919<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: Combination of Art Deco, art Nouveau and Neo-Mauresque styles.",
+    "description": "The Martinet Building is a highly eclectic and historical residential and commercial structure, designed by architect **Pierre Bousquet** and completed in 1919. It is notable for its fusion of three architectural styles prevalent during the early French Protectorate: **Art Deco, Art Nouveau, and Neo-Mauresque (Neo-Moorish)**. This blend reflects the experimentation of architects seeking to create a distinct Casablanca style. Its early date and mixed ornamentation make it a unique and valuable example of the city's first phase of expansion.",
     "location": {
       "longitude": 33.5949039,
       "latitude": -7.6129735,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the eclectic Martinet Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1919-01-01",
+        "description": "The Martinet Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco, art nouveau, and neo-moorish facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

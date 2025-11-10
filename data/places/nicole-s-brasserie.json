@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "french-cuisine",
+      "brasserie",
+      "modern-dining",
+      "european"
+    ]
   },
   "spec": {
     "name": "Nicole's Brasserie",
     "id": "nicole-s-brasserie",
-    "description": "\ud83d\udd3b Menu: French",
+    "description": "Nicole's Brasserie is a modern restaurant in Casablanca specializing in **French cuisine**, operating in the style of a traditional French brasserie. Brasseries offer a relaxed yet elegant dining experience, often serving classic French comfort food, seafood, and a selection of wine and beer. It caters to a sophisticated urban and expatriate clientele.",
     "location": {
       "longitude": 33.5897869,
       "latitude": -7.6323522,
@@ -16,15 +22,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on french brasserie cuisine",
+      "socializing"
+    ],
+    "items": [
+      "classic french dishes",
+      "wine and bar service"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

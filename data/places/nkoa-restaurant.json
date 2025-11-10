@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "international-cuisine",
+      "fine-dining",
+      "modern"
+    ]
   },
   "spec": {
     "name": "Nkoa Restaurant",
     "id": "nkoa-restaurant",
-    "description": "\ud83d\udd3b Menu: International",
+    "description": "Nkoa Restaurant is a high-end dining venue in Casablanca that serves an **International menu**. It is positioned as a modern, fashionable restaurant, likely featuring a focus on gourmet or globally inspired dishes and sophisticated cocktail service. It is a destination for urban fine dining and a chic social scene.",
     "location": {
       "longitude": 33.5866273,
       "latitude": -7.6291816,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on international gourmet cuisine",
+      "socializing"
+    ],
+    "items": [
+      "gourmet international menu",
+      "wine and cocktail service"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

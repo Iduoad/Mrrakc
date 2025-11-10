@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "government",
+      "post-office",
+      "administrative",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Poste Office Building",
     "id": "poste-office-building",
-    "description": "None",
+    "description": "The Poste Office Building (Bureau de Poste) in this central location is a standard municipal structure providing postal and financial services to the public. It is a critical component of the city's modern communications infrastructure, likely dating from the mid-20th century. Its functional design is typical of public service buildings in the area.",
     "location": {
       "longitude": 33.5945731,
       "latitude": -7.6132097,
@@ -16,15 +21,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "postal and communication services",
+      "financial transactions"
+    ],
+    "items": [
+      "service counters and public areas"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Post services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

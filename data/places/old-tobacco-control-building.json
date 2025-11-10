@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "government",
+      "industrial-administration",
+      "art-deco",
+      "national-heritage",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Old Tobacco Control building",
     "id": "old-tobacco-control-building",
-    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1932<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Old Tobacco Control Building (Ancien Bâtiment de la Régie des Tabacs) is a historical administrative structure completed in 1932. It was designed by architect **Marius Boyer**, featuring the Art Deco style typical of the city's commercial and governmental structures of the era. The building played a role in the French Protectorate's administration of the highly regulated tobacco industry. Though now **closed** or awaiting repurposing, its architectural value was recognized with its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5741437,
       "latitude": -7.609953,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1932-01-01",
+        "description": "The Tobacco Control building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "art deco administrative architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The building is currently closed or awaiting renovation; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

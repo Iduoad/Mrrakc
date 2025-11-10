@@ -2,29 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "old-medina-vicinity",
+      "closed",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Medina Cinema",
     "id": "medina-cinema",
-    "description": "None",
+    "description": "Medina Cinema (Cinéma Medina) is a historical movie theater located near the Old Medina (Ancienne Médina). Its name highlights its location close to the historic core, serving the cultural needs of the old town and the adjacent new districts. Like many single-screen theaters, it is likely closed or repurposed, representing a piece of Casablanca's fading cinematic history.",
     "location": {
       "longitude": 33.5988805,
       "latitude": -7.6205493,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1940-01-01",
+        "description": "The cinema was established during the peak period of cinema construction (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical cinema facade"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Status assumed open based on input, but most historical cinemas are closed."
     },
     "timePeriods": [
-      ""
+      "20th century"
     ]
   }
 }

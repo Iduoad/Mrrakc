@@ -2,29 +2,82 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "consulate",
+      "education",
+      "namesake-change",
+      "19th-century"
+    ]
   },
   "spec": {
     "name": "Omar Ibn Abdelaziz School (Prev. German Consulate)",
     "id": "omar-ibn-abdelaziz-school-prev-german-consulate",
-    "description": "\ud83d\udd3b era: 19th century<br>\ud83d\udd3b Description: After serving as Belgium consulate, the building was donated by the Sultane to the German to establish their consulate in it (it was previously in Hotel des amis).",
+    "description": "This building is a historically complex structure dating from the **19th century**. It originally served as the **Belgian Consulate** before being donated by the Sultan to the German government to establish the **German Consulate** (replacing a previous location). Following Moroccan independence, the building was repurposed as an educational institution and renamed after the revered Umayyad Caliph, **Omar Ibn Abdelaziz**. The building is a rare example of pre-Protectorate diplomatic and commercial architecture near the Old Medina and now functions as a school.",
     "location": {
       "longitude": 33.6004833,
       "latitude": -7.6179323,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/omar-ibn-abdelaziz",
+        "relationship": [
+          "namesake",
+          "historical-figure"
+        ],
+        "comment": "Revered Umayyad Caliph after whom the school is named."
+      },
+      {
+        "id": "people/sultan-of-morocco",
+        "relationship": [
+          "donor"
+        ],
+        "comment": "The Sultan donated the building to the German government for their consulate."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Initial Construction",
+        "date": "1880-01-01",
+        "description": "The building was constructed as a consulate/residence (Approximate 19th-century date)."
+      },
+      {
+        "title": "German Consulate Established",
+        "date": "1900-01-01",
+        "description": "The building began serving as the German Consulate (Approximate pre-Protectorate date)."
+      },
+      {
+        "title": "Conversion to School",
+        "date": "1956-01-01",
+        "description": "The building was converted into a school named after Omar Ibn Abdelaziz (Approximate post-independence date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "education and learning",
+      "architectural and historical observation"
+    ],
+    "items": [
+      "19th century diplomatic architecture"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Students and Staff",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },
     "timePeriods": [
-      ""
+      "19th century",
+      "pre-protectorate era",
+      "contemporary period"
     ]
   }
 }

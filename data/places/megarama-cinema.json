@@ -2,31 +2,69 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cinema",
+      "multiplex",
+      "modern",
+      "coastal",
+      "entertainment"
+    ]
   },
   "spec": {
     "name": "Megarama Cinema",
     "id": "megarama-cinema",
-    "description": "None",
+    "description": "Megarama Cinema is a large, modern multiplex movie theater located on the Ain Diab Corniche. It is one of the city's premier contemporary cinema venues, offering multiple screens, up-to-date projection and sound technology, and a wide selection of international blockbusters and national films. Megarama is a key part of Casablanca's modern entertainment and leisure infrastructure.",
     "location": {
       "longitude": -7.6681593,
       "latitude": 33.5959707,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cinema"
+    "people": [
+      {
+        "id": "people/megarama-group",
+        "relationship": [
+          "owner",
+          "operator"
+        ],
+        "comment": "The French cinema group that operates the multiplex."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Cinema Opening",
+        "date": "2007-01-01",
+        "description": "The Megarama multiplex opened, establishing a major modern cinema venue (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://megarama.ma/",
+        "type": "website",
+        "title": "Megarama Morocco Official Website"
+      }
+    ],
+    "activities": [
+      "watching films and movies",
+      "socializing and recreation"
+    ],
+    "items": [
+      "multiple cinema screens and halls",
+      "concession stands and lounge areas"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Ticket price",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

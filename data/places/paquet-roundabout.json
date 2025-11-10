@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "urban/square",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-space",
+      "roundabout",
+      "traffic-hub",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Paquet Roundabout",
     "id": "paquet-roundabout",
-    "description": "None",
+    "description": "Paquet Roundabout (Rond-Point Paquet) is a major traffic circle and urban landmark in the central commercial district of Casablanca. Named after a prominent figure or company (likely from the French Protectorate era), the roundabout is a key intersection, directing traffic across important avenues. It features a central island, often decorated with greenery or a monument, serving as a visual focal point in the urban landscape.",
     "location": {
       "longitude": 33.5939906,
       "latitude": -7.6085837,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "navigating urban traffic",
+      "architectural observation"
+    ],
+    "items": [
+      "central island monument (if present)",
+      "urban landscaping"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Square access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

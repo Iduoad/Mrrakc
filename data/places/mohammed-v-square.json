@@ -2,29 +2,84 @@
   "version": "mrrakc/v0",
   "kind": "urban/square",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-space",
+      "square",
+      "city-center",
+      "administrative-hub",
+      "namesake",
+      "historical-monument"
+    ]
   },
   "spec": {
     "name": "Mohammed V Square",
     "id": "mohammed-v-square",
-    "description": "None",
+    "description": "Mohammed V Square (Place Mohammed V), formerly Place Administrative, is the monumental heart of Casablanca's 'new town,' designed by Henri Prost and Joseph Marrast as the city's administrative and civic center. The square is surrounded by major public buildings, including the Prefecture and the Justice Palace. It is characterized by its large, central fountain and formal urban design. The square is named after Sultan/King **Mohammed V**, symbolizing Moroccan independence and national identity. It serves as a major gathering point for national celebrations and urban events.",
     "location": {
       "longitude": 33.5912075,
       "latitude": -7.6186758,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/mohammed-v",
+        "relationship": [
+          "namesake",
+          "king"
+        ],
+        "comment": "King of Morocco and symbol of independence, after whom the square is named."
+      },
+      {
+        "id": "people/henri-prost",
+        "relationship": [
+          "urban-planner"
+        ],
+        "comment": "Chief urban planner for the French Protectorate, involved in the square's original design."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Design and Construction",
+        "date": "1920-01-01",
+        "description": "The square was designed and constructed as the city's administrative center (Approximate period)."
+      },
+      {
+        "title": "Renaming",
+        "date": "1956-01-01",
+        "description": "Renamed in honor of King Mohammed V after Moroccan independence."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lonelyplanet.com/morocco/casablanca/attractions/place-des-nations-unies/a/poi-sig/1449836/359368",
+        "type": "article",
+        "title": "Reference to Place Mohammed V and surrounding landmarks (Lonely Planet)"
+      }
+    ],
+    "activities": [
+      "architectural sightseeing",
+      "socializing and people-watching",
+      "attending public events and celebrations"
+    ],
+    "items": [
+      "large central fountain",
+      "surrounding monumental administrative buildings"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Square access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

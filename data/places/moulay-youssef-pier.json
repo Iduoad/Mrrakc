@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/port",
   "metadata": {
-    "tags": []
+    "tags": [
+      "maritime",
+      "port-infrastructure",
+      "historical-pier",
+      "coastal-engineering",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Moulay Youssef Pier",
     "id": "moulay-youssef-pier",
-    "description": "\ud83d\udd3b Dates: 1930s",
+    "description": "The Moulay Youssef Pier (Jetée Moulay Youssef) is a major piece of maritime infrastructure in the Port of Casablanca, constructed in the 1930s. Piers of this size were vital to the development of Casablanca as the leading commercial port in North Africa, allowing for the handling of significant cargo volumes and larger ships. Named after Sultan Moulay Youssef, it is a testament to the large-scale public works undertaken during the French Protectorate to expand the city's economic capabilities.",
     "location": {
       "longitude": 33.6159079,
       "latitude": -7.6019542,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/moulay-youssef",
+        "relationship": [
+          "namesake",
+          "sultan"
+        ],
+        "comment": "Sultan of Morocco during the pier's development period."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1930-01-01",
+        "description": "The pier was constructed as part of the port expansion (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "maritime cargo operations (restricted)",
+      "port observation (from distant viewing areas)"
+    ],
+    "items": [
+      "long concrete pier structure",
+      "cargos handling equipment"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "The pier is a working port facility; public access is restricted for security and operational reasons."
     },
     "timePeriods": [
-      ""
+      "20th century (1930s)"
     ]
   }
 }

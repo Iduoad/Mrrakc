@@ -2,31 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "sports/swimming-pool",
   "metadata": {
-    "tags": []
+    "tags": [
+      "sports-facility",
+      "olympic-pool",
+      "swimming",
+      "recreational",
+      "mohammed-v-complex"
+    ]
   },
   "spec": {
     "name": "Olympic Pool Med V Complex",
     "id": "olympic-pool-med-v-complex",
-    "description": "None",
+    "description": "The Olympic Pool (Piscine Olympique) is a major public swimming facility located within the Mohammed V Sports Complex in Casablanca. Designed to Olympic standards, it is used for competitive swimming, training, and public recreational use. It serves as a central hub for aquatic sports in the city.",
     "location": {
       "longitude": -7.6454868,
       "latitude": 33.5807153,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1980-01-01",
+        "description": "The pool was built as part of the expansion of the Mohammed V Sports Complex (Approximate date)."
+      }
+    ],
     "links": [],
     "activities": [
-      "swimming"
+      "swimming (recreational and competitive)",
+      "aquatic training and lessons"
     ],
-    "items": [],
+    "items": [
+      "olympic-sized swimming pool",
+      "diving boards and viewing stands"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Pool Entry Fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Membership/Training Fee",
+          "modality": "membership",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
