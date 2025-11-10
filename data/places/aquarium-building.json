@@ -2,35 +2,73 @@
   "version": "mrrakc/v0",
   "kind": "nature/aquarium",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "architecture",
+      "modernist",
+      "national-heritage",
+      "mid-20th-century",
+      "closed"
+    ]
   },
   "spec": {
     "name": "Aquarium Building",
     "id": "aquarium-building",
-    "description": "\ud83d\udd3b Architect: Georges Delano\u00eb<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018<br><br>https://www.atelierobservatoire.com/aquarium",
+    "description": "The historic Aquarium Building, designed by French architect Georges Delanoë, was a significant structure in Casablanca's post-war development, completed around 1950. It served as a public aquarium for several decades but is currently closed. Its architecture is recognized for its Modernist style, which was prevalent in Casablanca's rapid expansion during the mid-20th century. The building's cultural and historical value was formally acknowledged when it was declared a National Material Patrimony site in 2018.",
     "location": {
       "longitude": 33.6067073,
       "latitude": -7.6301385,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/georges-delanoe",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the original Aquarium Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1950-01-01",
+        "description": "The public aquarium building was completed and opened."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      },
+      {
+        "title": "Closure",
+        "date": "1990-01-01",
+        "description": "The aquarium ceased operations (Approximate date, prior to patrimony declaration)."
+      }
+    ],
     "links": [
       {
         "url": "https://www.atelierobservatoire.com/aquarium",
-        "type": "website",
+        "type": "article",
         "title": "Article about the Aquarium from l'Observatoire"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "modernist architectural facade"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The public aquarium is currently closed; building access is restricted."
     },
     "timePeriods": [
-      ""
+      "20th century (1950s)",
+      "post-independence era"
     ]
   }
 }

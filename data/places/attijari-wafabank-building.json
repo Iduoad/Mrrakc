@@ -2,35 +2,76 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "bank-headquarters",
+      "colonial-architecture",
+      "henri-prost-plan",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Attijari Wafabank Building",
     "id": "attijari-wafabank-building",
-    "description": "\ud83d\udd3b Architect: Henri Prost & Antoine Marchisio<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b Comment: Used to house the \"Companie Algerienne\" which was an Algerian bank during the French Protectorate.<br>------<br>\ud83d\udd17 https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
+    "description": "This Attijari Wafabank building is a historical landmark that was originally built in 1928 to house a branch of the 'Compagnie Algérienne' (Algerian Company), a bank prominent during the French Protectorate era. It was designed by the renowned French architectural duo Henri Prost (the urban planner of colonial Casablanca) and Antoine Marchisio. The structure is part of the early 20th-century development that shaped Casablanca's 'new town,' combining monumental European designs with local influences. Today, it serves as an office for Attijariwafa Bank, reflecting the continuous use of historical buildings by modern financial institutions.",
     "location": {
       "longitude": 33.5949227,
       "latitude": -7.6178758,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [
+    "people": [
       {
-        "url": "https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
-        "type": "website",
-        "title": "La Compagnie algérienne levier de la colonisation et prospère grâce à elle (1865-1939)"
+        "id": "people/henri-prost",
+        "relationship": [
+          "architect",
+          "urban-planner"
+        ],
+        "comment": "French urban planner and architect who collaborated on the design."
+      },
+      {
+        "id": "people/antoine-marchisio",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who collaborated with Prost on the building's design."
       }
     ],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1928-01-01",
+        "description": "The building was erected to house the Compagnie Algérienne bank."
+      },
+      {
+        "title": "Conversion to Attijariwafa Bank Office",
+        "date": "2003-01-01",
+        "description": "The building's function continued under Attijariwafa Bank following the merger that formed the bank (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Compagnie_Alg%C3%A9rienne",
+        "type": "article",
+        "title": "Compagnie Algérienne Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "conducting banking business (limited public access)"
+    ],
+    "items": [
+      "historical bank facade",
+      "colonial-era architectural elements"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as a bank office; general interior access is limited to bank clients and staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

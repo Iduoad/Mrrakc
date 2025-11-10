@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "photography-school",
+      "artisan-heritage",
+      "foundouk",
+      "old-medina",
+      "development-project"
+    ]
   },
   "spec": {
     "name": "Artisanal Foundouk",
     "id": "artisanal-foundouk",
-    "description": "This a work in progress photography school and museum.",
+    "description": "The Artisanal Foundouk (or Fondouk, a traditional inn/caravanserai) is a historical structure in the Old Medina of Casablanca that is currently undergoing development to be repurposed as a photography school and museum. Foundouks were historically central to commerce, serving as merchant lodgings, storage facilities, and workshops. This transformation project aims to revitalize the historical building while fostering new cultural and educational activities, focusing on arts, heritage, and photography, thereby contributing to the cultural preservation and promotion of the Old Medina.",
     "location": {
       "longitude": 33.6003918,
       "latitude": -7.619617,
@@ -15,16 +22,31 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Funduq_Sagha",
+        "type": "article",
+        "title": "Funduq Sagha (General reference for historical fundouks)"
+      }
+    ],
+    "activities": [
+      "learning photography (upon opening)",
+      "viewing museum exhibits (upon opening)",
+      "observing traditional architecture"
+    ],
+    "items": [
+      "traditional moroccan foundouk architecture",
+      "photography exhibits (future)"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "under_construction",
+      "comment": "Described as a 'work in progress'; interior access may be restricted until development is complete."
     },
     "timePeriods": [
-      ""
+      "pre-colonial/colonial-era (original structure)",
+      "contemporary period (redevelopment)"
     ]
   }
 }

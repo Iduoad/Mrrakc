@@ -2,29 +2,68 @@
   "version": "mrrakc/v0",
   "kind": "nature/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "historical-site",
+      "aviation-history",
+      "green-space",
+      "recreational"
+    ]
   },
   "spec": {
     "name": "Anfa Park",
     "id": "anfa-park",
-    "description": "None",
+    "description": "Anfa Park is a large, modern urban park in Casablanca, uniquely built on the former runway of the historic Casa-Anfa Airport (Aéroport Casa-Anfa). The airport site, operational from the 1910s, holds significant historical importance, having been a critical stopover on major international routes, including those between Paris and Latin America. The conversion of the airstrip into a park preserves this piece of history while providing a vast, central green space for the city's residents. It forms a key part of the Casanearshore development project and includes extensive landscaped areas, leisure facilities, and recreational paths.",
     "location": {
       "longitude": 33.5632023,
       "latitude": -7.657745,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Casa-Anfa Airstrip Construction",
+        "date": "1910-01-01",
+        "description": "The airstrip, on which the park is built, was established as part of the Casa-Anfa Airport."
+      },
+      {
+        "title": "Park Establishment",
+        "date": "2020-01-01",
+        "description": "The park was developed and opened on the site of the former airport runway (approximate date of major development)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://web.globaleur.com/places/Casablanca/Anfa_Park",
+        "type": "article",
+        "title": "Anfa Park - Globaleur (references airport history)"
+      }
+    ],
+    "activities": [
+      "walking and jogging",
+      "relaxing and picnicking",
+      "cycling",
+      "outdoor recreation"
+    ],
+    "items": [
+      "former airport runway (1400 meters long)",
+      "landscaped gardens"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (airport history)",
+      "contemporary period"
     ]
   }
 }

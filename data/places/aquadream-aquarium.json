@@ -2,31 +2,72 @@
   "version": "mrrakc/v0",
   "kind": "nature/aquarium",
   "metadata": {
-    "tags": []
+    "tags": [
+      "aquarium",
+      "marine-life",
+      "leisure",
+      "shopping-center-attraction",
+      "modern"
+    ]
   },
   "spec": {
     "name": "Aquadream Aquarium",
     "id": "aquadream-aquarium",
-    "description": "None",
+    "description": "Aquadream Aquarium is a major public aquarium located within the Morocco Mall, one of Africa's largest shopping centers, on the Ain Diab Corniche. The aquarium is a centerpiece attraction designed to offer an immersive experience into a coral reef environment. It emphasizes education and the importance of ocean conservation. A notable feature is its design which incorporates an underwater walkway and provides a dramatic visual experience of marine life, making it a key destination for family leisure and entertainment.",
     "location": {
       "longitude": -7.7063941,
       "latitude": 33.5766799,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "aquarium"
+    "people": [
+      {
+        "id": "people/aksal-group",
+        "relationship": [
+          "owner",
+          "developer"
+        ],
+        "comment": "The developer and operator of the Morocco Mall complex."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Aquarium Opening",
+        "date": "2011-12-01",
+        "description": "The aquarium opened along with the Morocco Mall."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://waterline.com/project/aquadream-morocco-mall-aquarium/",
+        "type": "website",
+        "title": "Aquadream – Morocco Mall Aquarium (Waterline Studios)"
+      }
+    ],
+    "activities": [
+      "viewing marine life exhibits",
+      "walking through the aquarium tunnel",
+      "family entertainment"
+    ],
+    "items": [
+      "marine life specimens",
+      "coral reef ecosystem replica",
+      "aquarium viewing tunnel"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Aquarium entrance fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "The aquarium is open during mall hours; entrance requires a separate ticket fee."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

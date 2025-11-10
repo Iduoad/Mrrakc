@@ -2,29 +2,93 @@
   "version": "mrrakc/v0",
   "kind": "architecture/hospital",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "hospital",
+      "colonial-era",
+      "national-heritage",
+      "chu-ibn-rochd",
+      "renaming"
+    ]
   },
   "spec": {
     "name": "August 20th Hospital",
     "id": "august-20th-hospital",
-    "description": "\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Hospital<br>\ud83d\udd3b National Material Patrimony Declaration: 2004<br>\ud83d\udd3b Description: Originally a French military hospital with the name Jean VIAL, the hospital was renamed to \"20th August 1953 Hospital\" after the independence in 1956. Today it is part of CHU IBN Rochd<br><br>https://mjcc.gov.ma/fr/departements/culture/patrimoine-materiel-national/",
+    "description": "The August 20th Hospital (Hôpital 20 Août 1953) is a major public medical facility in Casablanca with significant historical roots. It was originally built in the 1930s as a French military hospital named **Hôpital Jean Vial**. Following Morocco's independence, the hospital was renamed in 1956 to commemorate the **Revolution of the King and the People (August 20, 1953)**, a key date in the Moroccan struggle for independence when King Mohammed V was exiled. In 1976, it was integrated into the CHU Ibn Rochd (Casablanca University Hospital Center). The building's historical and architectural value was formally recognized when it was declared a **National Material Patrimony** site in 2004.",
     "location": {
       "longitude": 33.5747493,
       "latitude": -7.6199,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/jean-vial",
+        "relationship": [
+          "namesake-original"
+        ],
+        "comment": "The French soldier or figure after whom the hospital was originally named during the Protectorate era."
+      },
+      {
+        "id": "people/mohammed-v",
+        "relationship": [
+          "historical-figure"
+        ],
+        "comment": "The date August 20, 1953, commemorates the start of his exile by French authorities, a crucial event leading to independence."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment (as Hôpital Jean Vial)",
+        "date": "1930-01-01",
+        "description": "The hospital was constructed and opened as a French military hospital."
+      },
+      {
+        "title": "Renaming to Hôpital 20 Août 1953",
+        "date": "1956-01-01",
+        "description": "The military hospital was renamed following Morocco's independence to commemorate the 1953 Revolution."
+      },
+      {
+        "title": "Integration into CHU Ibn Rochd",
+        "date": "1976-01-01",
+        "description": "The hospital was integrated into the Casablanca University Hospital Center."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2004-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://chuibnrochd.ma/?nos_hopitaux=hopital-20-aout-1953",
+        "type": "website",
+        "title": "Hôpital 20 Août 1953 - CHU Ibn Rochd (Official Website)"
+      },
+      {
+        "url": "https://chuibnrochd.ma/?page_id=38",
+        "type": "website",
+        "title": "Histoire du CHUIR - Casablanca"
+      }
+    ],
+    "activities": [
+      "providing medical care",
+      "medical training and research (as part of CHU)",
+      "architectural observation"
+    ],
+    "items": [
+      "historical hospital architecture",
+      "medical and technical facilities"
+    ],
     "access": {
       "type": "public",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as an active public hospital; general access is limited to patients, visitors, and staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1930-1956)",
+      "post-independence era",
+      "20th century"
     ]
   }
 }

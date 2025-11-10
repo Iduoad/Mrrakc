@@ -2,12 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": []
+    "tags": ["cafe", "local-business", "coffee", "meeting-place"]
   },
   "spec": {
     "name": "Al Watan Cafe",
     "id": "al-watan-cafe",
-    "description": "None",
+    "description": "Al Watan Cafe is a local cafe in Casablanca that serves as a neighborhood meeting place. Cafes are fundamental to Moroccan social life, serving not just as places for coffee and tea but as hubs for conversation, business, and community interaction. Its location suggests it caters to a local clientele, offering a traditional Casablanca cafe experience.",
     "location": {
       "longitude": 33.5744823,
       "latitude": -7.6054613,
@@ -16,15 +16,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "drinking coffee and tea",
+      "socializing and meeting"
+    ],
+    "items": [
+      "traditional moroccan tea and coffee"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Cafe services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
