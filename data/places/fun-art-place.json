@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "culture/workshop",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-studio",
+      "workshop",
+      "creative-space",
+      "leisure",
+      "children-activities"
+    ]
   },
   "spec": {
     "name": "Fun Art Place",
     "id": "fun-art-place",
-    "description": "None",
+    "description": "Fun Art Place is a creative space and art studio in Casablanca that focuses on offering artistic workshops and leisure activities, often catering to children and families. It provides a relaxed environment for learning various art techniques, hands-on craft creation, and creative expression, serving as a recreational and educational hub for the local community.",
     "location": {
       "longitude": -7.6641477,
       "latitude": 33.5990149,
@@ -17,16 +23,28 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "art_studio"
+      "attending art workshops and classes",
+      "creative arts and crafts",
+      "children's art activities"
     ],
-    "items": [],
+    "items": [
+      "art supplies and materials",
+      "workshop rooms"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Workshop/Activity Fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

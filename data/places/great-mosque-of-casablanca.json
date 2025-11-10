@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-mosque",
+      "old-medina",
+      "alawite-dynasty",
+      "makhzen",
+      "architecture",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "The Great Mosque of Casablanca",
     "id": "great-mosque-of-casablanca",
-    "description": "Also known as Makhzen Mosque, this is one of the oldest mosques in Casablanca, built around the 1780s CE during the reign of Sultan Sidi Mohammed Ibn Abdellah, the founder of the city. It is currently open.",
+    "description": "The Great Mosque of Casablanca (Jamaa El Kebir), also known as the **Makhzen Mosque** (Mosque of the Royal Administration), is one of the oldest mosques in the city. It was built around the **1780s CE** during the reign of Sultan **Sidi Mohammed Ibn Abdellah**, the founder of modern Casablanca (then Dār al-Bayḍāʼ). Its structure reflects the traditional Islamic architecture of the time, often featuring simple, dignified forms. It has undergone several renovations, notably by Sultan Moulay Hassan I and King Mohammed V, the latter rebuilding the minaret in the 1960s, inspired by the Koutoubia minaret in Marrakech, after it was destroyed in the 1907 French bombardment.",
     "location": {
       "longitude": -7.6160814,
       "latitude": 33.5989621,
@@ -19,21 +26,24 @@
         "relationship": [
           "sultan",
           "founder"
-        ]
+        ],
+        "comment": "Alawite Sultan who founded the city and commissioned the original mosque in the 1780s."
       },
       {
         "id": "people/moulay-hassan-i",
         "relationship": [
           "sultan",
           "renovator"
-        ]
+        ],
+        "comment": "Sultan who renovated and enlarged the mosque in the late 19th century."
       },
       {
         "id": "people/mohammed-v",
         "relationship": [
           "king",
           "renovator"
-        ]
+        ],
+        "comment": "King who oversaw the post-independence renovation and the construction of the new minaret in the 1960s."
       }
     ],
     "timeline": [
@@ -48,9 +58,9 @@
         "date": "1890-01-01"
       },
       {
-        "title": "Minaret Demolition",
-        "description": "The mosque's Minaret was demolished during the French attack on Casablanca.",
-        "date": "1907-01-01"
+        "title": "Minaret Demolition (French Attack)",
+        "description": "The mosque's Minaret was demolished during the French bombardment of Casablanca.",
+        "date": "1907-08-05"
       },
       {
         "title": "Second Renovation and new minaret",
@@ -58,18 +68,38 @@
         "date": "1960-01-01"
       }
     ],
-    "links": [],
-    "activities": [
-      "worship"
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Casablanca",
+        "type": "website",
+        "title": "Great Mosque of Casablanca Wikipedia Page"
+      }
     ],
-    "items": [],
+    "activities": [
+      "attending daily prayers",
+      "religious study",
+      "architectural observation"
+    ],
+    "items": [
+      "koutoubia-inspired minaret (post-1960)",
+      "historical prayer hall"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      "18th century"
+      "18th century",
+      "19th century",
+      "20th century"
     ]
   }
 }

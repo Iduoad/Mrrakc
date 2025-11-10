@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "sports/karting",
   "metadata": {
-    "tags": []
+    "tags": [
+      "karting",
+      "motorsports",
+      "go-karts",
+      "racing",
+      "entertainment"
+    ]
   },
   "spec": {
     "name": "Gokart pro Karting",
     "id": "gokart-pro-karting",
-    "description": "None",
+    "description": "Gokart pro Karting is a professional or high-quality recreational karting track located near Casablanca. It provides a popular venue for motorsports enthusiasts, offering high-speed go-kart racing for individuals, groups, and competitive events. It caters to the growing demand for modern leisure and competitive sports infrastructure outside of the city center.",
     "location": {
       "longitude": -7.6360756,
       "latitude": 33.4797575,
@@ -15,18 +21,37 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
-    "activities": [
-      "karting"
+    "links": [
+      {
+        "url": "https://www.gokartpro.ma/",
+        "type": "website",
+        "title": "Gokart pro Karting Official Website"
+      }
     ],
-    "items": [],
+    "activities": [
+      "go-kart racing",
+      "attending karting events",
+      "driving lessons"
+    ],
+    "items": [
+      "outdoor karting track",
+      "racing go-karts",
+      "safety equipment"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Karting Session Fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

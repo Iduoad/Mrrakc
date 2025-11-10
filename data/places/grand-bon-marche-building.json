@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "commercial",
+      "department-store",
+      "art-deco",
+      "1920s",
+      "retail-history"
+    ]
   },
   "spec": {
-    "name": "Grand Bon March\u00e9 Building",
+    "name": "Grand Bon Marché Building",
     "id": "grand-bon-marche-building",
-    "description": "\ud83d\udd3b Architect: Edmon Brion, Auguste Cadet, Marcel Desmet<br>\ud83d\udd3b Dates: 1929/1932<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Grand Bon Marché Building is a historically important commercial structure in central Casablanca, constructed between 1929 and 1932. It was designed by a consortium of notable French architects including **Edmond Brion, Auguste Cadet, and Marcel Desmet**. It served as the city's grand department store, a monumental retail space reflecting the European lifestyle introduced during the French Protectorate. The architecture embodies the refined Art Deco style of the period and its location in the city center made it a hub for commercial life and fashion.",
     "location": {
       "longitude": 33.5952183,
       "latitude": -7.6159283,
@@ -15,23 +22,70 @@
     },
     "people": [
       {
+        "id": "people/edmond-brion",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who co-designed the department store."
+      },
+      {
         "id": "people/auguste-cadet",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the department store."
+      },
+      {
+        "id": "people/marcel-desmet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the department store."
       }
     ],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Construction Began",
+        "date": "1929-01-01",
+        "description": "Construction of the department store building began."
+      },
+      {
+        "title": "Building Completed and Opened",
+        "date": "1932-01-01",
+        "description": "The Grand Bon Marché Building was completed and opened for commerce."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa - References historical buildings)"
+      }
+    ],
+    "activities": [
+      "retail shopping (current function)",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "large internal commercial spaces"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Commercial access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }
