@@ -2,29 +2,55 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "military",
+      "government",
+      "national-heritage",
+      "1920s",
+      "restricted"
+    ]
   },
   "spec": {
     "name": "Royal Moroccan Armed Forces Building",
     "id": "royal-moroccan-armed-forces-building",
-    "description": "\ud83d\udd3b Dates: 1925<br>\ud83d\udd3b Current Status: Military Base<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "This building, dating from 1925, was originally constructed during the French Protectorate, likely serving a military or administrative function. It now houses a facility for the **Royal Moroccan Armed Forces (Forces Armées Royales - FAR)**. The building's monumental architecture is typical of early colonial administration. Its long history as a key defense and governmental structure led to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5917247,
       "latitude": -7.6171404,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1925-01-01",
+        "description": "The military building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "military and defense operations (restricted)",
+      "architectural observation (exterior)"
+    ],
+    "items": [
+      "historical military architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "restricted",
+      "comment": "Functions as a military base; interior access is strictly forbidden to the public for security reasons."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

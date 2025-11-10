@@ -2,29 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "architecture/hospital",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "medical-facility",
+      "art-deco",
+      "colonial-architecture",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Radiology clinic Building",
     "id": "radiology-clinic-building",
-    "description": "\ud83d\udd3b Architect: Pierre Bousquet<br>\ud83d\udd3b Dates: 1928<br>\ud83d\udd3b Current Status:\u00a0Oued El Makhazine Radiology Center.",
+    "description": "The Radiology Clinic Building, originally constructed in 1928 and designed by architect **Pierre Bousquet**, is a significant historical structure in Casablanca's central district. Bousquet was a prolific architect during the French Protectorate, and the building's design reflects the early **Art Deco** movement. It was initially built for a medical function and continues this legacy today, operating as the **Oued El Makhazine Radiology Center**.",
     "location": {
       "longitude": 33.5943259,
       "latitude": -7.6239265,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-bousquet",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building in 1928."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1928-01-01",
+        "description": "The clinic building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "medical diagnosis and services",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "radiology and imaging equipment"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Medical services access",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted to patients and medical staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

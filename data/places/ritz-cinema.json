@@ -2,31 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "art-deco-neighborhood",
+      "entertainment"
+    ]
   },
   "spec": {
     "name": "Ritz Cinema",
     "id": "ritz-cinema",
-    "description": "None",
+    "description": "Ritz Cinema (Cinéma Ritz) is a historical movie theater located in the architectural center of Casablanca. It dates from the height of the city's development under the French Protectorate and likely features the grand, stylized architecture of the Art Deco or Modernist movements. It was an important cultural venue during its operating years.",
     "location": {
       "longitude": -7.6147012,
       "latitude": 33.5944574,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The cinema was established during the Art Deco era (Approximate date)."
+      }
+    ],
     "links": [],
     "activities": [
-      "cinema"
+      "watching films and movies"
     ],
-    "items": [],
+    "items": [
+      "cinema screen and seating",
+      "historical facade"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Ticket price",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Status assumed open based on input, but many historical cinemas are closed."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

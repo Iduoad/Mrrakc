@@ -2,31 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "art-deco-neighborhood",
+      "entertainment"
+    ]
   },
   "spec": {
     "name": "Rif Cinema",
     "id": "rif-cinema",
-    "description": "None",
+    "description": "Rif Cinema (Cinéma Rif) is a historical movie theater located in Casablanca's central district. Like other cinemas built during the French Protectorate's building boom, its architecture reflects the Art Deco or modernist styles of the mid-20th century. It served as a vital local entertainment spot, though its current operating status often reflects the challenges faced by historical single-screen theaters.",
     "location": {
       "longitude": -7.6154385,
       "latitude": 33.5965653,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1940-01-01",
+        "description": "The cinema was established during the mid-20th century (Approximate date)."
+      }
+    ],
     "links": [],
     "activities": [
-      "cinema"
+      "watching films and movies"
     ],
-    "items": [],
+    "items": [
+      "cinema screen and seating",
+      "historical facade"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Ticket price",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Status assumed open based on input, but many historical cinemas are closed."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }
