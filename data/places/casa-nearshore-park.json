@@ -49,8 +49,8 @@
     ],
     "items": [
       "coastline",
-      "gardens",
-      "walking paths"
+      "facilities",
+      "gardens"
     ],
     "access": {
       "type": "public",

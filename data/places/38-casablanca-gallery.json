@@ -95,14 +95,12 @@
       }
     ],
     "activities": [
-      "attending vernissages and openings",
       "cultural activities",
-      "curating cross-cultural dialogues",
       "sightseeing"
     ],
     "items": [
-      "art & artifacts",
-      "facilities"
+      "facilities",
+      "memorabilia"
     ],
     "access": {
       "type": "private",

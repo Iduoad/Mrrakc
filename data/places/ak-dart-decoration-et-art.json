@@ -29,14 +29,13 @@
       }
     ],
     "activities": [
-      "exploring interior design concepts",
       "shopping",
       "sightseeing"
     ],
     "items": [
       "architecture",
-      "art & artifacts",
-      "goods"
+      "goods",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

@@ -55,9 +55,8 @@
       "walking"
     ],
     "items": [
-      "art & artifacts",
       "facilities",
-      "walking circuit"
+      "memorabilia"
     ],
     "access": {
       "type": "public",

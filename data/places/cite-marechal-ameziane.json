@@ -50,12 +50,11 @@
     ],
     "links": [],
     "activities": [
-      "residential life",
+      "accommodation",
       "sightseeing"
     ],
     "items": [
-      "architecture",
-      "planned urban layout"
+      "architecture"
     ],
     "access": {
       "type": "public",

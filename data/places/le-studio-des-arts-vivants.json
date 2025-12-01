@@ -40,8 +40,8 @@
       "sightseeing"
     ],
     "items": [
-      "art & artifacts",
-      "facilities"
+      "facilities",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

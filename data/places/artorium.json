@@ -49,11 +49,10 @@
     ],
     "activities": [
       "cultural activities",
-      "cultural discovery",
       "sightseeing"
     ],
     "items": [
-      "art & artifacts"
+      "memorabilia"
     ],
     "access": {
       "type": "public",

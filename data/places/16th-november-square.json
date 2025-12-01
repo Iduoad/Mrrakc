@@ -25,9 +25,9 @@
     ],
     "items": [
       "architecture",
-      "art & artifacts",
       "facilities",
-      "gardens"
+      "gardens",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

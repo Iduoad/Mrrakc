@@ -34,9 +34,8 @@
       "sports"
     ],
     "items": [
-      "arcade games",
-      "food & drink",
-      "various amusement rides"
+      "amusement rides",
+      "food & drink"
     ],
     "access": {
       "type": "public",

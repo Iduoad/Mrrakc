@@ -54,12 +54,11 @@
     ],
     "activities": [
       "dining",
-      "entertainment",
-      "listening to live jazz piano"
+      "entertainment"
     ],
     "items": [
       "food & drink",
-      "memorabilia from the film era"
+      "memorabilia"
     ],
     "access": {
       "type": "public",
