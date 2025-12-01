@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "religion/zaouiya",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "sufism",
+      "zaouiya",
+      "kadiriya-boudchichiya",
+      "old-medina-vicinity"
+    ]
   },
   "spec": {
     "name": "Zaouiya Kadiriya Boudchichiya (Old)",
     "id": "old-zaouiya-kadiriya-boudchichiya",
-    "description": "None",
+    "description": "The Old Zaouiya Kadiriya Boudchichiya is a historical religious center in Casablanca, associated with the **Qadiriyya Boutchichiyya Sufi order**, one of the most prominent Sufi brotherhoods in Morocco. A 'zaouiya' is a spiritual school or retreat, serving as a hub for the order's religious, charitable, and social activities. This older location near the Medina is significant to the local history of Sufism before the growth of the order's modern centers.",
     "location": {
       "longitude": 33.6020969,
       "latitude": -7.6191228,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sufi-leaders-boudchichiya",
+        "relationship": [
+          "historical-figure",
+          "religious-leader"
+        ],
+        "comment": "The leaders and sheikhs of the Qadiriyya Boutchichiyya Sufi order."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "religious devotion and ritual",
+      "spiritual guidance",
+      "community gatherings"
+    ],
+    "items": [
+      "prayer and gathering rooms",
+      "historical religious artifacts"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Sufi Members",
+          "modality": "donation",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

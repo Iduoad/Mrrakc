@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "shopping/market",
   "metadata": {
-    "tags": []
+    "tags": [
+      "market",
+      "souk",
+      "local-commerce",
+      "neighborhood-market",
+      "sbata"
+    ]
   },
   "spec": {
     "name": "Qriaa of Sbata",
     "id": "qriaa-of-sbata",
-    "description": "None",
+    "description": "Qriaa of Sbata (Qriaa, often referring to a small town or district) is a major local marketplace or souk in the densely populated Sbata neighborhood of Casablanca. Markets in these peripheral districts are vital for daily commerce, offering everything from fresh food and clothing to small hardware and electronics. The Qriaa is a bustling commercial center, known for its affordable goods and strong local character.",
     "location": {
       "longitude": 33.552771,
       "latitude": -7.5682288,
@@ -16,15 +22,27 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "shopping and retail",
+      "experiencing local commerce"
+    ],
+    "items": [
+      "market stalls and vendors"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Market access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

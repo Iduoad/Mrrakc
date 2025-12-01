@@ -2,31 +2,69 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cinema",
+      "multiplex",
+      "modern",
+      "international-chain",
+      "entertainment"
+    ]
   },
   "spec": {
-    "name": "Path\u00e9 Cinema",
+    "name": "Pathé Cinema",
     "id": "pathe-cinema",
-    "description": "None",
+    "description": "Pathé Cinema is a modern multiplex movie theater in Casablanca, part of the international Pathé cinema chain. It offers a premium cinematic experience with multiple screens, advanced digital projection, and comfortable amenities, screening a range of international and Arabic films. Pathé represents the highest tier of contemporary cinema entertainment in the city.",
     "location": {
       "longitude": -7.6398598,
       "latitude": 33.5440783,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cinema"
+    "people": [
+      {
+        "id": "people/pathe-group",
+        "relationship": [
+          "owner",
+          "operator"
+        ],
+        "comment": "The French cinema group that operates the multiplex."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Cinema Opening",
+        "date": "2015-01-01",
+        "description": "The modern Pathé cinema was opened (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://pathe.ma/",
+        "type": "website",
+        "title": "Pathé Morocco Official Website"
+      }
+    ],
+    "activities": [
+      "watching films and movies",
+      "socializing and recreation"
+    ],
+    "items": [
+      "multiple cinema screens and halls",
+      "concession stands"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Ticket price",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

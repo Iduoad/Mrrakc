@@ -2,29 +2,64 @@
   "version": "mrrakc/v0",
   "kind": "urban/corniche",
   "metadata": {
-    "tags": []
+    "tags": [
+      "seaside",
+      "promenade",
+      "urban-development",
+      "port",
+      "leisure"
+    ]
   },
   "spec": {
     "name": "Marina Corniche",
     "id": "marina-corniche",
-    "description": "None",
+    "description": "The Marina Corniche is the modern seaside promenade and urban development area located near the Port of Casablanca, surrounding the Marina Shopping Mall. This area represents one of the city's newest, large-scale urban projects, featuring high-end residential, commercial, and leisure facilities. The corniche offers wide pedestrian walkways, scenic views of the ocean, and access to the marina, connecting the port area to the Hassan II Mosque esplanade.",
     "location": {
       "longitude": 33.6105592,
       "latitude": -7.6244311,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/casablanca-a-m-nagement",
+        "relationship": [
+          "developer"
+        ],
+        "comment": "The municipal development body responsible for the Marina project."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Development Period",
+        "date": "2010-01-01",
+        "description": "Construction and development of the Marina area began (Approximate start date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "strolling and jogging",
+      "visiting the shopping mall and restaurants",
+      "observing maritime activity"
+    ],
+    "items": [
+      "wide pedestrian walkways",
+      "marina port facilities",
+      "modern residential towers"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Promenade access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

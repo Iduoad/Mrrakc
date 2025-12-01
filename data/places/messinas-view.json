@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "urban/viewpoint",
   "metadata": {
-    "tags": []
+    "tags": [
+      "viewpoint",
+      "panoramic-view",
+      "coastal-area",
+      "el-hank",
+      "ocean-view"
+    ]
   },
   "spec": {
     "name": "Messinas View",
     "id": "messinas-view",
-    "description": "None",
+    "description": "Messinas View (Point de vue Messinas) is a scenic coastal viewpoint located on the El Hank peninsula, offering broad views of the Atlantic Ocean and the surrounding coastal area. This viewpoint is part of the public access along the coast, providing a popular spot for photography, watching the waves, and observing the maritime activity near the Port and the Hassan II Mosque.",
     "location": {
       "longitude": 33.6051641,
       "latitude": -7.6445897,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "photography",
+      "sightseeing and observation",
+      "coastal relaxation"
+    ],
+    "items": [
+      "ocean vistas",
+      "coastal railing/viewing platform"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Viewpoint access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

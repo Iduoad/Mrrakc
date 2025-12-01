@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "historical-mosque",
+      "habous-quarter",
+      "neo-moorish",
+      "colonial-architecture",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Muhammadi Mosque",
     "id": "muhammadi-mosque",
-    "description": "Also known as Mohammed Ben Youssef Mosque, it was designed by French architects Auguste Cadet and Edmond Brion between 1934 and 1936 CE and named after Sultan Mohammed Ben Youssef (King Mohammed V). It is currently open.",
+    "description": "The Muhammadi Mosque (Mosquée Muhammadi), also known as the **Mohammed Ben Youssef Mosque**, is a grand historical mosque in the Habous Quarter, designed by French architects **Auguste Cadet and Edmond Brion** and built between 1934 and 1936 CE. It is named after **Sultan Mohammed Ben Youssef (King Mohammed V)**, symbolizing his role as a spiritual and national leader. Recognized as one of Casablanca's largest mosques (second only to Hassan II Mosque in size), it is an exemplary work of the Neo-Moorish style, featuring monumental scale and traditional Moroccan decoration. It remains a major active religious center.",
     "location": {
       "longitude": -7.6060377,
       "latitude": 33.5763273,
@@ -18,40 +25,62 @@
         "id": "people/mohammed-v",
         "relationship": [
           "sultan",
-          "founder"
-        ]
+          "namesake"
+        ],
+        "comment": "Sultan of Morocco after whom the mosque is named."
       },
       {
         "id": "people/auguste-cadet",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the mosque."
       },
       {
         "id": "people/edmond-brion",
         "relationship": [
           "architect"
-        ]
+        ],
+        "comment": "French architect who co-designed the mosque."
       }
     ],
     "timeline": [
       {
         "title": "Construction Period",
-        "description": "The mosque Construction Completed",
-        "date": "1936-01-01"
+        "date": "1934-01-01",
+        "description": "Construction began on the mosque."
+      },
+      {
+        "title": "Completion Date",
+        "date": "1936-01-01",
+        "description": "The mosque was completed and opened for worship."
       }
     ],
     "links": [],
     "activities": [
-      "worship"
+      "attending daily prayers",
+      "religious study",
+      "architectural observation"
     ],
-    "items": [],
+    "items": [
+      "neo-moorish minaret and prayer hall",
+      "large courtyard",
+      "zellij and carved wood elements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access for Muslims",
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
+      "french protectorate era (1912-1956)",
       "20th century"
     ]
   }

@@ -2,12 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "food/street-food",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-food",
+      "traditional-food",
+      "late-night-dining",
+      "mqila",
+      "local-cuisine"
+    ]
   },
   "spec": {
     "name": "Midnight Mqila",
     "id": "midnight-mqila",
-    "description": "None",
+    "description": "Midnight Mqila (M'qila de Minuit) refers to stalls or venues specializing in 'mqila' (a hot, savory stew or slow-cooked meat dish, often eaten with bread) that are particularly popular late at night or around midnight. This type of street food vendor caters to the late-night social scene and represents a distinctive part of Casablanca's nocturnal culinary culture, offering filling, traditional meals after other restaurants have closed.",
     "location": {
       "longitude": 33.5971778,
       "latitude": -7.608944,
@@ -16,15 +22,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "eating traditional moroccan street food",
+      "late-night dining"
+    ],
+    "items": [
+      "hot mqila stews",
+      "fresh bread (khobz)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Food purchase",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Typically operates during evening and late-night hours."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

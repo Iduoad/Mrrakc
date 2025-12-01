@@ -2,35 +2,67 @@
   "version": "mrrakc/v0",
   "kind": "architecture/hotel",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "hotel",
+      "art-deco",
+      "national-heritage",
+      "1940s",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Majestic Hotel",
     "id": "majestic-hotel",
-    "description": "\ud83d\udd3b Dates: 1948<br>\ud83d\udd3b Current Status: Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2005<br><br>https://fr.wikipedia.org/wiki/Fichier:Hotel_Majestic,_Casablanca_1867.jpg",
+    "description": "The Majestic Hotel is a long-standing historical hotel located in the heart of Casablanca's commercial district. Completed around 1948, its architecture reflects the late Art Deco and early Modernist styles of the post-war building boom, providing high-quality lodging for travelers, merchants, and visitors. The hotel's central location and history make it a point of reference in the city's hospitality sector. It was declared a **National Material Patrimony** site in 2005.",
     "location": {
       "longitude": 33.5911054,
       "latitude": -7.6134255,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1948-01-01",
+        "description": "The hotel building was completed and opened for accommodation."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2005-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [
       {
         "url": "https://fr.wikipedia.org/wiki/Fichier:Hotel_Majestic,_Casablanca_1867.jpg",
         "type": "image",
-        "title": "Hotel Majectic, Casablanca 1867"
+        "title": "Hotel Majectic, Casablanca 1867 (Historical image reference)"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "lodging and accommodation",
+      "dining and socializing"
+    ],
+    "items": [
+      "historical hotel structure and rooms"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Hotel services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is public for guests and patrons of hotel facilities."
     },
     "timePeriods": [
-      ""
+      "20th century (1940s)",
+      "contemporary period"
     ]
   }
 }
