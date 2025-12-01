@@ -2,29 +2,74 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "science",
+      "planetology",
+      "meteorites",
+      "astronomy",
+      "educational-expo"
+    ]
   },
   "spec": {
-    "name": "Attarik Expo (Les M\u00e9t\u00e9orites Messageres du Ciel)",
+    "name": "Attarik Expo (Les Météorites Messageres du Ciel)",
     "id": "attarik-expo",
-    "description": "None",
+    "description": "Attarik Expo, titled 'Les Météorites Messagères du Ciel' (The Meteorites Messengers of the Sky), is an educational museum and exhibition focused on meteorites, planetology, geology, and astronomy. Developed by the non-profit ATTARIK Foundation, it aims to transmit scientific knowledge and awaken scientific curiosity, especially among children. A key feature of the expo is the inclusion of Morocco's first planetarium open to the general public, offering immersive experiences and guided tours led by scientific researchers.",
     "location": {
       "longitude": 33.6061353,
       "latitude": -7.6199447,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/hasnaa-chennaoui",
+        "relationship": [
+          "founder",
+          "scientific-researcher"
+        ],
+        "comment": "President of Attarik Foundation and a key figure in the expo's development."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Second Edition Opening",
+        "date": "2022-10-20",
+        "description": "The second edition of the Expo Musée opened at Marina Shopping, enriching the content and experiences."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mapnews.ma/fr/actualites/economie/casablanca-2%C3%A8me-%C3%A9dition-de-lexpo-mus%C3%A9e-les-m%C3%A9t%C3%A9orites-messag%C3%A8res-du-ciel",
+        "type": "article",
+        "title": "Casablanca : 2ème édition de l'Expo Musée 'Les Météorites Messagères du Ciel' (MapNews)"
+      }
+    ],
+    "activities": [
+      "viewing meteorite exhibits",
+      "attending planetarium shows",
+      "participating in scientific workshops",
+      "listening to scientific conferences"
+    ],
+    "items": [
+      "meteorite specimens",
+      "planetarium (360° projection)",
+      "scientific documents and archives"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Museum entrance fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Entrance is fee-based."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

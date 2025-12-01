@@ -2,29 +2,67 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "greek-orthodox",
+      "historical-building",
+      "colonial-era",
+      "architecture"
+    ]
   },
   "spec": {
     "name": "Annunciation Greek Orthodox Church",
     "id": "annunciation-greek-orthodox-church",
-    "description": "\ud83d\udd3b Dates: 1929-1934",
+    "description": "The Annunciation Greek Orthodox Church (Église Orthodoxe Grecque de l'Annonciation) in Casablanca is a historical religious landmark that serves the local Greek Orthodox community. Its construction spanned from 1929 to 1934, during the French Protectorate era, as part of the development of Casablanca's 'new town.' The architecture is characteristic of the period, often incorporating Byzantine or Neo-Byzantine elements typical of Orthodox church design. It stands as a testament to the diverse international communities that have contributed to the city's cosmopolitan history.",
     "location": {
       "longitude": 33.5820147,
       "latitude": -7.6135185,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Construction Began",
+        "date": "1929-01-01",
+        "description": "Construction of the church began."
+      },
+      {
+        "title": "Church Completed",
+        "date": "1934-01-01",
+        "description": "The church construction was completed."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.wsgoc.org/our-faith/architecture",
+        "type": "website",
+        "title": "Architecture - Annunciation Greek Orthodox Church (General Orthodox info)"
+      }
+    ],
+    "activities": [
+      "attending religious services",
+      "architectural observation"
+    ],
+    "items": [
+      "religious iconography",
+      "byzantine architectural elements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Worship services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access for tourists is typically limited to non-service hours or with prior arrangement."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

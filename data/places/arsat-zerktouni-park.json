@@ -2,29 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "public-space/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "historical-site",
+      "old-medina",
+      "green-space",
+      "1908-establishment"
+    ]
   },
   "spec": {
     "name": "Arsat Zerktouni Park",
     "id": "arsat-zerktouni-park",
-    "description": "None",
+    "description": "Arsat Zerktouni Park, originally established around 1908-1910 under the name 'Jardin Public,' is a historic green space of approximately 2 hectares located near the Old Medina (Ancienne Médina) and the port. The term 'arsat' in Arabic traditionally refers to a garden with a vegetable patch and fruit trees, reflecting its initial design or use. The park was laid out between the port and the residential area, serving as a vital early green lung for the rapidly developing city of Casablanca. It remains an emblematic part of the medina's history and urban planning, showcasing early colonial-era green space design.",
     "location": {
       "longitude": 33.6045604,
       "latitude": -7.6210205,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/captain-dessigny",
+        "relationship": [
+          "engineer",
+          "administrator"
+        ],
+        "comment": "Director of urban services who oversaw the initial development of the park."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment (as Jardin Public)",
+        "date": "1908-01-01",
+        "description": "The park was created, initially known as the 'Jardin Public.'"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.atelierbertrandhouin.com/casablanca-courts-circuits",
+        "type": "article",
+        "title": "Casablanca courts-circuits (Architectural reference)"
+      }
+    ],
+    "activities": [
+      "walking and relaxing",
+      "observing urban park design",
+      "socializing"
+    ],
+    "items": [
+      "green lawns",
+      "trees and plants"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "pre-protectorate/early-colonial era (1908-1910)",
+      "20th century"
     ]
   }
 }

@@ -2,29 +2,61 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "architecture",
+      "art-deco",
+      "colonial-era",
+      "national-heritage",
+      "closed"
+    ]
   },
   "spec": {
     "name": "Arc Cinema",
     "id": "arc-cinema",
-    "description": "\ud83d\udd3b Dates: 1940s<br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "The Arc Cinema is a historic movie theater in Casablanca, believed to date back to the 1940s, during a golden age of cinema and cultural development in the city. Cinéma Arc, along with other grand cinemas like the Empire and Rialto, are notable architectural landmarks, often featuring Art Deco or modernist styles characteristic of the colonial era. Though currently closed, its historical and architectural significance was recognized with its designation as a National Material Patrimony site in 2018.",
     "location": {
       "longitude": 33.5950839,
       "latitude": -7.6327468,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1940-01-01",
+        "description": "The cinema was established during the 1940s (Approximate date)."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://visitcasablanca.ma/en/pois/cinema-empire/",
+        "type": "article",
+        "title": "Reference to other historical Casablanca cinemas (Visit Casablanca)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "historical cinema architecture",
+      "former theater hall"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The cinema is currently closed for operation; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "20th century (1940s)",
+      "french protectorate era (1912-1956)"
     ]
   }
 }
