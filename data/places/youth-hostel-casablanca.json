@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "architecture/hotel",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "hostel",
+      "youth-travel",
+      "old-medina-vicinity",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Youth Hostel Casablanca",
     "id": "youth-hostel-casablanca",
-    "description": "\ud83d\udd3b Dates: 1930s<br>\ud83d\udd3b Current Status: Hostel<br>\ud83d\udd3bDescription: The oldest youth hostel in Morocco, created before the creation of the network in Morocco.",
+    "description": "The Youth Hostel Casablanca (Auberge de Jeunesse de Casablanca) is a historically important accommodation facility for travelers. It is noted as the **oldest youth hostel in Morocco**, established in the 1930s, predating the official network in the country. Located near the historical core, it has provided affordable lodging for young travelers and backpackers for decades, reflecting a long history of youth tourism and cultural exchange.",
     "location": {
       "longitude": 33.6003443,
       "latitude": -7.6174283,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1935-01-01",
+        "description": "The youth hostel was established, making it the oldest in Morocco (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "lodging and accommodation (restricted to guests)",
+      "socializing with other travelers"
+    ],
+    "items": [
+      "dormitory and private rooms",
+      "common areas and facilities"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Accommodation fee (per night)",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted to registered guests and patrons."
     },
     "timePeriods": [
-      ""
+      "20th century (1930s)",
+      "contemporary period"
     ]
   }
 }

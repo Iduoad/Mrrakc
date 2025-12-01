@@ -2,29 +2,62 @@
   "version": "mrrakc/v0",
   "kind": "urban/square",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-space",
+      "square",
+      "city-center",
+      "transport-hub",
+      "historical-significance"
+    ]
   },
   "spec": {
     "name": "United Nations Square",
     "id": "united-nations-square",
-    "description": "None",
+    "description": "United Nations Square (Place des Nations Unies) is a major, central square in Casablanca, often considered the symbolic dividing line between the old city (medina) and the new European town. It is a critical hub for transportation and urban life, featuring modern and historical buildings, and connecting major avenues. The square reflects the city's architectural evolution, blending the original colonial urban plan with contemporary elements.",
     "location": {
       "longitude": 33.5948128,
       "latitude": -7.6187715,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Planning and Development",
+        "date": "1915-01-01",
+        "description": "The area was formally designed in the initial urban plans for the new town (Approximate period)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/United_Nations_Square_(Casablanca)",
+        "type": "article",
+        "title": "United Nations Square (Casablanca) Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "socializing and people-watching",
+      "accessing transport (tramway)",
+      "architectural observation"
+    ],
+    "items": [
+      "central fountain (if present)",
+      "surrounding historical buildings"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Square access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

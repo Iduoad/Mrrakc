@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/amusement-park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "amusement-park",
+      "theme-park",
+      "leisure",
+      "family-fun"
+    ]
   },
   "spec": {
     "name": "Yasmine Fun Park",
     "id": "yasmine-fun-park",
-    "description": "None",
+    "description": "Yasmine Fun Park is a recreational facility offering various amusement rides, games, and entertainment options, catering primarily to families and children. It provides a popular local venue for weekend leisure and fun activities.",
     "location": {
       "longitude": -7.6386155,
       "latitude": 33.5785336,
@@ -17,16 +22,27 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "amusement-park"
+      "riding amusement park rides",
+      "family entertainment"
     ],
-    "items": [],
+    "items": [
+      "various amusement rides",
+      "game booths"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Entrance Fee/Ride Tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
