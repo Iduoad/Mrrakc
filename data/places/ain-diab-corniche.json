@@ -2,29 +2,77 @@
   "version": "mrrakc/v0",
   "kind": "urban/corniche",
   "metadata": {
-    "tags": []
+    "tags": ["seaside", "promenade", "entertainment", "nightlife", "historic-development", "atlantic-coast"]
   },
   "spec": {
     "name": "Ain Diab Corniche",
     "id": "ain-diab-corniche",
-    "description": "None",
+    "description": "The Ain Diab Corniche is Casablanca's premier seaside promenade, transforming from a small fishing village into a vibrant hub of leisure and entertainment during the French Protectorate era. Development began in the 1920s and 1930s with the construction of beach clubs, restaurants, and cafes. Today, it is famous for its fashionable stretch of coastline, lined with hotels, restaurants, nightclubs, and public beaches like Lalla Meryem and Ain Diab Beach. It is a major attraction for both locals and tourists, serving as a center for relaxation, sports, and nightlife.",
     "location": {
       "longitude": 33.5964552,
       "latitude": -7.6742452,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/tahir-shah",
+        "relationship": ["notable-resident"],
+        "comment": "British-born writer known to be a resident of the Ain Diab neighborhood."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Initial Development Begins",
+        "date": "1920-01-01",
+        "description": "Start of development during the French Protectorate era, with the establishment of early beach clubs and cafes."
+      },
+      {
+        "title": "Formula One Race",
+        "date": "1958-10-19",
+        "description": "Ain Diab hosted a round of the Formula One World Championship on the Ain-Diab Circuit."
+      },
+      {
+        "title": "McDonald's Opening",
+        "date": "1992-01-01",
+        "description": "The first McDonald's franchise in Africa and the Arab world opened on Ain Diab."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ain_Diab",
+        "type": "article",
+        "title": "Ain Diab Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "strolling along the promenade",
+      "dining at seaside restaurants",
+      "visiting beach clubs",
+      "enjoying the nightlife",
+      "swimming and sunbathing at the beaches",
+      "cycling and jogging"
+    ],
+    "items": [
+      "public beaches (lalla meryem, ain diab beach)",
+      "restaurants and cafes",
+      "nightclubs"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Access to the Corniche promenade",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "post-independence era",
+      "contemporary period"
     ]
   }
 }
