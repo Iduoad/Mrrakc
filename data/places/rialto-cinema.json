@@ -2,29 +2,68 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "art-deco",
+      "closed",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Rialto Cinema",
     "id": "rialto-cinema",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1929 <br>\ud83d\udd3b Current Status: Closed<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "Rialto Cinema (Cinéma Rialto) is one of Casablanca's most celebrated and historically important movie theaters. Designed by architect **Pierre Jabin** and completed in 1929, it is an outstanding example of the grand **Art Deco** cinemas of the era, known for its elegant facade and lavish interior design. The Rialto was a cultural hub during the French Protectorate. Though currently **closed**, its architectural and cultural significance led to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
       "longitude": 33.5943724,
       "latitude": -7.6145151,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/pierre-jabin",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the Rialto Cinema."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1929-01-01",
+        "description": "The Rialto Cinema building was completed and opened."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/les-anciens-cinemas-de-casablanca/",
+        "type": "website",
+        "title": "Les Anciens Cinémas de Casablanca (We See Casa)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "art deco facade and signage",
+      "historical cinema hall and balcony"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The cinema is currently closed for operation; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

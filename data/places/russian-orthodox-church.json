@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "russian-orthodox",
+      "historical-church",
+      "national-heritage",
+      "20th-century"
+    ]
   },
   "spec": {
     "name": "Russian Orthodox Church",
     "id": "russian-orthodox-church",
-    "description": "\ud83d\udd3b National Material Patrimony Declaration: 2013",
+    "description": "The Russian Orthodox Church in Casablanca is a religious landmark serving the small but historically present Russian Orthodox community. Built in the early 20th century, its architecture typically follows the characteristic Russian religious style (e.g., onion domes). It represents the diversity of the city's early 20th-century European population. The building was declared a **National Material Patrimony** site in 2013.",
     "location": {
       "longitude": 33.5819769,
       "latitude": -7.6227055,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The church was established to serve the Russian community (Approximate date)."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2013-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "attending religious services",
+      "architectural observation"
+    ],
+    "items": [
+      "russian orthodox architectural elements",
+      "religious icons"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Worship services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

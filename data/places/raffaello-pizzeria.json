@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "italian-cuisine",
+      "pizzeria",
+      "city-center"
+    ]
   },
   "spec": {
     "name": "Raffaello Pizzeria",
     "id": "raffaello-pizzeria",
-    "description": "None",
+    "description": "Raffaello Pizzeria is a casual dining restaurant in Casablanca specializing in **pizza and Italian cuisine**. Located in the central district, it caters to urban diners seeking international comfort food. The establishment provides a quick, popular option for Italian classics.",
     "location": {
       "longitude": 33.5930885,
       "latitude": -7.6169457,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on pizza and Italian food",
+      "socializing"
+    ],
+    "items": [
+      "various pizza options",
+      "italian pasta and appetizers"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

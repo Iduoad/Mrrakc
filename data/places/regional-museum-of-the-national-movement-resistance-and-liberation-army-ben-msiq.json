@@ -2,29 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "museum",
+      "historical-heritage",
+      "national-resistance",
+      "liberation-army",
+      "ben-msiq",
+      "educational"
+    ]
   },
   "spec": {
     "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Ben Msiq",
     "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-ben-msiq",
-    "description": "None",
+    "description": "The Regional Museum of the National Movement, Resistance, and Liberation Army in Ben Msiq is a national cultural institution dedicated to documenting and commemorating Morocco's struggle for independence, focusing on the resistance movement and the liberation army in the Casablanca-Settat region. The museum features exhibits on key historical events, figures, and artifacts from the colonial era through independence (1912-1956). It plays a crucial educational role in preserving national memory.",
     "location": {
       "longitude": 33.557173,
       "latitude": -7.5830903,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/mohammed-v",
+        "relationship": [
+          "historical-figure"
+        ],
+        "comment": "Symbol of the national movement and resistance."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Museum Establishment",
+        "date": "2000-01-01",
+        "description": "The museum was established as part of the national effort to preserve resistance history (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing historical exhibits",
+      "learning about moroccan resistance history",
+      "historical research"
+    ],
+    "items": [
+      "historical documents and photographs",
+      "artifacts from the liberation army"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Museum entrance fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century (1912-1956 period of focus)",
+      "contemporary period (museum operation)"
     ]
   }
 }
