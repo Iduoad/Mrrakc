@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "cultural-center",
+      "exhibition-space"
+    ]
   },
   "spec": {
     "name": "Flore Maison des Arts",
     "id": "flore-maison-des-arts",
-    "description": "None",
+    "description": "Flore Maison des Arts (Flore House of Arts) is a cultural venue and art gallery in Casablanca dedicated to promoting and showcasing Moroccan and international art. As a 'Maison des Arts' (House of Arts), it likely hosts a variety of cultural events beyond simple exhibitions, such as workshops, conferences, and performances. It serves as a meeting place for artists and the public, contributing to the city's lively contemporary arts scene.",
     "location": {
       "longitude": 33.6049609,
       "latitude": -7.6333464,
@@ -16,15 +21,30 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing art exhibitions",
+      "attending cultural events",
+      "art workshops"
+    ],
+    "items": [
+      "contemporary artworks",
+      "exhibition spaces"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Fees may apply to special events or workshops."
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

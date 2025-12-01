@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "food/street-food",
   "metadata": {
-    "tags": []
+    "tags": [
+      "street-food",
+      "local-specialty",
+      "sandwich",
+      "fish",
+      "casablanca-cuisine"
+    ]
   },
   "spec": {
     "name": "Gazzoum Tuna Sandwich",
     "id": "gazzoum-tuna-sandwich",
-    "description": "None",
+    "description": "Gazzoum Tuna Sandwich is a legendary local street food vendor or stall in Casablanca, famous for its simple yet high-quality **tuna sandwiches**. These sandwiches are a staple of Casablanca's quick-service, local culinary scene, often prepared with fresh ingredients, olives, and spices. Gazzoum has gained a reputation for being an authentic, must-try spot for affordable and delicious street food, representing a unique culinary institution for the local population.",
     "location": {
       "longitude": 33.5677811,
       "latitude": -7.5995192,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/gazzoum",
+        "relationship": [
+          "founder",
+          "namesake"
+        ],
+        "comment": "The founder or operator of the famous tuna sandwich stall."
+      }
+    ],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=k4zH3Qf0w4A",
+        "type": "video",
+        "title": "Gazzoum: The Most Famous Sandwich in Casablanca (YouTube Vlog)"
+      }
+    ],
+    "activities": [
+      "purchasing and eating the tuna sandwich",
+      "experiencing local street food culture"
+    ],
+    "items": [
+      "tuna and fresh ingredients",
+      "sandwich station"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Food purchase",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

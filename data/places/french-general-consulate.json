@@ -2,29 +2,77 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "consulate",
+      "government",
+      "neo-moorish",
+      "colonial-architecture",
+      "1910s-1920s"
+    ]
   },
   "spec": {
     "name": "French General Consulate",
     "id": "french-general-consulate",
-    "description": "\ud83d\udd3b Architect: Albert Laprade<br>\ud83d\udd3b Dates: 1916-1922<br>\ud83d\udd3b Current Status: French Consulate<br>\ud83d\udd3b Comments: Military Subdivision Hotel",
+    "description": "The French General Consulate building is a landmark administrative structure designed by architect **Albert Laprade** and constructed between 1916 and 1922. It originally served as the **Military Subdivision Hotel** (Hôtel de la Subdivision Militaire), a key command post for the French administration. Reflecting the early Protectorate's architectural policy, the building is designed in the majestic Neo-Moorish style, combining traditional Moroccan craftsmanship with European monumentality. Today, it functions as the active French Consulate, symbolizing the long-standing diplomatic and historical relationship between France and Morocco.",
     "location": {
       "longitude": 33.5897138,
       "latitude": -7.6180301,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/albert-laprade",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the building in the Neo-Moorish style."
+      },
+      {
+        "id": "people/hubert-lyautey",
+        "relationship": [
+          "commissioner"
+        ],
+        "comment": "French Resident-General whose urban vision influenced the Neo-Moorish style for major public buildings."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Began",
+        "date": "1916-01-01",
+        "description": "Construction of the building began as the Military Subdivision Hotel."
+      },
+      {
+        "title": "Building Completed and Opened",
+        "date": "1922-01-01",
+        "description": "The administrative building was completed."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://casablanca.consulfrance.org/",
+        "type": "website",
+        "title": "French General Consulate Official Website"
+      }
+    ],
+    "activities": [
+      "consular and diplomatic services (restricted)",
+      "architectural observation"
+    ],
+    "items": [
+      "neo-moorish architectural facade",
+      "historical administrative offices"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as an active consulate; public access is limited to those seeking consular services."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

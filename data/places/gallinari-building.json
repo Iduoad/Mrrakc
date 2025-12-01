@@ -2,29 +2,65 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "mythological-elements",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Gallinari Building",
     "id": "gallinari-building",
-    "description": "\ud83d\udd3b Architect: Elias & Joseph Suraqui<br>\ud83d\udd3b Dates: 1924<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: The face on the facade is of Dionysus the god of Wine.",
+    "description": "The Gallinari Building is a notable historical residential and commercial structure in central Casablanca. Designed in 1924 by the prominent Jewish Moroccan architects **Elias and Joseph Suraqui**, it is a key example of the early Art Deco and classicist revival styles of the Protectorate era. A unique feature of the facade is a decorative face, believed to be that of **Dionysus**, the Greek god of Wine, reflecting a blend of European classical and modernist influences in the city's early architecture. It remains an actively inhabited building.",
     "location": {
       "longitude": 33.5950876,
       "latitude": -7.6140746,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/elias-suraqui",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the Gallinari Building."
+      },
+      {
+        "id": "people/joseph-suraqui",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the Gallinari Building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1924-01-01",
+        "description": "The Gallinari Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "art deco facade elements",
+      "sculpture of dionysus on the facade"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

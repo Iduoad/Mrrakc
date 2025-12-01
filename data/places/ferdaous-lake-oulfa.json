@@ -2,12 +2,19 @@
   "version": "mrrakc/v0",
   "kind": "nature/lake",
   "metadata": {
-    "tags": []
+    "tags": [
+      "lake",
+      "nature-reserve",
+      "park",
+      "bird-watching",
+      "oulfa",
+      "recreational"
+    ]
   },
   "spec": {
     "name": "Ferdaous Lake (Oulfa)",
     "id": "ferdaous-lake-oulfa",
-    "description": "None",
+    "description": "Ferdaous Lake (Lac Ferdaous) is a natural or man-made body of water located in the Oulfa area of Casablanca. It is often situated within a park or green belt, serving as an important natural feature and habitat for local flora and fauna, particularly aquatic birds. The lake area is primarily used for light recreation, offering residents a peaceful setting for nature observation and walking. Projects often focus on rehabilitating these urban water features to improve water quality and increase biodiversity.",
     "location": {
       "longitude": -7.6727847,
       "latitude": 33.5548507,
@@ -18,16 +25,28 @@
     "links": [],
     "activities": [
       "walking",
-      "nature_observation"
+      "nature observation",
+      "bird watching",
+      "picnicking"
     ],
-    "items": [],
+    "items": [
+      "natural lake and wetlands",
+      "water birds and local fauna"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Lake area access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
