@@ -2,31 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "nature/zoo",
   "metadata": {
-    "tags": []
+    "tags": [
+      "zoo",
+      "wildlife",
+      "animal-exhibits",
+      "conservation",
+      "sindibad"
+    ]
   },
   "spec": {
     "name": "Sindibad Zoo",
     "id": "sindibad-zoo",
-    "description": "None",
+    "description": "Sindibad Zoo is the integrated zoo section of the large Sindibad Park leisure complex. It features various animal exhibits, focusing on both local and international species. The zoo is dedicated to wildlife conservation and education, providing a natural environment for animals within the urban perimeter. It offers educational and recreational opportunities for visitors, particularly focusing on family and school groups.",
     "location": {
       "longitude": -7.6931194,
       "latitude": 33.5806899,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "zoo"
+    "people": [
+      {
+        "id": "people/sindibad-park-management",
+        "relationship": [
+          "owner",
+          "operator"
+        ],
+        "comment": "The management team responsible for the complex."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Opening Date",
+        "date": "2015-01-01",
+        "description": "The renovated zoo opened as part of the Sindibad Park complex (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.parcsindibad.com/",
+        "type": "website",
+        "title": "Sindibad Park Official Website"
+      }
+    ],
+    "activities": [
+      "viewing animal exhibits",
+      "educational tours",
+      "wildlife observation"
+    ],
+    "items": [
+      "various animal species",
+      "zoo enclosures and landscaping"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Zoo entrance fee (often bundled with park access)",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

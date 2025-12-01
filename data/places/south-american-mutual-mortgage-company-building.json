@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "commercial",
+      "residential",
+      "art-deco",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "South American Mutual Mortgage Company Building",
     "id": "south-american-mutual-mortgage-company-building",
-    "description": "\ud83d\udd3b Architect: Marius Boyer & Jean Balois<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b Comments: In French it is \"Societe mutuelle hypothecaire sud-americaine\",,,,Marius Boyer & Jean Balois,,,In French it is Societe mutuelle hypothecaire sud-americaine",
+    "description": "The South American Mutual Mortgage Company Building (Société mutuelle hypothécaire sud-américaine) is a historical residential and commercial structure completed in 1929. It was designed by the prominent duo **Marius Boyer and Jean Balois**. This building reflects the international investment and architectural ambition of the Art Deco era in Casablanca, particularly concerning foreign financial institutions. It remains an inhabited building.",
     "location": {
       "longitude": 33.5937697,
       "latitude": -7.612655,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who co-designed the building."
+      },
+      {
+        "id": "people/jean-balois",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who co-designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1929-01-01",
+        "description": "The building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

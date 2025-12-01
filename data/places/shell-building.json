@@ -2,29 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "hotel",
+      "art-deco",
+      "marius-boyer",
+      "national-heritage",
+      "1930s",
+      "repurposed"
+    ]
   },
   "spec": {
     "name": "Shell Building",
     "id": "shell-building",
-    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1934<br>\ud83d\udd3b Current Status: Imperial Hotel<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "The Shell Building is a major historical structure completed in 1934, designed by the prominent French architect **Marius Boyer**. It was originally built as the headquarter for the **Shell Oil Company**, reflecting the international commercial presence during the French Protectorate. The building is a landmark of Art Deco architecture, known for its distinctive curvilinear form and possibly shell-motif detailing. It has since been repurposed and currently functions as the **Imperial Hotel**. Its historical and architectural value led to its designation as a **National Material Patrimony** site in 2004.",
     "location": {
       "longitude": 33.5939082,
       "latitude": -7.6060053,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1934-01-01",
+        "description": "The Shell Building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2004-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "lodging and accommodation (current function)",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "historical commercial space"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Hotel services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

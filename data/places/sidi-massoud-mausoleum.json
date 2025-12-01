@@ -2,29 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "local-shrine",
+      "sufism"
+    ]
   },
   "spec": {
     "name": "Sidi Massoud Mausoleum",
     "id": "sidi-massoud-mausoleum",
-    "description": "None",
+    "description": "The Sidi Massoud Mausoleum (Marabout de Sidi Massoud) is a local religious shrine dedicated to a saint. The site is a point of local piety and veneration within the Moroccan Sufi tradition, drawing pilgrims from the surrounding community for spiritual purposes.",
     "location": {
       "longitude": 33.5164052,
       "latitude": -7.6287886,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-massoud",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi massoud",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

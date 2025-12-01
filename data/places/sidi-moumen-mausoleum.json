@@ -2,29 +2,60 @@
   "version": "mrrakc/v0",
   "kind": "religion/mausoleum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "mausoleum",
+      "marabout",
+      "local-shrine",
+      "sufism",
+      "sidi-moumen"
+    ]
   },
   "spec": {
     "name": "Sidi Moumen Mausoleum",
     "id": "sidi-moumen-mausoleum",
-    "description": "None",
+    "description": "The Sidi Moumen Mausoleum (Marabout de Sidi Moumen) is a local religious shrine located in the vast Sidi Moumen neighborhood, which is named after the saint. The shrine is a center for local veneration, pilgrimage, and community gathering, reflecting the spiritual and social history of this large residential district.",
     "location": {
       "longitude": 33.5802228,
       "latitude": -7.5188917,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/sidi-moumen",
+        "relationship": [
+          "namesake",
+          "marabout",
+          "historical-figure"
+        ],
+        "comment": "The revered local saint after whom the neighborhood is named."
+      }
+    ],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "seeking blessings"
+    ],
+    "items": [
+      "tomb of sidi moumen",
+      "traditional shrine architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Mausoleum access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "historical era",
+      "contemporary period"
     ]
   }
 }

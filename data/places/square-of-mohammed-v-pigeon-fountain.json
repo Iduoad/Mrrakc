@@ -2,29 +2,64 @@
   "version": "mrrakc/v0",
   "kind": "urban/fountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "fountain",
+      "public-space",
+      "landmark",
+      "mohammed-v-square",
+      "art-deco"
+    ]
   },
   "spec": {
     "name": "Pigeon Fountain (Square of Mohammed V)",
     "id": "square-of-mohammed-v-pigeon-fountain",
-    "description": "None",
+    "description": "The Pigeon Fountain is the famous central water feature located in the monumental **Mohammed V Square** (formerly Place Administrative). The fountain is renowned for its large size, elaborate design, and the constant presence of numerous pigeons, which visitors often feed. As the centerpiece of Casablanca's administrative heart, it is a key urban landmark and a popular gathering place, surrounded by the city's grand Art Deco and Neo-Moorish public buildings.",
     "location": {
       "longitude": 33.5914402,
       "latitude": -7.6196399,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/mohammed-v",
+        "relationship": [
+          "namesake"
+        ],
+        "comment": "The square is named after King Mohammed V."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Date",
+        "date": "1920-01-01",
+        "description": "The fountain was constructed as part of the formal development of the administrative square (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "sightseeing and photography",
+      "relaxing and people-watching",
+      "feeding the pigeons"
+    ],
+    "items": [
+      "large central fountain",
+      "art deco elements"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Fountain viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

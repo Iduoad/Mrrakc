@@ -2,29 +2,71 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-church",
+      "anglican",
+      "christian-site",
+      "oldest-church",
+      "1900s"
+    ]
   },
   "spec": {
     "name": "St John's Church",
     "id": "st-john-s-church",
-    "description": "\ud83d\udd3b Dates: 1906<br>\ud83d\udd3b Current Status: Church<br>\ud83d\udd3b Comments: The oldest church still in use in Casablanca.The cemetery nearby was built in\u00a01864.",
+    "description": "St. John's Church (Église Saint-Jean) is the **oldest Christian church still in use in Casablanca**, established in 1906, predating the French Protectorate's major urban expansion. It serves the Anglican and other Protestant expatriate communities. The church and its adjacent cemetery, dating back to 1864, are crucial historical landmarks reflecting the long-standing international presence and trade history in Casablanca. The church's survival represents a continued tradition of religious tolerance and diversity.",
     "location": {
       "longitude": 33.5954169,
       "latitude": -7.6210617,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/british-community",
+        "relationship": [
+          "founder",
+          "patron"
+        ],
+        "comment": "The British community in Casablanca who established the church."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Adjacent Cemetery Established",
+        "date": "1864-01-01",
+        "description": "The nearby British Cemetery was established."
+      },
+      {
+        "title": "Church Completed and Opened",
+        "date": "1906-01-01",
+        "description": "St. John's Church building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "attending religious services",
+      "architectural and historical observation",
+      "visiting the adjacent cemetery"
+    ],
+    "items": [
+      "historical church architecture",
+      "altar and religious artifacts"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Worship services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "pre-protectorate era (1906)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

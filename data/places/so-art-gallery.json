@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "art-gallery",
+      "contemporary-art",
+      "modern-art",
+      "exhibition-space"
+    ]
   },
   "spec": {
     "name": "SO ART GALLERY",
     "id": "so-art-gallery",
-    "description": "None",
+    "description": "SO ART GALLERY is a contemporary art space in Casablanca dedicated to curating and exhibiting works by modern and contemporary artists, with an emphasis on Moroccan art and African art. Located in a commercial and cultural district, the gallery contributes to the active cultural scene, focusing on the promotion and sale of high-quality artwork.",
     "location": {
       "longitude": 33.587837,
       "latitude": -7.6368048,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "viewing contemporary art exhibitions",
+      "art appreciation",
+      "purchasing artwork"
+    ],
+    "items": [
+      "contemporary paintings and sculptures"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gallery access during opening hours",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

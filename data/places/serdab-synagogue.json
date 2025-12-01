@@ -2,29 +2,55 @@
   "version": "mrrakc/v0",
   "kind": "religion/synagogue",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-synagogue",
+      "jewish-heritage",
+      "old-medina-vicinity",
+      "religious"
+    ]
   },
   "spec": {
     "name": "Serdab Synagogue",
     "id": "serdab-synagogue",
-    "description": "None",
+    "description": "Serdab Synagogue (Synagogue Serdab) is a historical place of worship for Casablanca's Jewish community, located near the Old Medina. The term 'Serdab' refers to a cool, subterranean room, suggesting the synagogue may have had unique structural features. It is a vital remnant of the once-flourishing Jewish presence in the city, contributing to Morocco's history of religious pluralism.",
     "location": {
       "longitude": 33.5981926,
       "latitude": -7.6209819,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The synagogue was established during the height of the Jewish community's growth (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "religious services (restricted to community)",
+      "historical observation"
+    ],
+    "items": [
+      "historical synagogue architecture",
+      "religious artifacts"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Jewish Community",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted, primarily serving the Jewish community; tourists often require prior arrangement."
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "nature/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "local-park"
+    ]
   },
   "spec": {
     "name": "Sidi Othmane Park",
     "id": "sidi-othmane-park",
-    "description": "None",
+    "description": "Sidi Othmane Park (Jardin Sidi Othmane) is a large public park in the Sidi Othmane neighborhood. It is a vital green space for the densely populated district, offering organized pathways, play areas, and shaded spots for relaxation, contributing significantly to the local residents' quality of life.",
     "location": {
       "longitude": 33.5540745,
       "latitude": -7.5672,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "walking and jogging",
+      "relaxing and picnicking",
+      "children's play"
+    ],
+    "items": [
+      "landscaped gardens",
+      "public seating"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

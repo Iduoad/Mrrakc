@@ -2,31 +2,67 @@
   "version": "mrrakc/v0",
   "kind": "sports/karting",
   "metadata": {
-    "tags": []
+    "tags": [
+      "karting",
+      "motorsports",
+      "amusement-park-complex",
+      "sindibad"
+    ]
   },
   "spec": {
     "name": "Sindibad Karting",
     "id": "sindibad-karting",
-    "description": "None",
+    "description": "Sindibad Karting is a dedicated go-kart racing track and facility located within the larger **Sindibad Park** leisure complex. It offers recreational and potentially competitive karting experiences for families and enthusiasts, contributing to the diverse array of entertainment options within the park.",
     "location": {
       "longitude": -7.6910174,
       "latitude": 33.5818554,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "karting"
+    "people": [
+      {
+        "id": "people/sindibad-park-management",
+        "relationship": [
+          "owner",
+          "operator"
+        ],
+        "comment": "The management team responsible for the Sindibad Park complex."
+      }
     ],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Opening Date",
+        "date": "2015-01-01",
+        "description": "The karting track opened as part of the renovated Sindibad Park (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.parcsindibad.com/",
+        "type": "website",
+        "title": "Sindibad Park Official Website"
+      }
+    ],
+    "activities": [
+      "go-kart racing",
+      "leisure and recreation"
+    ],
+    "items": [
+      "karting track and go-karts"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Karting Session Fee",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
