@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "history/gate",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-gate",
+      "old-medina",
+      "coastal-defense",
+      "sqala",
+      "18th-century"
+    ]
   },
   "spec": {
     "name": "Bab Sqala",
     "id": "bab-sqala",
-    "description": "None",
+    "description": "Bab Sqala (meaning 'Gate of the Skala') is a historical gate of the Old Medina that connected the fortified city to its coastal defense structure, the Sqala. The Sqala is an ancient bastion built along the sea walls to defend the harbor, particularly against naval attacks. The gate would have been integral to the city's military and coastal operations, providing controlled access between the inner city and the ramparts. The gate and the adjacent Sqala are important reminders of Casablanca's pre-colonial identity as a fortified port town.",
     "location": {
       "longitude": 33.6026841,
       "latitude": -7.6188606,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/mohammed-ben-abdallah",
+        "relationship": [
+          "founder"
+        ],
+        "comment": "Sultan of Morocco who rebuilt Casablanca (Anfa) and its fortifications in the late 18th century, including the Sqala."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Gate and Sqala Construction",
+        "date": "1780-01-01",
+        "description": "The gate and the adjacent coastal Sqala bastion were constructed as part of the Alawite Sultan Mohammed Ben Abdallah's rebuilding of Casablanca (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "exploring the old medina",
+      "visiting the adjacent sqala"
+    ],
+    "items": [
+      "historical city wall remnants",
+      "sqala coastal bastion"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Gate access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "alawite dynasty (18th century)",
+      "pre-colonial era"
     ]
   }
 }

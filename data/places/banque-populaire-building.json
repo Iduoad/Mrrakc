@@ -2,29 +2,76 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "bank-headquarters",
+      "colonial-architecture",
+      "1910s",
+      "neo-moorish"
+    ]
   },
   "spec": {
     "name": "Banque Populaire Building",
     "id": "banque-populaire-building",
-    "description": "\ud83d\udd3b Architect: Georges Virmot<br>\ud83d\udd3b Dates: 1918<br>\ud83d\udd3b Current Status: Bank<br>\ud83d\udd3b Comments: Ex. headquarter for the British West African Bank",
+    "description": "The current Banque Populaire Building (Banque Centrale Populaire) is historically significant as it originally served as the headquarter for the **British West African Bank**. Designed by architect **Georges Virmot** and completed in 1918, it is one of the early major bank structures in the new town of Casablanca, built shortly after the establishment of the French Protectorate. Its architecture, typical of the era, blends European styles with Moroccan motifs (Neo-Moorish or Mauresque style), reflecting the city's early development under colonial influence. Its prominent location and historical use make it a landmark of the city's financial and colonial past.",
     "location": {
       "longitude": 33.5948864,
       "latitude": -7.6166715,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/georges-virmot",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the building, completed in 1918."
+      },
+      {
+        "id": "people/lyautey",
+        "relationship": [
+          "historical-figure",
+          "commissioner"
+        ],
+        "comment": "Resident-General Lyautey's urban plans dictated the monumental architecture of the area."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1918-01-01",
+        "description": "The building was completed, initially housing the British West African Bank."
+      },
+      {
+        "title": "Renaming/Acquisition",
+        "date": "1960-01-01",
+        "description": "The building was later taken over by or became the location of the Banque Populaire (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+        "type": "article",
+        "title": "Ancienne Médina de Casablanca (We See Casa - References historical bank buildings)"
+      }
+    ],
+    "activities": [
+      "architectural observation",
+      "conducting banking business (limited public access)"
+    ],
+    "items": [
+      "historical bank facade",
+      "neo-moorish architectural elements"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Functions as an active bank; interior access is limited to bank clients and staff."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
