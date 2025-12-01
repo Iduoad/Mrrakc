@@ -2,29 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-cinema",
+      "modernist",
+      "closed",
+      "1950s"
+    ]
   },
   "spec": {
     "name": "Lynx Cinema",
     "id": "lynx-cinema",
-    "description": "\ud83d\udd3b Architect: Dominique Basciano<br>\ud83d\udd3b Dates: 1950<br>\ud83d\udd3b Current Status: Closed",
+    "description": "Lynx Cinema (Cinéma Lynx) is a historical movie theater in Casablanca, completed in 1950 and designed by architect **Dominique Basciano**. The cinema's design reflects the sleek, functional **Modernist** style of the post-war era, characteristic of major commercial architecture in Casablanca at the time. It played a role in the city's mid-century cultural life but is now **closed**, standing as an example of the city's declining single-screen cinema heritage.",
     "location": {
       "longitude": 33.587321,
       "latitude": -7.6174612,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/dominique-basciano",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the Lynx Cinema."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1950-01-01",
+        "description": "The Lynx Cinema building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "modernist cinema architecture"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "closed",
+      "comment": "The cinema is currently closed for operation; interior access is restricted."
     },
     "timePeriods": [
-      ""
+      "20th century (1950s)"
     ]
   }
 }

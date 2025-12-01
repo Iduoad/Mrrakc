@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "international-cuisine",
+      "modern-dining",
+      "healthy-food"
+    ]
   },
   "spec": {
     "name": "Les Soeurettes Restaurant",
     "id": "les-soeurettes-restaurant",
-    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Custom salads",
+    "description": "Les Soeurettes Restaurant (The Little Sisters Restaurant) is a modern dining spot in Casablanca known for its **International menu** and a specific focus on fresh, **custom salads** and healthy food options. It caters to a contemporary urban clientele looking for quick, quality meals and customizable dishes. The restaurant provides a casual yet stylish setting for lunch and dinner.",
     "location": {
       "longitude": 33.5910986,
       "latitude": -7.6443176,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on international cuisine",
+      "custom salad bar access",
+      "socializing"
+    ],
+    "items": [
+      "salad bar and fresh ingredients",
+      "international and healthy meal options"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

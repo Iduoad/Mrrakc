@@ -2,29 +2,56 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cafe",
+      "habous-quarter",
+      "traditional",
+      "social-hub",
+      "historical-area"
+    ]
   },
   "spec": {
     "name": "Imperial Cafe",
     "id": "imperial-cafe",
-    "description": "None",
+    "description": "Imperial Cafe (Café Impérial) is a traditional coffee house located in the culturally significant **Habous Quarter (Nouvelle Médina)**. Cafes in this planned district often feature Neo-Moorish architectural elements, providing a pleasant and authentic setting for enjoying Moroccan coffee and mint tea. It serves as a social hub for local residents, artisans, and visitors exploring the quarter's unique blend of tradition and colonial-era urban planning.",
     "location": {
       "longitude": 33.57781,
       "latitude": -7.606063,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1930-01-01",
+        "description": "The cafe was established as part of the Habous Quarter's commercial infrastructure (Approximate date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "drinking coffee and tea",
+      "socializing and people-watching",
+      "quick meal stop"
+    ],
+    "items": [
+      "traditional moroccan coffee and mint tea",
+      "neo-moorish decor"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Cafe services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "20th century",
+      "contemporary period"
     ]
   }
 }

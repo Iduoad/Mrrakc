@@ -2,29 +2,57 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "marius-boyer",
+      "1920s"
+    ]
   },
   "spec": {
-    "name": "L\u00e9vy-Bendayan Building",
+    "name": "Lévy-Bendayan Building",
     "id": "levy-bendayan-building",
-    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: Inhabited",
+    "description": "The Lévy-Bendayan Building is a historical residential and commercial structure in central Casablanca, completed in 1929. It was designed by architect **Marius Boyer**, a leading figure in the city's Art Deco and Neo-Moorish architectural scene. The building, named after its original owners/commissioners (Lévy-Bendayan, likely from the Jewish community), reflects the period's multi-story, mixed-use construction and the characteristic Art Deco detailing of Boyer's work.",
     "location": {
       "longitude": 33.5914412,
       "latitude": -7.6147646,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "French architect who designed the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1929-01-01",
+        "description": "The Lévy-Bendayan Building was completed."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }

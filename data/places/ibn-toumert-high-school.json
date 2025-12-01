@@ -2,29 +2,77 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "education",
+      "art-deco",
+      "national-heritage",
+      "1920s"
+    ]
   },
   "spec": {
     "name": "Ibn Toumert High School",
     "id": "ibn-toumert-high-school",
-    "description": "\ud83d\udd3b Architect: Georges Jean Grel<br>\ud83d\udd3b Dates: 1929<br>\ud83d\udd3b Current Status: School<br>\ud83d\udd3b National Material Patrimony Declaration: 2004",
+    "description": "Ibn Toumert High School (Lycée Ibn Toumert) is a historically significant educational complex in Casablanca, designed by architect **Georges Jean Grel** and completed in 1929. The school's architecture is characteristic of the French Protectorate era, blending modernist planning with Art Deco aesthetics. Its prominent design and long history as an educational institution earned it a designation as a **National Material Patrimony** site in 2004. It continues to operate as a public high school, named after the influential founder of the Almohad movement, Ibn Tumart.",
     "location": {
       "longitude": 33.5938393,
       "latitude": -7.6230291,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/georges-jean-grel",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the school building in 1929."
+      },
+      {
+        "id": "people/ibn-tumart",
+        "relationship": [
+          "namesake",
+          "historical-figure"
+        ],
+        "comment": "Founder of the Almohad movement, after whom the school is named."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed and Opened",
+        "date": "1929-01-01",
+        "description": "The high school building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2004-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "education and learning",
+      "architectural observation"
+    ],
+    "items": [
+      "art deco architectural elements",
+      "historical classrooms and facilities"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Students and Staff",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
+      "status": "open",
+      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
