@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "urban/park",
   "metadata": {
-    "tags": ["urban-park", "green-space", "recreational", "garden", "city-garden"]
+    "tags": [
+      "urban-park",
+      "green-space",
+      "recreational",
+      "garden",
+      "city-garden"
+    ]
   },
   "spec": {
     "name": "ALESCO Garden",
@@ -42,17 +48,15 @@
       }
     ],
     "activities": [
-      "walking and jogging on the circuit",
-      "playing basketball and pétanque",
-      "attending open-air theater events",
-      "relaxing in shaded areas",
-      "children's play"
+      "entertainment",
+      "gaming",
+      "relaxing",
+      "sports",
+      "walking"
     ],
     "items": [
-      "fountains",
-      "sports courts",
-      "open-air theater",
-      "children's play area",
+      "art & artifacts",
+      "facilities",
       "walking circuit"
     ],
     "access": {

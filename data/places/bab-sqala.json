@@ -43,13 +43,12 @@
       }
     ],
     "activities": [
-      "architectural observation",
       "exploring the old medina",
-      "visiting the adjacent sqala"
+      "sightseeing"
     ],
     "items": [
-      "historical city wall remnants",
-      "sqala coastal bastion"
+      "architecture",
+      "coastline"
     ],
     "access": {
       "type": "public",

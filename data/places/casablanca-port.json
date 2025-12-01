@@ -43,14 +43,13 @@
       }
     ],
     "activities": [
-      "maritime trade and logistics",
       "fishing operations",
-      "limited viewing from surrounding public areas"
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "container terminals",
-      "docks and quays",
-      "historical defense structures (sqala)"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "restricted",

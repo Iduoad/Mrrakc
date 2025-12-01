@@ -34,13 +34,12 @@
       }
     ],
     "activities": [
-      "viewing contemporary art exhibitions",
-      "art appreciation",
-      "purchasing artwork"
+      "cultural activities",
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "contemporary paintings and sculptures",
-      "curated exhibitions"
+      "art & artifacts"
     ],
     "access": {
       "type": "public",

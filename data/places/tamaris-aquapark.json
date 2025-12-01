@@ -29,14 +29,12 @@
       }
     ],
     "activities": [
-      "water slide riding",
-      "swimming and pool activities",
-      "sunbathing and relaxation"
+      "swimming",
+      "water slide riding"
     ],
     "items": [
-      "water slides and flumes",
-      "large swimming pools",
-      "children's play areas"
+      "coastline",
+      "facilities"
     ],
     "access": {
       "type": "public",

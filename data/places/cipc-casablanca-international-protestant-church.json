@@ -37,13 +37,12 @@
       }
     ],
     "activities": [
-      "attending religious services (in english)",
       "community outreach programs",
-      "fellowship and social events"
+      "entertainment",
+      "religious activities"
     ],
     "items": [
-      "worship hall",
-      "community rooms"
+      "facilities"
     ],
     "access": {
       "type": "public",

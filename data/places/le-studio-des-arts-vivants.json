@@ -35,14 +35,13 @@
       }
     ],
     "activities": [
-      "attending concerts and performances",
-      "taking dance and music classes",
-      "viewing art exhibitions"
+      "dancing",
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "performance hall",
-      "dance and music studios",
-      "gallery space"
+      "art & artifacts",
+      "facilities"
     ],
     "access": {
       "type": "public",

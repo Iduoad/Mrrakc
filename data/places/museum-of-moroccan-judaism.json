@@ -44,14 +44,12 @@
       }
     ],
     "activities": [
-      "viewing historical and religious artifacts",
-      "learning about jewish moroccan history",
-      "cultural enrichment"
+      "cultural activities",
+      "cultural enrichment",
+      "sightseeing"
     ],
     "items": [
-      "historical religious artifacts",
-      "traditional clothing and textiles",
-      "archival photographs and documents"
+      "architecture"
     ],
     "access": {
       "type": "public",

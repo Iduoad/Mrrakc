@@ -30,13 +30,12 @@
       }
     ],
     "activities": [
-      "shopping for electronics and goods",
-      "experiencing local commerce",
-      "walking through the commercial district"
+      "shopping",
+      "walking"
     ],
     "items": [
-      "retail stores and shops",
-      "diverse commercial goods (electronics, textiles, etc.)"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

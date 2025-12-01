@@ -43,20 +43,14 @@
       }
     ],
     "activities": [
-      "touring",
-      "exhibitions",
       "cafe",
-      "private events"
+      "cultural activities",
+      "entertainment",
+      "guided tours"
     ],
     "items": [
-      "traditional Moroccan jewelry",
-      "zellij (mosaic tilework)",
-      "ceramics and pottery",
-      "textiles and carpets",
-      "metalwork and brass objects",
-      "wooden artifacts",
-      "historical photographs",
-      "Art Deco architectural elements"
+      "architecture",
+      "art & artifacts"
     ],
     "access": {
       "type": "private",

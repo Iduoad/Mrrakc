@@ -12,6 +12,15 @@ There are several ways to contribute:
 4. **Improve tooling** - Enhance validation scripts and workflows
 5. **Promote and Build on top of the Data** - Build products using Mrrakc data and mention it.
 
+## 📏 Data Standardization
+
+To maintain consistency across the dataset, we enforce standardization for certain fields:
+
+-   **Activities**: Use gerunds (e.g., "walking", "dining") and preferred categories like `sightseeing`, `dining`, `cultural activities`, `religious activities`. Avoid redundant descriptions.
+-   **Items**: Use standardized categories like `architecture`, `facilities`, `art & artifacts`, `food & drink`. Keep values short and significant.
+
+We aim for the least duplication possible. For example, instead of "touring museum collections" and "watching exhibitions", use `cultural activities`.
+
 ## 😣 Current Focus
 We are currently working on Casablanca’s data. The dataset has already been curated and validated against the JSON schema, and enriched using AI and web search. We are now performing the final human validation before releasing the first version.
 

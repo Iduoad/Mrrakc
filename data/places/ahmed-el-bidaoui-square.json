@@ -7,7 +7,7 @@
   "spec": {
     "name": "Ahmed El Bidaoui Square",
     "id": "ahmed-el-bidaoui-square",
-    "description": "\ud83d\udd3b Dates: 18th until today<br>\ud83d\udd3b Description: One of the most important square of the Medina. Being in front of Bab El Marsa Gate made it the first step for the foreign trader entering the city. It was until 1920 that the warehouses were demolished and the sqaure was arranged. The square used to be named Amiral Philibert during the colonial era.",
+    "description": "🔻 Dates: 18th until today<br>🔻 Description: One of the most important square of the Medina. Being in front of Bab El Marsa Gate made it the first step for the foreign trader entering the city. It was until 1920 that the warehouses were demolished and the sqaure was arranged. The square used to be named Amiral Philibert during the colonial era.",
     "location": {
       "longitude": 33.6002756,
       "latitude": -7.6171497,
@@ -17,20 +17,16 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "shopping at traditional markets",
-      "dining at local restaurants",
-      "people watching",
-      "photography",
+      "dining",
       "exploring historic architecture",
-      "visiting nearby souks"
+      "photography",
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "traditional Moroccan architecture",
-      "historic buildings",
-      "market stalls",
-      "street vendors",
-      "Bab El Marsa Gate (nearby)",
-      "colonial-era structures"
+      "architecture",
+      "facilities",
+      "gardens"
     ],
     "access": {
       "type": "public",

@@ -2,7 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": ["religious", "architecture", "local-mosque", "park-adjacent"]
+    "tags": [
+      "religious",
+      "architecture",
+      "local-mosque",
+      "park-adjacent"
+    ]
   },
   "spec": {
     "name": "Ain Chock mosque Park",
@@ -23,9 +28,8 @@
       }
     ],
     "activities": [
-      "attending daily prayers",
       "community activities",
-      "religious study"
+      "religious activities"
     ],
     "items": [],
     "access": {

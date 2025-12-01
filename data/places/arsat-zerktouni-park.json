@@ -44,13 +44,12 @@
       }
     ],
     "activities": [
-      "walking and relaxing",
-      "observing urban park design",
-      "socializing"
+      "sightseeing",
+      "socializing",
+      "walking"
     ],
     "items": [
-      "green lawns",
-      "trees and plants"
+      "gardens"
     ],
     "access": {
       "type": "public",

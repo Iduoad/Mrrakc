@@ -29,13 +29,13 @@
       }
     ],
     "activities": [
-      "riding amusement park rides",
-      "playing carnival games",
-      "family entertainment"
+      "entertainment",
+      "gaming",
+      "sports"
     ],
     "items": [
-      "various amusement rides",
-      "game booths"
+      "facilities",
+      "various amusement rides"
     ],
     "access": {
       "type": "public",

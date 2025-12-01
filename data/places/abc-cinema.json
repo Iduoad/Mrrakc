@@ -66,16 +66,13 @@
       }
     ],
     "activities": [
-      "films",
-      "special events",
-      "film festivals"
+      "entertainment"
     ],
     "items": [
-      "classic facade",
+      "architecture",
+      "coastline",
       "elegant interior",
-      "auditorium",
-      "screen",
-      "seating"
+      "facilities"
     ],
     "access": {
       "type": "private",

@@ -76,13 +76,11 @@
       }
     ],
     "activities": [
-      "attending daily prayers",
-      "religious study",
-      "architectural observation"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "koutoubia-inspired minaret (post-1960)",
-      "historical prayer hall"
+      "architecture"
     ],
     "access": {
       "type": "public",

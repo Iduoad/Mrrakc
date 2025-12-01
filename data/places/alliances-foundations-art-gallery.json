@@ -35,13 +35,12 @@
       }
     ],
     "activities": [
-      "viewing art exhibitions",
-      "attending cultural events",
-      "participating in cultural workshops"
+      "cultural activities",
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "contemporary art pieces",
-      "photography works (via LCC Program)"
+      "art & artifacts"
     ],
     "access": {
       "type": "public",

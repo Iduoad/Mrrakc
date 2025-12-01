@@ -27,14 +27,12 @@
       }
     ],
     "activities": [
-      "viewing art exhibitions",
-      "purchasing artwork",
-      "attending exhibition openings"
+      "cultural activities",
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "paintings",
-      "sculptures",
-      "photography"
+      "art & artifacts"
     ],
     "access": {
       "type": "public",

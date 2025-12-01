@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "nature/beach",
   "metadata": {
-    "tags": ["beach", "atlantic-coast", "local-spot", "surfing", "bodyboarding"]
+    "tags": [
+      "beach",
+      "atlantic-coast",
+      "local-spot",
+      "surfing",
+      "bodyboarding"
+    ]
   },
   "spec": {
     "name": "Ain Sebaa Beach",
@@ -23,14 +29,12 @@
       }
     ],
     "activities": [
-      "swimming (with caution)",
-      "sunbathing",
       "surfing",
-      "bodyboarding",
-      "beach walking"
+      "swimming",
+      "walking"
     ],
     "items": [
-      "atlantic ocean waves"
+      "coastline"
     ],
     "access": {
       "type": "public",

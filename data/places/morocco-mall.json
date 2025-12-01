@@ -45,14 +45,13 @@
       }
     ],
     "activities": [
-      "retail shopping",
-      "dining and food court access",
-      "visiting the aquarium and cinema"
+      "dining",
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "large central aquarium (aquadream)",
-      "hundreds of retail stores",
-      "ice rink (if applicable)"
+      "animals",
+      "facilities"
     ],
     "access": {
       "type": "public",

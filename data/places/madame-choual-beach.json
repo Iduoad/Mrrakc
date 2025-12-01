@@ -23,14 +23,12 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "swimming",
-      "sunbathing",
       "beach volleyball",
-      "coastal walking"
+      "swimming",
+      "walking"
     ],
     "items": [
-      "sandy beach area",
-      "atlantic ocean water"
+      "coastline"
     ],
     "access": {
       "type": "public",

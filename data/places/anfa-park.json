@@ -40,14 +40,14 @@
       }
     ],
     "activities": [
-      "walking and jogging",
-      "relaxing and picnicking",
       "cycling",
-      "outdoor recreation"
+      "outdoor recreation",
+      "relaxing",
+      "walking"
     ],
     "items": [
-      "former airport runway (1400 meters long)",
-      "landscaped gardens"
+      "facilities",
+      "gardens"
     ],
     "access": {
       "type": "public",

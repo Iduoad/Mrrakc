@@ -44,13 +44,11 @@
       }
     ],
     "activities": [
-      "viewing animal exhibits",
-      "educational tours",
-      "wildlife observation"
+      "guided tours",
+      "sightseeing"
     ],
     "items": [
-      "various animal species",
-      "zoo enclosures and landscaping"
+      "animals"
     ],
     "access": {
       "type": "public",

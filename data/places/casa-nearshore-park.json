@@ -43,14 +43,14 @@
       }
     ],
     "activities": [
-      "walking and jogging",
-      "outdoor relaxation",
-      "lunch break spot"
+      "dining",
+      "relaxing",
+      "walking"
     ],
     "items": [
-      "landscaped gardens",
-      "walking paths",
-      "water features"
+      "coastline",
+      "gardens",
+      "walking paths"
     ],
     "access": {
       "type": "public",

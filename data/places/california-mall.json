@@ -23,13 +23,13 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "retail shopping",
-      "dining at cafes and restaurants",
-      "convenience services"
+      "convenience services",
+      "dining",
+      "shopping"
     ],
     "items": [
-      "retail stores",
-      "food outlets"
+      "facilities",
+      "food & drink"
     ],
     "access": {
       "type": "public",

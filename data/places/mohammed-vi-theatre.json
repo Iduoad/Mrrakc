@@ -37,13 +37,12 @@
     ],
     "links": [],
     "activities": [
-      "attending live theatrical performances",
-      "watching concerts and dance shows",
-      "cultural enrichment"
+      "cultural enrichment",
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "main stage and auditorium",
-      "backstage facilities and technical equipment"
+      "facilities"
     ],
     "access": {
       "type": "public",

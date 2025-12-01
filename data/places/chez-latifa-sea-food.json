@@ -38,12 +38,11 @@
       }
     ],
     "activities": [
-      "tasting fresh seafood",
-      "experiencing local street food culture"
+      "dining"
     ],
     "items": [
-      "fresh crab and oysters",
-      "various fish snacks"
+      "animals",
+      "food & drink"
     ],
     "access": {
       "type": "public",

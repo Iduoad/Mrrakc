@@ -29,14 +29,12 @@
       }
     ],
     "activities": [
-      "go-kart racing",
-      "attending karting events",
-      "driving lessons"
+      "karting"
     ],
     "items": [
-      "outdoor karting track",
-      "racing go-karts",
-      "safety equipment"
+      "architecture",
+      "art & artifacts",
+      "goods"
     ],
     "access": {
       "type": "public",

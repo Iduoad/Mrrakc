@@ -48,12 +48,11 @@
       }
     ],
     "activities": [
-      "architectural observation",
-      "conducting banking business (limited public access)"
+      "banking",
+      "sightseeing"
     ],
     "items": [
-      "art deco architectural facade",
-      "historical banking hall"
+      "architecture"
     ],
     "access": {
       "type": "restricted",

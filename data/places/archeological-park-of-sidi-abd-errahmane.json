@@ -41,15 +41,13 @@
       }
     ],
     "activities": [
-      "visiting the archaeological exhibition center (upon completion)",
-      "walking the discovery and learning paths",
-      "observing archaeological remains and excavation areas",
-      "attending pre-historical workshops"
+      "cultural activities",
+      "sightseeing",
+      "walking"
     ],
     "items": [
-      "fossilized human mandible fragment",
       "acheulean stone tools",
-      "fossilized fauna remains"
+      "animals"
     ],
     "access": {
       "type": "public",
