@@ -2,29 +2,66 @@
   "version": "mrrakc/v0",
   "kind": "urban/port",
   "metadata": {
-    "tags": []
+    "tags": [
+      "port",
+      "economic-hub",
+      "maritime",
+      "historical-infrastructure",
+      "trade"
+    ]
   },
   "spec": {
     "name": "Casablanca Port",
     "id": "casablanca-port",
-    "description": "None",
+    "description": "Casablanca Port (Port de Casablanca) is one of the largest and most historically significant ports in North Africa, acting as Morocco's primary maritime gateway for international trade. Its development was accelerated by the French Protectorate in the early 20th century, transforming Casablanca from a small town into a major industrial and economic capital. The port handles significant volumes of commercial traffic, including containers and bulk cargo. It remains a crucial element of the city's economic identity and urban landscape, bordering the Old Medina and the city center.",
     "location": {
       "longitude": 33.6024486,
       "latitude": -7.6144007,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/maroc-port",
+        "relationship": [
+          "administrator"
+        ],
+        "comment": "The national port agency responsible for operating the port facilities."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Early Expansion Initiated",
+        "date": "1912-01-01",
+        "description": "Major expansion and modernization of the port began under the French Protectorate."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.casaport.ma/en",
+        "type": "website",
+        "title": "Casablanca Port Authority Website"
+      }
+    ],
+    "activities": [
+      "maritime trade and logistics",
+      "fishing operations",
+      "limited viewing from surrounding public areas"
+    ],
+    "items": [
+      "container terminals",
+      "docks and quays",
+      "historical defense structures (sqala)"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "The port area is primarily restricted to commercial and official traffic; public access is limited to certain administrative and adjacent areas."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }

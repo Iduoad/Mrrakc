@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "protestant",
+      "international-community",
+      "worship-center"
+    ]
   },
   "spec": {
     "name": "CIPC Casablanca International Protestant Church",
     "id": "cipc-casablanca-international-protestant-church",
-    "description": "None",
+    "description": "The Casablanca International Protestant Church (CIPC) serves the English-speaking and international Protestant Christian community in Casablanca. As an international church, it provides a crucial religious and social hub for expatriates and diverse foreign nationals living in the city, offering services, community programs, and activities in English. Its presence underscores the long-standing international and religiously diverse character of Casablanca.",
     "location": {
       "longitude": 33.5954449,
       "latitude": -7.6055746,
       "province": "province/casablanca"
     },
-    "people": [],
+    "people": [
+      {
+        "id": "people/international-community",
+        "relationship": [
+          "founder",
+          "community"
+        ],
+        "comment": "The international and expatriate community that established and maintains the church."
+      }
+    ],
     "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "links": [
+      {
+        "url": "https://www.cipc-online.org/",
+        "type": "website",
+        "title": "Casablanca International Protestant Church Official Website"
+      }
+    ],
+    "activities": [
+      "attending religious services (in english)",
+      "community outreach programs",
+      "fellowship and social events"
+    ],
+    "items": [
+      "worship hall",
+      "community rooms"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Worship services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

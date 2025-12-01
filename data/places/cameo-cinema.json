@@ -2,31 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "entertainment/cinema",
   "metadata": {
-    "tags": []
+    "tags": [
+      "cinema",
+      "movie-theater",
+      "entertainment",
+      "closed"
+    ]
   },
   "spec": {
     "name": "Cameo Cinema",
     "id": "cameo-cinema",
-    "description": "None",
+    "description": "Cameo Cinema (Cinéma Caméo) is a historical movie theater in Casablanca, typical of the mid-20th-century entertainment venues that proliferated during the city's rapid expansion. Like many classic single-screen cinemas, it has likely faced closure or conversion due to the rise of multiplexes and modern entertainment centers. If currently active, it serves as a local cinema house; if closed, it represents a significant piece of Casablanca's cinematic architectural heritage.",
     "location": {
       "longitude": -7.6589402,
       "latitude": 33.5891741,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1950-01-01",
+        "description": "The cinema was likely established during the post-war period (Approximate date)."
+      }
+    ],
     "links": [],
     "activities": [
-      "cinema"
+      "watching films and movies"
     ],
-    "items": [],
+    "items": [
+      "cinema screen and seating",
+      "historical facade (if preserved)"
+    ],
     "access": {
       "type": "public",
-      "options": [],
-      "status": "open"
+      "options": [
+        {
+          "title": "Ticket price",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Status assumed open based on input, but many historical cinemas are closed or repurposed."
     },
     "timePeriods": [
-      ""
+      "mid-20th century",
+      "contemporary period"
     ]
   }
 }

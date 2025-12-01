@@ -2,29 +2,78 @@
   "version": "mrrakc/v0",
   "kind": "religion/church",
   "metadata": {
-    "tags": []
+    "tags": [
+      "religious",
+      "catholic",
+      "modernist-architecture",
+      "art-deco",
+      "20th-century",
+      "stained-glass"
+    ]
   },
   "spec": {
     "name": "Church of Notre Dame of Lourdes",
     "id": "church-of-notre-dame-of-lourdes",
-    "description": "\ud83d\udd3b Architect: Achille Danglettere<br>\ud83d\udd3b Dates: 1954<br>\ud83d\udd3b Current Status: Church",
+    "description": "The Church of Notre Dame of Lourdes (Église Notre-Dame de Lourdes) is one of Casablanca's most famous Catholic churches, completed in 1954 and designed by architect **Achille Dangleterre**. The church is a stunning example of post-war Modernist architecture, distinguished by its massive concrete structure and, most famously, its spectacular, vast expanse of stained glass windows. These windows, designed by Gabriel Loire of Chartres, depict abstract scenes and saturate the interior with color, creating a unique and spiritual atmosphere. It remains an active church and a major architectural attraction.",
     "location": {
       "longitude": 33.5826724,
       "latitude": -7.6155733,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/achille-dangleterre",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect who designed the unique modernist structure."
+      },
+      {
+        "id": "people/gabriel-loire",
+        "relationship": [
+          "artist"
+        ],
+        "comment": "Artist who designed the massive stained glass windows."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Church Completed",
+        "date": "1954-01-01",
+        "description": "The Church of Notre Dame of Lourdes was completed and opened."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.lonelyplanet.com/morocco/casablanca/attractions/eglise-notre-dame-de-lourdes/a/poi-sig/427218/359368",
+        "type": "article",
+        "title": "Église Notre Dame de Lourdes (Lonely Planet)"
+      }
+    ],
+    "activities": [
+      "attending religious services",
+      "viewing the stained glass windows",
+      "architectural observation"
+    ],
+    "items": [
+      "spectacular stained glass windows (by gabriel loire)",
+      "concrete modernist structure"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Worship services access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "mid-20th century (1950s)",
+      "contemporary period"
     ]
   }
 }

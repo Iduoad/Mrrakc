@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "architecture/cite",
   "metadata": {
-    "tags": []
+    "tags": [
+      "residential-area",
+      "neighborhood",
+      "urban-planning",
+      "housing"
+    ]
   },
   "spec": {
-    "name": "Cit\u00e9 Ain Chock",
+    "name": "Cité Ain Chock",
     "id": "cite-ain-chock",
-    "description": "None",
+    "description": "Cité Aïn Chock is a large, established residential neighborhood or 'cité' within the Aïn Chock prefecture of Casablanca. As a residential district, it is characterized by concentrated housing developments, public amenities, local markets, and green spaces (such as the nearby Central Park of Ain Chok). It reflects the post-war and post-independence urban expansion of Casablanca, designed to provide housing for the city's rapidly growing population.",
     "location": {
       "longitude": 33.5527953,
       "latitude": -7.5964832,
@@ -16,15 +21,29 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "residential life",
+      "using local amenities and shops"
+    ],
+    "items": [
+      "apartment buildings and residential blocks",
+      "local services and markets"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Area access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "mid-20th century",
+      "contemporary period"
     ]
   }
 }

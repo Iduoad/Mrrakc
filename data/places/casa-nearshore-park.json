@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "nature/park",
   "metadata": {
-    "tags": []
+    "tags": [
+      "urban-park",
+      "green-space",
+      "business-hub",
+      "modern-development",
+      "recreational"
+    ]
   },
   "spec": {
     "name": "Casa Nearshore Park",
     "id": "casa-nearshore-park",
-    "description": "None",
+    "description": "Casa Nearshore Park is a modern green space located within or adjacent to the Casa Nearshore technology and business park in Casablanca. This park is part of the integrated urban development strategy, designed to provide a natural, recreational break for employees of the surrounding companies and residents of the area. It features landscaped gardens, water features, and walking paths, contrasting the high-tech, modern offices of the business center. Its primary function is to enhance the working and living environment of the Nearshore district.",
     "location": {
       "longitude": 33.5267176,
       "latitude": -7.6436111,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/casanearshore-development",
+        "relationship": [
+          "developer"
+        ],
+        "comment": "The entity responsible for the development of the integrated business and technology park."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Park Completion",
+        "date": "2008-01-01",
+        "description": "The Casa Nearshore business park and associated green spaces were completed (Approximate date)."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.casanearshore.com/casanearshore-business-park/",
+        "type": "website",
+        "title": "Casa Nearshore Business Park Official Website"
+      }
+    ],
+    "activities": [
+      "walking and jogging",
+      "outdoor relaxation",
+      "lunch break spot"
+    ],
+    "items": [
+      "landscaped gardens",
+      "walking paths",
+      "water features"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Park access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

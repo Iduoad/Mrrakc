@@ -2,12 +2,17 @@
   "version": "mrrakc/v0",
   "kind": "food/restaurant",
   "metadata": {
-    "tags": []
+    "tags": [
+      "restaurant",
+      "international-cuisine",
+      "brunch",
+      "modern-dining"
+    ]
   },
   "spec": {
     "name": "Celebritea Restaurant",
     "id": "celebritea-restaurant",
-    "description": "\ud83d\udd3b Menu: International<br>\ud83d\udd3b Tags: Brunch",
+    "description": "Celebritea Restaurant is a modern dining establishment in Casablanca known for its **International menu** and its popularity as a **brunch** destination. Located in a fashionable district of the city, the restaurant caters to a contemporary urban clientele, offering diverse culinary options and a trendy ambiance. It is a social spot for casual meals, weekend gatherings, and exploring global flavors.",
     "location": {
       "longitude": 33.5760658,
       "latitude": -7.6586422,
@@ -16,15 +21,28 @@
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "dining on international cuisine",
+      "enjoying brunch"
+    ],
+    "items": [
+      "international dishes",
+      "brunch menu items"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Restaurant services",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }
