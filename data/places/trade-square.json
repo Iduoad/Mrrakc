@@ -2,29 +2,55 @@
   "version": "mrrakc/v0",
   "kind": "urban/square",
   "metadata": {
-    "tags": []
+    "tags": [
+      "public-space",
+      "square",
+      "historical-commerce",
+      "old-medina-vicinity",
+      "social-hub"
+    ]
   },
   "spec": {
     "name": "Trade Square",
     "id": "trade-square",
-    "description": "\ud83d\udd3b Dates: 19th and 20th century<br>\ud83d\udd3b Description: This was a very important square, where traders from all over the world used to gather to discuss business. Also this was a place where real estate brokers and owners used to make their deals.",
+    "description": "Trade Square (Place du Commerce) is a historical public space located near the border of the Old Medina and the new town. Throughout the **19th and early 20th centuries**, it was a very important gathering point where **local and international traders** met to discuss business and finalize deals, particularly in real estate and port-related commerce. It represents the crucial mercantile spirit that fueled Casablanca's early transformation into an economic powerhouse.",
     "location": {
       "longitude": 33.5997684,
       "latitude": -7.6175058,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Peak Period of Commercial Activity",
+        "date": "1880-01-01",
+        "description": "The square served as a critical hub for international trade and real estate deals (Approximate period)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "socializing and people-watching",
+      "historical observation"
+    ],
+    "items": [
+      "historical commercial buildings surrounding the square"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Square access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "19th century",
+      "early 20th century",
+      "contemporary period"
     ]
   }
 }

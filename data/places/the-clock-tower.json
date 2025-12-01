@@ -2,29 +2,73 @@
   "version": "mrrakc/v0",
   "kind": "architecture/tower",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "clock-tower",
+      "old-medina-landmark",
+      "rebuilt",
+      "1900s"
+    ]
   },
   "spec": {
     "name": "The Clock Tower",
     "id": "the-clock-tower",
-    "description": "\ud83d\udd3b Architect: G\u00e9nie Bouillot<br>\ud83d\udd3b Dates: 1909 (Rebuilt in 1993)<br>\ud83d\udd3b Current Status: Clock<br>\ud83d\udd3b Comments: The clock was one of the first built by the French Administration. It was demolished in 1948 and then rebuilt in 1993.",
+    "description": "The Clock Tower (Tour de l'Horloge) is a prominent landmark located at the entrance to the Old Medina. The original tower, built in **1909** by **Génie Bouillot**, was one of the first major public structures erected by the French Administration, symbolizing the beginning of the modern city's expansion. The original tower was **demolished in 1948** and the current replica was **rebuilt in 1993**. It serves as a historical and symbolic gate between the Old Medina and the new city.",
     "location": {
       "longitude": 33.596889,
       "latitude": -7.617253,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/genie-bouillot",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Architect/engineer who designed and built the original 1909 clock tower."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Original Construction",
+        "date": "1909-01-01",
+        "description": "The original Clock Tower was completed."
+      },
+      {
+        "title": "Demolition",
+        "date": "1948-01-01",
+        "description": "The original clock tower was demolished."
+      },
+      {
+        "title": "Reconstruction",
+        "date": "1993-01-01",
+        "description": "The clock tower replica was completed and unveiled."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation",
+      "historical research"
+    ],
+    "items": [
+      "clock mechanism and bell",
+      "reconstructed neo-moorish tower architecture"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "early 20th century (original)",
+      "contemporary period (reconstruction)"
     ]
   }
 }

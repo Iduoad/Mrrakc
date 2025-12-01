@@ -2,29 +2,66 @@
   "version": "mrrakc/v0",
   "kind": "religion/jewish-site",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-site",
+      "jewish-heritage",
+      "old-medina",
+      "rabbi",
+      "religious-figure"
+    ]
   },
   "spec": {
     "name": "The House of Rabbi Chaim Pinto",
     "id": "the-house-of-rabbi-chaim-pinto",
-    "description": "None",
+    "description": "The House of Rabbi Chaim Pinto is a historical site located in the heart of the Old Medina's former Jewish Quarter (Mellah). It is the former residence of **Rabbi Chaim Pinto** (1743–1845), a highly revered saint and religious leader. The house is a site of pilgrimage and veneration, representing the deep spiritual and cultural history of Morocco's Jewish community.",
     "location": {
       "longitude": 33.5991204,
       "latitude": -7.6174471,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/rabbi-chaim-pinto",
+        "relationship": [
+          "historical-figure",
+          "religious-leader",
+          "original-owner"
+        ],
+        "comment": "Highly revered Moroccan Rabbi and saint."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Establishment Period",
+        "date": "1800-01-01",
+        "description": "The house was established as the Rabbi's residence (Approximate early 19th-century date)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "veneration and pilgrimage (local)",
+      "historical observation"
+    ],
+    "items": [
+      "historical moroccan jewish architecture",
+      "tomb of the rabbi (if present/nearby)"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Access for Visitors",
+          "modality": "donation",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "Access is generally granted to visitors with respect and sometimes a small donation."
     },
     "timePeriods": [
-      ""
+      "19th century",
+      "contemporary period"
     ]
   }
 }

@@ -2,29 +2,70 @@
   "version": "mrrakc/v0",
   "kind": "architecture/skyscraper",
   "metadata": {
-    "tags": []
+    "tags": [
+      "skyscraper",
+      "modern-architecture",
+      "landmark",
+      "commercial-center",
+      "post-2000s"
+    ]
   },
   "spec": {
     "name": "Twin Towers Center",
     "id": "twin-towers-center",
-    "description": "None",
+    "description": "The Twin Center (Tours Jumelles de Casablanca) is a major commercial and business complex consisting of two high-rise towers. Built in the late 1990s and early 2000s, they were, for a time, the tallest buildings in Morocco. The Twin Center symbolizes Casablanca's aspiration as a modern global business hub and houses offices, commercial space, and a hotel. Their distinctive height and location in the Maârif district make them the most recognizable landmarks of the modern city skyline.",
     "location": {
       "longitude": 33.5866755,
       "latitude": -7.632104,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/ricardo-bofill",
+        "relationship": [
+          "architect"
+        ],
+        "comment": "Spanish architect responsible for the architectural design (Requires external verification)."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Completion and Opening",
+        "date": "1999-01-01",
+        "description": "The Twin Towers complex was completed and opened."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Casablanca_Twin_Center",
+        "type": "article",
+        "title": "Casablanca Twin Center Wikipedia Page"
+      }
+    ],
+    "activities": [
+      "office and business activities",
+      "high-end shopping and dining",
+      "sightseeing and architectural observation"
+    ],
+    "items": [
+      "two high-rise towers (115m tall)",
+      "commercial retail space",
+      "hotel and conference facilities"
+    ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Commercial and mall access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
-      ""
+      "contemporary period"
     ]
   }
 }

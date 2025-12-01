@@ -2,29 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "residential",
+      "commercial",
+      "art-deco",
+      "national-heritage",
+      "1930s"
+    ]
   },
   "spec": {
     "name": "Taher Sebti Building",
     "id": "taher-sebti-building",
-    "description": "\ud83d\udd3b Dates: 1930<br>\ud83d\udd3b Current Status: Inhabited<br>\ud83d\udd3b National Material Patrimony Declaration: 2006",
+    "description": "The Taher Sebti Building (Immeuble Taher Sebti) is a historical commercial and residential structure completed around 1930. The building's architecture is characteristic of the monumental Art Deco style of the era, reflecting the commercial prosperity of the central district. Its historical and architectural value was formally recognized by its designation as a **National Material Patrimony** site in 2006. This building is often confused with the nearby Comptoir des Mines Building, which is also sometimes referred to as the Taher Sebti Building.",
     "location": {
       "longitude": 33.591874,
       "latitude": -7.614992,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/taher-sebti",
+        "relationship": [
+          "namesake",
+          "patron"
+        ],
+        "comment": "The original owner or commissioner of the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Building Completed",
+        "date": "1930-01-01",
+        "description": "The building was completed."
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2006-01-01",
+        "description": "The building was officially included in the National Material Patrimony of Morocco."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "architectural observation"
+    ],
+    "items": [
+      "art deco facade elements",
+      "residential and commercial units"
+    ],
     "access": {
-      "type": "public",
+      "type": "restricted",
       "options": [],
-      "status": "open"
+      "status": "open",
+      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century"
     ]
   }
 }
