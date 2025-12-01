@@ -2,29 +2,78 @@
   "version": "mrrakc/v0",
   "kind": "architecture/lighthouse",
   "metadata": {
-    "tags": []
+    "tags": [
+      "historical-building",
+      "maritime",
+      "lighthouse",
+      "coastal-landmark",
+      "el-hank",
+      "1910s"
+    ]
   },
   "spec": {
     "name": "El Hank Lighthouse",
     "id": "el-hank-lighthouse",
-    "description": "None",
+    "description": "El Hank Lighthouse (Phare d'El Hank) is a crucial maritime landmark situated on the tip of the El Hank peninsula in Casablanca. It was constructed between 1916 and 1920 by the French Protectorate authorities to guide ships entering the increasingly important Port of Casablanca. Standing approximately 51 meters (167 feet) tall, the lighthouse offers a distinctive architectural style and its powerful beam is essential for coastal navigation. It is also historically significant for offering panoramic views of the city and the Atlantic Ocean.",
     "location": {
       "longitude": 33.6099692,
       "latitude": -7.65471,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "people": [
+      {
+        "id": "people/french-protectorate-administration",
+        "relationship": [
+          "builder"
+        ],
+        "comment": "The administration responsible for commissioning the lighthouse project for maritime safety."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction Period",
+        "date": "1916-01-01",
+        "description": "Construction began on the lighthouse."
+      },
+      {
+        "title": "Completion and Opening",
+        "date": "1920-01-01",
+        "description": "The El Hank Lighthouse was completed and put into service."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.casablanca.ma/en/points-of-interest/el-hank-lighthouse",
+        "type": "website",
+        "title": "El Hank Lighthouse (Visit Casablanca)"
+      }
+    ],
+    "activities": [
+      "maritime navigation (primary function)",
+      "architectural observation",
+      "photographing the landmark"
+    ],
+    "items": [
+      "51-meter-tall tower",
+      "high-intensity light beam"
+    ],
     "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
+      "type": "restricted",
+      "options": [
+        {
+          "title": "Limited access to the public",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ],
+      "status": "open",
+      "comment": "The exterior area is generally public, but climbing the lighthouse or accessing the interior is restricted for safety reasons."
     },
     "timePeriods": [
-      ""
+      "french protectorate era (1912-1956)",
+      "20th century",
+      "contemporary period"
     ]
   }
 }
