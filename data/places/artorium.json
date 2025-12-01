@@ -48,13 +48,11 @@
       }
     ],
     "activities": [
-      "viewing art exhibitions",
-      "attending conferences and workshops",
-      "cultural discovery"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "art collection of the tgcc foundation",
-      "exhibited contemporary artworks"
+      "memorabilia"
     ],
     "access": {
       "type": "public",

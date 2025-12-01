@@ -80,22 +80,14 @@
       }
     ],
     "activities": [
-      "touring museum collections",
-      "attending temporary exhibitions",
-      "attending literary gatherings",
-      "attending intimate concerts",
-      "attending art workshops",
-      "learning about Moroccan cultural heritage",
-      "participating in cultural events"
+      "cultural activities",
+      "entertainment",
+      "guided tours",
+      "socializing"
     ],
     "items": [
-      "personal photos",
-      "medals",
-      "music albums",
-      "father's pocket watch (sentimental value)",
-      "gala outfits (including Yves Saint-Laurent designs)",
-      "diplomas",
-      "paintings (by Doukkali and others)"
+      "architecture",
+      "memorabilia"
     ],
     "access": {
       "type": "private",

@@ -2,7 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": ["religious", "architecture", "royal-history", "mid-20th-century"]
+    "tags": [
+      "religious",
+      "architecture",
+      "royal-history",
+      "mid-20th-century"
+    ]
   },
   "spec": {
     "name": "Al-Malik Mosque",
@@ -16,12 +21,16 @@
     "people": [
       {
         "id": "people/mohammed-v",
-        "relationship": ["commissioner"],
+        "relationship": [
+          "commissioner"
+        ],
         "comment": "King of Morocco who initiated the construction works of the mosque."
       },
       {
         "id": "people/hassan-ii",
-        "relationship": ["inaugurator"],
+        "relationship": [
+          "inaugurator"
+        ],
         "comment": "King of Morocco who inaugurated the mosque in 1961 CE."
       }
     ],
@@ -39,13 +48,12 @@
     ],
     "links": [],
     "activities": [
-      "attending daily prayers",
-      "religious services",
-      "architectural observation"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "prayer hall",
-      "traditional moroccan architectural elements"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

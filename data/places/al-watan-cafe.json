@@ -2,7 +2,12 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": ["cafe", "local-business", "coffee", "meeting-place"]
+    "tags": [
+      "cafe",
+      "local-business",
+      "coffee",
+      "meeting-place"
+    ]
   },
   "spec": {
     "name": "Al Watan Cafe",
@@ -17,11 +22,11 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "drinking coffee and tea",
-      "socializing and meeting"
+      "dining",
+      "socializing"
     ],
     "items": [
-      "traditional moroccan tea and coffee"
+      "architecture"
     ],
     "access": {
       "type": "public",

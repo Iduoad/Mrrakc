@@ -37,13 +37,11 @@
       }
     ],
     "activities": [
-      "viewing musical instrument collections",
-      "learning about al-âla music history",
-      "attending musical lectures or workshops"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "traditional andalusian musical instruments (rebab, oud, kamanja)",
-      "historical music manuscripts and scores"
+      "architecture"
     ],
     "access": {
       "type": "public",

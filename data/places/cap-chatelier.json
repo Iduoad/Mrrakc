@@ -35,12 +35,12 @@
       }
     ],
     "activities": [
-      "geological and coastal observation",
-      "archaeological research (restricted)"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "quaternary fossil deposits",
-      "coastal cliffs and terraces"
+      "animals",
+      "architecture"
     ],
     "access": {
       "type": "restricted",

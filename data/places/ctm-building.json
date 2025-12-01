@@ -49,12 +49,12 @@
       }
     ],
     "activities": [
-      "intercity bus travel",
-      "architectural observation"
+      "sightseeing",
+      "transport services"
     ],
     "items": [
-      "modernist bus station architecture",
-      "bus terminal and ticketing offices"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

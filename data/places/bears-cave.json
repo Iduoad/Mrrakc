@@ -35,12 +35,12 @@
       }
     ],
     "activities": [
-      "archaeological and paleontological research (restricted)",
-      "historical observation"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "fossilized quaternary mammalian remains",
-      "cave formations"
+      "animals",
+      "gardens"
     ],
     "access": {
       "type": "restricted",

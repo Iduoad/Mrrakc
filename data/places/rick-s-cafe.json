@@ -53,13 +53,12 @@
       }
     ],
     "activities": [
-      "fine dining and bar service",
-      "enjoying the cinematic atmosphere",
-      "listening to live jazz piano"
+      "dining",
+      "entertainment"
     ],
     "items": [
-      "piano and bar area (replica of the movie set)",
-      "memorabilia from the film era"
+      "food & drink",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

@@ -44,14 +44,14 @@
       }
     ],
     "activities": [
-      "viewing art exhibitions",
-      "attending cultural events",
-      "art workshops"
+      "cultural activities",
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "historical villa architecture",
-      "contemporary artworks",
-      "sculpture garden"
+      "architecture",
+      "gardens",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

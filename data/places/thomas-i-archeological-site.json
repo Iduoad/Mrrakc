@@ -54,13 +54,12 @@
       }
     ],
     "activities": [
-      "historical and archaeological research",
-      "geological observation"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "homo erectus half-mandible remains",
-      "paleolithic stone tools",
-      "fossil deposits"
+      "animals",
+      "memorabilia"
     ],
     "access": {
       "type": "restricted",

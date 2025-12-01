@@ -46,13 +46,12 @@
       }
     ],
     "activities": [
-      "veneration and pilgrimage (local)",
-      "historical research",
-      "architectural observation"
+      "cultural activities",
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "tomb of lalla taja",
-      "traditional mausoleum architecture"
+      "architecture"
     ],
     "access": {
       "type": "public",

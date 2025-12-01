@@ -2,7 +2,14 @@
   "version": "mrrakc/v0",
   "kind": "urban/corniche",
   "metadata": {
-    "tags": ["seaside", "promenade", "entertainment", "nightlife", "historic-development", "atlantic-coast"]
+    "tags": [
+      "seaside",
+      "promenade",
+      "entertainment",
+      "nightlife",
+      "historic-development",
+      "atlantic-coast"
+    ]
   },
   "spec": {
     "name": "Ain Diab Corniche",
@@ -16,7 +23,9 @@
     "people": [
       {
         "id": "people/tahir-shah",
-        "relationship": ["notable-resident"],
+        "relationship": [
+          "notable-resident"
+        ],
         "comment": "British-born writer known to be a resident of the Ain Diab neighborhood."
       }
     ],
@@ -45,17 +54,16 @@
       }
     ],
     "activities": [
-      "strolling along the promenade",
-      "dining at seaside restaurants",
-      "visiting beach clubs",
-      "enjoying the nightlife",
-      "swimming and sunbathing at the beaches",
-      "cycling and jogging"
+      "dining",
+      "sightseeing",
+      "socializing",
+      "swimming",
+      "walking"
     ],
     "items": [
-      "public beaches (lalla meryem, ain diab beach)",
-      "restaurants and cafes",
-      "nightclubs"
+      "coastline",
+      "nightclubs",
+      "restaurants and cafes"
     ],
     "access": {
       "type": "public",

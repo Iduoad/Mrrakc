@@ -29,13 +29,13 @@
       }
     ],
     "activities": [
-      "recreational flying and excursions",
-      "pilot training and licensing",
-      "aeroclub membership and events"
+      "entertainment",
+      "fitness",
+      "transport services"
     ],
     "items": [
-      "light aircraft fleet",
-      "runway and hangars"
+      "facilities",
+      "goods"
     ],
     "access": {
       "type": "restricted",

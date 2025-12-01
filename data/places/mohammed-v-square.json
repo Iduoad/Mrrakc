@@ -57,13 +57,12 @@
       }
     ],
     "activities": [
-      "architectural sightseeing",
-      "socializing and people-watching",
-      "attending public events and celebrations"
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "large central fountain",
-      "surrounding monumental administrative buildings"
+      "architecture",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": ["art", "decoration", "interior-design", "gallery", "dar-bouazza"]
+    "tags": [
+      "art",
+      "decoration",
+      "interior-design",
+      "gallery",
+      "dar-bouazza"
+    ]
   },
   "spec": {
     "name": "Ak'dart / Décoration et Art",
@@ -23,14 +29,13 @@
       }
     ],
     "activities": [
-      "viewing art exhibits",
-      "purchasing decorative items",
-      "exploring interior design concepts"
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "art pieces",
-      "interior goods",
-      "decorative objects"
+      "architecture",
+      "goods",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

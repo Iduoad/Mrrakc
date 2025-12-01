@@ -70,15 +70,14 @@
       }
     ],
     "activities": [
-      "walking and jogging",
-      "relaxing and picnicking",
-      "observing palm tree avenues",
-      "visiting the pond and exotic plants"
+      "relaxing",
+      "sightseeing",
+      "walking"
     ],
     "items": [
-      "palm tree avenues",
-      "central pond with water lilies",
-      "arches from the old anfa prison"
+      "architecture",
+      "coastline",
+      "gardens"
     ],
     "access": {
       "type": "public",

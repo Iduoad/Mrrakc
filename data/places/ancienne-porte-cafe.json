@@ -29,13 +29,13 @@
       }
     ],
     "activities": [
-      "dining and drinking",
-      "people-watching",
+      "dining",
+      "sightseeing",
       "socializing"
     ],
     "items": [
-      "traditional moroccan mint tea",
-      "coffee"
+      "architecture",
+      "food & drink"
     ],
     "access": {
       "type": "public",

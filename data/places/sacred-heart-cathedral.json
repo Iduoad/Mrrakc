@@ -54,12 +54,11 @@
       }
     ],
     "activities": [
-      "attending cultural events and exhibitions",
-      "architectural observation"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "art deco and gothic architectural elements",
-      "large stained-glass windows (if extant)"
+      "architecture"
     ],
     "access": {
       "type": "public",

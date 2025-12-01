@@ -29,13 +29,11 @@
       }
     ],
     "activities": [
-      "dining on japanese cuisine",
-      "sushi and sashimi tasting",
+      "dining",
       "socializing"
     ],
     "items": [
-      "sushi and sashimi",
-      "specialty japanese dishes"
+      "food & drink"
     ],
     "access": {
       "type": "public",

@@ -40,12 +40,12 @@
       }
     ],
     "activities": [
-      "attending religious services",
-      "architectural observation"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "religious iconography",
-      "byzantine architectural elements"
+      "architecture",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

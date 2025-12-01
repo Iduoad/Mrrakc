@@ -44,12 +44,11 @@
       }
     ],
     "activities": [
-      "watching films and movies",
-      "socializing and recreation"
+      "sightseeing",
+      "socializing"
     ],
     "items": [
-      "multiple cinema screens and halls",
-      "concession stands"
+      "facilities"
     ],
     "access": {
       "type": "public",

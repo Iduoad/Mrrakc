@@ -28,14 +28,12 @@
       }
     ],
     "activities": [
-      "attending music classes (restricted)",
-      "attending concerts and performances",
-      "musical education"
+      "cultural activities",
+      "entertainment"
     ],
     "items": [
-      "performance halls",
-      "music practice rooms",
-      "musical instruments"
+      "facilities",
+      "goods"
     ],
     "access": {
       "type": "public",

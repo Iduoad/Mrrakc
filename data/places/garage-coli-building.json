@@ -49,13 +49,13 @@
       }
     ],
     "activities": [
-      "hotel stay and services",
-      "commercial shopping",
-      "architectural observation"
+      "accommodation",
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "modernist facade",
-      "large former garage space"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

@@ -36,13 +36,12 @@
       }
     ],
     "activities": [
-      "architectural observation",
-      "shopping in the souk",
-      "exploring the old medina"
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "historical city wall remnants",
-      "souk (market) of bab marrakech"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

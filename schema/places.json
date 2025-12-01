@@ -3,8 +3,14 @@
   "title": "Mrrakc Places Schema",
   "description": "Schema for places data in Mrrakc",
   "type": "object",
-  "required": ["kind"],
-  "allOf": [{"$ref": "base.json"}],
+  "required": [
+    "kind"
+  ],
+  "allOf": [
+    {
+      "$ref": "base.json"
+    }
+  ],
   "properties": {
     "kind": {
       "type": "string",
@@ -13,7 +19,14 @@
     },
     "spec": {
       "type": "object",
-      "required": ["name", "id", "description", "location", "access", "timePeriods"],
+      "required": [
+        "name",
+        "id",
+        "description",
+        "location",
+        "access",
+        "timePeriods"
+      ],
       "properties": {
         "name": {
           "type": "string",
@@ -32,7 +45,11 @@
         },
         "location": {
           "type": "object",
-          "required": ["province", "longitude", "latitude"],
+          "required": [
+            "province",
+            "longitude",
+            "latitude"
+          ],
           "properties": {
             "longitude": {
               "type": "number",
@@ -53,7 +70,10 @@
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["id", "relationship"],
+            "required": [
+              "id",
+              "relationship"
+            ],
             "properties": {
               "id": {
                 "type": "string",
@@ -89,20 +109,23 @@
         "activities": {
           "type": "array",
           "items": {
-            "type": "string"
+            "$ref": "enums/activities.json"
           },
           "description": "List of activities possible at this place"
         },
         "items": {
           "type": "array",
           "items": {
-            "type": "string"
+            "$ref": "enums/items.json"
           },
           "description": "List of notable items at this place"
         },
         "access": {
           "type": "object",
-          "required": ["type", "status"],
+          "required": [
+            "type",
+            "status"
+          ],
           "properties": {
             "status": {
               "type": "string",
@@ -130,7 +153,12 @@
               "type": "array",
               "items": {
                 "type": "object",
-                "required": ["title", "modality", "audience", "entranceFee"],
+                "required": [
+                  "title",
+                  "modality",
+                  "audience",
+                  "entranceFee"
+                ],
                 "properties": {
                   "title": {
                     "type": "string",

@@ -51,13 +51,12 @@
       }
     ],
     "activities": [
-      "worship (upon reopening)",
-      "architectural observation",
-      "historical research"
+      "cultural activities",
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "traditional moroccan mosque architecture",
-      "minaret"
+      "architecture"
     ],
     "access": {
       "type": "public",

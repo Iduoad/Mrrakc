@@ -37,14 +37,14 @@
     ],
     "links": [],
     "activities": [
-      "shopping and retail",
-      "dining at restaurants",
-      "cinema and entertainment"
+      "dining",
+      "entertainment",
+      "shopping"
     ],
     "items": [
-      "retail stores",
-      "food court",
-      "seaside views"
+      "coastline",
+      "facilities",
+      "food & drink"
     ],
     "access": {
       "type": "public",

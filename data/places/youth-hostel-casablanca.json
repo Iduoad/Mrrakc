@@ -29,12 +29,12 @@
     ],
     "links": [],
     "activities": [
-      "lodging and accommodation (restricted to guests)",
-      "socializing with other travelers"
+      "accommodation",
+      "socializing"
     ],
     "items": [
-      "dormitory and private rooms",
-      "common areas and facilities"
+      "common areas and facilities",
+      "facilities"
     ],
     "access": {
       "type": "restricted",

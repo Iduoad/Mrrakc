@@ -38,14 +38,12 @@
       }
     ],
     "activities": [
-      "fine dining with a view",
-      "drinking cocktails and socializing",
-      "enjoying panoramic views of casablanca"
+      "dining",
+      "relaxing"
     ],
     "items": [
-      "international gourmet menu",
-      "360-degree city view",
-      "cocktail bar"
+      "architecture",
+      "food & drink"
     ],
     "access": {
       "type": "public",

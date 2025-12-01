@@ -61,13 +61,12 @@
       }
     ],
     "activities": [
-      "staying at the hotel (if still operating as such)",
-      "architectural observation",
-      "historical research"
+      "accommodation",
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "neo-moorish architectural facade",
-      "reinforced concrete structure"
+      "architecture"
     ],
     "access": {
       "type": "public",

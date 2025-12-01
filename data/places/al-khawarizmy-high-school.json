@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "architecture/school",
   "metadata": {
-    "tags": ["historical-building", "education", "national-heritage", "colonial-architecture", "technical-school"]
+    "tags": [
+      "historical-building",
+      "education",
+      "national-heritage",
+      "colonial-architecture",
+      "technical-school"
+    ]
   },
   "spec": {
     "name": "Al Khawarizmy High School",
@@ -39,12 +45,11 @@
       }
     ],
     "activities": [
-      "education and learning",
-      "architectural observation"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "colonial era school architecture",
-      "historical archives (internal)"
+      "architecture"
     ],
     "access": {
       "type": "restricted",

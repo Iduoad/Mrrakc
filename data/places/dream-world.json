@@ -29,14 +29,13 @@
       }
     ],
     "activities": [
-      "riding amusement park rides",
-      "playing games and attractions",
-      "family entertainment"
+      "entertainment",
+      "gaming",
+      "sports"
     ],
     "items": [
-      "various amusement rides",
-      "arcade games",
-      "food vendors"
+      "amusement rides",
+      "food & drink"
     ],
     "access": {
       "type": "public",

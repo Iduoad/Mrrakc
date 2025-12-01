@@ -43,13 +43,13 @@
       }
     ],
     "activities": [
-      "historical research",
-      "visiting war graves",
-      "meditation and quiet reflection"
+      "cultural activities",
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "historical gravestones",
-      "war memorials and plaques"
+      "architecture",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

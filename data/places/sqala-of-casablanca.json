@@ -50,13 +50,11 @@
       }
     ],
     "activities": [
-      "architectural observation",
-      "historical research",
-      "visiting the ramparts and cannons"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "historical cannons and ramparts",
-      "stone fortification walls"
+      "architecture"
     ],
     "access": {
       "type": "public",

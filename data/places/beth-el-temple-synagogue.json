@@ -35,12 +35,11 @@
       }
     ],
     "activities": [
-      "attending religious services (limited to community)",
-      "architectural observation (guided tours)"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "magnificent stained glass windows",
-      "historical artifacts of the jewish community"
+      "architecture"
     ],
     "access": {
       "type": "restricted",

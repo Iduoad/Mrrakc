@@ -41,11 +41,11 @@
       }
     ],
     "activities": [
-      "lodging and accommodation",
-      "dining and socializing"
+      "accommodation",
+      "dining"
     ],
     "items": [
-      "historical hotel structure and rooms"
+      "architecture"
     ],
     "access": {
       "type": "public",

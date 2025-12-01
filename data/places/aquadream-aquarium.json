@@ -44,14 +44,13 @@
       }
     ],
     "activities": [
-      "viewing marine life exhibits",
-      "walking through the aquarium tunnel",
-      "family entertainment"
+      "entertainment",
+      "sightseeing",
+      "walking"
     ],
     "items": [
-      "marine life specimens",
-      "coral reef ecosystem replica",
-      "aquarium viewing tunnel"
+      "animals",
+      "coastline"
     ],
     "access": {
       "type": "public",
