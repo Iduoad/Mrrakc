@@ -14,8 +14,8 @@
     "id": "conservatory-of-music",
     "description": "The Conservatory of Music (Conservatoire de Musique) in Casablanca is a foundational cultural institution dedicated to musical education and performance. It offers training in various musical disciplines, including traditional Moroccan music, classical Western music, and contemporary styles. The conservatory plays a vital role in preserving and promoting Moroccan musical heritage while fostering new artistic talent. It often hosts student and professional concerts open to the public.",
     "location": {
-      "longitude": -7.6195975,
-      "latitude": 33.5933989,
+      "longitude": 33.5933989,
+      "latitude": -7.6195975,
       "province": "province/casablanca"
     },
     "people": [],

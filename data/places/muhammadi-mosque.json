@@ -14,10 +14,10 @@
   "spec": {
     "name": "Muhammadi Mosque",
     "id": "muhammadi-mosque",
-    "description": "The Muhammadi Mosque (Mosquée Muhammadi), also known as the **Mohammed Ben Youssef Mosque**, is a grand historical mosque in the Habous Quarter, designed by French architects **Auguste Cadet and Edmond Brion** and built between 1934 and 1936 CE. It is named after **Sultan Mohammed Ben Youssef (King Mohammed V)**, symbolizing his role as a spiritual and national leader. Recognized as one of Casablanca's largest mosques (second only to Hassan II Mosque in size), it is an exemplary work of the Neo-Moorish style, featuring monumental scale and traditional Moroccan decoration. It remains a major active religious center.",
+    "description": "The Muhammadi Mosque (Mosqu\u00e9e Muhammadi), also known as the **Mohammed Ben Youssef Mosque**, is a grand historical mosque in the Habous Quarter, designed by French architects **Auguste Cadet and Edmond Brion** and built between 1934 and 1936 CE. It is named after **Sultan Mohammed Ben Youssef (King Mohammed V)**, symbolizing his role as a spiritual and national leader. Recognized as one of Casablanca's largest mosques (second only to Hassan II Mosque in size), it is an exemplary work of the Neo-Moorish style, featuring monumental scale and traditional Moroccan decoration. It remains a major active religious center.",
     "location": {
-      "longitude": -7.6060377,
-      "latitude": 33.5763273,
+      "longitude": 33.5763273,
+      "latitude": -7.6060377,
       "province": "province/casablanca"
     },
     "people": [

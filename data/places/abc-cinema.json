@@ -63,6 +63,11 @@
         "url": "http://www.artmap.ma/fr/adresse/cin%C3%A9ma-abc-casablanca",
         "type": "article",
         "title": "Artmap.ma Listing"
+      },
+      {
+        "url": "https://maps.app.goo.gl/sq9DiANfxQAT2Ub19",
+        "type": "map",
+        "title": "Google Maps"
       }
     ],
     "activities": [

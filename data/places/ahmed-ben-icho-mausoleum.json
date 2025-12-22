@@ -30,7 +30,13 @@
       }
     ],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://maps.app.goo.gl/hz9T15HehjccjHHq6",
+        "type": "map",
+        "title": "Google Maps"
+      }
+    ],
     "activities": [
       "religious activities"
     ],

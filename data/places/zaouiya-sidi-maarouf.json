@@ -30,7 +30,13 @@
       }
     ],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://maps.app.goo.gl/NQJ4AaRnHHr4iCYF9",
+        "type": "map",
+        "title": "Google Maps"
+      }
+    ],
     "activities": [
       "dancing",
       "religious activities"

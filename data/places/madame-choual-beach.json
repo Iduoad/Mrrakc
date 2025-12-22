@@ -15,8 +15,8 @@
     "id": "madame-choual-beach",
     "description": "Madame Choual Beach (Plage Madame Choual) is a public beach located along the Ain Diab Corniche area of Casablanca, known for its fine sand and proximity to coastal resorts and amenities. Like other beaches in the area, it is a popular destination for sunbathing and water activities, particularly during the summer months. The beach is characteristic of Casablanca's Atlantic coast leisure environment.",
     "location": {
-      "longitude": -7.7138364,
-      "latitude": 33.5721214,
+      "longitude": 33.5721214,
+      "latitude": -7.7138364,
       "province": "province/casablanca"
     },
     "people": [],

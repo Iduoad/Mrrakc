@@ -12,10 +12,10 @@
   "spec": {
     "name": "El Kebir Ben Mohamed Lahrizi Mosque",
     "id": "el-kebir-ben-mohamed-lahrizi-mosque",
-    "description": "El Kebir Ben Mohamed Lahrizi Mosque (Mosquée El Kebir Ben Mohamed Lahrizi) is a community mosque located in the historic area near the Old Medina. It serves the daily religious needs of the local population. Given its location and name, it may be dedicated to a respected local figure or family (Ben Mohamed Lahrizi) and features traditional Moroccan mosque architecture, including a minaret and a prayer hall.",
+    "description": "El Kebir Ben Mohamed Lahrizi Mosque (Mosqu\u00e9e El Kebir Ben Mohamed Lahrizi) is a community mosque located in the historic area near the Old Medina. It serves the daily religious needs of the local population. Given its location and name, it may be dedicated to a respected local figure or family (Ben Mohamed Lahrizi) and features traditional Moroccan mosque architecture, including a minaret and a prayer hall.",
     "location": {
-      "longitude": -7.6211945,
-      "latitude": 33.6029558,
+      "longitude": 33.6029558,
+      "latitude": -7.6211945,
       "province": "province/casablanca"
     },
     "people": [
