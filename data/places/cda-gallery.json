@@ -22,13 +22,12 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "viewing art exhibitions",
-      "purchasing artwork",
-      "attending cultural events"
+      "entertainment",
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "contemporary paintings and sculptures",
-      "curated exhibitions"
+      "memorabilia"
     ],
     "access": {
       "type": "public",

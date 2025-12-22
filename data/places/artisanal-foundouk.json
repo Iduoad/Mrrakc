@@ -30,13 +30,12 @@
       }
     ],
     "activities": [
-      "learning photography (upon opening)",
-      "viewing museum exhibits (upon opening)",
-      "observing traditional architecture"
+      "photography",
+      "sightseeing"
     ],
     "items": [
-      "traditional moroccan foundouk architecture",
-      "photography exhibits (future)"
+      "architecture",
+      "memorabilia"
     ],
     "access": {
       "type": "restricted",

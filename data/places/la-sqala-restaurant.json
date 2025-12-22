@@ -48,13 +48,11 @@
       }
     ],
     "activities": [
-      "dining on traditional moroccan cuisine",
-      "experiencing historical atmosphere",
-      "architectural observation of the bastion"
+      "dining",
+      "sightseeing"
     ],
     "items": [
-      "traditional moroccan tagines and couscous",
-      "historical bastion walls and cannon placements"
+      "architecture"
     ],
     "access": {
       "type": "public",

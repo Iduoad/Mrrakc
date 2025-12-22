@@ -69,12 +69,24 @@ Search the web for information about the given place and enrich the following fi
    - Books/publications (type: "book")
    - Valid types: "article", "video", "image", "movie", "website", "book", "social", "map"
 
-5. **Activities** - List what visitors can do (use verb phrases):
-   - "exploring ancient ruins"
-   - "attending traditional music performances"
-   - "touring museum collections"
+5. **Activities** - List what visitors can do (use gerunds, e.g., "walking", "dining"):
+   - Use standardized categories where possible:
+     - `sightseeing` (instead of observing, viewing, visiting)
+     - `dining` (instead of eating, tasting, lunch)
+     - `cultural activities` (museums, exhibitions, learning)
+     - `religious activities` (prayer, worship)
+     - `socializing`, `relaxing`, `shopping`, `entertainment`, `gaming`
+   - Avoid redundancy (e.g., "dining in a restaurant" -> "dining")
+   - Keep it short and significant
 
-6. **Items** - Notable objects/artifacts found at the place
+6. **Items** - Notable objects/artifacts/features found at the place:
+   - Use standardized categories where possible:
+     - `architecture` (facades, minarets, decor)
+     - `facilities` (pools, courts, parking)
+     - `art & artifacts` (paintings, exhibits)
+     - `food & drink` (specific dishes can be included if highly notable, otherwise use generic)
+     - `gardens`, `coastline`, `animals`
+   - Keep values short and significant
 
 7. **Access** - Update pricing and access information:
    - Entrance fees (in MAD)
@@ -202,21 +214,16 @@ Return ONLY the enriched JSON object with no additional commentary, markdown cod
       }
     ],
     "activities": [
-      "touring museum collections",
-      "attending temporary exhibitions",
-      "visiting the museum cafe",
-      "attending private events",
-      "exploring Art Deco architecture"
+      "cultural activities",
+      "sightseeing",
+      "dining",
+      "socializing"
     ],
     "items": [
-      "traditional Moroccan jewelry",
-      "zellij (mosaic tilework)",
-      "ceramics and pottery",
-      "textiles and carpets",
-      "metalwork and brass objects",
-      "wooden artifacts",
-      "historical photographs",
-      "Art Deco architectural elements"
+      "art & artifacts",
+      "architecture",
+      "decor",
+      "food & drink"
     ],
     "access": {
       "type": "private",

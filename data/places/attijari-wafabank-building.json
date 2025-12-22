@@ -56,12 +56,11 @@
       }
     ],
     "activities": [
-      "architectural observation",
-      "conducting banking business (limited public access)"
+      "banking",
+      "sightseeing"
     ],
     "items": [
-      "historical bank facade",
-      "colonial-era architectural elements"
+      "architecture"
     ],
     "access": {
       "type": "restricted",

@@ -95,19 +95,12 @@
       }
     ],
     "activities": [
-      "viewing contemporary and urban art exhibitions",
-      "attending vernissages and openings",
-      "promoting emerging and established artists",
-      "participating in international art fairs",
-      "curating cross-cultural dialogues",
-      "exploring geometric abstraction in exhibitions"
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "paintings",
-      "sculptures",
-      "mixed media artworks",
-      "digital art",
-      "installations"
+      "facilities",
+      "memorabilia"
     ],
     "access": {
       "type": "private",

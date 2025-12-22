@@ -29,13 +29,13 @@
       }
     ],
     "activities": [
-      "fine dining on moroccan cuisine",
-      "experiencing traditional ambiance",
-      "attending cultural performances (if offered)"
+      "dining",
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "moroccan tagines and pastillas",
-      "traditional dessert selections"
+      "architecture",
+      "food & drink"
     ],
     "access": {
       "type": "public",

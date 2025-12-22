@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Items Enum",
+    "description": "Standardized list of items found in places",
+    "type": "string",
+    "enum": [
+        "architecture",
+        "facilities",
+        "memorabilia",
+        "coastline",
+        "food & drink",
+        "gardens",
+        "animals",
+        "moroccan sweets",
+        "goods",
+        "amusement rides",
+        "kaab el ghzal (gazelle horns)",
+        "nightclubs",
+        "restaurants and cafes",
+        "planetarium (360° projection)",
+        "medical and technical facilities",
+        "extensive network of walking and cycling trails",
+        "sports facilities",
+        "3D/IMAX",
+        "high-intensity light beam",
+        "marina port facilities",
+        "urban landscaping",
+        "grilled lamb/beef (dibiterie)",
+        "hotel and conference facilities",
+        "art",
+        "common areas and facilities"
+    ]
+}

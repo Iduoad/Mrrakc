@@ -29,13 +29,10 @@
       }
     ],
     "activities": [
-      "dining on traditional barbecue",
-      "tasting camel meat (if desired)",
-      "experiencing local street food ambiance"
+      "dining"
     ],
     "items": [
-      "barbecued camel meat and other meats",
-      "local spices and sides"
+      "food & drink"
     ],
     "access": {
       "type": "public",

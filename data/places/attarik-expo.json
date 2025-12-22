@@ -45,15 +45,14 @@
       }
     ],
     "activities": [
-      "viewing meteorite exhibits",
-      "attending planetarium shows",
-      "participating in scientific workshops",
-      "listening to scientific conferences"
+      "cultural activities",
+      "entertainment",
+      "sightseeing"
     ],
     "items": [
-      "meteorite specimens",
-      "planetarium (360° projection)",
-      "scientific documents and archives"
+      "animals",
+      "architecture",
+      "planetarium (360° projection)"
     ],
     "access": {
       "type": "public",

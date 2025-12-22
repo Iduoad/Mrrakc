@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "nature/zoo",
   "metadata": {
-    "tags": ["recreational", "wildlife", "urban-park", "rehabilitation-project", "temporarily-closed"]
+    "tags": [
+      "recreational",
+      "wildlife",
+      "urban-park",
+      "rehabilitation-project",
+      "temporarily-closed"
+    ]
   },
   "spec": {
     "name": "Ain Sbaa Zoo",
@@ -16,12 +22,16 @@
     "people": [
       {
         "id": "people/mohamed-taouss",
-        "relationship": ["local-authority"],
+        "relationship": [
+          "local-authority"
+        ],
         "comment": "Governor of the Ain Sebaâ-Hay Mohammadi prefecture, involved in overseeing the zoo's rehabilitation project."
       },
       {
         "id": "people/nabila-rmili",
-        "relationship": ["local-authority"],
+        "relationship": [
+          "local-authority"
+        ],
         "comment": "Mayor of Casablanca, involved in the oversight of the zoo's rehabilitation."
       }
     ],
@@ -50,13 +60,13 @@
       }
     ],
     "activities": [
-      "observing wildlife (upon re-opening)",
-      "recreational walking (upon re-opening)",
-      "family outings (upon re-opening)"
+      "cultural activities",
+      "sightseeing",
+      "walking"
     ],
     "items": [
-      "over 300 animal specimens (upon re-opening)",
-      "13-hectare park area"
+      "animals",
+      "gardens"
     ],
     "access": {
       "type": "public",

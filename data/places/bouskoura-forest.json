@@ -36,15 +36,14 @@
       }
     ],
     "activities": [
-      "hiking",
+      "cycling",
       "nature walks",
-      "mountain biking",
-      "jogging",
-      "picnicking"
+      "relaxing",
+      "walking"
     ],
     "items": [
-      "eucalyptus trees",
-      "extensive network of walking and cycling trails"
+      "extensive network of walking and cycling trails",
+      "gardens"
     ],
     "access": {
       "type": "public",

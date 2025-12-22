@@ -35,13 +35,13 @@
       }
     ],
     "activities": [
-      "retail shopping",
-      "dining at cafes and restaurants",
-      "leisure and entertainment"
+      "dining",
+      "entertainment",
+      "shopping"
     ],
     "items": [
-      "international and local brand stores",
-      "food court"
+      "facilities",
+      "food & drink"
     ],
     "access": {
       "type": "public",

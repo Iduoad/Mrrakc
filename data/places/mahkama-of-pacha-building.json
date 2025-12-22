@@ -62,13 +62,12 @@
       }
     ],
     "activities": [
-      "architectural sightseeing",
-      "historical research",
-      "conducting administrative business (restricted)"
+      "administrative services",
+      "cultural activities",
+      "sightseeing"
     ],
     "items": [
-      "ornate zellij tilework and carved cedarwood",
-      "historical courtyards and reception halls"
+      "architecture"
     ],
     "access": {
       "type": "restricted",

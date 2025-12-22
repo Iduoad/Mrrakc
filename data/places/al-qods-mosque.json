@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "religion/mosque",
   "metadata": {
-    "tags": ["religious", "architecture", "conversion", "gothic-revival", "roches-noires"]
+    "tags": [
+      "religious",
+      "architecture",
+      "conversion",
+      "gothic-revival",
+      "roches-noires"
+    ]
   },
   "spec": {
     "name": "Al-Qods Mosque",
@@ -34,12 +40,12 @@
       }
     ],
     "activities": [
-      "attending daily prayers",
-      "observing unique architectural fusion"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "gothic revival architectural structure",
-      "prayer hall"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

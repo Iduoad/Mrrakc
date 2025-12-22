@@ -43,12 +43,12 @@
       }
     ],
     "activities": [
-      "attending daily prayers",
-      "observing modernist religious architecture"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "raw concrete facade (brutalist elements)",
-      "interior courtyard"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

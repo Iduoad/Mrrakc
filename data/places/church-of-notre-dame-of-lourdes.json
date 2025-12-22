@@ -51,13 +51,11 @@
       }
     ],
     "activities": [
-      "attending religious services",
-      "viewing the stained glass windows",
-      "architectural observation"
+      "religious activities",
+      "sightseeing"
     ],
     "items": [
-      "spectacular stained glass windows (by gabriel loire)",
-      "concrete modernist structure"
+      "architecture"
     ],
     "access": {
       "type": "public",

@@ -29,13 +29,13 @@
       }
     ],
     "activities": [
-      "trampoline jumping and activities",
-      "indoor sports and fitness",
-      "birthday parties and group events"
+      "cultural activities",
+      "fitness",
+      "gaming"
     ],
     "items": [
-      "large trampoline arenas",
-      "foam pits and climbing walls"
+      "architecture",
+      "facilities"
     ],
     "access": {
       "type": "public",

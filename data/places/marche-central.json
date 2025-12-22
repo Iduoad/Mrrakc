@@ -49,14 +49,13 @@
       }
     ],
     "activities": [
-      "shopping for fresh produce and seafood",
-      "dining at market food stalls",
-      "architectural observation"
+      "dining",
+      "sightseeing"
     ],
     "items": [
-      "fresh seafood and fish market",
-      "produce and flower stalls",
-      "neo-moorish entrance arch"
+      "architecture",
+      "coastline",
+      "gardens"
     ],
     "access": {
       "type": "public",

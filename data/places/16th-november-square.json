@@ -17,18 +17,17 @@
     "timeline": [],
     "links": [],
     "activities": [
-      "people watching",
-      "shopping at local markets",
-      "dining at nearby restaurants",
+      "dining",
+      "entertainment",
       "photography",
-      "cultural events and celebrations"
+      "shopping",
+      "sightseeing"
     ],
     "items": [
-      "Moroccan architecture",
-      "historic buildings",
-      "local market stalls",
-      "street vendors",
-      "monuments and plaques"
+      "architecture",
+      "facilities",
+      "gardens",
+      "memorabilia"
     ],
     "access": {
       "type": "public",

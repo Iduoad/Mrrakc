@@ -2,7 +2,13 @@
   "version": "mrrakc/v0",
   "kind": "food/cafe",
   "metadata": {
-    "tags": ["cafe", "restaurant", "riad", "old-medina", "artisan-heritage"]
+    "tags": [
+      "cafe",
+      "restaurant",
+      "riad",
+      "old-medina",
+      "artisan-heritage"
+    ]
   },
   "spec": {
     "name": "Al Makane Cafe",
@@ -28,14 +34,12 @@
       }
     ],
     "activities": [
-      "dining and drinking",
-      "attending cultural exhibitions",
-      "viewing artisanal heritage displays",
-      "exploring riad architecture"
+      "cultural activities",
+      "dining",
+      "sightseeing"
     ],
     "items": [
-      "traditional moroccan cuisine",
-      "artisan crafts and decorations"
+      "architecture"
     ],
     "access": {
       "type": "public",
