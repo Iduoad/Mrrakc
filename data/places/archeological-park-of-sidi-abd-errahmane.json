@@ -16,8 +16,8 @@
     "id": "archeological-park-of-sidi-abd-errahmane",
     "description": "The Archeological Park of Sidi Abd Errahmane, also referred to by its former quarry name, Melatra, is a site of immense global significance for human prehistory. It is famous for the discovery of a 200,000-year-old fragmented human mandible in its caves in 1955. Ongoing excavations and research have unearthed thousands of stone tools (Acheulean and later) and a diverse fossilized fauna, providing crucial evidence of early human presence and activity in North Africa. The 5-hectare site is undergoing development to transform it into a formal archaeological park with an interpretation center, guided paths, and workshops to highlight its discoveries and promote scientific research.",
     "location": {
-      "longitude": -7.6876116,
-      "latitude": 33.5792939,
+      "longitude": 33.5792939,
+      "latitude": -7.6876116,
       "province": "province/casablanca"
     },
     "people": [],
@@ -37,7 +37,7 @@
       {
         "url": "https://www.casa-amenagement.ma/en/nos-projets/parc-archeologique-de-sidi-abderrahmane",
         "type": "website",
-        "title": "Development of the archeological park of sidi abderrahmane (Casa Aménagement)"
+        "title": "Development of the archeological park of sidi abderrahmane (Casa Am\u00e9nagement)"
       }
     ],
     "activities": [

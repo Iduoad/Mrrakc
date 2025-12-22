@@ -15,7 +15,13 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://maps.app.goo.gl/Q4pRcq7z4WFHmq5k6",
+        "type": "map",
+        "title": "Google Maps"
+      }
+    ],
     "activities": [
       "shopping"
     ],

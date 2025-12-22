@@ -15,8 +15,8 @@
     "id": "nevada-rachidi-skatepark",
     "description": "Nevada Rachidi Skatepark (Skatepark Nevada Rachidi) is a public recreational facility dedicated to skateboarding, rollerblading, and other wheeled sports. Located in the Nevada/Rachidi neighborhood, the park provides a safe and structured environment for youth culture and physical activity. It is an important element of the city's modern public sports infrastructure, catering to a specific urban subculture.",
     "location": {
-      "longitude": -7.6218081,
-      "latitude": 33.5901256,
+      "longitude": 33.5901256,
+      "latitude": -7.6218081,
       "province": "province/casablanca"
     },
     "people": [],

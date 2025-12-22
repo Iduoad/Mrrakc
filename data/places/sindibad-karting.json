@@ -14,8 +14,8 @@
     "id": "sindibad-karting",
     "description": "Sindibad Karting is a dedicated go-kart racing track and facility located within the larger **Sindibad Park** leisure complex. It offers recreational and potentially competitive karting experiences for families and enthusiasts, contributing to the diverse array of entertainment options within the park.",
     "location": {
-      "longitude": -7.6910174,
-      "latitude": 33.5818554,
+      "longitude": 33.5818554,
+      "latitude": -7.6910174,
       "province": "province/casablanca"
     },
     "people": [

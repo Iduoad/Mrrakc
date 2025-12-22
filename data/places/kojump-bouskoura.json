@@ -15,8 +15,8 @@
     "id": "kojump-bouskoura",
     "description": "Kojump Bouskoura is a modern, dedicated **trampoline park** located in the Bouskoura area near Casablanca. It offers a variety of indoor leisure and physical activities, including trampolines, foam pits, and obstacle courses, catering primarily to children, teenagers, and families. It is a popular venue for active entertainment and birthday parties in the suburban zone.",
     "location": {
-      "longitude": -7.6329134,
-      "latitude": 33.4876924,
+      "longitude": 33.4876924,
+      "latitude": -7.6329134,
       "province": "province/casablanca"
     },
     "people": [],

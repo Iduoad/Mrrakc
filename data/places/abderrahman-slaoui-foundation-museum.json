@@ -40,6 +40,11 @@
         "url": "https://en.wikipedia.org/wiki/Abderrahman_Slaoui_Museum",
         "title": "Wikipedia Page",
         "type": "article"
+      },
+      {
+        "url": "https://maps.app.goo.gl/sq9DiANfxQAT2Ub19",
+        "type": "map",
+        "title": "Google Maps"
       }
     ],
     "activities": [

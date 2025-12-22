@@ -15,8 +15,8 @@
     "id": "megarama-cinema",
     "description": "Megarama Cinema is a large, modern multiplex movie theater located on the Ain Diab Corniche. It is one of the city's premier contemporary cinema venues, offering multiple screens, up-to-date projection and sound technology, and a wide selection of international blockbusters and national films. Megarama is a key part of Casablanca's modern entertainment and leisure infrastructure.",
     "location": {
-      "longitude": -7.6681593,
-      "latitude": 33.5959707,
+      "longitude": 33.5959707,
+      "latitude": -7.6681593,
       "province": "province/casablanca"
     },
     "people": [

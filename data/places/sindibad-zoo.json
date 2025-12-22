@@ -15,8 +15,8 @@
     "id": "sindibad-zoo",
     "description": "Sindibad Zoo is the integrated zoo section of the large Sindibad Park leisure complex. It features various animal exhibits, focusing on both local and international species. The zoo is dedicated to wildlife conservation and education, providing a natural environment for animals within the urban perimeter. It offers educational and recreational opportunities for visitors, particularly focusing on family and school groups.",
     "location": {
-      "longitude": -7.6931194,
-      "latitude": 33.5806899,
+      "longitude": 33.5806899,
+      "latitude": -7.6931194,
       "province": "province/casablanca"
     },
     "people": [

@@ -13,10 +13,10 @@
   "spec": {
     "name": "Thomas I Archeological Site",
     "id": "thomas-i-archeological-site",
-    "description": "The Thomas I Archaeological Site (Carrière Thomas I) is one of the most critical prehistoric sites in North Africa, famous for the 1969 discovery of a fragmented human half-mandible. The site is now renowned for yielding the **oldest Homo Erectus remains in North Africa**, dating back over 500,000 years. It provides crucial evidence for human evolution and migration. The site, part of the wider Thomas Quarries, was recognized as a **National Material Patrimony** in 1951.",
+    "description": "The Thomas I Archaeological Site (Carri\u00e8re Thomas I) is one of the most critical prehistoric sites in North Africa, famous for the 1969 discovery of a fragmented human half-mandible. The site is now renowned for yielding the **oldest Homo Erectus remains in North Africa**, dating back over 500,000 years. It provides crucial evidence for human evolution and migration. The site, part of the wider Thomas Quarries, was recognized as a **National Material Patrimony** in 1951.",
     "location": {
-      "longitude": -7.6966561,
-      "latitude": 33.5685715,
+      "longitude": 33.5685715,
+      "latitude": -7.6966561,
       "province": "province/casablanca"
     },
     "people": [
@@ -50,7 +50,7 @@
       {
         "url": "https://www.hominides.com/html/actualites/erectus-mandibule-maroc-0130.php",
         "type": "article",
-        "title": "Homo erectus présent au Maroc il y a 500 000 ans"
+        "title": "Homo erectus pr\u00e9sent au Maroc il y a 500 000 ans"
       }
     ],
     "activities": [

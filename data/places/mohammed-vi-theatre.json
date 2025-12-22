@@ -12,10 +12,10 @@
   "spec": {
     "name": "Mohammed VI Theatre",
     "id": "mohammed-vi-theatre",
-    "description": "The Mohammed VI Theatre (Théâtre Mohammed VI) is a modern performing arts venue in Casablanca, named after the current King of Morocco, Mohammed VI. It serves as a major cultural platform for theatrical productions, music concerts, dance performances, and conferences. The theater is typically characterized by contemporary architectural design and state-of-the-art facilities, reflecting Morocco's commitment to modern cultural development.",
+    "description": "The Mohammed VI Theatre (Th\u00e9\u00e2tre Mohammed VI) is a modern performing arts venue in Casablanca, named after the current King of Morocco, Mohammed VI. It serves as a major cultural platform for theatrical productions, music concerts, dance performances, and conferences. The theater is typically characterized by contemporary architectural design and state-of-the-art facilities, reflecting Morocco's commitment to modern cultural development.",
     "location": {
-      "longitude": -7.5969681,
-      "latitude": 33.5913903,
+      "longitude": 33.5913903,
+      "latitude": -7.5969681,
       "province": "province/casablanca"
     },
     "people": [

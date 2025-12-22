@@ -13,10 +13,10 @@
   "spec": {
     "name": "Ain Sebaa Beach",
     "id": "ain-sebaa-beach",
-    "description": "Ain Sebaa Beach, located in the popular neighborhood of Aïn Sebaâ on the eastern side of Casablanca, offers a more raw and authentic coastal experience compared to the central tourist beaches. It is known as a local surf spot, attracting experienced surfers and bodyboarders due to its often-strong waves and currents. While swimming is possible, caution is advised due to the unpredictable nature of the Atlantic and potential strong undertows. The atmosphere is predominantly local and less focused on commercial tourism.",
+    "description": "Ain Sebaa Beach, located in the popular neighborhood of A\u00efn Seba\u00e2 on the eastern side of Casablanca, offers a more raw and authentic coastal experience compared to the central tourist beaches. It is known as a local surf spot, attracting experienced surfers and bodyboarders due to its often-strong waves and currents. While swimming is possible, caution is advised due to the unpredictable nature of the Atlantic and potential strong undertows. The atmosphere is predominantly local and less focused on commercial tourism.",
     "location": {
-      "longitude": -7.5357248,
-      "latitude": 33.6208397,
+      "longitude": 33.6208397,
+      "latitude": -7.5357248,
       "province": "province/casablanca"
     },
     "people": [],
@@ -25,7 +25,7 @@
       {
         "url": "https://www.hertz.ma/maroc/destinations/plage-de-ain-sebaa-un-spot-de-surf-a-casablanca",
         "type": "article",
-        "title": "Plage de Aïn Sebaâ : Un spot de surf à Casablanca (Hertz Maroc)"
+        "title": "Plage de A\u00efn Seba\u00e2 : Un spot de surf \u00e0 Casablanca (Hertz Maroc)"
       }
     ],
     "activities": [

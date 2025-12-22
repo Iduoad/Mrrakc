@@ -15,8 +15,8 @@
     "id": "crazy-park",
     "description": "Crazy Park is a modern amusement park located outside the immediate city center, designed to offer a variety of rides, games, and entertainment options for families and children. As a destination for leisure, it provides a much-needed venue for active recreation and fun, contributing to the city's modern entertainment infrastructure.",
     "location": {
-      "longitude": -7.7686459,
-      "latitude": 33.5388025,
+      "longitude": 33.5388025,
+      "latitude": -7.7686459,
       "province": "province/casablanca"
     },
     "people": [],

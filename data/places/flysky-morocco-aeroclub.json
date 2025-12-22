@@ -15,8 +15,8 @@
     "id": "flysky-morocco-aeroclub",
     "description": "Flysky Morocco Aeroclub is a private or public organization dedicated to promoting general aviation, recreational flying, and flight training in Casablanca. Located outside the main city near a smaller aerodrome (like Tit Mellil), it offers activities such as introductory flights, pilot licensing programs, and aircraft rental. It is a center for aviation enthusiasts and those seeking unique aerial views of the region.",
     "location": {
-      "longitude": -7.4688229,
-      "latitude": 33.5992676,
+      "longitude": 33.5992676,
+      "latitude": -7.4688229,
       "province": "province/casablanca"
     },
     "people": [],

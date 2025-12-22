@@ -51,6 +51,11 @@
         "url": "https://en.wikipedia.org/wiki/Ain_Diab",
         "type": "article",
         "title": "Ain Diab Wikipedia Page"
+      },
+      {
+        "url": "https://maps.app.goo.gl/CLpQqb16A9dAJBwNA",
+        "type": "map",
+        "title": "Google Maps"
       }
     ],
     "activities": [

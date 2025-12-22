@@ -15,8 +15,8 @@
     "id": "archeological-quarry-sidi-abderrahmane",
     "description": "The Archeological Quarry of Sidi Abderrahmane, located near the coast, was initially operated for extracting stone for construction purposes. However, it gained immense scientific importance due to significant archaeological discoveries within its layers, notably evidence of early human occupation spanning hundreds of thousands of years (Lower Paleolithic). These findings, including stone tools and hominid remains, led the Moroccan government to protect the site as part of the National Material Patrimony in 1942, long before the most famous mandible discovery in 1955. It is now part of the larger project to create the Archeological Park of Sidi Abd Errahmane.",
     "location": {
-      "longitude": -7.6840464,
-      "latitude": 33.5808525,
+      "longitude": 33.5808525,
+      "latitude": -7.6840464,
       "province": "province/casablanca"
     },
     "people": [],
@@ -36,7 +36,7 @@
       {
         "url": "https://www.casa-amenagement.ma/fr/nos-projets/parc-archeologique-de-sidi-abderrahmane",
         "type": "website",
-        "title": "The project urban development page (Casa Aménagement)"
+        "title": "The project urban development page (Casa Am\u00e9nagement)"
       }
     ],
     "activities": [

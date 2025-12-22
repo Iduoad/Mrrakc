@@ -14,10 +14,10 @@
   "spec": {
     "name": "Moulay Youssef Mosque",
     "id": "moulay-youssef-mosque",
-    "description": "The Moulay Youssef Mosque (Mosquée Moulay Youssef) is a prominent religious building located in the planned Habous Quarter (Nouvelle Médina). It was designed by the French architectural duo **Auguste Cadet and Edmond Brion** and completed in 1923. The mosque is named after **Sultan Moulay Youssef**, who reigned during the early Protectorate. Its architecture is a key example of the French-designed Neo-Moorish style, featuring traditional materials and craftsmanship applied to a modern, orderly layout. It remains an active place of worship and a central feature of the Habous Quarter.",
+    "description": "The Moulay Youssef Mosque (Mosqu\u00e9e Moulay Youssef) is a prominent religious building located in the planned Habous Quarter (Nouvelle M\u00e9dina). It was designed by the French architectural duo **Auguste Cadet and Edmond Brion** and completed in 1923. The mosque is named after **Sultan Moulay Youssef**, who reigned during the early Protectorate. Its architecture is a key example of the French-designed Neo-Moorish style, featuring traditional materials and craftsmanship applied to a modern, orderly layout. It remains an active place of worship and a central feature of the Habous Quarter.",
     "location": {
-      "longitude": -7.6045346,
-      "latitude": 33.5781533,
+      "longitude": 33.5781533,
+      "latitude": -7.6045346,
       "province": "province/casablanca"
     },
     "people": [
@@ -55,7 +55,7 @@
       {
         "url": "https://www.weseecasa.com/project/mosquee-moulay-youssef/",
         "type": "website",
-        "title": "Mosquée Moulay Youssef (We See Casa)"
+        "title": "Mosqu\u00e9e Moulay Youssef (We See Casa)"
       }
     ],
     "activities": [
