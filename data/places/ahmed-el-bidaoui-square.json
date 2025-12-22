@@ -15,7 +15,13 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://maps.app.goo.gl/RtTN31LQcu7npFaz7",
+        "type": "map",
+        "title": "Google Maps"
+      }
+    ],
     "activities": [
       "dining",
       "photography",
