@@ -20,16 +20,7 @@
       "latitude": -7.5908846,
       "province": "province/casablanca"
     },
-    "people": [
-      {
-        "id": "people/oncf",
-        "relationship": [
-          "owner",
-          "administrator"
-        ],
-        "comment": "The Moroccan National Railways Office (Office National des Chemins de Fer)."
-      }
-    ],
+    "people": [],
     "timeline": [
       {
         "title": "Construction",
@@ -57,8 +48,15 @@
       "architecture"
     ],
     "access": {
-      "type": "restricted",
-      "options": [],
+      "type": "public",
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "closed",
       "comment": "The historical building is closed; operations moved to the new adjacent station."
     },

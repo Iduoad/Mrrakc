@@ -61,6 +61,12 @@
       "type": "public",
       "options": [
         {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        },
+        {
           "title": "Commercial and hotel access",
           "modality": "consumption",
           "audience": "all",

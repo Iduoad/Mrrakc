@@ -37,7 +37,14 @@
     ],
     "access": {
       "type": "restricted",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open",
       "comment": "Access is restricted to clients and staff."
     },

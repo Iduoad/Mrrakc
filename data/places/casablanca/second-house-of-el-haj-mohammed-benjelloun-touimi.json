@@ -45,7 +45,14 @@
     ],
     "access": {
       "type": "private",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open",
       "comment": "Building is an inhabited private residence; access is generally forbidden."
     },

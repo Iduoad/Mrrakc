@@ -59,6 +59,12 @@
       "type": "restricted",
       "options": [
         {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        },
+        {
           "title": "Access for Official Business",
           "modality": "free",
           "audience": "all",

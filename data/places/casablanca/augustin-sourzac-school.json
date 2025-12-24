@@ -57,7 +57,14 @@
     ],
     "access": {
       "type": "restricted",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open",
       "comment": "Access is restricted primarily to students, staff, and authorized personnel."
     },

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hotel Particulier 1",
     "id": "hotel-particulier-1",
-    "description": "\ud83d\udd3b Architect: Marius Boyer<br>\ud83d\udd3b Dates: 1930",
+    "description": "🔻 Architect: Marius Boyer<br>🔻 Dates: 1930",
     "location": {
       "longitude": 33.5911336,
       "latitude": -7.6253572,
@@ -20,7 +20,14 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [

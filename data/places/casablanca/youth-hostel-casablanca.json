@@ -40,6 +40,12 @@
       "type": "restricted",
       "options": [
         {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        },
+        {
           "title": "Accommodation fee (per night)",
           "modality": "consumption",
           "audience": "all",

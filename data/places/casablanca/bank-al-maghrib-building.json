@@ -57,7 +57,14 @@
     ],
     "access": {
       "type": "restricted",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open",
       "comment": "Functions as a central bank office; interior access is highly restricted to staff and authorized personnel."
     },
