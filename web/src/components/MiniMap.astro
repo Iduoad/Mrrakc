@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import InteractiveMap, { type MapPoint } from './react/InteractiveMap';
+
+interface Props {
+  ids: string[];
+}
+
+const { ids } = Astro.props;
+
+// Fetch all places and filter by the provided IDs
+const allPlaces = await getCollection('places');
+
+const normalizeId = (id: string) => id.replace(/\.json$/, '');
+
+const selectedPlaces = allPlaces.filter(place => {
+  const normalizedPlaceId = normalizeId(place.id);
+  return ids.some(id => normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id));
+});
+
+// Sort them to match the order of IDs passed in props
+const sortedPlaces = ids
+  .map(id => selectedPlaces.find(p => {
+    const normalizedPlaceId = normalizeId(p.id);
+    return normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id);
+  }))
+  .filter((p): p is NonNullable<typeof p> => p !== undefined);
+
+// Transform the data for the React component
+const points: MapPoint[] = sortedPlaces.map(place => {
+  const { kind, spec } = place.data;
+  
+  // Map kind to category
+  let category = 'default';
+  if (kind.includes('cinema')) category = 'film';
+  else if (kind.includes('gallery') || kind.includes('art')) category = 'art';
+  else if (kind.includes('park') || kind.includes('garden')) category = 'park';
+  else if (kind.includes('station') || kind.includes('transport')) category = 'transport';
+  else if (kind.includes('market') || kind.includes('souk') || kind.includes('bakery') || kind.includes('shop')) category = 'market';
+  else if (kind.includes('building') || kind.includes('landmark') || kind.includes('mahkama') || kind.includes('wilaya') || kind.includes('post') || kind.includes('architecture')) category = 'building';
+  else if (kind.includes('square') || kind.includes('roundabout') || kind.includes('plaza')) category = 'square';
+  else if (kind.includes('stadium') || kind.includes('complex')) category = 'stadium';
+  else if (kind.includes('school') || kind.includes('high-school') || kind.includes('madrassa')) category = 'school';
+  else if (kind.includes('pharmacy') || kind.includes('hospital') || kind.includes('clinic')) category = 'health';
+  else if (kind.includes('hotel')) category = 'hotel';
+
+  return {
+    id: place.id,
+    name: spec.name,
+    kind: kind,
+    category: category,
+    description: spec.description,
+    location: {
+      latitude: spec.location.longitude, // Swapping because source data is swapped
+      longitude: spec.location.latitude, // Swapping because source data is swapped
+    },
+    prices: spec.access?.options?.map(opt => ({
+      title: opt.title,
+      entranceFee: opt.entranceFee
+    })),
+    links: spec.links?.map(link => ({
+      url: link.url,
+      type: link.type,
+      title: link.title
+    }))
+  };
+});
+---
+
+<div class="my-12">
+  {points.length > 0 ? (
+    <InteractiveMap client:visible points={points} />
+  ) : (
+    <div class="p-8 text-center border-2 border-dashed border-clay/50 rounded-2xl bg-clay/10">
+      <p class="text-charcoal-light dark:text-stone-400 font-serif italic">No map data available for the selected locations.</p>
+    </div>
+  )}
+</div>
