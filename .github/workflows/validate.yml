@@ -53,7 +53,7 @@ jobs:
       - name: Validate Places Data
         run: |
           echo "🏛️ Validating places data..."
-          boon schema/places.json data/places/*.json || {
+          boon schema/places.json data/places/casablanca/*.json || {
             echo "❌ Places validation failed"
             exit 1
           }
