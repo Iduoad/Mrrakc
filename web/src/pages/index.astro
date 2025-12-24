@@ -1,0 +1,80 @@
+---
+import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const gridItems = [
+  { title: "The Sahara", image: "https://images.unsplash.com/photo-1509024644558-2f56ce76c490?q=80&w=800&auto=format&fit=crop", span: "col-span-1 md:col-span-2 row-span-2", photographer: "Ruben Bagüés" },
+  { title: "The Blue Pearl", image: "https://images.unsplash.com/photo-1534234828563-0253171e5722?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Kyriacos Georgiou" },
+  { title: "Imperial Cities", image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Calin Stan" },
+  { title: "High Atlas", image: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=800&auto=format&fit=crop", span: "col-span-1 md:col-span-2 row-span-1", photographer: "Toa Heftiba" },
+  { title: "Ancient History", image: "https://images.unsplash.com/photo-1558258695-5e662841198e?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Tomáš Malík" },
+  { title: "Coastal Vibes", image: "https://images.unsplash.com/photo-1575881875475-31023242e3f9?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Louis Hansel" },
+  { title: "Culinary Delights", image: "https://images.unsplash.com/photo-1512152272829-e313960f7b61?q=80&w=800&auto=format&fit=crop", span: "col-span-1 md:col-span-2 row-span-1", photographer: "Annie Spratt" },
+];
+---
+
+<BaseLayout title="Mrrakc | Soul of Morocco" transparentHeader={true}>
+		
+        <!-- Hero Section -->
+        <section class="relative h-screen w-full overflow-hidden">
+            <div class="absolute inset-0">
+                <img 
+                    src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=2500&auto=format&fit=crop" 
+                    alt="Moroccan Desert Sunset" 
+                    class="h-full w-full object-cover object-center"
+                />
+                <div class="absolute inset-0 bg-black/60 bg-gradient-to-b from-black/70 via-transparent to-black/70"></div>
+            </div>
+            
+            <div class="relative z-10 flex h-full flex-col items-center justify-center text-center px-4 pt-20">
+                <h1 class="text-6xl md:text-8xl font-bold text-white tracking-tighter mb-4 drop-shadow-lg font-serif">
+                    Mrrakc
+                </h1>
+                <p class="text-xl md:text-2xl text-sand max-w-2xl font-light mb-8 drop-shadow-md">
+                    Journey through the soul of Morocco: Culture, History, and Diverse Landscapes.
+                </p>
+                <a href="#explore" class="px-8 py-3 bg-terra hover:bg-terra-dark text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Start Exploring
+                </a>
+            </div>
+        </section>
+
+        <!-- Introductory Text Block -->
+        <section id="explore" class="py-20 px-6 bg-white dark:bg-stone-900 transition-colors duration-300">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl font-serif font-bold text-charcoal dark:text-stone-100 mb-6">Beyond the Guidebooks</h2>
+                <p class="text-lg text-charcoal-light dark:text-stone-400 leading-relaxed">
+                    Mrrakc is your gateway to the authentic Morocco. From the bustling souks of Marrakech to the silent dunes of Merzouga, we invite you to explore the rich tapestry of Moroccan heritage. Discover hidden gems, ancient traditions, and the warm hospitality that defines this magical land.
+                </p>
+            </div>
+        </section>
+
+        <!-- Diversity Grid -->
+        <section class="py-12 px-4 md:px-8 bg-clay dark:bg-stone-950 transition-colors duration-300">
+            <div class="max-w-7xl mx-auto">
+                <h2 class="text-3xl font-serif font-bold text-center text-charcoal dark:text-stone-100 mb-12">The Many Faces of Morocco</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[300px]">
+                    {gridItems.map((item) => (
+                        <div class={`group relative overflow-hidden rounded-xl shadow-md cursor-pointer ${item.span}`}>
+                            <img 
+                                src={item.image} 
+                                alt={item.title}
+                                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                            />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            <div class="absolute bottom-0 left-0 p-4 w-full">
+                                <h3 class="text-white text-lg md:text-xl font-bold tracking-wide transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300 font-serif leading-tight">
+                                    {item.title}
+                                </h3>
+                                <p class="text-white/80 text-xs mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0 delay-75">
+                                    by: {item.photographer}
+                                </p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+
+</BaseLayout>

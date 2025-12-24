@@ -1,0 +1,118 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog', ({ data }) => {
+		return import.meta.env.PROD ? data.draft !== true : true;
+	});
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'blog'>;
+
+const post = Astro.props;
+const { Content, headings, remarkPluginFrontmatter } = await post.render();
+const readingTime = remarkPluginFrontmatter.readingTime;
+
+// Filter headings for ToC (H2 and H3)
+const tocHeadings = headings.filter(h => h.depth >= 2 && h.depth <= 3);
+
+// Handle heroImage which can be a string or an optimized image object
+const heroImage = post.data.heroImage;
+const heroImageSrc = typeof heroImage === 'string' ? heroImage : heroImage?.src;
+---
+
+<BaseLayout title={post.data.title} description={post.data.description} image={heroImageSrc}>
+	<article class="bg-sand dark:bg-[#1a1a1a] transition-colors duration-300 pb-20">
+        <!-- Hero Section -->
+        <div class="relative h-[60vh] w-full overflow-hidden">
+            {typeof heroImage === 'string' ? (
+                <img 
+                    src={heroImage} 
+                    alt={post.data.title} 
+                    class="h-full w-full object-cover"
+                />
+            ) : heroImage ? (
+                <Image 
+                    src={heroImage} 
+                    alt={post.data.title} 
+                    class="h-full w-full object-cover"
+                />
+            ) : null}
+            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+            
+            <div class="absolute bottom-0 left-0 w-full p-6 md:p-12 text-center md:text-left">
+                <div class="max-w-4xl mx-auto">
+                    <div class="mb-4 inline-block px-3 py-1 bg-terra text-white text-xs font-bold uppercase tracking-wider rounded-full">
+                        {post.data.tags[0] || 'Story'}
+                    </div>
+                    <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-4 leading-tight drop-shadow-lg">
+                        {post.data.title}
+                    </h1>
+                    <div class="flex items-center justify-center md:justify-start gap-4 text-stone-300 text-sm">
+                        <span class="font-medium text-white">{post.data.author}</span>
+                        <span>&bull;</span>
+                        <time datetime={post.data.pubDate.toISOString()}>
+                            {post.data.pubDate.toLocaleDateString('en-us', {
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric',
+                            })}
+                        </time>
+                        {readingTime && (
+                            <>
+                                <span>&bull;</span>
+                                <span>{readingTime}</span>
+                            </>
+                        )}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="px-4 md:px-8 mt-12">
+            <div class="max-w-4xl mx-auto">
+                {post.data.showToc && tocHeadings.length > 0 && (
+                    <details 
+                        class="group mb-12 p-6 bg-clay/30 dark:bg-charcoal/30 rounded-xl border border-clay/50 dark:border-charcoal/50 transition-all duration-300"
+                        open={post.data.tocOpen}
+                    >
+                        <summary class="flex items-center justify-between cursor-pointer list-none">
+                            <h2 class="text-xl font-serif font-bold text-charcoal dark:text-stone-100">Table of Contents</h2>
+                            <svg 
+                                class="w-5 h-5 text-terra transition-transform duration-300 group-open:rotate-180" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                viewBox="0 0 24 24"
+                            >
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </summary>
+                        <nav class="mt-6">
+                            <ul class="space-y-2">
+                                {tocHeadings.map(heading => (
+                                    <li class={`${heading.depth === 3 ? 'ml-6' : ''}`}>
+                                        <a 
+                                            href={`#${heading.slug}`}
+                                            class="text-charcoal-light dark:text-stone-400 hover:text-terra dark:hover:text-terra transition-colors text-sm"
+                                        >
+                                            {heading.text}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </nav>
+                    </details>
+                )}
+                <div class="prose mx-auto">
+                    <Content />
+                </div>
+            </div>
+        </div>
+    </article>
+</BaseLayout>

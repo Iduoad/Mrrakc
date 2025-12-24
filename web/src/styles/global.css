@@ -1,0 +1,295 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sand: #FAFAF9;
+  --color-clay: #E7E5E4;
+  --color-terra: #A87C6D;
+  --color-terra-dark: #8D6658;
+  --color-ocean: #6B8C96;
+  --color-charcoal: #44403C;
+  --color-charcoal-light: #78716C;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Merriweather', serif;
+}
+
+/* Configure dark mode to use class-based strategy */
+@variant dark (&:is(.dark *));
+
+/* Prose/Typography styles for markdown content */
+.prose {
+  color: var(--color-charcoal);
+  max-width: 65ch;
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.prose :where(p):not(:where([class~="not-prose"] *)) {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.prose :where(h1):not(:where([class~="not-prose"] *)) {
+  font-family: var(--font-serif);
+  font-weight: 800;
+  font-size: 2.25em;
+  margin-top: 0;
+  margin-bottom: 0.8888889em;
+  line-height: 1.1111111;
+  color: var(--color-charcoal);
+}
+
+.prose :where(h2):not(:where([class~="not-prose"] *)) {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.875em;
+  margin-top: 1.5555556em;
+  margin-bottom: 0.8888889em;
+  line-height: 1.3333333;
+  color: var(--color-charcoal);
+}
+
+.prose :where(h3):not(:where([class~="not-prose"] *)) {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+  color: var(--color-charcoal);
+}
+
+.prose :where(a):not(:where([class~="not-prose"] *)) {
+  color: var(--color-terra);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.prose :where(a):hover:not(:where([class~="not-prose"] *)) {
+  color: var(--color-terra-dark);
+}
+
+.prose :where(strong):not(:where([class~="not-prose"] *)) {
+  color: var(--color-charcoal);
+  font-weight: 600;
+}
+
+.prose :where(em):not(:where([class~="not-prose"] *)) {
+  font-style: italic;
+}
+
+.prose :where(blockquote):not(:where([class~="not-prose"] *)) {
+  font-weight: 400;
+  font-style: italic;
+  color: var(--color-charcoal);
+  border-left-width: 0.25rem;
+  border-left-color: var(--color-terra);
+  quotes: "\201C" "\201D" "\2018" "\2019";
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  padding-left: 1em;
+}
+
+.prose :where(ul):not(:where([class~="not-prose"] *)) {
+  list-style-type: disc;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-left: 1.625em;
+}
+
+.prose :where(ol):not(:where([class~="not-prose"] *)) {
+  list-style-type: decimal;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-left: 1.625em;
+}
+
+.prose :where(li):not(:where([class~="not-prose"] *)) {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose :where(img):not(:where([class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  color: var(--color-charcoal);
+  font-weight: 600;
+  font-size: 0.875em;
+  background-color: var(--color-clay);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+}
+
+.prose :where(pre):not(:where([class~="not-prose"] *)) {
+  color: var(--color-sand);
+  background-color: var(--color-charcoal);
+  overflow-x: auto;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+  margin-top: 1.7142857em;
+  margin-bottom: 1.7142857em;
+  border-radius: 0.375rem;
+  padding: 0.8571429em 1.1428571em;
+}
+
+.prose :where(pre code):not(:where([class~="not-prose"] *)) {
+  background-color: transparent;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-weight: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+/* Table styles */
+.prose :where(table):not(:where([class~="not-prose"] *)) {
+  width: 100%;
+  table-layout: auto;
+  text-align: left;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-collapse: collapse;
+}
+
+.prose :where(thead):not(:where([class~="not-prose"] *)) {
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-clay);
+}
+
+.prose :where(thead th):not(:where([class~="not-prose"] *)) {
+  color: var(--color-charcoal);
+  font-weight: 600;
+  vertical-align: bottom;
+  padding-right: 0.5714286em;
+  padding-bottom: 0.5714286em;
+  padding-left: 0.5714286em;
+}
+
+.prose :where(tbody tr):not(:where([class~="not-prose"] *)) {
+  border-bottom-width: 1px;
+  border-bottom-color: var(--color-clay);
+}
+
+.prose :where(tbody tr:last-child):not(:where([class~="not-prose"] *)) {
+  border-bottom-width: 0;
+}
+
+.prose :where(tbody td):not(:where([class~="not-prose"] *)) {
+  vertical-align: baseline;
+  padding: 0.5714286em;
+}
+
+.dark .prose :where(thead th):not(:where([class~="not-prose"] *)) {
+  color: var(--color-sand);
+}
+
+.dark .prose :where(thead, tbody tr):not(:where([class~="not-prose"] *)) {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+
+/* Dark mode prose styles */
+.dark .prose {
+  color: var(--color-sand);
+}
+
+.dark .prose :where(h1, h2, h3, h4, h5, h6):not(:where([class~="not-prose"] *)) {
+  color: var(--color-sand);
+}
+
+.dark .prose :where(strong):not(:where([class~="not-prose"] *)) {
+  color: var(--color-sand);
+}
+
+.dark .prose :where(blockquote):not(:where([class~="not-prose"] *)) {
+  color: var(--color-clay);
+  border-left-color: var(--color-terra);
+}
+
+.dark .prose :where(code):not(:where([class~="not-prose"] *)) {
+  color: var(--color-sand);
+  background-color: rgb(68 64 60 / 0.5);
+}
+
+/* First letter styling */
+.prose>p:first-of-type::first-letter {
+  font-size: 3.5rem;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--color-terra);
+  float: left;
+  line-height: 1;
+  margin-right: 0.75rem;
+  margin-top: 0.1em;
+}
+
+.dark .prose>p:first-of-type::first-letter {
+  color: var(--color-terra);
+}
+
+/* Collapsible Note Styles */
+.note-container {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background-color: var(--color-clay);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.dark .note-container {
+  background-color: #262626;
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+.note-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-charcoal);
+  user-select: none;
+}
+
+.note-summary::-webkit-details-marker {
+  display: none;
+}
+
+.dark .note-summary {
+  color: var(--color-sand);
+}
+
+.note-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--color-terra);
+  transition: transform 0.3s ease;
+}
+
+.note-container[open] .note-icon {
+  transform: rotate(180deg);
+}
+
+.note-container .prose,
+.note-container p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.note-container>*:last-child {
+  margin-bottom: 0;
+}

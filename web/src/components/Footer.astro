@@ -1,0 +1,17 @@
+---
+const today = new Date();
+---
+
+<footer class="bg-white dark:bg-stone-900 text-charcoal dark:text-charcoal-light py-12 text-center border-t border-clay dark:border-charcoal">
+    <div class="container mx-auto px-4">
+        <p class="mb-4 text-2xl font-serif font-bold text-charcoal dark:text-sand">Mrrakc</p>
+        <div class="flex justify-center gap-6 mb-8 text-sm">
+            <a href="/" class="hover:text-terra transition-colors">Home</a>
+            <a href="/blog" class="hover:text-terra transition-colors">Blog</a>
+            <a href="#" class="hover:text-terra transition-colors">About</a>
+        </div>
+        <p class="text-xs text-charcoal-light">
+            &copy; {today.getFullYear()} Mrrakc. All rights reserved.
+        </p>
+    </div>
+</footer>
