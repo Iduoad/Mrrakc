@@ -1,0 +1,77 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+	title: string;
+	description?: string;
+    image?: string;
+    transparentHeader?: boolean;
+}
+
+const { title, description = "Journey through the soul of Morocco.", image = '/blog-placeholder-1.jpg', transparentHeader = false } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+		<title>{title}</title>
+		<meta name="description" content={description} />
+        <meta property="og:image" content={new URL(image, Astro.url)} />
+
+        <!-- Theme Management -->
+        <script is:inline>
+            // Initialize theme immediately to prevent flash
+            (function() {
+                const savedTheme = localStorage.getItem('theme');
+                const theme = savedTheme || 'light';
+                
+                if (theme === 'dark') {
+                    document.documentElement.classList.add('dark');
+                }
+                
+                if (!savedTheme) {
+                    localStorage.setItem('theme', 'light');
+                }
+            })();
+            
+            // Setup theme toggle
+            document.addEventListener('DOMContentLoaded', () => {
+                const toggleButton = document.getElementById('theme-toggle');
+                
+                if (toggleButton) {
+                    toggleButton.addEventListener('click', () => {
+                        const html = document.documentElement;
+                        const isDark = html.classList.contains('dark');
+                        const newTheme = isDark ? 'light' : 'dark';
+                        
+                        html.classList.toggle('dark');
+                        localStorage.setItem('theme', newTheme);
+                    });
+                }
+            });
+        </script>
+	</head>
+	<body class="bg-sand dark:bg-[#1a1a1a] text-charcoal dark:text-stone-100 font-sans transition-colors duration-300 min-h-screen flex flex-col">
+		
+        <Header transparent={transparentHeader} />
+
+		<main class="flex-grow">
+			<slot />
+		</main>
+
+		<Footer />
+
+	</body>
+</html>
