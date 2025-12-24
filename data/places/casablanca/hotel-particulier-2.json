@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hotel Particulier 2",
     "id": "hotel-particulier-2",
-    "description": "\ud83d\udd3b Architect: Emmanuel Chaine<br>\ud83d\udd3b Dates: 1930/1931",
+    "description": "🔻 Architect: Emmanuel Chaine<br>🔻 Dates: 1930/1931",
     "location": {
       "longitude": 33.5901432,
       "latitude": -7.6249155,
@@ -20,7 +20,14 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [

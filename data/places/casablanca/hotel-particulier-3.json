@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hotel Particulier 3",
     "id": "hotel-particulier-3",
-    "description": "\ud83d\udd3b Architect: Pierre Jabin<br>\ud83d\udd3b Dates: 1930/1931",
+    "description": "🔻 Architect: Pierre Jabin<br>🔻 Dates: 1930/1931",
     "location": {
       "longitude": 33.5901622,
       "latitude": -7.624768,
@@ -20,7 +20,14 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [

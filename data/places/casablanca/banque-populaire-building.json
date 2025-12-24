@@ -64,7 +64,14 @@
     ],
     "access": {
       "type": "restricted",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open",
       "comment": "Functions as an active bank; interior access is limited to bank clients and staff."
     },

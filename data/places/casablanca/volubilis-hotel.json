@@ -44,6 +44,12 @@
       "type": "public",
       "options": [
         {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        },
+        {
           "title": "Hotel services",
           "modality": "consumption",
           "audience": "all",

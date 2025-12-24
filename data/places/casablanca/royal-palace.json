@@ -47,7 +47,14 @@
     ],
     "access": {
       "type": "forbidden",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open",
       "comment": "The Royal Palace is a secured government building and is strictly forbidden to the general public."
     },

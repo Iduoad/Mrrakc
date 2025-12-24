@@ -52,7 +52,14 @@
     ],
     "access": {
       "type": "restricted",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "closed",
       "comment": "The building is closed; exterior viewing is public."
     },

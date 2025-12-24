@@ -58,7 +58,14 @@
     ],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "closed"
     },
     "timePeriods": [

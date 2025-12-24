@@ -7,7 +7,7 @@
   "spec": {
     "name": "Habous Post Building",
     "id": "habous-post-building",
-    "description": "\ud83d\udd3b Current Status: Post<br>\ud83d\udd3b National Material Patrimony Declaration: 2018",
+    "description": "🔻 Current Status: Post<br>🔻 National Material Patrimony Declaration: 2018",
     "location": {
       "longitude": 33.5766857,
       "latitude": -7.604426,
@@ -20,7 +20,14 @@
     "items": [],
     "access": {
       "type": "public",
-      "options": [],
+      "options": [
+        {
+          "title": "Exterior viewing",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ],
       "status": "open"
     },
     "timePeriods": [
