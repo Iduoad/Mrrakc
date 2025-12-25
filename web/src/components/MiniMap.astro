@@ -34,18 +34,8 @@ const points: MapPoint[] = sortedPlaces.map(place => {
   const { kind, spec } = place.data;
   
   // Map kind to category
-  let category = 'default';
-  if (kind.includes('cinema')) category = 'film';
-  else if (kind.includes('gallery') || kind.includes('art')) category = 'art';
-  else if (kind.includes('park') || kind.includes('garden')) category = 'park';
-  else if (kind.includes('station') || kind.includes('transport')) category = 'transport';
-  else if (kind.includes('market') || kind.includes('souk') || kind.includes('bakery') || kind.includes('shop')) category = 'market';
-  else if (kind.includes('building') || kind.includes('landmark') || kind.includes('mahkama') || kind.includes('wilaya') || kind.includes('post') || kind.includes('architecture')) category = 'building';
-  else if (kind.includes('square') || kind.includes('roundabout') || kind.includes('plaza')) category = 'square';
-  else if (kind.includes('stadium') || kind.includes('complex')) category = 'stadium';
-  else if (kind.includes('school') || kind.includes('high-school') || kind.includes('madrassa')) category = 'school';
-  else if (kind.includes('pharmacy') || kind.includes('hospital') || kind.includes('clinic')) category = 'health';
-  else if (kind.includes('hotel')) category = 'hotel';
+  // Pass raw kind as category for granular icon mapping
+  const category = kind;
 
   return {
     id: place.id,
