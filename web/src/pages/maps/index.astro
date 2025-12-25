@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { Map as MapIcon, Calendar, User } from 'lucide-react';
+
+const maps = await getCollection('maps', ({ data }) => {
+  return !data.draft;
+});
+
+// Sort by date
+maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Maps Explorer" description="Explore curated interactive maps of Morocco's historical and cultural sites.">
+  <main class="w-full max-w-7xl mx-auto px-4 pt-32 pb-20">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-4">Interactive Maps</h1>
+      <p class="text-lg text-charcoal-light dark:text-stone-400 max-w-2xl mx-auto">
+        Deep dive into specific themes, regions, and historical eras through our curated interactive maps.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {maps.map(map => (
+        <a href={`/maps/${map.id}`} class="group block bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+          <div class="aspect-video w-full overflow-hidden bg-clay/10 relative">
+            {map.data.heroImage ? (
+               <img 
+                src={typeof map.data.heroImage === 'string' ? map.data.heroImage : map.data.heroImage.src} 
+                alt={map.data.title}
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            ) : (
+              <div class="w-full h-full flex items-center justify-center text-terra/20">
+                <MapIcon size={64} />
+              </div>
+            )}
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+                <div class="flex flex-wrap gap-2 mb-2">
+                    {map.data.tags.slice(0, 3).map(tag => (
+                        <span class="text-[10px] font-bold uppercase tracking-wider bg-terra/90 px-2 py-0.5 rounded-full">
+                            {tag}
+                        </span>
+                    ))}
+                </div>
+            </div>
+          </div>
+          
+          <div class="p-6 flex flex-col flex-grow">
+            <h2 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 mb-2 group-hover:text-terra transition-colors">
+              {map.data.title}
+            </h2>
+            <p class="text-charcoal-light dark:text-stone-400 text-sm line-clamp-3 mb-6 flex-grow">
+              {map.data.description}
+            </p>
+            
+            <div class="flex items-center justify-between pt-4 border-t border-clay/10 dark:border-charcoal-light/10 text-xs text-charcoal-light/70 dark:text-stone-500">
+              <div class="flex items-center gap-4">
+                <span class="flex items-center gap-1">
+                    <User size={12} /> {map.data.author}
+                </span>
+                <span class="flex items-center gap-1">
+                    <Calendar size={12} /> {map.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>
