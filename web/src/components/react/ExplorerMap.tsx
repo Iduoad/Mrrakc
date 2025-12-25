@@ -112,8 +112,8 @@ export default function ExplorerMap({ allPoints }: Props) {
             <button
                 onClick={() => setIsFilterOpen(true)}
                 className={`p-1.5 rounded-lg border transition-colors ${hasActiveFilters
-                        ? 'bg-terra/10 border-terra text-terra'
-                        : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light hover:text-terra'
+                    ? 'bg-terra/10 border-terra text-terra'
+                    : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light hover:text-terra'
                     }`}
                 title="Filter"
             >
@@ -147,6 +147,7 @@ export default function ExplorerMap({ allPoints }: Props) {
                     points={filteredPoints}
                     className="h-full w-full"
                     headerContent={headerContent}
+                    autoFit={true}
                 />
             </div>
         </div>

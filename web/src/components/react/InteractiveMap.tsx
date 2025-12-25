@@ -1,6 +1,7 @@
-import React, { useState, useMemo, useRef } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import Map, { Marker, Popup, NavigationControl } from 'react-map-gl/maplibre';
 import type { MapRef } from 'react-map-gl/maplibre';
+import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import {
     Clapperboard,
@@ -47,14 +48,12 @@ import {
 
 import type { MapPoint } from '../../types/map';
 
-// Removed local MapPoint interface definition
-
-
 interface Props {
     points: MapPoint[];
     simple?: boolean;
     className?: string;
     headerContent?: React.ReactNode;
+    autoFit?: boolean;
 }
 
 const getIcon = (kindString: string) => {
@@ -85,6 +84,8 @@ const getIcon = (kindString: string) => {
     if (kind.includes('mosque')) return <Moon size={18} />;
     if (kind.includes('church') || kind.includes('synagogue')) return <Church size={18} />;
     if (kind.includes('kasbah') || kind.includes('fort')) return <Landmark size={18} />;
+    if (kind.includes('building') || kind.includes('villa') || kind.includes('office')) return <Landmark size={18} />;
+    if (kind.includes('square') || kind.includes('plaza')) return <Milestone size={18} />;
 
     // 2. Category Fallbacks
     if (category.includes('architecture')) return <Landmark size={18} />;
@@ -107,11 +108,29 @@ const getIcon = (kindString: string) => {
     return <MapPin size={18} />;
 };
 
-export default function InteractiveMap({ points, simple = false, className = '', headerContent }: Props) {
+export default function InteractiveMap({ points, simple = false, className = '', headerContent, autoFit = false }: Props) {
     const [selectedPoint, setSelectedPoint] = useState<MapPoint | null>(null);
     const [isSidebarOpen, setIsSidebarOpen] = useState(!simple);
     const [isMaximized, setIsMaximized] = useState(false);
     const mapRef = useRef<MapRef>(null);
+
+    // Calculate bounds and fit map
+    const fitMapToBounds = React.useCallback(() => {
+        if (!mapRef.current || points.length === 0 || !autoFit) return;
+
+        const bounds = new maplibregl.LngLatBounds();
+        points.forEach(p => bounds.extend([p.location.longitude, p.location.latitude]));
+
+        mapRef.current.fitBounds(bounds, {
+            padding: 150,
+            maxZoom: 16,
+            duration: 1000
+        });
+    }, [points, autoFit]);
+
+    useEffect(() => {
+        fitMapToBounds();
+    }, [fitMapToBounds]);
 
     const initialViewState = useMemo(() => {
         if (points.length === 0) return { longitude: -7.61, latitude: 33.59, zoom: 12 };
@@ -128,10 +147,17 @@ export default function InteractiveMap({ points, simple = false, className = '',
 
     const handleFocus = (point: MapPoint) => {
         setSelectedPoint(point);
-        mapRef.current?.flyTo({
-            center: [point.location.longitude, point.location.latitude],
-            zoom: 16,
-            duration: 2000
+        // To use fitBounds for a single point with padding, we create a small bounding box around it.
+        const bounds: [number, number, number, number] = [
+            point.location.longitude - 0.0001, // minX
+            point.location.latitude - 0.0001,  // minY
+            point.location.longitude + 0.0001, // maxX
+            point.location.latitude + 0.0001   // maxY
+        ];
+        mapRef.current?.fitBounds(bounds, {
+            padding: 100,
+            maxZoom: 16,
+            duration: 1000
         });
         // On mobile, close sidebar when a point is selected
         if (window.innerWidth < 768) {
@@ -243,6 +269,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                 <div className={`flex-1 h-full relative bg-clay/10 transition-all duration-300`}>
                     <Map
                         ref={mapRef}
+                        onLoad={fitMapToBounds}
                         initialViewState={initialViewState}
                         mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
                         style={{ width: '100%', height: '100%' }}
@@ -287,7 +314,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                 <div className="p-1">
                                     <div className={`not-prose flex items-center ${simple ? 'gap-2 mb-0' : 'gap-3 mb-4'}`}>
                                         <div className={`${simple ? 'w-6 h-6 rounded' : 'w-10 h-10 rounded-lg'} bg-terra/10 text-terra flex items-center justify-center shrink-0`}>
-                                            {React.cloneElement(getIcon(selectedPoint.category) as React.ReactElement, { size: simple ? 14 : 18 })}
+                                            {React.cloneElement(getIcon(selectedPoint.category) as React.ReactElement<{ size: number }>, { size: simple ? 14 : 18 })}
                                         </div>
                                         <h3 className={`font-serif font-bold text-charcoal dark:text-stone-100 leading-tight ${simple ? 'text-sm' : 'text-lg'}`}>
                                             {selectedPoint.name}
