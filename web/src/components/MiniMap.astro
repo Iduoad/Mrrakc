@@ -4,9 +4,11 @@ import InteractiveMap, { type MapPoint } from './react/InteractiveMap';
 
 interface Props {
   ids: string[];
+  simple?: boolean;
+  className?: string;
 }
 
-const { ids } = Astro.props;
+const { ids, simple = false, className = '' } = Astro.props;
 
 // Fetch all places and filter by the provided IDs
 const allPlaces = await getCollection('places');
@@ -67,9 +69,9 @@ const points: MapPoint[] = sortedPlaces.map(place => {
 });
 ---
 
-<div class="my-12">
+<div class={`${simple ? "h-full w-full" : "my-12"} ${className}`}>
   {points.length > 0 ? (
-    <InteractiveMap client:visible points={points} />
+    <InteractiveMap client:visible points={points} simple={simple} className={simple ? "h-full w-full" : ""} />
   ) : (
     <div class="p-8 text-center border-2 border-dashed border-clay/50 rounded-2xl bg-clay/10">
       <p class="text-charcoal-light dark:text-stone-400 font-serif italic">No map data available for the selected locations.</p>

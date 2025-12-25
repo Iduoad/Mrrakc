@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const provinces = await getCollection('provinces');
+const places = await getCollection('places');
+
+// Create a map of province ID -> count
+const placesCount = places.reduce((acc, place) => {
+  const provinceId = place.data.spec.location.province.replace('province/', '');
+  acc[provinceId] = (acc[provinceId] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+
+// Sort provinces by place count (descending), then alphabetically
+provinces.sort((a, b) => {
+  const countA = placesCount[a.data.spec.id] || 0;
+  const countB = placesCount[b.data.spec.id] || 0;
+  
+  if (countB !== countA) {
+    return countB - countA;
+  }
+  
+  return a.data.spec.name.localeCompare(b.data.spec.name);
+});
+---
+
+<BaseLayout title="Provinces of Morocco" description="Explore the diverse provinces of Morocco.">
+  <main class="w-full max-w-7xl mx-auto px-4 pt-32 pb-20">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-4">Provinces of Morocco</h1>
+      <p class="text-lg text-charcoal-light dark:text-stone-400 max-w-2xl mx-auto">
+        Discover the rich history and culture across the different regions of the Kingdom.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {provinces.map(province => (
+        <a href={`/provinces/${province.data.spec.id}`} class="group relative overflow-hidden bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-terra/5 rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+          
+          <div class="p-6 relative z-10 flex flex-col h-full justify-between">
+            <div>
+              <h2 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 group-hover:text-terra transition-colors mb-2">
+                {province.data.spec.name}
+              </h2>
+              <p class="text-xs font-bold uppercase tracking-widest text-terra/80 mb-4">
+                {province.data.spec.region}
+              </p>
+            </div>
+            
+            <div class="flex items-center justify-between mt-4 pt-4 border-t border-clay/10 dark:border-charcoal-light/10">
+              <span class="text-xs text-charcoal-light dark:text-stone-400">
+                View {placesCount[province.data.spec.id] || 0} Places
+              </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-terra transform group-hover:translate-x-1 transition-transform">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>
