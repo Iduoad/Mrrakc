@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const provinces = await getCollection('provinces');
+  return provinces.map(province => ({
+    params: { province: province.data.spec.id },
+    props: { province: province.data.spec }
+  }));
+}
+
+const { province } = Astro.props;
+const places = await getCollection('places');
+
+// Filter places for this province
+// place.data.spec.location.province is like "province/casablanca"
+// province.id is "casablanca"
+const provincePlaces = places.filter(place => 
+  place.data.spec.location.province === `province/${province.id}`
+);
+
+// Sort places by name
+provincePlaces.sort((a, b) => a.data.spec.name.localeCompare(b.data.spec.name));
+---
+
+<BaseLayout title={`${province.name} - Places`} description={`Explore places in ${province.name}`}>
+  <main class="w-full max-w-7xl mx-auto px-4 pt-32 pb-20">
+    <div class="mb-8">
+      <a href="/provinces" class="text-sm text-terra hover:underline mb-2 inline-block">&larr; Back to Provinces</a>
+      <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100">{province.name}</h1>
+      <p class="text-charcoal-light dark:text-stone-400 mt-2">{provincePlaces.length} places found</p>
+    </div>
+
+    {provincePlaces.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {provincePlaces.map(place => (
+          <a href={`/provinces/${province.id}/${place.data.spec.id}`} class="group block p-6 bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+            <div class="flex items-start justify-between mb-4">
+              <span class="inline-block px-2 py-1 text-xs font-bold uppercase tracking-wider text-terra bg-terra/10 rounded-md">
+                {place.data.kind.split('/').pop()?.replace('-', ' ')}
+              </span>
+            </div>
+            <h2 class="text-xl font-serif font-bold text-charcoal dark:text-stone-100 group-hover:text-terra transition-colors mb-2 line-clamp-2">
+              {place.data.spec.name}
+            </h2>
+            <p class="text-sm text-charcoal-light dark:text-stone-400 line-clamp-3 flex-grow">
+              {place.data.spec.description}
+            </p>
+            <div class="mt-4 pt-4 border-t border-clay/10 dark:border-charcoal-light/10 flex items-center justify-between text-xs text-charcoal-light/70 dark:text-stone-500">
+               <span>View Details</span>
+               <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="text-center py-12 bg-clay/5 dark:bg-charcoal-light/5 rounded-2xl border border-dashed border-clay/20 dark:border-charcoal-light/20">
+        <p class="text-charcoal-light dark:text-stone-400 italic">No places found in this province yet.</p>
+      </div>
+    )}
+  </main>
+</BaseLayout>
