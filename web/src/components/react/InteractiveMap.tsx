@@ -23,66 +23,91 @@ import {
     Map as MapIcon,
     Maximize2,
     Minimize2,
-    ChevronLeft
+    Utensils,
+    Moon,
+    Church,
+    Film,
+    Building,
+    Building2,
+    Store,
+    Coffee,
+    Croissant,
+    School,
+    University,
+    Pill,
+    Hospital,
+    BedDouble,
+    Home,
+    Tent,
+    ChevronLeft,
+    FerrisWheel,
+    Waves,
+    PawPrint
 } from 'lucide-react';
 
-export interface MapPoint {
-    id: string;
-    name: string;
-    kind: string;
-    category: string;
-    description: string;
-    location: {
-        latitude: number;
-        longitude: number;
-    };
-    prices?: {
-        title: string;
-        entranceFee?: number;
-    }[];
-    links?: {
-        url: string;
-        type: string;
-        title: string;
-    }[];
-}
+import type { MapPoint } from '../../types/map';
+
+// Removed local MapPoint interface definition
+
 
 interface Props {
     points: MapPoint[];
     simple?: boolean;
     className?: string;
+    headerContent?: React.ReactNode;
 }
 
-const getIcon = (category: string) => {
-    switch (category) {
-        case 'film':
-            return <Clapperboard size={18} />;
-        case 'art':
-            return <Palette size={18} />;
-        case 'park':
-            return <Trees size={18} />;
-        case 'transport':
-            return <TrainFront size={18} />;
-        case 'market':
-            return <ShoppingBag size={18} />;
-        case 'building':
-            return <Landmark size={18} />;
-        case 'square':
-            return <Milestone size={18} />;
-        case 'stadium':
-            return <Trophy size={18} />;
-        case 'school':
-            return <GraduationCap size={18} />;
-        case 'health':
-            return <Stethoscope size={18} />;
-        case 'hotel':
-            return <Hotel size={18} />;
-        default:
-            return <MapPin size={18} />;
-    }
+const getIcon = (kindString: string) => {
+    // kindString is expected to be "category/kind" or just "kind"
+    // We split by '/' to get parts.
+    const parts = kindString.toLowerCase().split('/');
+    const kind = parts.length > 1 ? parts[1] : parts[0];
+    const category = parts.length > 1 ? parts[0] : '';
+
+    // 1. Specific Kind Checks
+    if (kind.includes('cinema')) return <Clapperboard size={18} />;
+    if (kind.includes('gallery') || kind.includes('art') || kind.includes('museum')) return <Palette size={18} />;
+    if (kind.includes('amusement')) return <FerrisWheel size={18} />;
+    if (kind.includes('zoo')) return <PawPrint size={18} />;
+    if (kind.includes('park') || kind.includes('garden')) return <Trees size={18} />;
+    if (kind.includes('beach')) return <Waves size={18} />;
+    if (kind.includes('station') || kind.includes('tram') || kind.includes('train')) return <TrainFront size={18} />;
+    if (kind.includes('market') || kind.includes('souk') || kind.includes('mall')) return <ShoppingBag size={18} />;
+    if (kind.includes('bakery')) return <Croissant size={18} />;
+    if (kind.includes('cafe')) return <Coffee size={18} />;
+    if (kind.includes('restaurant')) return <Utensils size={18} />;
+    if (kind.includes('hotel') || kind.includes('riad')) return <Hotel size={18} />;
+    if (kind.includes('pharmacy')) return <Pill size={18} />;
+    if (kind.includes('hospital') || kind.includes('clinic')) return <Hospital size={18} />;
+    if (kind.includes('school')) return <School size={18} />;
+    if (kind.includes('university')) return <University size={18} />;
+    if (kind.includes('stadium')) return <Trophy size={18} />;
+    if (kind.includes('mosque')) return <Moon size={18} />;
+    if (kind.includes('church') || kind.includes('synagogue')) return <Church size={18} />;
+    if (kind.includes('kasbah') || kind.includes('fort')) return <Landmark size={18} />;
+
+    // 2. Category Fallbacks
+    if (category.includes('architecture')) return <Landmark size={18} />;
+    if (category.includes('entertainment')) return <Film size={18} />;
+    if (category.includes('culture')) return <Palette size={18} />;
+    if (category.includes('nature')) return <Trees size={18} />;
+    if (category.includes('transport')) return <TrainFront size={18} />;
+    if (category.includes('commercial')) return <Store size={18} />;
+    if (category.includes('history')) return <Landmark size={18} />;
+    if (category.includes('public')) return <Milestone size={18} />;
+    if (category.includes('sports')) return <Trophy size={18} />;
+    if (category.includes('education')) return <GraduationCap size={18} />;
+    if (category.includes('health')) return <Stethoscope size={18} />;
+    if (category.includes('tourism')) return <BedDouble size={18} />;
+    if (category.includes('religion')) return <Moon size={18} />;
+    if (category.includes('urban')) return <Milestone size={18} />;
+    if (category.includes('food')) return <Utensils size={18} />;
+
+    // 3. Default
+    return <MapPin size={18} />;
 };
 
-export default function InteractiveMap({ points, simple = false, className = '' }: Props) {
+export default function InteractiveMap({ points, simple = false, className = '', headerContent }: Props) {
     const [selectedPoint, setSelectedPoint] = useState<MapPoint | null>(null);
     const [isSidebarOpen, setIsSidebarOpen] = useState(!simple);
     const [isMaximized, setIsMaximized] = useState(false);
@@ -147,14 +172,18 @@ export default function InteractiveMap({ points, simple = false, className = '' 
                     ${isSidebarOpen ? 'w-full md:w-1/3 h-1/2 md:h-full opacity-100' : 'w-0 h-0 md:w-0 md:h-full opacity-0 pointer-events-none'}
                     ${isSidebarOpen ? 'border-b md:border-b-0 md:border-r' : ''}
                 `}>
-                        <div className="p-4 bg-clay/10 dark:bg-charcoal-light/10 border-b border-clay/30 dark:border-charcoal-light flex items-start justify-between">
-                            <div>
-                                <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100 leading-tight">Mohammed V Street Tour</h3>
-                                <p className="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations</p>
+                        <div className="p-4 bg-clay/10 dark:bg-charcoal-light/10 border-b border-clay/30 dark:border-charcoal-light flex items-start justify-between gap-3">
+                            <div className="flex-grow min-w-0">
+                                {headerContent ? headerContent : (
+                                    <>
+                                        <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100 leading-tight">Mohammed V Street Tour</h3>
+                                        <p className="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations</p>
+                                    </>
+                                )}
                             </div>
                             <button
                                 onClick={() => setIsSidebarOpen(false)}
-                                className="p-2 -mr-2 -mt-1 text-charcoal-light hover:text-terra hover:bg-terra/10 rounded-full transition-all duration-200"
+                                className="p-2 -mr-2 -mt-1 text-charcoal-light hover:text-terra hover:bg-terra/10 rounded-full transition-all duration-200 shrink-0 h-fit"
                                 title="Collapse Sidebar"
                             >
                                 <ChevronLeft size={20} />

@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import ExplorerMap from '../../components/react/ExplorerMap';
+import type { MapPoint } from '../../types/map';
+
+export async function getStaticPaths() {
+  const maps = await getCollection('maps');
+  return maps.map(map => ({
+    params: { slug: map.id },
+    props: { map },
+  }));
+}
+
+const { map } = Astro.props;
+const allPlaces = await getCollection('places');
+
+// Helper to normalize IDs
+const normalizeId = (id: string) => id.replace(/\.json$/, '');
+
+// Resolve places
+let selectedPlaces: typeof allPlaces = [];
+
+// 1. Filter by explicit IDs or Province wildcards
+const placeIds = map.data.places;
+const explicitIds = placeIds.filter(id => !id.startsWith('province/'));
+const provinceIds = placeIds.filter(id => id.startsWith('province/')).map(id => id.replace('province/', ''));
+
+// Add explicit places
+if (explicitIds.length > 0) {
+    const explicitMatches = allPlaces.filter(place => {
+        const normalizedPlaceId = normalizeId(place.id);
+        return explicitIds.some(id => normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id));
+    });
+    selectedPlaces = [...selectedPlaces, ...explicitMatches];
+}
+
+// Add province places
+if (provinceIds.length > 0) {
+    const provinceMatches = allPlaces.filter(place => {
+        // Check if place belongs to any of the requested provinces
+        // place.data.spec.location.province is like "province/casablanca"
+        const placeProvince = place.data.spec.location.province.replace('province/', '');
+        return provinceIds.includes(placeProvince);
+    });
+    
+    // Avoid duplicates if a place was already added by ID
+    const existingIds = new Set(selectedPlaces.map(p => p.id));
+    provinceMatches.forEach(p => {
+        if (!existingIds.has(p.id)) {
+            selectedPlaces.push(p);
+        }
+    });
+}
+
+// Transform to MapPoint
+const points: MapPoint[] = selectedPlaces.map(place => {
+  const { kind, spec } = place.data;
+  
+  // Pass raw kind as category for granular icon mapping
+  const category = kind;
+
+  return {
+    id: place.id,
+    name: spec.name,
+    kind: kind,
+    category: category,
+    description: spec.description,
+    location: {
+      latitude: spec.location.longitude, // Swapping because source data is swapped
+      longitude: spec.location.latitude, // Swapping because source data is swapped
+      province: spec.location.province
+    },
+    prices: spec.access?.options?.map(opt => ({
+      title: opt.title,
+      entranceFee: opt.entranceFee
+    })),
+    links: spec.links?.map(link => ({
+      url: link.url,
+      type: link.type,
+      title: link.title
+    })),
+    people: spec.people?.map(p => ({
+      id: p.id,
+      relationship: p.relationship
+    })),
+    timePeriods: spec.timePeriods
+  };
+});
+---
+
+<BaseLayout title={map.data.title} description={map.data.description}>
+  <div class="h-screen w-full flex flex-col pt-20">
+    {/* Header */}
+    <div class="px-6 py-4 flex items-center justify-between z-10">
+        <div>
+            <a href="/maps" class="text-xs font-bold uppercase tracking-wider text-terra hover:underline mb-1 block">&larr; All Maps</a>
+            <h1 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100">{map.data.title}</h1>
+        </div>
+        <div class="hidden md:block text-right">
+            <p class="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations found</p>
+        </div>
+    </div>
+
+    {/* Map Container */}
+    <div class="flex-grow relative overflow-hidden">
+        <div class="absolute inset-0 p-4">
+            <ExplorerMap client:only="react" allPoints={points} />
+        </div>
+    </div>
+  </div>
+</BaseLayout>

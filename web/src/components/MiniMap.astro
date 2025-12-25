@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
-import InteractiveMap, { type MapPoint } from './react/InteractiveMap';
+import InteractiveMap from './react/InteractiveMap';
+import type { MapPoint } from '../types/map';
 
 interface Props {
   ids: string[];
@@ -52,19 +53,21 @@ const points: MapPoint[] = sortedPlaces.map(place => {
     kind: kind,
     category: category,
     description: spec.description,
-    location: {
-      latitude: spec.location.longitude, // Swapping because source data is swapped
-      longitude: spec.location.latitude, // Swapping because source data is swapped
-    },
-    prices: spec.access?.options?.map(opt => ({
-      title: opt.title,
-      entranceFee: opt.entranceFee
-    })),
     links: spec.links?.map(link => ({
       url: link.url,
       type: link.type,
       title: link.title
-    }))
+    })),
+    people: spec.people?.map(p => ({
+      id: p.id,
+      relationship: p.relationship
+    })),
+    timePeriods: spec.timePeriods,
+    location: {
+      latitude: spec.location.longitude, // Swapping because source data is swapped
+      longitude: spec.location.latitude, // Swapping because source data is swapped
+      province: spec.location.province
+    }
   };
 });
 ---
