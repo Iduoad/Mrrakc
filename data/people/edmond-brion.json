@@ -8,7 +8,9 @@
     "id": "edmond-brion",
     "bio": "French architect known for his contributions to Moroccan architecture during the early 20th century.",
     "birthPlace": "province/soissons",
-    "designations": ["architect"],
+    "designations": [
+      "architect"
+    ],
     "timeline": [
       {
         "title": "Birth",

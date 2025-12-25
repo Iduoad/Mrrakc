@@ -13,7 +13,7 @@
   "spec": {
     "name": "Ould el-Hamra Mosque",
     "id": "ould-el-hamra-mosque",
-    "description": "The Ould el-Hamra Mosque (Mosqu\u00e9e Ould el-Hamra) is one of the oldest mosques in Casablanca's Old Medina, built in **1783 CE** by **Ould El-Hamra** during the reign of **Sultan Mohammed Ibn Abdellah** (the founder of modern Casablanca). This mosque is a crucial surviving example of the city's early Alawite architecture and urban renewal after the 1755 earthquake, and is part of the original, modest core of the fortified town. It remains an active and historically significant place of worship.",
+    "description": "The Ould el-Hamra Mosque (Mosquée Ould el-Hamra) is one of the oldest mosques in Casablanca's Old Medina, built in **1783 CE** by **Ould El-Hamra** during the reign of **Sultan Mohammed Ibn Abdellah** (the founder of modern Casablanca). This mosque is a crucial surviving example of the city's early Alawite architecture and urban renewal after the 1755 earthquake, and is part of the original, modest core of the fortified town. It remains an active and historically significant place of worship.",
     "location": {
       "longitude": 33.6014342,
       "latitude": -7.6182842,
@@ -65,8 +65,7 @@
       "status": "open"
     },
     "timePeriods": [
-      "18th century",
-      "pre-colonial era"
+      "18th century"
     ]
   }
 }

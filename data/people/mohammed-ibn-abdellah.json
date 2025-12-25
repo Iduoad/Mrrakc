@@ -8,7 +8,9 @@
     "id": "mohammed-ibn-abdellah",
     "bio": "Sidi Mohammed ben Abdallah al-Khatib, also known as Mohammed III, was the Sultan of Morocco from 1757 to 1790, belonging to the 'Alawi dynasty. Born in Fes in 1710, he is often referred to as 'the architect of modern Morocco' for his extensive rebuilding efforts after the 1755 earthquake, including cities like Mogador (Essaouira), Casablanca, and Rabat. He was also notable for being the first head of state to recognize American independence and for expelling the Portuguese from Mazagan (El Jadida) in 1769.",
     "birthPlace": "province/fes",
-    "designations": ["sultan"],
+    "designations": [
+      "sultan"
+    ],
     "timeline": [
       {
         "title": "Birth",

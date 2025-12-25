@@ -55,9 +55,9 @@
       "comment": "Functions as a military base; interior access is strictly forbidden to the public for security reasons."
     },
     "timePeriods": [
-      "french protectorate era (1912-1956)",
       "20th century",
-      "contemporary period"
+      "contemporary period",
+      "french protectorate"
     ]
   }
 }

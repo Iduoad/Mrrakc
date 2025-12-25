@@ -58,9 +58,9 @@
       "comment": "The port area is primarily restricted to commercial and official traffic; public access is limited to certain administrative and adjacent areas."
     },
     "timePeriods": [
-      "french protectorate era (1912-1956)",
       "20th century",
-      "contemporary period"
+      "contemporary period",
+      "french protectorate"
     ]
   }
 }

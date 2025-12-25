@@ -37,7 +37,7 @@
       {
         "url": "https://www.casa-amenagement.ma/en/nos-projets/parc-archeologique-de-sidi-abderrahmane",
         "type": "website",
-        "title": "Development of the archeological park of sidi abderrahmane (Casa Am\u00e9nagement)"
+        "title": "Development of the archeological park of sidi abderrahmane (Casa Aménagement)"
       }
     ],
     "activities": [
@@ -63,9 +63,8 @@
       "comment": "Currently under development, though the area is historically significant and partially accessible."
     },
     "timePeriods": [
-      "lower-paleolithic (200,000 years ago)",
-      "prehistoric era",
-      "20th century (discovery and research)"
+      "20th century",
+      "prehistoric"
     ]
   }
 }

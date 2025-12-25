@@ -8,7 +8,10 @@
     "id": "abderrahman-slaoui",
     "bio": "Abderrahman Slaoui (1919-2001) was a prominent Moroccan businessman and art collector. Born in Fes, he was known for his passion for art and his extensive collection of Moroccan and Orientalist pieces. His collection, which includes Moroccan gold and Berber jewelry, figurative paintings by Muhammad Ben Ali Rabati, landscape paintings by Jacques Majorelle, crystal objects, and vintage Orientalist posters, forms the core of the permanent exhibition at the Abderrahman Slaoui Museum in Casablanca, which opened posthumously in 2012 by the Abderrahman Slaoui Foundation. He was an aesthete and humanist, often referred to as a 'treasure hunter' who dedicated over fifty years to building his collections.",
     "birthPlace": "province/fes",
-    "designations": ["businessman", "art-collector"],
+    "designations": [
+      "businessman",
+      "art-collector"
+    ],
     "timeline": [
       {
         "title": "Birth",
