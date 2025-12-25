@@ -21,6 +21,10 @@ const { transparent = false } = Astro.props;
         </a>
         
         <nav class="flex items-center gap-6">
+            <a href="/provinces" class:list={[
+                "text-sm font-medium transition-colors",
+                transparent ? "hover:text-stone-200 drop-shadow-sm" : "hover:text-terra"
+            ]}>Provinces</a>
             <a href="/blog" class:list={[
                 "text-sm font-medium transition-colors",
                 transparent ? "hover:text-stone-200 drop-shadow-sm" : "hover:text-terra"

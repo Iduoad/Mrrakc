@@ -5,6 +5,7 @@ import path from 'path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const placesDataPath = path.resolve(__dirname, '../../../data/places');
+const provincesDataPath = path.resolve(__dirname, '../../../data/provinces');
 
 const blog = defineCollection({
     type: 'content',
@@ -31,7 +32,7 @@ const places = defineCollection({
         version: z.string(),
         kind: z.string(),
         metadata: z.object({
-            tags: z.array(z.string()).default([]),
+            tags: z.array(z.string()).optional()
         }).optional(),
         spec: z.object({
             name: z.string(),
@@ -40,7 +41,7 @@ const places = defineCollection({
             location: z.object({
                 longitude: z.number(),
                 latitude: z.number(),
-                province: z.string().optional(),
+                province: z.string()
             }),
             people: z.array(z.object({
                 id: z.string(),
@@ -60,18 +61,33 @@ const places = defineCollection({
             activities: z.array(z.string()).optional(),
             items: z.array(z.string()).optional(),
             access: z.object({
-                type: z.string(),
+                type: z.string().optional(),
+                status: z.string().optional(),
+                comment: z.string().optional(),
                 options: z.array(z.object({
                     title: z.string(),
-                    modality: z.string(),
-                    audience: z.string(),
-                    entranceFee: z.number().optional(),
-                })).optional(),
-                status: z.string().optional(),
+                    modality: z.string().optional(),
+                    audience: z.string().optional(),
+                    entranceFee: z.number().optional()
+                })).optional()
             }).optional(),
             timePeriods: z.array(z.string()).optional(),
         }),
     }),
 });
 
-export const collections = { blog, places };
+const provinces = defineCollection({
+    loader: glob({ pattern: "**/*.json", base: provincesDataPath }),
+    schema: z.object({
+        version: z.string(),
+        spec: z.object({
+            name: z.string(),
+            id: z.string(),
+            region: z.string(),
+            country: z.string()
+        })
+    })
+});
+
+export const collections = { blog, places, provinces };
+
