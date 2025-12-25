@@ -8,7 +8,9 @@
     "id": "jean-francois-zevaco",
     "bio": "Jean-François Zévaco (1916–2003) was a French-Moroccan architect born in Casablanca. He is considered an emblematic figure of the modernist architectural movement in Morocco and in Africa, known for his prolific work, diverse constructions, and international recognition. He established a private practice in Morocco after his studies in Paris and Marseille, and his career spanned from 1947 to 1999. Zévaco's work is characterized by a resolutely modern approach that deeply engaged with the local context, people, and landscapes. He was a member of the Group of Moroccan Modern Architects (GAMMA).",
     "birthPlace": "province/casablanca",
-    "designations": ["architect"],
+    "designations": [
+      "architect"
+    ],
     "timeline": [
       {
         "title": "Birth",

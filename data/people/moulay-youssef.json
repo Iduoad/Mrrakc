@@ -7,7 +7,9 @@
     "name": "Moulay Youssef Ibn Hassan",
     "id": "moulay-youssef",
     "bio": "Moulay Youssef (1881–1927) was the Sultan of Morocco from 1912 to 1927. His reign coincided with the establishment of the French Protectorate in Morocco following the Treaty of Fes in March 1912. During his rule, the French Resident-General, Marshal Louis Lyautey, exerted significant influence over Moroccan administration. Moulay Youssef's period also saw various resistance movements against colonial rule, most notably the Rif War led by Abd el-Krim.",
-    "designations": ["sultan"],
+    "designations": [
+      "sultan"
+    ],
     "timeline": [
       {
         "title": "Birth",

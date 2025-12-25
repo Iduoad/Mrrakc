@@ -7,7 +7,9 @@
     "name": "Michel Pinseau",
     "id": "michel-pinseau",
     "bio": "Michel Pinseau (1926 – 15 September 1999) was a French architect primarily known for designing the Hassan II Mosque in Casablanca, Morocco, which features the second tallest minaret in the world. He graduated from École Nationale Supérieure des Beaux-Arts in Paris in 1956. Pinseau became known as King Hassan II's architect after their meeting in the 1970s and worked on numerous royal projects in Morocco for over two decades, including royal residences, universities, administrative buildings, and social housing.",
-    "designations": ["architect"],
+    "designations": [
+      "architect"
+    ],
     "timeline": [
       {
         "title": "Birth",

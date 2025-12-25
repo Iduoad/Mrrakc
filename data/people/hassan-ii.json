@@ -8,7 +8,9 @@
     "id": "hassan-ii",
     "bio": "Hassan II (1929-1999) was the King of Morocco from 1961 until his death. Born in Rabat, he was the eldest son of King Mohammed V. Hassan II played a pivotal role in modern Moroccan history, overseeing gradual economic and political reforms while navigating various challenges including political dissent. He established Morocco's first constitution in 1962 and aligned Morocco closely with the West, often serving as an intermediary in Arab-Israeli relations. His reign also saw the significant 'Green March' to assert Moroccan claims over Western Sahara.",
     "birthPlace": "province/rabat",
-    "designations": ["king"],
+    "designations": [
+      "king"
+    ],
     "timeline": [
       {
         "title": "Birth",

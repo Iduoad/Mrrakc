@@ -36,7 +36,7 @@
       {
         "url": "https://www.casa-amenagement.ma/fr/nos-projets/parc-archeologique-de-sidi-abderrahmane",
         "type": "website",
-        "title": "The project urban development page (Casa Am\u00e9nagement)"
+        "title": "The project urban development page (Casa Aménagement)"
       }
     ],
     "activities": [
@@ -53,9 +53,6 @@
       "status": "open",
       "comment": "The area is a protected national patrimony site; public access is limited to the perimeter until the Archaeological Park is fully developed and operational."
     },
-    "timePeriods": [
-      "lower-paleolithic",
-      "french-protectorate-era (1942-protection)"
-    ]
+    "timePeriods": []
   }
 }

@@ -8,7 +8,9 @@
     "id": "auguste-cadet",
     "bio": "",
     "nationality": "French",
-    "designations": ["architect"],
+    "designations": [
+      "architect"
+    ],
     "timeline": [
       {
         "title": "Birth",
@@ -35,17 +37,17 @@
         "date": "1919-01-01",
         "description": "Began working with Edmond Brion on the Habous Quarter in Casablanca."
       },
-       {
+      {
         "title": "Construction of Mosquée Moulay Youssef",
         "date": "1921-01-01",
         "description": "Built the Mosquée Moulay Youssef in les Habous, Casablanca."
       },
-       {
+      {
         "title": "Construction of Mosquée in Rabat",
         "date": "1923-01-01",
         "description": "Built the Mosquée in rue Ibn Bajah, Diour Jamaa, Rabat."
       },
-       {
+      {
         "title": "Construction of Mosquée de Khemisset",
         "date": "1925-01-01",
         "description": "Built the Mosquée de Khemisset in Khemisset."
@@ -55,7 +57,7 @@
         "date": "1930-01-01",
         "description": "Built his house in rue du Parc, Casablanca."
       },
-       {
+      {
         "title": "Construction of Cité Diour Jamâa",
         "date": "1930-01-01",
         "description": "Built Cité Diour Jamâa in Rabat (between 1930 and 1933)."
@@ -70,17 +72,17 @@
         "date": "1938-01-01",
         "description": "Built the Mahkama du Pacha in Rabat (between 1938 and 1939)."
       },
-       {
+      {
         "title": "Construction of Mahkama du Pacha in Casablanca",
         "date": "1941-01-01",
         "description": "Built the Mahkama du Pacha in Casablanca (between 1941 and 1952)."
       },
-       {
+      {
         "title": "Construction of his house in Oasis (Casablanca)",
         "date": "1948-01-01",
         "description": "Built his house in rue des Charmilles, Oasis (Casablanca). This house was destroyed in 2010."
       },
-       {
+      {
         "title": "Construction of Mosquée Yaqoub el-Mansour",
         "date": "1953-01-01",
         "description": "Built the Mosquée Yaqoub el-Mansour in Rabat."
@@ -107,12 +109,12 @@
         "title": "Archiwebture (Archives)",
         "type": "website"
       },
-        {
+      {
         "url": "https://agorha.inha.fr/ark:/54721/e37a1794-9cbd-47b5-8b64-388ac13aa4fa",
         "title": "Agorha (INHA) Profile",
         "type": "website"
       },
-       {
+      {
         "url": "https://www.maarifculture.com/architecture-marocaine-du-xxe-siecle-edmond-brion-et-auguste-cadet-gislhaine-meffre/dp/9789954494103",
         "title": "Architecture marocaine du XXe siècle - Edmond Brion et Auguste Cadet",
         "type": "book"

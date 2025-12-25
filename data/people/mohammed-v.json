@@ -8,7 +8,10 @@
     "id": "mohammed-v",
     "bio": "Mohammed V (born August 10, 1909, Fès, Morocco—died February 26, 1961, Rabat) was the Sultan of Morocco from 1927 to 1957 and subsequently King from 1957 to 1961. He became a central figure in Moroccan nationalist aspirations, successfully leading the country to independence from French colonial rule. His resistance to French demands and his exile further cemented his image as a national hero.",
     "birthPlace": "province/fes",
-    "designations": ["sultan", "king"],
+    "designations": [
+      "sultan",
+      "king"
+    ],
     "timeline": [
       {
         "title": "Birth",

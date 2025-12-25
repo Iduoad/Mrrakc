@@ -31,7 +31,7 @@
       {
         "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
         "type": "article",
-        "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre r\u00e9gional (Source referring to faunal discoveries)"
+        "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre régional (Source referring to faunal discoveries)"
       }
     ],
     "activities": [
@@ -49,9 +49,8 @@
       "comment": "The cave is a sensitive archaeological and paleontological site; access is highly restricted to authorized researchers."
     },
     "timePeriods": [
-      "quaternary period",
-      "prehistoric era",
-      "20th century (research)"
+      "20th century",
+      "prehistoric"
     ]
   }
 }
