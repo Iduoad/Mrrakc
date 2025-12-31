@@ -103,5 +103,23 @@ const maps = defineCollection({
     }),
 });
 
-export const collections = { blog, places, provinces, maps };
+const games = defineCollection({
+    loader: glob({ pattern: "**/*.{md,mdx}", base: path.resolve(__dirname, 'games') }),
+    schema: ({ image }) => z.object({
+        title: z.string(),
+        description: z.string().optional(),
+        order: z.number(),
+        answer: z.string(),
+        question: z.string().optional(),
+        nextStep: z.string().optional(),
+        location: z.object({
+            latitude: z.number(),
+            longitude: z.number(),
+        }).optional(),
+        hints: z.array(z.string()).optional(),
+        heroImage: z.union([image(), z.string()]).optional(),
+    }),
+});
+
+export const collections = { blog, places, provinces, maps, games };
 

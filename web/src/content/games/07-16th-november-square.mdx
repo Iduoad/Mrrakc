@@ -1,0 +1,45 @@
+---
+title: '16th November Square'
+description: 'Explore the 16th of November square'
+order: 7
+answer: 'lutetia'
+question: 'What is the name of the cinema?'
+nextStep: '08-finish'
+heroImage: '../../assets/games/plaza.jpg'
+hints:
+  - "It is in rue Tata"
+---
+import MiniMap from '../../components/MiniMap.astro';
+import GameQuiz from '../../components/react/GameQuiz';
+
+Nice Job! Did you use google for that?
+
+"Casablanca is home to many popular public squares, the most famous being United Nations Square. 
+
+For first-time visitors, this is often the initial point of contact with the city, offering a perfect glimpse into the chaotic yet beautiful energy that defines Casablanca. 
+
+Another notable location is the smaller November 16th Square, which is ringed by stunning Art Deco structures such as the Tazi Building, La Chope, and the British West African Bank. 
+
+This square is also distinguished by a red sculpture-fountain known as 'Source of Life' (Source de vie). Created in 1982 by artist Abdelhaq Sijelmassi, this landmark underwent a complete restoration in 2021 during the Covid-19 pandemic.
+
+## You are here!
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/16th-november-square']} simple={true} className="h-full w-full" />
+</div>
+
+## Go! Go! 
+
+Take a break and Enjoy the beautiful buildings around you and let's start a hunt. 
+
+Less than a 100m away from the square there is a big cinema! Find it!
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>
