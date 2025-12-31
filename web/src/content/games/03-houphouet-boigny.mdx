@@ -1,0 +1,46 @@
+---
+title: 'The controversial street'
+description: 'Inside the controvertial street'
+order: 3
+answer: '1937'
+question: 'What is the year of completion of the building?'
+nextStep: '04-first-skyscrapers'
+heroImage: '../../assets/games/plaza.jpg'
+hints:
+  - "The building is built by Moretti & Milone (Check map 😉)."
+  - "The building is on left corner of the street."
+---
+import MiniMap from '../../components/MiniMap.astro';
+import GameQuiz from '../../components/react/GameQuiz';
+
+Nice one! You found Hotel Plaza!
+
+Hotel Plaza is one of the oldest hotels in Casablanca outside of the walls. It is situated in Félix Houphouët-Boigny street.
+
+Félix Houphouët-Boigny street was one of the first streets of the new city, it was opened by the French protectorate to connect the Port with the city.
+
+Its foundation was controvertial since the French created an openning in the city wall and moved a the Sidi Belyout Muslim cemetry. This insited many pretest all across the city.
+
+If you're wondering why Casablanca's city walls are not closed on the northern side, this is the reason. You can still spot parts of the original wall behind the Sidi Belyout mausoleum.
+
+## Go! Go! 
+
+You are here!
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/moretti-milone-building']} simple={true} className="h-full w-full" />
+</div>
+
+Good work! Until now you are doing great! Let's spice things up. 
+
+On the same street, there is a building constructed in the 1930s. The exact year is engraved on one of its exterior façades, along with the names of the architect and the real estate developers.
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>

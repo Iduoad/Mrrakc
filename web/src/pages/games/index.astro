@@ -1,0 +1,36 @@
+---
+import GameLayout from '../../layouts/GameLayout.astro';
+import { getEntry, render } from 'astro:content';
+import { ArrowRight } from 'lucide-react';
+import { Image } from 'astro:assets';
+
+const gameIndex = await getEntry('games', 'index');
+const { title, description, nextStep, heroImage } = gameIndex.data;
+const { Content } = await render(gameIndex);
+---
+
+<GameLayout title={title} description={description}>
+  <div class="text-center mb-10">
+    <h1 class="text-4xl md:text-6xl font-serif font-bold text-charcoal dark:text-stone-100 mb-6 leading-tight">
+      {title}
+    </h1>
+    {heroImage && (
+      <div class="rounded-2xl overflow-hidden shadow-lg mb-8">
+        <Image src={heroImage} alt={title} class="w-full h-64 object-cover" />
+      </div>
+    )}
+  </div>
+
+  <div class="prose prose-lg dark:prose-invert mx-auto mb-10">
+    <Content />
+  </div>
+
+  <div class="flex justify-center">
+    <a 
+      href={`/games/${nextStep}`} 
+      class="inline-flex items-center gap-2 px-8 py-4 bg-terra text-white font-bold rounded-full hover:bg-terra-dark transition-all transform hover:scale-105 shadow-lg"
+    >
+      Start the Game <ArrowRight size={20} />
+    </a>
+  </div>
+</GameLayout>

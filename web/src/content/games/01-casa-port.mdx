@@ -1,0 +1,48 @@
+---
+title: 'The Inception'
+description: 'Start your journey at Casa Port.'
+order: 1
+answer: 'lion'
+question: 'What animal is associated with Sidi Belyout?'
+nextStep: '02-sidi-belyout'
+heroImage: '../../assets/games/casablanca.jpg'
+hints:
+  - "Take a closer look at the name **Belyout**, there's a clue in there!"
+  - "This animal is a strong symbol in Morocco, but it no longer roams Casablanca’s wild."
+---
+import MiniMap from '../../components/MiniMap.astro';
+import GameQuiz from '../../components/react/GameQuiz';
+
+Welcome to the first step!
+
+Casablanca, once known as Anfa, has long been a center of human activity thanks to its strategic location between the Atlantic Ocean and the fertile Chaouia Plains.
+
+From prehistoric times evidenced by the archaeological site of Sidi Abderrahmane, through the Middle Ages, the city prospered until Anfa mysteriously faded into obscurity.
+
+Centuries later, Casablanca rose again. In the 18th century, Sultan Mohammed Ben Abdellah rebuilt the city, giving it its first Grand Mosque, fortified walls, and the Sqala. Landmarks that still stand proudly in the Old Medina today.
+
+Recognizing its economic potential, the Sultan established Casablanca's first port, transforming the city into a hub for international trade and attracting people from across Morocco and beyond.
+
+Under the French Protectorate, Casablanca expanded even further with the development of a larger port, fueling its rise as Morocco's economic capital.
+
+## Go! Go!
+
+You are here!
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/casablanca-port']} simple={true} className="h-full w-full" />
+</div>
+
+Starting from **Casa Port**, cross the street towards **Bd Félix Houphouët-Boigny**. 
+
+Few steps in, you'll find one of Casablanca's most famous mausoleums, home to the graves of key historical figures like **Benjdia** and **Sidi Belyout**, after whom the site was named.
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>
