@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import MiniMap from '../../../components/MiniMap.astro';
-import { ExternalLink, Calendar, User, Clock, Info } from 'lucide-react';
+import { ExternalLink, Calendar, User, Clock } from 'lucide-react';
 
 export async function getStaticPaths() {
   const places = await getCollection('places');
@@ -177,9 +177,8 @@ const formatDate = (dateStr: string) => {
       </div>
 
       {/* Map */}
-      <div>
          <h2 class="font-serif font-bold text-xl text-charcoal dark:text-stone-100 flex items-center gap-2 mb-6">
-           <Info size={20} className="text-terra" /> Location
+           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-terra"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg> Location
          </h2>
          <div class="h-[350px] rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
            <MiniMap ids={[place.id]} simple={true} className="h-full w-full" />
