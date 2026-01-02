@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zaouiya Khelloufiya Derkaouia",
+    "id": "zaouiya-khelloufiya-derkaouia",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6788307,
+      "longitude": -1.9141207,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

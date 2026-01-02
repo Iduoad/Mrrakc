@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ouazen Cliff",
+    "id": "ouazen-cliff",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.54025,
+      "longitude": -1.8485858,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

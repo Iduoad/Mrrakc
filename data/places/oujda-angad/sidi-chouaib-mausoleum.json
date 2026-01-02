@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Chouaib Mausoleum",
+    "id": "sidi-chouaib-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6788784,
+      "longitude": -1.9132279,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

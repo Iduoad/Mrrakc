@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/jewish-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cimetière Juif",
+    "id": "cimetire-juif",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6852583,
+      "longitude": -1.9213745,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

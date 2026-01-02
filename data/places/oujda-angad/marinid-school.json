@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Marinid School",
+    "id": "marinid-school",
+    "description": "🔻 Era: 13th Century<br>🔻 Status: Working<br>🔻 Description:This is one of the oldest places in Oujda. It dates to the Marinid era. The building is still working to this day, and hosts a Koranic school.",
+    "location": {
+      "latitude": 34.679084,
+      "longitude": -1.912787,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

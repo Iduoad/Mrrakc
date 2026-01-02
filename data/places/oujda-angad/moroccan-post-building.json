@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ Moroccan Post Building",
+    "id": "moroccan-post-building",
+    "description": "🔻 Era: Early 20th Century<br>🔻 Status: Working<br>🔻 Description: This is one of the historical buildings of Oujda dating to colonial era. It was declared as a national patrimony in 2018. Nice for street photographers.",
+    "location": {
+      "latitude": 34.6843368,
+      "longitude": -1.9148566,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

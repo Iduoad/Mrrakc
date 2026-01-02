@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/fountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Three Fountains of Kasbah",
+    "id": "three-fountains-of-kasbah",
+    "description": "🔻 Era: 13th Century<br>🔻 Status: Working<br>🔻 Description: The Three fountains of Kasbah is one of the most popular monument of Kasbah of Oujda.",
+    "location": {
+      "latitude": 34.67896,
+      "longitude": -1.9134698,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Art Gallery of Oujda",
+    "id": "art-gallery-of-oujda",
+    "description": "🔻 Status: Closed<br>🔻 Description: This is supposed to be the city gallery but it is closed as for 2023.",
+    "location": {
+      "latitude": 34.6783078,
+      "longitude": -1.912248,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

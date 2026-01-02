@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "leisure/hammam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hammam El Bali (Old)",
+    "id": "hammam-el-bali-old",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6789482,
+      "longitude": -1.9129153,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Medina Market",
+    "id": "medina-market",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6796201,
+      "longitude": -1.9108057,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

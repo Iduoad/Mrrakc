@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Spanish Synagogue",
+    "id": "spanish-synagogue",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6825135,
+      "longitude": -1.9156774,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
