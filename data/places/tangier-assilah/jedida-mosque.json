@@ -9,8 +9,8 @@
     "id": "jedida-mosque",
     "description": "AKA Mosque of Aissaoua",
     "location": {
-      "latitude": 35.786086,
-      "longitude": -5.8111167,
+      "latitude": -5.8111167,
+      "longitude": 35.786086,
       "province": "province/tangier-assilah"
     },
     "people": [],

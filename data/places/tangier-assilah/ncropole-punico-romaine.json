@@ -9,8 +9,8 @@
     "id": "ncropole-punico-romaine",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7876879,
-      "longitude": -5.8189194,
+      "latitude": -5.8189194,
+      "longitude": 35.7876879,
       "province": "province/tangier-assilah"
     },
     "people": [],

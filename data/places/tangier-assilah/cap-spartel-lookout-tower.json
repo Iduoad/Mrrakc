@@ -9,8 +9,8 @@
     "id": "cap-spartel-lookout-tower",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7873068,
-      "longitude": -5.9166668,
+      "latitude": -5.9166668,
+      "longitude": 35.7873068,
       "province": "province/tangier-assilah"
     },
     "people": [],

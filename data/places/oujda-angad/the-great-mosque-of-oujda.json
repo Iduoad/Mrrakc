@@ -9,8 +9,8 @@
     "id": "the-great-mosque-of-oujda",
     "description": "The mosque was built in 1296 AD by the Marinid sultan Abu Yaqub Yusuf an-Nasr. Some say it was built in the place of a previous mosque built by the founder of Oujda.",
     "location": {
-      "latitude": 34.6791955,
-      "longitude": -1.9130356,
+      "latitude": -1.9130356,
+      "longitude": 34.6791955,
       "province": "province/oujda-angad"
     },
     "people": [],

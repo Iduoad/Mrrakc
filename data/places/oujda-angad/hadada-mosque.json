@@ -9,8 +9,8 @@
     "id": "hadada-mosque",
     "description": "This mosque was built by the Alaouite Sultane Moulay Slimane",
     "location": {
-      "latitude": 34.6800903,
-      "longitude": -1.911623,
+      "latitude": -1.911623,
+      "longitude": 34.6800903,
       "province": "province/oujda-angad"
     },
     "people": [],

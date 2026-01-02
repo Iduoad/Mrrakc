@@ -9,8 +9,8 @@
     "id": "asilah-beach",
     "description": "No description available.",
     "location": {
-      "latitude": 35.4972359,
-      "longitude": -6.0196213,
+      "latitude": -6.0196213,
+      "longitude": 35.4972359,
       "province": "province/tangier-assilah"
     },
     "people": [],

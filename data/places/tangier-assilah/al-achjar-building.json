@@ -9,8 +9,8 @@
     "id": "al-achjar-building",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7858630186177,
-      "longitude": -5.81284184499289,
+      "latitude": -5.81284184499289,
+      "longitude": 35.7858630186177,
       "province": "province/tangier-assilah"
     },
     "people": [],

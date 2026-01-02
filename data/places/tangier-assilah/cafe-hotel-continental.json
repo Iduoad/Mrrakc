@@ -9,8 +9,8 @@
     "id": "cafe-hotel-continental",
     "description": "No description available.",
     "location": {
-      "latitude": 35.787449,
-      "longitude": -5.809436,
+      "latitude": -5.809436,
+      "longitude": 35.787449,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "la-terraza-de-la-medina",
     "description": "Terrace",
     "location": {
-      "latitude": 35.7878092,
-      "longitude": -5.8119912,
+      "latitude": -5.8119912,
+      "longitude": 35.7878092,
       "province": "province/tangier-assilah"
     },
     "people": [],

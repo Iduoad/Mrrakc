@@ -9,8 +9,8 @@
     "id": "signpost-of-atlantic-and-mediterranean",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7877311,
-      "longitude": -5.9271315,
+      "latitude": -5.9271315,
+      "longitude": 35.7877311,
       "province": "province/tangier-assilah"
     },
     "people": [],

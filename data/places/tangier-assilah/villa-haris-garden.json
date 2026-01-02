@@ -9,8 +9,8 @@
     "id": "villa-haris-garden",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7811154,
-      "longitude": -5.7645875,
+      "latitude": -5.7645875,
+      "longitude": 35.7811154,
       "province": "province/tangier-assilah"
     },
     "people": [],

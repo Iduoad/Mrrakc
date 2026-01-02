@@ -9,8 +9,8 @@
     "id": "mediouna-park",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7815334,
-      "longitude": -5.889506,
+      "latitude": -5.889506,
+      "longitude": 35.7815334,
       "province": "province/tangier-assilah"
     },
     "people": [],

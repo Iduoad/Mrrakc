@@ -9,8 +9,8 @@
     "id": "art-street-in-tanger",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7811524,
-      "longitude": -5.8091474,
+      "latitude": -5.8091474,
+      "longitude": 35.7811524,
       "province": "province/tangier-assilah"
     },
     "people": [],
