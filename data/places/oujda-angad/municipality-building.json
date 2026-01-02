@@ -7,7 +7,7 @@
   "spec": {
     "name": "⭐ Municipality Building",
     "id": "municipality-building",
-    "description": "🔻 Era: Early 20th Century<br>🔻 Status: Working<br>🔻 Description: This is one of the historical buildings of Oujda dating to colonial era. It was declared as a national patrimony in 2018. Nice for street photographers.",
+    "description": "This is one of the historical buildings of Oujda dating to colonial era. It was declared as a national patrimony in 2018. Nice for street photographers.",
     "location": {
       "latitude": 34.6835741,
       "longitude": -1.9150189,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Early 20th Century"
+    ],
     "comments": []
   }
 }

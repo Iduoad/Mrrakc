@@ -7,7 +7,7 @@
   "spec": {
     "name": "Okba Mosque",
     "id": "okba-mosque",
-    "description": "🔻 Era: ~ 9th Century (probably)<br>🔻 Status: Working<br>🔻 Description: According to locals and resources online, the first version of the mosque may be as old as the great mosque or even older. The Mosque is named after Uqba ibn Nafi which is an Arab Umayyad General who is known of conquest the Maghreb region.<br><br>",
+    "description": "According to locals and resources online, the first version of the mosque may be as old as the great mosque or even older. The Mosque is named after Uqba ibn Nafi which is an Arab Umayyad General who is known of conquest the Maghreb region.",
     "location": {
       "latitude": 34.6801424,
       "longitude": -1.9139634,
@@ -29,7 +29,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "9th Century"
+    ],
     "comments": []
   }
 }

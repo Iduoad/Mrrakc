@@ -7,7 +7,7 @@
   "spec": {
     "name": "Three Fountains of Kasbah",
     "id": "three-fountains-of-kasbah",
-    "description": "🔻 Era: 13th Century<br>🔻 Status: Working<br>🔻 Description: The Three fountains of Kasbah is one of the most popular monument of Kasbah of Oujda.",
+    "description": "The Three fountains of Kasbah is one of the most popular monument of Kasbah of Oujda.",
     "location": {
       "latitude": 34.67896,
       "longitude": -1.9134698,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "13th Century"
+    ],
     "comments": []
   }
 }

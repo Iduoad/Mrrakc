@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bouteflika Old House",
     "id": "bouteflika-old-house",
-    "description": "🔻 Era: Early 20th Century<br>🔻 State: Completely destroyed (Ruins)<br>🔻 Description: Here was the house where the previous Algerian President Abdelaziz Bouteflika was born and raised.",
+    "description": "Here was the house where the previous Algerian President Abdelaziz Bouteflika was born and raised.",
     "location": {
       "latitude": 34.6788574,
       "longitude": -1.9118463,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Early 20th Century"
+    ],
     "comments": []
   }
 }

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Oujda Art Gallery",
     "id": "oujda-art-gallery",
-    "description": "🔻 Price: Free<br>🔻 Status: Open<br>🔻 Description: A One room gallery of plastic art. worth a small visit.",
+    "description": "A One room gallery of plastic art. worth a small visit.",
     "location": {
       "latitude": 34.6914793,
       "longitude": -1.9183608,

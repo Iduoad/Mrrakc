@@ -57,4 +57,5 @@ If you want an AI to do this for you, use the following prompt:
 > 2. Propose a mapping from KML folders to the kinds in `schema/enums/kinds.json`.
 > 3. Update `scripts/import_kml.py` with the new file paths and mapping.
 > 4. Ensure the script extracts links from the description into the `links` array (detecting video, social, map types) and **removes them from the description text**.
-> 5. Run the script and verify the generated JSON files match the project structure (no $schema, correct field order, version present).
+> 5. Parse structured fields from the description if present (e.g., `🔻 Era:`, `🔻 Status:`, `🔻 Description:`) and map them to `timePeriods`, `access.status`, and `description` respectively.
+> 6. Run the script and verify the generated JSON files match the project structure (no $schema, correct field order, version present).

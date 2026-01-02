@@ -7,7 +7,7 @@
   "spec": {
     "name": "⭐ Hammam Jarda",
     "id": "hammam-jarda",
-    "description": "🔻 Era: 19th Century<br>🔻 Status: Working<br>🔻 Description:This is one of the oldest Hammams in Oujda. The building was declared as a national patrimony in 2018.",
+    "description": "This is one of the oldest Hammams in Oujda. The building was declared as a national patrimony in 2018.",
     "location": {
       "latitude": 34.6784408,
       "longitude": -1.9142636,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "19th Century"
+    ],
     "comments": []
   }
 }

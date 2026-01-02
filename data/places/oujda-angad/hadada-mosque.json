@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hadada Mosque",
     "id": "hadada-mosque",
-    "description": "🔻 Era: 1802<br>🔻 Status: Working<br>🔻 Description: This mosque was built by the Alaouite Sultane Moulay Slimane",
+    "description": "This mosque was built by the Alaouite Sultane Moulay Slimane",
     "location": {
       "latitude": 34.6800903,
       "longitude": -1.911623,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "1802"
+    ],
     "comments": []
   }
 }

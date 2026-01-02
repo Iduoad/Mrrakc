@@ -7,7 +7,7 @@
   "spec": {
     "name": "Bab Sidi Abdel Wahab",
     "id": "bab-sidi-abdel-wahab",
-    "description": "🔻 Era: 14th Century<br>🔻 Status: Open<br>🔻 Description:This is one of the oldest Gates of the city. It opens on a square with the same name.",
+    "description": "This is one of the oldest Gates of the city. It opens on a square with the same name.",
     "location": {
       "latitude": 34.6798624,
       "longitude": -1.910191,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "14th Century"
+    ],
     "comments": []
   }
 }

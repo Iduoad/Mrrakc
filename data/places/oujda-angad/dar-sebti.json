@@ -7,7 +7,7 @@
   "spec": {
     "name": "Dar Sebti",
     "id": "dar-sebti",
-    "description": "🔻 Era: Early 20th Century<br>🔻 Status: Closed for public<br>🔻 Description: Built in 1938, this palace was designed in the purest Moroccan tradition. It houses the headquarters of the Center for Studies and Research on Gharnatie music and is also used for the organization of festivities. It is closed for public as for 2023.",
+    "description": "Built in 1938, this palace was designed in the purest Moroccan tradition. It houses the headquarters of the Center for Studies and Research on Gharnatie music and is also used for the organization of festivities. It is closed for public as for 2023.",
     "location": {
       "latitude": 34.6772032,
       "longitude": -1.9118973,
@@ -23,7 +23,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Early 20th Century"
+    ],
     "comments": []
   }
 }
