@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Yahia Mausoleum",
+    "id": "sidi-yahia-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6642085,
+      "longitude": -1.8641564,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

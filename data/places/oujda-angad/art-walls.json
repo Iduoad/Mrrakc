@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/street-art",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Art walls",
+    "id": "art-walls",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6798407,
+      "longitude": -1.9141974,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

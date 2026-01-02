@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Makhloufi Mausoleum",
+    "id": "sidi-makhloufi-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6789475,
+      "longitude": -1.9137212,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

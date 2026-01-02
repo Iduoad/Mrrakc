@@ -1,0 +1,37 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Okba Mosque",
+    "id": "okba-mosque",
+    "description": "According to locals and resources online, the first version of the mosque may be as old as the great mosque or even older. The Mosque is named after Uqba ibn Nafi which is an Arab Umayyad General who is known of conquest the Maghreb region.",
+    "location": {
+      "latitude": 34.6801424,
+      "longitude": -1.9139634,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.facebook.com/671040436302651/photos/la-mosqu%C3%A9e-oqba-a-12-si%C3%A8clesla-ville-plus-ancienne-que-ziri-ibn-atiyapuisquil-es/679670272106334/",
+        "type": "social",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "9th Century"
+    ],
+    "comments": []
+  }
+}

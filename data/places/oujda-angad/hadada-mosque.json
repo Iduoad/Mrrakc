@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hadada Mosque",
+    "id": "hadada-mosque",
+    "description": "This mosque was built by the Alaouite Sultane Moulay Slimane",
+    "location": {
+      "latitude": 34.6800903,
+      "longitude": -1.911623,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "1802"
+    ],
+    "comments": []
+  }
+}

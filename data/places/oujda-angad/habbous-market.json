@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Habbous market",
+    "id": "habbous-market",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6793069,
+      "longitude": -1.9129246,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

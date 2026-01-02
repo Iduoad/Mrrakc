@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ Regional Museum of the Resistance and Members of the Liberation Army",
+    "id": "regional-museum-of-the-resistance-and-members-of-the-liberation-army",
+    "description": "Old \"Etat Majeure\" where the military direction was during the French Protectorate",
+    "location": {
+      "latitude": 34.6780932,
+      "longitude": -1.9153797,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

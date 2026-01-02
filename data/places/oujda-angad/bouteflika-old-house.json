@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bouteflika Old House",
+    "id": "bouteflika-old-house",
+    "description": "Here was the house where the previous Algerian President Abdelaziz Bouteflika was born and raised.",
+    "location": {
+      "latitude": 34.6788574,
+      "longitude": -1.9118463,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "Early 20th Century"
+    ],
+    "comments": []
+  }
+}

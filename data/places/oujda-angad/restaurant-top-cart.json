@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Restaurant Top Cart",
+    "id": "restaurant-top-cart",
+    "description": "Situated on the Zouj Bghal Border customs, this restaurant is the easternmost in Oujda and in Maybe in Morocco. <br><br>They have a Racing Kart circuit (100 DH/Person)",
+    "location": {
+      "latitude": 34.7852512,
+      "longitude": -1.8405202,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

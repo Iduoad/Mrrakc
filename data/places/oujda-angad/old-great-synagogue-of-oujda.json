@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Old Great Synagogue of Oujda",
+    "id": "old-great-synagogue-of-oujda",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6832364,
+      "longitude": -1.9141824,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

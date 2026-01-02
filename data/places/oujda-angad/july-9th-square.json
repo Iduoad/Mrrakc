@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "July 9th Square",
+    "id": "july-9th-square",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6793618,
+      "longitude": -1.9180805,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

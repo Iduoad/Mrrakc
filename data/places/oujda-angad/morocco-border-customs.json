@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Morocco border customs",
+    "id": "morocco-border-customs",
+    "description": "This is one of the most known border places in Morocco. It is one of the places to visit if you want to be as near to the Moroccan Algerian borders. The borders are closed as for 2023.",
+    "location": {
+      "latitude": 34.7867579,
+      "longitude": -1.8408916,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "closed",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

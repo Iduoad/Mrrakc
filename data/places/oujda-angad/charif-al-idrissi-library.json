@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ Charif Al Idrissi Library",
+    "id": "charif-al-idrissi-library",
+    "description": "It was the Palace of the city Pacha El Hajoui Ethaalibi (Dar El Mekhzen). The library was founded in1956.",
+    "location": {
+      "latitude": 34.6778508,
+      "longitude": -1.9128864,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "Late 19th Century"
+    ],
+    "comments": []
+  }
+}

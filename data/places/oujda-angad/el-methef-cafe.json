@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/cafe",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Methef Cafe",
+    "id": "el-methef-cafe",
+    "description": "This cafe is situated in the middle of Lalla Meriem Park. Nice view and setup.",
+    "location": {
+      "latitude": 34.6774933,
+      "longitude": -1.9126268,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

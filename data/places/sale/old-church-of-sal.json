@@ -7,7 +7,7 @@
   "spec": {
     "name": "Old church of Salè",
     "id": "old-church-of-sal",
-    "description": "Built in 1952 during the French Protectorate, for French soldiers and workers living in the Rmel neighborhood.<br><br>It used to be called Saint Anne and was managed by Father Trio.<br><br>- https://www.facebook.com/mbahdod/posts/pfbid0cRsivs8yUrYEqNBPtvngqMBH6kK9bK7bWaV8CQHLcsUfTCiG35bjWChRosFTEWSsl",
+    "description": "Built in 1952 during the French Protectorate, for French soldiers and workers living in the Rmel neighborhood.<br><br>It used to be called Saint Anne and was managed by Father Trio.<br>",
     "location": {
       "latitude": 34.0325888,
       "longitude": -6.8258545,
@@ -15,7 +15,13 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://www.facebook.com/mbahdod/posts/pfbid0cRsivs8yUrYEqNBPtvngqMBH6kK9bK7bWaV8CQHLcsUfTCiG35bjWChRosFTEWSsl",
+        "type": "social",
+        "title": "Link"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {

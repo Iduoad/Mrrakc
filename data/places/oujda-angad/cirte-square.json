@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cirte Square",
+    "id": "cirte-square",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6771003,
+      "longitude": -1.9170947,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ St Louis Church",
+    "id": "st-louis-church",
+    "description": "AKA Saint-Louis d'Anjou Cathedral. Built in 1908",
+    "location": {
+      "latitude": 34.6796373,
+      "longitude": -1.9173532,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

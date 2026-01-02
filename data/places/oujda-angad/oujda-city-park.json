@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oujda City Park",
+    "id": "oujda-city-park",
+    "description": "Nice Park. It is well maintained but does not have many attractions.",
+    "location": {
+      "latitude": 34.6978108,
+      "longitude": -1.9116747,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

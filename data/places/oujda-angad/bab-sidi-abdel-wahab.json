@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bab Sidi Abdel Wahab",
+    "id": "bab-sidi-abdel-wahab",
+    "description": "This is one of the oldest Gates of the city. It opens on a square with the same name.",
+    "location": {
+      "latitude": 34.6798624,
+      "longitude": -1.910191,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "14th Century"
+    ],
+    "comments": []
+  }
+}

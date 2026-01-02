@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mosque of Omar bin Abdul Aziz",
+    "id": "mosque-of-omar-bin-abdul-aziz",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6833653,
+      "longitude": -1.9147432,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

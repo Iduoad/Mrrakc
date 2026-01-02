@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/christian-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cimetière Chrétien",
+    "id": "cimetire-chrtien",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6859444,
+      "longitude": -1.9216799,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

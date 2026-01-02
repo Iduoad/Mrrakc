@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oujda Art Gallery",
+    "id": "oujda-art-gallery",
+    "description": "A One room gallery of plastic art. worth a small visit.",
+    "location": {
+      "latitude": 34.6914793,
+      "longitude": -1.9183608,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

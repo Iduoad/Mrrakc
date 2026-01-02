@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ecological Park of Oujda",
+    "id": "ecological-park-of-oujda",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.7382603,
+      "longitude": -1.9216402,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

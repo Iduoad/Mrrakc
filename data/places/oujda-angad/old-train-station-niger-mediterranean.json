@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ Old Train Station (Niger - Mediterranean)",
+    "id": "old-train-station-niger-mediterranean",
+    "description": "This is one of the historical buildings of Oujda dating to colonial era. It was the first Train Station built in Morocco. It was intended to be the first station in the very ambitious French Train line Mediterranean-Niger. The line failed and stopped in Bechar. The railroad is still present to this day, and the station is converted to an administration. The building was declared as a national patrimony in 2018.",
+    "location": {
+      "latitude": 34.6982783,
+      "longitude": -1.9088934,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://fr.wikipedia.org/wiki/Gare_de_B%C3%A9char_-_M%C3%A9dit%C3%A9ran%C3%A9e-Niger",
+        "type": "website",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

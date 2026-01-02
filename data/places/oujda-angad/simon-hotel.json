@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ Simon Hotel",
+    "id": "simon-hotel",
+    "description": "This is one of the historical buildings of Oujda dating to colonial era. It was declared as a national patrimony in 2018. Nice for street photographers.",
+    "location": {
+      "latitude": 34.6816264,
+      "longitude": -1.9158989,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "Early 20th Century"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Saint Antoine de Padoue Church",
+    "id": "saint-antoine-de-padoue-church",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.6915436,
+      "longitude": -1.9187658,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

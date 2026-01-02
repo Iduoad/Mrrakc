@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Lalla Meriem Park",
+    "id": "lalla-meriem-park",
+    "description": "One of the biggest and shiniest parks of the city. Great architecture, quiet place and good ambiance.",
+    "location": {
+      "latitude": 34.6776479,
+      "longitude": -1.9122843,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

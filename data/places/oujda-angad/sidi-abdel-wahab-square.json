@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Abdel Wahab Square",
+    "id": "sidi-abdel-wahab-square",
+    "description": "One of the most interesting squares of the city. It holds Halka shows (street show) like in Jamaa Lafna Square.",
+    "location": {
+      "latitude": 34.680353,
+      "longitude": -1.9097747,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

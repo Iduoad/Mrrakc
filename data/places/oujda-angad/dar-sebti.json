@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dar Sebti",
+    "id": "dar-sebti",
+    "description": "Built in 1938, this palace was designed in the purest Moroccan tradition. It houses the headquarters of the Center for Studies and Research on Gharnatie music and is also used for the organization of festivities. It is closed for public as for 2023.",
+    "location": {
+      "latitude": 34.6772032,
+      "longitude": -1.9118973,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "Early 20th Century"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "⭐ Hammam Jarda",
+    "id": "hammam-jarda",
+    "description": "This is one of the oldest Hammams in Oujda. The building was declared as a national patrimony in 2018.",
+    "location": {
+      "latitude": 34.6784408,
+      "longitude": -1.9142636,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [
+      "19th Century"
+    ],
+    "comments": []
+  }
+}
