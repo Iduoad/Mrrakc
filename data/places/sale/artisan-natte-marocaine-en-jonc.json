@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
-  "kind": "shopping/shop",
+  "version": "mrrakc/v0",
+  "kind": "shopping/artisanal-complex",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Artisan natte marocaine en jonc",
     "id": "artisan-natte-marocaine-en-jonc",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0370169,
       "longitude": -6.8239705,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

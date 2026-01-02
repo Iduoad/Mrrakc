@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
-  "kind": "urban/tannery",
+  "version": "mrrakc/v0",
+  "kind": "culture/tannery",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Tannery of Sale",
     "id": "tannery-of-sale",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.049722,
       "longitude": -6.826111,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

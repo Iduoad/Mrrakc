@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Zaouiat Annoussak",
     "id": "zaouiat-annoussak",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0358707,
       "longitude": -6.8135002,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

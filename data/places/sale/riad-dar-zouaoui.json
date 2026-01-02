@@ -1,6 +1,9 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "architecture/riad",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Riad Dar Zouaoui",
     "id": "riad-dar-zouaoui",
@@ -10,10 +13,17 @@
       "longitude": -6.8270045,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

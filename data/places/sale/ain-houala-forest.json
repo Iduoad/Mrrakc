@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "nature/forest",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Ain Houala Forest",
     "id": "ain-houala-forest",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0255967,
       "longitude": -6.7910957,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

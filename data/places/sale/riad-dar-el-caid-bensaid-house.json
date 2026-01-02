@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "architecture/riad",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Riad Dar El Caid Bensaid House",
     "id": "riad-dar-el-caid-bensaid-house",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0390859,
       "longitude": -6.8278446,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

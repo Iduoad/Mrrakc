@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "New Sqalla",
     "id": "new-sqalla",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.04595,
       "longitude": -6.82989,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

@@ -1,6 +1,9 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Zaouiya M'barkia Qadiriya",
     "id": "zaouiya-mbarkia-qadiriya",
@@ -10,10 +13,17 @@
       "longitude": -6.8266347,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "La maison bleue restaurant",
     "id": "la-maison-bleue-restaurant",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 33.9569105,
       "longitude": -6.7268954,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

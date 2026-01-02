@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "food/cafe",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "BoSouk Cafe",
     "id": "bosouk-cafe",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.038213,
       "longitude": -6.8243878,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

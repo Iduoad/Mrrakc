@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "urban/corniche",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Sidi Moussa Corniche",
     "id": "sidi-moussa-corniche",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0543421,
       "longitude": -6.8225053,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

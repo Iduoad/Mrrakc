@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Bab Dar Sinaâ",
     "id": "bab-dar-sina",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0332923,
       "longitude": -6.8216139,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

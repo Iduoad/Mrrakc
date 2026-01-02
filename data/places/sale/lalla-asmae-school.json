@@ -1,6 +1,9 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Lalla Asmae School",
     "id": "lalla-asmae-school",
@@ -10,10 +13,17 @@
       "longitude": -6.825206,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

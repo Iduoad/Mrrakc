@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Sidi Abdellah Laghlid Mausoleum",
     "id": "sidi-abdellah-laghlid-mausoleum",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.03692,
       "longitude": -6.82505,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

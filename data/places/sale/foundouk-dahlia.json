@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Foundouk Dahlia",
     "id": "foundouk-dahlia",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0384869,
       "longitude": -6.8219257,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "urban/park",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Hay Essalam Park",
     "id": "hay-essalam-park",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.034195,
       "longitude": -6.791942,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }

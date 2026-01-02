@@ -1,19 +1,29 @@
 {
-  "$schema": "../../schema/places.json",
+  "version": "mrrakc/v0",
   "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
   "spec": {
     "name": "Bab Maalqa",
     "id": "bab-maalqa",
-    "description": "",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0384246,
       "longitude": -6.8287902,
       "province": "province/sale"
     },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
     "access": {
       "type": "public",
-      "status": "open"
+      "status": "open",
+      "options": []
     },
-    "timePeriods": []
+    "timePeriods": [],
+    "comments": []
   }
 }
