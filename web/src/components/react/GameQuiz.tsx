@@ -16,7 +16,10 @@ export default function GameQuiz({ correctAnswer, nextStepSlug, hints, question 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (answer.toLowerCase().trim().replace(/\s+/g, '-') === correctAnswer.toLowerCase()) {
-            window.location.href = `/games/${nextStepSlug}`;
+            // Use relative path navigation to support dynamic game routes
+            // If nextStepSlug is "02-step", and we are at "/games/my-game/01-step",
+            // this will navigate to "/games/my-game/02-step"
+            window.location.href = nextStepSlug;
         } else {
             setError('Incorrect answer. Try again!');
         }
