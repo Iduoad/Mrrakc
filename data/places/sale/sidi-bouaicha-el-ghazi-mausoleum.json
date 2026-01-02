@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Bouaicha El Ghazi Mausoleum",
+    "id": "sidi-bouaicha-el-ghazi-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.035866,
+      "longitude": -6.8184469,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

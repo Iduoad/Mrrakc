@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Borj Sebaa Bnat",
+    "id": "borj-sebaa-bnat",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0439288,
+      "longitude": -6.8250569,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

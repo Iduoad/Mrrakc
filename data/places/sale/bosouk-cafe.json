@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/cafe",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "BoSouk Cafe",
+    "id": "bosouk-cafe",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.038213,
+      "longitude": -6.8243878,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

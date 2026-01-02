@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sid Ahmed Ben Achir Mausoleum",
+    "id": "sid-ahmed-ben-achir-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0426394,
+      "longitude": -6.8314509,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/riad",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ahmed Ben Abdelhadi Zniber House",
+    "id": "ahmed-ben-abdelhadi-zniber-house",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.040201,
+      "longitude": -6.8263913,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

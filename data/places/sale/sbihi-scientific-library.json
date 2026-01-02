@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/library",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sbihi Scientific Library",
+    "id": "sbihi-scientific-library",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0346179,
+      "longitude": -6.8236703,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

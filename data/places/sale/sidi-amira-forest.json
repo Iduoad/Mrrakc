@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/forest",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Amira Forest",
+    "id": "sidi-amira-forest",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0312251,
+      "longitude": -6.6906836,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

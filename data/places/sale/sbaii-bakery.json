@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/bakery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sbaii Bakery",
+    "id": "sbaii-bakery",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0355856,
+      "longitude": -6.8218979,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

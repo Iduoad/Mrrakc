@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/forest",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Maamoura Forest",
+    "id": "maamoura-forest",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0242874,
+      "longitude": -6.7163949,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

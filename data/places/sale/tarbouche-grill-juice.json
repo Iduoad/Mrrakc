@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tarbouche Grill & Juice",
+    "id": "tarbouche-grill-juice",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0294911,
+      "longitude": -6.8205746,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

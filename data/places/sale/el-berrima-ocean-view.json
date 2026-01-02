@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Berrima Ocean View",
+    "id": "el-berrima-ocean-view",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0448626,
+      "longitude": -6.8313723,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

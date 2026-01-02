@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Abdelkader Al Harrati Mausoleum",
+    "id": "sidi-abdelkader-al-harrati-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0418411,
+      "longitude": -6.8302283,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/jewish-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Miaara Jewish Cemetery",
+    "id": "miaara-jewish-cemetery",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0367787,
+      "longitude": -6.8075229,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

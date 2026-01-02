@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Freedom Park",
+    "id": "freedom-park",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0340659,
+      "longitude": -6.7783176,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

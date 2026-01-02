@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/cafe",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Rmel Cafe",
+    "id": "rmel-cafe",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0340503,
+      "longitude": -6.8242532,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

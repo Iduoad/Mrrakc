@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mohammadia School",
+    "id": "mohammadia-school",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0402012,
+      "longitude": -6.8282359,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

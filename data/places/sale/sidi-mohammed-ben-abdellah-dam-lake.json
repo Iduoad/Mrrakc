@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Mohammed Ben Abdellah Dam Lake",
+    "id": "sidi-mohammed-ben-abdellah-dam-lake",
+    "description": "No description available.",
+    "location": {
+      "latitude": 33.962669,
+      "longitude": -6.7058435,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

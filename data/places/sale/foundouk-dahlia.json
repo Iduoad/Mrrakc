@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Foundouk Dahlia",
+    "id": "foundouk-dahlia",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0384869,
+      "longitude": -6.8219257,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

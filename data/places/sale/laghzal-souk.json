@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Laghzal Souk",
+    "id": "laghzal-souk",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0381052,
+      "longitude": -6.8244072,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

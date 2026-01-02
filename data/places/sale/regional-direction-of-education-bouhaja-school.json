@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Regional direction of education (Bouhaja School)",
+    "id": "regional-direction-of-education-bouhaja-school",
+    "description": "No description available.",
+    "location": {
+      "latitude": 34.0344083,
+      "longitude": -6.8253084,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
