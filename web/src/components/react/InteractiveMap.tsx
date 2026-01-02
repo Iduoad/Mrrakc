@@ -54,6 +54,7 @@ interface Props {
     className?: string;
     headerContent?: React.ReactNode;
     autoFit?: boolean;
+    title?: string;
 }
 
 const getIcon = (kindString: string) => {
@@ -108,7 +109,7 @@ const getIcon = (kindString: string) => {
     return <MapPin size={18} />;
 };
 
-export default function InteractiveMap({ points, simple = false, className = '', headerContent, autoFit = false }: Props) {
+export default function InteractiveMap({ points, simple = false, className = '', headerContent, autoFit = false, title }: Props) {
     const [selectedPoint, setSelectedPoint] = useState<MapPoint | null>(null);
     const [isSidebarOpen, setIsSidebarOpen] = useState(!simple);
     const [isMaximized, setIsMaximized] = useState(false);
@@ -202,7 +203,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                             <div className="flex-grow min-w-0">
                                 {headerContent ? headerContent : (
                                     <>
-                                        <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100 leading-tight">Mohammed V Street Tour</h3>
+                                        <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100 leading-tight">{title || 'Mohammed V Street Tour'}</h3>
                                         <p className="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations</p>
                                     </>
                                 )}

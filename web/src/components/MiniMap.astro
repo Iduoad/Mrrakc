@@ -7,27 +7,48 @@ interface Props {
   ids: string[];
   simple?: boolean;
   className?: string;
+  title?: string;
 }
 
-const { ids, simple = false, className = '' } = Astro.props;
+const { ids, simple = false, className = '', title } = Astro.props;
 
 // Fetch all places and filter by the provided IDs
 const allPlaces = await getCollection('places');
 
 const normalizeId = (id: string) => id.replace(/\.json$/, '');
 
-const selectedPlaces = allPlaces.filter(place => {
-  const normalizedPlaceId = normalizeId(place.id);
-  return ids.some(id => normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id));
-});
+// 1. Filter by explicit IDs or Province wildcards
+const explicitIds = ids.filter(id => !id.startsWith('province/'));
+const provinceIds = ids.filter(id => id.startsWith('province/')).map(id => id.replace('province/', ''));
 
-// Sort them to match the order of IDs passed in props
-const sortedPlaces = ids
-  .map(id => selectedPlaces.find(p => {
-    const normalizedPlaceId = normalizeId(p.id);
-    return normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id);
-  }))
-  .filter((p): p is NonNullable<typeof p> => p !== undefined);
+let selectedPlaces: typeof allPlaces = [];
+
+// Add explicit places
+if (explicitIds.length > 0) {
+    const explicitMatches = allPlaces.filter(place => {
+        const normalizedPlaceId = normalizeId(place.id);
+        return explicitIds.some(id => normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id));
+    });
+    selectedPlaces = [...selectedPlaces, ...explicitMatches];
+}
+
+// Add province places
+if (provinceIds.length > 0) {
+    const provinceMatches = allPlaces.filter(place => {
+        const placeProvince = place.data.spec.location.province.replace('province/', '');
+        return provinceIds.includes(placeProvince);
+    });
+    
+    // Avoid duplicates
+    const existingIds = new Set(selectedPlaces.map(p => p.id));
+    provinceMatches.forEach(p => {
+        if (!existingIds.has(p.id)) {
+            selectedPlaces.push(p);
+        }
+    });
+}
+
+const sortedPlaces = selectedPlaces;
 
 // Transform the data for the React component
 const points: MapPoint[] = sortedPlaces.map(place => {
@@ -64,7 +85,7 @@ const points: MapPoint[] = sortedPlaces.map(place => {
 
 <div class={`${simple ? "h-full w-full" : "my-12"} ${className}`}>
   {points.length > 0 ? (
-    <InteractiveMap client:visible points={points} simple={simple} className={simple ? "h-full w-full" : ""} />
+    <InteractiveMap client:visible points={points} simple={simple} className={simple ? "h-full w-full" : ""} title={title} />
   ) : (
     <div class="p-8 text-center border-2 border-dashed border-clay/50 rounded-2xl bg-clay/10">
       <p class="text-charcoal-light dark:text-stone-400 font-serif italic">No map data available for the selected locations.</p>
