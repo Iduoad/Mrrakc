@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/bastion",
+  "spec": {
+    "name": "Borj El Mellah",
+    "id": "borj-el-mellah",
+    "description": "",
+    "location": {
+      "latitude": 34.03257,
+      "longitude": -6.82056,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

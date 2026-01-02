@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Maalqa",
+    "id": "bab-maalqa",
+    "description": "",
+    "location": {
+      "latitude": 34.0384246,
+      "longitude": -6.8287902,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

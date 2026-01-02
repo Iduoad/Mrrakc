@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Harratia",
+    "id": "zaouiya-harratia",
+    "description": "",
+    "location": {
+      "latitude": 34.039679,
+      "longitude": -6.826353,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

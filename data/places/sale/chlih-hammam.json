@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "leisure/hammam",
+  "spec": {
+    "name": "Chlih Hammam",
+    "id": "chlih-hammam",
+    "description": "",
+    "location": {
+      "latitude": 34.0385024,
+      "longitude": -6.827555,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

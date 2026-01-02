@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/school",
+  "spec": {
+    "name": "Regional direction of education (Bouhaja School)",
+    "id": "regional-direction-of-education-bouhaja-school",
+    "description": "",
+    "location": {
+      "latitude": 34.0344083,
+      "longitude": -6.8253084,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

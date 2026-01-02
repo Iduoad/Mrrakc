@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Daliliya",
+    "id": "zaouiya-daliliya",
+    "description": "",
+    "location": {
+      "latitude": 34.0393391,
+      "longitude": -6.8256996,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

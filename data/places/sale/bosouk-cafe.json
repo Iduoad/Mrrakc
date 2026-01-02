@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "food/cafe",
+  "spec": {
+    "name": "BoSouk Cafe",
+    "id": "bosouk-cafe",
+    "description": "",
+    "location": {
+      "latitude": 34.038213,
+      "longitude": -6.8243878,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/square",
+  "spec": {
+    "name": "Bab Mseddak Square",
+    "id": "bab-mseddak-square",
+    "description": "",
+    "location": {
+      "latitude": 34.04071,
+      "longitude": -6.8281739,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

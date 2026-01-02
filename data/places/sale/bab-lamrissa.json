@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Lamrissa",
+    "id": "bab-lamrissa",
+    "description": "",
+    "location": {
+      "latitude": 34.0330712,
+      "longitude": -6.8203482,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/school",
+  "spec": {
+    "name": "Mohammadia School",
+    "id": "mohammadia-school",
+    "description": "",
+    "location": {
+      "latitude": 34.0402012,
+      "longitude": -6.8282359,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

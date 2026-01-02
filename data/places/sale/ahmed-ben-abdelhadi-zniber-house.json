@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/riad",
+  "spec": {
+    "name": "Ahmed Ben Abdelhadi Zniber House",
+    "id": "ahmed-ben-abdelhadi-zniber-house",
+    "description": "",
+    "location": {
+      "latitude": 34.040201,
+      "longitude": -6.8263913,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

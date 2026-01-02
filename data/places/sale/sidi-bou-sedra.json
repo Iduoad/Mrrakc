@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Bou Sedra",
+    "id": "sidi-bou-sedra",
+    "description": "",
+    "location": {
+      "latitude": 34.027062,
+      "longitude": -6.8071044,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "food/restaurant",
+  "spec": {
+    "name": "Tarbouche Grill & Juice",
+    "id": "tarbouche-grill-juice",
+    "description": "",
+    "location": {
+      "latitude": 34.0294911,
+      "longitude": -6.8205746,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

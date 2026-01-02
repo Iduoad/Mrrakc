@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/jewish-site",
+  "spec": {
+    "name": "Miaara Jewish Cemetery",
+    "id": "miaara-jewish-cemetery",
+    "description": "",
+    "location": {
+      "latitude": 34.0367787,
+      "longitude": -6.8075229,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

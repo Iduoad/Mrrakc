@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/park",
+  "spec": {
+    "name": "Freedom Park",
+    "id": "freedom-park",
+    "description": "",
+    "location": {
+      "latitude": 34.0340659,
+      "longitude": -6.7783176,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/park",
+  "spec": {
+    "name": "Hay Essalam Park",
+    "id": "hay-essalam-park",
+    "description": "",
+    "location": {
+      "latitude": 34.034195,
+      "longitude": -6.791942,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

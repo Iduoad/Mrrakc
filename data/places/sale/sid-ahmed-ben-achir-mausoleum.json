@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sid Ahmed Ben Achir Mausoleum",
+    "id": "sid-ahmed-ben-achir-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0426394,
+      "longitude": -6.8314509,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

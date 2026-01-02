@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "nature/dam",
+  "spec": {
+    "name": "Sidi Mohammed Ben Abdellah Dam Lake",
+    "id": "sidi-mohammed-ben-abdellah-dam-lake",
+    "description": "",
+    "location": {
+      "latitude": 33.962669,
+      "longitude": -6.7058435,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

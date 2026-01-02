@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "The Great Mosque",
+    "id": "the-great-mosque",
+    "description": "",
+    "location": {
+      "latitude": 34.040352,
+      "longitude": -6.8274794,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

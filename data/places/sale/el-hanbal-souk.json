@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "shopping/market",
+  "spec": {
+    "name": "El Hanbal Souk",
+    "id": "el-hanbal-souk",
+    "description": "",
+    "location": {
+      "latitude": 34.037962,
+      "longitude": -6.8240813,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

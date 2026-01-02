@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Dar Sinaâ",
+    "id": "bab-dar-sina",
+    "description": "",
+    "location": {
+      "latitude": 34.0332923,
+      "longitude": -6.8216139,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

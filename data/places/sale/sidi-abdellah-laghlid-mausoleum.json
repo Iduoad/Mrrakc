@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Abdellah Laghlid Mausoleum",
+    "id": "sidi-abdellah-laghlid-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.03692,
+      "longitude": -6.82505,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "shopping/shop",
+  "spec": {
+    "name": "Artisan natte marocaine en jonc",
+    "id": "artisan-natte-marocaine-en-jonc",
+    "description": "",
+    "location": {
+      "latitude": 34.0370169,
+      "longitude": -6.8239705,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

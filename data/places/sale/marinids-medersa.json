@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/archaeological-site",
+  "spec": {
+    "name": "Marinids Medersa",
+    "id": "marinids-medersa",
+    "description": "",
+    "location": {
+      "latitude": 34.0398419,
+      "longitude": -6.8272938,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

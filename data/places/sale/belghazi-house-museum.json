@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "culture/museum",
+  "spec": {
+    "name": "Belghazi House Museum",
+    "id": "belghazi-house-museum",
+    "description": "",
+    "location": {
+      "latitude": 34.1394404,
+      "longitude": -6.7256059,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

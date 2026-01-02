@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Moussa Mausoleum",
+    "id": "sidi-moussa-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0596951,
+      "longitude": -6.817513,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

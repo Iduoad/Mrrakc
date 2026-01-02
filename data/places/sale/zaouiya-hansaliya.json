@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Hansaliya",
+    "id": "zaouiya-hansaliya",
+    "description": "",
+    "location": {
+      "latitude": 34.0391682,
+      "longitude": -6.8227128,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

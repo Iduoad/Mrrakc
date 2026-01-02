@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "food/bakery",
+  "spec": {
+    "name": "Medina Bakery",
+    "id": "medina-bakery",
+    "description": "",
+    "location": {
+      "latitude": 34.038376,
+      "longitude": -6.8242253,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

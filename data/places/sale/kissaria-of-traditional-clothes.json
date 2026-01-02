@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "shopping/market",
+  "spec": {
+    "name": "Kissaria of Traditional Clothes",
+    "id": "kissaria-of-traditional-clothes",
+    "description": "",
+    "location": {
+      "latitude": 34.0377278,
+      "longitude": -6.8237545,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

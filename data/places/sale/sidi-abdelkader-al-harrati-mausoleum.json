@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Abdelkader Al Harrati Mausoleum",
+    "id": "sidi-abdelkader-al-harrati-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0418411,
+      "longitude": -6.8302283,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

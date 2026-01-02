@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Qacimiya",
+    "id": "zaouiya-qacimiya",
+    "description": "",
+    "location": {
+      "latitude": 34.0396,
+      "longitude": -6.82568,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

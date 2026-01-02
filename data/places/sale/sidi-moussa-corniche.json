@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/corniche",
+  "spec": {
+    "name": "Sidi Moussa Corniche",
+    "id": "sidi-moussa-corniche",
+    "description": "",
+    "location": {
+      "latitude": 34.0543421,
+      "longitude": -6.8225053,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

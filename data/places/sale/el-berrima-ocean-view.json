@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/viewpoint",
+  "spec": {
+    "name": "El Berrima Ocean View",
+    "id": "el-berrima-ocean-view",
+    "description": "",
+    "location": {
+      "latitude": 34.0448626,
+      "longitude": -6.8313723,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

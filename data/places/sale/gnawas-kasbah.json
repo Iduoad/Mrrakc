@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/kasbah",
+  "spec": {
+    "name": "Gnawa's Kasbah",
+    "id": "gnawas-kasbah",
+    "description": "",
+    "location": {
+      "latitude": 34.0623346,
+      "longitude": -6.8132776,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

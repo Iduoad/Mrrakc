@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/square",
+  "spec": {
+    "name": "Marina Bouregreg Salé",
+    "id": "marina-bouregreg-sal",
+    "description": "",
+    "location": {
+      "latitude": 34.028074,
+      "longitude": -6.8235059,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

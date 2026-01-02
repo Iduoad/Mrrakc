@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Lalla Chahba Mosque",
+    "id": "lalla-chahba-mosque",
+    "description": "",
+    "location": {
+      "latitude": 34.0360454,
+      "longitude": -6.8215761,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

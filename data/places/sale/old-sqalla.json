@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/bastion",
+  "spec": {
+    "name": "Old Sqalla",
+    "id": "old-sqalla",
+    "description": "",
+    "location": {
+      "latitude": 34.04295,
+      "longitude": -6.83194,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

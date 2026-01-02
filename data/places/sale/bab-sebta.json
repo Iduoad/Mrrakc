@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Sebta",
+    "id": "bab-sebta",
+    "description": "",
+    "location": {
+      "latitude": 34.0415407,
+      "longitude": -6.8209272,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

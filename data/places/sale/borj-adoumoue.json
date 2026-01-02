@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/bastion",
+  "spec": {
+    "name": "Borj Adoumoue",
+    "id": "borj-adoumoue",
+    "description": "",
+    "location": {
+      "latitude": 34.0424952,
+      "longitude": -6.8322988,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

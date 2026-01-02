@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Reda Mosque",
+    "id": "reda-mosque",
+    "description": "",
+    "location": {
+      "latitude": 34.0342443,
+      "longitude": -6.8236304,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

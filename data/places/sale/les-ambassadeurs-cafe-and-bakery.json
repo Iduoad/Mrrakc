@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "food/cafe",
+  "spec": {
+    "name": "Les Ambassadeurs Cafe and Bakery",
+    "id": "les-ambassadeurs-cafe-and-bakery",
+    "description": "",
+    "location": {
+      "latitude": 34.0354055,
+      "longitude": -6.8231095,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

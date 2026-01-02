@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/building",
+  "spec": {
+    "name": "Foundouk Dahlia",
+    "id": "foundouk-dahlia",
+    "description": "",
+    "location": {
+      "latitude": 34.0384869,
+      "longitude": -6.8219257,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

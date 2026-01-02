@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Azzarqa'a Mosque",
+    "id": "azzarqaa-mosque",
+    "description": "",
+    "location": {
+      "latitude": 34.0420925,
+      "longitude": -6.8256667,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

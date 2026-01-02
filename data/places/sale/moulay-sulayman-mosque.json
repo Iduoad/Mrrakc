@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Moulay Sulayman Mosque",
+    "id": "moulay-sulayman-mosque",
+    "description": "",
+    "location": {
+      "latitude": 34.03728,
+      "longitude": -6.82075,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

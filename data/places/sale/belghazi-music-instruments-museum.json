@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "culture/museum",
+  "spec": {
+    "name": "Belghazi Music Instruments Museum",
+    "id": "belghazi-music-instruments-museum",
+    "description": "",
+    "location": {
+      "latitude": 34.0379525,
+      "longitude": -6.8246742,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

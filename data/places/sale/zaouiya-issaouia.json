@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Issaouia",
+    "id": "zaouiya-issaouia",
+    "description": "",
+    "location": {
+      "latitude": 34.040349,
+      "longitude": -6.8259024,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Bouaicha El Ghazi Mausoleum",
+    "id": "sidi-bouaicha-el-ghazi-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.035866,
+      "longitude": -6.8184469,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

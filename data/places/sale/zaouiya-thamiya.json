@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Thamiya",
+    "id": "zaouiya-thamiya",
+    "description": "",
+    "location": {
+      "latitude": 34.0393175,
+      "longitude": -6.8204791,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "nature/mountain",
+  "spec": {
+    "name": "Mount Gago",
+    "id": "mount-gago",
+    "description": "",
+    "location": {
+      "latitude": 34.0206051,
+      "longitude": -6.7921646,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

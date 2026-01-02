@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Lahcen El Aidi Mausoleum",
+    "id": "sidi-lahcen-el-aidi-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0373075,
+      "longitude": -6.8199909,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

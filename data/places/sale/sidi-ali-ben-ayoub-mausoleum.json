@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Ali Ben Ayoub Mausoleum",
+    "id": "sidi-ali-ben-ayoub-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0359163,
+      "longitude": -6.8202969,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

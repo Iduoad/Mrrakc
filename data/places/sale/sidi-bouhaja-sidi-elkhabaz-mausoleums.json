@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Bouhaja & Sidi elKhabaz Mausoleums",
+    "id": "sidi-bouhaja-sidi-elkhabaz-mausoleums",
+    "description": "",
+    "location": {
+      "latitude": 34.034277,
+      "longitude": -6.8244007,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

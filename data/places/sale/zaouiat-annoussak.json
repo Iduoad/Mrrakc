@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiat Annoussak",
+    "id": "zaouiat-annoussak",
+    "description": "",
+    "location": {
+      "latitude": 34.0358707,
+      "longitude": -6.8135002,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

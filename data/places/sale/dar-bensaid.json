@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/riad",
+  "spec": {
+    "name": "Dar Bensaid",
+    "id": "dar-bensaid",
+    "description": "",
+    "location": {
+      "latitude": 34.0394319,
+      "longitude": -6.8276474,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

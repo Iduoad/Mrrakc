@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/bastion",
+  "spec": {
+    "name": "Dar Lbaroud",
+    "id": "dar-lbaroud",
+    "description": "",
+    "location": {
+      "latitude": 34.0355111,
+      "longitude": -6.81999,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

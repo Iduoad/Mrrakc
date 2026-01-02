@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/park",
+  "spec": {
+    "name": "Al Firdaous Park",
+    "id": "al-firdaous-park",
+    "description": "",
+    "location": {
+      "latitude": 34.0356668,
+      "longitude": -6.8234945,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

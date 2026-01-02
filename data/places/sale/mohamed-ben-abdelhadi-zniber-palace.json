@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/riad",
+  "spec": {
+    "name": "Mohamed Ben Abdelhadi Zniber Palace",
+    "id": "mohamed-ben-abdelhadi-zniber-palace",
+    "description": "- https://www.youtube.com/shorts/00tRL6ftjCw<br>- https://www.youtube.com/shorts/eNWB1MbtuEw",
+    "location": {
+      "latitude": 34.0403694,
+      "longitude": -6.8260795,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "culture/library",
+  "spec": {
+    "name": "Abderahman Hajji Library",
+    "id": "abderahman-hajji-library",
+    "description": "",
+    "location": {
+      "latitude": 34.0347175,
+      "longitude": -6.8248061,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

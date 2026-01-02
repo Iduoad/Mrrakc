@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "nature/park",
+  "spec": {
+    "name": "Exotic Gardens of Bouknadel",
+    "id": "exotic-gardens-of-bouknadel",
+    "description": "",
+    "location": {
+      "latitude": 34.0939173,
+      "longitude": -6.7649643,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

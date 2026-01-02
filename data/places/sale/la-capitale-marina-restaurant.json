@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "food/restaurant",
+  "spec": {
+    "name": "La Capitale Marina Restaurant",
+    "id": "la-capitale-marina-restaurant",
+    "description": "",
+    "location": {
+      "latitude": 34.0290115,
+      "longitude": -6.8200255,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

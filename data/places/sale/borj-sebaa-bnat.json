@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "history/bastion",
+  "spec": {
+    "name": "Borj Sebaa Bnat",
+    "id": "borj-sebaa-bnat",
+    "description": "",
+    "location": {
+      "latitude": 34.0439288,
+      "longitude": -6.8250569,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

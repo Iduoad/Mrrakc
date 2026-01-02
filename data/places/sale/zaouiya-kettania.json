@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Zaouiya Kettania ‎",
+    "id": "zaouiya-kettania",
+    "description": "It was built in 1902 by Cheikh Mohammed Ben Abdelkabir El Kettani, the founder of the Kettania Ahmedia school.<br><br>The building was originally a garden belonging to Bensaid family.",
+    "location": {
+      "latitude": 34.036415,
+      "longitude": -6.8250119,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

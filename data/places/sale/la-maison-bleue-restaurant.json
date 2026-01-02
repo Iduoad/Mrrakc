@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "food/restaurant",
+  "spec": {
+    "name": "La maison bleue restaurant",
+    "id": "la-maison-bleue-restaurant",
+    "description": "",
+    "location": {
+      "latitude": 33.9569105,
+      "longitude": -6.7268954,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

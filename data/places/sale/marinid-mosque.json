@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Marinid Mosque",
+    "id": "marinid-mosque",
+    "description": "",
+    "location": {
+      "latitude": 34.03713,
+      "longitude": -6.82644,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

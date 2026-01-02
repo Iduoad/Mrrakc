@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "nature/forest",
+  "spec": {
+    "name": "Sidi Amira Forest",
+    "id": "sidi-amira-forest",
+    "description": "",
+    "location": {
+      "latitude": 34.0312251,
+      "longitude": -6.6906836,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

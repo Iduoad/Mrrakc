@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "shopping/market",
+  "spec": {
+    "name": "Marché central of Salé",
+    "id": "march-central-of-sal",
+    "description": "",
+    "location": {
+      "latitude": 34.0365914,
+      "longitude": -6.8230898,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

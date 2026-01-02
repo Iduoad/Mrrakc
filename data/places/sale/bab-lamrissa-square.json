@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/square",
+  "spec": {
+    "name": "Bab Lamrissa Square",
+    "id": "bab-lamrissa-square",
+    "description": "",
+    "location": {
+      "latitude": 34.0340694,
+      "longitude": -6.8189387,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

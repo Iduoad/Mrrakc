@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "architecture/riad",
+  "spec": {
+    "name": "Riad Dar El Kettani",
+    "id": "riad-dar-el-kettani",
+    "description": "",
+    "location": {
+      "latitude": 34.0397423,
+      "longitude": -6.8282644,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

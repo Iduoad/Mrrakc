@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Abdellah Benhassoun Mausoleum",
+    "id": "sidi-abdellah-benhassoun-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0403691,
+      "longitude": -6.828291,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

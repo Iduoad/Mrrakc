@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/tannery",
+  "spec": {
+    "name": "Tannery of Sale",
+    "id": "tannery-of-sale",
+    "description": "",
+    "location": {
+      "latitude": 34.049722,
+      "longitude": -6.826111,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

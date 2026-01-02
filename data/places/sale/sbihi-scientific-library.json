@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "culture/library",
+  "spec": {
+    "name": "Sbihi Scientific Library",
+    "id": "sbihi-scientific-library",
+    "description": "",
+    "location": {
+      "latitude": 34.0346179,
+      "longitude": -6.8236703,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

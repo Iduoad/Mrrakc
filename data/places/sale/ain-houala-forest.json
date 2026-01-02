@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "nature/forest",
+  "spec": {
+    "name": "Ain Houala Forest",
+    "id": "ain-houala-forest",
+    "description": "",
+    "location": {
+      "latitude": 34.0255967,
+      "longitude": -6.7910957,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

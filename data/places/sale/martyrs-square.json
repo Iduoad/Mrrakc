@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "urban/square",
+  "spec": {
+    "name": "Martyrs Square",
+    "id": "martyrs-square",
+    "description": "",
+    "location": {
+      "latitude": 34.0349216,
+      "longitude": -6.8238455,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

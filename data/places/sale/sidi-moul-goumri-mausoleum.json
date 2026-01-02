@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Moul Goumri Mausoleum",
+    "id": "sidi-moul-goumri-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0412895,
+      "longitude": -6.8272331,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

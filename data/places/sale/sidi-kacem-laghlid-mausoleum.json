@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/places.json",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Sidi Kacem Laghlid Mausoleum",
+    "id": "sidi-kacem-laghlid-mausoleum",
+    "description": "",
+    "location": {
+      "latitude": 34.0367696,
+      "longitude": -6.824942,
+      "province": "province/sale"
+    },
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}
