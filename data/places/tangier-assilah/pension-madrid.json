@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/hotel",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Pension Madrid",
+    "id": "pension-madrid",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7826984,
+      "longitude": -5.8090376,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

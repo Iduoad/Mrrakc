@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/river",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Ghrifa",
+    "id": "oued-ghrifa",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.5265986,
+      "longitude": -6.0008446,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

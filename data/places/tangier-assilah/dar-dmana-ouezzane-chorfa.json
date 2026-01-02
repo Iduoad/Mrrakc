@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dar Dmana (Ouezzane Chorfa)",
+    "id": "dar-dmana-ouezzane-chorfa",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7901935,
+      "longitude": -5.8192258,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/hotel",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Barceló",
+    "id": "barcel",
+    "description": "Terrace Cafe",
+    "location": {
+      "latitude": 35.7775228,
+      "longitude": -5.8001423,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

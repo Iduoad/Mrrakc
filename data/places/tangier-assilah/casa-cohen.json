@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/shop",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Casa Cohen",
+    "id": "casa-cohen",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7883531,
+      "longitude": -5.8175907,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

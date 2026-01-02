@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/beach",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Achakkar Beach",
+    "id": "achakkar-beach",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.770752,
+      "longitude": -5.9346966,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

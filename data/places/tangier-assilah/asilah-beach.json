@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/beach",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Asilah Beach",
+    "id": "asilah-beach",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.4972359,
+      "longitude": -6.0196213,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

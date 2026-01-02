@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tanger Moments Cultural Café",
+    "id": "tanger-moments-cultural-caf",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7860103,
+      "longitude": -5.8116219,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

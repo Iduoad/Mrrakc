@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/riad",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Riad Mokhtar",
+    "id": "riad-mokhtar",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7879514,
+      "longitude": -5.8158664,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
