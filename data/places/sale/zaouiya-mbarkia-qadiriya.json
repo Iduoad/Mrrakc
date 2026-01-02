@@ -7,7 +7,7 @@
   "spec": {
     "name": "Zaouiya M'barkia Qadiriya",
     "id": "zaouiya-mbarkia-qadiriya",
-    "description": "- https://www.facebook.com/100063635263832/posts/1442048045905993/<br>- https://www.facebook.com/permalink.php/?story_fbid=746058298838308&id=744387892338682&locale=ar_AR",
+    "description": "No description available.",
     "location": {
       "latitude": 34.0369095,
       "longitude": -6.8266347,
@@ -15,7 +15,18 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://www.facebook.com/100063635263832/posts/1442048045905993/",
+        "type": "social",
+        "title": "Link"
+      },
+      {
+        "url": "https://www.facebook.com/permalink.php/?story_fbid=746058298838308&id=744387892338682&locale=ar_AR",
+        "type": "social",
+        "title": "Link"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Moulay Mekki El Alaoui School",
     "id": "moulay-mekki-el-alaoui-school",
-    "description": "This school was built by the protectorate in for children of notable aristocrats (أعيان). The school was renamed to Sour (Wall) School in 1953, when it moved to Bab Maalqa school in 1967, then Ibn Hazm in 1976 and finally to Moulay El Mekki El Alaoui in 1978.<br><br>The school was built on top of Rais Ayachi's house ruins, of the most renown city Personalities during 17th century.<br><br>- https://ar.zamane.ma/%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A3%D8%A8%D9%86%D8%A7%D8%A1-%D8%A3%D8%B9%D9%8A%D8%A7%D9%86-%D8%B3%D9%84%D8%A7-%D9%85%D8%B4%D8%AA%D9%84-%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D9%86%D8%AE/<br>- https://www.facebook.com/media/set/?set=a.641267125945470.1073741850.464087736996744&type=1&_rdr",
+    "description": "This school was built by the protectorate in for children of notable aristocrats (أعيان). The school was renamed to Sour (Wall) School in 1953, when it moved to Bab Maalqa school in 1967, then Ibn Hazm in 1976 and finally to Moulay El Mekki El Alaoui in 1978.<br><br>The school was built on top of Rais Ayachi's house ruins, of the most renown city Personalities during 17th century.<br>",
     "location": {
       "latitude": 34.0384668,
       "longitude": -6.8281531,
@@ -15,7 +15,18 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://ar.zamane.ma/%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A3%D8%A8%D9%86%D8%A7%D8%A1-%D8%A3%D8%B9%D9%8A%D8%A7%D9%86-%D8%B3%D9%84%D8%A7-%D9%85%D8%B4%D8%AA%D9%84-%D9%84%D8%B5%D9%86%D8%A7%D8%B9%D8%A9-%D8%A7%D9%84%D9%86%D8%AE/",
+        "type": "website",
+        "title": "Link"
+      },
+      {
+        "url": "https://www.facebook.com/media/set/?set=a.641267125945470.1073741850.464087736996744&type=1&_rdr",
+        "type": "social",
+        "title": "Link"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {

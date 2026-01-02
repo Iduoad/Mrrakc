@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "culture/tannery",
+  "kind": "architecture/school",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Tannery of Sale",
-    "id": "tannery-of-sale",
+    "name": "Fkih Titouani High School - Plateau",
+    "id": "fkih-titouani-high-school---plateau",
     "description": "No description available.",
     "location": {
-      "latitude": 34.049722,
-      "longitude": -6.826111,
+      "latitude": 34.0334408,
+      "longitude": -6.8061079,
       "province": "province/sale"
     },
     "people": [],

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Riad Dar Zouaoui",
     "id": "riad-dar-zouaoui",
-    "description": "Built in 19th century by Mohammed Zouaoui who was Moqadem of the Zaouiya Tijaniya and Mouaqet for the Grand Mosque of Sale.<br><br>https://www.youtube.com/watch?v=NZ7Fxw_aGBw",
+    "description": "Built in 19th century by Mohammed Zouaoui who was Moqadem of the Zaouiya Tijaniya and Mouaqet for the Grand Mosque of Sale.<br><br>",
     "location": {
       "latitude": 34.0399926,
       "longitude": -6.8270045,
@@ -15,7 +15,13 @@
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=NZ7Fxw_aGBw",
+        "type": "video",
+        "title": "Link"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {
