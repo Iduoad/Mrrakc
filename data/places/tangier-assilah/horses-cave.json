@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/cave",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Horses Cave",
+    "id": "horses-cave",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7613313,
+      "longitude": -5.9355535,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

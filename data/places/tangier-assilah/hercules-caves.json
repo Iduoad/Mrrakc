@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/cave",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hercules Caves",
+    "id": "hercules-caves",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7599335,
+      "longitude": -5.9392319,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

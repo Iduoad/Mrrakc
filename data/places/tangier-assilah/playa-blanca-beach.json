@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/beach",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Playa Blanca Beach",
+    "id": "playa-blanca-beach",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.8243373,
+      "longitude": -5.7229071,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

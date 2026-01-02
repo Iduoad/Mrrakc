@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/hotel",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Palais Zahia Hotel & Spa",
+    "id": "palais-zahia-hotel-spa",
+    "description": "Terrace",
+    "location": {
+      "latitude": 35.7856986,
+      "longitude": -5.8102749,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

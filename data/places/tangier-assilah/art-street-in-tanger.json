@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/street-art",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Art Street in Tanger",
+    "id": "art-street-in-tanger",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.7811524,
+      "longitude": -5.8091474,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

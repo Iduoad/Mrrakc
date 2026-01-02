@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/cave",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Pigeon Cave",
+    "id": "pigeon-cave",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.4324016,
+      "longitude": -6.0598277,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

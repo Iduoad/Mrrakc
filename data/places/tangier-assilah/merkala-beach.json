@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/beach",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Merkala Beach",
+    "id": "merkala-beach",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.794296,
+      "longitude": -5.8347052,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

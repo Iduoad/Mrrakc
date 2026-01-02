@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tangier Fortifications Interpretation Center Dar El Baroud",
+    "id": "tangier-fortifications-interpretation-center-dar-el-baroud",
+    "description": "No description available.",
+    "location": {
+      "latitude": 35.788652,
+      "longitude": -5.8082073,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
