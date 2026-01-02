@@ -9,8 +9,8 @@
     "id": "mnar-park",
     "description": "No description available.",
     "location": {
-      "latitude": 35.808723,
-      "longitude": -5.7414907,
+      "latitude": -5.7414907,
+      "longitude": 35.808723,
       "province": "province/tangier-assilah"
     },
     "people": [],

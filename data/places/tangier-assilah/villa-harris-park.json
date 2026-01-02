@@ -9,8 +9,8 @@
     "id": "villa-harris-park",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7830876,
-      "longitude": -5.7652395,
+      "latitude": -5.7652395,
+      "longitude": 35.7830876,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "krikia-tower",
     "description": "No description available.",
     "location": {
-      "latitude": 35.465031,
-      "longitude": -6.0418947,
+      "latitude": -6.0418947,
+      "longitude": 35.465031,
       "province": "province/tangier-assilah"
     },
     "people": [],

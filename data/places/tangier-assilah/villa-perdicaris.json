@@ -9,8 +9,8 @@
     "id": "villa-perdicaris",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7921929,
-      "longitude": -5.8604027,
+      "latitude": -5.8604027,
+      "longitude": 35.7921929,
       "province": "province/tangier-assilah"
     },
     "people": [],

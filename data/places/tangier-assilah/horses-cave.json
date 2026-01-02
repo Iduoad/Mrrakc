@@ -9,8 +9,8 @@
     "id": "horses-cave",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7613313,
-      "longitude": -5.9355535,
+      "latitude": -5.9355535,
+      "longitude": 35.7613313,
       "province": "province/tangier-assilah"
     },
     "people": [],

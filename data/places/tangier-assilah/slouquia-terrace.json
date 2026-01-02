@@ -9,8 +9,8 @@
     "id": "slouquia-terrace",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7946677,
-      "longitude": -5.9085578,
+      "latitude": -5.9085578,
+      "longitude": 35.7946677,
       "province": "province/tangier-assilah"
     },
     "people": [],

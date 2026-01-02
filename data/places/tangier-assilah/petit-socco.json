@@ -9,8 +9,8 @@
     "id": "petit-socco",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7854969,
-      "longitude": -5.8106326,
+      "latitude": -5.8106326,
+      "longitude": 35.7854969,
       "province": "province/tangier-assilah"
     },
     "people": [],

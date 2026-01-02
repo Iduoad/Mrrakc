@@ -9,8 +9,8 @@
     "id": "macondo",
     "description": "Terrace",
     "location": {
-      "latitude": 35.7881004,
-      "longitude": -5.8123942,
+      "latitude": -5.8123942,
+      "longitude": 35.7881004,
       "province": "province/tangier-assilah"
     },
     "people": [],

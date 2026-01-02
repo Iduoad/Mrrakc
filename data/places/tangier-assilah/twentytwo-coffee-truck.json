@@ -9,8 +9,8 @@
     "id": "twentytwo-coffee-truck",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7940093,
-      "longitude": -5.8324122,
+      "latitude": -5.8324122,
+      "longitude": 35.7940093,
       "province": "province/tangier-assilah"
     },
     "people": [],

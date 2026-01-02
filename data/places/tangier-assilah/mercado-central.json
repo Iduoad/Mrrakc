@@ -9,8 +9,8 @@
     "id": "mercado-central",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7846303,
-      "longitude": -5.8122289,
+      "latitude": -5.8122289,
+      "longitude": 35.7846303,
       "province": "province/tangier-assilah"
     },
     "people": [],

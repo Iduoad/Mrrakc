@@ -9,8 +9,8 @@
     "id": "ibn-battouta-museum",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7890618,
-      "longitude": -5.8144173,
+      "latitude": -5.8144173,
+      "longitude": 35.7890618,
       "province": "province/tangier-assilah"
     },
     "people": [],

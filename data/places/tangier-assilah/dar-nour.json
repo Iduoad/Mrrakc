@@ -9,8 +9,8 @@
     "id": "dar-nour",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7879592,
-      "longitude": -5.8139965,
+      "latitude": -5.8139965,
+      "longitude": 35.7879592,
       "province": "province/tangier-assilah"
     },
     "people": [],

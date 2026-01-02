@@ -9,8 +9,8 @@
     "id": "bouhendia-beach",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7829259,
-      "longitude": -5.9307424,
+      "latitude": -5.9307424,
+      "longitude": 35.7829259,
       "province": "province/tangier-assilah"
     },
     "people": [],

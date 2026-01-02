@@ -9,8 +9,8 @@
     "id": "municipality-building",
     "description": "This is one of the historical buildings of Oujda dating to colonial era. It was declared as a national patrimony in 2018. Nice for street photographers.",
     "location": {
-      "latitude": 34.6835741,
-      "longitude": -1.9150189,
+      "latitude": -1.9150189,
+      "longitude": 34.6835741,
       "province": "province/oujda-angad"
     },
     "people": [],

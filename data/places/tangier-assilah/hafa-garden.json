@@ -9,8 +9,8 @@
     "id": "hafa-garden",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7912204,
-      "longitude": -5.8183591,
+      "latitude": -5.8183591,
+      "longitude": 35.7912204,
       "province": "province/tangier-assilah"
     },
     "people": [],

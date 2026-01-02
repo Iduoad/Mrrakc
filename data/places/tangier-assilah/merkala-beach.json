@@ -9,8 +9,8 @@
     "id": "merkala-beach",
     "description": "No description available.",
     "location": {
-      "latitude": 35.794296,
-      "longitude": -5.8347052,
+      "latitude": -5.8347052,
+      "longitude": 35.794296,
       "province": "province/tangier-assilah"
     },
     "people": [],

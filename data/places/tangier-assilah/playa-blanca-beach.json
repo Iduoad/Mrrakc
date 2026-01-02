@@ -9,8 +9,8 @@
     "id": "playa-blanca-beach",
     "description": "No description available.",
     "location": {
-      "latitude": 35.8243373,
-      "longitude": -5.7229071,
+      "latitude": -5.7229071,
+      "longitude": 35.8243373,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "ghaylane-fortress",
     "description": "No description available.",
     "location": {
-      "latitude": 35.7795848,
-      "longitude": -5.7715313,
+      "latitude": -5.7715313,
+      "longitude": 35.7795848,
       "province": "province/tangier-assilah"
     },
     "people": [],
