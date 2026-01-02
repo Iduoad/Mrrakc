@@ -1,19 +1,31 @@
 ---
-import GameLayout from '../../layouts/GameLayout.astro';
-import { getCollection, getEntry, render } from 'astro:content';
+import GameLayout from '../../../layouts/GameLayout.astro';
+import { getCollection, render } from 'astro:content';
 import { Image } from 'astro:assets';
 
 export async function getStaticPaths() {
-  const gameSteps = await getCollection('games');
-  return gameSteps.map(step => ({
-    params: { slug: step.id },
-    props: { step },
-  }));
+  const allGameSteps = await getCollection('games');
+  // Filter out index pages (those without slashes)
+  const steps = allGameSteps.filter(step => step.id.includes('/'));
+  
+  return steps.map(step => {
+    const parts = step.id.split('/');
+    if (parts.length < 2) {
+      console.warn(`Skipping game step with invalid ID format: ${step.id}`);
+      return null;
+    }
+    const [gameSlug, stepSlug] = parts;
+    return {
+      params: { game: gameSlug, slug: stepSlug.replace(/\.(md|mdx)$/, '') },
+      props: { step },
+    };
+  }).filter(Boolean);
 }
 
 const { step } = Astro.props;
-const { title, description, location, hints, answer, nextStep, heroImage, order } = step.data;
+const { title, description, nextStep, heroImage } = step.data;
 const { Content } = await render(step);
+const { game } = Astro.params;
 ---
 
 <GameLayout title={title} description={description}>
