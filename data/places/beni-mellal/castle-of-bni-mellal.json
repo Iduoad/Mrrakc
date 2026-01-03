@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/kasbah",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Castle of Béni Mellal",
+    "id": "castle-of-bni-mellal",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.3375213,
+      "longitude": 32.3246584,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

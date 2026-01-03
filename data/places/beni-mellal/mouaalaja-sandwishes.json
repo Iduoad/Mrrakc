@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mouaalaja Sandwishes",
+    "id": "mouaalaja-sandwishes",
+    "description": "Mouaalaja are street food sandwishes prepared with vegetables, tuna, luncheon...",
+    "location": {
+      "latitude": -6.3528709,
+      "longitude": 32.3361144,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

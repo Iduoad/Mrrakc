@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/kasbah",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Black Sultane's Castle",
+    "id": "black-sultanes-castle",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.2508895,
+      "longitude": 32.3818925,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
