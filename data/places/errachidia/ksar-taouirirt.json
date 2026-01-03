@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/ksar",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ksar Taouirirt ‎",
+    "id": "ksar-taouirirt",
+    "description": "No description available.",
+    "location": {
+      "latitude": -4.3736512,
+      "longitude": 31.9157496,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/ksar",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ksar Al Hibous",
+    "id": "ksar-al-hibous",
+    "description": "No description available.",
+    "location": {
+      "latitude": -4.3531937,
+      "longitude": 31.8825832,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

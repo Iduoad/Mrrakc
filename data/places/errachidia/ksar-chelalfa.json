@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/ksar",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ksar Chelalfa",
+    "id": "ksar-chelalfa",
+    "description": "No description available.",
+    "location": {
+      "latitude": -4.2533893,
+      "longitude": 31.4576332,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

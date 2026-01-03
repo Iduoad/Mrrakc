@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/ksar",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ksar Zaouia Sidi Boubker",
+    "id": "ksar-zaouia-sidi-boubker",
+    "description": "Oldest in Sifa<br><br>",
+    "location": {
+      "latitude": -4.3096461,
+      "longitude": 31.3228048,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.facebook.com/433066480598700/photos/a.433158873922794/448113532427328/?type=3",
+        "type": "social",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

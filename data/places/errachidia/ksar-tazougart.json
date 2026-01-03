@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/ksar",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ksar Tazougart",
+    "id": "ksar-tazougart",
+    "description": "No description available.",
+    "location": {
+      "latitude": -3.7854209,
+      "longitude": 32.0827789,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
