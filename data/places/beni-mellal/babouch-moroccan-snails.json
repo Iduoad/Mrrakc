@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Babouch (Moroccan Snails)",
+    "id": "babouch-moroccan-snails",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.3533714,
+      "longitude": 32.3341019,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

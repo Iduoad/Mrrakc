@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zaouiya Kettaniya",
+    "id": "zaouiya-kettaniya",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.3536093,
+      "longitude": 32.3359094,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

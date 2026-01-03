@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Biranzarane Square",
+    "id": "biranzarane-square",
+    "description": "AKA The Great Kasbah Square",
+    "location": {
+      "latitude": -6.3538712,
+      "longitude": 32.3332167,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

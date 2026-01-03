@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bab El Had",
+    "id": "bab-el-had",
+    "description": "No description available.",
+    "location": {
+      "latitude": -7.0038965,
+      "longitude": 31.7313412,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

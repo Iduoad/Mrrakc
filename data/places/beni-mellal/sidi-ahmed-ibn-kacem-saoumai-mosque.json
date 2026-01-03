@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Ahmed Ibn Kacem Saoumai Mosque",
+    "id": "sidi-ahmed-ibn-kacem-saoumai-mosque",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.3349099,
+      "longitude": 32.3334541,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

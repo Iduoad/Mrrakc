@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/historic-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Fechtala Historical City",
+    "id": "fechtala-historical-city",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.2496038,
+      "longitude": 32.3829142,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

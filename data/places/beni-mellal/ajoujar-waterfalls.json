@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/water-source",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ajoujar Waterfalls",
+    "id": "ajoujar-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.2559333,
+      "longitude": 32.3701244,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

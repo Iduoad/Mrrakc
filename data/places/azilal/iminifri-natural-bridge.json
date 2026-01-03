@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/cave",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Iminifri Natural Bridge",
+    "id": "iminifri-natural-bridge",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.9713946,
+      "longitude": 31.7242,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

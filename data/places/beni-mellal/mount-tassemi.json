@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/mountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mount Tassemi",
+    "id": "mount-tassemi",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.2571998,
+      "longitude": 32.3038838,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
