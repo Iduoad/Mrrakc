@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Msala Tower",
+    "id": "el-msala-tower",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3690319,
+      "longitude": 35.5681807,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

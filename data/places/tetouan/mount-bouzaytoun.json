@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/mountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mount Bouzaytoun",
+    "id": "mount-bouzaytoun",
+    "description": "1215m",
+    "location": {
+      "latitude": -5.3335207,
+      "longitude": 35.4911089,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

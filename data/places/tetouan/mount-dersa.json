@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/mountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mount Dersa",
+    "id": "mount-dersa",
+    "description": "541m",
+    "location": {
+      "latitude": -5.3698223,
+      "longitude": 35.5748006,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

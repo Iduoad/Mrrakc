@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Medina's Tannery",
+    "id": "medinas-tannery",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3678003,
+      "longitude": 35.5729576,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

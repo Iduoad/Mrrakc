@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Casa Pintor Ahmed Amrani",
+    "id": "casa-pintor-ahmed-amrani",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3646846,
+      "longitude": 35.5700681,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

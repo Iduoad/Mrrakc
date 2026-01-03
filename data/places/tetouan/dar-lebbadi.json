@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/riad",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dar Lebbadi",
+    "id": "dar-lebbadi",
+    "description": "AKA Casa de Franco",
+    "location": {
+      "latitude": -5.3657862,
+      "longitude": 35.5712075,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

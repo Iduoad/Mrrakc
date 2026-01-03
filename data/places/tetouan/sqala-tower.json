@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sqala Tower",
+    "id": "sqala-tower",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3635749,
+      "longitude": 35.5704561,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

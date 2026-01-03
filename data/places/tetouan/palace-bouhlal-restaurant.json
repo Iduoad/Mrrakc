@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Palace Bouhlal Restaurant",
+    "id": "palace-bouhlal-restaurant",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.36585,
+      "longitude": 35.5719607,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

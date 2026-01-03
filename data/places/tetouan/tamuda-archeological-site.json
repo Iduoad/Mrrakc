@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/archaeological-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tamuda Archeological Site",
+    "id": "tamuda-archeological-site",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.4109152,
+      "longitude": 35.5592846,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
