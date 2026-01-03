@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mohammed VI Museum of Modern and Contemporary Art",
+    "id": "mohammed-vi-museum-of-modern-and-contemporary-art",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8327243,
+      "longitude": 34.0150939,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

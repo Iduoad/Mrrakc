@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Assounna Mosque",
+    "id": "assounna-mosque",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.833078,
+      "longitude": 34.0134618,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.visitrabat.com/en/lieux/moquee-as-sounna/",
+        "type": "website",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

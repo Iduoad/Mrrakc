@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/cinema",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cinéma Renaissance",
+    "id": "cinma-renaissance",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8371799,
+      "longitude": 34.0201215,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nouzhat Hassan Garden",
+    "id": "nouzhat-hassan-garden",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.834095,
+      "longitude": 34.0222256,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

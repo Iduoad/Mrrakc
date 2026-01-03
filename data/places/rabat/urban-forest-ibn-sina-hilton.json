@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/forest",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Urban Forest Ibn Sina \"Hilton\"",
+    "id": "urban-forest-ibn-sina-hilton",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8424701,
+      "longitude": 33.9860588,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

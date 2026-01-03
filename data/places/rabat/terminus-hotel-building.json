@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Terminus Hotel Building",
+    "id": "terminus-hotel-building",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8350457,
+      "longitude": 34.0158403,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

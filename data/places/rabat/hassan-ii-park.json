@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hassan II Park",
+    "id": "hassan-ii-park",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8307191,
+      "longitude": 34.0014171,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

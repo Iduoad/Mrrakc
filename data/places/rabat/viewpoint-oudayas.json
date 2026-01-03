@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Viewpoint Oudayas",
+    "id": "viewpoint-oudayas",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8356382,
+      "longitude": 34.0329784,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

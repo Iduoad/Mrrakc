@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Great viewpoint of Oudaya",
+    "id": "great-viewpoint-of-oudaya",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.835605,
+      "longitude": 34.0332451,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

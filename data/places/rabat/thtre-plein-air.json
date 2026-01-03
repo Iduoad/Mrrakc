@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/theatre",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Théâtre plein air",
+    "id": "thtre-plein-air",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8286497,
+      "longitude": 34.0016051,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

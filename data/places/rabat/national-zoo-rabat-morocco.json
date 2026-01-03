@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/zoo",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "National Zoo",
+    "id": "national-zoo",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.89435,
+      "longitude": 33.955304,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

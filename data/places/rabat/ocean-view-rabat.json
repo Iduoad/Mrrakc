@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ocean view RABAT",
+    "id": "ocean-view-rabat",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8400789,
+      "longitude": 34.0375839,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
