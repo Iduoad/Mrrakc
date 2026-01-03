@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar El Haj Haroune",
+    "id": "ksar-el-haj-haroune",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2549491,
+      "longitude": 31.2854656,
       "province": "province/errachidia"
     },
     "people": [],

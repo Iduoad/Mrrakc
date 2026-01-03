@@ -5,17 +5,23 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Mezguida",
+    "id": "ksar-mezguida",
+    "description": "Ksar Soultani - By Moulay Ismail<br><br>",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2577141,
+      "longitude": 31.323473,
       "province": "province/errachidia"
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=euTKBvJ0_n0",
+        "type": "video",
+        "title": "Link"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {

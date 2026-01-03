@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Tighadouine",
+    "id": "ksar-tighadouine",
+    "description": "Was inhabited by Moulay Ismail",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2216853,
+      "longitude": 31.2494485,
       "province": "province/errachidia"
     },
     "people": [],

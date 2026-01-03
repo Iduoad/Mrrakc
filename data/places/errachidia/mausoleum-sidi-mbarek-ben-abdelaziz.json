@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/ksar",
+  "kind": "religion/mausoleum",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Mausoleum Sidi Mbarek Ben Abdelaziz",
+    "id": "mausoleum-sidi-mbarek-ben-abdelaziz",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2172454,
+      "longitude": 31.2463397,
       "province": "province/errachidia"
     },
     "people": [],

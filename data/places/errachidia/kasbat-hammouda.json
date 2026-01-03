@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Kasbat Hammouda",
+    "id": "kasbat-hammouda",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.264131,
+      "longitude": 31.2553086,
       "province": "province/errachidia"
     },
     "people": [],

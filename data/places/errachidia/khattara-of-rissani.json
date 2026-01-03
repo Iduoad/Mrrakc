@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/ksar",
+  "kind": "history/historic-site",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Khattara of Rissani",
+    "id": "khattara-of-rissani",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.339846,
+      "longitude": 31.3282474,
       "province": "province/errachidia"
     },
     "people": [],

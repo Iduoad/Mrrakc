@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Charfat Bahaj",
+    "id": "ksar-charfat-bahaj",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.29136,
+      "longitude": 31.238109,
       "province": "province/errachidia"
     },
     "people": [],

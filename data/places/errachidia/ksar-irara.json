@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Irara",
+    "id": "ksar-irara",
+    "description": "5th in Sijelmessa2th in Sfalat11th Century",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2762868,
+      "longitude": 31.2253976,
       "province": "province/errachidia"
     },
     "people": [],

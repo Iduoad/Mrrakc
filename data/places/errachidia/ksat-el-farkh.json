@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksat El Farkh",
+    "id": "ksat-el-farkh",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2360376,
+      "longitude": 31.2893447,
       "province": "province/errachidia"
     },
     "people": [],

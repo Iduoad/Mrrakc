@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Sidi El Ghazi Ben Larbi",
+    "id": "ksar-sidi-el-ghazi-ben-larbi",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2546268,
+      "longitude": 31.2334439,
       "province": "province/errachidia"
     },
     "people": [],

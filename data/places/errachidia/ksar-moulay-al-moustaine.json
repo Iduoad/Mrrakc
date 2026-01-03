@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Moulay Al Moustaine",
+    "id": "ksar-moulay-al-moustaine",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2632684,
+      "longitude": 31.2786057,
       "province": "province/errachidia"
     },
     "people": [],
