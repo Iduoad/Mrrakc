@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/riad",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El reducto",
+    "id": "el-reducto",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3698998,
+      "longitude": 35.571075,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

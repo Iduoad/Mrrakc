@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/historic-site",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dar Torres Palace",
+    "id": "dar-torres-palace",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3697836,
+      "longitude": 35.5716897,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

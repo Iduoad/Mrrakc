@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "EQVITAS - Equitativa insurance company",
+    "id": "eqvitas-equitativa-insurance-company",
+    "description": "1946",
+    "location": {
+      "latitude": -5.3704861,
+      "longitude": 35.5695427,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

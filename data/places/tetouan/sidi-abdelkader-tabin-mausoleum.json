@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Abdelkader Tabin Mausoleum",
+    "id": "sidi-abdelkader-tabin-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3646661,
+      "longitude": 35.5684803,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.tetouanclub.com/listing/darih-abdelkader-tabin-tetouan/",
+        "type": "website",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

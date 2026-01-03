@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Museum of Religious Heritage / Lucash Madrasa",
+    "id": "museum-of-religious-heritage-lucash-madrasa",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.3679545,
+      "longitude": 35.57164,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

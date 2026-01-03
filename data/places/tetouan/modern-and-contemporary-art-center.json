@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Modern and Contemporary Art Center",
+    "id": "modern-and-contemporary-art-center",
+    "description": "No description available.",
+    "location": {
+      "latitude": -5.366966,
+      "longitude": 35.5663232,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
