@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bab Fouaqa",
+    "id": "bab-fouaqa",
+    "description": "Royal Palace Entry",
+    "location": {
+      "latitude": -6.8303609,
+      "longitude": 34.0096369,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Moulay El Mekki Mosque",
+    "id": "moulay-el-mekki-mosque",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8389785,
+      "longitude": 34.0256612,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.visitrabat.com/en/lieux/mosquee-moulay-mekki/",
+        "type": "website",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

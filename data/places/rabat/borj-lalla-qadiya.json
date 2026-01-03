@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Borj Lalla Qadiya",
+    "id": "borj-lalla-qadiya",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8312412,
+      "longitude": 34.0274895,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

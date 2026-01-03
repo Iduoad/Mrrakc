@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Fateh Mausoleum",
+    "id": "sidi-fateh-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8398291,
+      "longitude": 34.0277511,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

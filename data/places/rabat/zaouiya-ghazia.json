@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zaouiya Ghazia",
+    "id": "zaouiya-ghazia",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8377957,
+      "longitude": 34.0237727,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

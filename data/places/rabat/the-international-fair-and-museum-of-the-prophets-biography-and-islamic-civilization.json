@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "The International Fair and Museum of the Prophet's Biography and Islamic Civilization",
+    "id": "the-international-fair-and-museum-of-the-prophets-biography-and-islamic-civilization",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8757815,
+      "longitude": 33.9703872,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

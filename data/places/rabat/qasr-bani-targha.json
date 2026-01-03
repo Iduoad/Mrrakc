@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Qasr Bani Targha",
+    "id": "qasr-bani-targha",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.837269,
+      "longitude": 34.0311087,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

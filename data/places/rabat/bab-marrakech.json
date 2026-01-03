@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bab Marrakech",
+    "id": "bab-marrakech",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8482154,
+      "longitude": 34.0070044,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

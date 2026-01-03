@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hotel Berlin Building",
+    "id": "hotel-berlin-building",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8375182,
+      "longitude": 34.0212369,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "St. Peter's Cathedral",
+    "id": "st-peters-cathedral",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8312645,
+      "longitude": 34.0178915,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

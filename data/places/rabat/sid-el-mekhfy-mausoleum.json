@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sid El Mekhfy Mausoleum",
+    "id": "sid-el-mekhfy-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.801465,
+      "longitude": 33.973097,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

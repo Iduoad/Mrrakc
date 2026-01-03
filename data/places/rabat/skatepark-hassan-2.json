@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/playground",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "skatepark Hassan 2",
+    "id": "skatepark-hassan-2",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8346442,
+      "longitude": 33.9975053,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

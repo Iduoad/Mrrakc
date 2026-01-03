@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zaouiya Tijania",
+    "id": "zaouiya-tijania",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8352553,
+      "longitude": 34.027614,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

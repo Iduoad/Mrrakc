@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/school",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "M'hammed Guessous School",
+    "id": "mhammed-guessous-school",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8440615,
+      "longitude": 34.0139604,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

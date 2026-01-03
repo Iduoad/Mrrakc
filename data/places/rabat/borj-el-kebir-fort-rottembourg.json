@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Borj El Kebir (Fort Rottembourg)",
+    "id": "borj-el-kebir-fort-rottembourg",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8510019,
+      "longitude": 34.0249698,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

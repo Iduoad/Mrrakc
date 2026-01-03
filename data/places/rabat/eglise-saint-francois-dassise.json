@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Eglise Saint Francois d'Assise",
+    "id": "eglise-saint-francois-dassise",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8388633,
+      "longitude": 34.0190537,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

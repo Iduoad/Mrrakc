@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Borj Es Sirat",
+    "id": "borj-es-sirat",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8444554,
+      "longitude": 34.0314172,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Marrakesh Arts Gallery Building",
+    "id": "marrakesh-arts-gallery-building",
+    "description": "No description available.",
+    "location": {
+      "latitude": -6.8373179,
+      "longitude": 34.0214835,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
