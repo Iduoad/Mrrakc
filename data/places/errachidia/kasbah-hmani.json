@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Kasbah Hmani",
+    "id": "kasbah-hmani",
+    "description": "AKA Kasbah Moulay Ali<br>Moulay Ali is one of Moulay Ismail Grandchildren",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2177398,
+      "longitude": 31.2478742,
       "province": "province/errachidia"
     },
     "people": [],

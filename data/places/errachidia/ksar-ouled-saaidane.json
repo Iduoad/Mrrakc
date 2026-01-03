@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Ouled Saaidane",
+    "id": "ksar-ouled-saaidane",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.3147802,
+      "longitude": 31.2855202,
       "province": "province/errachidia"
     },
     "people": [],

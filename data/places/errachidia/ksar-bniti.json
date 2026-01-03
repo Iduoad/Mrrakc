@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Bniti",
+    "id": "ksar-bniti",
+    "description": "State: inhabited",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2158594,
+      "longitude": 31.2492557,
       "province": "province/errachidia"
     },
     "people": [],

@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Tabouassamt",
+    "id": "ksar-tabouassamt",
+    "description": "16th Century before the fall of Sijelmassa",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2750041,
+      "longitude": 31.2397234,
       "province": "province/errachidia"
     },
     "people": [],

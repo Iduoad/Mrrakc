@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Sidi El Ghazi Abou Kacem",
+    "id": "ksar-sidi-el-ghazi-abou-kacem",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2472116,
+      "longitude": 31.2354191,
       "province": "province/errachidia"
     },
     "people": [],

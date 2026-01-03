@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Dar Beida",
+    "id": "ksar-dar-beida",
+    "description": "Built by Mohammed Ibn Abdellah III",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2232717,
+      "longitude": 31.2939612,
       "province": "province/errachidia"
     },
     "people": [],

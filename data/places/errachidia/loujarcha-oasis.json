@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/ksar",
+  "kind": "nature/oasis",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Loujarcha Oasis",
+    "id": "loujarcha-oasis",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.3239332,
+      "longitude": 31.3132359,
       "province": "province/errachidia"
     },
     "people": [],

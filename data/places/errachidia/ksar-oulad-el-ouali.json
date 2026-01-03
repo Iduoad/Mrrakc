@@ -5,17 +5,23 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Oulad El Ouali",
+    "id": "ksar-oulad-el-ouali",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2834822,
+      "longitude": 31.2215563,
       "province": "province/errachidia"
     },
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://www.facebook.com/region.rissani/posts/2282620948729898/",
+        "type": "social",
+        "title": "Link"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {

@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Taoughart",
+    "id": "ksar-taoughart",
+    "description": "19th Century by Sidi Ahmed Ben Ali. <br><br>Taoughart is Desert in Amazighi<br><br>State: Empty",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2269198,
+      "longitude": 31.2513236,
       "province": "province/errachidia"
     },
     "people": [],

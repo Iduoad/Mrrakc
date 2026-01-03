@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Oulad Limam",
+    "id": "ksar-oulad-limam",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2846703,
+      "longitude": 31.3343776,
       "province": "province/errachidia"
     },
     "people": [],

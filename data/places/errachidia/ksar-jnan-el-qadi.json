@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Jnan El Qadi",
+    "id": "ksar-jnan-el-qadi",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2512897,
+      "longitude": 31.2710034,
       "province": "province/errachidia"
     },
     "people": [],

@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/ksar",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ksar Abu Aam",
+    "id": "ksar-abu-aam",
+    "description": "14Th Century - Alaouite Before The fall of Sijelmassa. Mly Ali Cherif was living in the Ksar.<br><br>You will find Dar Mly Ali Cherif aka Zaouiya El Hajr<br><br>",
+    "location": {
+      "latitude": -4.268349,
+      "longitude": 31.2821928,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=2IOyVLkWyTc",
+        "type": "video",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Ksar Oulad Abdelkader",
+    "id": "ksar-oulad-abdelkader",
+    "description": "State: Inhabited",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2156695,
+      "longitude": 31.2498293,
       "province": "province/errachidia"
     },
     "people": [],

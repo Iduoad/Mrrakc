@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/ksar",
+  "kind": "religion/mausoleum",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Sidi Ghazi Abou Kacem Ben Mohammed",
+    "id": "sidi-ghazi-abou-kacem-ben-mohammed",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2466893,
+      "longitude": 31.2351215,
       "province": "province/errachidia"
     },
     "people": [],

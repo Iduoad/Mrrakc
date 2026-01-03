@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Kasbah Sidi Mellouk",
+    "id": "kasbah-sidi-mellouk",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2591113,
+      "longitude": 31.2836472,
       "province": "province/errachidia"
     },
     "people": [],

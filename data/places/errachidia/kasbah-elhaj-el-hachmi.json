@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
-    "description": "No description available.",
+    "name": "Kasbah ElHaj El Hachmi",
+    "id": "kasbah-elhaj-el-hachmi",
+    "description": "Was home to Alaouite Chorfa<br><br>State: Inhabited",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2238157,
+      "longitude": 31.2495354,
       "province": "province/errachidia"
     },
     "people": [],

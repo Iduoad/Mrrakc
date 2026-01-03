@@ -5,12 +5,12 @@
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Ksar Sidi Ali Ben Abdellah",
+    "id": "ksar-sidi-ali-ben-abdellah",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2683611,
+      "longitude": 31.2233694,
       "province": "province/errachidia"
     },
     "people": [],

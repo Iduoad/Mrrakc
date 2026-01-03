@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/ksar",
+  "kind": "nature/lake",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Oued Ghris Lake",
+    "id": "oued-ghris-lake",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.3169772,
+      "longitude": 31.3110266,
       "province": "province/errachidia"
     },
     "people": [],

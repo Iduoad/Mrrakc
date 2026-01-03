@@ -1,16 +1,16 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/ksar",
+  "kind": "religion/mausoleum",
   "metadata": {
     "tags": []
   },
   "spec": {
-    "name": "Ksar Ouled Yahya",
-    "id": "ksar-ouled-yahya",
+    "name": "Mausoleum Sidi Ahmed Ben Ali",
+    "id": "mausoleum-sidi-ahmed-ben-ali",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2971339,
-      "longitude": 31.2329178,
+      "latitude": -4.2271108,
+      "longitude": 31.2505699,
       "province": "province/errachidia"
     },
     "people": [],
