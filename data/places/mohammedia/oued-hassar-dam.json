@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Hassar Dam",
+    "id": "oued-hassar-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.5729516,
+      "latitude": -7.4323647,
+      "province": "province/mohammedia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

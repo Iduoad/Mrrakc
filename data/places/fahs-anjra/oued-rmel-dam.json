@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Rmel Dam",
+    "id": "oued-rmel-dam",
+    "description": "AKA Tanger Med",
+    "location": {
+      "longitude": 35.8717242,
+      "latitude": -5.4764241,
+      "province": "province/fahs-anjra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

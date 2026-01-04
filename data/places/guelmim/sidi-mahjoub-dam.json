@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Mahjoub Dam",
+    "id": "sidi-mahjoub-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 29.2555003,
+      "latitude": -9.4442404,
+      "province": "province/guelmim"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

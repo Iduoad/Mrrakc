@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aguelmame Tichoukt Lake",
+    "id": "aguelmame-tichoukt-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.3945104,
+      "latitude": -4.6518157,
+      "province": "province/boulemane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

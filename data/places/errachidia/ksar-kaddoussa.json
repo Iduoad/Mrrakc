@@ -9,8 +9,8 @@
     "id": "ksar-kaddoussa",
     "description": "No description available.",
     "location": {
-      "latitude": -3.783515,
       "longitude": 32.160101,
+      "latitude": -3.783515,
       "province": "province/errachidia"
     },
     "people": [],

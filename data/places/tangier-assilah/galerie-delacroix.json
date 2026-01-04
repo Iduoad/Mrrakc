@@ -9,8 +9,8 @@
     "id": "galerie-delacroix",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8126858,
       "longitude": 35.7815052,
+      "latitude": -5.8126858,
       "province": "province/tangier-assilah"
     },
     "people": [],

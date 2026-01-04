@@ -9,8 +9,8 @@
     "id": "blanco-riad-htel-restaurant",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3700689,
       "longitude": 35.5707311,
+      "latitude": -5.3700689,
       "province": "province/tetouan"
     },
     "people": [],

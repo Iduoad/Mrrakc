@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Kaicher Source",
+    "id": "ain-kaicher-source",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.7555718,
+      "latitude": -6.576407,
+      "province": "province/khouribga"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

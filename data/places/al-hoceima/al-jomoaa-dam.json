@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Al Jomoaa Dam",
+    "id": "al-jomoaa-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.9362777,
+      "latitude": -4.3340374,
+      "province": "province/al-hoceima"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

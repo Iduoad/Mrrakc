@@ -9,8 +9,8 @@
     "id": "beit-hahayim-jewish-cemetery-of-tangier",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8110614,
       "longitude": 35.7832978,
+      "latitude": -5.8110614,
       "province": "province/tangier-assilah"
     },
     "people": [],

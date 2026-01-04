@@ -9,8 +9,8 @@
     "id": "bab-sada",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3633101,
       "longitude": 35.5732314,
+      "latitude": -5.3633101,
       "province": "province/tetouan"
     },
     "people": [],

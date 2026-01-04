@@ -9,8 +9,8 @@
     "id": "monte-bouanane",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3676125,
       "longitude": 35.5247647,
+      "latitude": -5.3676125,
       "province": "province/tetouan"
     },
     "people": [],

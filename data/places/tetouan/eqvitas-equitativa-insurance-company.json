@@ -9,8 +9,8 @@
     "id": "eqvitas-equitativa-insurance-company",
     "description": "1946",
     "location": {
-      "latitude": -5.3704861,
       "longitude": 35.5695427,
+      "latitude": -5.3704861,
       "province": "province/tetouan"
     },
     "people": [],

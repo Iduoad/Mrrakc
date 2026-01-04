@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Batmat Rma Dam",
+    "id": "batmat-rma-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.2903341,
+      "latitude": -2.8639004,
+      "province": "province/taourirt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Boulaouane Dam",
+    "id": "boulaouane-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.1808751,
+      "latitude": -8.7972425,
+      "province": "province/chichaoua"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

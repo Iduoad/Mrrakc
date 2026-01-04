@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Amejgag Gorges",
+    "id": "amejgag-gorges",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.4651477,
+      "latitude": -6.2077149,
+      "province": "province/tinghir"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

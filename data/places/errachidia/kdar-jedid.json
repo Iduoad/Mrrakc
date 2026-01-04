@@ -9,8 +9,8 @@
     "id": "kdar-jedid",
     "description": "Main Ksar of El Ghorfa.<br><br>13th Century<br><br>State: inhabited",
     "location": {
-      "latitude": -4.2231494,
       "longitude": 31.2530193,
+      "latitude": -4.2231494,
       "province": "province/errachidia"
     },
     "people": [],

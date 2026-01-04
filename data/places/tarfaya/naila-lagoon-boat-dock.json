@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Naila Lagoon Boat Dock",
+    "id": "naila-lagoon-boat-dock",
+    "description": "No description available.",
+    "location": {
+      "longitude": 28.0289984,
+      "latitude": -12.2405602,
+      "province": "province/tarfaya"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

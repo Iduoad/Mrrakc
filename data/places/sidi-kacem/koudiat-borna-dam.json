@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Koudiat Borna Dam",
+    "id": "koudiat-borna-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.4675735,
+      "latitude": -5.607742,
+      "province": "province/sidi-kacem"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

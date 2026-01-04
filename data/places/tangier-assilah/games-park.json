@@ -9,8 +9,8 @@
     "id": "games-park",
     "description": "No description available.",
     "location": {
-      "latitude": -5.763573,
       "longitude": 35.7765014,
+      "latitude": -5.763573,
       "province": "province/tangier-assilah"
     },
     "people": [],

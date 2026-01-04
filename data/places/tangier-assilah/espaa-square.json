@@ -9,8 +9,8 @@
     "id": "espaa-square",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8081178,
       "longitude": 35.7836299,
+      "latitude": -5.8081178,
       "province": "province/tangier-assilah"
     },
     "people": [],

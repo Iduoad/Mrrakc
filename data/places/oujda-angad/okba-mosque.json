@@ -9,8 +9,8 @@
     "id": "okba-mosque",
     "description": "According to locals and resources online, the first version of the mosque may be as old as the great mosque or even older. The Mosque is named after Uqba ibn Nafi which is an Arab Umayyad General who is known of conquest the Maghreb region.",
     "location": {
-      "latitude": -1.9139634,
       "longitude": 34.6801424,
+      "latitude": -1.9139634,
       "province": "province/oujda-angad"
     },
     "people": [],

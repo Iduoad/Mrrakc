@@ -9,8 +9,8 @@
     "id": "st-andrews-church",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8143851,
       "longitude": 35.7833634,
+      "latitude": -5.8143851,
       "province": "province/tangier-assilah"
     },
     "people": [],

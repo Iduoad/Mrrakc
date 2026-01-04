@@ -9,8 +9,8 @@
     "id": "villa-lon-lafricain",
     "description": "No description available.",
     "location": {
-      "latitude": -5.81313,
       "longitude": 35.777833,
+      "latitude": -5.81313,
       "province": "province/tangier-assilah"
     },
     "people": [],

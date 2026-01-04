@@ -9,8 +9,8 @@
     "id": "bab-el-marsa-port-center",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8093274,
       "longitude": 35.7871806,
+      "latitude": -5.8093274,
       "province": "province/tangier-assilah"
     },
     "people": [],

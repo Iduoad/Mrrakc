@@ -9,8 +9,8 @@
     "id": "ksar-tighadouine",
     "description": "Was inhabited by Moulay Ismail",
     "location": {
-      "latitude": -4.2216853,
       "longitude": 31.2494485,
+      "latitude": -4.2216853,
       "province": "province/errachidia"
     },
     "people": [],

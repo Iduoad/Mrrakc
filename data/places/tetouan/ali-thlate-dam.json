@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ali Thlate Dam",
+    "id": "ali-thlate-dam",
+    "description": "Aka Oued Laou Dam<br>Aka Talambote",
+    "location": {
+      "longitude": 35.2465736,
+      "latitude": -5.2918535,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

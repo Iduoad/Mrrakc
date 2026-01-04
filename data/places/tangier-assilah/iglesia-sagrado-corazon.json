@@ -9,8 +9,8 @@
     "id": "iglesia-sagrado-corazon",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8090083,
       "longitude": 35.7806849,
+      "latitude": -5.8090083,
       "province": "province/tangier-assilah"
     },
     "people": [],

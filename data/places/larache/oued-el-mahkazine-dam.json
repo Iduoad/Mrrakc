@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued El Mahkazine Dam",
+    "id": "oued-el-mahkazine-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.9363426,
+      "latitude": -5.7710272,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

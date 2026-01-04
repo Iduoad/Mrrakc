@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Imin El Kheng Dam",
+    "id": "imin-el-kheng-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.6673336,
+      "latitude": -8.5322098,
+      "province": "province/taroudant"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Aricha Dam",
+    "id": "oued-aricha-dam",
+    "description": "AKA Al Hajrat Dam",
+    "location": {
+      "longitude": 33.0884635,
+      "latitude": -7.119378,
+      "province": "province/settat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -9,8 +9,8 @@
     "id": "ksar-tazougart",
     "description": "No description available.",
     "location": {
-      "latitude": -3.7854209,
       "longitude": 32.0827789,
+      "latitude": -3.7854209,
       "province": "province/errachidia"
     },
     "people": [],

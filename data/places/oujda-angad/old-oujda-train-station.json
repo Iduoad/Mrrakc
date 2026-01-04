@@ -9,8 +9,8 @@
     "id": "old-oujda-train-station",
     "description": "This is the first passenger train station of Oujda and the first in all of Morocco. It was built during the Protectorate.",
     "location": {
-      "latitude": -1.9237734,
       "longitude": 34.6814459,
+      "latitude": -1.9237734,
       "province": "province/oujda-angad"
     },
     "people": [],

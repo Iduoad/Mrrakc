@@ -9,8 +9,8 @@
     "id": "kasbah-museum",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8124362,
       "longitude": 35.7882181,
+      "latitude": -5.8124362,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "mausoleum-sidi-mbarek-ben-abdelaziz",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2172454,
       "longitude": 31.2463397,
+      "latitude": -4.2172454,
       "province": "province/errachidia"
     },
     "people": [],

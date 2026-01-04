@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mohammed V Dam",
+    "id": "mohammed-v-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.6405327,
+      "latitude": -2.956749,
+      "province": "province/taourirt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

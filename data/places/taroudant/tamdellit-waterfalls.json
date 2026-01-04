@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tamdellit Waterfalls",
+    "id": "tamdellit-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.6311731,
+      "latitude": -7.6489882,
+      "province": "province/taroudant"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

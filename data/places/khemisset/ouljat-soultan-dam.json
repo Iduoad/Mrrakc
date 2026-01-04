@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ouljat Soultan Dam",
+    "id": "ouljat-soultan-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.6572468,
+      "latitude": -5.8855967,
+      "province": "province/khemisset"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

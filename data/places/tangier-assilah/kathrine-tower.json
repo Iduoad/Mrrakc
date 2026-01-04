@@ -9,8 +9,8 @@
     "id": "kathrine-tower",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8121833,
       "longitude": 35.7848617,
+      "latitude": -5.8121833,
       "province": "province/tangier-assilah"
     },
     "people": [],

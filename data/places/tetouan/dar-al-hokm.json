@@ -9,8 +9,8 @@
     "id": "dar-al-hokm",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3675304,
       "longitude": 35.5711489,
+      "latitude": -5.3675304,
       "province": "province/tetouan"
     },
     "people": [],

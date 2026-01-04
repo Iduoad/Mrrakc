@@ -9,8 +9,8 @@
     "id": "kasbah-tetouan",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3732975,
       "longitude": 35.5749809,
+      "latitude": -5.3732975,
       "province": "province/tetouan"
     },
     "people": [],

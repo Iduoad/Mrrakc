@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bouhouta Dam",
+    "id": "bouhouta-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.0031028,
+      "latitude": -8.8176712,
+      "province": "province/youssoufia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

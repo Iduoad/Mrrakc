@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Hajjaj Waterfalls",
+    "id": "sidi-hajjaj-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.6278275,
+      "latitude": -7.4072092,
+      "province": "province/mohammedia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

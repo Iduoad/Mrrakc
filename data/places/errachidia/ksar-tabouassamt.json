@@ -9,8 +9,8 @@
     "id": "ksar-tabouassamt",
     "description": "16th Century before the fall of Sijelmassa",
     "location": {
-      "latitude": -4.2750041,
       "longitude": 31.2397234,
+      "latitude": -4.2750041,
       "province": "province/errachidia"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "al-murakaba-tower",
     "description": "No description available.",
     "location": {
-      "latitude": -5.37320624791611,
       "longitude": 35.5715246608841,
+      "latitude": -5.37320624791611,
       "province": "province/tetouan"
     },
     "people": [],

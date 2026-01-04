@@ -9,8 +9,8 @@
     "id": "the-regional-nationalist-museum",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3650675,
       "longitude": 35.5726785,
+      "latitude": -5.3650675,
       "province": "province/tetouan"
     },
     "people": [],

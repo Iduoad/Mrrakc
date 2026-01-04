@@ -9,8 +9,8 @@
     "id": "hesprides-garden",
     "description": "No description available.",
     "location": {
-      "latitude": -5.9232439,
       "longitude": 35.7906017,
+      "latitude": -5.9232439,
       "province": "province/tangier-assilah"
     },
     "people": [],

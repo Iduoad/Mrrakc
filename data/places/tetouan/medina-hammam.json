@@ -9,8 +9,8 @@
     "id": "medina-hammam",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3668392,
       "longitude": 35.5713995,
+      "latitude": -5.3668392,
       "province": "province/tetouan"
     },
     "people": [],

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Achabu Gorges",
+    "id": "achabu-gorges",
+    "description": "AKA M'Goun",
+    "location": {
+      "longitude": 31.5716135,
+      "latitude": -6.1669239,
+      "province": "province/tinghir"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

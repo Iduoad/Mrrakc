@@ -9,8 +9,8 @@
     "id": "ksar-dar-moulay-taleb",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2356671,
       "longitude": 31.2875987,
+      "latitude": -4.2356671,
       "province": "province/errachidia"
     },
     "people": [],

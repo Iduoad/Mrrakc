@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aggay Dam",
+    "id": "aggay-dam",
+    "description": "AKA Ihinajen",
+    "location": {
+      "longitude": 33.8003603,
+      "latitude": -4.8875152,
+      "province": "province/sefrou"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

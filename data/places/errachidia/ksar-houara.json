@@ -9,8 +9,8 @@
     "id": "ksar-houara",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2849453,
       "longitude": 31.2383223,
+      "latitude": -4.2849453,
       "province": "province/errachidia"
     },
     "people": [],

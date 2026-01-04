@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/river",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Laou Waterfalls",
+    "id": "oued-laou-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.2792667,
+      "latitude": -5.2356026,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

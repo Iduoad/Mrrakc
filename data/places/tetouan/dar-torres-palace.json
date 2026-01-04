@@ -9,8 +9,8 @@
     "id": "dar-torres-palace",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3697836,
       "longitude": 35.5716897,
+      "latitude": -5.3697836,
       "province": "province/tetouan"
     },
     "people": [],

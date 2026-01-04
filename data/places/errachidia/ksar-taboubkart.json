@@ -9,8 +9,8 @@
     "id": "ksar-taboubkart",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2519295,
       "longitude": 31.2345094,
+      "latitude": -4.2519295,
       "province": "province/errachidia"
     },
     "people": [],

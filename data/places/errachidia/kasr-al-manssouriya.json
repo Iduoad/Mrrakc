@@ -9,8 +9,8 @@
     "id": "kasr-al-manssouriya",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2776494,
       "longitude": 31.3101446,
+      "latitude": -4.2776494,
       "province": "province/errachidia"
     },
     "people": [],

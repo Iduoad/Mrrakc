@@ -9,8 +9,8 @@
     "id": "moroccos-square",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9107906,
       "longitude": 34.6816339,
+      "latitude": -1.9107906,
       "province": "province/oujda-angad"
     },
     "people": [],

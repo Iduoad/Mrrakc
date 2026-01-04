@@ -9,8 +9,8 @@
     "id": "sidi-abis-tower",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3676431,
       "longitude": 35.5673218,
+      "latitude": -5.3676431,
       "province": "province/tetouan"
     },
     "people": [],

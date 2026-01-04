@@ -9,8 +9,8 @@
     "id": "national-arts-and-crafts-school",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3633576,
       "longitude": 35.5704655,
+      "latitude": -5.3633576,
       "province": "province/tetouan"
     },
     "people": [],

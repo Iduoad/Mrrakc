@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hammou Ourzeg Dam",
+    "id": "hammou-ourzeg-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.7314757,
+      "latitude": -2.5669797,
+      "province": "province/figuig"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

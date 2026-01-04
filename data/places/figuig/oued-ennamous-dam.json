@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Ennamous Dam",
+    "id": "oued-ennamous-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.2905766,
+      "latitude": -2.2241707,
+      "province": "province/figuig"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

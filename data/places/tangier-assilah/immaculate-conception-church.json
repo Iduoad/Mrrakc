@@ -9,8 +9,8 @@
     "id": "immaculate-conception-church",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8113985,
       "longitude": 35.7852287,
+      "latitude": -5.8113985,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ouled Settout Dam",
+    "id": "ouled-settout-dam",
+    "description": "AKA Arabat",
+    "location": {
+      "longitude": 35.0156254,
+      "latitude": -2.8748865,
+      "province": "province/nador"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

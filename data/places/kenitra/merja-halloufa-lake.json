@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Merja Halloufa Lake",
+    "id": "merja-halloufa-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.9617933,
+      "latitude": -6.2456166,
+      "province": "province/kenitra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.grepom.org/marais-cote-plateau-rmel/",
+        "type": "website",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

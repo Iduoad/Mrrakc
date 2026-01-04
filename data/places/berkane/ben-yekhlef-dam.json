@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ben Yekhlef Dam",
+    "id": "ben-yekhlef-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.8988074,
+      "latitude": -2.2822967,
+      "province": "province/berkane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

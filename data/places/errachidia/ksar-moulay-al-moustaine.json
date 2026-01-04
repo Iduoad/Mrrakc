@@ -9,8 +9,8 @@
     "id": "ksar-moulay-al-moustaine",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2632684,
       "longitude": 31.2786057,
+      "latitude": -4.2632684,
       "province": "province/errachidia"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "city-beach",
     "description": "No description available.",
     "location": {
-      "latitude": -5.7806972,
       "longitude": 35.7758651,
+      "latitude": -5.7806972,
       "province": "province/tangier-assilah"
     },
     "people": [],

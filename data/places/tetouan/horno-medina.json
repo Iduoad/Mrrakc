@@ -9,8 +9,8 @@
     "id": "horno-medina",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3637957,
       "longitude": 35.573192,
+      "latitude": -5.3637957,
       "province": "province/tetouan"
     },
     "people": [],

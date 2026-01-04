@@ -9,8 +9,8 @@
     "id": "mount-bouzaytoun",
     "description": "1215m",
     "location": {
-      "latitude": -5.3335207,
       "longitude": 35.4911089,
+      "latitude": -5.3335207,
       "province": "province/tetouan"
     },
     "people": [],

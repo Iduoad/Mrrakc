@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Seguia Harroussia Dam",
+    "id": "seguia-harroussia-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.7325163,
+      "latitude": -8.5864368,
+      "province": "province/chichaoua"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

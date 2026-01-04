@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Kheng Massoud Dam",
+    "id": "kheng-massoud-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 28.1897259,
+      "latitude": -11.0858974,
+      "province": "province/tan-tan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ibn Battouta Dam",
+    "id": "ibn-battouta-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.6353276,
+      "latitude": -5.71682,
+      "province": "province/fahs-anjra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

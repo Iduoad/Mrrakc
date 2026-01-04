@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zerrar Dam",
+    "id": "zerrar-dam",
+    "description": "Aka Moulay Abderrahman",
+    "location": {
+      "longitude": 31.3284469,
+      "latitude": -9.5640338,
+      "province": "province/essaouira"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -9,8 +9,8 @@
     "id": "kdar-oulad-bidella",
     "description": "State: Inhabited",
     "location": {
-      "latitude": -4.2298967,
       "longitude": 31.2529968,
+      "latitude": -4.2298967,
       "province": "province/errachidia"
     },
     "people": [],

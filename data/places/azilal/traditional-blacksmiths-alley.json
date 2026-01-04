@@ -9,8 +9,8 @@
     "id": "traditional-blacksmiths-alley",
     "description": "No description available.",
     "location": {
-      "latitude": -7.0010771,
       "longitude": 31.7326441,
+      "latitude": -7.0010771,
       "province": "province/azilal"
     },
     "people": [],

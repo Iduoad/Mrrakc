@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Koudiat Guern Dam",
+    "id": "koudiat-guern-dam",
+    "description": "AKA Tamedsourt",
+    "location": {
+      "longitude": 33.0214696,
+      "latitude": -7.5229998,
+      "province": "province/settat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Raknat Naam Dam",
+    "id": "raknat-naam-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.4526592,
+      "latitude": -1.6919746,
+      "province": "province/figuig"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

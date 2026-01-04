@@ -9,8 +9,8 @@
     "id": "ksar-abadou",
     "description": "No description available.",
     "location": {
-      "latitude": -4.265706,
       "longitude": 31.2311043,
+      "latitude": -4.265706,
       "province": "province/errachidia"
     },
     "people": [],

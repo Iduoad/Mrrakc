@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dar Khrofa Dam",
+    "id": "dar-khrofa-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.2607937,
+      "latitude": -5.7669318,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

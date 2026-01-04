@@ -9,8 +9,8 @@
     "id": "mouaalaja-sandwishes",
     "description": "Mouaalaja are street food sandwishes prepared with vegetables, tuna, luncheon...",
     "location": {
-      "latitude": -6.3528709,
       "longitude": 32.3361144,
+      "latitude": -6.3528709,
       "province": "province/beni-mellal"
     },
     "people": [],

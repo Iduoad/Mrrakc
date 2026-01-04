@@ -9,8 +9,8 @@
     "id": "beit-yehouda-synagogue-assayag",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8114789,
       "longitude": 35.7854451,
+      "latitude": -5.8114789,
       "province": "province/tangier-assilah"
     },
     "people": [],

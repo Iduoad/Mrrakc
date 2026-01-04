@@ -9,8 +9,8 @@
     "id": "ksar-douira",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2089905,
       "longitude": 31.6005596,
+      "latitude": -4.2089905,
       "province": "province/errachidia"
     },
     "people": [],

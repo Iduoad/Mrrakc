@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Allal El Fassi Dam",
+    "id": "allal-el-fassi-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.9210737,
+      "latitude": -4.6506489,
+      "province": "province/sefrou"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

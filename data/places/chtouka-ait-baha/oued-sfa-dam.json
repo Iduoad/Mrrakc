@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Sfa Dam",
+    "id": "oued-sfa-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.2054474,
+      "latitude": -9.2854079,
+      "province": "province/chtouka-ait-baha"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

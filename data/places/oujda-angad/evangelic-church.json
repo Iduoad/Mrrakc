@@ -9,8 +9,8 @@
     "id": "evangelic-church",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9001531,
       "longitude": 34.6819218,
+      "latitude": -1.9001531,
       "province": "province/oujda-angad"
     },
     "people": [],

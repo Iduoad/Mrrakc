@@ -9,8 +9,8 @@
     "id": "top-kart",
     "description": "No description available.",
     "location": {
-      "latitude": -1.8406225,
       "longitude": 34.7849644,
+      "latitude": -1.8406225,
       "province": "province/oujda-angad"
     },
     "people": [],

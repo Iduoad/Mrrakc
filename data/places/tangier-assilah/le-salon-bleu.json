@@ -9,8 +9,8 @@
     "id": "le-salon-bleu",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8118697,
       "longitude": 35.7886023,
+      "latitude": -5.8118697,
       "province": "province/tangier-assilah"
     },
     "people": [],

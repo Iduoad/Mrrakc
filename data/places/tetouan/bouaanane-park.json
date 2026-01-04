@@ -9,8 +9,8 @@
     "id": "bouaanane-park",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3778264,
       "longitude": 35.5463965,
+      "latitude": -5.3778264,
       "province": "province/tetouan"
     },
     "people": [],

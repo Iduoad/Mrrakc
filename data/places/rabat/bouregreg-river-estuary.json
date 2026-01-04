@@ -9,8 +9,8 @@
     "id": "bouregreg-river-estuary",
     "description": "No description available.",
     "location": {
-      "latitude": -6.8358978,
       "longitude": 34.0362878,
+      "latitude": -6.8358978,
       "province": "province/rabat"
     },
     "people": [],

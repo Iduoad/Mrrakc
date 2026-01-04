@@ -9,8 +9,8 @@
     "id": "canon-castle-ruins",
     "description": "No description available.",
     "location": {
-      "latitude": -5.7550422,
       "longitude": 35.7958197,
+      "latitude": -5.7550422,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "chhiwat-lemaalam-restaurant",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9087947,
       "longitude": 34.6857263,
+      "latitude": -1.9087947,
       "province": "province/oujda-angad"
     },
     "people": [],

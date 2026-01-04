@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oulad Abbas Dam",
+    "id": "oulad-abbas-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.9652493,
+      "latitude": -8.4498335,
+      "province": "province/youssoufia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

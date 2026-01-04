@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Takhzirt Dam",
+    "id": "takhzirt-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.8091619,
+      "latitude": -6.3163806,
+      "province": "province/zagora"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

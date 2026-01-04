@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Youssef Ibn Tachfin Dam",
+    "id": "youssef-ibn-tachfin-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 29.8418004,
+      "latitude": -9.4879598,
+      "province": "province/tiznit"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -9,8 +9,8 @@
     "id": "amiraux-beach",
     "description": "No description available.",
     "location": {
-      "latitude": -5.7235727,
       "longitude": 35.8261994,
+      "latitude": -5.7235727,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "tangier-american-legation-museum",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8107066,
       "longitude": 35.7841163,
+      "latitude": -5.8107066,
       "province": "province/tangier-assilah"
     },
     "people": [],

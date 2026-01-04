@@ -9,8 +9,8 @@
     "id": "hammam-el-bali-old",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9129153,
       "longitude": 34.6789482,
+      "latitude": -1.9129153,
       "province": "province/oujda-angad"
     },
     "people": [],

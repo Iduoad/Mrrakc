@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Kheng L'Hda Dam",
+    "id": "kheng-lhda-dam",
+    "description": "سد ولاد احمد بن عبدالله ( عرب بني جيل)‎",
+    "location": {
+      "longitude": 33.6011561,
+      "latitude": -2.9184017,
+      "province": "province/taourirt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

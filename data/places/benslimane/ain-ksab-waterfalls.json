@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Ksab Waterfalls",
+    "id": "ain-ksab-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.5843642,
+      "latitude": -7.0039579,
+      "province": "province/benslimane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

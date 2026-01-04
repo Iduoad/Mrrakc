@@ -9,8 +9,8 @@
     "id": "ksar-soussou",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2586621,
       "longitude": 31.2794692,
+      "latitude": -4.2586621,
       "province": "province/errachidia"
     },
     "people": [],

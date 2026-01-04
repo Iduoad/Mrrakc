@@ -9,8 +9,8 @@
     "id": "kasbah-moulay-soulaimane",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2556768,
       "longitude": 31.278978,
+      "latitude": -4.2556768,
       "province": "province/errachidia"
     },
     "people": [],

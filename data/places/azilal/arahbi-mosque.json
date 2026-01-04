@@ -9,8 +9,8 @@
     "id": "arahbi-mosque",
     "description": "No description available.",
     "location": {
-      "latitude": -7.0022222,
       "longitude": 31.731677,
+      "latitude": -7.0022222,
       "province": "province/azilal"
     },
     "people": [],

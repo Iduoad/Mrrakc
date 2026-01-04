@@ -9,8 +9,8 @@
     "id": "restaurant-la-union",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3704129,
       "longitude": 35.5696613,
+      "latitude": -5.3704129,
       "province": "province/tetouan"
     },
     "people": [],

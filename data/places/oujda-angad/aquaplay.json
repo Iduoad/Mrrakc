@@ -9,8 +9,8 @@
     "id": "aquaplay",
     "description": "No description available.",
     "location": {
-      "latitude": -1.8637735,
       "longitude": 34.7121489,
+      "latitude": -1.8637735,
       "province": "province/oujda-angad"
     },
     "people": [],

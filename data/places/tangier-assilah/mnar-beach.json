@@ -9,8 +9,8 @@
     "id": "mnar-beach",
     "description": "No description available.",
     "location": {
-      "latitude": -5.748084,
       "longitude": 35.8108,
+      "latitude": -5.748084,
       "province": "province/tangier-assilah"
     },
     "people": [],

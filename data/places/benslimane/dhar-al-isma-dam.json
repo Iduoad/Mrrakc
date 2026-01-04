@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dhar Al Isma Dam",
+    "id": "dhar-al-isma-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.7147239,
+      "latitude": -7.1311415,
+      "province": "province/benslimane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -9,8 +9,8 @@
     "id": "ksar-douar-ait-atta",
     "description": "Only Amazigh Ksar in Sifa",
     "location": {
-      "latitude": -4.3282244,
       "longitude": 31.3498747,
+      "latitude": -4.3282244,
       "province": "province/errachidia"
     },
     "people": [],
