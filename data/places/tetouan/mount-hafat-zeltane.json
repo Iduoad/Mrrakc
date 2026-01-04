@@ -11,8 +11,8 @@
     "location": {
       "longitude": 35.3233464,
       "latitude": -5.27479,
-      "province": "province/tetouan",
-      "altitude": 1821
+      "altitude": 1821,
+      "province": "province/tetouan"
     },
     "people": [],
     "timeline": [],

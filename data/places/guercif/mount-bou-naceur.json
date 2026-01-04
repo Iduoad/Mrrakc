@@ -11,8 +11,8 @@
     "location": {
       "longitude": 33.566389,
       "latitude": -3.891389,
-      "province": "province/guercif",
-      "altitude": 3356
+      "altitude": 3356,
+      "province": "province/guercif"
     },
     "people": [],
     "timeline": [],

@@ -11,8 +11,8 @@
     "location": {
       "longitude": 34.8687096,
       "latitude": -4.5042353,
-      "province": "province/al-hoceima",
-      "altitude": 2100
+      "altitude": 2100,
+      "province": "province/al-hoceima"
     },
     "people": [],
     "timeline": [],

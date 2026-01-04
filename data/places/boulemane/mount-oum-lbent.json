@@ -11,8 +11,8 @@
     "location": {
       "longitude": 33.3937546,
       "latitude": -4.6584613,
-      "province": "province/boulemane",
-      "altitude": 2796
+      "altitude": 2796,
+      "province": "province/boulemane"
     },
     "people": [],
     "timeline": [],

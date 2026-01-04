@@ -11,8 +11,8 @@
     "location": {
       "longitude": 34.837225,
       "latitude": -2.2304314,
-      "province": "province/oujda-angad",
-      "altitude": 1450
+      "altitude": 1450,
+      "province": "province/oujda-angad"
     },
     "people": [],
     "timeline": [],

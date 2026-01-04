@@ -11,8 +11,8 @@
     "location": {
       "longitude": 31.5582053,
       "latitude": -6.6775916,
-      "province": "province/azilal",
-      "altitude": 3121
+      "altitude": 3121,
+      "province": "province/azilal"
     },
     "people": [],
     "timeline": [],

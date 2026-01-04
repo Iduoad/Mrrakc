@@ -11,8 +11,8 @@
     "location": {
       "longitude": 35.2499205236445,
       "latitude": -5.49815361589767,
-      "province": "province/larache",
-      "altitude": 1640
+      "altitude": 1640,
+      "province": "province/larache"
     },
     "people": [],
     "timeline": [],

@@ -11,8 +11,8 @@
     "location": {
       "longitude": 29.7669444,
       "latitude": -9.2486111,
-      "province": "province/chtouka-ait-baha",
-      "altitude": 1470
+      "altitude": 1470,
+      "province": "province/chtouka-ait-baha"
     },
     "people": [],
     "timeline": [],

@@ -11,8 +11,8 @@
     "location": {
       "longitude": 29.795,
       "latitude": -9.0347222,
-      "province": "province/tiznit",
-      "altitude": 2374
+      "altitude": 2374,
+      "province": "province/tiznit"
     },
     "people": [],
     "timeline": [],

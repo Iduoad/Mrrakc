@@ -11,8 +11,8 @@
     "location": {
       "longitude": 31.1470844899883,
       "latitude": -5.83674696921201,
-      "province": "province/tinghir",
-      "altitude": 2592
+      "altitude": 2592,
+      "province": "province/tinghir"
     },
     "people": [],
     "timeline": [],

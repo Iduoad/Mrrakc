@@ -11,8 +11,8 @@
     "location": {
       "longitude": 31.4958055555556,
       "latitude": -6.505,
-      "province": "province/ouarzazate",
-      "altitude": 3875
+      "altitude": 3875,
+      "province": "province/ouarzazate"
     },
     "people": [],
     "timeline": [],

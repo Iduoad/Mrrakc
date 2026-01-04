@@ -11,8 +11,8 @@
     "location": {
       "longitude": 33.21485,
       "latitude": -5.25969,
-      "province": "province/ifrane",
-      "altitude": 2119
+      "altitude": 2119,
+      "province": "province/ifrane"
     },
     "people": [],
     "timeline": [],

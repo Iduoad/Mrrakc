@@ -11,8 +11,8 @@
     "location": {
       "longitude": 35.23934,
       "latitude": -5.100887,
-      "province": "province/chefchaouen",
-      "altitude": 1855
+      "altitude": 1855,
+      "province": "province/chefchaouen"
     },
     "people": [],
     "timeline": [],

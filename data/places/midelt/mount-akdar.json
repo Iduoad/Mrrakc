@@ -11,8 +11,8 @@
     "location": {
       "longitude": 32.31727,
       "latitude": -5.21177,
-      "province": "province/midelt",
-      "altitude": 3125
+      "altitude": 3125,
+      "province": "province/midelt"
     },
     "people": [],
     "timeline": [],

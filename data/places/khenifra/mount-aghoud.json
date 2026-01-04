@@ -11,8 +11,8 @@
     "location": {
       "longitude": 32.9194611,
       "latitude": -5.3812962,
-      "province": "province/khenifra",
-      "altitude": 1930
+      "altitude": 1930,
+      "province": "province/khenifra"
     },
     "people": [],
     "timeline": [],

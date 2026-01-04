@@ -11,8 +11,8 @@
     "location": {
       "longitude": 32.3038838,
       "latitude": -6.2571998,
-      "province": "province/beni-mellal",
-      "altitude": 2247
+      "altitude": 2247,
+      "province": "province/beni-mellal"
     },
     "people": [],
     "timeline": [],

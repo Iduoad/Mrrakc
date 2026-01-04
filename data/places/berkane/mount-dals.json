@@ -11,8 +11,8 @@
     "location": {
       "longitude": 34.8101483,
       "latitude": -2.4554698,
-      "province": "province/berkane",
-      "altitude": 1120
+      "altitude": 1120,
+      "province": "province/berkane"
     },
     "people": [],
     "timeline": [],

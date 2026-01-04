@@ -11,8 +11,8 @@
     "location": {
       "longitude": 35.8977778,
       "latitude": -5.4122222,
-      "province": "province/mdiq-fnideq",
-      "altitude": 851
+      "altitude": 851,
+      "province": "province/mdiq-fnideq"
     },
     "people": [],
     "timeline": [],

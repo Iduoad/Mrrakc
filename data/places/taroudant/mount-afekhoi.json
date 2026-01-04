@@ -11,8 +11,8 @@
     "location": {
       "longitude": 31.07519,
       "latitude": -7.90388,
-      "province": "province/taroudant",
-      "altitude": 3755
+      "altitude": 3755,
+      "province": "province/taroudant"
     },
     "people": [],
     "timeline": [],

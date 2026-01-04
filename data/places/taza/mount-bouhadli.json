@@ -11,8 +11,8 @@
     "location": {
       "longitude": 34.064117,
       "latitude": -4.1182969,
-      "province": "province/taza",
-      "altitude": 1828
+      "altitude": 1828,
+      "province": "province/taza"
     },
     "people": [],
     "timeline": [],

@@ -11,8 +11,8 @@
     "location": {
       "longitude": 31.0702778,
       "latitude": -8.4175,
-      "province": "province/al-haouz",
-      "altitude": 3297
+      "altitude": 3297,
+      "province": "province/al-haouz"
     },
     "people": [],
     "timeline": [],

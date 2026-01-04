@@ -11,8 +11,8 @@
     "location": {
       "longitude": 34.0338333333333,
       "latitude": -5.52013888888889,
-      "province": "province/meknes",
-      "altitude": 1025
+      "altitude": 1025,
+      "province": "province/meknes"
     },
     "people": [],
     "timeline": [],
