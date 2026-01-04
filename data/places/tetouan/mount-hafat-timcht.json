@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Hafa't Timch't",
+    "id": "mount-hafat-timcht",
+    "description": "Chefchaouen <br>Mountain Chain: Rif",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
+      "longitude": 35.3135447,
+      "latitude": -5.2747481,
+      "altitude": 1680,
       "province": "province/tetouan"
     },
     "people": [],

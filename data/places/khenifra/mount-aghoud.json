@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Aghoud",
+    "id": "mount-aghoud",
+    "description": "Mountain Chain: Middle Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 32.9194611,
+      "latitude": -5.3812962,
+      "altitude": 1930,
+      "province": "province/khenifra"
     },
     "people": [],
     "timeline": [],

@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Afella South",
+    "id": "mount-afella-south",
+    "description": "Imlil <br>Mountain Chain: Western High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 31.0534857,
+      "latitude": -7.952113,
+      "altitude": 4040,
+      "province": "province/al-haouz"
     },
     "people": [],
     "timeline": [],

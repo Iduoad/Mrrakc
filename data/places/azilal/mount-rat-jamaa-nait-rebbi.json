@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Rat (Jamaa N'Ait Rebbi",
+    "id": "mount-rat-jamaa-nait-rebbi",
+    "description": "Mountain Chain: Central High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 31.5214367,
+      "latitude": -6.7421013,
+      "altitude": 3789,
+      "province": "province/azilal"
     },
     "people": [],
     "timeline": [],

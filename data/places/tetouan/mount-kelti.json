@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Kelti",
+    "id": "mount-kelti",
+    "description": "Tetouan - Chefchaouen <br>Mountain Chain: Rif",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
+      "longitude": 35.3568893,
+      "latitude": -5.2742599,
+      "altitude": 1926,
       "province": "province/tetouan"
     },
     "people": [],

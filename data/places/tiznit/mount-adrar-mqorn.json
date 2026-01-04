@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Adrar Mqorn",
+    "id": "mount-adrar-mqorn",
+    "description": "Tafraoute <br>Mountain Chain: Anti Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 29.6769444,
+      "latitude": -8.9130556,
+      "altitude": 2344,
+      "province": "province/tiznit"
     },
     "people": [],
     "timeline": [],

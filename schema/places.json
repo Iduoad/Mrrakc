@@ -59,6 +59,10 @@
               "type": "number",
               "description": "Latitude coordinate"
             },
+            "altitude": {
+              "type": "number",
+              "description": "Altitude of the place in meters"
+            },
             "province": {
               "type": "string",
               "pattern": "^province/[a-z0-9]+(?:-[a-z0-9]+)*$",

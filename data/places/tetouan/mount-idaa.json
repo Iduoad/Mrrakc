@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Idaa",
+    "id": "mount-idaa",
+    "description": "AKA Ghorghize<br>Tetouan <br>Mountain Chain: Rif",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
+      "longitude": 35.4851766,
+      "latitude": -5.3609432,
+      "altitude": 1237,
       "province": "province/tetouan"
     },
     "people": [],
