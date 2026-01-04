@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Akka N'Oussikis Dam",
+    "id": "akka-noussikis-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.6976583,
+      "latitude": -5.9075452,
+      "province": "province/tinghir"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

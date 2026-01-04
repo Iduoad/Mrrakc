@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "El Kansera Dam",
+    "id": "el-kansera-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.0397943,
+      "latitude": -5.8998326,
+      "province": "province/khemisset"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

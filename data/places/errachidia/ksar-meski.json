@@ -9,8 +9,8 @@
     "id": "ksar-meski",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2889042,
       "longitude": 31.8555174,
+      "latitude": -4.2889042,
       "province": "province/errachidia"
     },
     "people": [],

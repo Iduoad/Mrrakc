@@ -9,8 +9,8 @@
     "id": "museum-of-religious-heritage-lucash-madrasa",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3679545,
       "longitude": 35.57164,
+      "latitude": -5.3679545,
       "province": "province/tetouan"
     },
     "people": [],

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bzou Dam",
+    "id": "bzou-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.0377035,
+      "latitude": -7.0248891,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

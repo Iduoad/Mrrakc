@@ -9,8 +9,8 @@
     "id": "ksar-manouga",
     "description": "Has Dar Dbagh<br>",
     "location": {
-      "latitude": -4.2503195,
       "longitude": 31.2751695,
+      "latitude": -4.2503195,
       "province": "province/errachidia"
     },
     "people": [],

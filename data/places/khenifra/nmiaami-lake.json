@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "N'Miaami Lake",
+    "id": "nmiaami-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.9019857,
+      "latitude": -5.3762533,
+      "province": "province/khenifra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

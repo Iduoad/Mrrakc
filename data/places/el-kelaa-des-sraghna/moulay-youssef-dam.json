@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Moulay Youssef Dam",
+    "id": "moulay-youssef-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.6375423,
+      "latitude": -7.2576055,
+      "province": "province/el-kalaa-des-sraghna"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bou Ghaliya Beni Zrantel Dam",
+    "id": "bou-ghaliya-beni-zrantel-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.7477413,
+      "latitude": -6.1459595,
+      "province": "province/khouribga"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

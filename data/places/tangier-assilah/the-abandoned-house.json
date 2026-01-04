@@ -9,8 +9,8 @@
     "id": "the-abandoned-house",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8911398,
       "longitude": 35.7654627,
+      "latitude": -5.8911398,
       "province": "province/tangier-assilah"
     },
     "people": [],

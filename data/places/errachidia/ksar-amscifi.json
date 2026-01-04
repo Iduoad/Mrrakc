@@ -9,8 +9,8 @@
     "id": "ksar-amscifi",
     "description": "State: InhabitedNot Original location",
     "location": {
-      "latitude": -4.2176381,
       "longitude": 31.2498245,
+      "latitude": -4.2176381,
       "province": "province/errachidia"
     },
     "people": [],

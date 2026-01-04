@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ahl Souss Dam",
+    "id": "ahl-souss-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.0541362,
+      "latitude": -9.1278376,
+      "province": "province/chtouka-ait-baha"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

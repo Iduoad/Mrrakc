@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Abou El Abbess Sebti Dam",
+    "id": "abou-el-abbess-sebti-dam",
+    "description": "Aka Taskourt",
+    "location": {
+      "longitude": 31.1727336,
+      "latitude": -8.4856185,
+      "province": "province/chichaoua"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

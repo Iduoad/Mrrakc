@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tagheddoute Dam",
+    "id": "tagheddoute-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.6220733,
+      "latitude": -7.3001643,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

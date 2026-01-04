@@ -9,8 +9,8 @@
     "id": "spanish-kasbah",
     "description": "No description available.",
     "location": {
-      "latitude": -5.7070722,
       "longitude": 35.5280672,
+      "latitude": -5.7070722,
       "province": "province/tetouan"
     },
     "people": [],

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ben El Ouidane Dam",
+    "id": "ben-el-ouidane-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.0945724,
+      "latitude": -6.413267,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

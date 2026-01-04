@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bakrit Waterfalls",
+    "id": "bakrit-waterfalls",
+    "description": "AKA Takhiyart",
+    "location": {
+      "longitude": 33.0492608,
+      "latitude": -5.2725103,
+      "province": "province/ifrane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

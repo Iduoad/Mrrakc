@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sefrou Falls",
+    "id": "sefrou-falls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.828083,
+      "latitude": -4.8521446,
+      "province": "province/sefrou"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

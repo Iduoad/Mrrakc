@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Belfrar Lake",
+    "id": "belfrar-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.7209997,
+      "latitude": -1.7322299,
+      "province": "province/jerada"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

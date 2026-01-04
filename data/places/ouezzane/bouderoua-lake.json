@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bouderoua Lake",
+    "id": "bouderoua-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.7877538,
+      "latitude": -5.537217,
+      "province": "province/ouezzane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

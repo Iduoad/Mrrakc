@@ -9,8 +9,8 @@
     "id": "el-kharrazin-souk",
     "description": "No description available.",
     "location": {
-      "latitude": -6.8234448,
       "longitude": 34.0380538,
+      "latitude": -6.8234448,
       "province": "province/sale"
     },
     "people": [],

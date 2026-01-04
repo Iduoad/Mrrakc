@@ -9,8 +9,8 @@
     "id": "agattas-tower",
     "description": "No description available.",
     "location": {
-      "latitude": -5.374257,
       "longitude": 35.5717674,
+      "latitude": -5.374257,
       "province": "province/tetouan"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "jebel-dersa-tower",
     "description": "No description available.",
     "location": {
-      "latitude": -5.37822,
       "longitude": 35.5931703,
+      "latitude": -5.37822,
       "province": "province/tetouan"
     },
     "people": [],

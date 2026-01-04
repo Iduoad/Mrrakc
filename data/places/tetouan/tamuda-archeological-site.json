@@ -9,8 +9,8 @@
     "id": "tamuda-archeological-site",
     "description": "No description available.",
     "location": {
-      "latitude": -5.4109152,
       "longitude": 35.5592846,
+      "latitude": -5.4109152,
       "province": "province/tetouan"
     },
     "people": [],

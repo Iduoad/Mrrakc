@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/water-source",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Bitit Source",
+    "id": "ain-bitit-source",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.8170545,
+      "latitude": -5.1474341,
+      "province": "province/el-hajeb"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

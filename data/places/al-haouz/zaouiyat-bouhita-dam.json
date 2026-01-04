@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zaouiyat Bouhita Dam",
+    "id": "zaouiyat-bouhita-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.3298849,
+      "latitude": -7.9538176,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

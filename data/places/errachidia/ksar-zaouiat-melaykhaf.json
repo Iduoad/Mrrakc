@@ -9,8 +9,8 @@
     "id": "ksar-zaouiat-melaykhaf",
     "description": "Has 5 mosques, one of them looks like Aksaa mosque <br><br>State: Abandoned<br><br>",
     "location": {
-      "latitude": -4.2521534,
       "longitude": 31.2165504,
+      "latitude": -4.2521534,
       "province": "province/errachidia"
     },
     "people": [],

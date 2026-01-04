@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tioughza Dam",
+    "id": "tioughza-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 29.4056908,
+      "latitude": -10.0712814,
+      "province": "province/sidi-ifni"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

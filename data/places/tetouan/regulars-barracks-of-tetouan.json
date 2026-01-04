@@ -9,8 +9,8 @@
     "id": "regulars-barracks-of-tetouan",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3718176,
       "longitude": 35.5746807,
+      "latitude": -5.3718176,
       "province": "province/tetouan"
     },
     "people": [],

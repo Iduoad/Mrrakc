@@ -9,8 +9,8 @@
     "id": "former-spanish-positions",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3733125,
       "longitude": 35.5145625,
+      "latitude": -5.3733125,
       "province": "province/tetouan"
     },
     "people": [],

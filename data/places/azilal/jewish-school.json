@@ -9,8 +9,8 @@
     "id": "jewish-school",
     "description": "No description available.",
     "location": {
-      "latitude": -7.0017866,
       "longitude": 31.7348125,
+      "latitude": -7.0017866,
       "province": "province/azilal"
     },
     "people": [],

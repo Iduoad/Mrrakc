@@ -9,8 +9,8 @@
     "id": "jbel-dersa-park",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3870891,
       "longitude": 35.5870625,
+      "latitude": -5.3870891,
       "province": "province/tetouan"
     },
     "people": [],

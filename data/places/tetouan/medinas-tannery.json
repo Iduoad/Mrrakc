@@ -9,8 +9,8 @@
     "id": "medinas-tannery",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3678003,
       "longitude": 35.5729576,
+      "latitude": -5.3678003,
       "province": "province/tetouan"
     },
     "people": [],

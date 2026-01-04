@@ -9,8 +9,8 @@
     "id": "ksar-ouled-hcine",
     "description": "The largest in Sifa",
     "location": {
-      "latitude": -4.3067584,
       "longitude": 31.3325345,
+      "latitude": -4.3067584,
       "province": "province/errachidia"
     },
     "people": [],

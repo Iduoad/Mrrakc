@@ -9,8 +9,8 @@
     "id": "achab-restaurant",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8096723,
       "longitude": 35.7803722,
+      "latitude": -5.8096723,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "kasbah-dahbia",
     "description": "AKA Ksar Moulay Ahmed Mansour Dahbi",
     "location": {
-      "latitude": -4.2746835,
       "longitude": 31.3179043,
+      "latitude": -4.2746835,
       "province": "province/errachidia"
     },
     "people": [],

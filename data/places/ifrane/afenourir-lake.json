@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Afenourir Lake",
+    "id": "afenourir-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.281301,
+      "latitude": -5.255945,
+      "province": "province/ifrane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

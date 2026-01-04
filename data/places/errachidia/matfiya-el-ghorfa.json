@@ -9,8 +9,8 @@
     "id": "matfiya-el-ghorfa",
     "description": "Matfiya to gather Rain Water. Now it is converted to Football stadium.",
     "location": {
-      "latitude": -4.2222875,
       "longitude": 31.2512277,
+      "latitude": -4.2222875,
       "province": "province/errachidia"
     },
     "people": [],

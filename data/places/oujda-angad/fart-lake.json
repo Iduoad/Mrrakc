@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Fart Lake",
+    "id": "fart-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.6901055,
+      "latitude": -2.235967,
+      "province": "province/oujda-angad"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

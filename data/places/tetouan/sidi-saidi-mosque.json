@@ -9,8 +9,8 @@
     "id": "sidi-saidi-mosque",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3638036,
       "longitude": 35.5729695,
+      "latitude": -5.3638036,
       "province": "province/tetouan"
     },
     "people": [],

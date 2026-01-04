@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ait Lamrabtiya Dam",
+    "id": "ait-lamrabtiya-dam",
+    "description": "AKA Tanous",
+    "location": {
+      "longitude": 33.4614271,
+      "latitude": -5.9302082,
+      "province": "province/khemisset"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

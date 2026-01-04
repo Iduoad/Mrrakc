@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aguelmame Aziza",
+    "id": "aguelmame-aziza",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.973611,
+      "latitude": -5.444444,
+      "province": "province/khenifra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

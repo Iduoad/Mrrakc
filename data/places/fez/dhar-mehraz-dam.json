@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dhar Mehraz Dam",
+    "id": "dhar-mehraz-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.9664798,
+      "latitude": -4.9704828,
+      "province": "province/fes"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

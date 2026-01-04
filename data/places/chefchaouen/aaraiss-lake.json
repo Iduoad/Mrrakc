@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aaraiss Lake",
+    "id": "aaraiss-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.1282316,
+      "latitude": -5.4419996,
+      "province": "province/chefchaouen"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

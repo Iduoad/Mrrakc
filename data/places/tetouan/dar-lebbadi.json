@@ -9,8 +9,8 @@
     "id": "dar-lebbadi",
     "description": "AKA Casa de Franco",
     "location": {
-      "latitude": -5.3657862,
       "longitude": 35.5712075,
+      "latitude": -5.3657862,
       "province": "province/tetouan"
     },
     "people": [],

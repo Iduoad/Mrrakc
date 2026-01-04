@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ouin Kara Dam",
+    "id": "ouin-kara-dam",
+    "description": "Lemeilah Dam",
+    "location": {
+      "longitude": 28.3103136,
+      "latitude": -10.9844553,
+      "province": "province/tan-tan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

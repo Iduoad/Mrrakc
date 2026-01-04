@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Ghis Dam",
+    "id": "oued-ghis-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.0398073,
+      "latitude": -4.0084679,
+      "province": "province/al-hoceima"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

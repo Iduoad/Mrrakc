@@ -9,8 +9,8 @@
     "id": "artisanal-complex",
     "description": "No description available.",
     "location": {
-      "latitude": -7.0042331,
       "longitude": 31.731604,
+      "latitude": -7.0042331,
       "province": "province/azilal"
     },
     "people": [],

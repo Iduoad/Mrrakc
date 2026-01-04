@@ -9,8 +9,8 @@
     "id": "oujda-art-gallery",
     "description": "A One room gallery of plastic art. worth a small visit.",
     "location": {
-      "latitude": -1.9183608,
       "longitude": 34.6914793,
+      "latitude": -1.9183608,
       "province": "province/oujda-angad"
     },
     "people": [],

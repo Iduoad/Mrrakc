@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Abdelkarim El Khattabi Dam",
+    "id": "abdelkarim-el-khattabi-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.0917155,
+      "latitude": -3.8083765,
+      "province": "province/driouch"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

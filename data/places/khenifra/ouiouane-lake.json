@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ouiouane Lake",
+    "id": "ouiouane-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.1338203,
+      "latitude": -5.3443266,
+      "province": "province/khenifra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

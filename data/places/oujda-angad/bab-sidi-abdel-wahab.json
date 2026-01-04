@@ -9,8 +9,8 @@
     "id": "bab-sidi-abdel-wahab",
     "description": "This is one of the oldest Gates of the city. It opens on a square with the same name.",
     "location": {
-      "latitude": -1.910191,
       "longitude": 34.6798624,
+      "latitude": -1.910191,
       "province": "province/oujda-angad"
     },
     "people": [],

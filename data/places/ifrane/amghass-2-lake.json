@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Amghass 2 Lake",
+    "id": "amghass-2-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.3858955,
+      "latitude": -5.4385787,
+      "province": "province/ifrane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

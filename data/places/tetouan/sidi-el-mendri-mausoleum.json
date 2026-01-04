@@ -9,8 +9,8 @@
     "id": "sidi-el-mendri-mausoleum",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3680577,
       "longitude": 35.5740074,
+      "latitude": -5.3680577,
       "province": "province/tetouan"
     },
     "people": [],

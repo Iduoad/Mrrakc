@@ -9,8 +9,8 @@
     "id": "tannery-of-rabat",
     "description": "No description available.",
     "location": {
-      "latitude": -6.831446,
       "longitude": 34.0270252,
+      "latitude": -6.831446,
       "province": "province/rabat"
     },
     "people": [],

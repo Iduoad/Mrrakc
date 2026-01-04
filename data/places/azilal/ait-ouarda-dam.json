@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Aït Ouarda Dam",
+    "id": "ait-ouarda-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.1088038,
+      "latitude": -6.5085392,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

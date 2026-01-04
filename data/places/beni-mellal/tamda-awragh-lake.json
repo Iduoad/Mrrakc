@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tamda Awragh Lake",
+    "id": "tamda-awragh-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.6743233,
+      "latitude": -6.5070119,
+      "province": "province/beni-mellal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

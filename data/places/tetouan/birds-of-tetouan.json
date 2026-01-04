@@ -9,8 +9,8 @@
     "id": "birds-of-tetouan",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3355712,
       "longitude": 35.6039772,
+      "latitude": -5.3355712,
       "province": "province/tetouan"
     },
     "people": [],

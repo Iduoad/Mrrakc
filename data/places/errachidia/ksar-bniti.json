@@ -9,8 +9,8 @@
     "id": "ksar-bniti",
     "description": "State: inhabited",
     "location": {
-      "latitude": -4.2158594,
       "longitude": 31.2492557,
+      "latitude": -4.2158594,
       "province": "province/errachidia"
     },
     "people": [],

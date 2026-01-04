@@ -9,8 +9,8 @@
     "id": "lalla-meriem-park",
     "description": "One of the biggest and shiniest parks of the city. Great architecture, quiet place and good ambiance.",
     "location": {
-      "latitude": -1.9122843,
       "longitude": 34.6776479,
+      "latitude": -1.9122843,
       "province": "province/oujda-angad"
     },
     "people": [],

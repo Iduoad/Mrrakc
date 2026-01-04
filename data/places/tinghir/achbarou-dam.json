@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Achbarou Dam",
+    "id": "achbarou-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.1551639,
+      "latitude": -5.0918843,
+      "province": "province/tinghir"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

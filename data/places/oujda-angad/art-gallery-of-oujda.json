@@ -9,8 +9,8 @@
     "id": "art-gallery-of-oujda",
     "description": "This is supposed to be the city gallery but it is closed as for 2023.",
     "location": {
-      "latitude": -1.912248,
       "longitude": 34.6783078,
+      "latitude": -1.912248,
       "province": "province/oujda-angad"
     },
     "people": [],

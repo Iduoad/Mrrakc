@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Isaguem Waterfalls",
+    "id": "isaguem-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.6310758,
+      "latitude": -7.6577141,
+      "province": "province/taroudant"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Akchour High Waterfalls",
+    "id": "akchour-high-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.2177153,
+      "latitude": -5.1382689,
+      "province": "province/chefchaouen"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

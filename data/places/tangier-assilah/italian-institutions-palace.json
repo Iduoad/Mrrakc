@@ -9,8 +9,8 @@
     "id": "italian-institutions-palace",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8217239,
       "longitude": 35.7856225,
+      "latitude": -5.8217239,
       "province": "province/tangier-assilah"
     },
     "people": [],

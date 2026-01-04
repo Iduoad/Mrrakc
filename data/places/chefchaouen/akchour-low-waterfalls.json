@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Akchour Low Waterfalls",
+    "id": "akchour-low-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.2397447,
+      "latitude": -5.169641,
+      "province": "province/chefchaouen"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Chahed Dam",
+    "id": "sidi-chahed-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.0791989,
+      "latitude": -5.3390102,
+      "province": "province/meknes"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

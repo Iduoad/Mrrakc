@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tleta Ait Boubker Dam",
+    "id": "tleta-ait-boubker-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.8213799,
+      "latitude": -3.4001499,
+      "province": "province/driouch"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

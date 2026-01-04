@@ -9,8 +9,8 @@
     "id": "ennakhla-dam",
     "description": "Dam, Lake",
     "location": {
-      "latitude": -5.4011542,
       "longitude": 35.4459286,
+      "latitude": -5.4011542,
       "province": "province/tetouan"
     },
     "people": [],

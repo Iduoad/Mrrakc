@@ -9,8 +9,8 @@
     "id": "ksar-maadid",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2150757,
       "longitude": 31.4667927,
+      "latitude": -4.2150757,
       "province": "province/errachidia"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "mount-el-halka",
     "description": "847m",
     "location": {
-      "latitude": -5.4052188,
       "longitude": 35.5128299,
+      "latitude": -5.4052188,
       "province": "province/tetouan"
     },
     "people": [],

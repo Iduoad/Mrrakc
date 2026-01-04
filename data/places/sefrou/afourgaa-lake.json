@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Afourgaa Lake",
+    "id": "afourgaa-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.6135806,
+      "latitude": -4.8783212,
+      "province": "province/sefrou"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Zamrine Dam",
+    "id": "zamrine-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.9942456,
+      "latitude": -6.8275071,
+      "province": "province/khouribga"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

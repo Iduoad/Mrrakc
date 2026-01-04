@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hassan II Dam",
+    "id": "hassan-ii-dam",
+    "description": "Ex Sidi Said",
+    "location": {
+      "longitude": 32.8015056,
+      "latitude": -4.795053,
+      "province": "province/midelt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

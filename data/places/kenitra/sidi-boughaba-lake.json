@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Boughaba Lake",
+    "id": "sidi-boughaba-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.2427475,
+      "latitude": -6.6725287,
+      "province": "province/kenitra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

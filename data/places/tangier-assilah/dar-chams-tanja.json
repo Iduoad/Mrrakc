@@ -9,8 +9,8 @@
     "id": "dar-chams-tanja",
     "description": "Terrace",
     "location": {
-      "latitude": -5.8120314,
       "longitude": 35.7876865,
+      "latitude": -5.8120314,
       "province": "province/tangier-assilah"
     },
     "people": [],

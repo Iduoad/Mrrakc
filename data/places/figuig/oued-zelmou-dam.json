@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Zelmou Dam",
+    "id": "oued-zelmou-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.1311336,
+      "latitude": -2.8895106,
+      "province": "province/figuig"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

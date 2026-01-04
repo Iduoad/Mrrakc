@@ -9,8 +9,8 @@
     "id": "ksar-taoughart",
     "description": "19th Century by Sidi Ahmed Ben Ali. <br><br>Taoughart is Desert in Amazighi<br><br>State: Empty",
     "location": {
-      "latitude": -4.2269198,
       "longitude": 31.2513236,
+      "latitude": -4.2269198,
       "province": "province/errachidia"
     },
     "people": [],

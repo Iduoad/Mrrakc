@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Merja Wlad Skher Lake",
+    "id": "merja-wlad-skher-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.0472189,
+      "latitude": -6.2027699,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.grepom.org/marais-cote-plateau-rmel/",
+        "type": "website",
+        "title": "Link"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

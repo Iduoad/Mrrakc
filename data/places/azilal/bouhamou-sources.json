@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/water-source",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Bouhamou Sources",
+    "id": "bouhamou-sources",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.9681301,
+      "latitude": -6.9979685,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

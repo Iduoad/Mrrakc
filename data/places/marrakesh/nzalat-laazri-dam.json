@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nzalat Laazri Dam",
+    "id": "nzalat-laazri-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.9078452,
+      "latitude": -8.206876,
+      "province": "province/marrakech"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

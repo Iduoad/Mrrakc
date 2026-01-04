@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Akkrouz Dam",
+    "id": "akkrouz-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.4677465,
+      "latitude": -4.8792135,
+      "province": "province/errachidia"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

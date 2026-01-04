@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mghayer Dam",
+    "id": "mghayer-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 35.7536291,
+      "latitude": -5.8957438,
+      "province": "province/tangier-assilah"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

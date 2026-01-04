@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Hawaii Waterfalls",
+    "id": "hawaii-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.2005843,
+      "latitude": -5.389205,
+      "province": "province/ifrane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

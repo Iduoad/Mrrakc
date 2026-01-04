@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tizgui Waterfalls",
+    "id": "tizgui-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 30.6353252,
+      "latitude": -7.5770173,
+      "province": "province/taroudant"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

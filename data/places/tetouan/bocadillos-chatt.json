@@ -9,8 +9,8 @@
     "id": "bocadillos-chatt",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3567784,
       "longitude": 35.570939,
+      "latitude": -5.3567784,
       "province": "province/tetouan"
     },
     "people": [],

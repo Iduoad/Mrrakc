@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tatiouine Dam",
+    "id": "tatiouine-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.5855556,
+      "latitude": -4.7680556,
+      "province": "province/midelt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

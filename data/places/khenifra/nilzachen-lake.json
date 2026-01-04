@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Nilzachen Lake",
+    "id": "nilzachen-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.6722306,
+      "latitude": -5.6647185,
+      "province": "province/khenifra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

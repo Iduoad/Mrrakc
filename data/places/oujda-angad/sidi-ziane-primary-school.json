@@ -9,8 +9,8 @@
     "id": "sidi-ziane-primary-school",
     "description": "Built in 1907 by the French Protectorate, this is the oldest primary school in Oujda and probably in the entire country. The building was declared as a national patrimony in 2018.",
     "location": {
-      "latitude": -1.915168,
       "longitude": 34.6783065,
+      "latitude": -1.915168,
       "province": "province/oujda-angad"
     },
     "people": [],

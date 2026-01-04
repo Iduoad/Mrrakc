@@ -9,8 +9,8 @@
     "id": "cinma-espaol",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3701147,
       "longitude": 35.5693432,
+      "latitude": -5.3701147,
       "province": "province/tetouan"
     },
     "people": [],

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Mechra Dam",
+    "id": "oued-mechra-dam",
+    "description": "AKA Mohammed Ben Abdellah",
+    "location": {
+      "longitude": 33.9653969,
+      "latitude": -6.7012424,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

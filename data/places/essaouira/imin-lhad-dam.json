@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Imin Lhad Dam",
+    "id": "imin-lhad-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.246285,
+      "latitude": -9.6238276,
+      "province": "province/essaouira"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

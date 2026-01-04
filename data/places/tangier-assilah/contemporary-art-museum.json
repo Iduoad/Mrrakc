@@ -9,8 +9,8 @@
     "id": "contemporary-art-museum",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8122879,
       "longitude": 35.7884964,
+      "latitude": -5.8122879,
       "province": "province/tangier-assilah"
     },
     "people": [],

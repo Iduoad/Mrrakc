@@ -9,8 +9,8 @@
     "id": "mount-berja-kbira-bni-saleh",
     "description": "855m",
     "location": {
-      "latitude": -5.3628583,
       "longitude": 35.5280404,
+      "latitude": -5.3628583,
       "province": "province/tetouan"
     },
     "people": [],

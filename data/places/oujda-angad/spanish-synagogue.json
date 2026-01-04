@@ -9,8 +9,8 @@
     "id": "spanish-synagogue",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9156774,
       "longitude": 34.6825135,
+      "latitude": -1.9156774,
       "province": "province/oujda-angad"
     },
     "people": [],

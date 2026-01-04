@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Yahya Dam",
+    "id": "sidi-yahya-dam",
+    "description": "AKA Kouachia",
+    "location": {
+      "longitude": 33.7685391,
+      "latitude": -6.9107142,
+      "province": "province/skhirate-temara"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

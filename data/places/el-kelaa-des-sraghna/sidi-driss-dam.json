@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Driss Dam",
+    "id": "sidi-driss-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.8459515,
+      "latitude": -7.0781759,
+      "province": "province/el-kelaa-des-sraghna"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

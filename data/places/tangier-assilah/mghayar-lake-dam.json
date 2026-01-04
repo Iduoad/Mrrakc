@@ -9,8 +9,8 @@
     "id": "mghayar-lake-dam",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8962092,
       "longitude": 35.7525962,
+      "latitude": -5.8962092,
       "province": "province/tangier-assilah"
     },
     "people": [],

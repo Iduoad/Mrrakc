@@ -9,8 +9,8 @@
     "id": "dar-niaba-museum",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8112312,
       "longitude": 35.7852699,
+      "latitude": -5.8112312,
       "province": "province/tangier-assilah"
     },
     "people": [],

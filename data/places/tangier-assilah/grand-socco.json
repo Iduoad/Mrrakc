@@ -9,8 +9,8 @@
     "id": "grand-socco",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8130192,
       "longitude": 35.7843526,
+      "latitude": -5.8130192,
       "province": "province/tangier-assilah"
     },
     "people": [],

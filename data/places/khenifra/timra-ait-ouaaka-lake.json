@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Timra Ait Ouaaka Lake",
+    "id": "timra-ait-ouaaka-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.9526538,
+      "latitude": -5.4093839,
+      "province": "province/khenifra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

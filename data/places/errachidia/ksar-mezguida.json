@@ -9,8 +9,8 @@
     "id": "ksar-mezguida",
     "description": "Ksar Soultani - By Moulay Ismail<br><br>",
     "location": {
-      "latitude": -4.2577141,
       "longitude": 31.323473,
+      "latitude": -4.2577141,
       "province": "province/errachidia"
     },
     "people": [],

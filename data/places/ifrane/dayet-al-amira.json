@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Dayet Al Amira",
+    "id": "dayet-al-amira",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.64934,
+      "latitude": -4.9675802,
+      "province": "province/ifrane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

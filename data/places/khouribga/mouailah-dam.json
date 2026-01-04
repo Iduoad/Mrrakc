@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mouailah Dam",
+    "id": "mouailah-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.8093264,
+      "latitude": -6.3846878,
+      "province": "province/khouribga"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

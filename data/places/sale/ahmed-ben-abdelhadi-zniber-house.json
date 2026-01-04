@@ -9,8 +9,8 @@
     "id": "ahmed-ben-abdelhadi-zniber-house",
     "description": "No description available.",
     "location": {
-      "latitude": -6.8263913,
       "longitude": 34.040201,
+      "latitude": -6.8263913,
       "province": "province/sale"
     },
     "people": [],

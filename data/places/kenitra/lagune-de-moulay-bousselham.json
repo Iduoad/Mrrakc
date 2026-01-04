@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Lagune de Moulay-Bousselham",
+    "id": "lagune-de-moulay-bousselham",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.8500977,
+      "latitude": -6.272867,
+      "province": "province/kenitra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Za Dam",
+    "id": "oued-za-dam",
+    "description": "AKA Hassan II",
+    "location": {
+      "longitude": 34.2008834,
+      "latitude": -2.6358136,
+      "province": "province/taourirt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

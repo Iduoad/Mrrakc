@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Timi Noutione Dam",
+    "id": "timi-noutione-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.6638821,
+      "latitude": -7.2567524,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

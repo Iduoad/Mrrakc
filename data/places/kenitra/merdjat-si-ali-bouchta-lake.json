@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Merdjat Si Ali Bouchta Lake",
+    "id": "merdjat-si-ali-bouchta-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.2631818,
+      "latitude": -6.5476496,
+      "province": "province/kenitra"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

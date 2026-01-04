@@ -9,8 +9,8 @@
     "id": "al-hamama-children-play-park",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3850982,
       "longitude": 35.5657217,
+      "latitude": -5.3850982,
       "province": "province/tetouan"
     },
     "people": [],

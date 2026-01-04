@@ -9,8 +9,8 @@
     "id": "ecological-park-of-oujda",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9216402,
       "longitude": 34.7382603,
+      "latitude": -1.9216402,
       "province": "province/oujda-angad"
     },
     "people": [],

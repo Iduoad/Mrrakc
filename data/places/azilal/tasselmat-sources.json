@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/water-source",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tasselmat Sources",
+    "id": "tasselmat-sources",
+    "description": "No description available.",
+    "location": {
+      "longitude": 32.0683729,
+      "latitude": -7.041195,
+      "province": "province/azilal"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

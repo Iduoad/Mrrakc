@@ -9,8 +9,8 @@
     "id": "bab-kasbah",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8149435,
       "longitude": 35.7885891,
+      "latitude": -5.8149435,
       "province": "province/tangier-assilah"
     },
     "people": [],

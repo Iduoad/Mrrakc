@@ -9,8 +9,8 @@
     "id": "ibn-battouta-lake-dam",
     "description": "No description available.",
     "location": {
-      "latitude": -5.7272094,
       "longitude": 35.6349318,
+      "latitude": -5.7272094,
       "province": "province/tangier-assilah"
     },
     "people": [],

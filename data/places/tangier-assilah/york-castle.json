@@ -9,8 +9,8 @@
     "id": "york-castle",
     "description": "No description available.",
     "location": {
-      "latitude": -5.811893,
       "longitude": 35.7887698,
+      "latitude": -5.811893,
       "province": "province/tangier-assilah"
     },
     "people": [],

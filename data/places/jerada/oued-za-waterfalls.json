@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/river",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Oued Za Waterfalls",
+    "id": "oued-za-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.2270163,
+      "latitude": -2.3070038,
+      "province": "province/jerada"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

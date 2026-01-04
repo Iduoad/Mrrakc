@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Itouzar Dam",
+    "id": "itouzar-dam",
+    "description": "AKA Ait El Haj",
+    "location": {
+      "longitude": 32.9118545,
+      "latitude": -5.08202,
+      "province": "province/midelt"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

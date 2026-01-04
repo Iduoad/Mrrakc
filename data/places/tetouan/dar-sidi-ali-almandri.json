@@ -9,8 +9,8 @@
     "id": "dar-sidi-ali-almandri",
     "description": "No description available.",
     "location": {
-      "latitude": -5.3669222,
       "longitude": 35.5711096,
+      "latitude": -5.3669222,
       "province": "province/tetouan"
     },
     "people": [],

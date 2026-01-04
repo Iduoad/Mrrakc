@@ -9,8 +9,8 @@
     "id": "maakouda-snack",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9244186,
       "longitude": 34.6759312,
+      "latitude": -1.9244186,
       "province": "province/oujda-angad"
     },
     "people": [],

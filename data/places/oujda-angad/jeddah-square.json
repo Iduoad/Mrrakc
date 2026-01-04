@@ -9,8 +9,8 @@
     "id": "jeddah-square",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9158641,
       "longitude": 34.6847099,
+      "latitude": -1.9158641,
       "province": "province/oujda-angad"
     },
     "people": [],

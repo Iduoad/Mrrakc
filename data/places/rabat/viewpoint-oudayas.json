@@ -9,8 +9,8 @@
     "id": "viewpoint-oudayas",
     "description": "No description available.",
     "location": {
-      "latitude": -6.8356382,
       "longitude": 34.0329784,
+      "latitude": -6.8356382,
       "province": "province/rabat"
     },
     "people": [],

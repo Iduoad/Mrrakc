@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Big Rock Waterfalls",
+    "id": "big-rock-waterfalls",
+    "description": "No description available.",
+    "location": {
+      "longitude": 31.2189863,
+      "latitude": -7.6693623,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

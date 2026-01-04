@@ -9,8 +9,8 @@
     "id": "habbous-market",
     "description": "No description available.",
     "location": {
-      "latitude": -1.9129246,
       "longitude": 34.6793069,
+      "latitude": -1.9129246,
       "province": "province/oujda-angad"
     },
     "people": [],

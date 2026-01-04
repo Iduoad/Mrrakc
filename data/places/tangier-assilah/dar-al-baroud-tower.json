@@ -9,8 +9,8 @@
     "id": "dar-al-baroud-tower",
     "description": "No description available.",
     "location": {
-      "latitude": -5.8081727,
       "longitude": 35.788628,
+      "latitude": -5.8081727,
       "province": "province/tangier-assilah"
     },
     "people": [],

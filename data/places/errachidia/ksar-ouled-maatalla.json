@@ -9,8 +9,8 @@
     "id": "ksar-ouled-maatalla",
     "description": "No description available.",
     "location": {
-      "latitude": -4.2592944,
       "longitude": 31.4439495,
+      "latitude": -4.2592944,
       "province": "province/errachidia"
     },
     "people": [],

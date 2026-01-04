@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Jorf Loghrab",
+    "id": "jorf-loghrab",
+    "description": "No description available.",
+    "location": {
+      "longitude": 34.4575773,
+      "latitude": -5.019038,
+      "province": "province/taounate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

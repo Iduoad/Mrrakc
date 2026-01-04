@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/dam",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Rouidate Dam",
+    "id": "rouidate-dam",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.7334466,
+      "latitude": -6.9675438,
+      "province": "province/skhirate-temara"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

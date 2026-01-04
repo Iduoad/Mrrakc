@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/lake",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Berrachid Municipal Lake",
+    "id": "berrachid-municipal-lake",
+    "description": "No description available.",
+    "location": {
+      "longitude": 33.2834498,
+      "latitude": -7.5925321,
+      "province": "province/berrechid"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}
