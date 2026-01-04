@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Amalou",
+    "id": "mount-amalou",
+    "description": "Imilchil <br>Mountain Chain: Eastern High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 32.1108071,
+      "latitude": -5.6335492,
+      "province": "province/midelt",
+      "altitude": 3072
     },
     "people": [],
     "timeline": [],

@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Siroua",
+    "id": "mount-siroua",
+    "description": "Ait Ouaouzguite <br>Mountain Chain: Anti Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 30.704,
+      "latitude": -7.6215,
+      "province": "province/taroudant",
+      "altitude": 3304
     },
     "people": [],
     "timeline": [],

@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Aberdouz",
+    "id": "mount-aberdouz",
+    "description": "AKA Ich Nolmou<br>Midelt <br>Mountain Chain: Eastern High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 32.2525,
+      "latitude": -5.1166667,
+      "province": "province/midelt",
+      "altitude": 2808
     },
     "people": [],
     "timeline": [],

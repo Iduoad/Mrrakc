@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Toubkal",
+    "id": "mount-toubkal",
+    "description": "Imlil <br>Mountain Chain: Western High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 31.0600719,
+      "latitude": -7.9147482,
+      "province": "province/al-haouz",
+      "altitude": 4167
     },
     "people": [],
     "timeline": [],

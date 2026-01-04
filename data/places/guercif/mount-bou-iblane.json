@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Bou Iblane",
+    "id": "mount-bou-iblane",
+    "description": "Taza <br>Mountain Chain: Middle Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 33.6779256,
+      "latitude": -4.0738678,
+      "province": "province/guercif",
+      "altitude": 3082
     },
     "people": [],
     "timeline": [],

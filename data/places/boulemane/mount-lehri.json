@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Lehri",
+    "id": "mount-lehri",
+    "description": "Boulmane <br>Mountain Chain: Middle Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 33.4615422421435,
+      "latitude": -4.55679678275751,
+      "province": "province/boulemane",
+      "altitude": 2467
     },
     "people": [],
     "timeline": [],

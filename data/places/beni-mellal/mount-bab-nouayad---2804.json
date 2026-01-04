@@ -5,14 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Bab N'Ouayad",
+    "id": "mount-bab-nouayad",
+    "description": "Imilchil <br>Mountain Chain: Eastern High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 32.2184777,
+      "latitude": -5.6477525,
+      "province": "province/beni-mellal"
     },
     "people": [],
     "timeline": [],

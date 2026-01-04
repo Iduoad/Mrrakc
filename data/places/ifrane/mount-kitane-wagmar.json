@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Kitane Wagmar",
+    "id": "mount-kitane-wagmar",
+    "description": "Ain Leuh <br>Mountain Chain: Middle Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 33.21485,
+      "latitude": -5.25969,
+      "province": "province/ifrane",
+      "altitude": 2119
     },
     "people": [],
     "timeline": [],

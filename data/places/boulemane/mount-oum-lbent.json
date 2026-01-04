@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Oum L'Bent",
+    "id": "mount-oum-lbent",
+    "description": "AKA Tichoukt<br>Boulmane <br>Mountain Chain: Middle Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 33.3937546,
+      "latitude": -4.6584613,
+      "province": "province/boulemane",
+      "altitude": 2796
     },
     "people": [],
     "timeline": [],

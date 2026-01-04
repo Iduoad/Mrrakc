@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Tarkeddite",
+    "id": "mount-tarkeddite",
+    "description": "Imlil <br>Mountain Chain: Central High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "province": "province/tetouan",
-      "altitude": 1215
+      "longitude": 31.5397222,
+      "latitude": -6.5275,
+      "province": "province/azilal",
+      "altitude": 3545
     },
     "people": [],
     "timeline": [],
