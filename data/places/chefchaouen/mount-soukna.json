@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Soukna",
+    "id": "mount-soukna",
+    "description": "Chefchaouen <br>Mountain Chain: Rif",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 35.11556,
+      "latitude": -5.401689,
+      "altitude": 1610,
+      "province": "province/chefchaouen"
     },
     "people": [],
     "timeline": [],

@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Tazaout",
+    "id": "mount-tazaout",
+    "description": "AKA Qoba't Abad<br>Chefchaouen <br>Mountain Chain: Rif",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 35.23934,
+      "latitude": -5.100887,
+      "altitude": 1855,
+      "province": "province/chefchaouen"
     },
     "people": [],
     "timeline": [],

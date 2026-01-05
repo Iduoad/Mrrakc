@@ -5,14 +5,14 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "name": "Mount Tingarlaft",
+    "id": "mount-tingarlaft",
+    "description": "Mountain Chain: Eastern High Atlas",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
-      "province": "province/tetouan"
+      "longitude": 32.11,
+      "latitude": -5.88,
+      "altitude": 3242,
+      "province": "province/azilal"
     },
     "people": [],
     "timeline": [],

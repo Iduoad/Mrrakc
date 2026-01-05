@@ -5,13 +5,13 @@
     "tags": []
   },
   "spec": {
-    "name": "Mount Bouzaytoun",
-    "id": "mount-bouzaytoun",
+    "name": "Mount Ghorghize",
+    "id": "mount-ghorghize",
     "description": "Tetouan <br>Mountain Chain: Rif",
     "location": {
-      "longitude": 35.4911089,
-      "latitude": -5.3335207,
-      "altitude": 1215,
+      "longitude": 35.514625,
+      "latitude": -5.373336,
+      "altitude": 931,
       "province": "province/tetouan"
     },
     "people": [],
