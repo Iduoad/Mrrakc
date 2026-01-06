@@ -1,0 +1,18 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "History",
+            "Architecture"
+        ]
+    },
+    "spec": {
+        "id": "casablanca",
+        "title": "Casablanca: Where everything happens",
+        "description": "Explore all the historical and cultural sites of Casablanca.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/casablanca'"
+        }
+    }
+}

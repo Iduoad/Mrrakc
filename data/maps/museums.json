@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Culture",
+            "History",
+            "Art"
+        ]
+    },
+    "spec": {
+        "id": "museums",
+        "title": "Museums of Morocco",
+        "description": "Discover the rich history and art of Morocco through its museums.",
+        "strategy": "query",
+        "content": {
+            "query": "kind == 'culture/museum' || kind == 'culture/art-gallery'"
+        }
+    }
+}

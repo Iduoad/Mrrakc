@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Sahara",
+            "Oasis",
+            "Nature"
+        ]
+    },
+    "spec": {
+        "id": "errachidia",
+        "title": "Errachidia: Gateway to the Sahara",
+        "description": "Journey through the gateway to the Sahara and explore the Ksour of Errachidia.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/errachidia'"
+        }
+    }
+}

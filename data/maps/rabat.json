@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Capital",
+            "History",
+            "Culture"
+        ]
+    },
+    "spec": {
+        "id": "rabat",
+        "title": "Rabat: La Capitale 🌟",
+        "description": "Explore the imperial city and capital of Morocco, Rabat.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/rabat'"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Nature",
+            "Water",
+            "Relaxation"
+        ]
+    },
+    "spec": {
+        "id": "lakes-dams",
+        "title": "Lakes and Dams of Morocco",
+        "description": "Visit the serene lakes and impressive dams of Morocco.",
+        "strategy": "query",
+        "content": {
+            "query": "kind == 'nature/lake' || kind == 'nature/dam'"
+        }
+    }
+}

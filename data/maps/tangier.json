@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Assilah",
+            "North",
+            "Mediterranean"
+        ]
+    },
+    "spec": {
+        "id": "tangier",
+        "title": "Tangier Assilah: The pearl of the Mediterranean",
+        "description": "Navigate through the vibrant cities of Tangier and Assilah.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/tangier'"
+        }
+    }
+}

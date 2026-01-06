@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Nature",
+            "Geopark",
+            "Dinosaurs"
+        ]
+    },
+    "spec": {
+        "id": "azilal",
+        "title": "Azilal: Land of Dinosaurs",
+        "description": "Discover the geological wonders and natural beauty of Azilal.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/azilal'"
+        }
+    }
+}

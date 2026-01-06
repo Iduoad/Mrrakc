@@ -58,3 +58,12 @@ jobs:
             exit 1
           }
           echo "✅ Places validation passed"
+
+      - name: Validate Maps Data
+        run: |
+          echo "🏛️ Validating maps data..."
+          boon schema/maps.json data/maps/*.json || {
+            echo "❌ Maps validation failed"
+            exit 1
+          }
+          echo "✅ Maps validation passed"

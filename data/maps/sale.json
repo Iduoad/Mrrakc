@@ -1,0 +1,18 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "History",
+            "Culture"
+        ]
+    },
+    "spec": {
+        "id": "sale",
+        "title": "Salé: More than 1000 years of greatness",
+        "description": "Discover the ancient city of Salé and its rich heritage.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/sale'"
+        }
+    }
+}
