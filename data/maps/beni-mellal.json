@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "beni-mellal",
+        "title": "Beni Mellal",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/beni-mellal'"
+        }
+    }
+}

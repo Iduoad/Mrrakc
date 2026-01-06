@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "azilal",
+        "title": "Azilal",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/azilal'"
+        }
+    }
+}

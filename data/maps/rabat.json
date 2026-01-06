@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "rabat",
+        "title": "Rabat",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/rabat'"
+        }
+    }
+}

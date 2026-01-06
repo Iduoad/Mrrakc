@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "tetouan",
+        "title": "Tetouan",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/tetouan'"
+        }
+    }
+}

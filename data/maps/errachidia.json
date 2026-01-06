@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "errachidia",
+        "title": "Errachidia",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/errachidia'"
+        }
+    }
+}

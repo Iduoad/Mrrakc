@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "oujda",
+        "title": "Oujda",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/oujda'"
+        }
+    }
+}

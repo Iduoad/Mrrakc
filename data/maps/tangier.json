@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "tangier",
+        "title": "Tangier",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/tangier'"
+        }
+    }
+}

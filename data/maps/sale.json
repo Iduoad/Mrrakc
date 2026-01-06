@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "sale",
+        "title": "Sale",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/sale'"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "version": "mrrakc/v0",
+    "spec": {
+        "id": "casablanca",
+        "title": "Casablanca",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/casablanca'"
+        }
+    }
+}

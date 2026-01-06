@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Mrrakc Maps Schema",
+    "description": "Schema for maps data in Mrrakc",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "base.json"
+        }
+    ],
+    "properties": {
+        "spec": {
+            "type": "object",
+            "required": [
+                "id",
+                "title",
+                "strategy",
+                "content"
+            ],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "description": "The URL-friendly slug for the map"
+                },
+                "title": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Title of the map"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description of the map"
+                },
+                "strategy": {
+                    "type": "string",
+                    "enum": [
+                        "explicit",
+                        "query",
+                        "mixed"
+                    ],
+                    "description": "Strategy for populating the map content"
+                },
+                "content": {
+                    "type": "object",
+                    "properties": {
+                        "ids": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "A list of explicit composite IDs"
+                        },
+                        "query": {
+                            "type": "string",
+                            "description": "A valid JMESPath expression to filter places"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
