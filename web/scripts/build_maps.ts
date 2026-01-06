@@ -198,6 +198,7 @@ async function buildMaps() {
         };
     }
 
+    await fs.mkdir(path.dirname(OUTPUT_FILE), { recursive: true });
     await fs.writeFile(OUTPUT_FILE, JSON.stringify(output, null, 2));
     console.log(`✅ Generated maps data to ${OUTPUT_FILE}`);
 }
