@@ -8,6 +8,7 @@ export interface MapPoint {
         latitude: number;
         longitude: number;
         province?: string;
+        altitude?: number;
     };
     prices?: {
         title: string;

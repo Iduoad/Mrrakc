@@ -43,7 +43,8 @@ import {
     ChevronLeft,
     FerrisWheel,
     Waves,
-    PawPrint
+    PawPrint,
+    Mountain
 } from 'lucide-react';
 
 import type { MapPoint } from '../../types/map';
@@ -318,7 +319,9 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                             {React.cloneElement(getIcon(selectedPoint.category) as React.ReactElement<{ size: number }>, { size: simple ? 14 : 18 })}
                                         </div>
                                         <h3 className={`font-serif font-bold text-charcoal dark:text-stone-100 leading-tight ${simple ? 'text-sm' : 'text-lg'}`}>
-                                            {selectedPoint.name}
+                                            <a href={`/provinces/${selectedPoint.id}`} className="hover:text-terra transition-colors">
+                                                {selectedPoint.name}
+                                            </a>
                                         </h3>
                                     </div>
 
@@ -327,6 +330,13 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                             <p className="text-xs text-charcoal-light dark:text-stone-400 mb-3 line-clamp-3 leading-relaxed">
                                                 {selectedPoint.description}
                                             </p>
+
+                                            {selectedPoint.location.altitude && (
+                                                <div className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-terra mb-3">
+                                                    <Mountain size={12} />
+                                                    <span>{selectedPoint.location.altitude} m</span>
+                                                </div>
+                                            )}
 
                                             {selectedPoint.prices && selectedPoint.prices.length > 0 && (
                                                 <div className="mb-3 p-2 bg-clay/20 dark:bg-charcoal-light/20 rounded-lg border border-clay/30 dark:border-charcoal-light/30">
@@ -363,6 +373,16 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                                     ))}
                                                 </div>
                                             )}
+
+                                            <div className="mt-3 pt-2 border-t border-clay/30 dark:border-charcoal-light/30 flex justify-end">
+                                                <a
+                                                    href={`/provinces/${selectedPoint.id}`}
+                                                    className="flex items-center gap-1 text-xs font-bold text-terra hover:text-terra-dark transition-colors group/link"
+                                                >
+                                                    View Details
+                                                    <ChevronRight size={12} className="group-hover/link:translate-x-0.5 transition-transform" />
+                                                </a>
+                                            </div>
                                         </>
                                     )}
                                 </div>

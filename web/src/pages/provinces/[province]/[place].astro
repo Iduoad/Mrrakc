@@ -2,7 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import MiniMap from '../../../components/MiniMap.astro';
-import { ExternalLink, Calendar, User, Clock } from 'lucide-react';
+import { ExternalLink, Calendar, User, Clock, Mountain } from 'lucide-react';
 
 export async function getStaticPaths() {
   const places = await getCollection('places');
@@ -99,12 +99,22 @@ const formatDate = (dateStr: string) => {
                     <li class="flex items-start gap-2">
                       <User size={16} className="mt-0.5 text-terra shrink-0" />
                       <div>
-                        <span class="font-bold text-charcoal dark:text-stone-200 block">{person.id.split('/').pop()?.replace(/-/g, ' ')}</span>
+                        <span class="font-bold text-charcoal dark:text-stone-200 block capitalize">{person.id.split('/').pop()?.replace(/-/g, ' ')}</span>
                         <span class="text-xs text-charcoal-light dark:text-stone-400">{person.relationship.join(', ')}</span>
                       </div>
                     </li>
                   ))}
                 </ul>
+              </div>
+            )}
+
+            {spec.location.altitude && (
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Altitude</span>
+                <div class="flex items-center gap-2 text-charcoal dark:text-stone-200 font-bold">
+                  <Mountain size={16} className="text-terra" />
+                  <span>{spec.location.altitude} m</span>
+                </div>
               </div>
             )}
 
@@ -120,6 +130,7 @@ const formatDate = (dateStr: string) => {
                 </div>
               </div>
             )}
+
           </div>
         </div>
 
