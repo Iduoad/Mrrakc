@@ -7,14 +7,28 @@
   "spec": {
     "name": "House of Haj Touzzani",
     "id": "house-of-haj-touzzani",
-    "description": "🔻 Dates: 19th century<br>🔻 Current Status: Inhabited<br>🔻 Comments: Although little information is known about the owner of this house, it may be Haj Mohamed Touzzani who was once the Director of the Casablanca's port.<br>---<br>🔗 https://www.nadorcity.com/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D8%A7%D9%86%D9%8A-%D8%A7%D8%A8%D9%86-%D8%A2%D9%8A%D8%AA-%D8%AA%D9%88%D8%B2%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A8-%D8%A8-%D9%85%D8%B3%D8%AA%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%B1%D8%B3%D9%89-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A_a29247.html",
+    "description": "Current Status: Inhabited",
     "location": {
       "longitude": 33.6001111,
       "latitude": -7.6165,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/mohammed-touzzani",
+        "relationship": [
+          "owner"
+        ],
+        "comment": "First owner of the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1800-01-01",
+        "description": "Construction of the building by Haj Mohammed Touzzani in the 19th century."
+      }
+    ],
     "links": [
       {
         "url": "https://www.nadorcity.com/%D9%85%D8%AD%D9%85%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D8%B2%D8%A7%D9%86%D9%8A-%D8%A7%D8%A8%D9%86-%D8%A2%D9%8A%D8%AA-%D8%AA%D9%88%D8%B2%D9%8A%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%82%D8%A8-%D8%A8-%D9%85%D8%B3%D8%AA%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%B1%D8%B3%D9%89-%D8%A8%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%8A_a29247.html",
@@ -36,6 +50,11 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "19th Century"
+    ],
+    "comments": [
+      "Although little information is known about the owner of this house, it may be Haj Mohamed Touzzani who was once the Director of the Casablanca's port."
+    ]
   }
 }

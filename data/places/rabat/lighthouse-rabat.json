@@ -1,20 +1,46 @@
 {
   "version": "mrrakc/v0",
-  "kind": "culture/museum",
+  "kind": "architecture/lighthouse",
   "metadata": {
-    "tags": []
+    "tags": [
+      "National Material Patrimony"
+    ]
   },
   "spec": {
-    "name": "Lighthouse Rabat",
+    "name": "Rabat Lighthouse",
     "id": "lighthouse-rabat",
-    "description": "No description available.",
+    "description": "The Rabat Lighthouse (also known as the Fort de la Calette Lighthouse) is a lighthouse built at the beginning of the 20th century in Rabat, standing on the platform of Borj Sirat. It was commissioned in April 1920.",
     "location": {
       "longitude": 34.0315066,
       "latitude": -6.8443654,
       "province": "province/rabat"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/moulay-youssef",
+        "relationship": [
+          "Sultan"
+        ]
+      },
+      {
+        "id": "people/mohammed-el-mokri",
+        "relationship": [
+          "Vizier"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1919-01-01",
+        "description": "Built during the reign of Sultan Moulay Youssef."
+      },
+      {
+        "title": "Mise en service",
+        "date": "1920-04-25",
+        "description": "Commissioned in April 1920."
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -23,7 +49,9 @@
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "20th Century"
+    ],
     "comments": []
   }
 }

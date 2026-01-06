@@ -7,15 +7,28 @@
   "spec": {
     "name": "House of Haj Ahmed Zemmouri",
     "id": "house-of-haj-ahmed-zemmouri",
-    "description": "🔻 Dates: 19th century<br>🔻 Current Status: Inhabited<br>🔻 Comments: Haj Ahmed Zemmouri was known as one of the most important importers in Casablanca and Morocco.",
+    "description": "Current Status: Inhabited",
     "location": {
       "longitude": 33.600239,
       "latitude": -7.616264,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
+    "people": [
+      {
+        "id": "people/ahmed-zemmouri",
+        "relationship": [
+          "owner"
+        ],
+        "comment": "First owner of the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1800-01-01",
+        "description": "Construction of the building by the businessman Haj Ahmed Zemmouri."
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {
@@ -30,6 +43,11 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "19th Century"
+    ],
+    "comments": [ 
+      "Haj Ahmed Zemmouri was known as one of the most important importers in Casablanca and Morocco."
+    ]
   }
 }
