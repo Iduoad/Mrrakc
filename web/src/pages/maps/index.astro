@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { Map as MapIcon, Calendar, User } from 'lucide-react';
+import generatedMaps from '../../data/generated/maps.json';
 
 const maps = await getCollection('maps', ({ data }) => {
   return !data.draft;
@@ -21,13 +22,25 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
     </header>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {maps.map(map => (
+      {maps.map(map => {
+        let mapTitle = map.data.title;
+        let mapDescription = map.data.description;
+        let mapTags = map.data.tags;
+
+        if (map.data.mapId && map.data.mapId in generatedMaps) {
+            const mapData = generatedMaps[map.data.mapId as keyof typeof generatedMaps];
+            if (!mapTitle) mapTitle = mapData.title;
+            if (!mapDescription) mapDescription = mapData.description;
+            if (!mapTags || mapTags.length === 0) mapTags = mapData.tags;
+        }
+
+        return (
         <a href={`/maps/${map.id}`} class="group block bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
           <div class="aspect-video w-full overflow-hidden bg-clay/10 relative">
             {map.data.heroImage ? (
                <img 
                 src={typeof map.data.heroImage === 'string' ? map.data.heroImage : map.data.heroImage.src} 
-                alt={map.data.title}
+                alt={mapTitle}
                 class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             ) : (
@@ -38,7 +51,7 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
             <div class="absolute bottom-4 left-4 right-4 text-white">
                 <div class="flex flex-wrap gap-2 mb-2">
-                    {map.data.tags.slice(0, 3).map(tag => (
+                    {mapTags.slice(0, 3).map(tag => (
                         <span class="text-[10px] font-bold uppercase tracking-wider bg-terra/90 px-2 py-0.5 rounded-full">
                             {tag}
                         </span>
@@ -49,10 +62,10 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
           
           <div class="p-6 flex flex-col flex-grow">
             <h2 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 mb-2 group-hover:text-terra transition-colors">
-              {map.data.title}
+              {mapTitle}
             </h2>
             <p class="text-charcoal-light dark:text-stone-400 text-sm line-clamp-3 mb-6 flex-grow">
-              {map.data.description}
+              {mapDescription}
             </p>
             
             <div class="flex items-center justify-between pt-4 border-t border-clay/10 dark:border-charcoal-light/10 text-xs text-charcoal-light/70 dark:text-stone-500">
@@ -67,7 +80,7 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
             </div>
           </div>
         </a>
-      ))}
+      )})}
     </div>
   </main>
 </BaseLayout>
