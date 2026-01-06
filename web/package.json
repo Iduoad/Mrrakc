@@ -3,8 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "prebuild": "bun scripts/build_maps.ts",
+    "dev": "bun run prebuild && astro dev",
+    "build": "bun run prebuild && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -15,6 +16,7 @@
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.6",
+    "jmespath": "^0.16.0",
     "lucide-react": "^0.562.0",
     "maplibre-gl": "^5.15.0",
     "mdast-util-to-string": "^4.0.0",

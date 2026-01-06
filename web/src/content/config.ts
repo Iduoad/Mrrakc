@@ -92,14 +92,15 @@ const provinces = defineCollection({
 const maps = defineCollection({
     loader: glob({ pattern: "**/*.md", base: path.resolve(__dirname, 'maps') }),
     schema: ({ image }) => z.object({
-        title: z.string(),
-        description: z.string(),
+        title: z.string().optional(),
+        description: z.string().optional(),
         pubDate: z.coerce.date(),
         heroImage: z.union([image(), z.string()]).optional(),
         author: z.string().default('Mrrakc Team'),
         tags: z.array(z.string()).default([]),
         draft: z.boolean().default(false),
-        places: z.array(z.string()), // List of place IDs or "province/id"
+        mapId: z.string(),
+        places: z.array(z.string()).optional(), // Deprecated, use mapId
     }),
 });
 

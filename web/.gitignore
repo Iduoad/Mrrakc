@@ -23,3 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 .vscode/
+
+# generated data
+src/data/generated/
