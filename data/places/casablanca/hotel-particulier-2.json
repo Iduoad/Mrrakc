@@ -7,14 +7,27 @@
   "spec": {
     "name": "Hotel Particulier 2",
     "id": "hotel-particulier-2",
-    "description": "🔻 Architect: Emmanuel Chaine<br>🔻 Dates: 1930/1931",
+    "description": "No description available",
     "location": {
       "longitude": 33.5901432,
       "latitude": -7.6249155,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/emmanuel-chaine",
+        "relationship": [
+          "Architect"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1931",
+        "description": "Built in 1930/1931"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -30,6 +43,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

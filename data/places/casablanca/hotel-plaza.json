@@ -7,14 +7,27 @@
   "spec": {
     "name": "Hotel Plaza",
     "id": "hotel-plaza",
-    "description": "🔻 Architect: Marius Boyer<br>🔻 Dates: 1920s<br>🔻 Current Status: Hotel",
+    "description": "Current Status: Hotel",
     "location": {
       "longitude": 33.5975299,
       "latitude": -7.6156551,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "Architect"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1930",
+        "description": "Constructed in 1930 by Marius Boyer"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -30,6 +43,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

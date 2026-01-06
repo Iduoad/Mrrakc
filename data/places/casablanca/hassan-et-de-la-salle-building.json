@@ -2,19 +2,45 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "National Material Patrimony"
+    ]
   },
   "spec": {
     "name": "Hassan et de la Salle Building",
     "id": "hassan-et-de-la-salle-building",
-    "description": "🔻 Architect: Elias & Joseph Suraqui<br>🔻 Dates: 1928<br>🔻 Current Status: Inhabited<br>🔻 National Material Patrimony Declaration: 2018",
+    "description": "No description available",
     "location": {
       "longitude": 33.594891,
       "latitude": -7.619924,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/elias-suraqui",
+        "relationship": [
+          "Architect"
+        ]
+      },
+      {
+        "id": "people/joseph-suraqui",
+        "relationship": [
+          "Architect"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1928",
+        "description": "Built in 1928"
+      },
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018",
+        "description": "Declared National Material Patrimony in 2018"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -30,6 +56,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

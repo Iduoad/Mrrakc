@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hotel Particulier 4",
     "id": "hotel-particulier-4",
-    "description": "🔻 Architect: Edmond Brion<br>🔻 Dates: 1936",
+    "description": "No description available",
     "location": {
       "longitude": 33.5925371,
       "latitude": -7.6233119,
@@ -21,7 +21,13 @@
         ]
       }
     ],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1936",
+        "description": "Built in 1936"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -37,6 +43,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }
