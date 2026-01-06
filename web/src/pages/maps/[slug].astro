@@ -14,44 +14,25 @@ export async function getStaticPaths() {
 
 const { map } = Astro.props;
 const allPlaces = await getCollection('places');
+import generatedMaps from '../../data/generated/maps.json';
+// Get target IDs and metadata from generated map data
+let targetIds: string[] = [];
+let mapTitle = map.data.title;
+let mapDescription = map.data.description;
+let mapTags = map.data.tags;
 
-// Helper to normalize IDs
-const normalizeId = (id: string) => id.replace(/\.json$/, '');
-
-// Resolve places
-let selectedPlaces: typeof allPlaces = [];
-
-// 1. Filter by explicit IDs or Province wildcards
-const placeIds = map.data.places;
-const explicitIds = placeIds.filter(id => !id.startsWith('province/'));
-const provinceIds = placeIds.filter(id => id.startsWith('province/')).map(id => id.replace('province/', ''));
-
-// Add explicit places
-if (explicitIds.length > 0) {
-    const explicitMatches = allPlaces.filter(place => {
-        const normalizedPlaceId = normalizeId(place.id);
-        return explicitIds.some(id => normalizedPlaceId === id || normalizedPlaceId.endsWith('/' + id));
-    });
-    selectedPlaces = [...selectedPlaces, ...explicitMatches];
+if (map.data.mapId && map.data.mapId in generatedMaps) {
+    const mapData = generatedMaps[map.data.mapId as keyof typeof generatedMaps];
+    targetIds = mapData.placeIds;
+    if (!mapTitle) mapTitle = mapData.title;
+    if (!mapDescription) mapDescription = mapData.description;
+    if (!mapTags || mapTags.length === 0) mapTags = mapData.tags;
+} else if (map.data.places) {
+    console.warn(`Map ${map.id} missing mapId or not found in generated data.`);
 }
 
-// Add province places
-if (provinceIds.length > 0) {
-    const provinceMatches = allPlaces.filter(place => {
-        // Check if place belongs to any of the requested provinces
-        // place.data.spec.location.province is like "province/casablanca"
-        const placeProvince = place.data.spec.location.province.replace('province/', '');
-        return provinceIds.includes(placeProvince);
-    });
-    
-    // Avoid duplicates if a place was already added by ID
-    const existingIds = new Set(selectedPlaces.map(p => p.id));
-    provinceMatches.forEach(p => {
-        if (!existingIds.has(p.id)) {
-            selectedPlaces.push(p);
-        }
-    });
-}
+// Filter places
+const selectedPlaces = allPlaces.filter(place => targetIds.includes(place.id));
 
 // Transform to MapPoint
 const points: MapPoint[] = selectedPlaces.map(place => {
@@ -89,13 +70,13 @@ const points: MapPoint[] = selectedPlaces.map(place => {
 });
 ---
 
-<BaseLayout title={map.data.title} description={map.data.description}>
+<BaseLayout title={mapTitle} description={mapDescription}>
   <div class="h-screen w-full flex flex-col pt-20">
     {/* Header */}
     <div class="px-6 py-4 flex items-center justify-between z-10">
         <div>
             <a href="/maps" class="text-xs font-bold uppercase tracking-wider text-terra hover:underline mb-1 block">&larr; All Maps</a>
-            <h1 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100">{map.data.title}</h1>
+            <h1 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100">{mapTitle}</h1>
         </div>
         <div class="hidden md:block text-right">
             <p class="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations found</p>
