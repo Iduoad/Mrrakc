@@ -2,7 +2,8 @@
     "version": "mrrakc/v0",
     "spec": {
         "id": "rabat",
-        "title": "Rabat",
+        "title": "Rabat: La Capitale 🌟",
+        "description": "Explore the imperial city and capital of Morocco, Rabat.",
         "strategy": "query",
         "content": {
             "query": "location.province == 'province/rabat'"

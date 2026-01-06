@@ -2,7 +2,8 @@
     "version": "mrrakc/v0",
     "spec": {
         "id": "oujda",
-        "title": "Oujda",
+        "title": "Oujda: The center of the Oriental region",
+        "description": "Explore the historic and cultural landmarks of Oujda-Angad province.",
         "strategy": "query",
         "content": {
             "query": "location.province == 'province/oujda'"

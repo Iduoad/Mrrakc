@@ -2,7 +2,8 @@
     "version": "mrrakc/v0",
     "spec": {
         "id": "tetouan",
-        "title": "Tetouan",
+        "title": "Tetouan: The white Dove",
+        "description": "Discover the Andalusian heritage and white-washed streets of Tetouan.",
         "strategy": "query",
         "content": {
             "query": "location.province == 'province/tetouan'"

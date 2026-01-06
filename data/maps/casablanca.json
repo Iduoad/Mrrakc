@@ -2,7 +2,8 @@
     "version": "mrrakc/v0",
     "spec": {
         "id": "casablanca",
-        "title": "Casablanca",
+        "title": "Casablanca: Where everything happens",
+        "description": "Explore all the historical and cultural sites of Casablanca.",
         "strategy": "query",
         "content": {
             "query": "location.province == 'province/casablanca'"

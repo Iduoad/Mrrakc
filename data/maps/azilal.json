@@ -2,7 +2,8 @@
     "version": "mrrakc/v0",
     "spec": {
         "id": "azilal",
-        "title": "Azilal",
+        "title": "Azilal: Land of Dinosaurs",
+        "description": "Discover the geological wonders and natural beauty of Azilal.",
         "strategy": "query",
         "content": {
             "query": "location.province == 'province/azilal'"
