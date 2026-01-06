@@ -16,10 +16,14 @@ export default function GameQuiz({ correctAnswer, nextStepSlug, hints, question 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         if (answer.toLowerCase().trim().replace(/\s+/g, '-') === correctAnswer.toLowerCase()) {
-            // Use relative path navigation to support dynamic game routes
-            // If nextStepSlug is "02-step", and we are at "/games/my-game/01-step",
-            // this will navigate to "/games/my-game/02-step"
-            window.location.href = nextStepSlug;
+            // Navigate to the next step relative to the current game root
+            const currentPath = window.location.pathname;
+            // Remove trailing slash if present
+            const cleanPath = currentPath.endsWith('/') ? currentPath.slice(0, -1) : currentPath;
+            // Get the parent path (game root)
+            const parentPath = cleanPath.substring(0, cleanPath.lastIndexOf('/'));
+
+            window.location.href = `${parentPath}/${nextStepSlug}`;
         } else {
             setError('Incorrect answer. Try again!');
         }
