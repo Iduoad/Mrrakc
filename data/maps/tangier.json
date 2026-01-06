@@ -13,7 +13,7 @@
         "description": "Navigate through the vibrant cities of Tangier and Assilah.",
         "strategy": "query",
         "content": {
-            "query": "location.province == 'province/tangier'"
+            "query": "location.province == 'province/tangier-assilah'"
         }
     }
 }
