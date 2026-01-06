@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imilchil",
+      "Eastern High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Maasqer",
     "id": "mount-maasqer",
-    "description": "Imilchil <br>Mountain Chain: Eastern High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 32.4026686,
       "latitude": -5.2263081,

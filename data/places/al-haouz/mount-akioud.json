@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imlil",
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Akioud",
     "id": "mount-akioud",
-    "description": "Imlil <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.047,
       "latitude": -7.949,

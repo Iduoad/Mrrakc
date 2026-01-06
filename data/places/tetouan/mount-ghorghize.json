@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tetouan",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Ghorghize",
     "id": "mount-ghorghize",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.514625,
       "latitude": -5.373336,

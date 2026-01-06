@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Middle Atlas",
+      "Boulmane"
+    ]
   },
   "spec": {
     "name": "Mount Oum L'Bent",
     "id": "mount-oum-lbent",
-    "description": "AKA Tichoukt<br>Boulmane <br>Mountain Chain: Middle Atlas",
+    "description": "AKA Tichoukt",
     "location": {
       "longitude": 33.3937546,
       "latitude": -4.6584613,

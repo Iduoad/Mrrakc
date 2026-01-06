@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Azilal",
+      "Central High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount N'Nig Oumassine",
     "id": "mount-nnig-oumassine",
-    "description": "Azilal <br>Mountain Chain: Central High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.4958055555556,
       "latitude": -6.505,

@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Chefchaouen",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Safihat Talje",
     "id": "mount-safihat-talje",
-    "description": "Chefchaouen <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.1779032,
       "latitude": -5.2149754,

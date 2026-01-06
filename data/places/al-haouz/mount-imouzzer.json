@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imlil",
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Imouzzer",
     "id": "mount-imouzzer",
-    "description": "Imlil <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.06618,
       "latitude": -7.91247,

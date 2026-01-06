@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imilchil",
+      "Eastern High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Jbel Messder-idde",
     "id": "mount-jbel-messder-idde",
-    "description": "Imilchil <br>Mountain Chain: Eastern High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 32.1923061,
       "latitude": -5.5252036,

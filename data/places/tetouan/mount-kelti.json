@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tetouan - Chefchaouen",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Kelti",
     "id": "mount-kelti",
-    "description": "Tetouan - Chefchaouen <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.3568893,
       "latitude": -5.2742599,

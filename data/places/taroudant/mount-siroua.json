@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Ait Ouaouzguite",
+      "Anti Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Siroua",
     "id": "mount-siroua",
-    "description": "Ait Ouaouzguite <br>Mountain Chain: Anti Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 30.704,
       "latitude": -7.6215,

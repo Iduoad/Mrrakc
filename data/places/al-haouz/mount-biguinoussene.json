@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imlil",
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Biguinoussene",
     "id": "mount-biguinoussene",
-    "description": "Imlil <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.0664062505624,
       "latitude": -7.94989058060921,

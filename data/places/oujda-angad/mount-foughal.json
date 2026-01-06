@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tafoughalte",
+      "Beni Snassen (Tell Atlas)"
+    ]
   },
   "spec": {
     "name": "Mount Foughal",
     "id": "mount-foughal",
-    "description": "Tafoughalte <br>Mountain Chain: Beni Snassen (Tell Atlas)",
+    "description": "No description available",
     "location": {
       "longitude": 34.8311014,
       "latitude": -2.1926737,

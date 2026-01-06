@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Boulmane",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Bouidorne ‎",
     "id": "mount-bouidorne",
-    "description": "Boulmane <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.3827398,
       "latitude": -4.6817299,

@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Oukaimden",
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Yagour",
     "id": "mount-yagour",
-    "description": "Oukaimden <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.316667,
       "latitude": -7.65,

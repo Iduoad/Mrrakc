@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Eastern High Atlas",
+      "Midelt"
+    ]
   },
   "spec": {
     "name": "Mount Aberdouz",
     "id": "mount-aberdouz",
-    "description": "AKA Ich Nolmou<br>Midelt <br>Mountain Chain: Eastern High Atlas",
+    "description": "AKA Ich Nolmou",
     "location": {
       "longitude": 32.2525,
       "latitude": -5.1166667,

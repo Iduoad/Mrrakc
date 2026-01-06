@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Anergui",
+      "Eastern High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount LQroun",
     "id": "mount-lqroun",
-    "description": "Anergui <br>Mountain Chain: Eastern High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 32.0343014,
       "latitude": -5.9948277,

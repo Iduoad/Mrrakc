@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Moulay Abdeslam",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount El Kachla",
     "id": "mount-el-kachla",
-    "description": "Moulay Abdeslam <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.2499205236445,
       "latitude": -5.49815361589767,

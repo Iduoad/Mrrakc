@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Meknes",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Zerhoun",
     "id": "mount-zerhoun",
-    "description": "Meknes <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 34.0338333333333,
       "latitude": -5.52013888888889,

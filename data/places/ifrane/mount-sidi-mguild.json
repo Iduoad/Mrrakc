@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Ain Leuh",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Sidi mguild",
     "id": "mount-sidi-mguild",
-    "description": "Ain Leuh <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.1982799,
       "latitude": -5.2706835,

@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Taza",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Saghla",
     "id": "mount-saghla",
-    "description": "Taza <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.6073413,
       "latitude": -4.2863239,

@@ -7,14 +7,27 @@
   "spec": {
     "name": "Hotel Particulier 3",
     "id": "hotel-particulier-3",
-    "description": "🔻 Architect: Pierre Jabin<br>🔻 Dates: 1930/1931",
+    "description": "No description available",
     "location": {
       "longitude": 33.5901622,
       "latitude": -7.624768,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/pierre-jabin",
+        "relationship": [
+          "Architect"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1931",
+        "description": "Built in 1930/1931"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -30,6 +43,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

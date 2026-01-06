@@ -7,14 +7,27 @@
   "spec": {
     "name": "Hotel Particulier 1",
     "id": "hotel-particulier-1",
-    "description": "🔻 Architect: Marius Boyer<br>🔻 Dates: 1930",
+    "description": "No description available",
     "location": {
       "longitude": 33.5911336,
       "latitude": -7.6253572,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/marius-boyer",
+        "relationship": [
+          "Architect"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1930",
+        "description": "Built in 1930"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -30,6 +43,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

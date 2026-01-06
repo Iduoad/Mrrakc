@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imlil",
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Talat N'Ifri",
     "id": "mount-talat-nifri",
-    "description": "Imlil <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.05779,
       "latitude": -7.96001,

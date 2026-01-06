@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Belyounech",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Moussa",
     "id": "mount-moussa",
-    "description": "Belyounech <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.8977778,
       "latitude": -5.4122222,

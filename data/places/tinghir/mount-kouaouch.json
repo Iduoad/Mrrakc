@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tinghir",
+      "Anti Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Kouaouch",
     "id": "mount-kouaouch",
-    "description": "Tinghir <br>Mountain Chain: Anti Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.1470844899883,
       "latitude": -5.83674696921201,

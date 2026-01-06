@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Boulmane",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Lehri",
     "id": "mount-lehri",
-    "description": "Boulmane <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.4615422421435,
       "latitude": -4.55679678275751,

@@ -7,7 +7,7 @@
   "spec": {
     "name": "Hotel particulier Le Doge - Relais & Chateaux",
     "id": "hotel-particulier-le-doge",
-    "description": "🔻 Architect: Edmond Brion<br>🔻 Dates: 1930s<br>🔻 Current Status: Hotel",
+    "description": "Current Status: Hotel",
     "location": {
       "longitude": 33.5927476,
       "latitude": -7.6233584,
@@ -21,7 +21,13 @@
         ]
       }
     ],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1930",
+        "description": "Built in 1930s"
+      }
+    ],
     "links": [],
     "activities": [],
     "items": [],
@@ -37,6 +43,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

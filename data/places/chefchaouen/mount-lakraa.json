@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Chefchaouen",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Lakraa",
     "id": "mount-lakraa",
-    "description": "Chefchaouen <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.1323899,
       "latitude": -5.1463326,

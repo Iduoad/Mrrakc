@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imlil",
+      "Central High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Tarkeddite",
     "id": "mount-tarkeddite",
-    "description": "Imlil <br>Mountain Chain: Central High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.5397222,
       "latitude": -6.5275,

@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tafoughalte",
+      "Beni Snassen (Tell Atlas)"
+    ]
   },
   "spec": {
     "name": "Mount Bouhammad ‎",
     "id": "mount-bouhammad",
-    "description": "Tafoughalte <br>Mountain Chain: Beni Snassen (Tell Atlas)",
+    "description": "No description available",
     "location": {
       "longitude": 34.8599756,
       "latitude": -2.3049101,

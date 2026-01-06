@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Imlil", 
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Afella South",
     "id": "mount-afella-south",
-    "description": "Imlil <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.0534857,
       "latitude": -7.952113,

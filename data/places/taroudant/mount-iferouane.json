@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Western High Atlas",
+      "Imlil"
+    ]
   },
   "spec": {
     "name": "Mount Iferouane",
     "id": "mount-iferouane",
-    "description": "AKA N'Tarourt <br>Imlil <br>Mountain Chain: Western High Atlas",
+    "description": "AKA N'Tarourt",
     "location": {
       "longitude": 31.0820756,
       "latitude": -7.7649871,

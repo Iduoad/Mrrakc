@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tounfit",
+      "Eastern High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Akdar",
     "id": "mount-akdar",
-    "description": "Tounfit <br>Mountain Chain: Eastern High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 32.31727,
       "latitude": -5.21177,

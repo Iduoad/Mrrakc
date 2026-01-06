@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Beni Snassen (Tell Atlas)",
+      "Tafoughalte"
+    ]
   },
   "spec": {
     "name": "Mount Dals",
     "id": "mount-dals",
-    "description": "AKA Matchiche<br>Tafoughalte <br>Mountain Chain: Beni Snassen (Tell Atlas)",
+    "description": "AKA Matchiche",
     "location": {
       "longitude": 34.8101483,
       "latitude": -2.4554698,

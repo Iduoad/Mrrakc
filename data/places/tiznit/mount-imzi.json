@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tafraoute",
+      "Anti Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Imzi",
     "id": "mount-imzi",
-    "description": "Tafraoute <br>Mountain Chain: Anti Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 29.7513889,
       "latitude": -9.2816667,

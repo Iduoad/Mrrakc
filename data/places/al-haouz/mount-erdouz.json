@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tinmel",
+      "Western High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Erdouz",
     "id": "mount-erdouz",
-    "description": "Tinmel <br>Mountain Chain: Western High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.0463889,
       "latitude": -8.4097222,

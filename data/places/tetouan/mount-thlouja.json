@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Chefchaouen",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Thlouja",
     "id": "mount-thlouja",
-    "description": "Chefchaouen <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.36775,
       "latitude": -5.319,

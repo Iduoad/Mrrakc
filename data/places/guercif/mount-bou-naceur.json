@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Outat El Haj",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Bou Naceur",
     "id": "mount-bou-naceur",
-    "description": "Outat El Haj <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.566389,
       "latitude": -3.891389,
