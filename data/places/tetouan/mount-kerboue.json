@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Moulay Abdeslam",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Kerboue",
     "id": "mount-kerboue",
-    "description": "Moulay Abdeslam <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.2544059,
       "latitude": -5.484121,

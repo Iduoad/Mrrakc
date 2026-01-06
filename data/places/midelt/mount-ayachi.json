@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Midelt",
+      "Eastern High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Ayachi",
     "id": "mount-ayachi",
-    "description": "Midelt <br>Mountain Chain: Eastern High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 32.477778,
       "latitude": -4.926944,

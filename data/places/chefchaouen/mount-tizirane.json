@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Bab Berred",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Tizirane",
     "id": "mount-tizirane",
-    "description": "Bab Berred <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.0137847,
       "latitude": -4.918346,

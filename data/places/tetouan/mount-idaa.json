@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Rif",
+      "Tetouan"
+    ]
   },
   "spec": {
     "name": "Mount Idaa",
     "id": "mount-idaa",
-    "description": "AKA Ghorghize<br>Tetouan <br>Mountain Chain: Rif",
+    "description": "AKA Ghorghize",
     "location": {
       "longitude": 35.4851766,
       "latitude": -5.3609432,

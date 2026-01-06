@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Chefchaouen",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Hafa't Zeltane",
     "id": "mount-hafat-zeltane",
-    "description": "Chefchaouen <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.3233464,
       "latitude": -5.27479,

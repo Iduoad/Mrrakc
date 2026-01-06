@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Chefchaouen",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Tissouka",
     "id": "mount-tissouka",
-    "description": "Chefchaouen <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.1614671,
       "latitude": -5.2167038,

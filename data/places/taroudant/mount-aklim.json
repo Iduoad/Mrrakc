@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Ighrem",
+      "Anti Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Aklim",
     "id": "mount-aklim",
-    "description": "Ighrem <br>Mountain Chain: Anti Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 30.1236111,
       "latitude": -8.2841667,

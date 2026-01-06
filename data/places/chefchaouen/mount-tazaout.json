@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Rif",
+      "Chefchaouen"
+    ]
   },
   "spec": {
     "name": "Mount Tazaout",
     "id": "mount-tazaout",
-    "description": "AKA Qoba't Abad<br>Chefchaouen <br>Mountain Chain: Rif",
+    "description": "AKA Qoba't Abad",
     "location": {
       "longitude": 35.23934,
       "latitude": -5.100887,

@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tafoughalte",
+      "Beni Snassen (Tell Atlas)"
+    ]
   },
   "spec": {
     "name": "Mount Bouzammoure ‎",
     "id": "mount-bouzammoure",
-    "description": "Tafoughalte <br>Mountain Chain: Beni Snassen (Tell Atlas)",
+    "description": "No description available",
     "location": {
       "longitude": 34.7479212,
       "latitude": -2.4616508,

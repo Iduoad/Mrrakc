@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tetouan",
+      "Rif"
+    ]
   },
   "spec": {
     "name": "Mount Monte Blanco",
     "id": "mount-monte-blanco",
-    "description": "Tetouan <br>Mountain Chain: Rif",
+    "description": "No description available",
     "location": {
       "longitude": 35.6667924,
       "latitude": -5.4302062,

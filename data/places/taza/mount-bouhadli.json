@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Taza",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Bouhadli",
     "id": "mount-bouhadli",
-    "description": "Taza <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 34.064117,
       "latitude": -4.1182969,

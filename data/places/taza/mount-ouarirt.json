@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Taza",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Ouarirt",
     "id": "mount-ouarirt",
-    "description": "Taza <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 34.0763889,
       "latitude": -3.8777778,

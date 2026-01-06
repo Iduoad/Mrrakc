@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Tafoughalte",
+      "Beni Snassen (Tell Atlas)"
+    ]
   },
   "spec": {
     "name": "Mount Bouzaabel",
     "id": "mount-bouzaabel",
-    "description": "Tafoughalte <br>Mountain Chain: Beni Snassen (Tell Atlas)",
+    "description": "No description available",
     "location": {
       "longitude": 34.837225,
       "latitude": -2.2304314,

@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Azilal",
+      "Central High Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Ighil Mgoun",
     "id": "mount-ighil-mgoun",
-    "description": "Azilal <br>Mountain Chain: Central High Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 31.5090053,
       "latitude": -6.4439832,

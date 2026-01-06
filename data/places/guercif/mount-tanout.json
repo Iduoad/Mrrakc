@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Taza",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Tanout",
     "id": "mount-tanout",
-    "description": "Taza <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.7160096,
       "latitude": -4.0115899,

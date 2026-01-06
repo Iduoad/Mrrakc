@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Taza",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Tazzeka",
     "id": "mount-tazzeka",
-    "description": "Taza <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 34.0905094,
       "latitude": -4.1828872,

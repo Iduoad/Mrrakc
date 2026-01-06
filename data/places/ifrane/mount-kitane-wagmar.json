@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Ain Leuh",
+      "Middle Atlas"
+    ]
   },
   "spec": {
     "name": "Mount Kitane Wagmar",
     "id": "mount-kitane-wagmar",
-    "description": "Ain Leuh <br>Mountain Chain: Middle Atlas",
+    "description": "No description available",
     "location": {
       "longitude": 33.21485,
       "latitude": -5.25969,

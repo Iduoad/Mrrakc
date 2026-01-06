@@ -2,12 +2,15 @@
   "version": "mrrakc/v0",
   "kind": "nature/mountain",
   "metadata": {
-    "tags": []
+    "tags": [
+      "Anti Atlas",
+      "Tafraoute"
+    ]
   },
   "spec": {
     "name": "Mount L'Kest",
     "id": "mount-lkest",
-    "description": "AKA Afa N Timzgadiwine<br>Tafraouet <br>Mountain Chain: Anti Atlas",
+    "description": "AKA Afa N Timzgadiwine",
     "location": {
       "longitude": 29.795,
       "latitude": -9.0347222,
