@@ -1,5 +1,12 @@
 {
     "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "North",
+            "History",
+            "Culture"
+        ]
+    },
     "spec": {
         "id": "tetouan",
         "title": "Tetouan: The white Dove",

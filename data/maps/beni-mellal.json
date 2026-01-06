@@ -1,5 +1,12 @@
 {
     "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Nature",
+            "History",
+            "Waterfalls"
+        ]
+    },
     "spec": {
         "id": "beni-mellal",
         "title": "Beni Mellal: History hidden in Nature",

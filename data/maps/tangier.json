@@ -1,5 +1,12 @@
 {
     "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Assilah",
+            "North",
+            "Mediterranean"
+        ]
+    },
     "spec": {
         "id": "tangier",
         "title": "Tangier Assilah: The pearl of the Mediterranean",

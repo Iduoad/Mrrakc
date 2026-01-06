@@ -1,5 +1,12 @@
 {
     "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Sahara",
+            "Oasis",
+            "Nature"
+        ]
+    },
     "spec": {
         "id": "errachidia",
         "title": "Errachidia: Gateway to the Sahara",

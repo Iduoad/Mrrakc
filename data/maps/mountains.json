@@ -1,0 +1,19 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "Nature",
+            "Hiking",
+            "Adventure"
+        ]
+    },
+    "spec": {
+        "id": "mountains",
+        "title": "Mountains of Morocco",
+        "description": "Explore the majestic mountains and peaks of Morocco.",
+        "strategy": "query",
+        "content": {
+            "query": "kind == 'nature/mountain'"
+        }
+    }
+}

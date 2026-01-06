@@ -1,5 +1,11 @@
 {
     "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "History",
+            "Culture"
+        ]
+    },
     "spec": {
         "id": "sale",
         "title": "Salé: More than 1000 years of greatness",
