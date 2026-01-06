@@ -41,7 +41,8 @@ const places = defineCollection({
             location: z.object({
                 longitude: z.number(),
                 latitude: z.number(),
-                province: z.string()
+                province: z.string(),
+                altitude: z.number().optional()
             }),
             people: z.array(z.object({
                 id: z.string(),
