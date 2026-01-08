@@ -1,0 +1,52 @@
+{
+    "kind": "plans/trek",
+    "version": "mrrakc/v0",
+    "spec": {
+        "estimatedDuration": {
+            "value": 2,
+            "unit": "days"
+        },
+        "difficulty": "hard",
+        "steps": [
+            {
+                "title": "Day 1: Ascent to Refuge",
+                "description": "Hike up to the base camp.",
+                "type": "activity",
+                "placeIds": [
+                    "places/al-haouz/imlil-waterfalls"
+                ],
+                "people": [
+                    {
+                        "id": "people/mohammed-sanhaji",
+                        "role": "Mountain Guide"
+                    }
+                ],
+                "subSteps": [
+                    {
+                        "title": "Morning Hike",
+                        "type": "waypoint",
+                        "description": "Start early."
+                    },
+                    {
+                        "title": "Lunch at Shrine",
+                        "type": "break",
+                        "description": "Picnic lunch."
+                    }
+                ]
+            },
+            {
+                "title": "Day 2: Summit Push",
+                "description": "Reach the peak of Toubkal.",
+                "type": "activity",
+                "placeIds": [
+                    "places/al-haouz/mount-toubkal"
+                ],
+                "transportToNext": {
+                    "mode": "Mule",
+                    "durationMin": 300,
+                    "advice": "Crampons needed in winter."
+                }
+            }
+        ]
+    }
+}

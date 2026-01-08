@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PlanView from '../../components/react/PlanView';
+import plansData from '../../data/generated/plans.json';
+import { getEntry, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const plans = Object.values(plansData);
+  return plans.map((plan) => ({
+    params: { id: plan.id },
+    props: { plan },
+  }));
+}
+
+const { plan } = Astro.props;
+
+// Fetch editorial content if available
+// If plan.id is in generated plans, it means it's a data-driven plan.
+// We might also have a markdown file for it.
+// The id in getStaticPaths comes from generated plans.
+// So we try to find a content entry with that id.
+const entry = await getEntry('plans', plan.id);
+const { Content } = entry ? await render(entry) : { Content: null };
+
+// Merge metadata
+const title = plan.spec.title || entry?.data.title || plan.spec.steps[0]?.title;
+const description = plan.spec.description || entry?.data.description || `Itinerary: ${title}`;
+const heroImage = entry?.data.heroImage;
+---
+
+<BaseLayout title={`${title} - Blanat`} description={description} heroImage={heroImage}>
+  <PlanView client:load plan={plan}>
+    {Content && (
+      <div class="prose dark:prose-invert max-w-none mb-12">
+        <Content />
+      </div>
+    )}
+  </PlanView>
+</BaseLayout>

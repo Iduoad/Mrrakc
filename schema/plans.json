@@ -1,0 +1,191 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Mrrakc Plans Schema",
+    "description": "Schema for itinerary plans (Blanat) in Mrrakc",
+    "type": "object",
+    "required": [
+        "kind"
+    ],
+    "allOf": [
+        {
+            "$ref": "base.json"
+        }
+    ],
+    "definitions": {
+        "step": {
+            "type": "object",
+            "required": [
+                "title",
+                "type"
+            ],
+            "properties": {
+                "title": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Title of the step"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Detailed description of the step"
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "waypoint",
+                        "activity",
+                        "break",
+                        "overnight"
+                    ],
+                    "description": "Type of the step"
+                },
+                "placeIds": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "pattern": "^places/[a-z0-9-]+/[a-z0-9-]+$"
+                    },
+                    "description": "List of places visited in this step"
+                },
+                "people": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "id",
+                            "role"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "pattern": "^people/[a-z0-9-]+$",
+                                "description": "Reference to a person"
+                            },
+                            "role": {
+                                "type": "string",
+                                "description": "Role of the person in this step"
+                            }
+                        }
+                    },
+                    "description": "People involved in this step"
+                },
+                "optional": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Whether this step is optional"
+                },
+                "transportToNext": {
+                    "type": "object",
+                    "required": [
+                        "mode",
+                        "durationMin"
+                    ],
+                    "properties": {
+                        "mode": {
+                            "type": "string",
+                            "enum": [
+                                "Walking",
+                                "Taxi",
+                                "Shared Taxi",
+                                "Bus",
+                                "Mini Bus",
+                                "Plane",
+                                "Mule",
+                                "Train"
+                            ],
+                            "description": "Mode of transport to the next step"
+                        },
+                        "durationMin": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "description": "Estimated duration in minutes"
+                        },
+                        "advice": {
+                            "type": "string",
+                            "description": "Advice or tips for the transport"
+                        }
+                    }
+                },
+                "subSteps": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/step"
+                    },
+                    "description": "Recursive sub-steps for multi-day treks or detailed breakdowns"
+                }
+            }
+        }
+    },
+    "properties": {
+        "spec": {
+            "type": "object",
+            "required": [
+                "id",
+                "title",
+                "estimatedDuration",
+                "difficulty",
+                "steps"
+            ],
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                    "description": "The URL-friendly slug for the plan"
+                },
+                "title": {
+                    "type": "string",
+                    "minLength": 1,
+                    "description": "Title of the plan"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Description of the plan"
+                },
+                "pubDate": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "Publication date (YYYY-MM-DD)"
+                },
+                "estimatedDuration": {
+                    "type": "object",
+                    "required": [
+                        "value",
+                        "unit"
+                    ],
+                    "properties": {
+                        "value": {
+                            "type": "number",
+                            "minimum": 0,
+                            "description": "Duration value"
+                        },
+                        "unit": {
+                            "type": "string",
+                            "enum": [
+                                "minutes",
+                                "hours",
+                                "days"
+                            ],
+                            "description": "Unit of time for the duration"
+                        }
+                    }
+                },
+                "difficulty": {
+                    "type": "string",
+                    "enum": [
+                        "easy",
+                        "medium",
+                        "hard",
+                        "expert"
+                    ],
+                    "description": "Difficulty level of the plan"
+                },
+                "steps": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/step"
+                    },
+                    "description": "List of steps in the plan"
+                }
+            }
+        }
+    }
+}
