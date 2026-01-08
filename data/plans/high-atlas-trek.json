@@ -2,6 +2,9 @@
     "kind": "plans/trek",
     "version": "mrrakc/v0",
     "spec": {
+        "id": "high-atlas-trek",
+        "title": "Toubkal Summit Trek",
+        "description": "A challenging but rewarding trek to the summit of Mount Toubkal, the highest peak in North Africa.",
         "estimatedDuration": {
             "value": 2,
             "unit": "days"
@@ -9,43 +12,130 @@
         "difficulty": "hard",
         "steps": [
             {
-                "title": "Day 1: Ascent to Refuge",
-                "description": "Hike up to the base camp.",
+                "title": "Journey to Imlil",
+                "description": "Take a shared taxi from Marrakech to Imlil. The fare is typically for a seat (1/6 of the taxi). Note that shared taxis may be less frequent in the evening.",
+                "type": "waypoint",
+                "placeIds": [],
+                "transportToNext": {
+                    "mode": "Shared Taxi",
+                    "durationMin": 90,
+                    "advice": "Depart early to ensure availability."
+                }
+            },
+            {
+                "title": "Preparation & Booking",
+                "description": "Book a certified mountain guide (mandatory for Toubkal). Rent or buy necessary hiking gear (boots, warm clothes). Arrange lunch and book your stay at the refuge. Don't forget to buy snacks for the trail.",
                 "type": "activity",
                 "placeIds": [
-                    "places/al-haouz/imlil-waterfalls"
-                ],
-                "people": [
-                    {
-                        "id": "people/mohammed-sanhaji",
-                        "role": "Mountain Guide"
-                    }
-                ],
-                "subSteps": [
-                    {
-                        "title": "Morning Hike",
-                        "type": "waypoint",
-                        "description": "Start early."
-                    },
-                    {
-                        "title": "Lunch at Shrine",
-                        "type": "break",
-                        "description": "Picnic lunch."
-                    }
+                    "places/al-haouz/trek-toubkal-shop",
+                    "places/al-haouz/mountain-bike-morocco-company"
                 ]
             },
             {
-                "title": "Day 2: Summit Push",
-                "description": "Reach the peak of Toubkal.",
+                "title": "Overnight in Imlil",
+                "description": "Spend the Friday night in Imlil to acclimatize. Enjoy the local hospitality and rest before the hike.",
+                "type": "overnight",
+                "placeIds": [
+                    "places/al-haouz/riad-imlil-cafe"
+                ]
+            },
+            {
+                "title": "Breakfast",
+                "description": "Wake up and enjoy a hearty breakfast at your hotel or in the village.",
+                "type": "break",
+                "placeIds": []
+            },
+            {
+                "title": "Trek to Checkpoint",
+                "description": "Begin your trek passing through Aroumd village. Check in at the Toubkal National Park Gendarmerie post.",
+                "type": "waypoint",
+                "placeIds": [
+                    "places/al-haouz/welcome-to-toubkal-national-park-sign",
+                    "places/al-haouz/royal-gendarmerie-station"
+                ],
+                "transportToNext": {
+                    "mode": "Walking",
+                    "durationMin": 60
+                }
+            },
+            {
+                "title": "Hike to Chamharouch",
+                "description": "Continue the ascent towards the Sidi Chamharouch shrine.",
+                "type": "waypoint",
+                "placeIds": [
+                    "places/al-haouz/sidi-chamharouch-shrine"
+                ],
+                "transportToNext": {
+                    "mode": "Walking",
+                    "durationMin": 120
+                }
+            },
+            {
+                "title": "Break at Sidi Chamharouch",
+                "description": "Take a rest at the shrine. You can buy refreshments here.",
+                "type": "break",
+                "optional": true,
+                "placeIds": []
+            },
+            {
+                "title": "Reach Refuge",
+                "description": "Continue hiking to the refuge. Have dinner and get a good night's sleep.",
+                "type": "overnight",
+                "placeIds": [
+                    "places/al-haouz/les-mouflons-toubkal-refuge"
+                ]
+            },
+            {
+                "title": "Summit Push",
+                "description": "Wake up early (around 4 AM) to start the climb to the summit.",
+                "type": "activity",
+                "placeIds": [],
+                "transportToNext": {
+                    "mode": "Walking",
+                    "durationMin": 180,
+                    "advice": "Headlamp required."
+                }
+            },
+            {
+                "title": "Sunrise at Toubkal Peak",
+                "description": "Reach the summit (4167m) in time for a breathtaking sunrise.",
                 "type": "activity",
                 "placeIds": [
                     "places/al-haouz/mount-toubkal"
+                ]
+            },
+            {
+                "title": "Descent to Refuge",
+                "description": "Descend back to the refuge for a well-deserved break and lunch.",
+                "type": "break",
+                "placeIds": [
+                    "places/al-haouz/les-mouflons-toubkal-refuge"
                 ],
                 "transportToNext": {
-                    "mode": "Mule",
-                    "durationMin": 300,
-                    "advice": "Crampons needed in winter."
+                    "mode": "Walking",
+                    "durationMin": 120
                 }
+            },
+            {
+                "title": "Return to Imlil",
+                "description": "Descend through Aroumd back to Imlil.",
+                "type": "waypoint",
+                "placeIds": [
+                    "places/al-haouz/welcome-to-toubkal-national-park-sign"
+                ],
+                "transportToNext": {
+                    "mode": "Walking",
+                    "durationMin": 180
+                }
+            },
+            {
+                "title": "Relax & Shop",
+                "description": "If you're tired, spend another night in Imlil, enjoy nature, or do some shopping for local crafts.",
+                "type": "activity",
+                "optional": true,
+                "placeIds": [
+                    "places/al-haouz/moroccan-carpets-cooperative-imlil"
+                ]
             }
         ]
     }

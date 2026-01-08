@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import jmespath from 'jmespath';
 
-const DATA_DIR = path.resolve(process.cwd(), '../data');
+const DATA_DIR = path.resolve(process.cwd(), 'data');
 const MAPS_DIR = path.join(DATA_DIR, 'maps');
 const PLACES_DIR = path.join(DATA_DIR, 'places');
 const PEOPLE_DIR = path.join(DATA_DIR, 'people');
