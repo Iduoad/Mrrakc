@@ -7,15 +7,24 @@
   "spec": {
     "name": "Hotel Central",
     "id": "hotel-central",
-    "description": "🔻 Dates: 1912<br>🔻 Current Status: Hotel",
+    "description": "One of the oldest and notable hotels in Casablanca. Situated in the edge of the famous Ahmed El Bidaoui Square.",
     "location": {
       "longitude": 33.5999815,
       "latitude": -7.6173343,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1912-01-01",
+        "description": "Construction and opening of the hotel by his owner Mr. Hugony."
+      },
+      {
+        "title": "inauguration of WAC",
+        "date": "1937-01-01",
+        "description": "Inauguration of Wydad Athletic Club in the hotel basement."
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {
@@ -30,6 +39,8 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "20th Century"
+    ]
   }
 }

@@ -2,28 +2,53 @@
   "version": "mrrakc/v0",
   "kind": "history/bastion",
   "metadata": {
-    "tags": []
+    "tags": [
+      "National Material Patrimony"
+    ]
   },
   "spec": {
     "name": "Borj Es Sirat",
     "id": "borj-es-sirat",
-    "description": "No description available.",
+    "description": "Borj Sirat is a bastion located at the western end of Rabat's sea wall, built on a cliff overlooking the Atlantic Ocean in 1775–1776 by the English renegade Ahmed El Inglizi during the reign of Mohammed III. It served as part of the coastal defense system.",
     "location": {
       "longitude": 34.0314172,
       "latitude": -6.8444554,
       "province": "province/rabat"
     },
-    "people": [],
-    "timeline": [],
+    "people": [
+      {
+        "id": "people/ahmed-el-inglizi",
+        "relationship": [
+          "Architect"
+        ]
+      },
+      {
+        "id": "people/mohammed-iii",
+        "relationship": [
+          "Sultan"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1775-01-01",
+        "description": "Built by Ahmed El Inglizi in 1775-1776 during the reign of Mohammed III."
+      }
+    ],
     "links": [],
     "activities": [],
-    "items": [],
+    "items": [
+      "cannons"
+    ],
     "access": {
       "type": "public",
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "18th Century"
+    ],
     "comments": []
   }
 }

@@ -7,15 +7,28 @@
   "spec": {
     "name": "House of El Haj Mohammed Benjelloun Touimi",
     "id": "house-of-el-haj-mohammed-benjelloun-touimi",
-    "description": "🔻 Dates: 1880<br>🔻 Current Status: Inhabited<br>🔻 Comments: El Haj Mohammed Benjelloun Touimi is known as the founder of the Wydad Athletic Club.",
+    "description": "Current Status: Inhabited",
     "location": {
       "longitude": 33.5999127,
       "latitude": -7.6160034,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
+    "people": [
+      {
+        "id": "people/mohammed-benjelloun-touimi",
+        "relationship": [
+          "owner"
+        ],
+        "comment": "First owner of the building."
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1880-01-01",
+        "description": "The building was constructed by the Casaoui Businessman Haj Mohammed Benjelloun Touimi as his primary home."
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {
@@ -30,6 +43,11 @@
       ],
       "status": "open"
     },
-    "timePeriods": []
+    "timePeriods": [
+      "19th Century"
+    ],
+    "comments": [ 
+      "El Haj Mohammed Benjelloun Touimi is known as the founder of the Wydad Athletic Club."
+    ]
   }
 }

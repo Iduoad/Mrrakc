@@ -2,20 +2,26 @@
   "version": "mrrakc/v0",
   "kind": "architecture/building",
   "metadata": {
-    "tags": []
+    "tags": [
+      "National Material Patrimony"
+    ]
   },
   "spec": {
     "name": "Habous Post Building",
     "id": "habous-post-building",
-    "description": "🔻 Current Status: Post<br>🔻 National Material Patrimony Declaration: 2018",
+    "description": "No description available",
     "location": {
       "longitude": 33.5766857,
       "latitude": -7.604426,
       "province": "province/casablanca"
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
+    "timeline": [
+      {
+        "title": "National Material Patrimony Declaration",
+        "date": "2018-01-01",
+        "description": "Declared as National Material Patrimony"
+      }
+    ],
     "activities": [],
     "items": [],
     "access": {

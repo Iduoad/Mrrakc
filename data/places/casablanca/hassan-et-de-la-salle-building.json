@@ -32,12 +32,12 @@
     "timeline": [
       {
         "title": "Construction",
-        "date": "1928",
+        "date": "1928-01-01",
         "description": "Built in 1928"
       },
       {
         "title": "National Material Patrimony Declaration",
-        "date": "2018",
+        "date": "2018-01-01",
         "description": "Declared National Material Patrimony in 2018"
       }
     ],
