@@ -15,8 +15,8 @@
     "id": "villa-paquet-building",
     "description": "The Villa Paquet Building (Immeuble Villa Paquet) is a multi-story structure completed in 1952, designed by architect **Jacques Gouyon**. Its architecture reflects the late Modernist and functionalist trends of the post-war era. It is named after the Paquet family or company, reflecting the strong French commercial presence in the city during this period.",
     "location": {
-      "longitude": 33.5940552,
-      "latitude": -7.608807,
+      "longitude": -7.608807,
+      "latitude": 33.5940552,
       "province": "province/casablanca"
     },
     "people": [

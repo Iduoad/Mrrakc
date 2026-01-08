@@ -16,8 +16,8 @@
     "id": "levy-bendayan-building",
     "description": "The Lévy-Bendayan Building is a historical residential and commercial structure in central Casablanca, completed in 1929. It was designed by architect **Marius Boyer**, a leading figure in the city's Art Deco and Neo-Moorish architectural scene. The building, named after its original owners/commissioners (Lévy-Bendayan, likely from the Jewish community), reflects the period's multi-story, mixed-use construction and the characteristic Art Deco detailing of Boyer's work.",
     "location": {
-      "longitude": 33.5914412,
-      "latitude": -7.6147646,
+      "longitude": -7.6147646,
+      "latitude": 33.5914412,
       "province": "province/casablanca"
     },
     "people": [

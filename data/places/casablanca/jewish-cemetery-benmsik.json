@@ -15,8 +15,8 @@
     "id": "jewish-cemetery-benmsik",
     "description": "The Jewish Cemetery Benmsik is a historical burial ground located in the Benmsik area, one of the two main Jewish cemeteries in Casablanca. It is a testament to the city's once large and vibrant Jewish community and is often visited by descendants of Moroccan Jews from around the world. The cemetery is actively maintained and serves as an important site for religious observance, historical remembrance, and reflection on Moroccan-Jewish heritage.",
     "location": {
-      "longitude": 33.5801881,
-      "latitude": -7.5721235,
+      "longitude": -7.5721235,
+      "latitude": 33.5801881,
       "province": "province/casablanca"
     },
     "people": [],

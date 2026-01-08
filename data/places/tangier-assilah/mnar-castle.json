@@ -9,8 +9,8 @@
     "id": "mnar-castle",
     "description": "No description available.",
     "location": {
-      "longitude": 35.8146717,
-      "latitude": -5.7393202,
+      "longitude": -5.7393202,
+      "latitude": 35.8146717,
       "province": "province/tangier-assilah"
     },
     "people": [],

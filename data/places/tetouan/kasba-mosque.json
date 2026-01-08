@@ -9,8 +9,8 @@
     "id": "kasba-mosque",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5711784,
-      "latitude": -5.3671364,
+      "longitude": -5.3671364,
+      "latitude": 35.5711784,
       "province": "province/tetouan"
     },
     "people": [],

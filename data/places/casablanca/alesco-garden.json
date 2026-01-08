@@ -15,8 +15,8 @@
     "id": "alesco-garden",
     "description": "ALESCO Garden (Jardin Alecso) is a significant urban green space located in the Sidi Othmane neighborhood of Casablanca, covering approximately 8 hectares (20 acres). Originally created in 1984, the park underwent an extensive 12-month rehabilitation project by local authorities, officially reopening in August 2025 on the occasion of Youth Day. The renovated park is a vital recreational hub, featuring new amenities such as fountains, vast tree-lined paths, shaded resting areas, a children's play area, a walking circuit, sports courts (like basketball and pétanque), and an open-air theater. Notably, the park implements sustainable practices by utilizing treated wastewater from the Mediouna purification station for irrigation.",
     "location": {
-      "longitude": 33.5506442,
-      "latitude": -7.5660275,
+      "longitude": -7.5660275,
+      "latitude": 33.5506442,
       "province": "province/casablanca"
     },
     "people": [

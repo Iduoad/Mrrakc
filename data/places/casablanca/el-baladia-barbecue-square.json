@@ -15,8 +15,8 @@
     "id": "el-baladia-barbecue-square",
     "description": "El Baladia Barbecue Square (Place du Barbecue El Baladia) is a famed local street food gathering spot, particularly renowned for its traditional Moroccan barbecue offerings. The name 'El Baladia' suggests a municipal or authentic local origin. It is a unique place where patrons can experience freshly grilled meats, most notably **camel meat barbecue**, which is a specialized local delicacy. This area is a vibrant, smoky culinary hub, often consisting of a collection of small stalls offering grilled items directly to diners, making it a key spot for food tourism and local gastronomic culture.",
     "location": {
-      "longitude": 33.5755161,
-      "latitude": -7.6039606,
+      "longitude": -7.6039606,
+      "latitude": 33.5755161,
       "province": "province/casablanca"
     },
     "people": [],

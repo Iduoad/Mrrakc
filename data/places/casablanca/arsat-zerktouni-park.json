@@ -15,8 +15,8 @@
     "id": "arsat-zerktouni-park",
     "description": "Arsat Zerktouni Park, originally established around 1908-1910 under the name 'Jardin Public,' is a historic green space of approximately 2 hectares located near the Old Medina (Ancienne Médina) and the port. The term 'arsat' in Arabic traditionally refers to a garden with a vegetable patch and fruit trees, reflecting its initial design or use. The park was laid out between the port and the residential area, serving as a vital early green lung for the rapidly developing city of Casablanca. It remains an emblematic part of the medina's history and urban planning, showcasing early colonial-era green space design.",
     "location": {
-      "longitude": 33.6045604,
-      "latitude": -7.6210205,
+      "longitude": -7.6210205,
+      "latitude": 33.6045604,
       "province": "province/casablanca"
     },
     "people": [

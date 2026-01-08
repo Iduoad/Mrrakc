@@ -16,8 +16,8 @@
     "id": "gallinari-building",
     "description": "The Gallinari Building is a notable historical residential and commercial structure in central Casablanca. Designed in 1924 by the prominent Jewish Moroccan architects **Elias and Joseph Suraqui**, it is a key example of the early Art Deco and classicist revival styles of the Protectorate era. A unique feature of the facade is a decorative face, believed to be that of **Dionysus**, the Greek god of Wine, reflecting a blend of European classical and modernist influences in the city's early architecture. It remains an actively inhabited building.",
     "location": {
-      "longitude": 33.5950876,
-      "latitude": -7.6140746,
+      "longitude": -7.6140746,
+      "latitude": 33.5950876,
       "province": "province/casablanca"
     },
     "people": [

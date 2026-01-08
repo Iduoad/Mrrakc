@@ -16,8 +16,8 @@
     "id": "bouskoura-forest",
     "description": "Bouskoura Forest (Forêt de Bouskoura) is a large, man-made forest situated southeast of Casablanca, acting as a crucial green lung for the city. It primarily consists of eucalyptus trees, originally planted in the early 20th century, though significant efforts have been made to diversify its flora. The forest is highly popular for outdoor activities, offering an extensive network of trails for cycling, hiking, jogging, and nature walks. Despite facing environmental challenges, it remains one of the largest and most accessible natural spaces for recreation in the Casablanca region.",
     "location": {
-      "longitude": 33.4642281,
-      "latitude": -7.5788975,
+      "longitude": -7.5788975,
+      "latitude": 33.4642281,
       "province": "province/casablanca"
     },
     "people": [],

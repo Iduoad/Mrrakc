@@ -15,8 +15,8 @@
     "id": "el-korimat-garden",
     "description": "El Korimat Garden (Jardin El Korimat) is a public park located in a residential neighborhood of Casablanca. It serves as an essential local green space, offering residents a place for leisure, exercise, and social interaction away from the density of the city streets. The garden typically features landscaped areas, walking paths, and children's play equipment.",
     "location": {
-      "longitude": 33.5494546,
-      "latitude": -7.6035631,
+      "longitude": -7.6035631,
+      "latitude": 33.5494546,
       "province": "province/casablanca"
     },
     "people": [],

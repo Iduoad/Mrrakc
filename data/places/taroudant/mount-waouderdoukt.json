@@ -9,8 +9,8 @@
     "id": "mount-waouderdoukt",
     "description": "Mountain Chain: Anti Atlas",
     "location": {
-      "longitude": 30.6109248,
-      "latitude": -7.9165694,
+      "longitude": -7.9165694,
+      "latitude": 30.6109248,
       "altitude": 2200,
       "province": "province/taroudant"
     },

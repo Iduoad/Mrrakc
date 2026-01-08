@@ -16,8 +16,8 @@
     "id": "rick-s-cafe",
     "description": "Rick's Café is a world-famous restaurant and bar in Casablanca, meticulously designed as a faithful recreation of the fictional bar in the classic 1942 film **Casablanca**. Located near the Old Medina, it offers a sophisticated fine-dining experience with an **International menu** and a nostalgic ambiance. It functions as a powerful tribute to cinematic history, attracting tourists and film enthusiasts globally, though the original bar in the movie was entirely fictional.",
     "location": {
-      "longitude": 33.6050488,
-      "latitude": -7.6204046,
+      "longitude": -7.6204046,
+      "latitude": 33.6050488,
       "province": "province/casablanca"
     },
     "people": [

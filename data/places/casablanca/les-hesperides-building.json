@@ -16,8 +16,8 @@
     "id": "les-hesperides-building",
     "description": "Les Hespérides Building (Immeuble Les Hespérides) is a multi-story residential and commercial structure in central Casablanca. Its architecture, likely designed by **Albert Planque**, reflects the Art Deco or modernist styles of the Protectorate era. The name 'Hespérides' references Greek mythology, suggesting a grand, perhaps garden-themed, design, consistent with the aspirations of the city's new town development.",
     "location": {
-      "longitude": 33.5965868,
-      "latitude": -7.6149527,
+      "longitude": -7.6149527,
+      "latitude": 33.5965868,
       "province": "province/casablanca"
     },
     "people": [

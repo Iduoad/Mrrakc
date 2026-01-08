@@ -12,8 +12,8 @@
     "id": "mount-toubkal-west",
     "description": "No description available",
     "location": {
-      "longitude": 31.0561,
-      "latitude": -7.92417,
+      "longitude": -7.92417,
+      "latitude": 31.0561,
       "altitude": 4018,
       "province": "province/al-haouz"
     },

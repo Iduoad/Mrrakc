@@ -16,8 +16,8 @@
     "id": "garage-coli-building",
     "description": "The Garage Coli Building is a significant example of mid-20th century functional architecture in Casablanca. Designed by architect **Amédée Anicet** and completed in 1955, it was originally a large industrial garage. The structure is characterized by its large, column-free spaces and a modern, often minimalist facade, typical of the era's industrial and automotive architecture. It has since been repurposed for commercial use, currently housing a **hotel and various businesses**. Its historical and architectural value led to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5934273,
-      "latitude": -7.611898,
+      "longitude": -7.611898,
+      "latitude": 33.5934273,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "ain-zarka-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5201345,
-      "latitude": -5.3412176,
+      "longitude": -5.3412176,
+      "latitude": 35.5201345,
       "province": "province/tetouan"
     },
     "people": [],

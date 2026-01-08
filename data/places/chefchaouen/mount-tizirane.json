@@ -12,8 +12,8 @@
     "id": "mount-tizirane",
     "description": "No description available",
     "location": {
-      "longitude": 35.0137847,
-      "latitude": -4.918346,
+      "longitude": -4.918346,
+      "latitude": 35.0137847,
       "altitude": 2106,
       "province": "province/chefchaouen"
     },

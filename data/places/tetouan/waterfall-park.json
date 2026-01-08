@@ -9,8 +9,8 @@
     "id": "waterfall-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.568185,
-      "latitude": -5.373785,
+      "longitude": -5.373785,
+      "latitude": 35.568185,
       "province": "province/tetouan"
     },
     "people": [],

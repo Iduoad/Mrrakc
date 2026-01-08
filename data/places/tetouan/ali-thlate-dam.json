@@ -9,8 +9,8 @@
     "id": "ali-thlate-dam",
     "description": "Aka Oued Laou Dam<br>Aka Talambote",
     "location": {
-      "longitude": 35.2465736,
-      "latitude": -5.2918535,
+      "longitude": -5.2918535,
+      "latitude": 35.2465736,
       "province": "province/tetouan"
     },
     "people": [],

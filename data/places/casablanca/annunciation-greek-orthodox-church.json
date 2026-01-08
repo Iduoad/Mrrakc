@@ -15,8 +15,8 @@
     "id": "annunciation-greek-orthodox-church",
     "description": "The Annunciation Greek Orthodox Church (Église Orthodoxe Grecque de l'Annonciation) in Casablanca is a historical religious landmark that serves the local Greek Orthodox community. Its construction spanned from 1929 to 1934, during the French Protectorate era, as part of the development of Casablanca's 'new town.' The architecture is characteristic of the period, often incorporating Byzantine or Neo-Byzantine elements typical of Orthodox church design. It stands as a testament to the diverse international communities that have contributed to the city's cosmopolitan history.",
     "location": {
-      "longitude": 33.5820147,
-      "latitude": -7.6135185,
+      "longitude": -7.6135185,
+      "latitude": 33.5820147,
       "province": "province/casablanca"
     },
     "people": [],

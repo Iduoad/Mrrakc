@@ -16,8 +16,8 @@
     "id": "brunschwig-building",
     "description": "The Brunschwig Building is a historical residential and commercial structure in central Casablanca, designed in 1928 by architects **Elias and Joseph Suraqui**. The Suraqui brothers were prominent Jewish Moroccan architects who significantly contributed to the city's architectural identity during the Protectorate era, particularly in the Art Deco style. The building is characteristic of the multi-story apartment blocks constructed in the new town, featuring the sleek, stylized decoration and functionality of the late 1920s, and remains inhabited today.",
     "location": {
-      "longitude": 33.594246,
-      "latitude": -7.61965,
+      "longitude": -7.61965,
+      "latitude": 33.594246,
       "province": "province/casablanca"
     },
     "people": [

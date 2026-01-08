@@ -17,8 +17,8 @@
     "id": "alexandre-building",
     "description": "The Alexandre Building is a historically significant residential and commercial structure in Casablanca, noted for its rich colonial-era architecture. It was constructed between 1918 and 1920 in a Moorish Revival style blended with early Modernist influences, a characteristic fusion of the French Protectorate's urban planning efforts by figures like Henri Prost. The building features an impressive blue entrance that stands out and is recognized as a part of Casablanca's architectural heritage. Its historical importance was formally recognized when it was declared a National Material Patrimony site in 2013.",
     "location": {
-      "longitude": 33.58818,
-      "latitude": -7.61433,
+      "longitude": -7.61433,
+      "latitude": 33.58818,
       "province": "province/casablanca"
     },
     "people": [

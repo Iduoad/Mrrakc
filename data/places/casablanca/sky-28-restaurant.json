@@ -15,8 +15,8 @@
     "id": "sky-28-restaurant",
     "description": "Sky 28 Restaurant is a premium dining and bar establishment located on the 28th floor of a high-rise building (often the Kenzi Tower Hotel) in Casablanca's business district. It specializes in **International cuisine** and is renowned for its spectacular **360° panoramic views** of the city, including the Hassan II Mosque and the coastline. It caters to a sophisticated clientele for fine dining, cocktails, and special events.",
     "location": {
-      "longitude": 33.586646,
-      "latitude": -7.6320104,
+      "longitude": -7.6320104,
+      "latitude": 33.586646,
       "province": "province/casablanca"
     },
     "people": [

@@ -16,8 +16,8 @@
     "id": "ain-diab-corniche",
     "description": "The Ain Diab Corniche is Casablanca's premier seaside promenade, transforming from a small fishing village into a vibrant hub of leisure and entertainment during the French Protectorate era. Development began in the 1920s and 1930s with the construction of beach clubs, restaurants, and cafes. Today, it is famous for its fashionable stretch of coastline, lined with hotels, restaurants, nightclubs, and public beaches like Lalla Meryem and Ain Diab Beach. It is a major attraction for both locals and tourists, serving as a center for relaxation, sports, and nightlife.",
     "location": {
-      "longitude": 33.5964552,
-      "latitude": -7.6742452,
+      "longitude": -7.6742452,
+      "latitude": 33.5964552,
       "province": "province/casablanca"
     },
     "people": [

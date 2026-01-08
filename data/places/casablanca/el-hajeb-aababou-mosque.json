@@ -14,8 +14,8 @@
     "id": "el-hajeb-aababou-mosque",
     "description": "El Hajeb Aababou Mosque (Mosquée El Hajeb Aababou) is a local community mosque located in a residential area of Casablanca. It serves as a vital center for daily Muslim worship, religious education, and community activities for the surrounding neighborhood. Like most Moroccan mosques, it features a minaret and traditional architectural design adapted to the urban setting.",
     "location": {
-      "longitude": 33.5789904,
-      "latitude": -7.605178,
+      "longitude": -7.605178,
+      "latitude": 33.5789904,
       "province": "province/casablanca"
     },
     "people": [],

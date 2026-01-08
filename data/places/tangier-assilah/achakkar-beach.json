@@ -9,8 +9,8 @@
     "id": "achakkar-beach",
     "description": "No description available.",
     "location": {
-      "longitude": 35.770752,
-      "latitude": -5.9346966,
+      "longitude": -5.9346966,
+      "latitude": 35.770752,
       "province": "province/tangier-assilah"
     },
     "people": [],

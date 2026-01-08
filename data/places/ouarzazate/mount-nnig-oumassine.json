@@ -12,8 +12,8 @@
     "id": "mount-nnig-oumassine",
     "description": "No description available",
     "location": {
-      "longitude": 31.4958055555556,
-      "latitude": -6.505,
+      "longitude": -6.505,
+      "latitude": 31.4958055555556,
       "altitude": 3875,
       "province": "province/ouarzazate"
     },

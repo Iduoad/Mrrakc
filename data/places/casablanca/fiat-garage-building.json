@@ -16,8 +16,8 @@
     "id": "fiat-garage-building",
     "description": "The historical Fiat Garage Building is an architecturally significant commercial structure in central Casablanca. Designed by Italian architect **Aldo Manassi** and completed in 1920, it is one of the earliest examples of monumental industrial architecture erected in the new city during the French Protectorate. Its design, blending functional industrial elements with early Art Deco aesthetics, reflects the rapid growth of the automotive sector in colonial Casablanca. Though currently **closed** or repurposed, its historical value was recognized with its designation as a **National Material Patrimony** site in 2012.",
     "location": {
-      "longitude": 33.5891085,
-      "latitude": -7.6152511,
+      "longitude": -7.6152511,
+      "latitude": 33.5891085,
       "province": "province/casablanca"
     },
     "people": [

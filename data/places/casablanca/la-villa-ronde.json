@@ -16,8 +16,8 @@
     "id": "la-villa-ronde",
     "description": "La Villa Ronde (The Round Villa), famously nicknamed **Villa Camembert** or Villa Docteur B., is an iconic piece of modernist architecture in Casablanca. Designed by German architect **Wolfgang Ewerth** and built between 1963 and 1964, the house is celebrated for its highly unconventional circular shape, which stands out in the urban landscape. It is a key example of post-independence architectural experimentation and design freedom. The villa's unique importance was formally recognized by its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5868853,
-      "latitude": -7.66717,
+      "longitude": -7.66717,
+      "latitude": 33.5868853,
       "province": "province/casablanca"
     },
     "people": [

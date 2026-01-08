@@ -9,8 +9,8 @@
     "id": "casa-sloukia-restaurant",
     "description": "No description available.",
     "location": {
-      "longitude": 35.796989,
-      "latitude": -5.8978462,
+      "longitude": -5.8978462,
+      "latitude": 35.796989,
       "province": "province/tangier-assilah"
     },
     "people": [],

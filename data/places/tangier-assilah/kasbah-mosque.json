@@ -9,8 +9,8 @@
     "id": "kasbah-mosque",
     "description": "No description available.",
     "location": {
-      "longitude": 35.788189,
-      "latitude": -5.8125717,
+      "longitude": -5.8125717,
+      "latitude": 35.788189,
       "province": "province/tangier-assilah"
     },
     "people": [],

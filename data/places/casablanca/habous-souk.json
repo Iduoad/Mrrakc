@@ -9,8 +9,8 @@
     "id": "habous-souk",
     "description": "None",
     "location": {
-      "longitude": 33.5778377,
-      "latitude": -7.6045511,
+      "longitude": -7.6045511,
+      "latitude": 33.5778377,
       "province": "province/casablanca"
     },
     "people": [],

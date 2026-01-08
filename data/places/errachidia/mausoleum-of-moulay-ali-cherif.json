@@ -9,8 +9,8 @@
     "id": "mausoleum-of-moulay-ali-cherif",
     "description": "No description available.",
     "location": {
-      "longitude": 31.2796701,
-      "latitude": -4.2528538,
+      "longitude": -4.2528538,
+      "latitude": 31.2796701,
       "province": "province/errachidia"
     },
     "people": [],

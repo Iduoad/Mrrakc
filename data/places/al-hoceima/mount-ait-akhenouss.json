@@ -9,8 +9,8 @@
     "id": "mount-ait-akhenouss",
     "description": "Mountain Chain: Rif",
     "location": {
-      "longitude": 34.8666606,
-      "latitude": -4.4870492,
+      "longitude": -4.4870492,
+      "latitude": 34.8666606,
       "altitude": 2400,
       "province": "province/al-hoceima"
     },

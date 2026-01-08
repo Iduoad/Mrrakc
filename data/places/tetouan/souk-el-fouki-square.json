@@ -9,8 +9,8 @@
     "id": "souk-el-fouki-square",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5723559,
-      "latitude": -5.3685852,
+      "longitude": -5.3685852,
+      "latitude": 35.5723559,
       "province": "province/tetouan"
     },
     "people": [],

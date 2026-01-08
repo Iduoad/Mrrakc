@@ -9,8 +9,8 @@
     "id": "ain-tourtoute-dam",
     "description": "AKA Aguelmous",
     "location": {
-      "longitude": 33.1055514,
-      "latitude": -5.7749626,
+      "longitude": -5.7749626,
+      "latitude": 33.1055514,
       "province": "province/khenifra"
     },
     "people": [],

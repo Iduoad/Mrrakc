@@ -16,8 +16,8 @@
     "id": "central-pharmacy",
     "description": "The Central Pharmacy Building (Pharmacie Centrale) is a celebrated historical structure in Casablanca, designed in 1925 by the prominent French architectural duo **Auguste Cadet and Edmond Brion**. The building is an excellent example of the Art Deco style that characterized Casablanca's major public and commercial buildings during the French Protectorate. Its design, combining monumental aesthetics with functional commercial space, is historically valued, leading to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5923842,
-      "latitude": -7.6091272,
+      "longitude": -7.6091272,
+      "latitude": 33.5923842,
       "province": "province/casablanca"
     },
     "people": [

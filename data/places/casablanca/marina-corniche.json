@@ -15,8 +15,8 @@
     "id": "marina-corniche",
     "description": "The Marina Corniche is the modern seaside promenade and urban development area located near the Port of Casablanca, surrounding the Marina Shopping Mall. This area represents one of the city's newest, large-scale urban projects, featuring high-end residential, commercial, and leisure facilities. The corniche offers wide pedestrian walkways, scenic views of the ocean, and access to the marina, connecting the port area to the Hassan II Mosque esplanade.",
     "location": {
-      "longitude": 33.6105592,
-      "latitude": -7.6244311,
+      "longitude": -7.6244311,
+      "latitude": 33.6105592,
       "province": "province/casablanca"
     },
     "people": [

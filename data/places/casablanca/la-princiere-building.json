@@ -16,8 +16,8 @@
     "id": "la-princiere-building",
     "description": "La Princière Building (Immeuble La Princière) is a historical residential and commercial structure in Casablanca, completed in 1925 and designed by architect **Alexandre Cormier**. The building exemplifies the early Art Deco architectural movement, a style that dominated the 'new town' construction during the French Protectorate. Its architectural and historical significance was formally recognized with its designation as a **National Material Patrimony** site in 2005.",
     "location": {
-      "longitude": 33.592924,
-      "latitude": -7.6170402,
+      "longitude": -7.6170402,
+      "latitude": 33.592924,
       "province": "province/casablanca"
     },
     "people": [

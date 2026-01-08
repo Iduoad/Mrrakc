@@ -15,8 +15,8 @@
     "id": "british-cemetery",
     "description": "The British Cemetery in Casablanca is a historical burial ground established in 1864, pre-dating the French Protectorate and the major expansion of the modern city. It serves as the final resting place for members of the British community who lived and worked in Casablanca, including merchants, diplomats, and their families. It is maintained by the Commonwealth War Graves Commission (CWGC), indicating the presence of graves from the World Wars. The cemetery is an important, tranquil reminder of the long-standing international presence and trade history in Casablanca.",
     "location": {
-      "longitude": 33.5953661,
-      "latitude": -7.6207523,
+      "longitude": -7.6207523,
+      "latitude": 33.5953661,
       "province": "province/casablanca"
     },
     "people": [

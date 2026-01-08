@@ -16,8 +16,8 @@
     "id": "j-parrain-building",
     "description": "The J. Parrain Building is a historical residential and commercial structure in central Casablanca, designed in 1928 by architect **Robert Lièvre**. Lièvre was a prolific French architect whose work contributed significantly to the Art Deco and Modernist appearance of the city's 'new town.' The building's design features the typical geometric detailing and functional mix of ground-floor commerce and upper-floor residences. Its historical value was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5881786,
-      "latitude": -7.6195222,
+      "longitude": -7.6195222,
+      "latitude": 33.5881786,
       "province": "province/casablanca"
     },
     "people": [

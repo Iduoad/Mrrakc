@@ -15,8 +15,8 @@
     "id": "patrimony-interpretation-center",
     "description": "The Patrimony Interpretation Center is a planned or existing museum dedicated to educating the public about the historical, architectural, and cultural heritage of Casablanca, focusing on the preservation and understanding of its municipal patrimony. Located near the Old Medina, it serves as a key informational hub for local history, often featuring models, maps, and interactive exhibits detailing the evolution of the city's unique Art Deco and Neo-Moorish architecture.",
     "location": {
-      "longitude": 33.6011366,
-      "latitude": -7.6180961,
+      "longitude": -7.6180961,
+      "latitude": 33.6011366,
       "province": "province/casablanca"
     },
     "people": [

@@ -16,8 +16,8 @@
     "id": "moretti-milone-building",
     "description": "The Moretti-Milone Building is a historical residential and commercial structure completed in 1934. It was designed by architect **Pierre Jabin**, known for his contributions to the Art Deco and Modernist movements in Casablanca. The building is named after its original owners (Moretti and Milone, likely Italian), reflecting the diverse European communities that commissioned key architectural projects during the Protectorate era. It remains an actively inhabited urban block.",
     "location": {
-      "longitude": 33.5972394,
-      "latitude": -7.6161201,
+      "longitude": -7.6161201,
+      "latitude": 33.5972394,
       "province": "province/casablanca"
     },
     "people": [

@@ -16,8 +16,8 @@
     "id": "felix-houphouet-park",
     "description": "Felix Houphouet Park (Jardin Félix Houphouët-Boigny) is a prominent public garden located near the central district of Casablanca. The park is named after Félix Houphouët-Boigny (1905–1993), the first President of Côte d'Ivoire, reflecting the strong political and cultural ties between Morocco and West African nations. Situated close to the historic city center and the port, it serves as a serene green space for relaxation and is particularly significant for its symbolic dedication to a major African political figure.",
     "location": {
-      "longitude": 33.5973941,
-      "latitude": -7.616273,
+      "longitude": -7.616273,
+      "latitude": 33.5973941,
       "province": "province/casablanca"
     },
     "people": [

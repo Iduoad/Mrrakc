@@ -16,8 +16,8 @@
     "id": "empire-cinema",
     "description": "The Empire Cinema (Cinéma Empire) is one of Casablanca's most historically important and architecturally celebrated movie theaters. Designed by architect **Aldo Manassi** and completed in 1928, it is a prime example of the grand Art Deco style that defined the city's golden age of cinema during the French Protectorate. Located in the central district, it symbolizes the city's cosmopolitan cultural past. Though currently **closed**, its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2014.",
     "location": {
-      "longitude": 33.595377,
-      "latitude": -7.6157496,
+      "longitude": -7.6157496,
+      "latitude": 33.595377,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "oued-aricha-dam",
     "description": "AKA Al Hajrat Dam",
     "location": {
-      "longitude": 33.0884635,
-      "latitude": -7.119378,
+      "longitude": -7.119378,
+      "latitude": 33.0884635,
       "province": "province/settat"
     },
     "people": [],

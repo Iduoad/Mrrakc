@@ -9,8 +9,8 @@
     "id": "al-massira-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 32.4719154,
-      "latitude": -7.6306379,
+      "longitude": -7.6306379,
+      "latitude": 32.4719154,
       "province": "province/settat"
     },
     "people": [],

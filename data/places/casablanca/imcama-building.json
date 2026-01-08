@@ -16,8 +16,8 @@
     "id": "imcama-building",
     "description": "The IMCAMA Building, also known locally as the **Sony Building**, is a significant historical residential and commercial property designed by architect **Albert Greslin** and completed in 1928. It is a prime example of the early **Art Deco** style that defined Casablanca's 'new town,' featuring distinctive facade ornamentation. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2005. The building remains inhabited, showcasing the enduring functionality of early 20th-century urban design.",
     "location": {
-      "longitude": 33.587506,
-      "latitude": -7.6207911,
+      "longitude": -7.6207911,
+      "latitude": 33.587506,
       "province": "province/casablanca"
     },
     "people": [

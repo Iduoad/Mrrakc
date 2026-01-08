@@ -9,8 +9,8 @@
     "id": "villa-harris-museum",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7827786,
-      "latitude": -5.7640216,
+      "longitude": -5.7640216,
+      "latitude": 35.7827786,
       "province": "province/tangier-assilah"
     },
     "people": [],

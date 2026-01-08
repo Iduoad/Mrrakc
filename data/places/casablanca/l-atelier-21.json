@@ -15,8 +15,8 @@
     "id": "l-atelier-21",
     "description": "L'Atelier 21 is one of Casablanca's leading contemporary art galleries, known for exhibiting works by established and emerging Moroccan artists, as well as select international figures. The gallery plays a crucial role in promoting the Moroccan contemporary art scene, hosting curated exhibitions, publications, and cultural events. It is recognized for its high standards and commitment to showcasing artistic innovation.",
     "location": {
-      "longitude": 33.5860724,
-      "latitude": -7.6432651,
+      "longitude": -7.6432651,
+      "latitude": 33.5860724,
       "province": "province/casablanca"
     },
     "people": [

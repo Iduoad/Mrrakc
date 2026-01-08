@@ -14,8 +14,8 @@
     "id": "medina-restaurant",
     "description": "Medina Restaurant is a dining establishment specializing in **Moroccan cuisine**, likely located close to the Old Medina. Restaurants in this area often focus on providing traditional dishes (tagines, couscous, pastilla) in an authentic, or Neo-Moorish inspired, setting, catering to both tourists exploring the historic district and locals seeking traditional food.",
     "location": {
-      "longitude": 33.600301,
-      "latitude": -7.6169016,
+      "longitude": -7.6169016,
+      "latitude": 33.600301,
       "province": "province/casablanca"
     },
     "people": [],

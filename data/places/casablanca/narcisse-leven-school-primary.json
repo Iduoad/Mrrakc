@@ -15,8 +15,8 @@
     "id": "narcisse-leven-school-primary",
     "description": "Narcisse Leven Primary School is a historical educational building completed in 1927, designed by architects **Elias and Joseph Suraqui**. The school was built to serve the educational needs of the local Jewish community and is named after **Narcisse Leven**, a key figure in the Alliance Israélite Universelle (AIU), which historically funded and ran Jewish schools across North Africa. The architecture is typical of the Art Deco style found in the growing new town, adapted for educational use.",
     "location": {
-      "longitude": 33.5956467,
-      "latitude": -7.6306501,
+      "longitude": -7.6306501,
+      "latitude": 33.5956467,
       "province": "province/casablanca"
     },
     "people": [

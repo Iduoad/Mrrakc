@@ -15,8 +15,8 @@
     "id": "anfa-park",
     "description": "Anfa Park is a large, modern urban park in Casablanca, uniquely built on the former runway of the historic Casa-Anfa Airport (Aéroport Casa-Anfa). The airport site, operational from the 1910s, holds significant historical importance, having been a critical stopover on major international routes, including those between Paris and Latin America. The conversion of the airstrip into a park preserves this piece of history while providing a vast, central green space for the city's residents. It forms a key part of the Casanearshore development project and includes extensive landscaped areas, leisure facilities, and recreational paths.",
     "location": {
-      "longitude": 33.5632023,
-      "latitude": -7.657745,
+      "longitude": -7.657745,
+      "latitude": 33.5632023,
       "province": "province/casablanca"
     },
     "people": [],

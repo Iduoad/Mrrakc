@@ -12,8 +12,8 @@
     "id": "mount-akdar",
     "description": "No description available",
     "location": {
-      "longitude": 32.31727,
-      "latitude": -5.21177,
+      "longitude": -5.21177,
+      "latitude": 32.31727,
       "altitude": 3125,
       "province": "province/midelt"
     },

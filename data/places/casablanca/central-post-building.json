@@ -16,8 +16,8 @@
     "id": "central-post-building",
     "description": "The Central Post Building (La Poste Centrale) in Casablanca is a grand historical structure designed by architect **Adrien Laforgue** and constructed between 1918 and 1920. It is an exemplary piece of early colonial public architecture, designed in the majestic Neo-Moorish or Mauresque style, as dictated by Resident-General Lyautey's urban vision. This style blends traditional Moroccan forms with modern construction techniques, establishing a monumental civic identity for the new city. It remains the city's main post office and was declared a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5928417,
-      "latitude": -7.6194704,
+      "longitude": -7.6194704,
+      "latitude": 33.5928417,
       "province": "province/casablanca"
     },
     "people": [

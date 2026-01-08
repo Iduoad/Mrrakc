@@ -14,8 +14,8 @@
     "id": "los-bandidos",
     "description": "Los Bandidos is a restaurant in Casablanca specializing in **Mexican cuisine**. It offers international dining with a focus on popular Mexican dishes, often featuring a lively or themed ambiance. It caters to locals and expatriates seeking diverse, non-Moroccan culinary experiences.",
     "location": {
-      "longitude": 33.5914948,
-      "latitude": -7.6331592,
+      "longitude": -7.6331592,
+      "latitude": 33.5914948,
       "province": "province/casablanca"
     },
     "people": [],

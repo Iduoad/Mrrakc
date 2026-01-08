@@ -12,8 +12,8 @@
     "id": "mount-kouaouch",
     "description": "No description available",
     "location": {
-      "longitude": 31.1470844899883,
-      "latitude": -5.83674696921201,
+      "longitude": -5.83674696921201,
+      "latitude": 31.1470844899883,
       "altitude": 2592,
       "province": "province/tinghir"
     },

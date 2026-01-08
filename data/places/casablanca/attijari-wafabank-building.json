@@ -15,8 +15,8 @@
     "id": "attijari-wafabank-building",
     "description": "This Attijari Wafabank building is a historical landmark that was originally built in 1928 to house a branch of the 'Compagnie Algérienne' (Algerian Company), a bank prominent during the French Protectorate era. It was designed by the renowned French architectural duo Henri Prost (the urban planner of colonial Casablanca) and Antoine Marchisio. The structure is part of the early 20th-century development that shaped Casablanca's 'new town,' combining monumental European designs with local influences. Today, it serves as an office for Attijariwafa Bank, reflecting the continuous use of historical buildings by modern financial institutions.",
     "location": {
-      "longitude": 33.5949227,
-      "latitude": -7.6178758,
+      "longitude": -7.6178758,
+      "latitude": 33.5949227,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "socifrance-building",
     "description": "The Socifrance Building (Immeuble Socifrance) is a historical residential and commercial structure completed between 1934 and 1935. It was designed by architect **Erwin Hinnen**, who contributed to Casablanca's Art Deco and Modernist architectural development. The building's design reflects the elegant, multi-story urban blocks of the mid-1930s. Its name is linked to a French financial or residential company (Société Française), highlighting the foreign investment in the city's infrastructure during the Protectorate.",
     "location": {
-      "longitude": 33.5955348,
-      "latitude": -7.6175283,
+      "longitude": -7.6175283,
+      "latitude": 33.5955348,
       "province": "province/casablanca"
     },
     "people": [

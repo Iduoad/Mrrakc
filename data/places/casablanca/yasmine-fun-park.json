@@ -14,8 +14,8 @@
     "id": "yasmine-fun-park",
     "description": "Yasmine Fun Park is a recreational facility offering various amusement rides, games, and entertainment options, catering primarily to families and children. It provides a popular local venue for weekend leisure and fun activities.",
     "location": {
-      "longitude": 33.5785336,
-      "latitude": -7.6386155,
+      "longitude": -7.6386155,
+      "latitude": 33.5785336,
       "province": "province/casablanca"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "lakhaili-tower",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5743603,
-      "latitude": -5.3637512,
+      "longitude": -5.3637512,
+      "latitude": 35.5743603,
       "province": "province/tetouan"
     },
     "people": [],

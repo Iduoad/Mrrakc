@@ -9,8 +9,8 @@
     "id": "amghass-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 33.3812256,
-      "latitude": -5.441904,
+      "longitude": -5.441904,
+      "latitude": 33.3812256,
       "province": "province/ifrane"
     },
     "people": [],

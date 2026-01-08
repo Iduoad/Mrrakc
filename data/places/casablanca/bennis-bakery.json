@@ -15,8 +15,8 @@
     "id": "bennis-bakery",
     "description": "Bennis Bakery (Pâtisserie Bennis Habous) is an institution in Casablanca, renowned for being one of the city's oldest and most respected traditional Moroccan patisseries. Located in the Habous Quarter (Nouvelle Médina), it specializes in authentic Moroccan sweets, cookies, and pastries, particularly those associated with special occasions. The bakery is famous for maintaining traditional recipes and craftsmanship, making it a cultural landmark for those seeking authentic local culinary heritage.",
     "location": {
-      "longitude": 33.5780213,
-      "latitude": -7.6054739,
+      "longitude": -7.6054739,
+      "latitude": 33.5780213,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "rmilat-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7881592,
-      "latitude": -5.8646055,
+      "longitude": -5.8646055,
+      "latitude": 35.7881592,
       "province": "province/tangier-assilah"
     },
     "people": [],

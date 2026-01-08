@@ -13,8 +13,8 @@
     "id": "artem-gallery",
     "description": "ARTEM GALLERY (Galerie Artem) is a contemporary art space in Casablanca, dedicated to the promotion and exhibition of both established and emerging artists, often focusing on Moroccan and regional art. Located on Rue 6 Octobre, the gallery hosts various exhibitions of paintings, sculptures, and photography throughout the year, playing a role in the city's modern art scene. It functions as both an exhibition venue and a marketplace for artwork.",
     "location": {
-      "longitude": 33.5881276,
-      "latitude": -7.6418433,
+      "longitude": -7.6418433,
+      "latitude": 33.5881276,
       "province": "province/casablanca"
     },
     "people": [],

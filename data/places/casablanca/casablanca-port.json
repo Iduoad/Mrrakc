@@ -15,8 +15,8 @@
     "id": "casablanca-port",
     "description": "Casablanca Port (Port de Casablanca) is one of the largest and most historically significant ports in North Africa, acting as Morocco's primary maritime gateway for international trade. Its development was accelerated by the French Protectorate in the early 20th century, transforming Casablanca from a small town into a major industrial and economic capital. The port handles significant volumes of commercial traffic, including containers and bulk cargo. It remains a crucial element of the city's economic identity and urban landscape, bordering the Old Medina and the city center.",
     "location": {
-      "longitude": 33.6024486,
-      "latitude": -7.6144007,
+      "longitude": -7.6144007,
+      "latitude": 33.6024486,
       "province": "province/casablanca"
     },
     "people": [

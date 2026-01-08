@@ -15,8 +15,8 @@
     "id": "marignan-building",
     "description": "The Marignan Building (Immeuble Marignan) is a multi-story commercial and residential structure dating from around **1950**. It reflects the post-war shift towards Modernist architecture in Casablanca, emphasizing clean lines, functionalism, and less overt ornamentation than the earlier Art Deco style. Its mid-century design contributes to the architectural diversity of the city's central districts.",
     "location": {
-      "longitude": 33.5936331,
-      "latitude": -7.6083676,
+      "longitude": -7.6083676,
+      "latitude": 33.5936331,
       "province": "province/casablanca"
     },
     "people": [],

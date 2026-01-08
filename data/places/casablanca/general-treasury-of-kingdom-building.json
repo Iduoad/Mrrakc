@@ -16,8 +16,8 @@
     "id": "general-treasury-of-kingdom-building",
     "description": "The General Treasury of the Kingdom Building (Trésorerie Générale du Royaume - TGR) is a major administrative and financial institution building in central Casablanca. Its monumental architecture is typical of the public buildings erected during the French Protectorate, designed to project authority and stability. Its historical importance as a center for the colonial and subsequent Moroccan government's financial administration was recognized by its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5924842,
-      "latitude": -7.6198634,
+      "longitude": -7.6198634,
+      "latitude": 33.5924842,
       "province": "province/casablanca"
     },
     "people": [],

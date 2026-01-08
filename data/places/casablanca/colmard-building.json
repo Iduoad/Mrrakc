@@ -16,8 +16,8 @@
     "id": "colmard-building",
     "description": "The Colmard Building is a historical residential and commercial structure located in Casablanca's central district, dating back to the 1920s. Its architecture is typical of the early Art Deco period that flourished in the city under the French Protectorate. Like many buildings in this area, it combines multi-story residential units with commercial space on the ground floor. Its long-standing architectural value was recognized with its designation as a **National Material Patrimony** site in 2011.",
     "location": {
-      "longitude": 33.5864724,
-      "latitude": -7.6133279,
+      "longitude": -7.6133279,
+      "latitude": 33.5864724,
       "province": "province/casablanca"
     },
     "people": [],

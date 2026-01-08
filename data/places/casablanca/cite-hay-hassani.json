@@ -15,8 +15,8 @@
     "id": "cite-hay-hassani",
     "description": "Cité Hay Hassani is a large, modern residential quarter located within the Hay Hassani prefecture of Casablanca. These planned 'cités' represent the city's continuous effort to provide mass housing and structured urban living. Hay Hassani is known for its diverse residential blocks, parks, and local infrastructure, serving as an important and populous residential zone in the southwestern part of the city.",
     "location": {
-      "longitude": 33.5719117,
-      "latitude": -7.6713319,
+      "longitude": -7.6713319,
+      "latitude": 33.5719117,
       "province": "province/casablanca"
     },
     "people": [],

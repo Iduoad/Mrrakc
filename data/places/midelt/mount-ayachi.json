@@ -12,8 +12,8 @@
     "id": "mount-ayachi",
     "description": "No description available",
     "location": {
-      "longitude": 32.477778,
-      "latitude": -4.926944,
+      "longitude": -4.926944,
+      "latitude": 32.477778,
       "altitude": 3757,
       "province": "province/midelt"
     },

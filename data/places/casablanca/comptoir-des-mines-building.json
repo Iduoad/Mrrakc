@@ -16,8 +16,8 @@
     "id": "comptoir-des-mines-building",
     "description": "The Comptoir des Mines Building, also known as the **Taher Sebti Building**, is a monumental structure completed in 1930. It originally housed the **Comptoir des Mines**, a major colonial-era financial institution focused on mining and industry. The building's architecture is reflective of the grand, commercial Art Deco style prevalent in the city's financial district. It currently functions as a bank. Its historical and architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5926494,
-      "latitude": -7.6150295,
+      "longitude": -7.6150295,
+      "latitude": 33.5926494,
       "province": "province/casablanca"
     },
     "people": [],

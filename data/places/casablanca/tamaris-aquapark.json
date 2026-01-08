@@ -15,8 +15,8 @@
     "id": "tamaris-aquapark",
     "description": "Tamaris Aquapark is a large water park located in the Tamaris area near Casablanca, offering a range of water slides, pools, and recreational facilities. As a major seasonal entertainment complex, it caters to families and tourists seeking leisure and cool relief during the hot summer months.",
     "location": {
-      "longitude": 33.5225589,
-      "latitude": -7.7839804,
+      "longitude": -7.7839804,
+      "latitude": 33.5225589,
       "province": "province/casablanca"
     },
     "people": [],

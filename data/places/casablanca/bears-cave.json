@@ -15,8 +15,8 @@
     "id": "bears-cave",
     "description": "The Bears Cave (Grotte des Ours) is a significant prehistoric cave located in the Sidi Abderrahmane area of Casablanca, close to the famous Archaeological Quarry. It is primarily known as a **paleontological** site, yielding important remains of prehistoric fauna, which helps researchers establish the biochronology of the Quaternary period in Atlantic Morocco. The cave's sediment layers contain evidence of ancient animals, contributing to the understanding of the environment and ecosystems that existed alongside early human populations in the region. Although the site name is derived from bear remains, it is a key site for a broad range of faunal studies.",
     "location": {
-      "longitude": 33.5821033,
-      "latitude": -7.6826227,
+      "longitude": -7.6826227,
+      "latitude": 33.5821033,
       "province": "province/casablanca"
     },
     "people": [],

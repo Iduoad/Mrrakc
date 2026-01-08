@@ -9,8 +9,8 @@
     "id": "great-mosque-of-tangier",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7857702,
-      "latitude": -5.8095963,
+      "longitude": -5.8095963,
+      "latitude": 35.7857702,
       "province": "province/tangier-assilah"
     },
     "people": [],

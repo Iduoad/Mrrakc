@@ -15,8 +15,8 @@
     "id": "st-john-s-church",
     "description": "St. John's Church (Église Saint-Jean) is the **oldest Christian church still in use in Casablanca**, established in 1906, predating the French Protectorate's major urban expansion. It serves the Anglican and other Protestant expatriate communities. The church and its adjacent cemetery, dating back to 1864, are crucial historical landmarks reflecting the long-standing international presence and trade history in Casablanca. The church's survival represents a continued tradition of religious tolerance and diversity.",
     "location": {
-      "longitude": 33.5954169,
-      "latitude": -7.6210617,
+      "longitude": -7.6210617,
+      "latitude": 33.5954169,
       "province": "province/casablanca"
     },
     "people": [

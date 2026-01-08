@@ -16,8 +16,8 @@
     "id": "old-tobacco-control-building",
     "description": "The Old Tobacco Control Building (Ancien Bâtiment de la Régie des Tabacs) is a historical administrative structure completed in 1932. It was designed by architect **Marius Boyer**, featuring the Art Deco style typical of the city's commercial and governmental structures of the era. The building played a role in the French Protectorate's administration of the highly regulated tobacco industry. Though now **closed** or awaiting repurposing, its architectural value was recognized with its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5741437,
-      "latitude": -7.609953,
+      "longitude": -7.609953,
+      "latitude": 33.5741437,
       "province": "province/casablanca"
     },
     "people": [

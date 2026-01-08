@@ -15,8 +15,8 @@
     "id": "youth-hostel-casablanca",
     "description": "The Youth Hostel Casablanca (Auberge de Jeunesse de Casablanca) is a historically important accommodation facility for travelers. It is noted as the **oldest youth hostel in Morocco**, established in the 1930s, predating the official network in the country. Located near the historical core, it has provided affordable lodging for young travelers and backpackers for decades, reflecting a long history of youth tourism and cultural exchange.",
     "location": {
-      "longitude": 33.6003443,
-      "latitude": -7.6174283,
+      "longitude": -7.6174283,
+      "latitude": 33.6003443,
       "province": "province/casablanca"
     },
     "people": [],

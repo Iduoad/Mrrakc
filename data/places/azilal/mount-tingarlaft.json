@@ -9,8 +9,8 @@
     "id": "mount-tingarlaft",
     "description": "Mountain Chain: Eastern High Atlas",
     "location": {
-      "longitude": 32.11,
-      "latitude": -5.88,
+      "longitude": -5.88,
+      "latitude": 32.11,
       "altitude": 3242,
       "province": "province/azilal"
     },

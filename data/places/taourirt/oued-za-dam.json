@@ -9,8 +9,8 @@
     "id": "oued-za-dam",
     "description": "AKA Hassan II",
     "location": {
-      "longitude": 34.2008834,
-      "latitude": -2.6358136,
+      "longitude": -2.6358136,
+      "latitude": 34.2008834,
       "province": "province/taourirt"
     },
     "people": [],

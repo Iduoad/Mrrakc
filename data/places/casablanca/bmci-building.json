@@ -15,8 +15,8 @@
     "id": "bmci-building",
     "description": "The BMCI Building (Banque Marocaine pour le Commerce et l'Industrie), located in the heart of Casablanca's commercial district, is a significant post-war administrative structure. Designed by architect **Alexandre Courtois** and constructed between 1947 and 1950, it reflects the shift towards modernist and international styles in the latter years of the Protectorate. The building is known for its imposing scale and functional design, typical of major financial headquarters of the mid-20th century, and remains an active bank today.",
     "location": {
-      "longitude": 33.5958291,
-      "latitude": -7.6172637,
+      "longitude": -7.6172637,
+      "latitude": 33.5958291,
       "province": "province/casablanca"
     },
     "people": [

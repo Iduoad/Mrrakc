@@ -9,8 +9,8 @@
     "id": "the-great-mosque",
     "description": "No description available.",
     "location": {
-      "longitude": 34.040352,
-      "latitude": -6.8274794,
+      "longitude": -6.8274794,
+      "latitude": 34.040352,
       "province": "province/sale"
     },
     "people": [],

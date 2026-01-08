@@ -15,8 +15,8 @@
     "id": "zevaco-dome",
     "description": "The Zevaco Dome (Dôme de Zevaco) is a distinctive architectural landmark in Casablanca's central district. It is a large, modernist concrete dome structure, designed by the celebrated architect **Jean-François Zevaco**. It once housed a market or public facility and is a notable example of the post-war Modernist and Brutalist architecture Zevaco contributed to the city. The dome's unusual form makes it a recognizable urban feature.",
     "location": {
-      "longitude": 33.5964523,
-      "latitude": -7.6176583,
+      "longitude": -7.6176583,
+      "latitude": 33.5964523,
       "province": "province/casablanca"
     },
     "people": [

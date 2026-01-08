@@ -15,8 +15,8 @@
     "id": "carl-ficke-square",
     "description": "Carl Ficke Square (Place Carl Ficke) is a public square located in a central residential and commercial area of Casablanca. Squares like this serve as local neighborhood centers, providing space for relaxation, small gatherings, and access to surrounding shops and cafes. The name likely honors a historical figure associated with the city's development, though detailed public information on Carl Ficke himself is scarce. The square contributes to the organized urban fabric established during the Protectorate era.",
     "location": {
-      "longitude": 33.583483,
-      "latitude": -7.6098199,
+      "longitude": -7.6098199,
+      "latitude": 33.583483,
       "province": "province/casablanca"
     },
     "people": [

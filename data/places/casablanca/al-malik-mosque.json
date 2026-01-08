@@ -14,8 +14,8 @@
     "id": "al-malik-mosque",
     "description": "Al-Malik Mosque (Mosquée Al-Malik) is a significant religious structure in Casablanca, representing the architecture of the mid-20th century. Its construction began during the reign of King Mohammed V and was later inaugurated by his son, King Hassan II, in 1961 CE. The mosque serves as an important local place of worship and a testament to the continuity of royal patronage in building religious and civic structures in post-independence Morocco. The design is characteristic of the time, often blending traditional Moroccan motifs with modern construction techniques.",
     "location": {
-      "longitude": 33.5865766,
-      "latitude": -7.5657735,
+      "longitude": -7.5657735,
+      "latitude": 33.5865766,
       "province": "province/casablanca"
     },
     "people": [

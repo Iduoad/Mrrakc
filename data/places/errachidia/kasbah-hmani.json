@@ -9,8 +9,8 @@
     "id": "kasbah-hmani",
     "description": "AKA Kasbah Moulay Ali<br>Moulay Ali is one of Moulay Ismail Grandchildren",
     "location": {
-      "longitude": 31.2478742,
-      "latitude": -4.2177398,
+      "longitude": -4.2177398,
+      "latitude": 31.2478742,
       "province": "province/errachidia"
     },
     "people": [],

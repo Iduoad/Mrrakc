@@ -15,8 +15,8 @@
     "id": "saada-cinema",
     "description": "Saada Cinema (Cinéma Saada), meaning 'Happiness Cinema,' is a historical movie theater dating from the **1950s**. Located in the eastern part of the city, its architecture is characterized by the Modernist style popular in post-war construction. Saada Cinema reflects the city's cultural life as it expanded into new neighborhoods. Though currently **closed**, its building was declared a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5895796,
-      "latitude": -7.5677833,
+      "longitude": -7.5677833,
+      "latitude": 33.5895796,
       "province": "province/casablanca"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "cinma-avenida",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5714058,
-      "latitude": -5.3764023,
+      "longitude": -5.3764023,
+      "latitude": 35.5714058,
       "province": "province/tetouan"
     },
     "people": [],

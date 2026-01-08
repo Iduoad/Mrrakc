@@ -15,8 +15,8 @@
     "id": "chez-latifa-sea-food",
     "description": "Chez Latifa Sea Food is a renowned street food vendor, likely located in or near the Marché Central, famous for serving **fresh fish snacks, including crab and oysters**. This spot is highly popular with locals and food tourists seeking authentic, fresh seafood prepared simply and quickly. It represents the vibrant and essential role of street food markets in Casablanca's daily culinary life, drawing on the city's position as a major port.",
     "location": {
-      "longitude": 33.5948681,
-      "latitude": -7.611937,
+      "longitude": -7.611937,
+      "latitude": 33.5948681,
       "province": "province/casablanca"
     },
     "people": [

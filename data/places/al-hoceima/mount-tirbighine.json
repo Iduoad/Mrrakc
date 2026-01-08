@@ -9,8 +9,8 @@
     "id": "mount-tirbighine",
     "description": "Mountain Chain: Rif",
     "location": {
-      "longitude": 34.8433954,
-      "latitude": -4.5086344,
+      "longitude": -4.5086344,
+      "latitude": 34.8433954,
       "altitude": 2400,
       "province": "province/al-hoceima"
     },

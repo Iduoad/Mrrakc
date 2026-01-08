@@ -9,8 +9,8 @@
     "id": "kheng-grou-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 32.347099,
-      "latitude": -3.091547,
+      "longitude": -3.091547,
+      "latitude": 32.347099,
       "province": "province/figuig"
     },
     "people": [],

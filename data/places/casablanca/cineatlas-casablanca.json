@@ -14,8 +14,8 @@
     "id": "cineatlas-casablanca",
     "description": "CinéAtlas Casablanca is a modern movie theater and cinema chain operating in Casablanca. It screens contemporary international and national films, offering a typical multiplex experience with updated sound and seating technology. It serves as a popular cultural and entertainment venue for the city's residents.",
     "location": {
-      "longitude": 33.5630172,
-      "latitude": -7.6635283,
+      "longitude": -7.6635283,
+      "latitude": 33.5630172,
       "province": "province/casablanca"
     },
     "people": [],

@@ -15,8 +15,8 @@
     "id": "museum-of-moroccan-judaism",
     "description": "The Museum of Moroccan Judaism (Musée du Judaïsme Marocain) is the only Jewish museum in the Arab world and is located in the Oasis neighborhood of Casablanca. The museum is dedicated to preserving the history, traditions, and artifacts of the Jewish community in Morocco, which spanned over 2,000 years. It showcases a collection of clothing, religious objects, art, and archival documents, serving as a critical institution for promoting the culture of Moroccan Jewry and the country's history of religious pluralism and coexistence.",
     "location": {
-      "longitude": 33.5522201,
-      "latitude": -7.6391606,
+      "longitude": -7.6391606,
+      "latitude": 33.5522201,
       "province": "province/casablanca"
     },
     "people": [

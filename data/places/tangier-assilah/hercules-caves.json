@@ -9,8 +9,8 @@
     "id": "hercules-caves",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7599335,
-      "latitude": -5.9392319,
+      "longitude": -5.9392319,
+      "latitude": 35.7599335,
       "province": "province/tangier-assilah"
     },
     "people": [],

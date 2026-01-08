@@ -12,8 +12,8 @@
     "id": "mount-afella-north",
     "description": "No description available",
     "location": {
-      "longitude": 31.0554047,
-      "latitude": -7.9511645,
+      "longitude": -7.9511645,
+      "latitude": 31.0554047,
       "altitude": 4044,
       "province": "province/al-haouz"
     },

@@ -12,8 +12,8 @@
     "id": "mount-siroua",
     "description": "No description available",
     "location": {
-      "longitude": 30.704,
-      "latitude": -7.6215,
+      "longitude": -7.6215,
+      "latitude": 30.704,
       "altitude": 3304,
       "province": "province/taroudant"
     },

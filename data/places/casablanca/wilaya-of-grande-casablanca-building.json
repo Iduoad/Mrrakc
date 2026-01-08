@@ -16,8 +16,8 @@
     "id": "wilaya-of-grande-casablanca-building",
     "description": "The Wilaya of Grande Casablanca Building (Hôtel de Ville / Préfecture) is the main administrative building and city hall for the Casablanca region. Designed by architect **Marius Boyer** and constructed between 1928 and 1936, it is a monumental structure central to the Place Mohammed V complex. The building is a prime example of the **Neo-Moorish** style, featuring a majestic clock tower and ornate decoration that reflects the colonial administration's architectural mandate. It was declared a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5903455,
-      "latitude": -7.6190468,
+      "longitude": -7.6190468,
+      "latitude": 33.5903455,
       "province": "province/casablanca"
     },
     "people": [

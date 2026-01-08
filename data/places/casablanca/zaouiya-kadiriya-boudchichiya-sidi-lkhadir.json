@@ -15,8 +15,8 @@
     "id": "zaouiya-kadiriya-boudchichiya-sidi-lkhadir",
     "description": "This is a specific location (Zaouiya) of the prominent **Qadiriyya Boutchichiyya Sufi order**, likely associated with the nearby Sidi El Khadir site. These zaouiyas are spiritual centers crucial for the Sufi community's religious practices, meditation, and leadership.",
     "location": {
-      "longitude": 33.5716564,
-      "latitude": -7.6880995,
+      "longitude": -7.6880995,
+      "latitude": 33.5716564,
       "province": "province/casablanca"
     },
     "people": [

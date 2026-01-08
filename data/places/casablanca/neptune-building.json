@@ -16,8 +16,8 @@
     "id": "neptune-building",
     "description": "The Neptune Building (Immeuble Neptune) is a historical residential and commercial structure located in central Casablanca. It dates from the height of the city's Art Deco building boom. The building's name references the Roman god of the sea, often reflected in subtle architectural or decorative marine motifs, fitting for a coastal city. Its historical importance was formally recognized with its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.597776,
-      "latitude": -7.6154541,
+      "longitude": -7.6154541,
+      "latitude": 33.597776,
       "province": "province/casablanca"
     },
     "people": [],

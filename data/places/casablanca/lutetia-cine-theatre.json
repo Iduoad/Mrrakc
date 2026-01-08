@@ -15,8 +15,8 @@
     "id": "lutetia-cine-theatre",
     "description": "The Lutetia Ciné-Theatre is a historical entertainment venue in Casablanca, built in the mid-20th century. As a 'Ciné-Theatre,' it was designed to accommodate both **cinema screenings and live theatrical performances**, reflecting the diverse cultural needs of the city's population during the Protectorate and post-independence eras. Its architecture likely incorporates Art Deco or Modernist features typical of these grand, multi-purpose venues.",
     "location": {
-      "longitude": 33.5939391,
-      "latitude": -7.6170859,
+      "longitude": -7.6170859,
+      "latitude": 33.5939391,
       "province": "province/casablanca"
     },
     "people": [],

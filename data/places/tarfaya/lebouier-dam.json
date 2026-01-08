@@ -9,8 +9,8 @@
     "id": "lebouier-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 27.4623187,
-      "latitude": -12.8650101,
+      "longitude": -12.8650101,
+      "latitude": 27.4623187,
       "province": "province/tarfaya"
     },
     "people": [],

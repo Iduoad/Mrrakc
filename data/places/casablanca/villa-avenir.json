@@ -15,8 +15,8 @@
     "id": "villa-avenir",
     "description": "Villa Avenir is a historically significant residential villa completed in 1929, designed by architect **Louis Henri Fleurant**. The villa's architecture is a notable example of the Art Deco style applied to residential buildings in Casablanca, featuring simplified geometric forms and elegance. Its architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5822033,
-      "latitude": -7.6137675,
+      "longitude": -7.6137675,
+      "latitude": 33.5822033,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "central-park-of-ain-chok",
     "description": "The Central Park of Ain Chok (Parc Central d'Aïn Chock) is a significant green space serving the Aïn Chock neighborhood of Casablanca. As a central park for the district, it provides essential recreational and natural amenities for residents in a typically densely populated area. It is a hub for community life, offering pathways for walking and jogging, and open spaces for leisure and play, contributing to the urban quality of life.",
     "location": {
-      "longitude": 33.5519639,
-      "latitude": -7.6003933,
+      "longitude": -7.6003933,
+      "latitude": 33.5519639,
       "province": "province/casablanca"
     },
     "people": [],

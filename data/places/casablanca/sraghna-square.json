@@ -14,8 +14,8 @@
     "id": "sraghna-square",
     "description": "Sraghna Square (Place Sraghna) is a public square in a residential or commercial district of Casablanca. Squares like this function as essential local gathering spots, providing open space, seating, and a nucleus for neighborhood life and commerce. The name may refer to a region of Morocco (Beni Mellal-Khénifra) or a local figure.",
     "location": {
-      "longitude": 33.569566,
-      "latitude": -7.6014511,
+      "longitude": -7.6014511,
+      "latitude": 33.569566,
       "province": "province/casablanca"
     },
     "people": [],

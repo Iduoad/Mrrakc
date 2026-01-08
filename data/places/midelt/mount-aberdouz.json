@@ -12,8 +12,8 @@
     "id": "mount-aberdouz",
     "description": "AKA Ich Nolmou",
     "location": {
-      "longitude": 32.2525,
-      "latitude": -5.1166667,
+      "longitude": -5.1166667,
+      "latitude": 32.2525,
       "altitude": 2808,
       "province": "province/midelt"
     },

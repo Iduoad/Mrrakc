@@ -9,8 +9,8 @@
     "id": "sqala-tower",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5704561,
-      "latitude": -5.3635749,
+      "longitude": -5.3635749,
+      "latitude": 35.5704561,
       "province": "province/tetouan"
     },
     "people": [],

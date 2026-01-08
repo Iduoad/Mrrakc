@@ -9,8 +9,8 @@
     "id": "ksar-oulad-abdelkader",
     "description": "State: Inhabited",
     "location": {
-      "longitude": 31.2498293,
-      "latitude": -4.2156695,
+      "longitude": -4.2156695,
+      "latitude": 31.2498293,
       "province": "province/errachidia"
     },
     "people": [],

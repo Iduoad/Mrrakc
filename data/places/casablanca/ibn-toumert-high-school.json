@@ -15,8 +15,8 @@
     "id": "ibn-toumert-high-school",
     "description": "Ibn Toumert High School (Lycée Ibn Toumert) is a historically significant educational complex in Casablanca, designed by architect **Georges Jean Grel** and completed in 1929. The school's architecture is characteristic of the French Protectorate era, blending modernist planning with Art Deco aesthetics. Its prominent design and long history as an educational institution earned it a designation as a **National Material Patrimony** site in 2004. It continues to operate as a public high school, named after the influential founder of the Almohad movement, Ibn Tumart.",
     "location": {
-      "longitude": 33.5938393,
-      "latitude": -7.6230291,
+      "longitude": -7.6230291,
+      "latitude": 33.5938393,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "amuzeum",
     "description": "Amuzeum is a family-friendly educational play park and children's museum located in Dar Bouazza, near Casablanca. Spanning nearly 2000 m² across three levels, its mission is to make learning fun for children aged 18 months to 12 years by encouraging them to touch, experiment, and explore. It offers a unique concept in Morocco, combining the joy of an amusement park with the educational value of a museum, with activities designed to awaken curiosity in subjects like history, science, and knowledge.",
     "location": {
-      "longitude": 33.512778,
-      "latitude": -7.8174842,
+      "longitude": -7.8174842,
+      "latitude": 33.512778,
       "province": "province/casablanca"
     },
     "people": [],

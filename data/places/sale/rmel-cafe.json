@@ -9,8 +9,8 @@
     "id": "rmel-cafe",
     "description": "No description available.",
     "location": {
-      "longitude": 34.0340503,
-      "latitude": -6.8242532,
+      "longitude": -6.8242532,
+      "latitude": 34.0340503,
       "province": "province/sale"
     },
     "people": [],

@@ -12,8 +12,8 @@
     "id": "mount-tazzeka",
     "description": "No description available",
     "location": {
-      "longitude": 34.0905094,
-      "latitude": -4.1828872,
+      "longitude": -4.1828872,
+      "latitude": 34.0905094,
       "altitude": 1991,
       "province": "province/taza"
     },

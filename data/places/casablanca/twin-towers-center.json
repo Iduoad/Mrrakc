@@ -15,8 +15,8 @@
     "id": "twin-towers-center",
     "description": "The Twin Center (Tours Jumelles de Casablanca) is a major commercial and business complex consisting of two high-rise towers. Built in the late 1990s and early 2000s, they were, for a time, the tallest buildings in Morocco. The Twin Center symbolizes Casablanca's aspiration as a modern global business hub and houses offices, commercial space, and a hotel. Their distinctive height and location in the Maârif district make them the most recognizable landmarks of the modern city skyline.",
     "location": {
-      "longitude": 33.5866755,
-      "latitude": -7.632104,
+      "longitude": -7.632104,
+      "latitude": 33.5866755,
       "province": "province/casablanca"
     },
     "people": [

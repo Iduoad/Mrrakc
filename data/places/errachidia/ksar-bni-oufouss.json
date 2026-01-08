@@ -9,8 +9,8 @@
     "id": "ksar-bni-oufouss",
     "description": "The Old Ksar is under the Dam Water.",
     "location": {
-      "longitude": 31.9039491,
-      "latitude": -4.4040639,
+      "longitude": -4.4040639,
+      "latitude": 31.9039491,
       "province": "province/errachidia"
     },
     "people": [],

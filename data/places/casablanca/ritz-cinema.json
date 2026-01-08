@@ -13,8 +13,8 @@
     "id": "ritz-cinema",
     "description": "Ritz Cinema (Cinema Ritz) is a historical movie theater located in the architectural center of Casablanca. It dates from the height of the city's development under the French Protectorate and likely features the grand, stylized architecture of the Art Deco or Modernist movements. It was an important cultural venue during its operating years.",
     "location": {
-      "longitude": 33.5944574,
-      "latitude": -7.6147012,
+      "longitude": -7.6147012,
+      "latitude": 33.5944574,
       "province": "province/casablanca"
     },
     "people": [],

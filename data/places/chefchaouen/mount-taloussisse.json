@@ -12,8 +12,8 @@
     "id": "mount-taloussisse",
     "description": "No description available",
     "location": {
-      "longitude": 35.1220583,
-      "latitude": -5.0876432,
+      "longitude": -5.0876432,
+      "latitude": 35.1220583,
       "altitude": 2005,
       "province": "province/chefchaouen"
     },

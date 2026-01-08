@@ -15,8 +15,8 @@
     "id": "south-american-mutual-mortgage-company-building",
     "description": "The South American Mutual Mortgage Company Building (Société mutuelle hypothécaire sud-américaine) is a historical residential and commercial structure completed in 1929. It was designed by the prominent duo **Marius Boyer and Jean Balois**. This building reflects the international investment and architectural ambition of the Art Deco era in Casablanca, particularly concerning foreign financial institutions. It remains an inhabited building.",
     "location": {
-      "longitude": 33.5937697,
-      "latitude": -7.612655,
+      "longitude": -7.612655,
+      "latitude": 33.5937697,
       "province": "province/casablanca"
     },
     "people": [

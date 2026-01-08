@@ -15,8 +15,8 @@
     "id": "cap-chatelier",
     "description": "Cap Chatelier is a geographical feature and an important archaeological area located along the Atlantic coast near the Sidi Abderrahmane quarry sites in Casablanca. This area is highly significant for the study of the **Quaternary period** in North Africa. It is known for its marine and continental deposits that have yielded numerous archaeological and paleontological finds, including evidence of early human activity and fossilized mammalian fauna. The site provides vital context for understanding the long history of occupation in the Casablanca region, alongside sites like the nearby Bears Cave.",
     "location": {
-      "longitude": 33.5818649,
-      "latitude": -7.683521,
+      "longitude": -7.683521,
+      "latitude": 33.5818649,
       "province": "province/casablanca"
     },
     "people": [],

@@ -15,8 +15,8 @@
     "id": "square-of-mohammed-v-pigeon-fountain",
     "description": "The Pigeon Fountain is the famous central water feature located in the monumental **Mohammed V Square** (formerly Place Administrative). The fountain is renowned for its large size, elaborate design, and the constant presence of numerous pigeons, which visitors often feed. As the centerpiece of Casablanca's administrative heart, it is a key urban landmark and a popular gathering place, surrounded by the city's grand Art Deco and Neo-Moorish public buildings.",
     "location": {
-      "longitude": 33.5914402,
-      "latitude": -7.6196399,
+      "longitude": -7.6196399,
+      "latitude": 33.5914402,
       "province": "province/casablanca"
     },
     "people": [

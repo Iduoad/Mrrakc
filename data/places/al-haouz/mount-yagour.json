@@ -12,8 +12,8 @@
     "id": "mount-yagour",
     "description": "No description available",
     "location": {
-      "longitude": 31.316667,
-      "latitude": -7.65,
+      "longitude": -7.65,
+      "latitude": 31.316667,
       "altitude": 2700,
       "province": "province/al-haouz"
     },

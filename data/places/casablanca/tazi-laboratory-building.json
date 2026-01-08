@@ -15,8 +15,8 @@
     "id": "tazi-laboratory-building",
     "description": "The Tazi Laboratory Building is a historical commercial and medical structure dating from the **1930s**. It was likely built as a private or commercial laboratory facility, reflecting the growing presence of modern medical and scientific services during the French Protectorate era. The building's functionalist and Art Deco architectural style is typical of the commercial development in the surrounding central district.",
     "location": {
-      "longitude": 33.590908,
-      "latitude": -7.6255254,
+      "longitude": -7.6255254,
+      "latitude": 33.590908,
       "province": "province/casablanca"
     },
     "people": [

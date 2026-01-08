@@ -16,8 +16,8 @@
     "id": "pinto-building",
     "description": "The Pinto Building is a historical residential and commercial structure, completed in 1932. It was designed by the **Suraqui Brothers (Elias and Joseph)**, prominent Jewish Moroccan architects who significantly shaped Casablanca's Art Deco skyline. The building's architecture is a strong example of the Art Deco style, featuring elegant symmetry and detailing. Its historical and architectural quality was formally recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5950856,
-      "latitude": -7.6246613,
+      "longitude": -7.6246613,
+      "latitude": 33.5950856,
       "province": "province/casablanca"
     },
     "people": [

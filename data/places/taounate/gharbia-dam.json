@@ -9,8 +9,8 @@
     "id": "gharbia-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 34.4592593,
-      "latitude": -4.822119,
+      "longitude": -4.822119,
+      "latitude": 34.4592593,
       "province": "province/taounate"
     },
     "people": [],

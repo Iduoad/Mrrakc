@@ -15,8 +15,8 @@
     "id": "radiology-clinic-building",
     "description": "The Radiology Clinic Building, originally constructed in 1928 and designed by architect **Pierre Bousquet**, is a significant historical structure in Casablanca's central district. Bousquet was a prolific architect during the French Protectorate, and the building's design reflects the early **Art Deco** movement. It was initially built for a medical function and continues this legacy today, operating as the **Oued El Makhazine Radiology Center**.",
     "location": {
-      "longitude": 33.5943259,
-      "latitude": -7.6239265,
+      "longitude": -7.6239265,
+      "latitude": 33.5943259,
       "province": "province/casablanca"
     },
     "people": [

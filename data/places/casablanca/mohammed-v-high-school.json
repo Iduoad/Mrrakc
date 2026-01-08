@@ -15,8 +15,8 @@
     "id": "mohammed-v-high-school",
     "description": "Mohammed V High School (Lycée Mohammed V) is one of Casablanca's most historically significant and prominent educational institutions, with its main building constructed between 1922 and 1954. It was designed by architects **Isaac Lévy and Elie Azagury**. The complex represents the monumental public architecture of the Protectorate era, blending early Art Deco with functional design. Named after King Mohammed V (Sultan Mohammed Ben Youssef), it became a symbol of national pride after independence and was declared a **National Material Patrimony** site in 2004.",
     "location": {
-      "longitude": 33.5779565,
-      "latitude": -7.6151533,
+      "longitude": -7.6151533,
+      "latitude": 33.5779565,
       "province": "province/casablanca"
     },
     "people": [

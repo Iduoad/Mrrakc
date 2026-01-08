@@ -12,8 +12,8 @@
     "id": "mount-erdouz",
     "description": "No description available",
     "location": {
-      "longitude": 31.0463889,
-      "latitude": -8.4097222,
+      "longitude": -8.4097222,
+      "latitude": 31.0463889,
       "altitude": 3590,
       "province": "province/al-haouz"
     },

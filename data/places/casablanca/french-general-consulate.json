@@ -16,8 +16,8 @@
     "id": "french-general-consulate",
     "description": "The French General Consulate building is a landmark administrative structure designed by architect **Albert Laprade** and constructed between 1916 and 1922. It originally served as the **Military Subdivision Hotel** (Hôtel de la Subdivision Militaire), a key command post for the French administration. Reflecting the early Protectorate's architectural policy, the building is designed in the majestic Neo-Moorish style, combining traditional Moroccan craftsmanship with European monumentality. Today, it functions as the active French Consulate, symbolizing the long-standing diplomatic and historical relationship between France and Morocco.",
     "location": {
-      "longitude": 33.5897138,
-      "latitude": -7.6180301,
+      "longitude": -7.6180301,
+      "latitude": 33.5897138,
       "province": "province/casablanca"
     },
     "people": [

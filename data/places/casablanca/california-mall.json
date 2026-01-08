@@ -15,8 +15,8 @@
     "id": "california-mall",
     "description": "California Mall is a modern, neighborhood shopping center located in the California district of Casablanca. It serves the retail and service needs of the surrounding residential area, often featuring a mix of local shops, cafes, services, and possibly a supermarket. Malls like this represent the decentralized development of commerce away from the city center in modern Casablanca.",
     "location": {
-      "longitude": 33.5445568,
-      "latitude": -7.6401545,
+      "longitude": -7.6401545,
+      "latitude": 33.5445568,
       "province": "province/casablanca"
     },
     "people": [],

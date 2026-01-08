@@ -16,8 +16,8 @@
     "id": "arc-cinema",
     "description": "The Arc Cinema is a historic movie theater in Casablanca, believed to date back to the 1940s, during a golden age of cinema and cultural development in the city. Cinéma Arc, along with other grand cinemas like the Empire and Rialto, are notable architectural landmarks, often featuring Art Deco or modernist styles characteristic of the colonial era. Though currently closed, its historical and architectural significance was recognized with its designation as a National Material Patrimony site in 2018.",
     "location": {
-      "longitude": 33.5950839,
-      "latitude": -7.6327468,
+      "longitude": -7.6327468,
+      "latitude": 33.5950839,
       "province": "province/casablanca"
     },
     "people": [],

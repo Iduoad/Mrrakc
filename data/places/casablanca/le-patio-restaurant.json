@@ -14,8 +14,8 @@
     "id": "le-patio-restaurant",
     "description": "Le Patio Restaurant (The Patio Restaurant) is a dining establishment in Casablanca specializing in **Mediterranean cuisine**. The name suggests a core feature: an inviting outdoor or enclosed courtyard (patio) for dining, which provides a comfortable and atmospheric setting, particularly popular in Morocco's climate. The restaurant offers a modern menu, often featuring fresh, seasonal ingredients and a relaxed ambiance.",
     "location": {
-      "longitude": 33.5874208,
-      "latitude": -7.6295032,
+      "longitude": -7.6295032,
+      "latitude": 33.5874208,
       "province": "province/casablanca"
     },
     "people": [],

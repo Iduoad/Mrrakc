@@ -15,8 +15,8 @@
     "id": "attijariwafabank-building",
     "description": "This Attijariwafabank building, sometimes referred to as 'Bâtiment Lahrizi', is a significant architectural monument in Casablanca's central district. It was designed by architect Marius Boyer and completed in 1929, originally serving as the 'Moroccan Bank of Commerce' (ex Moroccan Bank of Commerce). The building exemplifies the Art Deco and Neo-Moorish styles prevalent in the city's construction boom during the French Protectorate. Its historical and architectural value has been formally recognized by its inclusion in the National Material Patrimony in 2003. Attijariwafa bank has been involved in preserving its emblematic facade.",
     "location": {
-      "longitude": 33.5934176,
-      "latitude": -7.6153602,
+      "longitude": -7.6153602,
+      "latitude": 33.5934176,
       "province": "province/casablanca"
     },
     "people": [

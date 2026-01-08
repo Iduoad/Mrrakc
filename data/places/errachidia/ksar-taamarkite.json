@@ -9,8 +9,8 @@
     "id": "ksar-taamarkite",
     "description": "Ksar Lamaarka",
     "location": {
-      "longitude": 31.6456079,
-      "latitude": -4.2120324,
+      "longitude": -4.2120324,
+      "latitude": 31.6456079,
       "province": "province/errachidia"
     },
     "people": [],

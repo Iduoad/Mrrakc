@@ -16,8 +16,8 @@
     "id": "lalla-taja-mausoleum",
     "description": "The Lalla Taja Mausoleum (Marabout de Lalla Taja) is a unique and significant religious site located within the Casablanca Medina, as it is the **sole mausoleum dedicated to a woman in the Medina**. Dating from the **early 20th century**, it honors Lalla Taja, a revered figure known for her extraordinary **benevolence, particularly her care of orphans and support for single mothers**. She received assistance from the Belgian consulate due to her charitable work. Following her death, the women of the Medina, who deeply esteemed her, collectively buried her and erected this mausoleum in her honor. Lalla Taja remains a cherished symbol of compassion and a figure of veneration for the women of Casablanca.",
     "location": {
-      "longitude": 33.60038,
-      "latitude": -7.6180037,
+      "longitude": -7.6180037,
+      "latitude": 33.60038,
       "province": "province/casablanca"
     },
     "people": [

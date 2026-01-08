@@ -9,8 +9,8 @@
     "id": "israeli-school",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5687526,
-      "latitude": -5.3670998,
+      "longitude": -5.3670998,
+      "latitude": 35.5687526,
       "province": "province/tetouan"
     },
     "people": [],

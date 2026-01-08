@@ -9,8 +9,8 @@
     "id": "mazer-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 33.1065658,
-      "latitude": -7.4641683,
+      "longitude": -7.4641683,
+      "latitude": 33.1065658,
       "province": "province/berrechid"
     },
     "people": [],

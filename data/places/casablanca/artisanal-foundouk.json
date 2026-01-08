@@ -16,8 +16,8 @@
     "id": "artisanal-foundouk",
     "description": "The Artisanal Foundouk (or Fondouk, a traditional inn/caravanserai) is a historical structure in the Old Medina of Casablanca that is currently undergoing development to be repurposed as a photography school and museum. Foundouks were historically central to commerce, serving as merchant lodgings, storage facilities, and workshops. This transformation project aims to revitalize the historical building while fostering new cultural and educational activities, focusing on arts, heritage, and photography, thereby contributing to the cultural preservation and promotion of the Old Medina.",
     "location": {
-      "longitude": 33.6003918,
-      "latitude": -7.619617,
+      "longitude": -7.619617,
+      "latitude": 33.6003918,
       "province": "province/casablanca"
     },
     "people": [],

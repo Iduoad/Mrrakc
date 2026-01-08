@@ -16,8 +16,8 @@
     "id": "aquarium-building",
     "description": "The historic Aquarium Building, designed by French architect Georges Delanoë, was a significant structure in Casablanca's post-war development, completed around 1950. It served as a public aquarium for several decades but is currently closed. Its architecture is recognized for its Modernist style, which was prevalent in Casablanca's rapid expansion during the mid-20th century. The building's cultural and historical value was formally acknowledged when it was declared a National Material Patrimony site in 2018.",
     "location": {
-      "longitude": 33.6067073,
-      "latitude": -7.6301385,
+      "longitude": -7.6301385,
+      "latitude": 33.6067073,
       "province": "province/casablanca"
     },
     "people": [

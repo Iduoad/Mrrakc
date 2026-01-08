@@ -15,8 +15,8 @@
     "id": "anfaplace-mall",
     "description": "Anfaplace Mall is a contemporary shopping and leisure center situated on the Ain Diab Corniche in Casablanca, offering stunning views of the Atlantic Ocean. It was designed by the acclaimed international architectural firm led by Norman Foster, giving it a sleek, modern architectural profile. The mall is a popular destination for shopping, dining, and entertainment, hosting a variety of international and local brands. Its development is part of the larger Anfaplace Living Resort complex.",
     "location": {
-      "longitude": 33.598129,
-      "latitude": -7.6646354,
+      "longitude": -7.6646354,
+      "latitude": 33.598129,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "the-khalifa-palace",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5819497,
-      "latitude": -5.3620778,
+      "longitude": -5.3620778,
+      "latitude": 35.5819497,
       "province": "province/tetouan"
     },
     "people": [],

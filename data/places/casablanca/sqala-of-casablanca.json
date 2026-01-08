@@ -16,8 +16,8 @@
     "id": "sqala-of-casablanca",
     "description": "The Sqala of Casablanca (Bastion de la Sqala) is a historical coastal fortification built into the city walls. While the site dates back to the **15th century**, the current structure was substantially **rebuilt in 1755 CE** by **Sultan Mohammed Ben Abdellah** as part of his project to found modern Casablanca (then Dār al-Bayḍāʼ). The Sqala was vital for defending the city and port against naval attack. It is a major historical landmark, featuring old cannons and ramparts, and currently houses the popular La Sqala Restaurant.",
     "location": {
-      "longitude": 33.6029533,
-      "latitude": -7.619094,
+      "longitude": -7.619094,
+      "latitude": 33.6029533,
       "province": "province/casablanca"
     },
     "people": [

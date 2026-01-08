@@ -15,8 +15,8 @@
     "id": "imperial-cinema",
     "description": "Impérial Cinema (Cinéma Impérial) is a historically significant movie theater located near the Old Medina and the new town's central commercial district. Dating back to the **early 20th century**, it is one of the oldest grand cinemas established during Casablanca's rapid development under the French Protectorate. Like many of its contemporaries, it was designed in the monumental Art Deco style. Though currently **closed**, its importance to the city's cultural and architectural heritage was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5988998,
-      "latitude": -7.6170491,
+      "longitude": -7.6170491,
+      "latitude": 33.5988998,
       "province": "province/casablanca"
     },
     "people": [],

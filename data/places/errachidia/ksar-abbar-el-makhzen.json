@@ -9,8 +9,8 @@
     "id": "ksar-abbar-el-makhzen",
     "description": "By Moulay Abderrahman Ibn Hisham",
     "location": {
-      "longitude": 31.2779782,
-      "latitude": -4.251237,
+      "longitude": -4.251237,
+      "latitude": 31.2779782,
       "province": "province/errachidia"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "hammam-of-hassan-ii-mosque",
     "description": "None",
     "location": {
-      "longitude": 33.6069284,
-      "latitude": -7.6322774,
+      "longitude": -7.6322774,
+      "latitude": 33.6069284,
       "province": "province/casablanca"
     },
     "people": [],

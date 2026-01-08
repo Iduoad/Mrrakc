@@ -14,8 +14,8 @@
     "id": "park-jabalia",
     "description": "Park Jabalia (Jardin Jabalia) is a public urban park in Casablanca, serving the recreational and leisure needs of the surrounding residential neighborhood. The park offers green space, shade, and pathways for walking, contributing to the urban quality of life. The name 'Jabalia' may refer to a local geographic or historical feature.",
     "location": {
-      "longitude": 33.5257293,
-      "latitude": -7.6164953,
+      "longitude": -7.6164953,
+      "latitude": 33.5257293,
       "province": "province/casablanca"
     },
     "people": [],

@@ -16,8 +16,8 @@
     "id": "dar-el-makhzen",
     "description": "Dar el Makhzen (meaning 'House of the Treasury' or **Royal Palace**) is the official royal residence and administrative palace in Casablanca, serving as the King of Morocco's main office and ceremonial venue when he is in the city. The term 'Makhzen' refers to the traditional government structure in Morocco. Located near the Old Medina, the palace complex is typically walled and heavily guarded, featuring magnificent Moroccan architecture and vast gardens. Unlike the Royal Palace in Rabat, which is rarely visited, this site is a critical point for state and royal functions, though it is **not open to the public**.",
     "location": {
-      "longitude": 33.5984101,
-      "latitude": -7.6166649,
+      "longitude": -7.6166649,
+      "latitude": 33.5984101,
       "province": "province/casablanca"
     },
     "people": [

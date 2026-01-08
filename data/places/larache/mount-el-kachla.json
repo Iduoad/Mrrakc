@@ -12,8 +12,8 @@
     "id": "mount-el-kachla",
     "description": "No description available",
     "location": {
-      "longitude": 35.2499205236445,
-      "latitude": -5.49815361589767,
+      "longitude": -5.49815361589767,
+      "latitude": 35.2499205236445,
       "altitude": 1640,
       "province": "province/larache"
     },

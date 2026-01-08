@@ -15,8 +15,8 @@
     "id": "russian-orthodox-church",
     "description": "The Russian Orthodox Church in Casablanca is a religious landmark serving the small but historically present Russian Orthodox community. Built in the early 20th century, its architecture typically follows the characteristic Russian religious style (e.g., onion domes). It represents the diversity of the city's early 20th-century European population. The building was declared a **National Material Patrimony** site in 2013.",
     "location": {
-      "longitude": 33.5819769,
-      "latitude": -7.6227055,
+      "longitude": -7.6227055,
+      "latitude": 33.5819769,
       "province": "province/casablanca"
     },
     "people": [],

@@ -12,8 +12,8 @@
     "id": "mount-bouidorne",
     "description": "No description available",
     "location": {
-      "longitude": 33.3827398,
-      "latitude": -4.6817299,
+      "longitude": -4.6817299,
+      "latitude": 33.3827398,
       "altitude": 2777,
       "province": "province/boulemane"
     },

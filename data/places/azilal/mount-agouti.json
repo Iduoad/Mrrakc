@@ -12,8 +12,8 @@
     "id": "mount-agouti",
     "description": "No description available",
     "location": {
-      "longitude": 31.5456,
-      "latitude": -6.5167,
+      "longitude": -6.5167,
+      "latitude": 31.5456,
       "altitude": 3500,
       "province": "province/azilal"
     },

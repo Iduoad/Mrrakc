@@ -15,8 +15,8 @@
     "id": "trade-square",
     "description": "Trade Square (Place du Commerce) is a historical public space located near the border of the Old Medina and the new town. Throughout the **19th and early 20th centuries**, it was a very important gathering point where **local and international traders** met to discuss business and finalize deals, particularly in real estate and port-related commerce. It represents the crucial mercantile spirit that fueled Casablanca's early transformation into an economic powerhouse.",
     "location": {
-      "longitude": 33.5997684,
-      "latitude": -7.6175058,
+      "longitude": -7.6175058,
+      "latitude": 33.5997684,
       "province": "province/casablanca"
     },
     "people": [],

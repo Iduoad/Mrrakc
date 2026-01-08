@@ -9,8 +9,8 @@
     "id": "issa-lake",
     "description": "Aguelmam n'Issa",
     "location": {
-      "longitude": 32.9053439,
-      "latitude": -5.3650654,
+      "longitude": -5.3650654,
+      "latitude": 32.9053439,
       "province": "province/khenifra"
     },
     "people": [],

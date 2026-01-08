@@ -16,8 +16,8 @@
     "id": "great-mosque-of-casablanca",
     "description": "The Great Mosque of Casablanca (Jamaa El Kebir), also known as the **Makhzen Mosque** (Mosque of the Royal Administration), is one of the oldest mosques in the city. It was built around the **1780s CE** during the reign of Sultan **Sidi Mohammed Ibn Abdellah**, the founder of modern Casablanca (then Dār al-Bayḍāʼ). Its structure reflects the traditional Islamic architecture of the time, often featuring simple, dignified forms. It has undergone several renovations, notably by Sultan Moulay Hassan I and King Mohammed V, the latter rebuilding the minaret in the 1960s, inspired by the Koutoubia minaret in Marrakech, after it was destroyed in the 1907 French bombardment.",
     "location": {
-      "longitude": 33.5989621,
-      "latitude": -7.6160814,
+      "longitude": -7.6160814,
+      "latitude": 33.5989621,
       "province": "province/casablanca"
     },
     "people": [

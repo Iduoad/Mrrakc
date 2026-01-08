@@ -9,8 +9,8 @@
     "id": "rahrah-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7549685,
-      "latitude": -5.8689349,
+      "longitude": -5.8689349,
+      "latitude": 35.7549685,
       "province": "province/tangier-assilah"
     },
     "people": [],

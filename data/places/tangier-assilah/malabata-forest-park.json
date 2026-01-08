@@ -9,8 +9,8 @@
     "id": "malabata-forest-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7792383,
-      "latitude": -5.7630147,
+      "longitude": -5.7630147,
+      "latitude": 35.7792383,
       "province": "province/tangier-assilah"
     },
     "people": [],

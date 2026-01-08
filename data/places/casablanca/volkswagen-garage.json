@@ -14,8 +14,8 @@
     "id": "volkswagen-garage",
     "description": "The Volkswagen Garage Building is a historical industrial structure, dating from the **1950s**. It represents the functionalist and modernist architecture applied to automotive commercial facilities in the post-war era. As a dealership or service center for Volkswagen, it reflects the growing internationalization of Morocco's automotive market.",
     "location": {
-      "longitude": 33.5892827,
-      "latitude": -7.611496,
+      "longitude": -7.611496,
+      "latitude": 33.5892827,
       "province": "province/casablanca"
     },
     "people": [],

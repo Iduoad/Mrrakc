@@ -9,8 +9,8 @@
     "id": "gran-caf-central",
     "description": "No description available.",
     "location": {
-      "longitude": 35.785539,
-      "latitude": -5.8106813,
+      "longitude": -5.8106813,
+      "latitude": 35.785539,
       "province": "province/tangier-assilah"
     },
     "people": [],

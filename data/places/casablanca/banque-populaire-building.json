@@ -15,8 +15,8 @@
     "id": "banque-populaire-building",
     "description": "The current Banque Populaire Building (Banque Centrale Populaire) is historically significant as it originally served as the headquarter for the **British West African Bank**. Designed by architect **Georges Virmot** and completed in 1918, it is one of the early major bank structures in the new town of Casablanca, built shortly after the establishment of the French Protectorate. Its architecture, typical of the era, blends European styles with Moroccan motifs (Neo-Moorish or Mauresque style), reflecting the city's early development under colonial influence. Its prominent location and historical use make it a landmark of the city's financial and colonial past.",
     "location": {
-      "longitude": 33.5948864,
-      "latitude": -7.6166715,
+      "longitude": -7.6166715,
+      "latitude": 33.5948864,
       "province": "province/casablanca"
     },
     "people": [

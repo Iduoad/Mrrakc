@@ -15,8 +15,8 @@
     "id": "verdun-cinema",
     "description": "Verdun Cinema (Cinéma Verdun) is a historical movie theater established in the 1950s, designed by architect **Léon Aroutcheff**. Its architecture reflects the later Modernist style of the post-war era. Located in a central district, the cinema was a prominent cultural venue during its operation. Though currently **closed**, the building's historical importance was recognized by its designation as a **National Material Patrimony** site in 2014.",
     "location": {
-      "longitude": 33.5960595,
-      "latitude": -7.625816,
+      "longitude": -7.625816,
+      "latitude": 33.5960595,
       "province": "province/casablanca"
     },
     "people": [

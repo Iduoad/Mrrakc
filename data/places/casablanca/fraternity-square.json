@@ -15,8 +15,8 @@
     "id": "fraternity-square",
     "description": "Fraternity Square (Place de la Fraternité) is a public square located in the central district of Casablanca. As a key gathering space, it is part of the city's planned urban environment developed during the French Protectorate. The name, emphasizing fraternity, reflects civic values. It functions as a local hub for socializing, relaxation, and provides pedestrian access to surrounding commercial and residential areas.",
     "location": {
-      "longitude": 33.5939147,
-      "latitude": -7.6287499,
+      "longitude": -7.6287499,
+      "latitude": 33.5939147,
       "province": "province/casablanca"
     },
     "people": [],

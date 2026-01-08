@@ -12,8 +12,8 @@
     "id": "mount-jbel-messder-idde",
     "description": "No description available",
     "location": {
-      "longitude": 32.1923061,
-      "latitude": -5.5252036,
+      "longitude": -5.5252036,
+      "latitude": 32.1923061,
       "altitude": 3153,
       "province": "province/midelt"
     },

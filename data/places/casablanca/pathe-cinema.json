@@ -15,8 +15,8 @@
     "id": "pathe-cinema",
     "description": "Pathé Cinema is a modern multiplex movie theater in Casablanca, part of the international Pathé cinema chain. It offers a premium cinematic experience with multiple screens, advanced digital projection, and comfortable amenities, screening a range of international and Arabic films. Pathé represents the highest tier of contemporary cinema entertainment in the city.",
     "location": {
-      "longitude": 33.5440783,
-      "latitude": -7.6398598,
+      "longitude": -7.6398598,
+      "latitude": 33.5440783,
       "province": "province/casablanca"
     },
     "people": [

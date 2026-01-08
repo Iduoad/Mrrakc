@@ -17,8 +17,8 @@
     "id": "glaoui-building",
     "description": "The Glaoui Building is a prestigious and historically significant residential and commercial structure in central Casablanca. Designed by architects **Marius Boyer** and **Jean Balois** and constructed between 1922 and 1927, it is a prime example of the Neo-Moorish architectural style favored by the Protectorate for important civilian buildings. The building was likely commissioned by or named after the influential family of Thami El Glaoui, the Pasha of Marrakech. Its grand scale and fusion of traditional Moroccan craftsmanship with modernist forms cemented its importance, leading to its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.595488,
-      "latitude": -7.6164083,
+      "longitude": -7.6164083,
+      "latitude": 33.595488,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "boughach-historical-municipality",
     "description": "No description available.",
     "location": {
-      "longitude": 35.4992001,
-      "latitude": -5.6598057,
+      "longitude": -5.6598057,
+      "latitude": 35.4992001,
       "province": "province/tetouan"
     },
     "people": [],

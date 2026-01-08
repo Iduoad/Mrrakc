@@ -17,8 +17,8 @@
     "id": "old-slaughterhouses",
     "description": "The Old Slaughterhouses (Anciens Abattoirs) is a sprawling historical industrial complex completed in 1922, designed by architects **Georges Desmarest and Albert Greslin**. It is a major example of early 20th-century functionalist industrial architecture, incorporating elements of the prevailing Art Deco style. The complex's significance lies in its historical role in the city's infrastructure and its successful transformation into a **Cultural Center** (Les Abattoirs de Casablanca). This repurposing is a key model for preserving industrial heritage through cultural use. The site was declared a **National Material Patrimony** in 2003.",
     "location": {
-      "longitude": 33.5945066,
-      "latitude": -7.5826155,
+      "longitude": -7.5826155,
+      "latitude": 33.5945066,
       "province": "province/casablanca"
     },
     "people": [

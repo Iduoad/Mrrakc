@@ -16,8 +16,8 @@
     "id": "renault-garage-building",
     "description": "The Renault Garage Building is a significant structure of modernist industrial architecture, completed in 1953 and designed by architect **Jean-François Robert**. Originally a large garage and showroom for the Renault automotive company, it reflects the clean, functionalist design principles applied to commercial industrial buildings in the post-war era. The building has since been repurposed, currently housing a **Post Office** (La Poste). Its historical and architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.592729,
-      "latitude": -7.6066958,
+      "longitude": -7.6066958,
+      "latitude": 33.592729,
       "province": "province/casablanca"
     },
     "people": [

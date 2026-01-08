@@ -9,8 +9,8 @@
     "id": "view-west-of-sijilmassa",
     "description": "No description available.",
     "location": {
-      "longitude": 31.2765038,
-      "latitude": -4.3441388,
+      "longitude": -4.3441388,
+      "latitude": 31.2765038,
       "province": "province/errachidia"
     },
     "people": [],

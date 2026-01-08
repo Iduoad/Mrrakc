@@ -14,8 +14,8 @@
     "id": "ahmed-ben-icho-mausoleum",
     "description": "The Ahmed Ben Icho Mausoleum (or Marabout of Sidi Ahmed Ben Icho) is a local religious shrine dedicated to a revered Muslim saint, Sidi Ahmed Ben Icho, in the Casablanca region. As is typical of Moroccan marabouts, it serves as a place of pilgrimage and veneration, particularly for locals seeking blessings and spiritual solace. These shrines are integral to Moroccan folk Islam and Sufi traditions, though less information is publicly available compared to major national monuments.",
     "location": {
-      "longitude": 33.6415831,
-      "latitude": -7.4348249,
+      "longitude": -7.4348249,
+      "latitude": 33.6415831,
       "province": "province/casablanca"
     },
     "people": [

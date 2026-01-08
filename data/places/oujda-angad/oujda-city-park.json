@@ -9,8 +9,8 @@
     "id": "oujda-city-park",
     "description": "Nice Park. It is well maintained but does not have many attractions.",
     "location": {
-      "longitude": 34.6978108,
-      "latitude": -1.9116747,
+      "longitude": -1.9116747,
+      "latitude": 34.6978108,
       "province": "province/oujda-angad"
     },
     "people": [],

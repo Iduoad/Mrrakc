@@ -16,8 +16,8 @@
     "id": "marche-central",
     "description": "The Marché Central (Central Market) is the oldest and most famous marketplace in Casablanca's modern city. Designed by architect **Pierre Bousquet** and completed in 1917, it was conceived as a central hub for fresh food and general commerce in the 'new town' during the French Protectorate. The market's architecture combines Neo-Moorish elements (in its entrance) with a functionalist market hall design. Today, it remains a bustling, vibrant space, popular for its fresh fish, produce, flowers, and local crafts. It was declared a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5948778,
-      "latitude": -7.6121075,
+      "longitude": -7.6121075,
+      "latitude": 33.5948778,
       "province": "province/casablanca"
     },
     "people": [

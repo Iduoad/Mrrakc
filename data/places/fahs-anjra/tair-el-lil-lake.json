@@ -9,8 +9,8 @@
     "id": "tair-el-lil-lake",
     "description": "No description available",
     "location": {
-      "longitude": 35.8349179,
-      "latitude": -5.5207502,
+      "longitude": -5.5207502,
+      "latitude": 35.8349179,
       "province": "province/fahs-anjra"
     },
     "people": [],

@@ -15,8 +15,8 @@
     "id": "bab-sqala",
     "description": "Bab Sqala (meaning 'Gate of the Skala') is a historical gate of the Old Medina that connected the fortified city to its coastal defense structure, the Sqala. The Sqala is an ancient bastion built along the sea walls to defend the harbor, particularly against naval attacks. The gate would have been integral to the city's military and coastal operations, providing controlled access between the inner city and the ramparts. The gate and the adjacent Sqala are important reminders of Casablanca's pre-colonial identity as a fortified port town.",
     "location": {
-      "longitude": 33.6026841,
-      "latitude": -7.6188606,
+      "longitude": -7.6188606,
+      "latitude": 33.6026841,
       "province": "province/casablanca"
     },
     "people": [

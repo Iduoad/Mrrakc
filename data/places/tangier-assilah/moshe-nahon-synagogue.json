@@ -9,8 +9,8 @@
     "id": "moshe-nahon-synagogue",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7851083,
-      "latitude": -5.8118008,
+      "longitude": -5.8118008,
+      "latitude": 35.7851083,
       "province": "province/tangier-assilah"
     },
     "people": [],

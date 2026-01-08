@@ -15,8 +15,8 @@
     "id": "auto-hall-garage",
     "description": "The historic **Auto Hall Garage** building in Casablanca, a key piece of the city's early industrial and automotive history, was designed by architect **Pierre Bousquet** and completed around 1930. The structure is significant for its application of early **Art Deco** and functional industrial design principles to a commercial setting, featuring large, open spaces required for vehicle display and maintenance. Auto Hall itself is one of Morocco's oldest automotive distributors, founded in 1907 by Gabriel Veyre as the exclusive representative of Ford, and transformed into Auto Hall S.A. in 1920. The building is a landmark reflecting the growth of transportation and modern commerce in Casablanca during the French Protectorate.",
     "location": {
-      "longitude": 33.5902041,
-      "latitude": -7.6120012,
+      "longitude": -7.6120012,
+      "latitude": 33.5902041,
       "province": "province/casablanca"
     },
     "people": [

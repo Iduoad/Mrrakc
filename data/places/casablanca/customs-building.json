@@ -16,8 +16,8 @@
     "id": "customs-building",
     "description": "The historical Customs Building (La Douane) is one of Casablanca's earliest significant public structures in the modern city, dating back to around 1910, just prior to or at the very start of the French Protectorate. Located near the port and the Old Medina, it played a crucial role in controlling trade and collecting duties, underscoring the city's identity as a commercial gateway. The building now serves as a **Customs training center**, maintaining its historical link to maritime administration and regulation.",
     "location": {
-      "longitude": 33.6006931,
-      "latitude": -7.614706,
+      "longitude": -7.614706,
+      "latitude": 33.6006931,
       "province": "province/casablanca"
     },
     "people": [

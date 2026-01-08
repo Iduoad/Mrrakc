@@ -16,8 +16,8 @@
     "id": "derb-omar-market",
     "description": "Derb Omar is arguably the most famous and largest commercial district and market in Casablanca, and one of the largest centers for wholesale and retail trade in Morocco. Established in the **1920s** during the city's rapid colonial-era expansion, Derb Omar specializes in imported goods, electronics, household items, and textiles, serving as a primary distribution hub for the entire country. The area is characterized by dense, intense commercial activity and reflects the city's identity as Morocco's economic powerhouse.",
     "location": {
-      "longitude": 33.5922446,
-      "latitude": -7.6111262,
+      "longitude": -7.6111262,
+      "latitude": 33.5922446,
       "province": "province/casablanca"
     },
     "people": [],

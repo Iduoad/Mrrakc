@@ -12,8 +12,8 @@
     "id": "mount-moussa",
     "description": "No description available",
     "location": {
-      "longitude": 35.8977778,
-      "latitude": -5.4122222,
+      "longitude": -5.4122222,
+      "latitude": 35.8977778,
       "altitude": 851,
       "province": "province/mdiq-fnideq"
     },

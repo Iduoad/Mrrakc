@@ -14,8 +14,8 @@
     "id": "second-house-of-el-haj-mohammed-benjelloun-touimi",
     "description": "This is a second historical residence associated with **El Haj Mohammed Benjelloun Touimi**, the famous founder of the Wydad Athletic Club (WAC). Its location near the Old Medina and the historical city center suggests that this influential figure maintained multiple important properties in the developing city. The house is a historical urban residence, reflecting the architecture of the era in which it was built.",
     "location": {
-      "longitude": 33.6021814,
-      "latitude": -7.6191936,
+      "longitude": -7.6191936,
+      "latitude": 33.6021814,
       "province": "province/casablanca"
     },
     "people": [

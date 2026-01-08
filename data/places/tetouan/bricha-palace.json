@@ -9,8 +9,8 @@
     "id": "bricha-palace",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5725621,
-      "latitude": -5.3656864,
+      "longitude": -5.3656864,
+      "latitude": 35.5725621,
       "province": "province/tetouan"
     },
     "people": [],

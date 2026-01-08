@@ -9,8 +9,8 @@
     "id": "historical-hotel-ain-jadida",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5648474,
-      "latitude": -5.5915666,
+      "longitude": -5.5915666,
+      "latitude": 35.5648474,
       "province": "province/tetouan"
     },
     "people": [],

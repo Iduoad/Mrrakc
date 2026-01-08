@@ -13,8 +13,8 @@
     "id": "abc-cinema",
     "description": "ABC Cinema, located on Boulevard Mohammed V in Casablanca, is an iconic establishment with a rich history in the city's film scene. While some sources indicate a construction date in the 1950s, other historical records attribute its design to architect Aldo Manassi in 1927, making it a significant architectural landmark. It's recognized for its classic facade and elegant interior, evoking the golden age of cinema. Although it was previously listed as 'Closed', current information suggests it remains a popular choice for film lovers, offering a diverse program that includes recent films, classics, and local productions. The cinema is renowned for its comfort and quality acoustics, aiming to provide a pleasant experience for every screening. It also hosts special events and festivals, contributing to Casablanca's cultural vibrancy. The building was declared National Material Patrimony in 2013.",
     "location": {
-      "longitude": 33.5954405,
-      "latitude": -7.6161793,
+      "longitude": -7.6161793,
+      "latitude": 33.5954405,
       "province": "province/casablanca"
     },
     "people": [

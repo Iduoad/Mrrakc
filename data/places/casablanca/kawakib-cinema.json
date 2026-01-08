@@ -15,8 +15,8 @@
     "id": "kawakib-cinema",
     "description": "Kawakib Cinema (Cinéma Kawakib) is a historical movie theater completed in 1958, shortly after Morocco gained independence. Its architecture is typical of the mid-20th century, likely featuring functional modernist design elements prevalent in the post-war era. The cinema's operation during the transition to independence and its subsequent closure reflect the changing urban landscape and cultural consumption patterns in Casablanca. Its building was declared a **National Material Patrimony** site in 2018, recognizing its historical value.",
     "location": {
-      "longitude": 33.5678863,
-      "latitude": -7.6053727,
+      "longitude": -7.6053727,
+      "latitude": 33.5678863,
       "province": "province/casablanca"
     },
     "people": [],

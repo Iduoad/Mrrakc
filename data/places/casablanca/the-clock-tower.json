@@ -15,8 +15,8 @@
     "id": "the-clock-tower",
     "description": "The Clock Tower (Tour de l'Horloge) is a prominent landmark located at the entrance to the Old Medina. The original tower, built in **1909** by **Génie Bouillot**, was one of the first major public structures erected by the French Administration, symbolizing the beginning of the modern city's expansion. The original tower was **demolished in 1948** and the current replica was **rebuilt in 1993**. It serves as a historical and symbolic gate between the Old Medina and the new city.",
     "location": {
-      "longitude": 33.596889,
-      "latitude": -7.617253,
+      "longitude": -7.617253,
+      "latitude": 33.596889,
       "province": "province/casablanca"
     },
     "people": [

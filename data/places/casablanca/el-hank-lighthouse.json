@@ -16,8 +16,8 @@
     "id": "el-hank-lighthouse",
     "description": "El Hank Lighthouse (Phare d'El Hank) is a crucial maritime landmark situated on the tip of the El Hank peninsula in Casablanca. It was constructed between 1916 and 1920 by the French Protectorate authorities to guide ships entering the increasingly important Port of Casablanca. Standing approximately 51 meters (167 feet) tall, the lighthouse offers a distinctive architectural style and its powerful beam is essential for coastal navigation. It is also historically significant for offering panoramic views of the city and the Atlantic Ocean.",
     "location": {
-      "longitude": 33.6099692,
-      "latitude": -7.65471,
+      "longitude": -7.65471,
+      "latitude": 33.6099692,
       "province": "province/casablanca"
     },
     "people": [

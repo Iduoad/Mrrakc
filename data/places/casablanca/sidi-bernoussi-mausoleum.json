@@ -15,8 +15,8 @@
     "id": "sidi-bernoussi-mausoleum",
     "description": "The Sidi Bernoussi Mausoleum (Marabout de Sidi Bernoussi) is a local religious shrine located in the large Sidi Bernoussi neighborhood, which is named after the saint. The site serves as a spiritual center and point of local pilgrimage, attracting visitors seeking blessings (baraka). These mausoleums are foundational to the social and religious identity of the surrounding community.",
     "location": {
-      "longitude": 33.6163225,
-      "latitude": -7.498631,
+      "longitude": -7.498631,
+      "latitude": 33.6163225,
       "province": "province/casablanca"
     },
     "people": [

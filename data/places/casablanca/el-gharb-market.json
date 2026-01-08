@@ -15,8 +15,8 @@
     "id": "el-gharb-market",
     "description": "El Gharb Market (Marché El Gharb) is a local traditional market or souk, named after the area (Gharb meaning 'West'). It serves the surrounding neighborhood, providing a wide array of goods, including fresh produce, household items, and clothing. Markets like this are integral to the daily life of Casablanca's working-class and residential districts, functioning as bustling centers of commerce and social interaction.",
     "location": {
-      "longitude": 33.5736197,
-      "latitude": -7.6040516,
+      "longitude": -7.6040516,
+      "latitude": 33.5736197,
       "province": "province/casablanca"
     },
     "people": [],

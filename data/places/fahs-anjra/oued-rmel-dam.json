@@ -9,8 +9,8 @@
     "id": "oued-rmel-dam",
     "description": "AKA Tanger Med",
     "location": {
-      "longitude": 35.8717242,
-      "latitude": -5.4764241,
+      "longitude": -5.4764241,
+      "latitude": 35.8717242,
       "province": "province/fahs-anjra"
     },
     "people": [],

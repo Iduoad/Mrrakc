@@ -9,8 +9,8 @@
     "id": "ethnographic-museum",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5702592,
-      "latitude": -5.364109,
+      "longitude": -5.364109,
+      "latitude": 35.5702592,
       "province": "province/tetouan"
     },
     "people": [],

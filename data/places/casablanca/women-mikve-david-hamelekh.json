@@ -15,8 +15,8 @@
     "id": "women-mikve-david-hamelekh",
     "description": "The Women Mikve David Hamelekh is a Jewish ritual bath (Mikveh) dedicated primarily for women's use. The Mikveh is a vital religious institution for maintaining ritual purity according to Jewish law. Its existence in Casablanca's modern district highlights the enduring presence and religious needs of the city's Jewish community.",
     "location": {
-      "longitude": 33.5975528,
-      "latitude": -7.6557329,
+      "longitude": -7.6557329,
+      "latitude": 33.5975528,
       "province": "province/casablanca"
     },
     "people": [],

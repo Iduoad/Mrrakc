@@ -14,8 +14,8 @@
     "id": "mohammed-znibiya-square",
     "description": "Mohammed Znibiya Square (Place Mohammed Znibiya) is a public square located in a residential area of Casablanca. Squares like this serve as vital local gathering points, providing open space, public seating, and pedestrian access to surrounding commercial and residential buildings. It is named after a local or historical figure (Mohammed Znibiya).",
     "location": {
-      "longitude": 33.5608398,
-      "latitude": -7.5639887,
+      "longitude": -7.5639887,
+      "latitude": 33.5608398,
       "province": "province/casablanca"
     },
     "people": [

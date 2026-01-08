@@ -15,8 +15,8 @@
     "id": "al-makane-cafe",
     "description": "Al Makane Cafe, also known as 'Al Makan Restaurant Riad' or 'Genious Medina', is more than just a cafe; it is a restaurant and riad concept located in the heart of the Old Medina (Ancienne Médina) of Casablanca. The project is explicitly innovative and aims to preserve artisanal heritage, often hosting exhibitions for creative women and promoting traditional Moroccan craftsmanship alongside its food and beverage services. It offers a culturally rich dining experience within a traditional architectural setting.",
     "location": {
-      "longitude": 33.599968,
-      "latitude": -7.617608,
+      "longitude": -7.617608,
+      "latitude": 33.599968,
       "province": "province/casablanca"
     },
     "people": [],

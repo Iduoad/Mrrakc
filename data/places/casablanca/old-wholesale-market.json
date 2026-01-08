@@ -15,8 +15,8 @@
     "id": "old-wholesale-market",
     "description": "The Old Wholesale Market (Ancien Marché de Gros) is a historical structure designed by architect **Paul Perrot** and completed in the 1930s. It served as the central municipal wholesale market for Casablanca, vital for the city's food distribution and economic infrastructure. Its architecture reflects the functionalist, open-span construction required for a large market hall of the era. The site is now **closed** or replaced by a newer facility, but remains a historical reference point for the city's early commercial development.",
     "location": {
-      "longitude": 33.5905895,
-      "latitude": -7.5964451,
+      "longitude": -7.5964451,
+      "latitude": 33.5905895,
       "province": "province/casablanca"
     },
     "people": [

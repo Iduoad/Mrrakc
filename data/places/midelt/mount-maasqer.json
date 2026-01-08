@@ -12,8 +12,8 @@
     "id": "mount-maasqer",
     "description": "No description available",
     "location": {
-      "longitude": 32.4026686,
-      "latitude": -5.2263081,
+      "longitude": -5.2263081,
+      "latitude": 32.4026686,
       "altitude": 3257,
       "province": "province/midelt"
     },

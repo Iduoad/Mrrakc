@@ -12,8 +12,8 @@
     "id": "mount-dals",
     "description": "AKA Matchiche",
     "location": {
-      "longitude": 34.8101483,
-      "latitude": -2.4554698,
+      "longitude": -2.4554698,
+      "latitude": 34.8101483,
       "altitude": 1120,
       "province": "province/berkane"
     },

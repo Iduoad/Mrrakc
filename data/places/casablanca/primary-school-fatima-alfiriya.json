@@ -14,8 +14,8 @@
     "id": "primary-school-fatima-alfiriya",
     "description": "Primary School Fatima Alfiriya (École Primaire Fatima Alfiriya) is an educational institution named after **Fatima al-Fihri**, the influential Muslim woman who founded the University of al-Qarawiyyin in Fez in the 9th century. The school honors this historical figure and serves the local community with primary education. Its location near the Old Medina and historical buildings suggests it is a well-established local school.",
     "location": {
-      "longitude": 33.6019693,
-      "latitude": -7.6188368,
+      "longitude": -7.6188368,
+      "latitude": 33.6019693,
       "province": "province/casablanca"
     },
     "people": [

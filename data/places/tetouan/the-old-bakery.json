@@ -9,8 +9,8 @@
     "id": "the-old-bakery",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5721066,
-      "latitude": -5.3683931,
+      "longitude": -5.3683931,
+      "latitude": 35.5721066,
       "province": "province/tetouan"
     },
     "people": [],

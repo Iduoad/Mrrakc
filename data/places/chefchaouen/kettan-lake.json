@@ -9,8 +9,8 @@
     "id": "kettan-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 35.1284015,
-      "latitude": -5.4384221,
+      "longitude": -5.4384221,
+      "latitude": 35.1284015,
       "province": "province/chefchaouen"
     },
     "people": [],

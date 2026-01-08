@@ -12,8 +12,8 @@
     "id": "mount-bou-naceur",
     "description": "No description available",
     "location": {
-      "longitude": 33.566389,
-      "latitude": -3.891389,
+      "longitude": -3.891389,
+      "latitude": 33.566389,
       "altitude": 3356,
       "province": "province/guercif"
     },

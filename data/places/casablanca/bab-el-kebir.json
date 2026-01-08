@@ -15,8 +15,8 @@
     "id": "bab-el-kebir",
     "description": "Bab El Kebir (meaning 'The Great Gate') is a historical gate that served as a significant entrance to the Old Medina (Ancienne Médina) of Casablanca, which was then a smaller fortified town called Anfa. Located on the southern side of the medina's walls, the gate was essential for controlling access between the interior city and the developing areas outside the walls. Like other gates in the medina, its architecture is relatively simple, reflecting the town's history, which was rebuilt in the late 18th century following the earthquake of 1755.",
     "location": {
-      "longitude": 33.5969407,
-      "latitude": -7.6178362,
+      "longitude": -7.6178362,
+      "latitude": 33.5969407,
       "province": "province/casablanca"
     },
     "people": [],

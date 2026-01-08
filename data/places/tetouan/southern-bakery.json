@@ -9,8 +9,8 @@
     "id": "southern-bakery",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5706855,
-      "latitude": -5.3641371,
+      "longitude": -5.3641371,
+      "latitude": 35.5706855,
       "province": "province/tetouan"
     },
     "people": [],

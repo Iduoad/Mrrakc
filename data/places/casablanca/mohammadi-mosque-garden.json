@@ -14,8 +14,8 @@
     "id": "mohammadi-mosque-garden",
     "description": "The Mohammadi Mosque Garden is a public green space located adjacent to the large Mohammadi Mosque (also known as the Mohammed V Mosque in the Habous Quarter). This garden provides a beautiful, tranquil setting for reflection and relaxation, complementing the monumental architecture of the mosque. It serves as an important amenity for the Habous Quarter, blending religious architecture with structured urban green space.",
     "location": {
-      "longitude": 33.5770745,
-      "latitude": -7.6067381,
+      "longitude": -7.6067381,
+      "latitude": 33.5770745,
       "province": "province/casablanca"
     },
     "people": [],

@@ -15,8 +15,8 @@
     "id": "liberty-cinema",
     "description": "Liberty Cinema (Cinéma Liberté) is a former major movie theater completed in 1954, designed by architect **Albert Planque**. Like many cinemas of the mid-20th century, its architecture reflected the clean lines and functionalism of the Modernist style. The building is historically significant, but the cinema operations have ceased, and the structure has been **repurposed into a commercial space (Marjane Market)**. Its architectural heritage was formally acknowledged by its designation as a **National Material Patrimony** site in 2014.",
     "location": {
-      "longitude": 33.5879236,
-      "latitude": -7.6124881,
+      "longitude": -7.6124881,
+      "latitude": 33.5879236,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "ain-sbaa-zoo",
     "description": "The Ain Sbaa Zoo (or Parc Zoologique d'Aïn Sebaâ) is an important urban green and recreational space in the Ain Sebaâ neighborhood of Casablanca. The zoo was historically a popular attraction but was closed in 2015 for a major rehabilitation project aimed at modernizing the facility and improving animal welfare. The renovated site is set to cover 13 hectares, with 10 hectares reserved for over 300 specimens representing about 45 species. After numerous delays, local authorities are finalizing the last adjustments, including the reconstruction of the perimeter wall, with an anticipated re-opening to the public.",
     "location": {
-      "longitude": 33.6051717,
-      "latitude": -7.5298039,
+      "longitude": -7.5298039,
+      "latitude": 33.6051717,
       "province": "province/casablanca"
     },
     "people": [

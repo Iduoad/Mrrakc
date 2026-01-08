@@ -9,8 +9,8 @@
     "id": "hammam-sidi-el-mandri",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5720382,
-      "latitude": -5.367062,
+      "longitude": -5.367062,
+      "latitude": 35.5720382,
       "province": "province/tetouan"
     },
     "people": [],

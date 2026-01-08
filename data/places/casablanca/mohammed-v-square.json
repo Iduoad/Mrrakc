@@ -16,8 +16,8 @@
     "id": "mohammed-v-square",
     "description": "Mohammed V Square (Place Mohammed V), formerly Place Administrative, is the monumental heart of Casablanca's 'new town,' designed by Henri Prost and Joseph Marrast as the city's administrative and civic center. The square is surrounded by major public buildings, including the Prefecture and the Justice Palace. It is characterized by its large, central fountain and formal urban design. The square is named after Sultan/King **Mohammed V**, symbolizing Moroccan independence and national identity. It serves as a major gathering point for national celebrations and urban events.",
     "location": {
-      "longitude": 33.5912075,
-      "latitude": -7.6186758,
+      "longitude": -7.6186758,
+      "latitude": 33.5912075,
       "province": "province/casablanca"
     },
     "people": [

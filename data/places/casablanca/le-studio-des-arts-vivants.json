@@ -15,8 +15,8 @@
     "id": "le-studio-des-arts-vivants",
     "description": "Le Studio Des Arts Vivants (The Living Arts Studio) is a major private cultural complex in Casablanca dedicated to the performing and visual arts. It typically houses a multi-purpose performance hall, exhibition spaces, and studios for teaching dance, theater, and music. It is a vital center for contemporary artistic creation and cultural exchange, providing a platform for local and international artists and offering classes to the public.",
     "location": {
-      "longitude": 33.5740336,
-      "latitude": -7.683577,
+      "longitude": -7.683577,
+      "latitude": 33.5740336,
       "province": "province/casablanca"
     },
     "people": [],

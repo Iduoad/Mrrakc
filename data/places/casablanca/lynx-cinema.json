@@ -14,8 +14,8 @@
     "id": "lynx-cinema",
     "description": "Lynx Cinema (Cinéma Lynx) is a historical movie theater in Casablanca, completed in 1950 and designed by architect **Dominique Basciano**. The cinema's design reflects the sleek, functional **Modernist** style of the post-war era, characteristic of major commercial architecture in Casablanca at the time. It played a role in the city's mid-century cultural life but is now **closed**, standing as an example of the city's declining single-screen cinema heritage.",
     "location": {
-      "longitude": 33.587321,
-      "latitude": -7.6174612,
+      "longitude": -7.6174612,
+      "latitude": 33.587321,
       "province": "province/casablanca"
     },
     "people": [

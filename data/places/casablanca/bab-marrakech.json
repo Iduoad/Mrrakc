@@ -16,8 +16,8 @@
     "id": "bab-marrakech",
     "description": "Bab Marrakech (meaning 'Gate of Marrakech') is a historical gate in the Old Medina, named for the direction it faces or the trading route it served, which historically linked the coastal city to the imperial city of Marrakech. This gate is particularly significant as it often leads directly to a bustling traditional market or 'souk' (the Souk Bab Marrakech), serving as a central hub for commerce, particularly the sale of traditional Moroccan crafts, leather goods, and spices. It is a vibrant and active part of the medina's surviving historical structure.",
     "location": {
-      "longitude": 33.5982195,
-      "latitude": -7.621492,
+      "longitude": -7.621492,
+      "latitude": 33.5982195,
       "province": "province/casablanca"
     },
     "people": [],

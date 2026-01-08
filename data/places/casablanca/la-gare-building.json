@@ -16,8 +16,8 @@
     "id": "la-gare-building",
     "description": "The La Gare Building (Immeuble La Gare) is a historical structure dating from the **1920s**, likely named for its proximity to a train station (Gare). Its central location and architecture reflect the rapid urban development and Art Deco influence of the French Protectorate era. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2012.",
     "location": {
-      "longitude": 33.5941736,
-      "latitude": -7.6038941,
+      "longitude": -7.6038941,
+      "latitude": 33.5941736,
       "province": "province/casablanca"
     },
     "people": [],

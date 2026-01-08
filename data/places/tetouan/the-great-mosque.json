@@ -9,8 +9,8 @@
     "id": "the-great-mosque",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5719485,
-      "latitude": -5.3654617,
+      "longitude": -5.3654617,
+      "latitude": 35.5719485,
       "province": "province/tetouan"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "kwacem-aval-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 33.123751,
-      "latitude": -7.9845191,
+      "longitude": -7.9845191,
+      "latitude": 33.123751,
       "province": "province/berrechid"
     },
     "people": [],

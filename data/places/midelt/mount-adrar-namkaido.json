@@ -9,8 +9,8 @@
     "id": "mount-adrar-namkaido",
     "description": "Mountain Chain: Eastern High Atlas",
     "location": {
-      "longitude": 32.5062511,
-      "latitude": -4.9569655,
+      "longitude": -4.9569655,
+      "latitude": 32.5062511,
       "altitude": 3400,
       "province": "province/midelt"
     },

@@ -9,8 +9,8 @@
     "id": "kasbah-tower",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7886476,
-      "latitude": -5.8150114,
+      "longitude": -5.8150114,
+      "latitude": 35.7886476,
       "province": "province/tangier-assilah"
     },
     "people": [],

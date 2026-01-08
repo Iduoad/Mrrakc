@@ -15,8 +15,8 @@
     "id": "la-sqala-restaurant",
     "description": "La Sqala Restaurant is a unique and atmospheric dining establishment specializing in **Moroccan cuisine**. It is famously located within the historical fortifications of the **Sqala**, an 18th-century bastion that was part of the Old Medina's coastal defense system. The restaurant utilizes the historic courtyard and ramparts, offering a picturesque setting, traditional dishes, and often live music. It serves as a major culinary and cultural landmark, blending history with high-quality traditional dining.",
     "location": {
-      "longitude": 33.6028737,
-      "latitude": -7.6194179,
+      "longitude": -7.6194179,
+      "latitude": 33.6028737,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "islamic-cities-and-capitals-garden",
     "description": "The Islamic Cities and Capitals Garden (Jardin des Villes et Capitales Islamiques) is a public park dedicated to commemorating important historical and contemporary Islamic cities. The park's design or planting may incorporate elements, themes, or species associated with these various capitals, offering both recreational space and educational, cultural symbolism. Located in a residential area, it serves as an important community asset for relaxation and reflection.",
     "location": {
-      "longitude": 33.5559595,
-      "latitude": -7.5956659,
+      "longitude": -7.5956659,
+      "latitude": 33.5559595,
       "province": "province/casablanca"
     },
     "people": [],

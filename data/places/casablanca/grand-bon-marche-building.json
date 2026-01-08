@@ -16,8 +16,8 @@
     "id": "grand-bon-marche-building",
     "description": "The Grand Bon Marché Building is a historically important commercial structure in central Casablanca, constructed between 1929 and 1932. It was designed by a consortium of notable French architects including **Edmond Brion, Auguste Cadet, and Marcel Desmet**. It served as the city's grand department store, a monumental retail space reflecting the European lifestyle introduced during the French Protectorate. The architecture embodies the refined Art Deco style of the period and its location in the city center made it a hub for commercial life and fashion.",
     "location": {
-      "longitude": 33.5952183,
-      "latitude": -7.6159283,
+      "longitude": -7.6159283,
+      "latitude": 33.5952183,
       "province": "province/casablanca"
     },
     "people": [

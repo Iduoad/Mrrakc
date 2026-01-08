@@ -15,8 +15,8 @@
     "id": "la-chope-cafe",
     "description": "La Chope Cafe (Café La Chope) is a traditional, historic cafe located in the bustling Art Deco center of Casablanca. Cafes like this were essential social institutions during the French Protectorate and continue to serve as vital gathering spots. It offers a classic atmosphere for coffee, tea, and socializing, often attracting a loyal clientele of older residents and businessmen, reflecting the traditional rhythm of Moroccan city life.",
     "location": {
-      "longitude": 33.594251,
-      "latitude": -7.6164311,
+      "longitude": -7.6164311,
+      "latitude": 33.594251,
       "province": "province/casablanca"
     },
     "people": [],

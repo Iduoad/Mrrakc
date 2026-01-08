@@ -15,8 +15,8 @@
     "id": "dar-el-ala-museum",
     "description": "The Dar El Ala Museum (Musée Dar El Ala) is a specialized cultural institution dedicated to the preservation and promotion of **Andalusian music (Al-Âla)**, one of the most sophisticated genres of Moroccan classical music. Located in the cultural **Habous Quarter (Nouvelle Médina)**, the museum showcases historical instruments, documents, and archives related to the tradition. It serves as a vital center for musicology, helping visitors understand the deep historical and cultural roots of Al-Âla music, which originated in Al-Andalus (Islamic Spain and Portugal) and flourished in Moroccan cities.",
     "location": {
-      "longitude": 33.5780977,
-      "latitude": -7.6035979,
+      "longitude": -7.6035979,
+      "latitude": 33.5780977,
       "province": "province/casablanca"
     },
     "people": [

@@ -16,8 +16,8 @@
     "id": "villa-mirador",
     "description": "Villa Mirador is a residential villa of immense historical importance, located in the Anfa district. During World War II, it was reportedly one of the sites used by the **US Embassy** in Morocco. Most famously, the villa **hosted Winston Churchill** during the pivotal **Anfa Conference** (Casablanca Conference) in January 1943, where Allied leaders discussed the strategy for the European theater. The villa is a key physical relic of the city's role in World War II diplomacy.",
     "location": {
-      "longitude": 33.5888239,
-      "latitude": -7.6631811,
+      "longitude": -7.6631811,
+      "latitude": 33.5888239,
       "province": "province/casablanca"
     },
     "people": [

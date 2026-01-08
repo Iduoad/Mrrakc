@@ -15,8 +15,8 @@
     "id": "quobba-building",
     "description": "The Quobba Building (Al Quobba, meaning 'dome' or pavilion) is a historical architectural structure designed by **Pierre Gosset** and constructed in 1915. It was originally part of the Moroccan-French Exposition held on the site of the future Marché Central. When the market construction began, the Quobba was carefully **moved 'as is'** and relocated to its current position in the Arab League Park. This Quobba, featuring Neo-Moorish architectural details, is now often used as a small **Cultural Center** or pavilion, standing as a unique relic of the city's early colonial exhibitions and urban planning changes.",
     "location": {
-      "longitude": 33.5895732,
-      "latitude": -7.6245064,
+      "longitude": -7.6245064,
+      "latitude": 33.5895732,
       "province": "province/casablanca"
     },
     "people": [

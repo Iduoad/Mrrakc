@@ -14,8 +14,8 @@
     "id": "school-notre-dame-ain-sebaa",
     "description": "School Notre Dame Ain Sebaa (École Notre Dame d'Aïn Sebaa) is a private Catholic school located in the Aïn Sebaa neighborhood of Casablanca. Part of the Catholic educational network, the school provides primary and/or secondary education and serves the local community, including the Christian expatriate community. It emphasizes quality education within a religious framework.",
     "location": {
-      "longitude": 33.6070816,
-      "latitude": -7.5342118,
+      "longitude": -7.5342118,
+      "latitude": 33.6070816,
       "province": "province/casablanca"
     },
     "people": [],

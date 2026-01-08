@@ -15,8 +15,8 @@
     "id": "cinerji-cinema",
     "description": "Cinerji Cinema is a modern multiplex located within the Morocco Mall complex in Casablanca. It provides a contemporary cinematic experience, featuring multiple screens, modern sound technology, and comfortable seating. Its location in a major shopping center makes it a popular entertainment destination for families and younger audiences.",
     "location": {
-      "longitude": 33.5774393,
-      "latitude": -7.7048529,
+      "longitude": -7.7048529,
+      "latitude": 33.5774393,
       "province": "province/casablanca"
     },
     "people": [

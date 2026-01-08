@@ -9,8 +9,8 @@
     "id": "berrachid-municipal-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 33.2834498,
-      "latitude": -7.5925321,
+      "longitude": -7.5925321,
+      "latitude": 33.2834498,
       "province": "province/berrechid"
     },
     "people": [],

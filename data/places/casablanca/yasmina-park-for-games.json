@@ -14,8 +14,8 @@
     "id": "yasmina-park-for-games",
     "description": "Yasmina Park for Games (Parc Yasmina) is a public urban park that is particularly equipped for recreational activities and games, often featuring sports fields, play areas, and specialized equipment. It serves as a vital community hub for leisure and organized youth activities.",
     "location": {
-      "longitude": 33.5870567,
-      "latitude": -7.6233168,
+      "longitude": -7.6233168,
+      "latitude": 33.5870567,
       "province": "province/casablanca"
     },
     "people": [],

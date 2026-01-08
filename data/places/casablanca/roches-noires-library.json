@@ -15,8 +15,8 @@
     "id": "roches-noires-library",
     "description": "Roches Noires Library (Bibliothèque des Roches Noires) is a local public library serving the Roches Noires neighborhood of Casablanca. Libraries are essential civic resources, offering access to books, educational materials, and a quiet space for study and reading. This library supports the educational and cultural needs of the surrounding residential community.",
     "location": {
-      "longitude": 33.5911621,
-      "latitude": -7.5969295,
+      "longitude": -7.5969295,
+      "latitude": 33.5911621,
       "province": "province/casablanca"
     },
     "people": [],

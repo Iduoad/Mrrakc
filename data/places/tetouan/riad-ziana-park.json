@@ -9,8 +9,8 @@
     "id": "riad-ziana-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5780859,
-      "latitude": -5.3619106,
+      "longitude": -5.3619106,
+      "latitude": 35.5780859,
       "province": "province/tetouan"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "archeological-museum",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5705975,
-      "latitude": -5.3706926,
+      "longitude": -5.3706926,
+      "latitude": 35.5705975,
       "province": "province/tetouan"
     },
     "people": [],

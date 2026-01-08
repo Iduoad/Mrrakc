@@ -9,8 +9,8 @@
     "id": "bouteflika-old-house",
     "description": "Here was the house where the previous Algerian President Abdelaziz Bouteflika was born and raised.",
     "location": {
-      "longitude": 34.6788574,
-      "latitude": -1.9118463,
+      "longitude": -1.9118463,
+      "latitude": 34.6788574,
       "province": "province/oujda-angad"
     },
     "people": [],

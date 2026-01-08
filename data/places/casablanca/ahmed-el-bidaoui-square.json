@@ -9,8 +9,8 @@
     "id": "ahmed-el-bidaoui-square",
     "description": "One of the most important square of the Medina. Being in front of Bab El Marsa Gate made it the first step for the foreign trader entering the city. It was until 1920 that the warehouses were demolished and the sqaure was arranged. The square used to be named Amiral Philibert during the colonial era.",
     "location": {
-      "longitude": 33.6002756,
-      "latitude": -7.6171497,
+      "longitude": -7.6171497,
+      "latitude": 33.6002756,
       "province": "province/casablanca"
     },
     "people": [],

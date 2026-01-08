@@ -9,8 +9,8 @@
     "id": "marshan-palace",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7905236,
-      "latitude": -5.8256592,
+      "longitude": -5.8256592,
+      "latitude": 35.7905236,
       "province": "province/tangier-assilah"
     },
     "people": [],

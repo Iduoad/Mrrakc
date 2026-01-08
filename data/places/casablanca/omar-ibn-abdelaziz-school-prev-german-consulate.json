@@ -15,8 +15,8 @@
     "id": "omar-ibn-abdelaziz-school-prev-german-consulate",
     "description": "This building is a historically complex structure dating from the **19th century**. It originally served as the **Belgian Consulate** before being donated by the Sultan to the German government to establish the **German Consulate** (replacing a previous location). Following Moroccan independence, the building was repurposed as an educational institution and renamed after the revered Umayyad Caliph, **Omar Ibn Abdelaziz**. The building is a rare example of pre-Protectorate diplomatic and commercial architecture near the Old Medina and now functions as a school.",
     "location": {
-      "longitude": 33.6004833,
-      "latitude": -7.6179323,
+      "longitude": -7.6179323,
+      "latitude": 33.6004833,
       "province": "province/casablanca"
     },
     "people": [

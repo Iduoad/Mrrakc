@@ -15,8 +15,8 @@
     "id": "villa-carl-ficke",
     "description": "Villa Carl Ficke is a historical residential building completed in 1913, designed by Italian architect **Ulysse Tonci**. Dating from the very beginning of the French Protectorate, it represents the early phase of European-style residential construction in Casablanca's new town. The villa's architecture often features European revival styles, blending into the early urban grid. Its historical value was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5828283,
-      "latitude": -7.609146,
+      "longitude": -7.609146,
+      "latitude": 33.5828283,
       "province": "province/casablanca"
     },
     "people": [

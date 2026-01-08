@@ -15,8 +15,8 @@
     "id": "le-petit-monde-school",
     "description": "Le petit monde School (L'école Le Petit Monde) is a private educational institution in Casablanca. The school building was designed by architect **Albert Planque**, who was active during the French Protectorate era. Its architecture likely reflects the functional and often aesthetically simple design applied to educational and residential buildings in the mid-20th century, ensuring a healthy and spacious environment for students. It continues to operate as a school.",
     "location": {
-      "longitude": 33.5580205,
-      "latitude": -7.617765,
+      "longitude": -7.617765,
+      "latitude": 33.5580205,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "mansouria-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 33.741076,
-      "latitude": -7.2661512,
+      "longitude": -7.2661512,
+      "latitude": 33.741076,
       "province": "province/benslimane"
     },
     "people": [],

@@ -12,8 +12,8 @@
     "id": "mount-akioud",
     "description": "No description available",
     "location": {
-      "longitude": 31.047,
-      "latitude": -7.949,
+      "longitude": -7.949,
+      "latitude": 31.047,
       "altitude": 4030,
       "province": "province/al-haouz"
     },

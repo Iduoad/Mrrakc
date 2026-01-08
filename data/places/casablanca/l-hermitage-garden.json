@@ -14,8 +14,8 @@
     "id": "l-hermitage-garden",
     "description": "L'Hermitage Garden (Jardin de l'Hermitage) is a sizable public park located in the L'Hermitage neighborhood of Casablanca. It serves as a vital green lung and recreational space for the surrounding residential area. The park provides shaded walking paths, open lawns, and leisure amenities, making it a popular spot for families, joggers, and anyone seeking a natural environment in the dense city.",
     "location": {
-      "longitude": 33.5644556,
-      "latitude": -7.6132002,
+      "longitude": -7.6132002,
+      "latitude": 33.5644556,
       "province": "province/casablanca"
     },
     "people": [],

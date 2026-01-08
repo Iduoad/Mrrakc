@@ -9,8 +9,8 @@
     "id": "tangier-fortifications-interpretation-center-dar-el-baroud",
     "description": "No description available.",
     "location": {
-      "longitude": 35.788652,
-      "latitude": -5.8082073,
+      "longitude": -5.8082073,
+      "latitude": 35.788652,
       "province": "province/tangier-assilah"
     },
     "people": [],

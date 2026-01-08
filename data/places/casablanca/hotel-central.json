@@ -9,8 +9,8 @@
     "id": "hotel-central",
     "description": "One of the oldest and notable hotels in Casablanca. Situated in the edge of the famous Ahmed El Bidaoui Square.",
     "location": {
-      "longitude": 33.5999815,
-      "latitude": -7.6173343,
+      "longitude": -7.6173343,
+      "latitude": 33.5999815,
       "province": "province/casablanca"
     },
     "timeline": [

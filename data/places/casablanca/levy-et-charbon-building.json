@@ -15,8 +15,8 @@
     "id": "levy-et-charbon-building",
     "description": "The Levy et Charbon Building is a historical residential and commercial structure completed in 1929. It was designed by architects **Ignacio Sansone and Paul Busuttil**, who contributed to the city's rich Art Deco and Mediterranean-influenced architectural landscape. The building's design is typical of the multi-story apartment and retail blocks constructed in Casablanca's central district during the Protectorate era, designed for mixed use and reflecting the era's decorative styles.",
     "location": {
-      "longitude": 33.5947647,
-      "latitude": -7.6100595,
+      "longitude": -7.6100595,
+      "latitude": 33.5947647,
       "province": "province/casablanca"
     },
     "people": [

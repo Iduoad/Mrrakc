@@ -9,8 +9,8 @@
     "id": "bojarah-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5866393,
-      "latitude": -5.3556328,
+      "longitude": -5.3556328,
+      "latitude": 35.5866393,
       "province": "province/tetouan"
     },
     "people": [],

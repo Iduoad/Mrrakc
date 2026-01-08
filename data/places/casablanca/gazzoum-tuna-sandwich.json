@@ -15,8 +15,8 @@
     "id": "gazzoum-tuna-sandwich",
     "description": "Gazzoum Tuna Sandwich is a legendary local street food vendor or stall in Casablanca, famous for its simple yet high-quality **tuna sandwiches**. These sandwiches are a staple of Casablanca's quick-service, local culinary scene, often prepared with fresh ingredients, olives, and spices. Gazzoum has gained a reputation for being an authentic, must-try spot for affordable and delicious street food, representing a unique culinary institution for the local population.",
     "location": {
-      "longitude": 33.5677811,
-      "latitude": -7.5995192,
+      "longitude": -7.5995192,
+      "latitude": 33.5677811,
       "province": "province/casablanca"
     },
     "people": [

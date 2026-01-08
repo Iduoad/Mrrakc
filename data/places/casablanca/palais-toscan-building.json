@@ -14,8 +14,8 @@
     "id": "palais-toscan-building",
     "description": "Palais Toscan Building (Immeuble Palais Toscan) is a historical residential and commercial structure located near the Old Medina. The name 'Palais Toscan' (Tuscan Palace) suggests a style influenced by Italian Renaissance or Mediterranean architecture, reflecting the large presence of Italian architects and businesspeople in early 20th-century Casablanca. The building stands as a testament to the cosmopolitan nature of the city's development.",
     "location": {
-      "longitude": 33.6003473,
-      "latitude": -7.6156329,
+      "longitude": -7.6156329,
+      "latitude": 33.6003473,
       "province": "province/casablanca"
     },
     "people": [],

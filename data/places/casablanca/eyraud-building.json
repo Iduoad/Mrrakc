@@ -16,8 +16,8 @@
     "id": "eyraud-building",
     "description": "The Eyraud Building is a historical residential and commercial building located in the central Art Deco district of Casablanca. Designed by architect **George-Jean Grel** and completed in 1930, it embodies the modernist and Art Deco aesthetics of the period. Like other buildings in the area, it features a functional design that combines commerce on the lower floors with multi-story residential units above, reflecting the dense urban development fostered during the French Protectorate. It remains an actively inhabited building today.",
     "location": {
-      "longitude": 33.593558,
-      "latitude": -7.619889,
+      "longitude": -7.619889,
+      "latitude": 33.593558,
       "province": "province/casablanca"
     },
     "people": [

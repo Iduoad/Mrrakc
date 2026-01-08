@@ -15,8 +15,8 @@
     "id": "zaouiya-derkaouia",
     "description": "Zaouiya Derkaouia (Zawiya Derqawiyya) is a religious center associated with the Darqawa Sufi order. Located near the historical core of Casablanca, it serves as a spiritual and social hub for members of the Sufi brotherhood, providing a place for religious rituals, learning, and community engagement.",
     "location": {
-      "longitude": 33.6026101,
-      "latitude": -7.6191527,
+      "longitude": -7.6191527,
+      "latitude": 33.6026101,
       "province": "province/casablanca"
     },
     "people": [

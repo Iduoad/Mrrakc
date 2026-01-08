@@ -9,8 +9,8 @@
     "id": "lucach-mosque",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5713815,
-      "latitude": -5.368035,
+      "longitude": -5.368035,
+      "latitude": 35.5713815,
       "province": "province/tetouan"
     },
     "people": [],

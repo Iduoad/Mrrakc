@@ -15,8 +15,8 @@
     "id": "tabet-building",
     "description": "The Tabet Building is a historical residential and commercial structure completed in 1929. It was designed by the prominent Art Deco architects **Joseph and Elias Suraqui**. The building reflects the characteristic multi-story, mixed-use construction of the French Protectorate's new town, featuring the geometric detailing and decorative elements typical of the Suraqui brothers' work.",
     "location": {
-      "longitude": 33.593584,
-      "latitude": -7.620145,
+      "longitude": -7.620145,
+      "latitude": 33.593584,
       "province": "province/casablanca"
     },
     "people": [

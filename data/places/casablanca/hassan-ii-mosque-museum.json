@@ -9,8 +9,8 @@
     "id": "hassan-ii-mosque-museum",
     "description": "None",
     "location": {
-      "longitude": 33.6052962,
-      "latitude": -7.6307589,
+      "longitude": -7.6307589,
+      "latitude": 33.6052962,
       "province": "province/casablanca"
     },
     "people": [],

@@ -15,8 +15,8 @@
     "id": "villa-of-arts",
     "description": "The Villa of Arts (Villa des Arts) is a major cultural and museum space managed by the Fondation ONA (Omnium Nord-Africain). Housed in a beautiful historical villa, likely Art Deco or colonial style, the institution is dedicated to promoting contemporary Moroccan and international art, organizing major exhibitions, workshops, and cultural events. It is a key player in the city's modern art scene and a highly popular cultural venue.",
     "location": {
-      "longitude": 33.586399,
-      "latitude": -7.6295476,
+      "longitude": -7.6295476,
+      "latitude": 33.586399,
       "province": "province/casablanca"
     },
     "people": [

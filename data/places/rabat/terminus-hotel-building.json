@@ -9,8 +9,8 @@
     "id": "terminus-hotel-building",
     "description": "No description available.",
     "location": {
-      "longitude": 34.0158403,
-      "latitude": -6.8350457,
+      "longitude": -6.8350457,
+      "latitude": 34.0158403,
       "province": "province/rabat"
     },
     "people": [],

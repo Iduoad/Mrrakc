@@ -15,8 +15,8 @@
     "id": "sidi-regragui-mausoleum",
     "description": "The Sidi Regragui Mausoleum (Marabout de Sidi Regragui) is a local religious shrine located near the historical core of Casablanca. It is dedicated to a saint associated with the Regraga tribe, known for their ancient pilgrimage route. The mausoleum is a point of local piety and veneration, reflecting the strong regional and spiritual ties within the city's historical population.",
     "location": {
-      "longitude": 33.6005435,
-      "latitude": -7.6206491,
+      "longitude": -7.6206491,
+      "latitude": 33.6005435,
       "province": "province/casablanca"
     },
     "people": [

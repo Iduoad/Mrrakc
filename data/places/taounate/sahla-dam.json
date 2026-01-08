@@ -9,8 +9,8 @@
     "id": "sahla-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 34.5800699,
-      "latitude": -4.674523,
+      "longitude": -4.674523,
+      "latitude": 34.5800699,
       "province": "province/taounate"
     },
     "people": [],

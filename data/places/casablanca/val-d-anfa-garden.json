@@ -15,8 +15,8 @@
     "id": "val-d-anfa-garden",
     "description": "Val d'Anfa Garden (Jardin du Val d'Anfa) is a public green space located in the exclusive Anfa neighborhood. This park serves as a tranquil, aesthetically pleasing urban amenity, featuring manicured lawns and pathways for relaxation and gentle recreation. It contributes to the high quality of life associated with the Val d'Anfa residential area.",
     "location": {
-      "longitude": 33.5912973,
-      "latitude": -7.6537498,
+      "longitude": -7.6537498,
+      "latitude": 33.5912973,
       "province": "province/casablanca"
     },
     "people": [],
