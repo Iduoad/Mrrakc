@@ -9,8 +9,8 @@
     "id": "house-of-haj-ahmed-zemmouri",
     "description": "Current Status: Inhabited",
     "location": {
-      "longitude": 33.600239,
-      "latitude": -7.616264,
+      "longitude": -7.616264,
+      "latitude": 33.600239,
       "province": "province/casablanca"
     },
     "people": [
@@ -46,7 +46,7 @@
     "timePeriods": [
       "19th Century"
     ],
-    "comments": [ 
+    "comments": [
       "Haj Ahmed Zemmouri was known as one of the most important importers in Casablanca and Morocco."
     ]
   }

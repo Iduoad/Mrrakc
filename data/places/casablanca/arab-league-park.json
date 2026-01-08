@@ -16,8 +16,8 @@
     "id": "arab-league-park",
     "description": "The Arab League Park (Parc de la Ligue Arabe) is the largest and one of the oldest parks in central Casablanca, covering approximately 30 acres. Designed in 1913 by French architect Albert Laprade under the general supervision of urban planner Henri Prost, it was originally named Lyautey Park, in honor of the first Resident-General of the French Protectorate, Hubert Lyautey. The park is a vital green oasis and features long avenues of palm trees, a large pond, and exotic plants. It underwent an extensive reconstruction in the early 21st century and also incorporates historical elements, such as arches relocated from the old Portuguese prison of Anfa.",
     "location": {
-      "longitude": 33.5892017,
-      "latitude": -7.6237164,
+      "longitude": -7.6237164,
+      "latitude": 33.5892017,
       "province": "province/casablanca"
     },
     "people": [

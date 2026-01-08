@@ -12,8 +12,8 @@
     "id": "mount-kitane-wagmar",
     "description": "No description available",
     "location": {
-      "longitude": 33.21485,
-      "latitude": -5.25969,
+      "longitude": -5.25969,
+      "latitude": 33.21485,
       "altitude": 2119,
       "province": "province/ifrane"
     },

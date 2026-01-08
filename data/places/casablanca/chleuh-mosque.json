@@ -16,8 +16,8 @@
     "id": "chleuh-mosque",
     "description": "The Chleuh Mosque (Mosquée Chleuh), also known as the **Karma (Fig Tree) Mosque**, is one of the oldest surviving mosques in Casablanca's Old Medina, built in 1899 by **Mohammed Sanhaji**. It is sometimes referred to as 'Chleuh,' a term for the Amazigh people from the South, indicating its historical association with the community of merchants and residents of Amazigh origin who settled in the city. Historically and culturally significant, the mosque reflects the cosmopolitan character of Casablanca before the major French expansion. It is currently **temporarily closed** for restoration or maintenance.",
     "location": {
-      "longitude": 33.599773,
-      "latitude": -7.620906,
+      "longitude": -7.620906,
+      "latitude": 33.599773,
       "province": "province/casablanca"
     },
     "people": [

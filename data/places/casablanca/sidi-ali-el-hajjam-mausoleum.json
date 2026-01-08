@@ -15,8 +15,8 @@
     "id": "sidi-ali-el-hajjam-mausoleum",
     "description": "The Sidi Ali El Hajjam Mausoleum (Marabout de Sidi Ali El Hajjam) is a local religious site dedicated to a revered Muslim saint. It is a traditional marabout, serving as a center for popular piety, local pilgrimage, and spiritual gatherings. These shrines often have social and charitable functions within the surrounding community.",
     "location": {
-      "longitude": 33.516838,
-      "latitude": -7.6270712,
+      "longitude": -7.6270712,
+      "latitude": 33.516838,
       "province": "province/casablanca"
     },
     "people": [

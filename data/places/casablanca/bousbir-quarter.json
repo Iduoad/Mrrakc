@@ -16,8 +16,8 @@
     "id": "bousbir-quarter",
     "description": "The Bousbir Quarter, located adjacent to the Habous Quarter (Nouvelle Médina), holds a unique and controversial place in Casablanca's history. It was a closed, controlled neighborhood established by the French Protectorate authorities in 1924, designed initially as a segregated and regulated area. Architecturally, it was built in the Neo-Moorish style to blend with the Habous Quarter, creating a distinct, walled-off urban environment. Although it no longer serves its original function, the area's architecture and layout remain a subject of historical study, representing a complex facet of colonial-era social engineering and urban planning.",
     "location": {
-      "longitude": 33.5744552,
-      "latitude": -7.602417,
+      "longitude": -7.602417,
+      "latitude": 33.5744552,
       "province": "province/casablanca"
     },
     "people": [

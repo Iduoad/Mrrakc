@@ -15,8 +15,8 @@
     "id": "casa-nearshore-park",
     "description": "Casa Nearshore Park is a modern green space located within or adjacent to the Casa Nearshore technology and business park in Casablanca. This park is part of the integrated urban development strategy, designed to provide a natural, recreational break for employees of the surrounding companies and residents of the area. It features landscaped gardens, water features, and walking paths, contrasting the high-tech, modern offices of the business center. Its primary function is to enhance the working and living environment of the Nearshore district.",
     "location": {
-      "longitude": 33.5267176,
-      "latitude": -7.6436111,
+      "longitude": -7.6436111,
+      "latitude": 33.5267176,
       "province": "province/casablanca"
     },
     "people": [

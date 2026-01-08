@@ -9,8 +9,8 @@
     "id": "ouin-kara-dam",
     "description": "Lemeilah Dam",
     "location": {
-      "longitude": 28.3103136,
-      "latitude": -10.9844553,
+      "longitude": -10.9844553,
+      "latitude": 28.3103136,
       "province": "province/tan-tan"
     },
     "people": [],

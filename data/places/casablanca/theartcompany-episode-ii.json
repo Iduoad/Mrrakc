@@ -14,8 +14,8 @@
     "id": "theartcompany-episode-ii",
     "description": "TheArtCompany... Episode II is a contemporary art gallery and exhibition space that, through its unusual name, suggests a modern, potentially thematic approach to art curation. It showcases contemporary art, providing a platform for artists and promoting cultural dialogue in the city's art scene.",
     "location": {
-      "longitude": 33.5853144,
-      "latitude": -7.6465754,
+      "longitude": -7.6465754,
+      "latitude": 33.5853144,
       "province": "province/casablanca"
     },
     "people": [],

@@ -12,8 +12,8 @@
     "id": "mount-hafat-zeltane",
     "description": "No description available",
     "location": {
-      "longitude": 35.3233464,
-      "latitude": -5.27479,
+      "longitude": -5.27479,
+      "latitude": 35.3233464,
       "altitude": 1821,
       "province": "province/tetouan"
     },

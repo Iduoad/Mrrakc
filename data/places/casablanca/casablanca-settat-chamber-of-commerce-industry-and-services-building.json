@@ -16,8 +16,8 @@
     "id": "casablanca-settat-chamber-of-commerce-industry-and-services-building",
     "description": "This prominent building, designed by architect **Pierre Bousquet** and completed in 1929, is historically significant as the former site of the **Casablanca Stock Exchange (Bourse de Casablanca)**, one of the first stock exchanges in Africa. Located in the heart of the city's financial district, its architecture reflects the Art Deco influence characteristic of major public and financial buildings of the French Protectorate era. It now houses the Casablanca-Settat Chamber of Commerce, Industry, and Services (CCIS), continuing its tradition as a center for economic activity and governance.",
     "location": {
-      "longitude": 33.5946816,
-      "latitude": -7.613631,
+      "longitude": -7.613631,
+      "latitude": 33.5946816,
       "province": "province/casablanca"
     },
     "people": [

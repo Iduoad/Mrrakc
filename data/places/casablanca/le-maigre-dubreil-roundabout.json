@@ -15,8 +15,8 @@
     "id": "le-maigre-dubreil-roundabout",
     "description": "Le Maigre Dubreil Roundabout (Rond-point Le Maigre Dubreil) is a prominent traffic circle and public space located in a central area of Casablanca. Roundabouts often serve as important urban landmarks, featuring statues, fountains, or central gardens. The name likely refers to a historical figure or a business associated with the French Protectorate era. It functions as a crucial junction for urban transit and provides a civic focal point.",
     "location": {
-      "longitude": 33.5839344,
-      "latitude": -7.61007,
+      "longitude": -7.61007,
+      "latitude": 33.5839344,
       "province": "province/casablanca"
     },
     "people": [

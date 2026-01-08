@@ -14,8 +14,8 @@
     "id": "sidi-bousmara-park",
     "description": "Sidi Bousmara Park (Jardin Sidi Bousmara) is a small public green space located adjacent to or near the Sidi Bousmara Mausoleum in the city center. It offers a pocket of natural relief and recreation for the dense urban area, providing benches and shaded areas for local residents to relax and socialize.",
     "location": {
-      "longitude": 33.5996784,
-      "latitude": -7.6157425,
+      "longitude": -7.6157425,
+      "latitude": 33.5996784,
       "province": "province/casablanca"
     },
     "people": [],

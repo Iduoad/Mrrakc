@@ -15,8 +15,8 @@
     "id": "volvo-garage-building",
     "description": "The Volvo Garage Building is a significant structure of modernist industrial architecture, completed in 1955 and designed by architect **Omar Benjelloun**. It served as a major dealership and service center for Volvo, reflecting the internationalization of Morocco's automotive sector in the post-war era. The building is architecturally notable for its Modernist design, which contributed to its designation as a **National Material Patrimony** site in 2014.",
     "location": {
-      "longitude": 33.5890486,
-      "latitude": -7.6107749,
+      "longitude": -7.6107749,
+      "latitude": 33.5890486,
       "province": "province/casablanca"
     },
     "people": [

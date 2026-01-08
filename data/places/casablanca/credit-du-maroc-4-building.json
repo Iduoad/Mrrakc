@@ -16,8 +16,8 @@
     "id": "credit-du-maroc-4-building",
     "description": "The Crédit Du Maroc 4 Building is a historical residential and commercial structure dating from the 1920s, located in Casablanca's highly valued central district. It is architecturally significant as a prime example of the early Art Deco period that characterized the 'new town' construction. Its preservation and historical value were formally recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5876982,
-      "latitude": -7.6169237,
+      "longitude": -7.6169237,
+      "latitude": 33.5876982,
       "province": "province/casablanca"
     },
     "people": [],

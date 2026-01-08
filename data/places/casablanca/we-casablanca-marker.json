@@ -14,8 +14,8 @@
     "id": "we-casablanca-marker",
     "description": "The 'We Casablanca' Marker is a contemporary piece of public art, typically a large-scale, stylized sign or sculpture spelling out the phrase 'We Casablanca' (or similar branding) for photography and city identity purposes. It is part of the city's modern branding efforts, serving as a popular photo opportunity and a symbol of civic pride in a prominent urban location.",
     "location": {
-      "longitude": 33.5921128,
-      "latitude": -7.6183182,
+      "longitude": -7.6183182,
+      "latitude": 33.5921128,
       "province": "province/casablanca"
     },
     "people": [],

@@ -16,8 +16,8 @@
     "id": "liberty-building",
     "description": "The Liberty Building (Immeuble Liberté), also known as the **'17-story building'**, is a defining modernist landmark of Casablanca, completed in 1950 and designed by architect **Léonard Morandi**. When it was built, it was reputed to be the **highest building in Africa**, a towering symbol of post-war architectural ambition and confidence in the French Protectorate. The building features commercial space and a large number of apartments, reflecting a monumental functionalist style. Its height and prominence cemented its status as one of Casablanca's most recognizable historical skyscrapers.",
     "location": {
-      "longitude": 33.5847033,
-      "latitude": -7.6103865,
+      "longitude": -7.6103865,
+      "latitude": 33.5847033,
       "province": "province/casablanca"
     },
     "people": [

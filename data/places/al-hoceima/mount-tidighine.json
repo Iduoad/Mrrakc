@@ -9,8 +9,8 @@
     "id": "mount-tidighine",
     "description": "Mountain Chain: Rif",
     "location": {
-      "longitude": 34.8402778,
-      "latitude": -4.5163889,
+      "longitude": -4.5163889,
+      "latitude": 34.8402778,
       "altitude": 2456,
       "province": "province/al-hoceima"
     },

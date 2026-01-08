@@ -9,8 +9,8 @@
     "id": "mount-aghoud",
     "description": "Mountain Chain: Middle Atlas",
     "location": {
-      "longitude": 32.9194611,
-      "latitude": -5.3812962,
+      "longitude": -5.3812962,
+      "latitude": 32.9194611,
       "altitude": 1930,
       "province": "province/khenifra"
     },

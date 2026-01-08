@@ -9,8 +9,8 @@
     "id": "hassan-ii-dam",
     "description": "Ex Sidi Said",
     "location": {
-      "longitude": 32.8015056,
-      "latitude": -4.795053,
+      "longitude": -4.795053,
+      "latitude": 32.8015056,
       "province": "province/midelt"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "hotel-particulier-2",
     "description": "No description available",
     "location": {
-      "longitude": 33.5901432,
-      "latitude": -7.6249155,
+      "longitude": -7.6249155,
+      "latitude": 33.5901432,
       "province": "province/casablanca"
     },
     "people": [

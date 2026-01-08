@@ -15,8 +15,8 @@
     "id": "rialto-cinema",
     "description": "Rialto Cinema (Cinéma Rialto) is one of Casablanca's most celebrated and historically important movie theaters. Designed by architect **Pierre Jabin** and completed in 1929, it is an outstanding example of the grand **Art Deco** cinemas of the era, known for its elegant facade and lavish interior design. The Rialto was a cultural hub during the French Protectorate. Though currently **closed**, its architectural and cultural significance led to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5943724,
-      "latitude": -7.6145151,
+      "longitude": -7.6145151,
+      "latitude": 33.5943724,
       "province": "province/casablanca"
     },
     "people": [

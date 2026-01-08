@@ -9,8 +9,8 @@
     "id": "gran-teatro-cervantes",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7819342,
-      "latitude": -5.8108695,
+      "longitude": -5.8108695,
+      "latitude": 35.7819342,
       "province": "province/tangier-assilah"
     },
     "people": [],

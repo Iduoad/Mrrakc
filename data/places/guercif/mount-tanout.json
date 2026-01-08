@@ -12,8 +12,8 @@
     "id": "mount-tanout",
     "description": "No description available",
     "location": {
-      "longitude": 33.7160096,
-      "latitude": -4.0115899,
+      "longitude": -4.0115899,
+      "latitude": 33.7160096,
       "altitude": 2860,
       "province": "province/guercif"
     },

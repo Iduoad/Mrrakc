@@ -9,8 +9,8 @@
     "id": "essaf-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 34.4619283,
-      "latitude": -4.8886979,
+      "longitude": -4.8886979,
+      "latitude": 34.4619283,
       "province": "province/taounate"
     },
     "people": [],

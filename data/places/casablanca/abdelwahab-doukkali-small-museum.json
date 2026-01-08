@@ -14,8 +14,8 @@
     "id": "abdelwahab-doukkali-small-museum",
     "description": "The Petit Musuee Abdelwahab Doukkali is a unique cultural space located on the 17th floor of the historic 'Immeuble Liberte' (also known as the '17eme etage' building), designed by Swiss architect Leonard Rene Morandi, in the heart of Casablanca. It serves as a personal museum and 'place of memory' for the renowned Moroccan artist Abdelwahab Doukkali, a legend of Moroccan cultural heritage known for his contributions to music, composition, acting, cinema, drawing, and painting. The museum houses his personal collections, including photos, medals, albums, and even sentimental items like his father's watch. It aims to tell a fragment of his autobiography and offers a vibrant space for art and culture. Beyond permanent displays, the museum actively hosts temporary exhibitions, literary gatherings, and intimate concerts, fostering a dynamic environment for young artists and promoting Moroccan cultural heritage.",
     "location": {
-      "longitude": 33.5843636,
-      "latitude": -7.6103204,
+      "longitude": -7.6103204,
+      "latitude": 33.5843636,
       "province": "province/casablanca"
     },
     "people": [

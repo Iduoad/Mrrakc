@@ -14,8 +14,8 @@
     "id": "mauritania-cafe",
     "description": "Mauritania Cafe (Café Mauritania) is a traditional coffee house located in the Habous Quarter (Nouvelle Médina). It serves as a local social hub, particularly for men, offering a classic Moroccan cafe environment for enjoying coffee, mint tea, and socializing. Its name references Mauritania, reflecting the broader geographical and cultural ties of the Moroccan populace.",
     "location": {
-      "longitude": 33.5789155,
-      "latitude": -7.6062125,
+      "longitude": -7.6062125,
+      "latitude": 33.5789155,
       "province": "province/casablanca"
     },
     "people": [],

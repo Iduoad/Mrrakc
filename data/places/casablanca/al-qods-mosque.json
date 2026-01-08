@@ -15,8 +15,8 @@
     "id": "al-qods-mosque",
     "description": "Al-Qods Mosque, situated in the Roches Noires neighborhood of Casablanca, has a unique and significant history. It was originally built in 1920 as a Catholic church named Église de Sainte Marguerite, featuring a distinct Gothic Revival architectural style from the colonial period. After Morocco gained independence in 1956, the structure was converted into a mosque, preserving its architectural shell while repurposing it for Muslim worship. This dual history makes it a notable example of architectural adaptation and the blending of cultural influences in Casablanca's urban landscape.",
     "location": {
-      "longitude": 33.5993561,
-      "latitude": -7.583397,
+      "longitude": -7.583397,
+      "latitude": 33.5993561,
       "province": "province/casablanca"
     },
     "people": [],

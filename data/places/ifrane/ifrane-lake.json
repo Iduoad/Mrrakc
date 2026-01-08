@@ -9,8 +9,8 @@
     "id": "ifrane-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 33.5313058,
-      "latitude": -5.1059174,
+      "longitude": -5.1059174,
+      "latitude": 33.5313058,
       "province": "province/ifrane"
     },
     "people": [],

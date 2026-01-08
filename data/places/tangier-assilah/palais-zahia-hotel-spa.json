@@ -9,8 +9,8 @@
     "id": "palais-zahia-hotel-spa",
     "description": "Terrace",
     "location": {
-      "longitude": 35.7856986,
-      "latitude": -5.8102749,
+      "longitude": -5.8102749,
+      "latitude": 35.7856986,
       "province": "province/tangier-assilah"
     },
     "people": [],

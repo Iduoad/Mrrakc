@@ -16,8 +16,8 @@
     "id": "bennarosh-building",
     "description": "The Bennarosh Building is a distinctive residential and commercial building in Casablanca, designed by architect **Aldo Manassi** and completed in 1932. Manassi, an Italian architect, made significant contributions to the city's Art Deco and early modernist heritage. The Bennarosh Building exemplifies the period's focus on structured symmetry, geometric decoration, and multi-functional urban living, combining street-level commerce with upper-floor residences. It stands as a testament to the international influences that shaped Casablanca's 'new town' during the Protectorate.",
     "location": {
-      "longitude": 33.5943554,
-      "latitude": -7.6167903,
+      "longitude": -7.6167903,
+      "latitude": 33.5943554,
       "province": "province/casablanca"
     },
     "people": [

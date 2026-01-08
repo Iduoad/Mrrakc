@@ -9,8 +9,8 @@
     "id": "lorin-foundation-museum",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7844883,
-      "latitude": -5.8118684,
+      "longitude": -5.8118684,
+      "latitude": 35.7844883,
       "province": "province/tangier-assilah"
     },
     "people": [],

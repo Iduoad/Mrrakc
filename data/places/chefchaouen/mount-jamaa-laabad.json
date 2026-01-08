@@ -12,8 +12,8 @@
     "id": "mount-jamaa-laabad",
     "description": "No description available",
     "location": {
-      "longitude": 35.1596975,
-      "latitude": -5.205642,
+      "longitude": -5.205642,
+      "latitude": 35.1596975,
       "altitude": 2102,
       "province": "province/chefchaouen"
     },

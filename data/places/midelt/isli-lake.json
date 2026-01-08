@@ -9,8 +9,8 @@
     "id": "isli-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 32.217703,
-      "latitude": -5.5417506,
+      "longitude": -5.5417506,
+      "latitude": 32.217703,
       "province": "province/midelt"
     },
     "people": [],

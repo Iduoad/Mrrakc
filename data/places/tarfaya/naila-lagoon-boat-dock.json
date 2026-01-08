@@ -9,8 +9,8 @@
     "id": "naila-lagoon-boat-dock",
     "description": "No description available.",
     "location": {
-      "longitude": 28.0289984,
-      "latitude": -12.2405602,
+      "longitude": -12.2405602,
+      "latitude": 28.0289984,
       "province": "province/tarfaya"
     },
     "people": [],

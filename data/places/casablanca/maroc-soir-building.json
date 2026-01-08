@@ -17,8 +17,8 @@
     "id": "maroc-soir-building",
     "description": "The Maroc-Soir Building (Immeuble Maroc-Soir) is a historical commercial and residential structure completed in 1924 and designed by architect **Marius Boyer**. It is famously the former headquarter for the French-language colonial newspaper **'La Vigie Marocaine'** (later merged into 'Maroc-Soir'), making it a site of significant media history. The building features the classic Art Deco style characteristic of Boyer's work and the city's commercial boom. Its architectural and historical importance was recognized by its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.594847,
-      "latitude": -7.6141389,
+      "longitude": -7.6141389,
+      "latitude": 33.594847,
       "province": "province/casablanca"
     },
     "people": [

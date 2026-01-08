@@ -12,8 +12,8 @@
     "id": "mount-el-kelaa",
     "description": "AKA Bouqrar",
     "location": {
-      "longitude": 35.1882997,
-      "latitude": -5.2500828,
+      "longitude": -5.2500828,
+      "latitude": 35.1882997,
       "altitude": 1616,
       "province": "province/chefchaouen"
     },

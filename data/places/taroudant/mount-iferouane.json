@@ -12,8 +12,8 @@
     "id": "mount-iferouane",
     "description": "AKA N'Tarourt",
     "location": {
-      "longitude": 31.0820756,
-      "latitude": -7.7649871,
+      "longitude": -7.7649871,
+      "latitude": 31.0820756,
       "altitude": 4001,
       "province": "province/taroudant"
     },

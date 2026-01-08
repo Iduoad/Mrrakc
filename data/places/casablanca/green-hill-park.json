@@ -15,8 +15,8 @@
     "id": "green-hill-park",
     "description": "Green Hill Park (Parc Green Hill) is a public park located in the eastern or suburban area of Casablanca, such as the Sidi Moumen district. It provides a large, much-needed green space for the surrounding residential community, functioning as a recreational oasis. The park offers landscaped grounds, often with elevated areas suggested by the name ('Hill'), providing space for physical activity and relaxation.",
     "location": {
-      "longitude": 33.5754402,
-      "latitude": -7.5354464,
+      "longitude": -7.5354464,
+      "latitude": 33.5754402,
       "province": "province/casablanca"
     },
     "people": [],

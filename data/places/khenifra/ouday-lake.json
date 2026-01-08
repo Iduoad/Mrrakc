@@ -9,8 +9,8 @@
     "id": "ouday-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 33.0054234,
-      "latitude": -5.4143101,
+      "longitude": -5.4143101,
+      "latitude": 33.0054234,
       "province": "province/khenifra"
     },
     "people": [],

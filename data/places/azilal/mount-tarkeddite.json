@@ -12,8 +12,8 @@
     "id": "mount-tarkeddite",
     "description": "No description available",
     "location": {
-      "longitude": 31.5397222,
-      "latitude": -6.5275,
+      "longitude": -6.5275,
+      "latitude": 31.5397222,
       "altitude": 3545,
       "province": "province/azilal"
     },

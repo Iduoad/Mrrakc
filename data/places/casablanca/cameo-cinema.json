@@ -14,8 +14,8 @@
     "id": "cameo-cinema",
     "description": "Cameo Cinema (Cinéma Caméo) is a historical movie theater in Casablanca, typical of the mid-20th-century entertainment venues that proliferated during the city's rapid expansion. Like many classic single-screen cinemas, it has likely faced closure or conversion due to the rise of multiplexes and modern entertainment centers. If currently active, it serves as a local cinema house; if closed, it represents a significant piece of Casablanca's cinematic architectural heritage.",
     "location": {
-      "longitude": 33.5891741,
-      "latitude": -7.6589402,
+      "longitude": -7.6589402,
+      "latitude": 33.5891741,
       "province": "province/casablanca"
     },
     "people": [],

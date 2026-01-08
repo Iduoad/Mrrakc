@@ -15,8 +15,8 @@
     "id": "beth-el-temple-synagogue",
     "description": "The Beth-El Temple Synagogue is the most famous and largest synagogue in Casablanca, serving as the spiritual heart of the city's once-vibrant and now diminished Jewish community. It is renowned for its magnificent stained glass windows, elegant architecture, and striking interior design, which reflect the wealth and culture of the Jewish community during its peak in the mid-20th century. While the majority of Moroccan Jews emigrated after 1948, Beth-El remains an active place of worship and a powerful symbol of Morocco's history of religious pluralism and tolerance.",
     "location": {
-      "longitude": 33.595747,
-      "latitude": -7.6268245,
+      "longitude": -7.6268245,
+      "latitude": 33.595747,
       "province": "province/casablanca"
     },
     "people": [],

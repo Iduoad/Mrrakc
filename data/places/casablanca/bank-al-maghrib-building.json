@@ -16,8 +16,8 @@
     "id": "bank-al-maghrib-building",
     "description": "The Bank Al Maghrib Building in Casablanca, the former branch of Morocco's central bank, is a monumental piece of colonial-era architecture. Designed by **Edmond Brion** and completed in 1937, it is situated prominently in the heart of the city's financial district. The building features a grand, imposing facade typical of central banks, often incorporating classical or Neo-Moorish architectural elements to symbolize stability and authority. Its historical significance and architectural quality earned it the status of a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5929716,
-      "latitude": -7.6181516,
+      "longitude": -7.6181516,
+      "latitude": 33.5929716,
       "province": "province/casablanca"
     },
     "people": [

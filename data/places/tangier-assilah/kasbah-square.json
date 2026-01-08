@@ -9,8 +9,8 @@
     "id": "kasbah-square",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7887192,
-      "latitude": -5.811989,
+      "longitude": -5.811989,
+      "latitude": 35.7887192,
       "province": "province/tangier-assilah"
     },
     "people": [],

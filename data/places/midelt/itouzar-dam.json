@@ -9,8 +9,8 @@
     "id": "itouzar-dam",
     "description": "AKA Ait El Haj",
     "location": {
-      "longitude": 32.9118545,
-      "latitude": -5.08202,
+      "longitude": -5.08202,
+      "latitude": 32.9118545,
       "province": "province/midelt"
     },
     "people": [],

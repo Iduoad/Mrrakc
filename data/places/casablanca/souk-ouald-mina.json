@@ -15,8 +15,8 @@
     "id": "souk-ouald-mina",
     "description": "Souk Ouald Mina is a local marketplace or souk in the Hay Hassani neighborhood. These souks are informal or semi-formal commercial centers, typically offering fresh food, spices, clothing, and various household goods, serving as a primary shopping and social hub for the immediate residential community.",
     "location": {
-      "longitude": 33.5686798,
-      "latitude": -7.6741414,
+      "longitude": -7.6741414,
+      "latitude": 33.5686798,
       "province": "province/casablanca"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "punico-phoenician-necropolis",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7908171,
-      "latitude": -5.8200251,
+      "longitude": -5.8200251,
+      "latitude": 35.7908171,
       "province": "province/tangier-assilah"
     },
     "people": [],

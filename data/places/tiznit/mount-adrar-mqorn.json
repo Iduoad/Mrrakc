@@ -12,8 +12,8 @@
     "id": "mount-adrar-mqorn",
     "description": "No description available",
     "location": {
-      "longitude": 29.6769444,
-      "latitude": -8.9130556,
+      "longitude": -8.9130556,
+      "latitude": 29.6769444,
       "altitude": 2344,
       "province": "province/tiznit"
     },

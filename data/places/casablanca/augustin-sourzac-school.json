@@ -15,8 +15,8 @@
     "id": "augustin-sourzac-school",
     "description": "The Augustin Sourzac School (often known locally as **'la Foncière'** due to its location in the Foncière district) is a historically significant educational establishment in Casablanca. It was designed by the French architect **Pierre Bousquet** and built in 1925 during the French Protectorate era. The school's architecture is characteristic of the time, often employing the Neo-Moorish style favored by colonial authorities for public buildings. Its enduring presence and architectural heritage were recognized in 2018 when it was designated a **National Material Patrimony** site.",
     "location": {
-      "longitude": 33.5951407,
-      "latitude": -7.6069731,
+      "longitude": -7.6069731,
+      "latitude": 33.5951407,
       "province": "province/casablanca"
     },
     "people": [

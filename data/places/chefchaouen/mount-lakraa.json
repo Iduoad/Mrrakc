@@ -12,8 +12,8 @@
     "id": "mount-lakraa",
     "description": "No description available",
     "location": {
-      "longitude": 35.1323899,
-      "latitude": -5.1463326,
+      "longitude": -5.1463326,
+      "latitude": 35.1323899,
       "altitude": 2159,
       "province": "province/chefchaouen"
     },

@@ -9,8 +9,8 @@
     "id": "abkhan-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 32.661105,
-      "latitude": -5.5230187,
+      "longitude": -5.5230187,
+      "latitude": 32.661105,
       "province": "province/khenifra"
     },
     "people": [],

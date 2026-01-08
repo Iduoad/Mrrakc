@@ -15,8 +15,8 @@
     "id": "marcel-raygot-garage-building",
     "description": "The Marcel Raygot Garage Building is a prime example of post-war modernist industrial architecture in Casablanca, completed in 1954 and designed by architect **Georges Renaudin**. It reflects the functionalist design principles applied to commercial and automotive facilities in the mid-20th century. The building's historical and architectural quality was recognized with its designation as a **National Material Patrimony** site in 2018, preserving it as a testament to the city's urban and industrial expansion.",
     "location": {
-      "longitude": 33.5979699,
-      "latitude": -7.6388166,
+      "longitude": -7.6388166,
+      "latitude": 33.5979699,
       "province": "province/casablanca"
     },
     "people": [

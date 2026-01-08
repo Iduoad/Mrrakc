@@ -16,8 +16,8 @@
     "id": "baille-building",
     "description": "The Baille Building is a prominent residential and commercial structure in central Casablanca, designed in 1931 by the notable French architectural partnership of **Auguste Cadet** and **Edmond Brion**. The building is recognized for its sleek, monumental style, characteristic of the Art Deco movement and early modernism that dominated Casablanca's architecture during the French Protectorate. It forms part of the city's historical downtown area, which was carefully planned by Henri Prost, and remains an active residential building today.",
     "location": {
-      "longitude": 33.594368,
-      "latitude": -7.616434,
+      "longitude": -7.616434,
+      "latitude": 33.594368,
       "province": "province/casablanca"
     },
     "people": [

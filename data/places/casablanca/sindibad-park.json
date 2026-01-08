@@ -15,8 +15,8 @@
     "id": "sindibad-park",
     "description": "Sindibad Park is a large, integrated leisure and amusement complex that was substantially renovated and reopened in the mid-2010s. It combines an **amusement park** with a **zoo** and various other attractions (including the karting track). Located on the coast, the park offers a wide array of rides, entertainment, and natural environments, making it a major family and tourist destination in Casablanca.",
     "location": {
-      "longitude": 33.5805142,
-      "latitude": -7.6896083,
+      "longitude": -7.6896083,
+      "latitude": 33.5805142,
       "province": "province/casablanca"
     },
     "people": [

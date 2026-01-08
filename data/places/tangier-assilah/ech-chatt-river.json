@@ -9,8 +9,8 @@
     "id": "ech-chatt-river",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7834863,
-      "latitude": -5.7341994,
+      "longitude": -5.7341994,
+      "latitude": 35.7834863,
       "province": "province/tangier-assilah"
     },
     "people": [],

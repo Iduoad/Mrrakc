@@ -12,8 +12,8 @@
     "id": "mount-bouhammad",
     "description": "No description available",
     "location": {
-      "longitude": 34.8599756,
-      "latitude": -2.3049101,
+      "longitude": -2.3049101,
+      "latitude": 34.8599756,
       "altitude": 960,
       "province": "province/berkane"
     },

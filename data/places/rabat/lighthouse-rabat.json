@@ -11,8 +11,8 @@
     "id": "lighthouse-rabat",
     "description": "The Rabat Lighthouse (also known as the Fort de la Calette Lighthouse) is a lighthouse built at the beginning of the 20th century in Rabat, standing on the platform of Borj Sirat. It was commissioned in April 1920.",
     "location": {
-      "longitude": 34.0315066,
-      "latitude": -6.8443654,
+      "longitude": -6.8443654,
+      "latitude": 34.0315066,
       "province": "province/rabat"
     },
     "people": [

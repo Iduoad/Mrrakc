@@ -12,8 +12,8 @@
     "id": "mount-mel-borouj",
     "description": "No description available",
     "location": {
-      "longitude": 33.17129,
-      "latitude": -5.34433,
+      "longitude": -5.34433,
+      "latitude": 33.17129,
       "altitude": 1866,
       "province": "province/ifrane"
     },

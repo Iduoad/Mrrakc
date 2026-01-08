@@ -9,8 +9,8 @@
     "id": "dayet-fahsa-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 33.1347928,
-      "latitude": -8.5937672,
+      "longitude": -8.5937672,
+      "latitude": 33.1347928,
       "province": "province/el-jadida"
     },
     "people": [],

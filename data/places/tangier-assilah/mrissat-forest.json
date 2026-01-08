@@ -9,8 +9,8 @@
     "id": "mrissat-forest",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7961267,
-      "latitude": -5.7491829,
+      "longitude": -5.7491829,
+      "latitude": 35.7961267,
       "province": "province/tangier-assilah"
     },
     "people": [],

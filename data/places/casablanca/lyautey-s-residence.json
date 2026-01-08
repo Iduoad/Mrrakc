@@ -16,8 +16,8 @@
     "id": "lyautey-s-residence",
     "description": "Lyautey's Residence (Résidence du Général Lyautey) is a highly significant historical building, constructed in 1915 and designed by architect **Pierre Bousquet**. It was the personal residence of **Marshal Hubert Lyautey**, the first French Resident-General of Morocco and the chief architect of Casablanca's modern urban plan. The architecture is a prime example of the early **Neo-Moorish** style favored by Lyautey. The building is currently repurposed as an office for the **Morocco Union of Workers** (Union Marocaine du Travail - UMT), maintaining its status as a landmark of civic importance.",
     "location": {
-      "longitude": 33.6015568,
-      "latitude": -7.6188157,
+      "longitude": -7.6188157,
+      "latitude": 33.6015568,
       "province": "province/casablanca"
     },
     "people": [

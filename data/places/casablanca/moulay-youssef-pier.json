@@ -15,8 +15,8 @@
     "id": "moulay-youssef-pier",
     "description": "The Moulay Youssef Pier (Jetée Moulay Youssef) is a major piece of maritime infrastructure in the Port of Casablanca, constructed in the 1930s. Piers of this size were vital to the development of Casablanca as the leading commercial port in North Africa, allowing for the handling of significant cargo volumes and larger ships. Named after Sultan Moulay Youssef, it is a testament to the large-scale public works undertaken during the French Protectorate to expand the city's economic capabilities.",
     "location": {
-      "longitude": 33.6159079,
-      "latitude": -7.6019542,
+      "longitude": -7.6019542,
+      "latitude": 33.6159079,
       "province": "province/casablanca"
     },
     "people": [

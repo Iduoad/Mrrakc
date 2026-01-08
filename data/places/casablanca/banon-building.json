@@ -16,8 +16,8 @@
     "id": "banon-building",
     "description": "The Banon Building is a residential and commercial block in the historic center of Casablanca, designed by architect **Aldo Manassi** and completed in 1929. Manassi was an Italian architect who contributed significantly to Casablanca's Art Deco and early modern urban landscape during the Protectorate era. The Banon Building is representative of the multi-story apartment and commercial structures that rapidly defined the city's new center, featuring the decorative elements and streamlined forms typical of the late 1920s.",
     "location": {
-      "longitude": 33.5954066,
-      "latitude": -7.6156142,
+      "longitude": -7.6156142,
+      "latitude": 33.5954066,
       "province": "province/casablanca"
     },
     "people": [

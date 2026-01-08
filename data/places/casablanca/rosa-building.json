@@ -16,8 +16,8 @@
     "id": "rosa-building",
     "description": "The Rosa Building (Immeuble Rosa) is a historical residential and commercial structure, constructed between 1932 and 1937 and designed by Italian architect **Aldo Manassi**. It is a major example of the Italian Art Deco influence in Casablanca's central district, known for its monumental symmetry and decorative detailing. The building's importance was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5943025,
-      "latitude": -7.6148732,
+      "longitude": -7.6148732,
+      "latitude": 33.5943025,
       "province": "province/casablanca"
     },
     "people": [

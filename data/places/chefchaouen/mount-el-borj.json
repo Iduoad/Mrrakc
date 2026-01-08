@@ -12,8 +12,8 @@
     "id": "mount-el-borj",
     "description": "No description available",
     "location": {
-      "longitude": 35.1690541,
-      "latitude": -5.23487,
+      "longitude": -5.23487,
+      "latitude": 35.1690541,
       "altitude": 1622,
       "province": "province/chefchaouen"
     },

@@ -14,8 +14,8 @@
     "id": "the-view-h2-cafe",
     "description": "The View H2 Cafe (Café La Vue H2) is a modern cafe located near the Hassan II Mosque (H2), offering excellent views of the mosque and the Atlantic Ocean. It provides a contemporary, comfortable setting for coffee, tea, and light snacks, serving as a popular spot for visitors to the mosque complex and locals enjoying the coastal area.",
     "location": {
-      "longitude": 33.6079998,
-      "latitude": -7.6288981,
+      "longitude": -7.6288981,
+      "latitude": 33.6079998,
       "province": "province/casablanca"
     },
     "people": [],

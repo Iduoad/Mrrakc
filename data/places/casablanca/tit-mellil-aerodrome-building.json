@@ -16,8 +16,8 @@
     "id": "tit-mellil-aerodrome-building",
     "description": "The Tit Mellil Aerodrome Building is a historical aviation structure designed by the celebrated French-Moroccan architect **Jean-François Zevaco** and built between 1950 and 1955. It is a key example of post-war Modernist architecture applied to functional infrastructure, reflecting the expansion of civil aviation during the late Protectorate. Its architectural and historical significance was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5965304,
-      "latitude": -7.4669785,
+      "longitude": -7.4669785,
+      "latitude": 33.5965304,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "sidi-belyout-mausoleum",
     "description": "The Sidi Belyout Mausoleum (Marabout de Sidi Belyout) is perhaps the most centrally and historically significant shrine in Casablanca, as the city itself is named after the saint, Sidi Belyout, in local Moroccan Arabic ('Dar al-Bayḍāʼ' or 'Beida'). The mausoleum, located near the Old Medina and the financial center, serves as a crucial spiritual and historical landmark. It attracts numerous pilgrims and reflects the deep integration of local Sufi tradition into the city's identity.",
     "location": {
-      "longitude": 33.5988639,
-      "latitude": -7.6138653,
+      "longitude": -7.6138653,
+      "latitude": 33.5988639,
       "province": "province/casablanca"
     },
     "people": [

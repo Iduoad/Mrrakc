@@ -15,8 +15,8 @@
     "id": "stade-laarbi-ben-mubarak",
     "description": "Stade Laarbi Ben Mubarak (Larbi Benbarek Stadium) is a sports stadium named after the legendary Moroccan football player **Larbi Benbarek** (1917–1992), often called the 'Black Pearl,' who played for teams like Olympique de Marseille and Atlético Madrid. The stadium is a local sports venue primarily used for football matches, serving the community's recreational and competitive sports needs.",
     "location": {
-      "longitude": 33.5955354,
-      "latitude": -7.6082025,
+      "longitude": -7.6082025,
+      "latitude": 33.5955354,
       "province": "province/casablanca"
     },
     "people": [

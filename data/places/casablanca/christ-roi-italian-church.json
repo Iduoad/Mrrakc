@@ -16,8 +16,8 @@
     "id": "christ-roi-italian-church",
     "description": "The Christ-Roi Italian Church (Église du Christ-Roi) is a significant religious structure established by Casablanca's former **Italian community**. Built in the central part of the city, its architecture often reflects the styles prevalent in Italy during the mid-20th century. Like the city's other non-Muslim places of worship, it serves as a historical testament to Casablanca's once-large European population. The building's importance was recognized when it was designated a **National Material Patrimony** site in 2015.",
     "location": {
-      "longitude": 33.5807803,
-      "latitude": -7.624705,
+      "longitude": -7.624705,
+      "latitude": 33.5807803,
       "province": "province/casablanca"
     },
     "people": [

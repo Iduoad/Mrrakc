@@ -12,8 +12,8 @@
     "id": "mount-azourki",
     "description": "No description available",
     "location": {
-      "longitude": 31.7531743,
-      "latitude": -6.2489341,
+      "longitude": -6.2489341,
+      "latitude": 31.7531743,
       "altitude": 3703,
       "province": "province/azilal"
     },

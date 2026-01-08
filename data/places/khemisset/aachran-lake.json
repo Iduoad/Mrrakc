@@ -9,8 +9,8 @@
     "id": "aachran-lake",
     "description": "AKA Lalla Haja Lake",
     "location": {
-      "longitude": 33.7867515,
-      "latitude": -5.9322407,
+      "longitude": -5.9322407,
+      "latitude": 33.7867515,
       "province": "province/khemisset"
     },
     "people": [],

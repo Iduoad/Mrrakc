@@ -16,8 +16,8 @@
     "id": "attarik-expo",
     "description": "Attarik Expo, titled 'Les Météorites Messagères du Ciel' (The Meteorites Messengers of the Sky), is an educational museum and exhibition focused on meteorites, planetology, geology, and astronomy. Developed by the non-profit ATTARIK Foundation, it aims to transmit scientific knowledge and awaken scientific curiosity, especially among children. A key feature of the expo is the inclusion of Morocco's first planetarium open to the general public, offering immersive experiences and guided tours led by scientific researchers.",
     "location": {
-      "longitude": 33.6061353,
-      "latitude": -7.6199447,
+      "longitude": -7.6199447,
+      "latitude": 33.6061353,
       "province": "province/casablanca"
     },
     "people": [

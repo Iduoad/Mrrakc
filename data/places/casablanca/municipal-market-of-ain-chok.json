@@ -15,8 +15,8 @@
     "id": "municipal-market-of-ain-chok",
     "description": "The Municipal Market of Ain Chok (Marché Municipal d'Aïn Chock) is a centrally organized local market serving the Aïn Chock neighborhood. Municipal markets are typically covered or organized public spaces providing essential goods like fresh produce, meat, and fish to the local community. It is a vital spot for daily commerce and local social interaction.",
     "location": {
-      "longitude": 33.5477509,
-      "latitude": -7.597614,
+      "longitude": -7.597614,
+      "latitude": 33.5477509,
       "province": "province/casablanca"
     },
     "people": [],

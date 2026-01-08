@@ -12,8 +12,8 @@
     "id": "mount-tazaout",
     "description": "AKA Qoba't Abad",
     "location": {
-      "longitude": 35.23934,
-      "latitude": -5.100887,
+      "longitude": -5.100887,
+      "latitude": 35.23934,
       "altitude": 1855,
       "province": "province/chefchaouen"
     },

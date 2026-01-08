@@ -14,8 +14,8 @@
     "id": "tit-mellil-park",
     "description": "Tit Mellil Park (Jardin de Tit Mellil) is a large public green space located in the Tit Mellil area on the outskirts of Casablanca. It provides a substantial area for outdoor recreation, community events, and relaxation for the residents of this rapidly developing zone.",
     "location": {
-      "longitude": 33.5536456,
-      "latitude": -7.4846486,
+      "longitude": -7.4846486,
+      "latitude": 33.5536456,
       "province": "province/casablanca"
     },
     "people": [],

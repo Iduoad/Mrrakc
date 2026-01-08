@@ -12,8 +12,8 @@
     "id": "mount-afekhoi",
     "description": "No description available",
     "location": {
-      "longitude": 31.07519,
-      "latitude": -7.90388,
+      "longitude": -7.90388,
+      "latitude": 31.07519,
       "altitude": 3755,
       "province": "province/taroudant"
     },

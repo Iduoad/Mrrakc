@@ -14,8 +14,8 @@
     "id": "synagogue-bennaroch",
     "description": "Synagogue Bennaroch is a historical place of worship for the Jewish community in Casablanca, located in the central district. Synagogues in this area were often built to accommodate the growing Jewish population who moved out of the old mellah (Jewish quarter) into the new town during the Protectorate era. It represents the religious and communal life of the Jewish populace.",
     "location": {
-      "longitude": 33.5944302,
-      "latitude": -7.6262018,
+      "longitude": -7.6262018,
+      "latitude": 33.5944302,
       "province": "province/casablanca"
     },
     "people": [

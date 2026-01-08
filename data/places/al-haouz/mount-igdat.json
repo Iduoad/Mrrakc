@@ -12,8 +12,8 @@
     "id": "mount-igdat",
     "description": "No description available",
     "location": {
-      "longitude": 30.964613,
-      "latitude": -8.442792,
+      "longitude": -8.442792,
+      "latitude": 30.964613,
       "altitude": 3580,
       "province": "province/al-haouz"
     },

@@ -16,8 +16,8 @@
     "id": "justice-palace-building",
     "description": "The Justice Palace (Palais de Justice) is a monumental governmental building in Casablanca, designed by architect **Joseph Marrast** and constructed between 1920 and 1923. It is a prime example of the grand Neo-Moorish architectural style, which aimed to establish a sense of modern authority while respecting Moroccan traditions. The building is characterized by its large central courtyard and meticulously crafted traditional ornamentation. It continues to function as a **Tribunal** (Courthouse) and was declared a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5907988,
-      "latitude": -7.6173522,
+      "longitude": -7.6173522,
+      "latitude": 33.5907988,
       "province": "province/casablanca"
     },
     "people": [

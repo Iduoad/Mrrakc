@@ -9,8 +9,8 @@
     "id": "zerrar-dam",
     "description": "Aka Moulay Abderrahman",
     "location": {
-      "longitude": 31.3284469,
-      "latitude": -9.5640338,
+      "longitude": -9.5640338,
+      "latitude": 31.3284469,
       "province": "province/essaouira"
     },
     "people": [],

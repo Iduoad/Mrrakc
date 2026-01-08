@@ -14,8 +14,8 @@
     "id": "sqala-garden",
     "description": "Sqala Garden (Jardin de la Sqala) is a public green space located near the historical Sqala fortification and restaurant complex adjacent to the Old Medina. The garden provides a tranquil public area, contrasting with the nearby bustling port and historical core. It is an urban amenity offering shade and relaxation, complementing the historical site.",
     "location": {
-      "longitude": 33.6033295,
-      "latitude": -7.6194196,
+      "longitude": -7.6194196,
+      "latitude": 33.6033295,
       "province": "province/casablanca"
     },
     "people": [],

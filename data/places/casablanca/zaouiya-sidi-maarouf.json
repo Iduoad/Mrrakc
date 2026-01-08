@@ -15,8 +15,8 @@
     "id": "zaouiya-sidi-maarouf",
     "description": "Zaouiya Sidi Maarouf is a local spiritual center associated with the Sidi Maarouf saint, serving as a hub for a specific Sufi or religious fraternity in the neighborhood. It facilitates spiritual retreats, religious study, and communal support for its members.",
     "location": {
-      "longitude": 33.5640922,
-      "latitude": -7.6032323,
+      "longitude": -7.6032323,
+      "latitude": 33.5640922,
       "province": "province/casablanca"
     },
     "people": [

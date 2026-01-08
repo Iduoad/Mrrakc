@@ -9,8 +9,8 @@
     "id": "ouled-settout-dam",
     "description": "AKA Arabat",
     "location": {
-      "longitude": 35.0156254,
-      "latitude": -2.8748865,
+      "longitude": -2.8748865,
+      "latitude": 35.0156254,
       "province": "province/nador"
     },
     "people": [],

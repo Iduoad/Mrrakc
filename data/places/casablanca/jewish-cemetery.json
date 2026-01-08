@@ -15,8 +15,8 @@
     "id": "jewish-cemetery",
     "description": "The Old Jewish Cemetery in Casablanca, located near the Old Medina, is one of the city's most significant historical sites, reflecting the long presence of the Jewish community. While many Jewish cemeteries are maintained and preserved, the older ones often contain historical mausoleums and graves of influential rabbis and community leaders. It serves as a profound cultural and religious monument, illustrating the rich religious diversity and history of Casablanca.",
     "location": {
-      "longitude": 33.6007292,
-      "latitude": -7.6254864,
+      "longitude": -7.6254864,
+      "latitude": 33.6007292,
       "province": "province/casablanca"
     },
     "people": [

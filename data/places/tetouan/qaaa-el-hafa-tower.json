@@ -9,8 +9,8 @@
     "id": "qaaa-el-hafa-tower",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5679731,
-      "latitude": -5.3651201,
+      "longitude": -5.3651201,
+      "latitude": 35.5679731,
       "province": "province/tetouan"
     },
     "people": [],

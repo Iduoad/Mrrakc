@@ -12,8 +12,8 @@
     "id": "mount-thlouja",
     "description": "No description available",
     "location": {
-      "longitude": 35.36775,
-      "latitude": -5.319,
+      "longitude": -5.319,
+      "latitude": 35.36775,
       "altitude": 1660,
       "province": "province/tetouan"
     },

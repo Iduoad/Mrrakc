@@ -16,8 +16,8 @@
     "id": "church-of-notre-dame-of-lourdes",
     "description": "The Church of Notre Dame of Lourdes (Église Notre-Dame de Lourdes) is one of Casablanca's most famous Catholic churches, completed in 1954 and designed by architect **Achille Dangleterre**. The church is a stunning example of post-war Modernist architecture, distinguished by its massive concrete structure and, most famously, its spectacular, vast expanse of stained glass windows. These windows, designed by Gabriel Loire of Chartres, depict abstract scenes and saturate the interior with color, creating a unique and spiritual atmosphere. It remains an active church and a major architectural attraction.",
     "location": {
-      "longitude": 33.5826724,
-      "latitude": -7.6155733,
+      "longitude": -7.6155733,
+      "latitude": 33.5826724,
       "province": "province/casablanca"
     },
     "people": [

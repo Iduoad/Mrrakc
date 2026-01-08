@@ -16,8 +16,8 @@
     "id": "bendahan-building",
     "description": "The Bendahan Building is a striking architectural landmark in Casablanca, designed by French architect **Edmond Brion** and completed in 1935. It is known for its elegant Art Deco style, characterized by streamlined geometric forms and a monumental facade. The building, located in a key area of the 'new town,' features commercial space on the ground floor and residential apartments above. It is a prime example of Casablanca's architectural heritage from the Protectorate era, a status formalized by its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5949466,
-      "latitude": -7.6170557,
+      "longitude": -7.6170557,
+      "latitude": 33.5949466,
       "province": "province/casablanca"
     },
     "people": [

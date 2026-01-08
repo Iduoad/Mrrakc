@@ -9,8 +9,8 @@
     "id": "old-train-station-niger-mediterranean",
     "description": "This is one of the historical buildings of Oujda dating to colonial era. It was the first Train Station built in Morocco. It was intended to be the first station in the very ambitious French Train line Mediterranean-Niger. The line failed and stopped in Bechar. The railroad is still present to this day, and the station is converted to an administration. The building was declared as a national patrimony in 2018.",
     "location": {
-      "longitude": 34.6982783,
-      "latitude": -1.9088934,
+      "longitude": -1.9088934,
+      "latitude": 34.6982783,
       "province": "province/oujda-angad"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "barcel",
     "description": "Terrace Cafe",
     "location": {
-      "longitude": 35.7775228,
-      "latitude": -5.8001423,
+      "longitude": -5.8001423,
+      "latitude": 35.7775228,
       "province": "province/tangier-assilah"
     },
     "people": [],

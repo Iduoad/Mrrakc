@@ -15,8 +15,8 @@
     "id": "maritime-promenade-of-hassan-2-mosque",
     "description": "The Maritime Promenade of the Hassan II Mosque is a wide, landscaped walkway that encircles the vast esplanade and runs along the Atlantic coastline adjacent to the mosque. It is a major public recreational area, offering stunning, uninterrupted views of the mosque, the minaret, and the ocean. The promenade is a popular spot for strolling, jogging, and relaxing, providing a unique perspective of one of Casablanca's most significant landmarks.",
     "location": {
-      "longitude": 33.6048519,
-      "latitude": -7.6386335,
+      "longitude": -7.6386335,
+      "latitude": 33.6048519,
       "province": "province/casablanca"
     },
     "people": [

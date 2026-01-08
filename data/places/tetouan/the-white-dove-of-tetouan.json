@@ -9,8 +9,8 @@
     "id": "the-white-dove-of-tetouan",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5700975,
-      "latitude": -5.3857855,
+      "longitude": -5.3857855,
+      "latitude": 35.5700975,
       "province": "province/tetouan"
     },
     "people": [],

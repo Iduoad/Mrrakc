@@ -16,8 +16,8 @@
     "id": "taher-sebti-building",
     "description": "The Taher Sebti Building (Immeuble Taher Sebti) is a historical commercial and residential structure completed around 1930. The building's architecture is characteristic of the monumental Art Deco style of the era, reflecting the commercial prosperity of the central district. Its historical and architectural value was formally recognized by its designation as a **National Material Patrimony** site in 2006. This building is often confused with the nearby Comptoir des Mines Building, which is also sometimes referred to as the Taher Sebti Building.",
     "location": {
-      "longitude": 33.591874,
-      "latitude": -7.614992,
+      "longitude": -7.614992,
+      "latitude": 33.591874,
       "province": "province/casablanca"
     },
     "people": [

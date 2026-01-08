@@ -15,8 +15,8 @@
     "id": "moroccan-sfenj-donuts",
     "description": "This location represents a typical street vendor or small shop specializing in **Sfenj** (Moroccan donuts), a popular deep-fried pastry staple of Moroccan street food. Sfenj are traditionally consumed hot, often for breakfast or as a snack. The location indicates a thriving, local street food spot where these classic treats are made and sold.",
     "location": {
-      "longitude": 33.5985609,
-      "latitude": -7.6152916,
+      "longitude": -7.6152916,
+      "latitude": 33.5985609,
       "province": "province/casablanca"
     },
     "people": [],

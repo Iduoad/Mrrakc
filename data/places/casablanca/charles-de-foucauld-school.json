@@ -14,8 +14,8 @@
     "id": "charles-de-foucauld-school",
     "description": "Charles de Foucauld School (Lycée Charles de Foucauld) is a major private educational institution in Casablanca, part of the network of French schools in Morocco, often under the mission of the French cultural authorities or religious orders. Named after the revered French Catholic figure, the school provides education from primary through secondary levels. It is a well-established school with a long history, typically known for its strong curriculum and high academic standards.",
     "location": {
-      "longitude": 33.5715684,
-      "latitude": -7.6179825,
+      "longitude": -7.6179825,
+      "latitude": 33.5715684,
       "province": "province/casablanca"
     },
     "people": [

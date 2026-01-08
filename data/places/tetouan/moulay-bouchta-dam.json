@@ -9,8 +9,8 @@
     "id": "moulay-bouchta-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 35.26454,
-      "latitude": -5.3517606,
+      "longitude": -5.3517606,
+      "latitude": 35.26454,
       "province": "province/tetouan"
     },
     "people": [],

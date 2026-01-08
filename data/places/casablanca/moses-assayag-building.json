@@ -16,8 +16,8 @@
     "id": "moses-assayag-building",
     "description": "The Moses Assayag Building is a prominent historical residential and commercial structure, completed between 1930 and 1932. It was designed by architect **Marius Boyer**, whose Art Deco and Neo-Moorish buildings defined much of Casablanca's central district. The building's name refers to its original owner, likely from the influential Jewish community of Casablanca. Its importance to the city's architectural and social history was recognized with its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5954482,
-      "latitude": -7.61042,
+      "longitude": -7.61042,
+      "latitude": 33.5954482,
       "province": "province/casablanca"
     },
     "people": [

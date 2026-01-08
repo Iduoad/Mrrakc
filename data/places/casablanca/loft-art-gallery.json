@@ -14,8 +14,8 @@
     "id": "loft-art-gallery",
     "description": "Loft Art Gallery is a contemporary art space in Casablanca that specializes in promoting established and emerging Moroccan and international artists, with a strong focus on African art. The gallery is recognized for its dynamic exhibition programming and participation in global art fairs, making it one of the city's most influential commercial contemporary art venues.",
     "location": {
-      "longitude": 33.5923345,
-      "latitude": -7.6436402,
+      "longitude": -7.6436402,
+      "latitude": 33.5923345,
       "province": "province/casablanca"
     },
     "people": [],

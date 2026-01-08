@@ -9,8 +9,8 @@
     "id": "donabo-gardens",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7878263,
-      "latitude": -5.8832287,
+      "longitude": -5.8832287,
+      "latitude": 35.7878263,
       "province": "province/tangier-assilah"
     },
     "people": [],

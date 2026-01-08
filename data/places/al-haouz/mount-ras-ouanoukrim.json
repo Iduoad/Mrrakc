@@ -12,8 +12,8 @@
     "id": "mount-ras-ouanoukrim",
     "description": "No description available",
     "location": {
-      "longitude": 31.0408518060388,
-      "latitude": -7.94532527745848,
+      "longitude": -7.94532527745848,
+      "latitude": 31.0408518060388,
       "altitude": 4083,
       "province": "province/al-haouz"
     },

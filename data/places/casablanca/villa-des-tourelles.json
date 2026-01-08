@@ -17,8 +17,8 @@
     "id": "villa-des-tourelles",
     "description": "Villa des Tourelles (Villa of the Turrets) is a historical residential villa completed in 1930, designed by architect **Marius Boyer**. Its name suggests a picturesque style incorporating small towers or turrets, blending European residential revival styles with Art Deco elements. As a major work of Boyer, the villa is architecturally significant and was declared a **National Material Patrimony** site in 2003. It is currently **closed** or awaiting renovation/repurposing.",
     "location": {
-      "longitude": 33.59205,
-      "latitude": -7.625001,
+      "longitude": -7.625001,
+      "latitude": 33.59205,
       "province": "province/casablanca"
     },
     "people": [

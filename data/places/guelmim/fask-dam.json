@@ -9,8 +9,8 @@
     "id": "fask-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 28.9498125,
-      "latitude": -9.7403594,
+      "longitude": -9.7403594,
+      "latitude": 28.9498125,
       "province": "province/guelmim"
     },
     "people": [],

@@ -16,8 +16,8 @@
     "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-ben-msiq",
     "description": "The Regional Museum of the National Movement, Resistance, and Liberation Army in Ben Msiq is a national cultural institution dedicated to documenting and commemorating Morocco's struggle for independence, focusing on the resistance movement and the liberation army in the Casablanca-Settat region. The museum features exhibits on key historical events, figures, and artifacts from the colonial era through independence (1912-1956). It plays a crucial educational role in preserving national memory.",
     "location": {
-      "longitude": 33.557173,
-      "latitude": -7.5830903,
+      "longitude": -7.5830903,
+      "latitude": 33.557173,
       "province": "province/casablanca"
     },
     "people": [

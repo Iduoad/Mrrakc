@@ -15,8 +15,8 @@
     "id": "ak-dart-decoration-et-art",
     "description": "Ak'dart / Décoration et Art appears to be a gallery and business specializing in interior design, home goods, and art. Located in the Dar Bouazza area outside of the central city of Casablanca, it serves as a retail and exhibition space for artistic and decorative items, likely showcasing Moroccan craftsmanship and contemporary design. It falls under the category of commercial and cultural art spaces.",
     "location": {
-      "longitude": 33.5340022,
-      "latitude": -7.7908577,
+      "longitude": -7.7908577,
+      "latitude": 33.5340022,
       "province": "province/casablanca"
     },
     "people": [],

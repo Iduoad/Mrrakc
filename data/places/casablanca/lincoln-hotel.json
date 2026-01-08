@@ -16,8 +16,8 @@
     "id": "lincoln-hotel",
     "description": "The Lincoln Hotel, also known as the **Bessonneau Building**, is one of Casablanca's most famous and architecturally significant landmarks. Designed by architect **Hubert Bride** and completed around 1917, it is an early, monumental Art Deco/Neo-Moorish structure located in the city center. The building fell into disrepair for decades but has been subject to a major **renovation and restoration project** aiming to return it to its former glory. It was declared a **National Material Patrimony** site in 2000, ensuring its preservation as a key piece of the city's architectural identity.",
     "location": {
-      "longitude": 33.594192,
-      "latitude": -7.6118726,
+      "longitude": -7.6118726,
+      "latitude": 33.594192,
       "province": "province/casablanca"
     },
     "people": [

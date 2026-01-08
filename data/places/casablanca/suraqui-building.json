@@ -15,8 +15,8 @@
     "id": "suraqui-building",
     "description": "The Suraqui Building is a historical residential and commercial structure completed in 1929 and designed by the architects **Joseph and Elias Suraqui**. The Suraqui brothers were influential Jewish Moroccan architects who significantly contributed to the Art Deco architecture of the 'new town.' The building reflects their signature style of incorporating decorative details and multi-story urban functionality.",
     "location": {
-      "longitude": 33.5937055,
-      "latitude": -7.6199917,
+      "longitude": -7.6199917,
+      "latitude": 33.5937055,
       "province": "province/casablanca"
     },
     "people": [

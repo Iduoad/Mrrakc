@@ -12,8 +12,8 @@
     "id": "mount-ghorghize",
     "description": "No description available",
     "location": {
-      "longitude": 35.514625,
-      "latitude": -5.373336,
+      "longitude": -5.373336,
+      "latitude": 35.514625,
       "altitude": 931,
       "province": "province/tetouan"
     },

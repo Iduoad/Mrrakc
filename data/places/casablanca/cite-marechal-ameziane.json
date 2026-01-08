@@ -16,8 +16,8 @@
     "id": "cite-marechal-ameziane",
     "description": "Cité Maréchal Améziane is a historically planned residential estate in Casablanca, designed by architect **Maurice Galamand** with construction spanning from 1949 to 1953. This 'cité' (housing estate) is a significant example of post-war housing projects during the French Protectorate, aiming to address the city's housing shortage. It is characterized by modernist architectural principles applied to social housing, and remains an active residential area today. The name commemorates Maréchal Jean-Louis Améziane, a notable figure from the French colonial administration.",
     "location": {
-      "longitude": 33.585308,
-      "latitude": -7.619261,
+      "longitude": -7.619261,
+      "latitude": 33.585308,
       "province": "province/casablanca"
     },
     "people": [

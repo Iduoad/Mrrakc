@@ -9,8 +9,8 @@
     "id": "palais-mendoub",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7913009,
-      "latitude": -5.8248696,
+      "longitude": -5.8248696,
+      "latitude": 35.7913009,
       "province": "province/tangier-assilah"
     },
     "people": [],

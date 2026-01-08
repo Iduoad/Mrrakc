@@ -16,8 +16,8 @@
     "id": "old-citroen-garage",
     "description": "The Old Citroen Garage Building is a remarkable piece of historical industrial architecture, completed in 1928 and designed by architect **Maurice-Jacques Ravazé**. It is significant for its early use of modernist and Art Deco principles in a large commercial-industrial structure, featuring open space and functionality essential for early automotive sales and service. The building's architectural legacy was acknowledged when it was declared a **National Material Patrimony** site in 2015. It is no longer a functioning garage but remains a historically important building.",
     "location": {
-      "longitude": 33.5932621,
-      "latitude": -7.6188065,
+      "longitude": -7.6188065,
+      "latitude": 33.5932621,
       "province": "province/casablanca"
     },
     "people": [

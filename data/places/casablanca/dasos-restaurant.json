@@ -15,8 +15,8 @@
     "id": "dasos-restaurant",
     "description": "Dasos Restaurant is a contemporary dining establishment in the suburban Dar Bouazza area of Casablanca, offering an **International menu**. Restaurants in this area cater to a modern clientele, often featuring sophisticated design, high-quality service, and diverse food options ranging from Mediterranean to other global cuisines. Its location further outside the main city center suggests it is a destination spot for local residents and weekend diners seeking a modern suburban leisure experience.",
     "location": {
-      "longitude": 33.4864861,
-      "latitude": -7.6237724,
+      "longitude": -7.6237724,
+      "latitude": 33.4864861,
       "province": "province/casablanca"
     },
     "people": [],

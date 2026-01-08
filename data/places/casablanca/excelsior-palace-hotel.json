@@ -16,8 +16,8 @@
     "id": "excelsior-palace-hotel",
     "description": "The Excelsior Palace Hotel is a building of immense historical importance in Casablanca as the **first modern building constructed outside the walls of the Old Medina**, marking the beginning of the city's colonial expansion. Designed by architect **Hippolyte-Joseph Delaporte** and constructed between 1914 and 1916, it became a symbol of the new European city. The building utilizes reinforced concrete but incorporates rich Moroccan decorative elements, reflecting the early colonial architectural policy (Neo-Moorish style) aimed at blending tradition with modernity. Its significance was formally recognized in 2003 with its designation as a **National Material Patrimony** site.",
     "location": {
-      "longitude": 33.5962616,
-      "latitude": -7.6168511,
+      "longitude": -7.6168511,
+      "latitude": 33.5962616,
       "province": "province/casablanca"
     },
     "people": [

@@ -15,8 +15,8 @@
     "id": "the-solidarity-market",
     "description": "The Solidarity Market (Marché de la Solidarité) is a commercial space dedicated to promoting goods and products from local cooperatives, associations, and small businesses, often focusing on women's enterprises and traditional crafts. The market embodies a social solidarity economy, offering shoppers authentic local products and supporting community development.",
     "location": {
-      "longitude": 33.5544187,
-      "latitude": -7.6323625,
+      "longitude": -7.6323625,
+      "latitude": 33.5544187,
       "province": "province/casablanca"
     },
     "people": [

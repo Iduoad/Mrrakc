@@ -16,8 +16,8 @@
     "id": "casablancaise-building",
     "description": "The Casablancaise Building, dedicated to **Physical Education and Sports**, is an architecturally significant structure designed by **Robert Lièvre** and completed in 1936. This building is a noteworthy example of the Modernist style that evolved in Casablanca in the 1930s, prioritizing functionality and clean lines. Its original use reflects the colonial administration's focus on public health and recreation. The building is currently undergoing renovation, signaling efforts to preserve its historical and architectural value while potentially preparing it for a new function.",
     "location": {
-      "longitude": 33.5894334,
-      "latitude": -7.6217188,
+      "longitude": -7.6217188,
+      "latitude": 33.5894334,
       "province": "province/casablanca"
     },
     "people": [

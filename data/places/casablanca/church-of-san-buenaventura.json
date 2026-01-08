@@ -15,8 +15,8 @@
     "id": "church-of-san-buenaventura",
     "description": "The Church of San Buenaventura (Église San Buenaventura) is a historical site in Casablanca, built in 1891 and originally home to the **Spanish Franciscans**. Its construction predates the French Protectorate, making it an early and crucial piece of evidence regarding the significant role the **Spanish community** played in the city before the major French colonial development. The church, a simple, historical structure, has since been converted into a **Cultural Center**, preserving the building while repurposing it for public benefit and highlighting the city's pre-colonial European influences.",
     "location": {
-      "longitude": 33.6014996,
-      "latitude": -7.6201236,
+      "longitude": -7.6201236,
+      "latitude": 33.6014996,
       "province": "province/casablanca"
     },
     "people": [

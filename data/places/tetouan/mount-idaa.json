@@ -12,8 +12,8 @@
     "id": "mount-idaa",
     "description": "AKA Ghorghize",
     "location": {
-      "longitude": 35.4851766,
-      "latitude": -5.3609432,
+      "longitude": -5.3609432,
+      "latitude": 35.4851766,
       "altitude": 1237,
       "province": "province/tetouan"
     },

@@ -15,8 +15,8 @@
     "id": "sidi-ahmed-taghi-mausoleum",
     "description": "The Sidi Ahmed Taghi Mausoleum (Marabout de Sidi Ahmed Taghi) is a local religious shrine dedicated to a local saint. Located on the western side of Casablanca, the site serves as a spiritual reference point for the surrounding community, attracting visitors who observe traditional Sufi practices of veneration and seek baraka. It is a key example of the grassroots religious culture in Morocco.",
     "location": {
-      "longitude": 33.5892207,
-      "latitude": -7.6806356,
+      "longitude": -7.6806356,
+      "latitude": 33.5892207,
       "province": "province/casablanca"
     },
     "people": [

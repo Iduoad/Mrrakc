@@ -12,8 +12,8 @@
     "id": "mount-bou-iblane",
     "description": "No description available",
     "location": {
-      "longitude": 33.6779256,
-      "latitude": -4.0738678,
+      "longitude": -4.0738678,
+      "latitude": 33.6779256,
       "altitude": 3082,
       "province": "province/guercif"
     },

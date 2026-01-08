@@ -15,8 +15,8 @@
     "id": "trianon-building",
     "description": "The Trianon Building (Immeuble Trianon) is a historical residential and commercial structure completed in 1935. It was designed by architect **Marcel Desmet**, known for his Modernist and Art Deco contributions to Casablanca. The building's architecture is typical of the multi-story apartment and retail blocks of the mid-1930s, reflecting the continued, refined urban development of the city center.",
     "location": {
-      "longitude": 33.5952906,
-      "latitude": -7.6164368,
+      "longitude": -7.6164368,
+      "latitude": 33.5952906,
       "province": "province/casablanca"
     },
     "people": [

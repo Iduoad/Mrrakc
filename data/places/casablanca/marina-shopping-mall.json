@@ -15,8 +15,8 @@
     "id": "marina-shopping-mall",
     "description": "Marina Shopping Mall is a contemporary retail center located in the new Casablanca Marina district, near the port. The mall is a modern, integrated complex offering a wide selection of international and Moroccan retail brands, along with dining options and entertainment facilities. It is a key part of the new marina development, providing a modern shopping and leisure experience with views of the port and ocean.",
     "location": {
-      "longitude": 33.6069868,
-      "latitude": -7.6210527,
+      "longitude": -7.6210527,
+      "latitude": 33.6069868,
       "province": "province/casablanca"
     },
     "people": [],

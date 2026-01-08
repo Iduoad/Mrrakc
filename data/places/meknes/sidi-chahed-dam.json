@@ -9,8 +9,8 @@
     "id": "sidi-chahed-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 34.0791989,
-      "latitude": -5.3390102,
+      "longitude": -5.3390102,
+      "latitude": 34.0791989,
       "province": "province/meknes"
     },
     "people": [],

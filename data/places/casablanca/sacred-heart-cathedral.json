@@ -16,8 +16,8 @@
     "id": "sacred-heart-cathedral",
     "description": "The Sacred Heart Cathedral (Cathédrale Sacré-Cœur) is a former Catholic cathedral and one of Casablanca's most iconic architectural landmarks. Designed by French architect **Paul Tournon**, construction began in 1930 and was completed in 1953. The architecture is a striking fusion of **Art Deco** and Gothic styles, featuring clean lines, large volume, and intricate detailing. Since its deconsecration, it now functions as a **Cultural Center**, hosting exhibitions and events. It was declared a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.591314,
-      "latitude": -7.6244202,
+      "longitude": -7.6244202,
+      "latitude": 33.591314,
       "province": "province/casablanca"
     },
     "people": [

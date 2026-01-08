@@ -16,8 +16,8 @@
     "id": "la-nationale-building",
     "description": "The La Nationale Building (Immeuble La Nationale) is a historical residential and commercial building completed between 1930 and 1931. It was designed by architects **Xavier Rendu and R. Ponsard**. The building exemplifies the Art Deco and early Modernist styles that characterized Casablanca's downtown area, featuring multi-story units and often decorative architectural elements. These buildings defined the city's commercial and residential boom during the French Protectorate.",
     "location": {
-      "longitude": 33.5898645,
-      "latitude": -7.619565,
+      "longitude": -7.619565,
+      "latitude": 33.5898645,
       "province": "province/casablanca"
     },
     "people": [

@@ -12,8 +12,8 @@
     "id": "mount-talat-nifri",
     "description": "No description available",
     "location": {
-      "longitude": 31.05779,
-      "latitude": -7.96001,
+      "longitude": -7.96001,
+      "latitude": 31.05779,
       "altitude": 3980,
       "province": "province/al-haouz"
     },

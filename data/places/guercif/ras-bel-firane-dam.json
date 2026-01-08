@@ -9,8 +9,8 @@
     "id": "ras-bel-firane-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 34.1102605,
-      "latitude": -3.2374903,
+      "longitude": -3.2374903,
+      "latitude": 34.1102605,
       "province": "province/guercif"
     },
     "people": [],

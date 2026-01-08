@@ -9,8 +9,8 @@
     "id": "hank-corniche",
     "description": "None",
     "location": {
-      "longitude": 33.6067083,
-      "latitude": -7.6492645,
+      "longitude": -7.6492645,
+      "latitude": 33.6067083,
       "province": "province/casablanca"
     },
     "people": [],

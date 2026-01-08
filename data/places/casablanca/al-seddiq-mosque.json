@@ -14,8 +14,8 @@
     "id": "al-seddiq-mosque",
     "description": "Al Seddiq Mosque (Mosquée Al Seddiq) is a local community mosque located in the heart of Casablanca, serving the daily religious needs of the surrounding neighborhood. It is a vital center for prayer, religious education, and community life in the area. Like most neighborhood mosques in Morocco, it features a distinctive minaret and traditional elements of Moroccan Islamic architecture, though its scale is generally smaller than the grand royal mosques.",
     "location": {
-      "longitude": 33.5822741,
-      "latitude": -7.6012336,
+      "longitude": -7.6012336,
+      "latitude": 33.5822741,
       "province": "province/casablanca"
     },
     "people": [],

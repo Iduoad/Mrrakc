@@ -11,8 +11,8 @@
     "id": "habous-post-building",
     "description": "No description available",
     "location": {
-      "longitude": 33.5766857,
-      "latitude": -7.604426,
+      "longitude": -7.604426,
+      "latitude": 33.5766857,
       "province": "province/casablanca"
     },
     "timeline": [

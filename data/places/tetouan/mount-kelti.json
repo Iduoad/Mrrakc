@@ -12,8 +12,8 @@
     "id": "mount-kelti",
     "description": "No description available",
     "location": {
-      "longitude": 35.3568893,
-      "latitude": -5.2742599,
+      "longitude": -5.2742599,
+      "latitude": 35.3568893,
       "altitude": 1926,
       "province": "province/tetouan"
     },

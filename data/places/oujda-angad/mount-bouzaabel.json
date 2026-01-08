@@ -12,8 +12,8 @@
     "id": "mount-bouzaabel",
     "description": "No description available",
     "location": {
-      "longitude": 34.837225,
-      "latitude": -2.2304314,
+      "longitude": -2.2304314,
+      "latitude": 34.837225,
       "altitude": 1450,
       "province": "province/oujda-angad"
     },

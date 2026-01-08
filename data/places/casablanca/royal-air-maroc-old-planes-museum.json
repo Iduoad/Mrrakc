@@ -15,8 +15,8 @@
     "id": "royal-air-maroc-old-planes-museum",
     "description": "The Royal Air Maroc Old Planes Museum is a specialized museum showcasing retired aircraft from the fleet of Royal Air Maroc (RAM), Morocco's national airline. The museum is located near the **Old Anfa Aerodrome** (Aéroport Casa-Anfa), a site of significant aviation history. It serves to preserve the history of Moroccan civil aviation and air transport, offering a unique collection of historical airplanes.",
     "location": {
-      "longitude": 33.5609475,
-      "latitude": -7.6663468,
+      "longitude": -7.6663468,
+      "latitude": 33.5609475,
       "province": "province/casablanca"
     },
     "people": [

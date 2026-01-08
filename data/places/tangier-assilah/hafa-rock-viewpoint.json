@@ -9,8 +9,8 @@
     "id": "hafa-rock-viewpoint",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7913075,
-      "latitude": -5.8203332,
+      "longitude": -5.8203332,
+      "latitude": 35.7913075,
       "province": "province/tangier-assilah"
     },
     "people": [],

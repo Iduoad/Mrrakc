@@ -15,8 +15,8 @@
     "id": "royal-garage-building",
     "description": "The Royal Garage Building (Garage Royal) is a notable industrial-commercial structure completed in 1957, designed by architects **Amédée Anicet and Louis Perrin-Hoppenot**. Its post-independence construction reflects the continuation of modernist, functionalist design for large-scale automotive facilities. The building is significant for its association with the Royal Garage function and its modern aesthetic, which earned it a designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5931028,
-      "latitude": -7.6063146,
+      "longitude": -7.6063146,
+      "latitude": 33.5931028,
       "province": "province/casablanca"
     },
     "people": [

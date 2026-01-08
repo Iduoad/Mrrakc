@@ -9,8 +9,8 @@
     "id": "hotel-particulier-le-doge",
     "description": "Current Status: Hotel",
     "location": {
-      "longitude": 33.5927476,
-      "latitude": -7.6233584,
+      "longitude": -7.6233584,
+      "latitude": 33.5927476,
       "province": "province/casablanca"
     },
     "people": [

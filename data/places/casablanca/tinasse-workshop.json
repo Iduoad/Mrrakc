@@ -14,8 +14,8 @@
     "id": "tinasse-workshop",
     "description": "Tinasse Workshop is a cultural or commercial studio space in Casablanca that hosts workshops, classes, and creative activities, potentially focused on crafts, design, or fine arts. It serves as a local hub for skill-building, creative community, and hands-on artistic development.",
     "location": {
-      "longitude": 33.6007925,
-      "latitude": -7.6337506,
+      "longitude": -7.6337506,
+      "latitude": 33.6007925,
       "province": "province/casablanca"
     },
     "people": [],

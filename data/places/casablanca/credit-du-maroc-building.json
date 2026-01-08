@@ -16,8 +16,8 @@
     "id": "credit-du-maroc-building",
     "description": "The Credit du Maroc Building, designed by architect **Edmond Brion** and completed between 1947 and 1950, is a major post-war commercial structure. During the French Protectorate, it was known as the **Crédit Lyonnais Building**. The architecture reflects the streamlined Modernist style of the late 1940s and early 1950s. The building is significant for its association with the history of the Crédit Lyonnais in Morocco and the subsequent formation of Crédit du Maroc, symbolizing a major continuity in the nation's financial sector across the colonial and independent eras.",
     "location": {
-      "longitude": 33.5951052,
-      "latitude": -7.6155261,
+      "longitude": -7.6155261,
+      "latitude": 33.5951052,
       "province": "province/casablanca"
     },
     "people": [

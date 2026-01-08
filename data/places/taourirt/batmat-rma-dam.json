@@ -9,8 +9,8 @@
     "id": "batmat-rma-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 34.2903341,
-      "latitude": -2.8639004,
+      "longitude": -2.8639004,
+      "latitude": 34.2903341,
       "province": "province/taourirt"
     },
     "people": [],

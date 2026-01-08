@@ -14,8 +14,8 @@
     "id": "l-abri-restaurant",
     "description": "L'abri Restaurant is a contemporary dining establishment in Casablanca specializing in **Mediterranean cuisine**. Often featuring dishes influenced by coastal European and North African traditions, the restaurant provides a fresh, modern menu. Its ambiance is likely casual yet chic, catering to an urban clientele seeking light, flavorful, and international dining options.",
     "location": {
-      "longitude": 33.5867545,
-      "latitude": -7.6474654,
+      "longitude": -7.6474654,
+      "latitude": 33.5867545,
       "province": "province/casablanca"
     },
     "people": [],

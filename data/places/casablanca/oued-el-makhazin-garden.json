@@ -15,8 +15,8 @@
     "id": "oued-el-makhazin-garden",
     "description": "Oued El Makhazin Garden (Jardin Oued El Makhazine) is a public park located in central Casablanca. It is named after the famous **Battle of Oued El Makhazin** (also known as the Battle of Alcácer Quibir, 1578), one of the most significant battles in Moroccan history. The park serves as a green respite in the urban area, commemorating a key historical event while offering space for public relaxation and leisure.",
     "location": {
-      "longitude": 33.5952815,
-      "latitude": -7.6237007,
+      "longitude": -7.6237007,
+      "latitude": 33.5952815,
       "province": "province/casablanca"
     },
     "people": [],

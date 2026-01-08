@@ -16,8 +16,8 @@
     "id": "ettedgui-et-mellul-building",
     "description": "The Ettedgui et Mellul Building is a historical residential and commercial structure in central Casablanca, designed in 1932 by architects **Jean Balois and Paul Perrotte**. The building's design reflects the mature Art Deco style of the 1930s, characterized by geometric precision and a blend of aesthetic and functional qualities. The name refers to the original owners or commissioners, likely from Casablanca's Jewish community, highlighting the diverse cultural groups that shaped the city's commercial and architectural landscape during the Protectorate era.",
     "location": {
-      "longitude": 33.593087,
-      "latitude": -7.62378,
+      "longitude": -7.62378,
+      "latitude": 33.593087,
       "province": "province/casablanca"
     },
     "people": [

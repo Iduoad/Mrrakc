@@ -15,8 +15,8 @@
     "id": "liscia-building",
     "description": "The Liscia Building is a historical residential and commercial structure in Casablanca, completed in 1937 and designed by architect **Pierre Jabin**. Its architecture reflects the later Art Deco and streamlined modernist styles of the mid-1930s, characterized by simpler forms and vertical emphasis compared to earlier Art Deco works. It continues to be an inhabited, multi-use urban building, typical of the city's planned residential blocks.",
     "location": {
-      "longitude": 33.591619,
-      "latitude": -7.6141265,
+      "longitude": -7.6141265,
+      "latitude": 33.591619,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "sefrou-falls",
     "description": "No description available.",
     "location": {
-      "longitude": 33.828083,
-      "latitude": -4.8521446,
+      "longitude": -4.8521446,
+      "latitude": 33.828083,
       "province": "province/sefrou"
     },
     "people": [],

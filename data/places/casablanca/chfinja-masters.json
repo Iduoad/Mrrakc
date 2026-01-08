@@ -15,8 +15,8 @@
     "id": "chfinja-masters",
     "description": "Chfinja Masters specializes in making and selling **Sfenj**, a traditional Moroccan donut or fritter. Sfenj is a staple street food, deep-fried until golden and often served hot and dusted with sugar. Places dedicated to sfenj, like Chfinja Masters, are popular early morning stops for breakfast or a quick snack, emphasizing traditional, simple, and affordable Moroccan culinary practices.",
     "location": {
-      "longitude": 33.6020879,
-      "latitude": -7.6463305,
+      "longitude": -7.6463305,
+      "latitude": 33.6020879,
       "province": "province/casablanca"
     },
     "people": [],

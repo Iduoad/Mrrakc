@@ -9,8 +9,8 @@
     "id": "afred-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 34.7840946,
-      "latitude": -3.2206602,
+      "longitude": -3.2206602,
+      "latitude": 34.7840946,
       "province": "province/nador"
     },
     "people": [],

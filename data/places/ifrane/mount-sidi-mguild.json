@@ -12,8 +12,8 @@
     "id": "mount-sidi-mguild",
     "description": "No description available",
     "location": {
-      "longitude": 33.1982799,
-      "latitude": -5.2706835,
+      "longitude": -5.2706835,
+      "latitude": 33.1982799,
       "altitude": 2170,
       "province": "province/ifrane"
     },

@@ -9,8 +9,8 @@
     "id": "tamda-lake",
     "description": "No description available.",
     "location": {
-      "longitude": 33.8315566,
-      "latitude": -4.0758446,
+      "longitude": -4.0758446,
+      "latitude": 33.8315566,
       "province": "province/taza"
     },
     "people": [],

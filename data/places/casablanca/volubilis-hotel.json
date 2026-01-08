@@ -15,8 +15,8 @@
     "id": "volubilis-hotel",
     "description": "The Volubilis Hotel (Hôtel Volubilis) is a historical hotel in Casablanca, completed in 1919, making it one of the city's early modern accommodations. Its architecture reflects the early Protectorate's styles, likely incorporating elements of Art Deco or Neo-Moorish design. The hotel is named after the ancient Roman city of Volubilis, evoking a sense of historical grandeur. Its long-standing architectural importance was recognized by its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.59223,
-      "latitude": -7.613728,
+      "longitude": -7.613728,
+      "latitude": 33.59223,
       "province": "province/casablanca"
     },
     "people": [],

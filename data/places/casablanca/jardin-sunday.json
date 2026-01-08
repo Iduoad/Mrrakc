@@ -14,8 +14,8 @@
     "id": "jardin-sunday",
     "description": "Jardin Sunday (likely named for a nearby street or feature) is a local public park or garden in Casablanca, serving as an important green space for the surrounding community. These parks offer residents a place for outdoor recreation, exercise, and quiet relaxation, contributing to the quality of urban life in the city's residential areas.",
     "location": {
-      "longitude": 33.5380076,
-      "latitude": -7.5763572,
+      "longitude": -7.5763572,
+      "latitude": 33.5380076,
       "province": "province/casablanca"
     },
     "people": [],

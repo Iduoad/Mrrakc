@@ -16,8 +16,8 @@
     "id": "august-20th-hospital",
     "description": "The August 20th Hospital (Hôpital 20 Août 1953) is a major public medical facility in Casablanca with significant historical roots. It was originally built in the 1930s as a French military hospital named **Hôpital Jean Vial**. Following Morocco's independence, the hospital was renamed in 1956 to commemorate the **Revolution of the King and the People (August 20, 1953)**, a key date in the Moroccan struggle for independence when King Mohammed V was exiled. In 1976, it was integrated into the CHU Ibn Rochd (Casablanca University Hospital Center). The building's historical and architectural value was formally recognized when it was declared a **National Material Patrimony** site in 2004.",
     "location": {
-      "longitude": 33.5747493,
-      "latitude": -7.6199,
+      "longitude": -7.6199,
+      "latitude": 33.5747493,
       "province": "province/casablanca"
     },
     "people": [

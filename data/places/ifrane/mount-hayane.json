@@ -12,8 +12,8 @@
     "id": "mount-hayane",
     "description": "No description available",
     "location": {
-      "longitude": 33.1097222,
-      "latitude": -5.1416667,
+      "longitude": -5.1416667,
+      "latitude": 33.1097222,
       "altitude": 2409,
       "province": "province/ifrane"
     },

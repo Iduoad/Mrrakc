@@ -16,8 +16,8 @@
     "id": "mahkama-of-pacha-building",
     "description": "The Mahkama of Pacha (literally 'Pacha's Court') is a magnificent administrative and judicial building located in the Habous Quarter, constructed between 1941 and 1952. The building is a stunning example of **Neo-Moorish** architecture, utilizing vast amounts of intricate traditional Moroccan craftsmanship, including carved cedarwood, zellij tilework, and stucco plaster. It originally served as a courthouse and the reception hall for the Pacha of Casablanca. It now functions as the seat of the **El Mechouar Prefecture** and is considered a national architectural treasure, having been declared a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5785664,
-      "latitude": -7.606479,
+      "longitude": -7.606479,
+      "latitude": 33.5785664,
       "province": "province/casablanca"
     },
     "people": [

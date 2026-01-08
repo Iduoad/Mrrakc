@@ -14,8 +14,8 @@
     "id": "villa-d-anfa",
     "description": "Villa d'Anfa (Gallery Villa d'Anfa) is a cultural space or art gallery located in the upscale Anfa neighborhood. Often utilizing the architecture of a former historical villa, the gallery hosts exhibitions of contemporary art, photography, and design, contributing to the high-end cultural life of the district.",
     "location": {
-      "longitude": 33.5888109,
-      "latitude": -7.6640112,
+      "longitude": -7.6640112,
+      "latitude": 33.5888109,
       "province": "province/casablanca"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "donkey-museum",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7878152,
-      "latitude": -5.8148523,
+      "longitude": -5.8148523,
+      "latitude": 35.7878152,
       "province": "province/tangier-assilah"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "ait-lamrabtiya-dam",
     "description": "AKA Tanous",
     "location": {
-      "longitude": 33.4614271,
-      "latitude": -5.9302082,
+      "longitude": -5.9302082,
+      "latitude": 33.4614271,
       "province": "province/khemisset"
     },
     "people": [],

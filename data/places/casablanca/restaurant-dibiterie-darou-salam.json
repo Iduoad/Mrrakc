@@ -15,8 +15,8 @@
     "id": "restaurant-dibiterie-darou-salam",
     "description": "Restaurant Dibiterie Darou Salam is a specialized eatery focusing on **Dibiterie**—a West African (often Senegalese) style of serving grilled meat (typically lamb or beef) cut into small pieces. These small restaurants or stalls are celebrated for their rich, smoky flavors and are popular among the local West African community and locals seeking authentic grilled food. 'Darou Salam' suggests a link to Senegal or a peaceful gathering place.",
     "location": {
-      "longitude": 33.5971237,
-      "latitude": -7.620672,
+      "longitude": -7.620672,
+      "latitude": 33.5971237,
       "province": "province/casablanca"
     },
     "people": [],

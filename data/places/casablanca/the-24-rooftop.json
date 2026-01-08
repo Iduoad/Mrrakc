@@ -15,8 +15,8 @@
     "id": "the-24-rooftop",
     "description": "The 24 Rooftop is a modern restaurant, bar, and lounge located on the rooftop (likely the 24th floor) of a high-rise building in Casablanca's central district. It specializes in offering an **International menu** alongside drinks, capitalizing on its elevated position to provide **panoramic city views**. It is a popular spot for sophisticated evening socializing and entertainment.",
     "location": {
-      "longitude": 33.5981877,
-      "latitude": -7.6139111,
+      "longitude": -7.6139111,
+      "latitude": 33.5981877,
       "province": "province/casablanca"
     },
     "people": [],

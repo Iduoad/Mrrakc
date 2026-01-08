@@ -14,8 +14,8 @@
     "id": "studio-7-dance-studio",
     "description": "Studio 7 Dance Studio is a dedicated facility in Casablanca offering classes and workshops in various forms of dance, ranging from traditional Moroccan to modern and international styles. It serves as a community hub for artistic expression, physical fitness, and cultural activity.",
     "location": {
-      "longitude": 33.5888173,
-      "latitude": -7.6282876,
+      "longitude": -7.6282876,
+      "latitude": 33.5888173,
       "province": "province/casablanca"
     },
     "people": [],

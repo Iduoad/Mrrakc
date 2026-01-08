@@ -3,7 +3,7 @@
   "kind": "nature/mountain",
   "metadata": {
     "tags": [
-      "Imlil", 
+      "Imlil",
       "Western High Atlas"
     ]
   },
@@ -12,8 +12,8 @@
     "id": "mount-afella-south",
     "description": "No description available",
     "location": {
-      "longitude": 31.0534857,
-      "latitude": -7.952113,
+      "longitude": -7.952113,
+      "latitude": 31.0534857,
       "altitude": 4040,
       "province": "province/al-haouz"
     },

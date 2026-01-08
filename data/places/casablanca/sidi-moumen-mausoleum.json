@@ -16,8 +16,8 @@
     "id": "sidi-moumen-mausoleum",
     "description": "The Sidi Moumen Mausoleum (Marabout de Sidi Moumen) is a local religious shrine located in the vast Sidi Moumen neighborhood, which is named after the saint. The shrine is a center for local veneration, pilgrimage, and community gathering, reflecting the spiritual and social history of this large residential district.",
     "location": {
-      "longitude": 33.5802228,
-      "latitude": -7.5188917,
+      "longitude": -7.5188917,
+      "latitude": 33.5802228,
       "province": "province/casablanca"
     },
     "people": [

@@ -12,8 +12,8 @@
     "id": "mount-lehri",
     "description": "No description available",
     "location": {
-      "longitude": 33.4615422421435,
-      "latitude": -4.55679678275751,
+      "longitude": -4.55679678275751,
+      "latitude": 33.4615422421435,
       "altitude": 2467,
       "province": "province/boulemane"
     },

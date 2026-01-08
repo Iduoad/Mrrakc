@@ -9,8 +9,8 @@
     "id": "zawia-tanger",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7812092,
-      "latitude": -5.8103886,
+      "longitude": -5.8103886,
+      "latitude": 35.7812092,
       "province": "province/tangier-assilah"
     },
     "people": [],

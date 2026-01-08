@@ -15,8 +15,8 @@
     "id": "berrechid-park",
     "description": "Berrechid Park (Jardin Berrechid) is a public green space located in the Ben Msik area, providing local residents with an area for recreation and relaxation. Like many urban parks in Casablanca, it offers a contrast to the surrounding dense urban environment, providing landscaped areas, pathways, and shade. Its name likely refers to the nearby street or the Berrechid region, highlighting its role as a key local amenity.",
     "location": {
-      "longitude": 33.5506689,
-      "latitude": -7.5979224,
+      "longitude": -7.5979224,
+      "latitude": 33.5506689,
       "province": "province/casablanca"
     },
     "people": [],

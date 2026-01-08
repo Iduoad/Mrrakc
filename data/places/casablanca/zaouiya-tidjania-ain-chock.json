@@ -15,8 +15,8 @@
     "id": "zaouiya-tidjania-ain-chock",
     "description": "Zaouiya Tidjania - Ain Chock is a local religious center associated with the influential **Tijaniyya Sufi order**, one of the largest Sufi brotherhoods in West Africa and Morocco. Located in the Ain Chock neighborhood, it serves as a community hub for members of the order, providing space for collective prayers, spiritual recitation, and teaching.",
     "location": {
-      "longitude": 33.5534369,
-      "latitude": -7.6002424,
+      "longitude": -7.6002424,
+      "latitude": 33.5534369,
       "province": "province/casablanca"
     },
     "people": [

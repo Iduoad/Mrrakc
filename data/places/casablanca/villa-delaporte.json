@@ -15,8 +15,8 @@
     "id": "villa-delaporte",
     "description": "Villa Delaporte is a historical residential villa completed in 1930, notable as the personal residence of its architect, **Hippolyte Joseph Delaporte**. Delaporte was a highly influential French architect who designed the Excelsior Hotel and the Maret Building, among others. The villa reflects his own residential style, blending the prevailing Art Deco movement with private, upscale functionality. It remains an important example of period architecture in a central location.",
     "location": {
-      "longitude": 33.592287,
-      "latitude": -7.6226735,
+      "longitude": -7.6226735,
+      "latitude": 33.592287,
       "province": "province/casablanca"
     },
     "people": [

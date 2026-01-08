@@ -12,8 +12,8 @@
     "id": "mount-tissouka",
     "description": "No description available",
     "location": {
-      "longitude": 35.1614671,
-      "latitude": -5.2167038,
+      "longitude": -5.2167038,
+      "latitude": 35.1614671,
       "altitude": 2122,
       "province": "province/chefchaouen"
     },

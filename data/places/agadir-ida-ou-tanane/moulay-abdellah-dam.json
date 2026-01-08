@@ -9,8 +9,8 @@
     "id": "moulay-abdellah-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 30.7717105,
-      "latitude": -9.675904,
+      "longitude": -9.675904,
+      "latitude": 30.7717105,
       "province": "province/agadir-ida-ou-tanane"
     },
     "people": [],

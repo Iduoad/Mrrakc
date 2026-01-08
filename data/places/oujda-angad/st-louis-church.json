@@ -9,8 +9,8 @@
     "id": "st-louis-church",
     "description": "AKA Saint-Louis d'Anjou Cathedral. Built in 1908",
     "location": {
-      "longitude": 34.6796373,
-      "latitude": -1.9173532,
+      "longitude": -1.9173532,
+      "latitude": 34.6796373,
       "province": "province/oujda-angad"
     },
     "people": [],

@@ -16,8 +16,8 @@
     "id": "transatlantique-hotel",
     "description": "The Transatlantique Hotel (Hôtel Transatlantique) is a major historical hotel, completed in 1922. It was owned by the Compagnie Générale Transatlantique, a French shipping company, and reflects the grand scale and elegance of colonial-era hospitality. The architecture is a blend of Art Deco and Neo-Moorish styles, characteristic of the monumental buildings of the 'new town.' Its historical importance was recognized by its designation as a **National Material Patrimony** site in 2004.",
     "location": {
-      "longitude": 33.5923948,
-      "latitude": -7.6141621,
+      "longitude": -7.6141621,
+      "latitude": 33.5923948,
       "province": "province/casablanca"
     },
     "people": [

@@ -9,8 +9,8 @@
     "id": "house-of-haj-touzzani",
     "description": "Current Status: Inhabited",
     "location": {
-      "longitude": 33.6001111,
-      "latitude": -7.6165,
+      "longitude": -7.6165,
+      "latitude": 33.6001111,
       "province": "province/casablanca"
     },
     "people": [

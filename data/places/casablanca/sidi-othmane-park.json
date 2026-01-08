@@ -14,8 +14,8 @@
     "id": "sidi-othmane-park",
     "description": "Sidi Othmane Park (Jardin Sidi Othmane) is a large public park in the Sidi Othmane neighborhood. It is a vital green space for the densely populated district, offering organized pathways, play areas, and shaded spots for relaxation, contributing significantly to the local residents' quality of life.",
     "location": {
-      "longitude": 33.5540745,
-      "latitude": -7.5672,
+      "longitude": -7.5672,
+      "latitude": 33.5540745,
       "province": "province/casablanca"
     },
     "people": [],

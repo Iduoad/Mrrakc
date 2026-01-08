@@ -14,8 +14,8 @@
     "id": "casa-fish-cafe",
     "description": "Casa Fish Cafe (Café Casa Fish) is a small cafe located near the heart of the Old Medina and port area, potentially specializing in light snacks and traditional drinks popular with locals, including those involved in the nearby markets or port activities. Cafes in this bustling area are characteristic social hubs, offering quick, simple refreshments in a traditional, highly localized setting.",
     "location": {
-      "longitude": 33.6000718,
-      "latitude": -7.6174634,
+      "longitude": -7.6174634,
+      "latitude": 33.6000718,
       "province": "province/casablanca"
     },
     "people": [],

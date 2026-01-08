@@ -14,8 +14,8 @@
     "id": "niya-restaurant",
     "description": "Niya Restaurant (named after the Arabic word for intention/motive) is a contemporary dining establishment in Casablanca, likely specializing in modern Moroccan or international fusion cuisine. It offers a sophisticated atmosphere and caters to an audience looking for creative and high-quality culinary experiences.",
     "location": {
-      "longitude": 33.5888478,
-      "latitude": -7.6323284,
+      "longitude": -7.6323284,
+      "latitude": 33.5888478,
       "province": "province/casablanca"
     },
     "people": [],

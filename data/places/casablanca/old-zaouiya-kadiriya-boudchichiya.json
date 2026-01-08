@@ -15,8 +15,8 @@
     "id": "old-zaouiya-kadiriya-boudchichiya",
     "description": "The Old Zaouiya Kadiriya Boudchichiya is a historical religious center in Casablanca, associated with the **Qadiriyya Boutchichiyya Sufi order**, one of the most prominent Sufi brotherhoods in Morocco. A 'zaouiya' is a spiritual school or retreat, serving as a hub for the order's religious, charitable, and social activities. This older location near the Medina is significant to the local history of Sufism before the growth of the order's modern centers.",
     "location": {
-      "longitude": 33.6020969,
-      "latitude": -7.6191228,
+      "longitude": -7.6191228,
+      "latitude": 33.6020969,
       "province": "province/casablanca"
     },
     "people": [

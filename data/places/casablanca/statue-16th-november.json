@@ -15,8 +15,8 @@
     "id": "statue-16th-november",
     "description": "The Statue (or Monument) of 16th November is a significant piece of public art and a national landmark located in the city center. It commemorates **November 16, 1955**, the date that King Mohammed V returned from exile, marking a crucial step towards Moroccan independence. The sculpture was designed by architect **Abdelhaq Sijelmassi** and completed in 1982. It stands as a symbolic reminder of national pride and the struggle for sovereignty.",
     "location": {
-      "longitude": 33.5944875,
-      "latitude": -7.6168128,
+      "longitude": -7.6168128,
+      "latitude": 33.5944875,
       "province": "province/casablanca"
     },
     "people": [

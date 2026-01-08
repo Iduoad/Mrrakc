@@ -9,8 +9,8 @@
     "id": "mount-imonsbon",
     "description": "Mountain Chain: Rif",
     "location": {
-      "longitude": 34.8687096,
-      "latitude": -4.5042353,
+      "longitude": -4.5042353,
+      "latitude": 34.8687096,
       "altitude": 2100,
       "province": "province/al-hoceima"
     },

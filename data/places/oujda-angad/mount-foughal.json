@@ -12,8 +12,8 @@
     "id": "mount-foughal",
     "description": "No description available",
     "location": {
-      "longitude": 34.8311014,
-      "latitude": -2.1926737,
+      "longitude": -2.1926737,
+      "latitude": 34.8311014,
       "altitude": 1532,
       "province": "province/oujda-angad"
     },

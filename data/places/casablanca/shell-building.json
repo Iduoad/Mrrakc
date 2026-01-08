@@ -17,8 +17,8 @@
     "id": "shell-building",
     "description": "The Shell Building is a major historical structure completed in 1934, designed by the prominent French architect **Marius Boyer**. It was originally built as the headquarter for the **Shell Oil Company**, reflecting the international commercial presence during the French Protectorate. The building is a landmark of Art Deco architecture, known for its distinctive curvilinear form and possibly shell-motif detailing. It has since been repurposed and currently functions as the **Imperial Hotel**. Its historical and architectural value led to its designation as a **National Material Patrimony** site in 2004.",
     "location": {
-      "longitude": 33.5939082,
-      "latitude": -7.6060053,
+      "longitude": -7.6060053,
+      "latitude": 33.5939082,
       "province": "province/casablanca"
     },
     "people": [

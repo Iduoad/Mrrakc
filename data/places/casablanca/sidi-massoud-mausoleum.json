@@ -15,8 +15,8 @@
     "id": "sidi-massoud-mausoleum",
     "description": "The Sidi Massoud Mausoleum (Marabout de Sidi Massoud) is a local religious shrine dedicated to a saint. The site is a point of local piety and veneration within the Moroccan Sufi tradition, drawing pilgrims from the surrounding community for spiritual purposes.",
     "location": {
-      "longitude": 33.5164052,
-      "latitude": -7.6287886,
+      "longitude": -7.6287886,
+      "latitude": 33.5164052,
       "province": "province/casablanca"
     },
     "people": [

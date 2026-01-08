@@ -15,8 +15,8 @@
     "id": "thomas-i-archeological-site",
     "description": "The Thomas I Archaeological Site (Carrière Thomas I) is one of the most critical prehistoric sites in North Africa, famous for the 1969 discovery of a fragmented human half-mandible. The site is now renowned for yielding the **oldest Homo Erectus remains in North Africa**, dating back over 500,000 years. It provides crucial evidence for human evolution and migration. The site, part of the wider Thomas Quarries, was recognized as a **National Material Patrimony** in 1951.",
     "location": {
-      "longitude": 33.5685715,
-      "latitude": -7.6966561,
+      "longitude": -7.6966561,
+      "latitude": 33.5685715,
       "province": "province/casablanca"
     },
     "people": [

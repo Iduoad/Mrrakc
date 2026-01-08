@@ -15,8 +15,8 @@
     "id": "cafe-de-france",
     "description": "Cafe de France is a classic, long-standing café located in the heart of Casablanca, near the city's central administrative and financial district. Dating back to the French Protectorate era, cafes of this kind were central to the social and intellectual life of the European and Moroccan elite. Situated amidst the city's signature Art Deco and Modernist architecture, the café maintains a traditional atmosphere, making it a popular spot for locals to socialize, read newspapers, and observe city life. It is an enduring symbol of Casablanca's cafe culture.",
     "location": {
-      "longitude": 33.5956649,
-      "latitude": -7.6175453,
+      "longitude": -7.6175453,
+      "latitude": 33.5956649,
       "province": "province/casablanca"
     },
     "people": [],

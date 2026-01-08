@@ -17,8 +17,8 @@
     "id": "photography-art-house",
     "description": "The Photography Art House (Maison de la Photographie) is a major cultural project planned or under construction in the vicinity of the Old Medina. The project is highly notable as the design is attributed to the celebrated Japanese modernist architect **Tadao Ando**, focusing on minimalist, concrete-based aesthetics. The center is intended to serve as a museum, exhibition space, and school dedicated to the art of photography, contributing significantly to Casablanca's contemporary cultural infrastructure and urban renewal efforts.",
     "location": {
-      "longitude": 33.6021729,
-      "latitude": -7.6199751,
+      "longitude": -7.6199751,
+      "latitude": 33.6021729,
       "province": "province/casablanca"
     },
     "people": [

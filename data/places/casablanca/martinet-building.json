@@ -16,8 +16,8 @@
     "id": "martinet-building",
     "description": "The Martinet Building is a highly eclectic and historical residential and commercial structure, designed by architect **Pierre Bousquet** and completed in 1919. It is notable for its fusion of three architectural styles prevalent during the early French Protectorate: **Art Deco, Art Nouveau, and Neo-Mauresque (Neo-Moorish)**. This blend reflects the experimentation of architects seeking to create a distinct Casablanca style. Its early date and mixed ornamentation make it a unique and valuable example of the city's first phase of expansion.",
     "location": {
-      "longitude": 33.5949039,
-      "latitude": -7.6129735,
+      "longitude": -7.6129735,
+      "latitude": 33.5949039,
       "province": "province/casablanca"
     },
     "people": [

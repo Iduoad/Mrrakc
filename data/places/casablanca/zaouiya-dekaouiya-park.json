@@ -14,8 +14,8 @@
     "id": "zaouiya-dekaouiya-park",
     "description": "Zaouiya Dekaouiya Park is a local public park or garden in Casablanca. The name suggests proximity to a Dekaouiya Zaouiya (Sufi shrine/center), indicating its placement in a historically or spiritually significant local area. It offers residents a necessary green space for relaxation and recreation.",
     "location": {
-      "longitude": 33.5104142,
-      "latitude": -7.6069533,
+      "longitude": -7.6069533,
+      "latitude": 33.5104142,
       "province": "province/casablanca"
     },
     "people": [],

@@ -12,8 +12,8 @@
     "id": "mount-saghla",
     "description": "No description available",
     "location": {
-      "longitude": 33.6073413,
-      "latitude": -4.2863239,
+      "longitude": -4.2863239,
+      "latitude": 33.6073413,
       "altitude": 2302,
       "province": "province/sefrou"
     },

@@ -12,8 +12,8 @@
     "id": "mount-bouzammoure",
     "description": "No description available",
     "location": {
-      "longitude": 34.7479212,
-      "latitude": -2.4616508,
+      "longitude": -2.4616508,
+      "latitude": 34.7479212,
       "altitude": 1138,
       "province": "province/berkane"
     },

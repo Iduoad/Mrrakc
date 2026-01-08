@@ -9,8 +9,8 @@
     "id": "dar-es-soltane-archeological-site",
     "description": "No description available.",
     "location": {
-      "longitude": 33.9786255,
-      "latitude": -6.89774,
+      "longitude": -6.89774,
+      "latitude": 33.9786255,
       "province": "province/rabat"
     },
     "people": [],

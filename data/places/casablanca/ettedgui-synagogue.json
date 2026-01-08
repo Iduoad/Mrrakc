@@ -16,8 +16,8 @@
     "id": "ettedgui-synagogue",
     "description": "The Ettedgui Synagogue (Synagogue Ettedgui) is a historically significant site located in the heart of Casablanca's Old Medina. Built in 1935, it was the second synagogue constructed in the Medina by the influential Ettedgui family, who originated from Toudgha and settled in Casablanca in the late 19th century. This synagogue is a powerful symbol of the long-standing and important Jewish presence in Casablanca. The structure has been preserved and now often functions as a **Museum**, showcasing Jewish Moroccan heritage and architectural tradition, serving as a reminder of the city's multi-religious history.",
     "location": {
-      "longitude": 33.6019556,
-      "latitude": -7.6196086,
+      "longitude": -7.6196086,
+      "latitude": 33.6019556,
       "province": "province/casablanca"
     },
     "people": [

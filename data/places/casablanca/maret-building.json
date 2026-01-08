@@ -16,8 +16,8 @@
     "id": "maret-building",
     "description": "The Maret Building is a historical residential and commercial structure in central Casablanca, completed in 1932 and designed by architect **Hippolyte-Joseph Delaporte**. Its architecture is characteristic of the Art Deco style, featuring the geometric designs and massing typical of the early 1930s. The building's central location and aesthetic quality contributed to its designation as a **National Material Patrimony** site in 2003.",
     "location": {
-      "longitude": 33.5939192,
-      "latitude": -7.6095621,
+      "longitude": -7.6095621,
+      "latitude": 33.5939192,
       "province": "province/casablanca"
     },
     "people": [

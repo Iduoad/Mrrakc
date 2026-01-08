@@ -16,8 +16,8 @@
     "id": "royal-moroccan-armed-forces-building",
     "description": "This building, dating from 1925, was originally constructed during the French Protectorate, likely serving a military or administrative function. It now houses a facility for the **Royal Moroccan Armed Forces (Forces Armées Royales - FAR)**. The building's monumental architecture is typical of early colonial administration. Its long history as a key defense and governmental structure led to its designation as a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5917247,
-      "latitude": -7.6171404,
+      "longitude": -7.6171404,
+      "latitude": 33.5917247,
       "province": "province/casablanca"
     },
     "people": [],

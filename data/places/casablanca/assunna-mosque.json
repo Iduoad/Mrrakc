@@ -15,8 +15,8 @@
     "id": "assunna-mosque",
     "description": "Assunna Mosque (Masjid As-Sunna) is a notable example of modernist religious architecture in Casablanca, designed by the celebrated French-Moroccan architect Jean-François Zevaco. Built in 1966, the mosque is distinguished by its brutalist architectural style, featuring the use of raw concrete and unconventional forms, drawing inspiration from works like Oscar Niemeyer's Church of Saint Francis of Assisi. Its unique design marks a distinct departure from traditional Moroccan mosque architecture, representing the experimentation of the post-independence era. It remains an active place of worship for the local community.",
     "location": {
-      "longitude": 33.5616889,
-      "latitude": -7.6094642,
+      "longitude": -7.6094642,
+      "latitude": 33.5616889,
       "province": "province/casablanca"
     },
     "people": [

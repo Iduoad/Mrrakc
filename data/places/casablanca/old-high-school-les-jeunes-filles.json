@@ -15,8 +15,8 @@
     "id": "old-high-school-les-jeunes-filles",
     "description": "This building was originally the Old High School for Young Girls (Lycée de Jeunes Filles), completed in 1954 and designed by architect **Alexandre Courtois**. It represents the Modernist and functionalist public architecture of the late French Protectorate, built to serve the European and elite Moroccan population. It has since been renamed and functions today as the **Abdelmoumen School** (Collège/Lycée Abdelmoumen), reflecting the change in educational focus and national identity following Moroccan independence.",
     "location": {
-      "longitude": 33.5833258,
-      "latitude": -7.6162296,
+      "longitude": -7.6162296,
+      "latitude": 33.5833258,
       "province": "province/casablanca"
     },
     "people": [

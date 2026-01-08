@@ -16,8 +16,8 @@
     "id": "sidi-mohamed-mers-sultan-mausoleum",
     "description": "The Sidi Mohamed Mers Sultan Mausoleum (Marabout de Sidi Mohamed Mers Sultan) is a historical religious shrine located in the Mers Sultan neighborhood, which is named after the saint. The mausoleum serves as a focal point for local veneration and spiritual gatherings, representing the deep spiritual roots that underpin the city's urban identity.",
     "location": {
-      "longitude": 33.5814648,
-      "latitude": -7.62256,
+      "longitude": -7.62256,
+      "latitude": 33.5814648,
       "province": "province/casablanca"
     },
     "people": [

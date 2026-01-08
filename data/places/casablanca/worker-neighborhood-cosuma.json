@@ -17,8 +17,8 @@
     "id": "worker-neighborhood-cosuma",
     "description": "The Worker Neighborhood Cosuma (Cité Ouvrière Cosuma) is a historical residential complex for workers, built between 1932 and 1937, designed by architect **Edmond Brion**. This complex represents early attempts at organized social housing during the French Protectorate, aimed at providing functional, modern residences for the rapidly growing industrial workforce. The architecture reflects early Modernist principles. The complex is historically significant and was declared a **National Material Patrimony** site in 2018. It is currently **closed** or awaiting repurposing.",
     "location": {
-      "longitude": 33.6006246,
-      "latitude": -7.5715161,
+      "longitude": -7.5715161,
+      "latitude": 33.6006246,
       "province": "province/casablanca"
     },
     "people": [

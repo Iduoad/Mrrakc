@@ -12,8 +12,8 @@
     "id": "mount-soukna",
     "description": "No description available",
     "location": {
-      "longitude": 35.11556,
-      "latitude": -5.401689,
+      "longitude": -5.401689,
+      "latitude": 35.11556,
       "altitude": 1610,
       "province": "province/chefchaouen"
     },

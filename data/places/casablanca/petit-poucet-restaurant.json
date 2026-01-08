@@ -15,8 +15,8 @@
     "id": "petit-poucet-restaurant",
     "description": "Petit Poucet Restaurant (Le Petit Poucet) is one of Casablanca's most historic and legendary café-restaurants, dating back to **1920**. Located in the central Art Deco district, it has served as a famous meeting place for intellectuals, journalists, artists, and political figures throughout the French Protectorate and post-independence eras. The establishment is renowned for its long history, classic ambiance, and traditional French or international menu.",
     "location": {
-      "longitude": 33.5947964,
-      "latitude": -7.6141587,
+      "longitude": -7.6141587,
+      "latitude": 33.5947964,
       "province": "province/casablanca"
     },
     "people": [

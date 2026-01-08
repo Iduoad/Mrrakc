@@ -9,8 +9,8 @@
     "id": "mount-tourchkal",
     "description": "Mountain Chain: Anti Atlas",
     "location": {
-      "longitude": 30.7237463,
-      "latitude": -7.8344073,
+      "longitude": -7.8344073,
+      "latitude": 30.7237463,
       "altitude": 2200,
       "province": "province/taroudant"
     },

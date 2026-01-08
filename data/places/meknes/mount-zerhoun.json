@@ -12,8 +12,8 @@
     "id": "mount-zerhoun",
     "description": "No description available",
     "location": {
-      "longitude": 34.0338333333333,
-      "latitude": -5.52013888888889,
+      "longitude": -5.52013888888889,
+      "latitude": 34.0338333333333,
       "altitude": 1025,
       "province": "province/meknes"
     },

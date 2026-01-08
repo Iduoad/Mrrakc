@@ -15,8 +15,8 @@
     "id": "moulay-thami-mausoleum",
     "description": "The Moulay Thami Mausoleum (or Marabout of Sidi Moulay Thami) is a local religious shrine dedicated to a revered Muslim saint, a common feature of Moroccan spiritual and social life, especially within Sufi tradition. These mausoleums, or marabouts, serve as centers for religious devotion and pilgrimage for locals seeking blessings (baraka). The site's significance is purely local and spiritual, situated in the outskirts of Casablanca.",
     "location": {
-      "longitude": 33.4699961,
-      "latitude": -7.8282761,
+      "longitude": -7.8282761,
+      "latitude": 33.4699961,
       "province": "province/casablanca"
     },
     "people": [

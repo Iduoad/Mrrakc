@@ -16,8 +16,8 @@
     "id": "le-cabestan-restaurant",
     "description": "Le Cabestan (The Capstan) is one of Casablanca's most iconic and longest-established fine-dining restaurants, celebrated for its **Mediterranean cuisine**, particularly fresh seafood. It is dramatically situated on the Corniche, offering spectacular, panoramic views of the Atlantic Ocean and the El Hank lighthouse. Its ambiance is chic and luxurious, making it a destination for upscale dining, business meetings, and special occasions. The restaurant has maintained a high-profile reputation since the mid-20th century.",
     "location": {
-      "longitude": 33.6081836,
-      "latitude": -7.6554723,
+      "longitude": -7.6554723,
+      "latitude": 33.6081836,
       "province": "province/casablanca"
     },
     "people": [],

@@ -9,8 +9,8 @@
     "id": "jewish-cemetery",
     "description": "No description available.",
     "location": {
-      "longitude": 31.726731,
-      "latitude": -7.006345,
+      "longitude": -7.006345,
+      "latitude": 31.726731,
       "province": "province/azilal"
     },
     "people": [],

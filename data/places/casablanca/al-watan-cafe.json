@@ -14,8 +14,8 @@
     "id": "al-watan-cafe",
     "description": "Al Watan Cafe is a local cafe in Casablanca that serves as a neighborhood meeting place. Cafes are fundamental to Moroccan social life, serving not just as places for coffee and tea but as hubs for conversation, business, and community interaction. Its location suggests it caters to a local clientele, offering a traditional Casablanca cafe experience.",
     "location": {
-      "longitude": 33.5744823,
-      "latitude": -7.6054613,
+      "longitude": -7.6054613,
+      "latitude": 33.5744823,
       "province": "province/casablanca"
     },
     "people": [],

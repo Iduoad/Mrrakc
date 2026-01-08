@@ -15,8 +15,8 @@
     "id": "khalifi-building",
     "description": "The Khalifi Building is a historical residential and commercial structure in the central Art Deco district of Casablanca. Its design likely dates back to the French Protectorate era (1920s-1930s), embodying the elegant, multi-story urban architecture of the time. The building continues to function as a mixed-use property, reflecting the enduring legacy of the Art Deco urban plan in this part of the city.",
     "location": {
-      "longitude": 33.5934231,
-      "latitude": -7.6080259,
+      "longitude": -7.6080259,
+      "latitude": 33.5934231,
       "province": "province/casablanca"
     },
     "people": [],

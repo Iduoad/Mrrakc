@@ -9,8 +9,8 @@
     "id": "eglise-notre-dame-de-lassomption",
     "description": "No description available.",
     "location": {
-      "longitude": 35.7747292,
-      "latitude": -5.8071156,
+      "longitude": -5.8071156,
+      "latitude": 35.7747292,
       "province": "province/tangier-assilah"
     },
     "people": [],

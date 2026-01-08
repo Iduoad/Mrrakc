@@ -16,8 +16,8 @@
     "id": "cinema-opera",
     "description": "Cinema Opéra (Cinéma Opéra) is a significant historical movie theater in central Casablanca. Designed by architect **Léon Aroutcheff** and completed around 1950, it represents the grand scale and dramatic architecture typical of post-war Moroccan cinemas, often incorporating Art Deco or Modernist elements. Though currently closed, it is recognized as a vital part of the city's cultural and architectural history, having been declared a **National Material Patrimony** site in 2018.",
     "location": {
-      "longitude": 33.5949098,
-      "latitude": -7.621793,
+      "longitude": -7.621793,
+      "latitude": 33.5949098,
       "province": "province/casablanca"
     },
     "people": [

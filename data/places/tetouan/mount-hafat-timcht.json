@@ -12,8 +12,8 @@
     "id": "mount-hafat-timcht",
     "description": "No description available",
     "location": {
-      "longitude": 35.3135447,
-      "latitude": -5.2747481,
+      "longitude": -5.2747481,
+      "latitude": 35.3135447,
       "altitude": 1680,
       "province": "province/tetouan"
     },

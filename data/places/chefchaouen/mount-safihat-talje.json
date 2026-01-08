@@ -12,8 +12,8 @@
     "id": "mount-safihat-talje",
     "description": "No description available",
     "location": {
-      "longitude": 35.1779032,
-      "latitude": -5.2149754,
+      "longitude": -5.2149754,
+      "latitude": 35.1779032,
       "altitude": 2038,
       "province": "province/chefchaouen"
     },

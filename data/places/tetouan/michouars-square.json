@@ -9,8 +9,8 @@
     "id": "michouars-square",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5703629,
-      "latitude": -5.3690509,
+      "longitude": -5.3690509,
+      "latitude": 35.5703629,
       "province": "province/tetouan"
     },
     "people": [],

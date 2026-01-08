@@ -9,8 +9,8 @@
     "id": "kasbah-elhaj-el-hachmi",
     "description": "Was home to Alaouite Chorfa<br><br>State: Inhabited",
     "location": {
-      "longitude": 31.2495354,
-      "latitude": -4.2238157,
+      "longitude": -4.2238157,
+      "latitude": 31.2495354,
       "province": "province/errachidia"
     },
     "people": [],

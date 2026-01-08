@@ -9,8 +9,8 @@
     "id": "safi-dam",
     "description": "No description available.",
     "location": {
-      "longitude": 32.3244365,
-      "latitude": -9.1869997,
+      "longitude": -9.1869997,
+      "latitude": 32.3244365,
       "province": "province/safi"
     },
     "people": [],

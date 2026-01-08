@@ -14,8 +14,8 @@
     "id": "medina-cinema",
     "description": "Medina Cinema (Cinéma Medina) is a historical movie theater located near the Old Medina (Ancienne Médina). Its name highlights its location close to the historic core, serving the cultural needs of the old town and the adjacent new districts. Like many single-screen theaters, it is likely closed or repurposed, representing a piece of Casablanca's fading cinematic history.",
     "location": {
-      "longitude": 33.5988805,
-      "latitude": -7.6205493,
+      "longitude": -7.6205493,
+      "latitude": 33.5988805,
       "province": "province/casablanca"
     },
     "people": [],

@@ -15,8 +15,8 @@
     "id": "covered-market-of-ain-chock",
     "description": "The Covered Market of Ain Chock (Marché Couvert d'Aïn Chock) is a central marketplace serving the Aïn Chock neighborhood. Covered markets in Morocco are essential for daily life, providing local residents with fresh produce, meat, fish, and household goods in a more organized, enclosed environment than an open-air souk. It is a bustling center of local commerce and a sensory experience that reflects the neighborhood's daily rhythm.",
     "location": {
-      "longitude": 33.5521697,
-      "latitude": -7.5993081,
+      "longitude": -7.5993081,
+      "latitude": 33.5521697,
       "province": "province/casablanca"
     },
     "people": [],

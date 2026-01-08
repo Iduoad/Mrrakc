@@ -16,8 +16,8 @@
     "id": "ctm-building",
     "description": "The CTM Building (Compagnie de Transports Marocains), located on the Place de la Victoire, is a landmark of Casablanca's post-war modernist architecture. Designed by architect **Alexandre Courtois** and constructed between 1951 and 1955, it served as the central bus station and headquarters for the country's main intercity bus operator. The building is renowned for its functional, streamlined design and large, covered bus shelters, representing the era's focus on modern infrastructure and mobility. It is considered a site of **National Material Patrimony**.",
     "location": {
-      "longitude": 33.5960914,
-      "latitude": -7.6110031,
+      "longitude": -7.6110031,
+      "latitude": 33.5960914,
       "province": "province/casablanca"
     },
     "people": [

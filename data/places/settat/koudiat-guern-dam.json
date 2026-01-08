@@ -9,8 +9,8 @@
     "id": "koudiat-guern-dam",
     "description": "AKA Tamedsourt",
     "location": {
-      "longitude": 33.0214696,
-      "latitude": -7.5229998,
+      "longitude": -7.5229998,
+      "latitude": 33.0214696,
       "province": "province/settat"
     },
     "people": [],

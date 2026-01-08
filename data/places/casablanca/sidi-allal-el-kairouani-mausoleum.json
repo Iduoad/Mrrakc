@@ -15,8 +15,8 @@
     "id": "sidi-allal-el-kairouani-mausoleum",
     "description": "The Sidi Allal El-Kairouani Mausoleum (Marabout de Sidi Allal al-Qairawani) is a prominent historical and religious shrine located near the Old Medina. It is dedicated to Sidi Allal al-Qairawani, a revered saint whose presence is deeply rooted in the history of Casablanca (formerly Anfa). The shrine is a center for local veneration and is architecturally significant as a preserved religious structure within the historical core of the city. The nearby gate, Bab Allal, is also named after him.",
     "location": {
-      "longitude": 33.6032368,
-      "latitude": -7.6196207,
+      "longitude": -7.6196207,
+      "latitude": 33.6032368,
       "province": "province/casablanca"
     },
     "people": [

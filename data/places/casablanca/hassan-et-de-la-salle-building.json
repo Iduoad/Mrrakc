@@ -11,8 +11,8 @@
     "id": "hassan-et-de-la-salle-building",
     "description": "No description available",
     "location": {
-      "longitude": 33.594891,
-      "latitude": -7.619924,
+      "longitude": -7.619924,
+      "latitude": 33.594891,
       "province": "province/casablanca"
     },
     "people": [

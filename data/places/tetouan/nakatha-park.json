@@ -9,8 +9,8 @@
     "id": "nakatha-park",
     "description": "No description available.",
     "location": {
-      "longitude": 35.5824728,
-      "latitude": -5.4164619,
+      "longitude": -5.4164619,
+      "latitude": 35.5824728,
       "province": "province/tetouan"
     },
     "people": [],

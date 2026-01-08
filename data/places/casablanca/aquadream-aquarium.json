@@ -15,8 +15,8 @@
     "id": "aquadream-aquarium",
     "description": "Aquadream Aquarium is a major public aquarium located within the Morocco Mall, one of Africa's largest shopping centers, on the Ain Diab Corniche. The aquarium is a centerpiece attraction designed to offer an immersive experience into a coral reef environment. It emphasizes education and the importance of ocean conservation. A notable feature is its design which incorporates an underwater walkway and provides a dramatic visual experience of marine life, making it a key destination for family leisure and entertainment.",
     "location": {
-      "longitude": 33.5766799,
-      "latitude": -7.7063941,
+      "longitude": -7.7063941,
+      "latitude": 33.5766799,
       "province": "province/casablanca"
     },
     "people": [

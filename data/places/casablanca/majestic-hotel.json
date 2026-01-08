@@ -16,8 +16,8 @@
     "id": "majestic-hotel",
     "description": "The Majestic Hotel is a long-standing historical hotel located in the heart of Casablanca's commercial district. Completed around 1948, its architecture reflects the late Art Deco and early Modernist styles of the post-war building boom, providing high-quality lodging for travelers, merchants, and visitors. The hotel's central location and history make it a point of reference in the city's hospitality sector. It was declared a **National Material Patrimony** site in 2005.",
     "location": {
-      "longitude": 33.5911054,
-      "latitude": -7.6134255,
+      "longitude": -7.6134255,
+      "latitude": 33.5911054,
       "province": "province/casablanca"
     },
     "people": [],

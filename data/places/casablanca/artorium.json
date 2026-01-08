@@ -14,8 +14,8 @@
     "id": "artorium",
     "description": "Artorium is an art space and gallery in the Oasis neighborhood of Casablanca, founded by the TGCC Foundation. Inaugurated in November 2017, its mission is to actively democratize and promote culture in Morocco by hosting a variety of cultural events, including group and solo art exhibitions, conferences, and workshops. It serves as a space for exchange and sharing, aiming to introduce art and culture to novices and the wider public, beyond just professionals and enthusiasts.",
     "location": {
-      "longitude": 33.5582931,
-      "latitude": -7.630497,
+      "longitude": -7.630497,
+      "latitude": 33.5582931,
       "province": "province/casablanca"
     },
     "people": [

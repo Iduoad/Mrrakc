@@ -15,8 +15,8 @@
     "id": "royal-palace",
     "description": "The Royal Palace of Casablanca (Dar el Makhzen) is a formal residence and administrative palace for the King of Morocco, located in the Habous Quarter area. Characterized by magnificent Moroccan architecture and extensive grounds, it serves as a center for royal protocol and official functions when the King is in the city. As a high-security royal compound, it is strictly **forbidden to the public**, although its exterior and impressive walls are visible from surrounding public areas.",
     "location": {
-      "longitude": 33.5803387,
-      "latitude": -7.6054573,
+      "longitude": -7.6054573,
+      "latitude": 33.5803387,
       "province": "province/casablanca"
     },
     "people": [

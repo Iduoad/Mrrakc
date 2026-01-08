@@ -12,8 +12,8 @@
     "id": "mount-imzi",
     "description": "No description available",
     "location": {
-      "longitude": 29.7513889,
-      "latitude": -9.2816667,
+      "longitude": -9.2816667,
+      "latitude": 29.7513889,
       "altitude": 1535,
       "province": "province/tiznit"
     },

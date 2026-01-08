@@ -15,8 +15,8 @@
     "id": "al-khawarizmy-high-school",
     "description": "Al Khawarizmy High School, formerly known as 'l'INDUS' (the Industrial and Commercial School of Casablanca), is considered the oldest high school in the city. Inaugurated in 1917 during the French Protectorate, the school was historically a prestigious institution, attracting the country's top mathematics students and training a significant portion of the Moroccan elite in technical and scientific fields. Its long history and architectural significance led to its classification as a National Material Patrimony site in 2004.",
     "location": {
-      "longitude": 33.5792242,
-      "latitude": -7.5991565,
+      "longitude": -7.5991565,
+      "latitude": 33.5792242,
       "province": "province/casablanca"
     },
     "people": [],

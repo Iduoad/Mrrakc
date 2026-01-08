@@ -12,8 +12,8 @@
     "id": "mount-monte-blanco",
     "description": "No description available",
     "location": {
-      "longitude": 35.6667924,
-      "latitude": -5.4302062,
+      "longitude": -5.4302062,
+      "latitude": 35.6667924,
       "altitude": 838,
       "province": "province/mdiq-fnideq"
     },

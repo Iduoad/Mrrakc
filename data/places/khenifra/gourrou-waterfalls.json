@@ -9,8 +9,8 @@
     "id": "gourrou-waterfalls",
     "description": "No description available.",
     "location": {
-      "longitude": 33.1075216,
-      "latitude": -5.4555149,
+      "longitude": -5.4555149,
+      "latitude": 33.1075216,
       "province": "province/khenifra"
     },
     "people": [],
