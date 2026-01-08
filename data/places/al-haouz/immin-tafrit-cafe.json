@@ -1,34 +1,35 @@
 {
-    "version": "mrrakc/v0",
-    "kind": "food/cafe",
-    "metadata": {
-        "tags": []
+  "version": "mrrakc/v0",
+  "kind": "food/cafe",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Immin Tafrit Cafe",
+    "id": "immin-tafrit-cafe",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.0849375,
+      "longitude": -7.9233125,
+      "province": "province/al-haouz"
     },
-    "spec": {
-        "name": "Immin Tafrit Cafe",
-        "id": "immin-tafrit-cafe",
-        "description": "No description available",
-        "location": {
-            "province": "province/al-haouz",
-            "latitude": 31.0849375,
-            "longitude": -7.9233125,
-            "altitude": 0.0
-        },
-        "people": [],
-        "timeline": [],
-        "links": [
-            {
-                "url": "https://maps.google.com/?cid=237665618317637888",
-                "title": "https://maps.google.com/?cid=237665618317637888",
-                "type": "map"
-            }
-        ],
-        "activities": [],
-        "items": [],
-        "access": {
-            "type": "public",
-            "status": "open"
-        },
-        "timePeriods": []
-    }
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=237665618317637888",
+        "title": "https://maps.google.com/?cid=237665618317637888",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
 }

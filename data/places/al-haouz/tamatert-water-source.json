@@ -1,34 +1,35 @@
 {
-    "version": "mrrakc/v0",
-    "kind": "nature/water-source",
-    "metadata": {
-        "tags": []
+  "version": "mrrakc/v0",
+  "kind": "nature/water-source",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Tamatert Water Source",
+    "id": "tamatert-water-source",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1433047,
+      "longitude": -7.8988511,
+      "province": "province/al-haouz"
     },
-    "spec": {
-        "name": "Tamatert\u00a0Water Source",
-        "id": "tamatert-water-source",
-        "description": "No description available",
-        "location": {
-            "province": "province/al-haouz",
-            "latitude": 31.1433047,
-            "longitude": -7.8988511,
-            "altitude": 0.0
-        },
-        "people": [],
-        "timeline": [],
-        "links": [
-            {
-                "url": "https://maps.google.com/?cid=16398103055539327032",
-                "title": "https://maps.google.com/?cid=16398103055539327032",
-                "type": "map"
-            }
-        ],
-        "activities": [],
-        "items": [],
-        "access": {
-            "type": "public",
-            "status": "open"
-        },
-        "timePeriods": []
-    }
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16398103055539327032",
+        "title": "https://maps.google.com/?cid=16398103055539327032",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
 }

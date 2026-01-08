@@ -1,34 +1,35 @@
 {
-    "version": "mrrakc/v0",
-    "kind": "urban/viewpoint",
-    "metadata": {
-        "tags": []
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Imlil Lookout Viewpoint",
+    "id": "imlil-lookout-viewpoint",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1309483,
+      "longitude": -7.920038,
+      "province": "province/al-haouz"
     },
-    "spec": {
-        "name": "Imlil Lookout Viewpoint",
-        "id": "imlil-lookout-viewpoint",
-        "description": "No description available",
-        "location": {
-            "province": "province/al-haouz",
-            "latitude": 31.1309483,
-            "longitude": -7.920038,
-            "altitude": 0.0
-        },
-        "people": [],
-        "timeline": [],
-        "links": [
-            {
-                "url": "https://maps.google.com/?cid=1043148842115943597",
-                "title": "https://maps.google.com/?cid=1043148842115943597",
-                "type": "map"
-            }
-        ],
-        "activities": [],
-        "items": [],
-        "access": {
-            "type": "public",
-            "status": "open"
-        },
-        "timePeriods": []
-    }
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1043148842115943597",
+        "title": "https://maps.google.com/?cid=1043148842115943597",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
 }

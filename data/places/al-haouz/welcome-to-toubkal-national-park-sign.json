@@ -1,34 +1,35 @@
 {
-    "version": "mrrakc/v0",
-    "kind": "urban/landmark",
-    "metadata": {
-        "tags": []
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Welcome to Toubkal National Park Sign",
+    "id": "welcome-to-toubkal-national-park-sign",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1121672,
+      "longitude": -7.9198729,
+      "province": "province/al-haouz"
     },
-    "spec": {
-        "name": "Welcome to Toubkal National Park Sign",
-        "id": "welcome-to-toubkal-national-park-sign",
-        "description": "No description available",
-        "location": {
-            "province": "province/al-haouz",
-            "latitude": 31.1121672,
-            "longitude": -7.9198729,
-            "altitude": 0.0
-        },
-        "people": [],
-        "timeline": [],
-        "links": [
-            {
-                "url": "https://maps.google.com/?cid=3958173542606114767",
-                "title": "https://maps.google.com/?cid=3958173542606114767",
-                "type": "map"
-            }
-        ],
-        "activities": [],
-        "items": [],
-        "access": {
-            "type": "public",
-            "status": "open"
-        },
-        "timePeriods": []
-    }
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3958173542606114767",
+        "title": "https://maps.google.com/?cid=3958173542606114767",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
 }

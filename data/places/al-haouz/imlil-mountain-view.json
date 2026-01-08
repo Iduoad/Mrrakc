@@ -1,34 +1,35 @@
 {
-    "version": "mrrakc/v0",
-    "kind": "urban/viewpoint",
-    "metadata": {
-        "tags": []
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Imlil Mountain View",
+    "id": "imlil-mountain-view",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1328058,
+      "longitude": -7.9219486,
+      "province": "province/al-haouz"
     },
-    "spec": {
-        "name": "Imlil Mountain View",
-        "id": "imlil-mountain-view",
-        "description": "No description available",
-        "location": {
-            "province": "province/al-haouz",
-            "latitude": 31.1328058,
-            "longitude": -7.9219486,
-            "altitude": 0.0
-        },
-        "people": [],
-        "timeline": [],
-        "links": [
-            {
-                "url": "https://maps.google.com/?cid=3488572180248589084",
-                "title": "https://maps.google.com/?cid=3488572180248589084",
-                "type": "map"
-            }
-        ],
-        "activities": [],
-        "items": [],
-        "access": {
-            "type": "public",
-            "status": "open"
-        },
-        "timePeriods": []
-    }
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3488572180248589084",
+        "title": "https://maps.google.com/?cid=3488572180248589084",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
 }

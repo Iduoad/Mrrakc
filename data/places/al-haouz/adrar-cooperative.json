@@ -1,38 +1,39 @@
 {
-    "version": "mrrakc/v0",
-    "kind": "shopping/cooperative",
-    "metadata": {
-        "tags": []
+  "version": "mrrakc/v0",
+  "kind": "shopping/cooperative",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Adrar Cooperative",
+    "id": "adrar-cooperative",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1340331,
+      "longitude": -7.9193993,
+      "province": "province/al-haouz"
     },
-    "spec": {
-        "name": "Adrar Cooperative",
-        "id": "adrar-cooperative",
-        "description": "No description available",
-        "location": {
-            "province": "province/al-haouz",
-            "latitude": 31.1340331,
-            "longitude": -7.9193993,
-            "altitude": 0.0
-        },
-        "people": [],
-        "timeline": [],
-        "links": [
-            {
-                "url": "https://maps.google.com/?cid=2964316893597035284",
-                "title": "https://maps.google.com/?cid=2964316893597035284",
-                "type": "map"
-            }
-        ],
-        "activities": [
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2964316893597035284",
+        "title": "https://maps.google.com/?cid=2964316893597035284",
+        "type": "map"
+      }
+    ],
+    "activities": [
       "shopping"
     ],
-        "items": [
+    "items": [
       "amazigh rugs"
     ],
-        "access": {
-            "type": "public",
-            "status": "open"
-        },
-        "timePeriods": []
-    }
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
 }
