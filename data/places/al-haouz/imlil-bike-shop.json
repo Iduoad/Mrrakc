@@ -1,0 +1,39 @@
+{
+    "version": "mrrakc/v0",
+    "kind": "service/rental",
+    "metadata": {
+        "tags": []
+    },
+    "spec": {
+        "name": "Imlil Bike Shop",
+        "id": "imlil-bike-shop",
+        "description": "No description available",
+        "location": {
+            "province": "province/al-haouz",
+            "latitude": 31.1367348,
+            "longitude": -7.9207275,
+            "altitude": 0.0
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.google.com/?cid=11576284979608117954",
+                "title": "https://maps.google.com/?cid=11576284979608117954",
+                "type": "map"
+            },
+            {
+                "url": "https://imlil-bike-shop.com/",
+                "title": "https://imlil-bike-shop.com/",
+                "type": "website"
+            }
+        ],
+        "activities": [],
+        "items": [],
+        "access": {
+            "type": "public",
+            "status": "open"
+        },
+        "timePeriods": []
+    }
+}

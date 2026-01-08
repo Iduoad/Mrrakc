@@ -1,0 +1,34 @@
+{
+    "version": "mrrakc/v0",
+    "kind": "accommodation/refuge",
+    "metadata": {
+        "tags": []
+    },
+    "spec": {
+        "name": "Alpine Club Toubkal Refuge",
+        "id": "alpine-club-toubkal-refuge",
+        "description": "No description available",
+        "location": {
+            "province": "province/al-haouz",
+            "latitude": 31.063497,
+            "longitude": -7.9375697,
+            "altitude": 0.0
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.google.com/?cid=5121436240699490237",
+                "title": "https://maps.google.com/?cid=5121436240699490237",
+                "type": "map"
+            }
+        ],
+        "activities": [],
+        "items": [],
+        "access": {
+            "type": "public",
+            "status": "open"
+        },
+        "timePeriods": []
+    }
+}

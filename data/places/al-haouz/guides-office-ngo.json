@@ -1,0 +1,39 @@
+{
+    "version": "mrrakc/v0",
+    "kind": "service/guide-office",
+    "metadata": {
+        "tags": []
+    },
+    "spec": {
+        "name": "Guides Office NGO",
+        "id": "guides-office-ngo",
+        "description": "No description available",
+        "location": {
+            "province": "province/al-haouz",
+            "latitude": 31.1373037,
+            "longitude": -7.9205552,
+            "altitude": 0.0
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.google.com/?cid=12604998088224507063",
+                "title": "https://maps.google.com/?cid=12604998088224507063",
+                "type": "map"
+            },
+            {
+                "url": "http://bureaudesguidesimlil.com/",
+                "title": "http://bureaudesguidesimlil.com/",
+                "type": "website"
+            }
+        ],
+        "activities": [],
+        "items": [],
+        "access": {
+            "type": "public",
+            "status": "open"
+        },
+        "timePeriods": []
+    }
+}

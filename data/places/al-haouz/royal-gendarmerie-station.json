@@ -1,0 +1,34 @@
+{
+    "version": "mrrakc/v0",
+    "kind": "admin/gendarmerie",
+    "metadata": {
+        "tags": []
+    },
+    "spec": {
+        "name": "Royal Gendarmerie Station",
+        "id": "royal-gendarmerie-station",
+        "description": "No description available",
+        "location": {
+            "province": "province/al-haouz",
+            "latitude": 31.1224617,
+            "longitude": -7.9213256,
+            "altitude": 0.0
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.google.com/?cid=15029140062769576495",
+                "title": "https://maps.google.com/?cid=15029140062769576495",
+                "type": "map"
+            }
+        ],
+        "activities": [],
+        "items": [],
+        "access": {
+            "type": "public",
+            "status": "open"
+        },
+        "timePeriods": []
+    }
+}

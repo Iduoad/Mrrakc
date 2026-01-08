@@ -1,0 +1,34 @@
+{
+    "version": "mrrakc/v0",
+    "kind": "shopping/cooperative",
+    "metadata": {
+        "tags": []
+    },
+    "spec": {
+        "name": "Bolmssail\u00a0Rugs Cooperative",
+        "id": "bolmssail-rugs-cooperative",
+        "description": "No description available",
+        "location": {
+            "province": "province/al-haouz",
+            "latitude": 31.1272113,
+            "longitude": -7.9196259,
+            "altitude": 0.0
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.google.com/?cid=15549689325557389490",
+                "title": "https://maps.google.com/?cid=15549689325557389490",
+                "type": "map"
+            }
+        ],
+        "activities": [],
+        "items": [],
+        "access": {
+            "type": "public",
+            "status": "open"
+        },
+        "timePeriods": []
+    }
+}

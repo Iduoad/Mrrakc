@@ -1,0 +1,34 @@
+{
+    "version": "mrrakc/v0",
+    "kind": "food/cafe",
+    "metadata": {
+        "tags": []
+    },
+    "spec": {
+        "name": "Tizi Mzik Cafe",
+        "id": "tizi-mzik-cafe",
+        "description": "No description available",
+        "location": {
+            "province": "province/al-haouz",
+            "latitude": 31.1236488,
+            "longitude": -7.9512168,
+            "altitude": 0.0
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.google.com/?cid=889689854809968676",
+                "title": "https://maps.google.com/?cid=889689854809968676",
+                "type": "map"
+            }
+        ],
+        "activities": [],
+        "items": [],
+        "access": {
+            "type": "public",
+            "status": "open"
+        },
+        "timePeriods": []
+    }
+}
