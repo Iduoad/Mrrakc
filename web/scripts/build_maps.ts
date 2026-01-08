@@ -2,13 +2,16 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import jmespath from 'jmespath';
 
-const DATA_DIR = path.resolve(process.cwd(), 'data');
+import { fileURLToPath } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const DATA_DIR = path.resolve(__dirname, '../../data');
 const MAPS_DIR = path.join(DATA_DIR, 'maps');
 const PLACES_DIR = path.join(DATA_DIR, 'places');
 const PEOPLE_DIR = path.join(DATA_DIR, 'people');
 const PLANS_DIR = path.join(DATA_DIR, 'plans');
-const OUTPUT_MAPS_FILE = path.resolve(process.cwd(), 'src/data/generated/maps.json');
-const OUTPUT_PLANS_FILE = path.resolve(process.cwd(), 'src/data/generated/plans.json');
+const OUTPUT_MAPS_FILE = path.resolve(__dirname, '../src/data/generated/maps.json');
+const OUTPUT_PLANS_FILE = path.resolve(__dirname, '../src/data/generated/plans.json');
 
 interface Place {
     id: string;
@@ -345,7 +348,7 @@ async function buildData() {
 
     // --- Build Plans ---
     const plansOutput: Record<string, Plan> = {};
-    const CONTENT_PLANS_DIR = path.resolve(process.cwd(), 'src/content/plans');
+    const CONTENT_PLANS_DIR = path.resolve(__dirname, '../src/content/plans');
     const contentFiles = await getFiles(CONTENT_PLANS_DIR);
     const validPlanIds = new Set(contentFiles.map(f => path.basename(f, path.extname(f))));
 
