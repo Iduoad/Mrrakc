@@ -48,8 +48,8 @@ const points: MapPoint[] = selectedPlaces.map(place => {
     category: category,
     description: spec.description,
     location: {
-      latitude: spec.location.longitude, // Swapping because source data is swapped
-      longitude: spec.location.latitude, // Swapping because source data is swapped
+      latitude: spec.location.latitude,
+      longitude: spec.location.longitude,
       province: spec.location.province,
       altitude: spec.location.altitude
     },

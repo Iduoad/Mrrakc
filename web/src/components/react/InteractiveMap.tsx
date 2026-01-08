@@ -44,7 +44,12 @@ import {
     FerrisWheel,
     Waves,
     PawPrint,
-    Mountain
+    Mountain,
+    MountainSnow,
+    Dam,
+    Kayak,
+    Castle,
+    TowerControl
 } from 'lucide-react';
 
 import type { MapPoint } from '../../types/map';
@@ -72,6 +77,9 @@ const getIcon = (kindString: string) => {
     if (kind.includes('zoo')) return <PawPrint size={18} />;
     if (kind.includes('park') || kind.includes('garden')) return <Trees size={18} />;
     if (kind.includes('beach')) return <Waves size={18} />;
+    if (kind.includes('dam')) return <Dam size={18} />;
+    if (kind.includes('lake')) return <Kayak size={18} />;
+    if (kind.includes('mountain')) return <MountainSnow size={18} />;
     if (kind.includes('station') || kind.includes('tram') || kind.includes('train')) return <TrainFront size={18} />;
     if (kind.includes('market') || kind.includes('souk') || kind.includes('mall')) return <ShoppingBag size={18} />;
     if (kind.includes('bakery')) return <Croissant size={18} />;
@@ -85,7 +93,8 @@ const getIcon = (kindString: string) => {
     if (kind.includes('stadium')) return <Trophy size={18} />;
     if (kind.includes('mosque')) return <Moon size={18} />;
     if (kind.includes('church') || kind.includes('synagogue')) return <Church size={18} />;
-    if (kind.includes('kasbah') || kind.includes('fort')) return <Landmark size={18} />;
+    if (kind.includes('gate') || kind.includes('bastion') || kind.includes('fort') || kind.includes('kasbah')) return <Castle size={18} />;
+    if (kind.includes('lighthouse')) return <TowerControl size={18} />;
     if (kind.includes('building') || kind.includes('villa') || kind.includes('office')) return <Landmark size={18} />;
     if (kind.includes('square') || kind.includes('plaza')) return <Milestone size={18} />;
 

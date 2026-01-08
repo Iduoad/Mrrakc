@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import plansData from '../../data/generated/plans.json';
+import { getEntry } from 'astro:content';
+import { Map, Clock, Mountain, ArrowRight } from 'lucide-react';
+
+const plans = await Promise.all(Object.values(plansData).map(async (plan) => {
+  const entry = await getEntry('plans', plan.id);
+  const heroImage = entry?.data.heroImage;
+  const title = plan.spec.title || entry?.data.title || plan.spec.steps[0]?.title || 'Untitled Plan';
+  const pubDate = plan.spec.pubDate ? new Date(plan.spec.pubDate) : (entry?.data.pubDate || new Date(0));
+  
+  return {
+    ...plan,
+    title,
+    heroImage,
+    pubDate
+  };
+}));
+
+plans.sort((a, b) => b.pubDate.getTime() - a.pubDate.getTime());
+---
+
+<BaseLayout title="Blanat - Itineraries" description="Curated itineraries for exploring Mrrakc and its surroundings.">
+  <div class="container mx-auto px-4 py-12">
+    <div class="max-w-4xl mx-auto mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-4">
+        Blanat
+      </h1>
+      <p class="text-lg text-charcoal-light dark:text-stone-400">
+        Curated itineraries to help you discover the best of the region.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {plans.map((plan) => (
+        <a href={`/plans/${plan.id}`} class="group block bg-white dark:bg-charcoal rounded-2xl border border-clay/20 dark:border-charcoal-light overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+          <div class="h-48 bg-clay/10 dark:bg-charcoal-light/10 relative flex items-center justify-center overflow-hidden">
+            {plan.heroImage ? (
+               <img src={plan.heroImage} alt={plan.title} class="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" />
+            ) : (
+                <Map size={48} class="text-terra/20 group-hover:scale-110 transition-transform duration-500" />
+            )}
+            <div class="absolute top-4 right-4 bg-white/90 dark:bg-charcoal/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-terra border border-terra/20">
+              {plan.kind.split('/').pop()?.replace('-', ' ')}
+            </div>
+          </div>
+          
+          <div class="p-6">
+            <h2 class="text-xl font-serif font-bold text-charcoal dark:text-stone-100 mb-3 group-hover:text-terra transition-colors">
+              {plan.title}
+            </h2>
+            
+            <div class="flex items-center gap-4 text-sm text-charcoal-light dark:text-stone-400 mb-6">
+              <div class="flex items-center gap-1.5">
+                <Clock size={16} />
+                <span>{plan.spec.estimatedDuration.value} {plan.spec.estimatedDuration.unit}</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <Mountain size={16} />
+                <span class="capitalize">{plan.spec.difficulty}</span>
+              </div>
+            </div>
+            
+            <div class="flex items-center justify-between pt-4 border-t border-clay/10 dark:border-charcoal-light/30">
+              <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500">
+                {plan.spec.steps.length} Steps
+              </span>
+              <span class="flex items-center gap-1 text-sm font-bold text-terra group-hover:translate-x-1 transition-transform">
+                View Plan <ArrowRight size={16} />
+              </span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

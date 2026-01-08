@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+// Force reload content
 import { glob } from 'astro/loaders';
 import { fileURLToPath } from 'url';
 import path from 'path';
@@ -123,5 +124,16 @@ const games = defineCollection({
     }),
 });
 
-export const collections = { blog, places, provinces, maps, games };
+const plans = defineCollection({
+    loader: glob({ pattern: "**/*.md", base: path.resolve(__dirname, 'plans') }),
+    schema: ({ image }) => z.object({
+        planId: z.string().optional(),
+        title: z.string().optional(),
+        description: z.string().optional(),
+        pubDate: z.coerce.date().optional(),
+        heroImage: z.union([image(), z.string()]).optional(),
+    }),
+});
+
+export const collections = { blog, places, provinces, maps, games, plans };
 
