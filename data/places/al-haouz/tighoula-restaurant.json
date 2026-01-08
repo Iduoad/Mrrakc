@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Tighoula Restaurant",
+    "id": "tighoula-restaurant",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1381299,
+      "longitude": -7.9107316,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13706518340311585187",
+        "title": "https://maps.google.com/?cid=13706518340311585187",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

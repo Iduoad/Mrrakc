@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/shop",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Moroccan carpets cooperative imlil",
+    "id": "moroccan-carpets-cooperative-imlil",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1355551,
+      "longitude": -7.9197033,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=11773409654509365996",
+        "title": "https://maps.google.com/?cid=11773409654509365996",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "service/rental",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Mountain Bike Morocco Company",
+    "id": "mountain-bike-morocco-company",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1366517,
+      "longitude": -7.9207144,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3826452556666687719",
+        "title": "https://maps.google.com/?cid=3826452556666687719",
+        "type": "map"
+      },
+      {
+        "url": "https://www.mountain-bike-morocco.com/",
+        "title": "https://www.mountain-bike-morocco.com/",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/mountain",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Mount Aourirt n'Ouassif",
+    "id": "mount-aourirt-n-ouassif",
+    "description": "High Atlas\nAKA: Taoudja Peak",
+    "location": {
+      "latitude": 31.1551606,
+      "longitude": -7.903952,
+      "altitude": 2724,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://fr.wikiloc.com/itineraires-randonnee/sommet-aourirt-nouassif-56234732",
+        "title": "https://fr.wikiloc.com/itineraires-randonnee/sommet-aourirt-nouassif-56234732",
+        "type": "map"
+      },
+      {
+        "url": "https://maps.google.com/?cid=4798794321935102001",
+        "title": "https://maps.google.com/?cid=4798794321935102001",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

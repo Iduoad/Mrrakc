@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/waterfall",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Armed Waterfalls",
+    "id": "armed-waterfalls",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1293559,
+      "longitude": -7.9140394,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3848506293034229999",
+        "title": "https://maps.google.com/?cid=3848506293034229999",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/shop",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Trek toubkal shop",
+    "id": "trek-toubkal-shop",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1377986,
+      "longitude": -7.9210763,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "http://www.trektoubkal.ma/",
+        "title": "http://www.trektoubkal.ma/",
+        "type": "website"
+      },
+      {
+        "url": "https://maps.google.com/?cid=15826755043278818734",
+        "title": "https://maps.google.com/?cid=15826755043278818734",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

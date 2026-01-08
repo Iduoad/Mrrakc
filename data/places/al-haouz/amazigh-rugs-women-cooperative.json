@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/cooperative",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Amazigh Rugs Women Cooperative",
+    "id": "amazigh-rugs-women-cooperative",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1320206,
+      "longitude": -7.9171075,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8453902295368231821",
+        "title": "https://maps.google.com/?cid=8453902295368231821",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

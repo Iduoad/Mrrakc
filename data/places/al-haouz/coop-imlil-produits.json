@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/cooperative",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Imlil produits Cooperative",
+    "id": "coop-imlil-produits",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.1356013,
+      "longitude": -7.9196711,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15927612049388772604",
+        "title": "https://maps.google.com/?cid=15927612049388772604",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}
