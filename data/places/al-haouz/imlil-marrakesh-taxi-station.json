@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "service/taxi-station",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Imlil Taxi Station",
+    "id": "imlil-marrakesh-taxi-station",
+    "description": "Taxi Station from Imlil to Marrakesh and other destinations.",
+    "location": {
+      "longitude": -7.921102722050245,
+      "latitude": 31.139701587454034,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

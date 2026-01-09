@@ -3,7 +3,7 @@
     "version": "mrrakc/v0",
     "spec": {
         "id": "high-atlas-trek",
-        "title": "Toubkal Summit Trek",
+        "title": "Toubkal Summit Weekend Trek",
         "description": "A challenging but rewarding trek to the summit of Mount Toubkal, the highest peak in North Africa.",
         "estimatedDuration": {
             "value": 2,
@@ -12,38 +12,70 @@
         "difficulty": "hard",
         "steps": [
             {
-                "title": "Journey to Imlil",
+                "title": "Journey From Marrakech to Imlil",
                 "description": "Take a shared taxi from Marrakech to Imlil. The fare is typically for a seat (1/6 of the taxi). Note that shared taxis may be less frequent in the evening.",
                 "type": "waypoint",
-                "placeIds": [],
+                "placeIds": [
+                    "places/marrakesh/marrakesh-imlil-taxi-station",
+                    "places/al-haouz/imlil-marrakesh-taxi-station"
+                ],
                 "transportToNext": {
                     "mode": "Shared Taxi",
                     "durationMin": 90,
-                    "advice": "Depart early to ensure availability."
+                    "advice": "You should wait for the shared taxi to fill (6 places). Depart early to ensure availability."
                 }
             },
             {
                 "title": "Preparation & Booking",
-                "description": "Book a certified mountain guide (mandatory for Toubkal). Rent or buy necessary hiking gear (boots, warm clothes). Arrange lunch and book your stay at the refuge. Don't forget to buy snacks for the trail.",
+                "description": "Make the necessary preparations and bookings before starting the Toubkal hike. It is recommended to book your guide and refuge several days before arriving in Imlil.",
                 "type": "activity",
+                "people": [
+                    {
+                        "id": "people/mestapha-ait-hemad",
+                        "role": "Mountain Guide"
+                    }
+                ],
                 "placeIds": [
                     "places/al-haouz/trek-toubkal-shop",
-                    "places/al-haouz/mountain-bike-morocco-company"
+                    "places/al-haouz/guides-office-ngo"
+                ],
+                "subSteps": [
+                    {
+                        "title": "Book a Mountain Guide",
+                        "description": "Book a mountain guide. A certified guide is mandatory to enter the Toubkal National Park.",
+                        "type": "activity"
+                    },
+                    {
+                        "title": "Book Moutain Refuge and Meals",
+                        "description": "Book your night in refuge, and meals from restaurant and refuge. The guide can help with that.",
+                        "type": "activity"
+                    },
+                    {
+                        "title": "Buy or Rent hiking gear",
+                        "description": "Double-check your required hiking gear with the guide, and buy or rent any missing items from the shops in the village center.",
+                        "type": "activity"
+                    }
                 ]
             },
             {
                 "title": "Overnight in Imlil",
-                "description": "Spend the Friday night in Imlil to acclimatize. Enjoy the local hospitality and rest before the hike.",
+                "description": "Spend Friday night in Imlil to acclimatize. You can stay in the village center or continue on foot to the village of Armed, where the Toubkal hike begins. Enjoy the local hospitality and get some rest before the hike.",
                 "type": "overnight",
                 "placeIds": [
-                    "places/al-haouz/riad-imlil-cafe"
+                    "places/al-haouz/gite-atlas-mazik",
+                    "places/al-haouz/gite-akioud-mazzik",
+                    "places/al-haouz/gite-atlas-heaven",
+                    "places/al-haouz/riad-atlas-panorama",
+                    "places/al-haouz/toubkal-hostel"
                 ]
             },
             {
                 "title": "Breakfast",
                 "description": "Wake up and enjoy a hearty breakfast at your hotel or in the village.",
                 "type": "break",
-                "placeIds": []
+                "placeIds": [
+                    "places/al-haouz/riad-imlil-cafe"
+                ]
             },
             {
                 "title": "Trek to Checkpoint",
@@ -75,14 +107,18 @@
                 "description": "Take a rest at the shrine. You can buy refreshments here.",
                 "type": "break",
                 "optional": true,
-                "placeIds": []
+                "placeIds": [
+                    "places/al-haouz/chamharouch-cafe",
+                    "places/al-haouz/immin-tafrit-cafe"
+                ]
             },
             {
                 "title": "Reach Refuge",
                 "description": "Continue hiking to the refuge. Have dinner and get a good night's sleep.",
                 "type": "overnight",
                 "placeIds": [
-                    "places/al-haouz/les-mouflons-toubkal-refuge"
+                    "places/al-haouz/les-mouflons-toubkal-refuge",
+                    "places/al-haouz/alpine-club-toubkal-refuge"
                 ]
             },
             {
@@ -99,7 +135,7 @@
             {
                 "title": "Sunrise at Toubkal Peak",
                 "description": "Reach the summit (4167m) in time for a breathtaking sunrise.",
-                "type": "activity",
+                "type": "waypoint",
                 "placeIds": [
                     "places/al-haouz/mount-toubkal"
                 ]
@@ -109,7 +145,8 @@
                 "description": "Descend back to the refuge for a well-deserved break and lunch.",
                 "type": "break",
                 "placeIds": [
-                    "places/al-haouz/les-mouflons-toubkal-refuge"
+                    "places/al-haouz/les-mouflons-toubkal-refuge",
+                    "places/al-haouz/alpine-club-toubkal-refuge"
                 ],
                 "transportToNext": {
                     "mode": "Walking",
@@ -134,7 +171,12 @@
                 "type": "activity",
                 "optional": true,
                 "placeIds": [
-                    "places/al-haouz/moroccan-carpets-cooperative-imlil"
+                    "places/al-haouz/adrar-cooperative",
+                    "places/al-haouz/amazigh-rugs-women-cooperative",
+                    "places/al-haouz/bolmssail-rugs-cooperative",
+                    "places/al-haouz/douar-armed-cooperative",
+                    "places/al-haouz/moroccan-carpets-cooperative-imlil",
+                    "places/al-haouz/toubkal-kasbah-rug-cooperative"
                 ]
             }
         ]

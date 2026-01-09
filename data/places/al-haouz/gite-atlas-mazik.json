@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "accommodation/gite",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Gite Atlas Mazik",
+    "id": "gite-atlas-mazik",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.134183449433497,
+      "longitude": -7.926691962128792,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8648193700106715801",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

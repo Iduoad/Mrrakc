@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "accommodation/hostel",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Toubkal Hostel",
+    "id": "toubkal-hostel",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.123479783653956,
+      "longitude": -7.919244054449622,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=6188488175905260906",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}
