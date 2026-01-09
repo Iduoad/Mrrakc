@@ -72,6 +72,7 @@ interface Plan {
     id: string;
     kind: string;
     spec: {
+        title?: string;
         estimatedDuration: {
             value: number;
             unit: string;
@@ -294,7 +295,7 @@ export default function PlanView({ plan, children }: Props) {
     return (
         <div className="flex flex-col lg:flex-row min-h-screen">
             {/* Left Column: Content */}
-            <div className="w-full lg:w-1/2 p-4 lg:p-8 xl:p-12 order-2 lg:order-1">
+            <div className="w-full lg:w-1/2 p-4 lg:p-8 xl:p-12 pt-24 lg:pt-32 order-2 lg:order-1">
                 <div className="max-w-xl mx-auto">
                     <a href="/plans" className="inline-flex items-center gap-2 text-sm font-bold text-terra hover:underline mb-8">
                         <ChevronDown className="rotate-90" size={16} />
@@ -308,7 +309,7 @@ export default function PlanView({ plan, children }: Props) {
                             </span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-6 leading-tight">
-                            {steps[0]?.title || 'Plan Details'}
+                            {plan.spec.title || steps[0]?.title || 'Plan Details'}
                         </h1>
 
                         <div className="flex flex-wrap gap-6 text-charcoal-light dark:text-stone-400">
@@ -356,7 +357,7 @@ export default function PlanView({ plan, children }: Props) {
             </div>
 
             {/* Right Column: Map */}
-            <div className="w-full lg:w-1/2 h-[40vh] lg:h-screen sticky top-0 order-1 lg:order-2 bg-clay/10">
+            <div className="w-full lg:w-1/2 h-[40vh] lg:h-[calc(100vh-5rem)] sticky top-20 order-1 lg:order-2 bg-clay/10">
                 <Map
                     ref={mapRef}
                     onLoad={onMapLoad}
