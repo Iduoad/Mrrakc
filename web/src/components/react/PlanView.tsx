@@ -144,6 +144,23 @@ const StepCard = ({ step, index, isActive, onInView, onClick }: { step: Step; in
                     </p>
                 )}
 
+                {/* Substeps */}
+                {step.subSteps && step.subSteps.length > 0 && (
+                    <div className="mb-6 pl-4 border-l-2 border-clay/10 dark:border-charcoal-light/10 space-y-4">
+                        {step.subSteps.map((subStep, i) => (
+                            <div key={i} className="relative">
+                                <div className="flex items-center gap-2 mb-1">
+                                    <div className="w-2 h-2 rounded-full bg-terra/50"></div>
+                                    <h5 className="font-bold text-charcoal dark:text-stone-200">{subStep.title}</h5>
+                                </div>
+                                {subStep.description && (
+                                    <p className="text-sm text-charcoal-light dark:text-stone-400 pl-4">{subStep.description}</p>
+                                )}
+                            </div>
+                        ))}
+                    </div>
+                )}
+
                 {/* Places */}
                 {step.places && step.places.length > 0 && (
                     <div className="mb-4">
@@ -218,22 +235,7 @@ const StepCard = ({ step, index, isActive, onInView, onClick }: { step: Step; in
                     </div>
                 )}
 
-                {/* Substeps */}
-                {step.subSteps && step.subSteps.length > 0 && (
-                    <div className="mt-6 pl-4 border-l-2 border-clay/10 dark:border-charcoal-light/10 space-y-4">
-                        {step.subSteps.map((subStep, i) => (
-                            <div key={i} className="relative">
-                                <div className="flex items-center gap-2 mb-1">
-                                    <div className="w-2 h-2 rounded-full bg-terra/50"></div>
-                                    <h5 className="font-bold text-charcoal dark:text-stone-200">{subStep.title}</h5>
-                                </div>
-                                {subStep.description && (
-                                    <p className="text-sm text-charcoal-light dark:text-stone-400 pl-4">{subStep.description}</p>
-                                )}
-                            </div>
-                        ))}
-                    </div>
-                )}
+
             </div>
         </div>
     );
@@ -263,13 +265,13 @@ export default function PlanView({ plan, children }: Props) {
         latitude: p.spec.location.latitude
     }));
 
-    useEffect(() => {
-        if (allPoints.length > 0 && mapRef.current) {
+    const onMapLoad = (e: maplibregl.MapLibreEvent) => {
+        if (allPoints.length > 0) {
             const bounds = new maplibregl.LngLatBounds();
             allPoints.forEach(p => bounds.extend([p.longitude, p.latitude]));
-            mapRef.current.fitBounds(bounds, { padding: 100, duration: 1000 });
+            e.target.fitBounds(bounds, { padding: 100, duration: 0 });
         }
-    }, []);
+    };
 
     useEffect(() => {
         const activeStep = steps[activeStepIndex];
@@ -357,9 +359,10 @@ export default function PlanView({ plan, children }: Props) {
             <div className="w-full lg:w-1/2 h-[40vh] lg:h-screen sticky top-0 order-1 lg:order-2 bg-clay/10">
                 <Map
                     ref={mapRef}
+                    onLoad={onMapLoad}
                     initialViewState={{
-                        longitude: -7.61,
-                        latitude: 33.59,
+                        longitude: allPoints[0]?.longitude || -7.61,
+                        latitude: allPoints[0]?.latitude || 33.59,
                         zoom: 10
                     }}
                     mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"

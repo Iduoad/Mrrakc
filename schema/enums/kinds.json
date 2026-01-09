@@ -96,6 +96,8 @@
     "accommodation/gite",
     "service/guide-office",
     "service/rental",
+    "service/taxi-station",
+    "service/bus-station",
     "admin/gendarmerie"
   ]
 }

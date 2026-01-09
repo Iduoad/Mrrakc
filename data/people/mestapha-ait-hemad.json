@@ -1,0 +1,28 @@
+{
+  "version": "mrrakc/v0",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mestapha Ait Hemad",
+    "id": "michel-pinseau",
+    "bio": "Mestapha is a mountain guide in the Toubkal National Park. He has over 6 years of experience guiding adventurers through Morocco's most breathtaking landscapes.",
+    "designations": [
+      "mountain guide"
+    ],
+    "timeline": [
+      {
+        "title": "Hema Trek Agency Foundation",
+        "date": "2022-01-01",
+        "description": "Mestapha founded Hema Trek Agency."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://hematrekmorocco.com/",
+        "title": "Agency website",
+        "type": "website"
+      }
+    ]
+  }
+}
