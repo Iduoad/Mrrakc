@@ -1,4 +1,5 @@
 ---
+title: "Toubkal Summit Weekend Trek"
 planId: "high-atlas-trek"
 heroImage: "https://images.unsplash.com/photo-1632310226481-b8d07d2e2184?q=80&w=2070&auto=format&fit=crop"
 pubDate: 2024-06-01

@@ -1,0 +1,20 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "History",
+            "Zaouiya",
+            "Religion",
+            "Sufism"
+        ]
+    },
+    "spec": {
+        "id": "sale-spiritual-walk",
+        "title": "Salé: Spiritual walk",
+        "description": "Discover all the zaouiyas of Sale",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/sale' && kind == 'religion/zaouiya'"
+        }
+    }
+}

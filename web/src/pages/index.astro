@@ -2,15 +2,68 @@
 import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const gridItems = [
-  { title: "The Sahara", image: "https://images.unsplash.com/photo-1509024644558-2f56ce76c490?q=80&w=800&auto=format&fit=crop", span: "col-span-1 md:col-span-2 row-span-2", photographer: "Ruben Bagüés" },
-  { title: "The Blue Pearl", image: "https://images.unsplash.com/photo-1534234828563-0253171e5722?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Kyriacos Georgiou" },
-  { title: "Imperial Cities", image: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Calin Stan" },
-  { title: "High Atlas", image: "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=800&auto=format&fit=crop", span: "col-span-1 md:col-span-2 row-span-1", photographer: "Toa Heftiba" },
-  { title: "Ancient History", image: "https://images.unsplash.com/photo-1558258695-5e662841198e?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Tomáš Malík" },
-  { title: "Coastal Vibes", image: "https://images.unsplash.com/photo-1575881875475-31023242e3f9?q=80&w=800&auto=format&fit=crop", span: "col-span-1 row-span-1", photographer: "Louis Hansel" },
-  { title: "Culinary Delights", image: "https://images.unsplash.com/photo-1512152272829-e313960f7b61?q=80&w=800&auto=format&fit=crop", span: "col-span-1 md:col-span-2 row-span-1", photographer: "Annie Spratt" },
+import { getCollection } from 'astro:content';
+
+// Fetch all collections
+const allMaps = await getCollection('maps', ({ data }) => !data.draft);
+const allBlogs = await getCollection('blog', ({ data }) => !data.draft);
+const allPlans = await getCollection('plans');
+
+// Normalize items
+const mapItems = allMaps.map(item => ({
+    title: item.data.title || item.id,
+    image: (typeof item.data.heroImage === 'object' && item.data.heroImage !== null && 'src' in item.data.heroImage) 
+        ? item.data.heroImage.src 
+        : (item.data.heroImage || "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop"),
+    url: `/maps/${item.id}`,
+    photographer: item.data.author || "Mrrakc Team",
+    type: "Map"
+}));
+
+const blogItems = allBlogs.map(item => ({
+    title: item.data.title,
+    image: (typeof item.data.heroImage === 'object' && item.data.heroImage !== null && 'src' in item.data.heroImage)
+        ? item.data.heroImage.src
+        : (item.data.heroImage || "https://images.unsplash.com/photo-1512152272829-e313960f7b61?q=80&w=800&auto=format&fit=crop"),
+    url: `/blog/${item.slug}`,
+    photographer: item.data.author || "Mrrakc Team", 
+    type: "Journal"
+}));
+
+const planItems = allPlans.map(item => ({
+    title: item.data.title || item.id,
+    image: (typeof item.data.heroImage === 'object' && item.data.heroImage !== null && 'src' in item.data.heroImage)
+        ? item.data.heroImage.src
+        : (item.data.heroImage || "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=800&auto=format&fit=crop"),
+    url: `/plans/${item.id}`,
+    photographer: "Mrrakc Team",
+    type: "Plan"
+}));
+
+// Combine and shuffle
+const allItems = [...mapItems, ...blogItems, ...planItems];
+
+// Fisher-Yates shuffle
+for (let i = allItems.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [allItems[i], allItems[j]] = [allItems[j], allItems[i]];
+}
+
+// Select top 7 and assign spans
+const spans = [
+    "col-span-1 md:col-span-2 row-span-2",
+    "col-span-1 row-span-1",
+    "col-span-1 row-span-1",
+    "col-span-1 md:col-span-2 row-span-1",
+    "col-span-1 row-span-1",
+    "col-span-1 row-span-1",
+    "col-span-1 md:col-span-2 row-span-1"
 ];
+
+const gridItems = allItems.slice(0, 7).map((item, index) => ({
+    ...item,
+    span: spans[index] || "col-span-1 row-span-1"
+}));
 ---
 
 <BaseLayout title="Mrrakc | Soul of Morocco" transparentHeader={true}>
@@ -56,7 +109,7 @@ const gridItems = [
                 
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[300px]">
                     {gridItems.map((item) => (
-                        <div class={`group relative overflow-hidden rounded-xl shadow-md cursor-pointer ${item.span}`}>
+                        <a href={item.url} class={`group relative overflow-hidden rounded-xl shadow-md cursor-pointer block ${item.span}`}>
                             <img 
                                 src={item.image} 
                                 alt={item.title}
@@ -64,6 +117,9 @@ const gridItems = [
                             />
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                             <div class="absolute bottom-0 left-0 p-4 w-full">
+                                <span class="bg-terra/80 text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded mb-2 inline-block backdrop-blur-sm">
+                                    {item.type}
+                                </span>
                                 <h3 class="text-white text-lg md:text-xl font-bold tracking-wide transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300 font-serif leading-tight">
                                     {item.title}
                                 </h3>
@@ -71,7 +127,7 @@ const gridItems = [
                                     by: {item.photographer}
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>
