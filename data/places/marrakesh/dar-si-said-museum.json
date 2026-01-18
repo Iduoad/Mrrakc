@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "spec": {
+    "name": "Dar Si Said Museum",
+    "id": "dar-si-said-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.983877,
+      "latitude": 31.623121,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/historic-site",
+  "spec": {
+    "name": "Bab Chariaa Ruins",
+    "id": "bab-chariaa-ruins",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.992598,
+      "latitude": 31.617791,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

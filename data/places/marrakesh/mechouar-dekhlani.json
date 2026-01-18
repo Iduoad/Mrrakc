@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "spec": {
+    "name": "Mechouar Dekhlani",
+    "id": "mechouar-dekhlani",
+    "description": "The Inner Mechouar kind: urban/square",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.982797,
+      "latitude": 31.612668,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

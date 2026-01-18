@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "spec": {
+    "name": "Slat Al Azama Synagogue",
+    "id": "slat-al-azama-synagogue",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.982417,
+      "latitude": 31.620019,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "spec": {
+    "name": "Sidi Mimoun Mausoleum",
+    "id": "sidi-mimoun-mausoleum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.993059,
+      "latitude": 31.618101,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

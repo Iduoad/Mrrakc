@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Soufara",
+    "id": "bab-soufara",
+    "description": "AKA Bab Bou Akkaz",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.984327,
+      "latitude": 31.613431,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

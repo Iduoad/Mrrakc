@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "spec": {
+    "name": "Dar El Bacha Museum",
+    "id": "dar-el-bacha-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.99229,
+      "latitude": 31.631438,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

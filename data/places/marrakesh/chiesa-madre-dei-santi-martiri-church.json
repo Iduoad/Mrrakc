@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "spec": {
+    "name": "Chiesa Madre dei Santi Martiri Church",
+    "id": "chiesa-madre-dei-santi-martiri-church",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.006744,
+      "latitude": 31.629675,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Koutoubia Mosque",
+    "id": "koutoubia-mosque",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.99362,
+      "latitude": 31.623721,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

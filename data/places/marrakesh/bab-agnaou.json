@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Agnaou",
+    "id": "bab-agnaou",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.990717,
+      "latitude": 31.61756,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

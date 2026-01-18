@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Barrima Mosque",
+    "id": "barrima-mosque",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.982873,
+      "latitude": 31.61652,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

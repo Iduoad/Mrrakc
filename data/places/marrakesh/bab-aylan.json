@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Aylan",
+    "id": "bab-aylan",
+    "description": "AKA  (Haylana)",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.973523,
+      "latitude": 31.62993,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://visitmarrakech.com/ar/listing/les-portes-de-marrakech/",
+        "title": "https://visitmarrakech.com/ar/listing/les-portes-de-marrakech/",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

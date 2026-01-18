@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/monument",
+  "spec": {
+    "name": "The Menara Pavilion",
+    "id": "the-menara-pavilion",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.021126,
+      "latitude": 31.612418,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

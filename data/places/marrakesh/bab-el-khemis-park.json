@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/park",
+  "spec": {
+    "name": "Bab El Khemis Park",
+    "id": "bab-el-khemis-park",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.987262,
+      "latitude": 31.641288,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "spec": {
+    "name": "Tiskiwine Museum",
+    "id": "tiskiwine-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.984041,
+      "latitude": 31.622426,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

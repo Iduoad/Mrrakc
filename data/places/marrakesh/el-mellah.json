@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "spec": {
+    "name": "El Mellah",
+    "id": "el-mellah",
+    "description": "kind: district",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.982683,
+      "latitude": 31.619553,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

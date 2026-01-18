@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "spec": {
+    "name": "Tinsmiths Square",
+    "id": "tinsmiths-square",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.98478,
+      "latitude": 31.619616,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

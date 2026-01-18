@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "spec": {
+    "name": "Perfume Museum",
+    "id": "perfume-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.988175,
+      "latitude": 31.633946,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

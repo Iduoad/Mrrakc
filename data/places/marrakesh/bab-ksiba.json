@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Ksiba",
+    "id": "bab-ksiba",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.989373,
+      "latitude": 31.612202,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

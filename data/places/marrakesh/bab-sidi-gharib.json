@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Sidi Gharib",
+    "id": "bab-sidi-gharib",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.000236,
+      "latitude": 31.624499,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

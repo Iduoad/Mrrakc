@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/park",
+  "spec": {
+    "name": "Arsat Bouaachrin Park",
+    "id": "arsat-bouaachrin-park",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.984926,
+      "latitude": 31.621846,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}
