@@ -340,7 +340,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                                 {selectedPoint.description}
                                             </p>
 
-                                            {selectedPoint.location.altitude && (
+                                            {!!selectedPoint.location.altitude && (
                                                 <div className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-terra mb-3">
                                                     <Mountain size={12} />
                                                     <span>{selectedPoint.location.altitude} m</span>
