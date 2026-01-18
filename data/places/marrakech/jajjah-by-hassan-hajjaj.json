@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Jajjah by Hassan Hajjaj",
+    "id": "jajjah-by-hassan-hajjaj",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -8.041998,
+      "latitude": 31.668945,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

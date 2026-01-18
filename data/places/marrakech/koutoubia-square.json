@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Koutoubia Square",
+    "id": "koutoubia-square",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.992691,
+      "latitude": 31.624575,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

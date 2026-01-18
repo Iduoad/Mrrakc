@@ -1,12 +1,12 @@
 {
   "version": "mrrakc/v0",
-  "kind": "history/kasbah",
+  "kind": "urban/landmark",
   "spec": {
     "name": "Kasbah of Marrakech",
     "id": "kasbah-of-marrakech",
     "description": "kind: urban/district",
     "location": {
-      "province": "province/marrakesh",
+      "province": "province/marrakech",
       "longitude": -7.987898,
       "latitude": 31.616294,
       "altitude": 0.0

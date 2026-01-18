@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Miaara Market",
+    "id": "miaara-market",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.980366,
+      "latitude": 31.619273,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

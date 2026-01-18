@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Si Abdelwahed moul loubia",
+    "id": "si-abdelwahed-moul-loubia",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.986812,
+      "latitude": 31.630955,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

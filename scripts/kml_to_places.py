@@ -726,6 +726,7 @@ class TransformStage(Stage):
         
         # Build final place object
         final_place = {
+            'version': 'mrrakc/v0',
             'kind': place.get('kind', 'places/landmark'),
             'spec': spec
         }

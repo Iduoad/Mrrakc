@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Mi Fatima - Harira",
+    "id": "mi-fatima-harira",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.988654,
+      "latitude": 31.621736,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

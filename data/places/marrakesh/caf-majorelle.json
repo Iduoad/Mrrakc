@@ -1,14 +1,14 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace",
+  "kind": "food/cafe",
   "spec": {
-    "name": "Bahia Palace",
-    "id": "bahia-palace",
+    "name": "Café Majorelle",
+    "id": "caf-majorelle",
     "description": "No description available",
     "location": {
       "province": "province/marrakesh",
-      "longitude": -7.981969,
-      "latitude": 31.621707,
+      "longitude": -8.002717,
+      "latitude": 31.64186,
       "altitude": 0.0
     },
     "access": {
@@ -19,13 +19,7 @@
     "timePeriods": [],
     "people": [],
     "timeline": [],
-    "links": [
-      {
-        "url": "https://maps.google.com/?cid=9410376181104082907",
-        "title": "https://maps.google.com/?cid=9410376181104082907",
-        "type": "map"
-      }
-    ],
+    "links": [],
     "activities": [],
     "items": [],
     "comments": []

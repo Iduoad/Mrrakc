@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "spec": {
+    "name": "Bachar street food",
+    "id": "bachar-street-food",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.987408,
+      "latitude": 31.624421,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

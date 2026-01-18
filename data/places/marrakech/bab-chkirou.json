@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Bab Chkirou",
+    "id": "bab-chkirou",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.983977,
+      "latitude": 31.618301,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

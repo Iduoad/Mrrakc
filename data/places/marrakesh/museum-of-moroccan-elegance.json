@@ -1,14 +1,14 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace",
+  "kind": "culture/museum",
   "spec": {
-    "name": "Bahia Palace",
-    "id": "bahia-palace",
+    "name": "Museum of Moroccan Elegance",
+    "id": "museum-of-moroccan-elegance",
     "description": "No description available",
     "location": {
       "province": "province/marrakesh",
-      "longitude": -7.981969,
-      "latitude": 31.621707,
+      "longitude": -7.985165,
+      "latitude": 31.631657,
       "altitude": 0.0
     },
     "access": {
@@ -19,13 +19,7 @@
     "timePeriods": [],
     "people": [],
     "timeline": [],
-    "links": [
-      {
-        "url": "https://maps.google.com/?cid=9410376181104082907",
-        "title": "https://maps.google.com/?cid=9410376181104082907",
-        "type": "map"
-      }
-    ],
+    "links": [],
     "activities": [],
     "items": [],
     "comments": []

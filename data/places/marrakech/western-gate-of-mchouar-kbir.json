@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Western Gate of Mchouar Kbir",
+    "id": "western-gate-of-mchouar-kbir",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.98559,
+      "latitude": 31.611553,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,14 +1,14 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace",
+  "kind": "urban/landmark",
   "spec": {
-    "name": "Bahia Palace",
-    "id": "bahia-palace",
+    "name": "Dar L'hssira Cafe Restaurant",
+    "id": "dar-lhssira-cafe-restaurant",
     "description": "No description available",
     "location": {
       "province": "province/marrakesh",
-      "longitude": -7.981969,
-      "latitude": 31.621707,
+      "longitude": -7.985123,
+      "latitude": 31.622881,
       "altitude": 0.0
     },
     "access": {
@@ -19,13 +19,7 @@
     "timePeriods": [],
     "people": [],
     "timeline": [],
-    "links": [
-      {
-        "url": "https://maps.google.com/?cid=9410376181104082907",
-        "title": "https://maps.google.com/?cid=9410376181104082907",
-        "type": "map"
-      }
-    ],
+    "links": [],
     "activities": [],
     "items": [],
     "comments": []

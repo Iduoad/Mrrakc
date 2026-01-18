@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "the town hall square",
+    "id": "the-town-hall-square",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.998243,
+      "latitude": 31.627682,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

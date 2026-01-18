@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Azalai urban souk",
+    "id": "azalai-urban-souk",
+    "description": "Fine dining restaurant kind: restaurant",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -8.012182,
+      "latitude": 31.633334,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

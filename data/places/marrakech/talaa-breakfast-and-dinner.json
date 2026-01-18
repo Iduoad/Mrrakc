@@ -1,14 +1,14 @@
 {
   "version": "mrrakc/v0",
-  "kind": "architecture/palace",
+  "kind": "urban/landmark",
   "spec": {
-    "name": "Bahia Palace",
-    "id": "bahia-palace",
+    "name": "Talaa breakfast and dinner",
+    "id": "talaa-breakfast-and-dinner",
     "description": "No description available",
     "location": {
-      "province": "province/marrakesh",
-      "longitude": -7.981969,
-      "latitude": 31.621707,
+      "province": "province/marrakech",
+      "longitude": -7.986936,
+      "latitude": 31.63101,
       "altitude": 0.0
     },
     "access": {
@@ -21,8 +21,8 @@
     "timeline": [],
     "links": [
       {
-        "url": "https://maps.google.com/?cid=9410376181104082907",
-        "title": "https://maps.google.com/?cid=9410376181104082907",
+        "url": "https://maps.google.com/?cid=10084122093251383334",
+        "title": "https://maps.google.com/?cid=10084122093251383334",
         "type": "map"
       }
     ],
