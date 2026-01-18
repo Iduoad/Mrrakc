@@ -1,0 +1,20 @@
+{
+    "version": "mrrakc/v0",
+    "metadata": {
+        "tags": [
+            "History",
+            "Culture",
+            "Architecture",
+            "Gardens"
+        ]
+    },
+    "spec": {
+        "id": "marrakesh",
+        "title": "Marrakech: The Red City",
+        "description": "Discover the historic medina, bustling souks, magnificent palaces, and serene gardens of Marrakech.",
+        "strategy": "query",
+        "content": {
+            "query": "location.province == 'province/marrakesh'"
+        }
+    }
+}
