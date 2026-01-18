@@ -1,0 +1,26 @@
+{
+  "kind": "urban/square",
+  "spec": {
+    "name": "Sidi Ayoub Square",
+    "id": "sidi-ayoub-square",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.980701,
+      "latitude": 31.628432,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "architecture/palace",
+  "spec": {
+    "name": "Bahia Palace",
+    "id": "bahia-palace",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.981969,
+      "latitude": 31.621707,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

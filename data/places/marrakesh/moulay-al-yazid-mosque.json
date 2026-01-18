@@ -1,0 +1,32 @@
+{
+  "kind": "religion/mosque",
+  "spec": {
+    "name": "Moulay al-Yazid Mosque",
+    "id": "moulay-al-yazid-mosque",
+    "description": "AKA Kasbah Grande Mosque or just Kasbah Mosque",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.98892,
+      "latitude": 31.617647,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5403461496868411906",
+        "title": "https://maps.google.com/?cid=5403461496868411906",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "urban/park",
+  "spec": {
+    "name": "Menara Gardens",
+    "id": "menara-gardens",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.022543,
+      "latitude": 31.614327,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

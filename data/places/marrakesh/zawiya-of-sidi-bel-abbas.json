@@ -1,0 +1,26 @@
+{
+  "kind": "religion/zaouiya",
+  "spec": {
+    "name": "Zawiya of Sidi Bel Abbas",
+    "id": "zawiya-of-sidi-bel-abbas",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.990833,
+      "latitude": 31.639048,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

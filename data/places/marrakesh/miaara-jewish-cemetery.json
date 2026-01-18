@@ -1,0 +1,26 @@
+{
+  "kind": "religion/jewish-site",
+  "spec": {
+    "name": "Miaara Jewish Cemetery",
+    "id": "miaara-jewish-cemetery",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.979381,
+      "latitude": 31.620015,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

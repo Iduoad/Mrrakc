@@ -1,0 +1,26 @@
+{
+  "kind": "urban/park",
+  "spec": {
+    "name": "Alwaha Garden",
+    "id": "alwaha-garden",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.971913,
+      "latitude": 31.602532,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

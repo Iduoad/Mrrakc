@@ -1,0 +1,26 @@
+{
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Kechich",
+    "id": "bab-kechich",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.983056,
+      "latitude": 31.639688,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

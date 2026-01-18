@@ -1,0 +1,26 @@
+{
+  "kind": "urban/square",
+  "spec": {
+    "name": "Sidi Hmed El Kamel Square",
+    "id": "sidi-hmed-el-kamel-square",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.984917,
+      "latitude": 31.620112,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

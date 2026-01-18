@@ -1,0 +1,26 @@
+{
+  "kind": "food/cafe",
+  "spec": {
+    "name": "Chez Bismilah SAND Coffee",
+    "id": "chez-bismilah-sand-coffee",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.986993,
+      "latitude": 31.630834,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

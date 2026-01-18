@@ -1,0 +1,26 @@
+{
+  "kind": "urban/park",
+  "spec": {
+    "name": "Koutoubia Park",
+    "id": "koutoubia-park",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.99316,
+      "latitude": 31.622787,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

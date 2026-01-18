@@ -1,0 +1,26 @@
+{
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab El Makhzen",
+    "id": "bab-el-makhzen",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.99952,
+      "latitude": 31.623135,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

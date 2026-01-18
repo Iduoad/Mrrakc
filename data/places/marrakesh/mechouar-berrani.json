@@ -1,0 +1,26 @@
+{
+  "kind": "urban/square",
+  "spec": {
+    "name": "Mechouar Berrani",
+    "id": "mechouar-berrani",
+    "description": "The Outer Mechouar kind: urban/square",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.981051,
+      "latitude": 31.61433,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

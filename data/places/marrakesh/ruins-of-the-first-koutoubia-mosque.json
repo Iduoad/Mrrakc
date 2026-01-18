@@ -1,0 +1,26 @@
+{
+  "kind": "history/historic-site",
+  "spec": {
+    "name": "Ruins of the first Koutoubia mosque",
+    "id": "ruins-of-the-first-koutoubia-mosque",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.993917,
+      "latitude": 31.624241,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

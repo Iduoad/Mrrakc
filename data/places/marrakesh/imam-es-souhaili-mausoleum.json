@@ -1,0 +1,26 @@
+{
+  "kind": "religion/mausoleum",
+  "spec": {
+    "name": "Imam Es-Souhaili Mausoleum",
+    "id": "imam-es-souhaili-mausoleum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.992686,
+      "latitude": 31.617708,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

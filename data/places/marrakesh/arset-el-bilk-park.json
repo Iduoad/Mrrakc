@@ -1,0 +1,26 @@
+{
+  "kind": "urban/park",
+  "spec": {
+    "name": "Arset El Bilk Park",
+    "id": "arset-el-bilk-park",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.990794,
+      "latitude": 31.624437,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "architecture/palace",
+  "spec": {
+    "name": "Royal Palace",
+    "id": "royal-palace",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.992161,
+      "latitude": 31.618796,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

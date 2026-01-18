@@ -1,0 +1,26 @@
+{
+  "kind": "urban/park",
+  "spec": {
+    "name": "Majorelle Gardens",
+    "id": "majorelle-gardens",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.00324,
+      "latitude": 31.641203,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

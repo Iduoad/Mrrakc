@@ -1,0 +1,32 @@
+{
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab Ighli",
+    "id": "bab-ighli",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.989195,
+      "latitude": 31.610744,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=10362308357374968648",
+        "title": "https://maps.google.com/?cid=10362308357374968648",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Menara Mosuqe Roundabout",
+    "id": "menara-mosuqe-roundabout",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.020958,
+      "latitude": 31.620319,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

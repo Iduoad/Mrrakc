@@ -1,0 +1,26 @@
+{
+  "kind": "culture/workshop",
+  "spec": {
+    "name": "Arabic CalliGraphy Workshop",
+    "id": "arabic-calligraphy-workshop",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.986413,
+      "latitude": 31.631576,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

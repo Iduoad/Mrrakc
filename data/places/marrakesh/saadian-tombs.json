@@ -1,0 +1,32 @@
+{
+  "kind": "history/historic-site",
+  "spec": {
+    "name": "Saadian Tombs",
+    "id": "saadian-tombs",
+    "description": "Tombs of notable figures from the Saadian Dynasty including Lalla Massouda, Mohammed Cheikh and Abdellah El Ghaleb.",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.988569,
+      "latitude": 31.617283,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=18286702388899114702",
+        "title": "https://maps.google.com/?cid=18286702388899114702",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

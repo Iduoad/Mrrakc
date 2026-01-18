@@ -1,0 +1,26 @@
+{
+  "kind": "history/gate",
+  "spec": {
+    "name": "Bab At-Tubul",
+    "id": "bab-at-tubul",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.989287,
+      "latitude": 31.616903,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

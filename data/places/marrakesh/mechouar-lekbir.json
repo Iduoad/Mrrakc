@@ -1,0 +1,26 @@
+{
+  "kind": "urban/square",
+  "spec": {
+    "name": "Mechouar Lekbir",
+    "id": "mechouar-lekbir",
+    "description": "The Grand Mechouar kind: urban/square",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.984442,
+      "latitude": 31.61105,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

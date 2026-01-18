@@ -1,0 +1,26 @@
+{
+  "kind": "history/historic-site",
+  "spec": {
+    "name": "Youssef Ben Tachfine Palace",
+    "id": "youssef-ben-tachfine-palace",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.993779,
+      "latitude": 31.621205,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}
