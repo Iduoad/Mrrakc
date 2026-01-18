@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Ftour Beldi La Ferme",
+    "id": "ftour-beldi-la-ferme",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.030656,
+      "latitude": 31.680469,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

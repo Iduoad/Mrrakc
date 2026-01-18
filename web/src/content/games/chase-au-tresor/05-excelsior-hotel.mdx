@@ -1,0 +1,47 @@
+---
+title: 'Hotel Excelsior and the first days of UN Square'
+description: 'One of the oldest hotels of the city'
+order: 5
+answer: 'glaoui'
+question: 'Who was the owner of the building (last name only) ?'
+nextStep: '06-first-buildings'
+heroImage: '../../../assets/games/excelsior.jpg'
+hints:
+  - "His name is on the front of the passage under the building"
+  - "He was a famous Pacha of Marrakech"
+---
+import MiniMap from '../../../components/MiniMap.astro';
+import GameQuiz from '../../../components/react/GameQuiz';
+
+
+## You are here!
+
+It was easy right?! Good job anyways!
+
+
+[Excelsior Hotel](https://fr.wikipedia.org/wiki/H%C3%B4tel_Excelsior_de_Casablanca) is one of the oldest hotels outside Casablanca's old medina.
+
+When it opened in 1918, it was considered state-of-the-art, featuring modern amenities of the time, such as electricity, an elevator, heating, and private bathrooms in each room.
+
+
+> Le Maroc au lendemain de la guerre" comme suit: "...les chambres y sont d'une scrupuleuse propreté, confortablement meublées, avec des tapis de rabat et de salé qui les égayent et les ornent, des salles de bains parfaites, des tables de toilettes modernes, avec eau courante font oublier certaines cambuses primitives ou je demeurais jadis, à de précédents voyages à Casablanca -- French Writter who stayed at Excelsior in 1919
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/excelsior-palace-hotel']} simple={true} className="h-full w-full" />
+</div>
+
+## Go! Go! 
+
+In front of Excelsior hotel, lays a huge building with 3 façades. The building is a striking example of Casablanca Art Deco, with an elegant façade, strong vertical lines, decorative details, and upper floors featuring terraces covered in traditional red and green Zellij tiles.
+
+The building was owned by one of the most powerful and influential figures in early 20th century Morocco.
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>

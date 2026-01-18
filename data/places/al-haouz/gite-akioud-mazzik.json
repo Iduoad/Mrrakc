@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "accommodation/gite",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Gite Akioud Mazzik",
+    "id": "gite-akioud-mazzik",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.13457552679448,
+      "longitude": -7.925942664417611,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=18356611487619214681",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

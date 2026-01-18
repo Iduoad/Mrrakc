@@ -1,0 +1,78 @@
+{
+    "version": "0.0.1",
+    "kind": "plan/itinerary",
+    "spec": {
+        "id": "casablanca-art-deco",
+        "title": "Casablanca Art Deco Tour",
+        "description": "Explore the architectural heritage of Casablanca.",
+        "estimatedDuration": {
+            "value": 3,
+            "unit": "hours"
+        },
+        "difficulty": "easy",
+        "steps": [
+            {
+                "title": "Start at Sacred Heart Cathedral",
+                "description": "Begin your tour at this stunning example of Art Deco architecture mixed with Neo-Gothic style.",
+                "optional": true,
+                "type": "waypoint",
+                "placeIds": [
+                    "casablanca/sacred-heart-cathedral"
+                ],
+                "transportToNext": {
+                    "mode": "Bus",
+                    "durationMin": 10,
+                    "advice": "Walk through the Arab League Park towards Mohammed V Square."
+                }
+            },
+            {
+                "title": "Mohammed V Square",
+                "description": "The administrative heart of the city, surrounded by impressive buildings.",
+                "optional": true,
+                "type": "waypoint",
+                "placeIds": [
+                    "casablanca/mohammed-v-square",
+                    "casablanca/wilaya-of-grande-casablanca-building",
+                    "casablanca/justice-palace-building"
+                ],
+                "transportToNext": {
+                    "mode": "Train",
+                    "durationMin": 5
+                }
+            },
+            {
+                "title": "Central Post Office",
+                "description": "Admire the intricate details of this heritage building.",
+                "type": "waypoint",
+                "placeIds": [
+                    "casablanca/central-post-building"
+                ],
+                "transportToNext": {
+                    "mode": "Plane",
+                    "durationMin": 10
+                }
+            },
+            {
+                "title": "Cinema Rialto",
+                "description": "One of the oldest and most beautiful cinemas in Casablanca.",
+                "type": "activity",
+                "placeIds": [
+                    "casablanca/rialto-cinema"
+                ],
+                "transportToNext": {
+                    "mode": "Walking",
+                    "durationMin": 5
+                }
+            },
+            {
+                "title": "Refreshment at Petit Poucet",
+                "description": "End your tour with a coffee or meal at this historic restaurant.",
+                "type": "break",
+                "optional": true,
+                "placeIds": [
+                    "casablanca/petit-poucet-restaurant"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import ExplorerMap from '../../components/react/ExplorerMap';
+import type { MapPoint } from '../../types/map';
+
+export async function getStaticPaths() {
+  const maps = await getCollection('maps');
+  return maps.map(map => ({
+    params: { slug: map.id },
+    props: { map },
+  }));
+}
+
+const { map } = Astro.props;
+const allPlaces = await getCollection('places');
+import generatedMaps from '../../data/generated/maps.json';
+// Get target IDs and metadata from generated map data
+let targetIds: string[] = [];
+let mapTitle = map.data.title;
+let mapDescription = map.data.description;
+let mapTags = map.data.tags;
+
+if (map.data.mapId && map.data.mapId in generatedMaps) {
+    const mapData = generatedMaps[map.data.mapId as keyof typeof generatedMaps];
+    targetIds = mapData.placeIds;
+    if (!mapTitle) mapTitle = mapData.title;
+    if (!mapDescription) mapDescription = mapData.description;
+    if (!mapTags || mapTags.length === 0) mapTags = mapData.tags;
+} else if (map.data.places) {
+    console.warn(`Map ${map.id} missing mapId or not found in generated data.`);
+}
+
+// Filter places
+const selectedPlaces = allPlaces.filter(place => targetIds.includes(place.id));
+
+// Transform to MapPoint
+const points: MapPoint[] = selectedPlaces.map(place => {
+  const { kind, spec } = place.data;
+  
+  // Pass raw kind as category for granular icon mapping
+  const category = kind;
+
+  return {
+    id: place.id,
+    name: spec.name,
+    kind: kind,
+    category: category,
+    description: spec.description,
+    location: {
+      latitude: spec.location.latitude,
+      longitude: spec.location.longitude,
+      province: spec.location.province,
+      altitude: spec.location.altitude
+    },
+    prices: spec.access?.options?.map(opt => ({
+      title: opt.title,
+      entranceFee: opt.entranceFee
+    })),
+    links: spec.links?.map(link => ({
+      url: link.url,
+      type: link.type,
+      title: link.title
+    })),
+    people: spec.people?.map(p => ({
+      id: p.id,
+      relationship: p.relationship
+    })),
+    timePeriods: spec.timePeriods
+  };
+});
+---
+
+<BaseLayout title={mapTitle} description={mapDescription}>
+  <div class="h-screen w-full flex flex-col pt-20">
+    {/* Header */}
+    <div class="px-6 py-4 flex items-center justify-between z-10">
+        <div>
+            <a href="/maps" class="text-xs font-bold uppercase tracking-wider text-terra hover:underline mb-1 block">&larr; All Maps</a>
+            <h1 class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100">{mapTitle}</h1>
+        </div>
+        <div class="hidden md:block text-right">
+            <p class="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations found</p>
+        </div>
+    </div>
+
+    {/* Map Container */}
+    <div class="flex-grow relative overflow-hidden">
+        <div class="absolute inset-0 p-4">
+            <ExplorerMap client:only="react" allPoints={points} />
+        </div>
+    </div>
+  </div>
+</BaseLayout>

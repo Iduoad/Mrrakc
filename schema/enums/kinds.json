@@ -69,6 +69,7 @@
     "food/street-food",
     "food/cafe",
     "food/bakery",
+    "food/pastry",
     "architecture/kasbah",
     "architecture/ksar",
     "architecture/building",
@@ -96,6 +97,8 @@
     "accommodation/gite",
     "service/guide-office",
     "service/rental",
+    "service/taxi-station",
+    "service/bus-station",
     "admin/gendarmerie"
   ]
 }

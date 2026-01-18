@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Kasbah of Marrakech",
+    "id": "kasbah-of-marrakech",
+    "description": "kind: urban/district",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.987898,
+      "latitude": 31.616294,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17765020501340828678",
+        "title": "https://maps.google.com/?cid=17765020501340828678",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,50 @@
+---
+title: 'First skyscrapers of Casablanca'
+description: 'Exploring the then highest building in the city center.'
+order: 4
+answer: 'excelsior'
+question: 'What is the name of the hotel?'
+nextStep: '05-excelsior-hotel'
+heroImage: '../../../assets/games/moretti-milone.jpg'
+hints:
+  - "The building has some nice Zellij logos in the front"
+  - "It is the name of an unreleased album by the Moroccan Rapper Morphine"
+---
+import MiniMap from '../../../components/MiniMap.astro';
+import GameQuiz from '../../../components/react/GameQuiz';
+
+Oooh! You reached **Avenue des FAR**! you are going places!
+
+At the start of the 20th century, Casablanca experienced rapid growth, drawing people from all over the world, particularly architects and real estate investors.
+
+In 1936, two cousins, real estate investors Moretti and Millone, teamed up with French architect Pierre Jabin to construct one of Casablanca's first skyscrapers (by the time standards), also one of the tallest and largest residential buildings in North Africa at the time.
+
+Standing 12 stories high, the building was innovative in how it catered to different types of residents. The lower floors housed spacious family apartments, while the top floor featured smaller studio units designed for single occupants.
+
+Before continuing straight towards Mohammed V street, let's take a quick detour to visit the iconic clock tower, one of the earliest buildings constructed by the French Protectorate.
+
+The clock tower was first built in 1909, then rebuilt in 1993 after its demolition in 1948.
+
+## You are here!
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/moretti-milone-building']} simple={true} className="h-full w-full" />
+</div>
+
+## Go! Go! 
+
+Well done! Now that we've seen two of the oldest and most iconic buildings of modern Casablanca, let's explore another historic landmark in the city center.
+
+Good work! Now that we've seen 2 of the oldest and most emblematic buildings of the new Casablanca. Let's check another one of the very old buildings in the city center.
+
+I won't tell you its name! Your next task is to cross the street and look for one of the city's oldest hotels still in operation today.
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>

@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Dar Caid El Ayyadi",
+    "id": "dar-caid-el-ayyadi",
+    "description": "Aka Soleiman Palace",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.991453,
+      "latitude": 31.643559,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://palais-soleiman.com/le-palais/",
+        "title": "https://palais-soleiman.com/le-palais/",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

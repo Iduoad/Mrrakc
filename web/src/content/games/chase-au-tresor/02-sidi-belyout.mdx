@@ -1,0 +1,48 @@
+---
+title: 'Sidi Belyout: The Lion-man'
+description: 'From Sidi Belyout Saint to FAR street through the Félix Houphouët-Boigny street'
+order: 2
+answer: 'plaza'
+nextStep: '03-houphouet-boigny'
+question: 'What is the name of the hotel?'
+heroImage: '../../../assets/games/sidi-belyout.webp'
+hints:
+  - "The hotel has 5+ flags on the front."
+  - "Translate Square to Spanish"
+---
+import MiniMap from '../../../components/MiniMap.astro';
+import GameQuiz from '../../../components/react/GameQuiz';
+
+Correct! The animal associated with Sidi Belyout is indeed the **Lion**. 
+
+Sidi Belyout, originally known as **Abu Hafs Omar bin Haroun Al-Madyouni**, is the legendary patron saint of Casablanca.
+
+He was known for his mysterious origins and miraculous connection with lions, which earned him the title "Abu Louyouth" (Father of Lions).
+
+According to local tales, he lived in seclusion in the wilderness of Ain Sbaa, where lions would peacefully gather around him, and his fountain's water was believed to ensure a return to Casablanca for anyone who drank from it.
+
+Dead in the 14th century, his current shrine was built in 1851, and remains a historical and spiritual landmark in the city, reflecting the deep-rooted traditions and folklore of Casablanca.
+
+## Go! Go!
+
+You are here!
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/sidi-belyout-mausoleum']} simple={true} className="h-full w-full" />
+</div>
+
+Advance a little bit into **Bd Félix Houphouët-Boigny** and enjoy the beautiful palm trees.
+
+I emphasize on appreciating the palm tree since some of them are more than 100 years old. Just around the street there is one of the oldest hotels of casablanca.
+
+Look for it!
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>

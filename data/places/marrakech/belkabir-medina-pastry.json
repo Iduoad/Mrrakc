@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Belkabir Medina Pastry",
+    "id": "belkabir-medina-pastry",
+    "description": "kind: food/pastry",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.987987,
+      "latitude": 31.628407,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

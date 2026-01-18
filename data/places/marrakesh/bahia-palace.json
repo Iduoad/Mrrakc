@@ -19,7 +19,13 @@
     "timePeriods": [],
     "people": [],
     "timeline": [],
-    "links": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9410376181104082907",
+        "title": "https://maps.google.com/?cid=9410376181104082907",
+        "type": "map"
+      }
+    ],
     "activities": [],
     "items": [],
     "comments": []

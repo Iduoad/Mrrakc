@@ -1,0 +1,61 @@
+---
+import GameLayout from '../../../layouts/GameLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
+
+export async function getStaticPaths() {
+  const allGameSteps = await getCollection('games');
+  // Filter out index pages (those without slashes)
+  const steps = allGameSteps.filter(step => step.id.includes('/'));
+  
+  return steps.map(step => {
+    const parts = step.id.split('/');
+    if (parts.length < 2) {
+      console.warn(`Skipping game step with invalid ID format: ${step.id}`);
+      return null;
+    }
+    const [gameSlug, stepSlug] = parts;
+    return {
+      params: { game: gameSlug, slug: stepSlug.replace(/\.(md|mdx)$/, '') },
+      props: { step },
+    };
+  }).filter(Boolean);
+}
+
+const { step } = Astro.props;
+const { title, description, nextStep, heroImage } = step.data;
+const { Content } = await render(step);
+const { game } = Astro.params;
+---
+
+<GameLayout title={title} description={description}>
+  <div class="mb-8 mt-8 text-center">
+    <h1 class="text-3xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-6">
+      {title}
+    </h1>
+    
+    {heroImage && (
+      <div class="rounded-2xl overflow-hidden shadow-md mb-6">
+        <Image src={heroImage} alt={title} class="w-full h-64 object-cover" />
+      </div>
+    )}
+  </div>
+
+  <div class="prose prose-lg dark:prose-invert mb-8">
+    <Content />
+  </div>
+
+  {nextStep && (
+    <div class="mt-8">
+       {/* GameQuiz is now rendered within the MDX content */}
+    </div>
+  )}
+  
+  {!nextStep && (
+    <div class="text-center p-8 bg-green-50 dark:bg-green-900/20 rounded-2xl border border-green-200 dark:border-green-700/30">
+      <h2 class="text-2xl font-bold text-green-800 dark:text-green-200 mb-2">Congratulations!</h2>
+      <p class="text-green-900 dark:text-green-100">You have completed the treasure hunt.</p>
+      <a href="/games" class="inline-block mt-4 text-terra hover:underline font-bold">Play Again</a>
+    </div>
+  )}
+</GameLayout>

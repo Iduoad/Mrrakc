@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Food Fatima",
+    "id": "food-fatima",
+    "description": "kind: restaurant",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.989701,
+      "latitude": 31.631566,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

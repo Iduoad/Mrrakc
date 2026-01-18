@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "spec": {
+    "name": "Chez Mourad",
+    "id": "chez-mourad",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.989059,
+      "latitude": 31.627619,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

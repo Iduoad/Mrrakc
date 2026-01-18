@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Bab Ben Brahim",
+    "id": "bab-ben-brahim",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.995021,
+      "latitude": 31.638808,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

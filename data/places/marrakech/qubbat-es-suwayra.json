@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Qubbat Es-Suwayra",
+    "id": "qubbat-es-suwayra",
+    "description": "Essaouira Pavilion on the south side of the Grand Mechouar",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.984146,
+      "latitude": 31.610253,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

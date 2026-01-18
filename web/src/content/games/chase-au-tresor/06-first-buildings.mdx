@@ -1,0 +1,46 @@
+---
+title: "The architectural boom in Casablanca"
+description: 'Discover your first buildings in Casablanca'
+order: 6
+answer: 'ibn-batouta'
+question: 'What is the name travel agency?'
+nextStep: '07-16th-november-square'
+heroImage: '../../../assets/games/plaza.jpg'
+hints:
+  - "The Agency is in front of Bendahan Building"
+  - "The agency is named after a famous Moroccan traveler"
+---
+import MiniMap from '../../../components/MiniMap.astro';
+import GameQuiz from '../../../components/react/GameQuiz';
+
+Wow! you are getting good at this!
+
+The real estate boom attracted influential figures from Morocco and from around the world, including Pacha Tazi and Pacha Thami El Glaoui, Moretti&Milone, and Bendahan...
+
+This surge in investment triggered a domino effect, drawing even more investors and institutions from Europe, particularly France. 
+
+Notably, major banks such as the British West African Bank and Crédit Lyonnais, as well as automobile manufacturers like Fiat and Citroën, established a presence in the city.
+
+## You are here!
+
+<div class="mb-8 h-64 w-full rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+  <MiniMap ids={['casablanca/bendahan-building']} simple={true} className="h-full w-full" />
+</div>
+
+## Go! Go! 
+
+Head down Rue Amraoui Brahim until you reach Mohammed V Street. Turn right, then take a left onto Rue Aristide Briand. 
+
+On this street, you will discover the Bendahan Building, one of the city center's most elegant structures. Directly across from it stands the former British West African Bank; now converted into a Moroccan bank office, this historic building features a stunning facade reminiscent of a Greek temple. 
+
+You will also find a shuttered, vintage travel agency along this same lane.
+
+## Assignment
+
+<GameQuiz 
+  correctAnswer={frontmatter.answer} 
+  nextStepSlug={frontmatter.nextStep} 
+  hints={frontmatter.hints} 
+  question={frontmatter.question}
+  client:load 
+/>

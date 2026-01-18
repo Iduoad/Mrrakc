@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "service/taxi-station",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Imlil Taxi Station",
+    "id": "marrakesh-imlil-taxi-station",
+    "description": "Taxi Station from Marrakesh to Ourika, Imlil, Tahanaout, Mly Brahim and Other destinations",
+    "location": {
+      "longitude": -7.9904507,
+      "latitude": 31.6212592,
+      "province": "province/marrakech"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

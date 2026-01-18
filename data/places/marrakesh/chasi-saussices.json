@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Chasi Saussices",
+    "id": "chasi-saussices",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.016354,
+      "latitude": 31.655472,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "spec": {
+    "name": "Sfenj Boulabada",
+    "id": "sfenj-boulabada",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.98336,
+      "latitude": 31.627777,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

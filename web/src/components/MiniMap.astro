@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import InteractiveMap from './react/InteractiveMap.tsx';
+import type { MapPoint } from '../types/map';
+import generatedMaps from '../data/generated/maps.json';
+
+interface Props {
+  mapId?: string;
+  ids?: string[]; // Keep for backward compatibility or direct usage if needed
+  simple?: boolean;
+  className?: string;
+  title?: string;
+}
+
+const { mapId, ids = [], simple = false, className = '', title: propTitle } = Astro.props;
+
+let targetIds: string[] = ids;
+let mapTitle = propTitle;
+let mapDescription = '';
+
+if (mapId && mapId in generatedMaps) {
+    const mapData = generatedMaps[mapId as keyof typeof generatedMaps];
+    targetIds = mapData.placeIds;
+    if (!mapTitle) mapTitle = mapData.title;
+    mapDescription = mapData.description || '';
+}
+
+// Fetch all places
+const allPlaces = await getCollection('places');
+
+// Filter places
+const selectedPlaces = allPlaces.filter(place => targetIds.includes(place.id));
+
+// Transform the data for the React component
+const points: MapPoint[] = selectedPlaces.map(place => {
+  const { kind, spec } = place.data;
+  
+  // Map kind to category
+  const category = kind;
+
+  return {
+    id: place.id,
+    name: spec.name,
+    kind: kind,
+    category: category,
+    description: spec.description,
+    links: spec.links?.map(link => ({
+      url: link.url,
+      type: link.type,
+      title: link.title
+    })),
+    people: spec.people?.map(p => ({
+      id: p.id,
+      relationship: p.relationship
+    })),
+    timePeriods: spec.timePeriods,
+    location: {
+      latitude: spec.location.latitude,
+      longitude: spec.location.longitude,
+      province: spec.location.province
+    }
+  };
+});
+---
+
+<div class={`${simple ? "h-full w-full" : "my-12"} ${className}`}>
+  {points.length > 0 ? (
+    <InteractiveMap client:visible points={points} simple={simple} className={simple ? "h-full w-full" : ""} title={mapTitle} />
+  ) : (
+    <div class="p-8 text-center border-2 border-dashed border-clay/50 rounded-2xl bg-clay/10">
+      <p class="text-charcoal-light dark:text-stone-400 font-serif italic">No map data available for the selected locations.</p>
+    </div>
+  )}
+</div>

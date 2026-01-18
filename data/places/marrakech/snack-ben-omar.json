@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Snack Ben Omar",
+    "id": "snack-ben-omar",
+    "description": "kind: food/street-food",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -7.990336,
+      "latitude": 31.637234,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+    "kind": "plans/food-tour",
+    "version": "mrrakc/v0",
+    "spec": {
+      "id": "marrakech-street-food-tour",
+      "title": "Marrakech Street Food Tour",
+      "description": "A culinary journey through the streets of Marrakech, from breakfast to late-night snacks.",
+      "estimatedDuration": {
+          "value": 1,
+          "unit": "days"
+      },
+      "difficulty": "easy",
+      "steps": [
+        {
+          "title": "Start at Jemaa el-Fna",
+          "description": "Start your journey in the lively main square of Marrakech.",
+          "type": "waypoint",
+          "placeIds": [
+            "places/marrakesh/jemaa-el-fnaa-square"
+          ]
+        },
+        {
+          "title": "Enjoy a Marrakchi Breakfast",
+          "description": "Try a traditional Marrakech breakfast with batbout bread, local butter, honey, and olive oil. You can find it near Jemaa el-Fna, Talaa, or around the city.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/chez-mourad",
+            "places/marrakesh/traditional-breakfast-by-lalla-malika",
+            "places/marrakesh/ftour-beldi-la-ferme"
+          ]
+        },
+        {
+          "title": "Warm Up with Bissara",
+          "description": "Have a hot bowl of Marrakchi bissara, made with fava beans and green peas, often cooked in a tangia style.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/talaa-breakfast-and-dinner"
+          ]
+        },
+        {
+          "title": "Taste Loubia for Brunch",
+          "description": "Eat slow-cooked white beans at a famous local spot in Talaa Market. Go before noon to get a seat.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/si-abdelwahed-moul-loubia"
+          ]
+        },
+        {
+          "title": "Try Smen Kefta",
+          "description": "Taste kefta cooked with smen (aged butter), a dish that is special to Marrakech.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/snack-ben-omar",
+            "places/marrakesh/monsieur-fromage",
+            "places/marrakesh/chasi-saussices"
+          ]
+        },
+        {
+          "title": "Discover Chicken Tangia",
+          "description": "Try chicken tangia, a less common but very tasty version of this famous dish.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/manger-marrakech"
+          ]
+        },
+        {
+          "title": "Eat Marrakchi Mechoui",
+          "description": "Enjoy slow-roasted lamb cooked in underground ovens, a classic Marrakech specialty.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/chez-lamine-hadj-mustapha"
+          ]
+        },
+        {
+          "title": "Taste Sweets in the Medina",
+          "description": "Try traditional Moroccan pastries, especially around the Semmarine area.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/bab-semmarin-pastries",
+            "places/marrakesh/belakbir-medina-pastry"
+          ]
+        },
+        {
+          "title": "Eat Sfenj Donuts",
+          "description": "Enjoy fresh Moroccan donuts, plain or served with a fried egg if available.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/sfenj-antaki",
+            "places/marrakesh/sfenj-boulabada"
+          ]
+        },
+        {
+          "title": "Drink Special Tea and Coffee",
+          "description": "Have herbal tea, including merdedouch, or try sand-cooked coffee, a local specialty.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/mint-tea-cherratine",
+            "places/marrakesh/chez-bismilah-sand-coffee"
+          ]
+        },
+        {
+          "title": "Try Local Sandwiches",
+          "description": "Taste unique Marrakech sandwiches like spleen, mixed meat, charcoal shawarma, and khobza ajiba.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/bachar-street-food",
+            "places/marrakesh/snack-jad"
+          ]
+        },
+        {
+          "title": "Drink a Panache in Dabachi",
+          "description": "Have a famous local panache juice made with avocado, strawberry, and almonds.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/panache-dabachi"
+          ]
+        },
+        {
+          "title": "End with Harira at Mmi Fatima",
+          "description": "Finish the evening with harira soup, dates, chebbakia, and eggs.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/mi-fatima-harira"
+          ]
+        },
+        {
+          "title": "Return for Tangia and Baolo",
+          "description": "Go back to the square to enjoy more tangia and the local baolo bread.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/haj-mahjoub-baolo"
+          ]
+        },
+        {
+          "title": "Finish with Tea and Snails",
+          "description": "End the night with spiced tea and a bowl of snails.",
+          "type": "activity",
+          "placeIds": [
+            "places/marrakesh/khoudenjal-spiced-tea"
+          ]
+        }
+      ]
+    }
+}

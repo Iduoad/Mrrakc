@@ -1,0 +1,58 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+
+interface Props {
+	post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const heroImage = post.data.heroImage;
+---
+
+<article class="group relative flex flex-col overflow-hidden rounded-lg bg-white dark:bg-stone-900 shadow-sm hover:shadow-md transition-shadow duration-300">
+    <a href={`/blog/${post.slug}`} class="block aspect-[4/3] overflow-hidden">
+        {typeof heroImage === 'string' ? (
+            <img 
+                src={heroImage || '/blog-placeholder-1.jpg'} 
+                alt={post.data.title} 
+                class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+        ) : heroImage ? (
+            <Image 
+                src={heroImage} 
+                alt={post.data.title} 
+                class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+        ) : (
+            <img 
+                src="/blog-placeholder-1.jpg" 
+                alt={post.data.title} 
+                class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+        )}
+    </a>
+    <div class="p-6 flex flex-col flex-grow">
+        <div class="mb-3 flex items-center gap-2 text-xs font-medium text-terra uppercase tracking-wider">
+            {post.data.tags[0] || 'Uncategorized'}
+        </div>
+        <h3 class="mb-2 text-xl font-serif font-bold text-charcoal dark:text-stone-100 group-hover:text-terra transition-colors leading-tight">
+            <a href={`/blog/${post.slug}`}>
+                {post.data.title}
+            </a>
+        </h3>
+        <p class="mb-4 text-sm text-charcoal-light dark:text-stone-400 line-clamp-3 flex-grow">
+            {post.data.description}
+        </p>
+        <div class="mt-auto flex items-center justify-between text-xs text-stone-500 dark:text-stone-500">
+            <time datetime={post.data.pubDate.toISOString()}>
+                {post.data.pubDate.toLocaleDateString('en-us', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                })}
+            </time>
+            <span>{post.data.author}</span>
+        </div>
+    </div>
+</article>

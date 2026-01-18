@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog', ({ data }) => {
+	return import.meta.env.PROD ? data.draft !== true : true;
+})).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<BaseLayout title="Blog | Mrrakc" description="Stories from the heart of Morocco.">
+	<section class="pt-32 pb-20 px-4 md:px-8 bg-sand dark:bg-[#1a1a1a] transition-colors duration-300">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-4">
+                    Journal
+                </h1>
+                <p class="text-lg text-charcoal-light dark:text-stone-400 max-w-2xl mx-auto">
+                    Exploring the rich tapestry of Moroccan heritage, one story at a time.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {posts.map((post) => (
+                    <PostCard post={post} />
+                ))}
+            </div>
+        </div>
+    </section>
+</BaseLayout>

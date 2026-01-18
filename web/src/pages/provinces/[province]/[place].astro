@@ -1,0 +1,200 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import MiniMap from '../../../components/MiniMap.astro';
+import { ExternalLink, Calendar, User, Clock, Mountain } from 'lucide-react';
+
+export async function getStaticPaths() {
+  const places = await getCollection('places');
+  return places.map(place => {
+    const provinceId = place.data.spec.location.province.replace('province/', '');
+    return {
+      params: { 
+        province: provinceId,
+        place: place.data.spec.id 
+      },
+      props: { place }
+    };
+  });
+}
+
+const { place } = Astro.props;
+const { spec, kind, metadata } = place.data;
+
+// Helper to format date
+const formatDate = (dateStr: string) => {
+  if (!dateStr) return '';
+  return new Date(dateStr).getFullYear();
+};
+---
+
+<BaseLayout title={`${spec.name} - ${spec.location.province.split('/')[1]}`} description={spec.description}>
+  <main class="w-full max-w-6xl mx-auto px-4 pt-32 pb-20">
+    <div class="mb-6">
+      <a href={`/provinces/${spec.location.province.replace('province/', '')}`} class="text-sm text-terra hover:underline mb-2 inline-block">&larr; Back to {spec.location.province.replace('province/', '')}</a>
+    </div>
+
+    <header class="mb-10">
+      <div class="flex flex-wrap items-center gap-3 mb-4">
+        <span class="px-3 py-1 text-sm font-bold uppercase tracking-wider text-white bg-terra rounded-full">
+          {kind.split('/').pop()?.replace('-', ' ')}
+        </span>
+        {metadata?.tags?.map(tag => (
+          <span class="px-3 py-1 text-sm font-medium text-charcoal-light bg-clay/20 dark:text-stone-300 dark:bg-charcoal-light/30 rounded-full">
+            #{tag}
+          </span>
+        ))}
+      </div>
+      <h1 class="text-4xl md:text-6xl font-serif font-bold text-charcoal dark:text-stone-100 mb-6 leading-tight">
+        {spec.name}
+      </h1>
+    </header>
+
+    <section class="border border-clay/20 dark:border-charcoal-light rounded-2xl p-6 md:p-10 bg-white dark:bg-charcoal shadow-sm mb-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      {/* Left Column: Details */}
+      <div class="lg:col-span-2 space-y-10">
+        
+        {/* Description */}
+        <p class="text-lg md:text-xl text-charcoal-light dark:text-stone-300 leading-relaxed">
+          {spec.description}
+        </p>
+        
+        {/* Timeline */}
+        {spec.timeline && spec.timeline.length > 0 && (
+          <section>
+            <h2 class="font-serif font-bold text-2xl text-charcoal dark:text-stone-100 mb-6 flex items-center gap-2">
+              <Clock size={24} className="text-terra" /> Timeline
+            </h2>
+            <div class="relative border-l-2 border-terra/20 ml-3 space-y-8 py-2">
+              {spec.timeline.map(event => (
+                <div class="relative pl-8">
+                  <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-terra border-4 border-white dark:border-charcoal"></div>
+                  <span class="text-sm font-bold text-terra mb-1 block">{formatDate(event.date)}</span>
+                  <h3 class="text-lg font-bold text-charcoal dark:text-stone-100 mb-1">{event.title}</h3>
+                  <p class="text-charcoal-light dark:text-stone-400">{event.description}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+
+
+      </div>
+
+      {/* Right Column: Sidebar Info */}
+      <aside class="space-y-6">
+        
+        {/* Key Info Card */}
+        <div class="bg-clay/10 dark:bg-charcoal-light/10 rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light">
+          <h3 class="font-serif font-bold text-lg text-charcoal dark:text-stone-100 mb-4">Key Information</h3>
+          
+          <div class="space-y-4">
+            {spec.people && spec.people.length > 0 && (
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Key Figures</span>
+                <ul class="space-y-2">
+                  {spec.people.map(person => (
+                    <li class="flex items-start gap-2">
+                      <User size={16} className="mt-0.5 text-terra shrink-0" />
+                      <div>
+                        <span class="font-bold text-charcoal dark:text-stone-200 block capitalize">{person.id.split('/').pop()?.replace(/-/g, ' ')}</span>
+                        <span class="text-xs text-charcoal-light dark:text-stone-400">{person.relationship.join(', ')}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {spec.location.altitude && (
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Altitude</span>
+                <div class="flex items-center gap-2 text-charcoal dark:text-stone-200 font-bold">
+                  <Mountain size={16} className="text-terra" />
+                  <span>{spec.location.altitude} m</span>
+                </div>
+              </div>
+            )}
+
+            {spec.timePeriods && spec.timePeriods.length > 0 && (
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Era</span>
+                <div class="flex flex-wrap gap-2">
+                  {spec.timePeriods.map(period => (
+                    <span class="inline-flex items-center gap-1 px-2 py-1 bg-white dark:bg-charcoal rounded-md text-xs border border-clay/20 dark:border-charcoal-light text-charcoal dark:text-stone-300">
+                      <Calendar size={12} /> {period}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+          </div>
+        </div>
+
+        {/* Access Info */}
+        {spec.access && (
+           <div class="bg-white dark:bg-charcoal rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light shadow-sm">
+             <h3 class="font-serif font-bold text-lg text-charcoal dark:text-stone-100 mb-4">Access & Visits</h3>
+             <div class="space-y-3">
+               <div class="flex justify-between items-center pb-2 border-b border-clay/10 dark:border-charcoal-light/10">
+                 <span class="text-charcoal-light dark:text-stone-400">Status</span>
+                 <span class={`font-bold px-2 py-0.5 rounded text-sm ${spec.access.status === 'open' ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' : 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400'}`}>
+                   {spec.access.status || 'Unknown'}
+                 </span>
+               </div>
+               {spec.access.options?.map(opt => (
+                 <div class="flex justify-between items-center text-sm">
+                   <span class="text-charcoal dark:text-stone-200">{opt.title}</span>
+                   <span class="font-bold text-terra">
+                     {opt.entranceFee === 0 ? 'Free' : opt.entranceFee === -1 ? 'Variable' : `${opt.entranceFee} MAD`}
+                   </span>
+                 </div>
+               ))}
+               {spec.access.comment && (
+                 <p class="text-xs text-charcoal-light dark:text-stone-500 italic mt-2 bg-clay/10 dark:bg-charcoal-light/10 p-2 rounded">
+                   "{spec.access.comment}"
+                 </p>
+               )}
+             </div>
+           </div>
+        )}
+
+        {/* External Links */}
+        {spec.links && spec.links.length > 0 && (
+          <div class="bg-white dark:bg-charcoal rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light shadow-sm">
+            <h3 class="font-serif font-bold text-lg text-charcoal dark:text-stone-100 mb-4">Learn More</h3>
+            <ul class="space-y-2">
+              {spec.links.map(link => (
+                <li>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-terra hover:underline group">
+                    <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
+                    <span class="line-clamp-1">{link.title}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+      </aside>
+      </div>
+      <div class="w-full flex items-center gap-4 my-10">
+        <div class="h-px bg-clay/20 dark:bg-charcoal-light flex-grow"></div>
+        <span class="text-terra text-xl">✦</span>
+        <div class="h-px bg-clay/20 dark:bg-charcoal-light flex-grow"></div>
+      </div>
+
+      {/* Map */}
+         <h2 class="font-serif font-bold text-xl text-charcoal dark:text-stone-100 flex items-center gap-2 mb-6">
+           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-terra"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg> Location
+         </h2>
+         <div class="h-[350px] rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+           <MiniMap ids={[place.id]} simple={true} className="h-full w-full" />
+         </div>
+      </div>
+    </section>
+  </main>
+</BaseLayout>

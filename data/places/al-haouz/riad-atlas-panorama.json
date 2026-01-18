@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "accommodation/riad",
+  "metadata": {
+    "tags": [
+      "Imlil"
+    ]
+  },
+  "spec": {
+    "name": "Riad Atlas Panorama",
+    "id": "riad-atlas-panorama",
+    "description": "No description available",
+    "location": {
+      "latitude": 31.134152339560295,
+      "longitude": -7.9208498565291166,
+      "province": "province/al-haouz"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=4513795353734216321",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open"
+    },
+    "timePeriods": []
+  }
+}

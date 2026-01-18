@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "spec": {
+    "name": "Chez Lamine Hadj Mustapha",
+    "id": "chez-lamine-hadj-mustapha",
+    "description": "kind: food/restaurant",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.987592,
+      "latitude": 31.627095,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

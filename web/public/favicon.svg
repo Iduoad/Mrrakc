@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .terra { fill: #A87C6D; }
+      .terra-dark { fill: #8D6658; }
+      .bg-void { fill: #FAFAF9; }
+    </style>
+  </defs>
+  
+  <!-- Main Structure with rounded bottom corners for a polished look -->
+  <path class="terra" d="M15,92 L85,92 L85,40 L15,40 Z" />
+  
+  <!-- Pyramidal Merlons (more elegant than boxes) -->
+  <path class="terra" d="
+    M15,40 L15,30 L26,20 L37,30 L37,40 Z
+    M39,40 L39,30 L50,20 L61,30 L61,40 Z
+    M63,40 L63,30 L74,20 L85,30 L85,40 Z
+  " />
+
+  <!-- Arch Shadow/Depth - Dark Terra -->
+  <!-- A large arch shape behind the inner opening -->
+  <path class="terra-dark" d="
+    M25,92 L25,60 
+    C25,35 35,28 50,28
+    C65,28 75,35 75,60
+    L75,92 Z
+  "/>
+
+  <!-- Inner Doorway - Horseshoe shape (The Light) -->
+  <path class="bg-void" d="
+    M32,92 L32,62 
+    C32,50 35,42 50,42 
+    C65,42 68,50 68,62 
+    L68,92 Z
+  "/>
+</svg>

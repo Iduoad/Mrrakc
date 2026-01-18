@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "spec": {
+    "name": "Marbat El Khayl Mosque",
+    "id": "marbat-el-khayl-mosque",
+    "description": "AKA Menara Mosque",
+    "location": {
+      "province": "province/marrakech",
+      "longitude": -8.021983,
+      "latitude": 31.619932,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

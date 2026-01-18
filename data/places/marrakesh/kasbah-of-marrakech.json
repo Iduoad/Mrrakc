@@ -4,7 +4,7 @@
   "spec": {
     "name": "Kasbah of Marrakech",
     "id": "kasbah-of-marrakech",
-    "description": "No description available",
+    "description": "kind: urban/district",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.987898,
