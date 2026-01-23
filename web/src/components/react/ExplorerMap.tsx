@@ -3,6 +3,7 @@ import InteractiveMap from './InteractiveMap';
 import MapFilters from './MapFilters';
 import type { MapPoint } from '../../types/map';
 import { Search, Filter } from 'lucide-react';
+import MapCategoryChips from './MapCategoryChips';
 
 interface Props {
     allPoints: MapPoint[];
@@ -84,6 +85,11 @@ export default function ExplorerMap({ allPoints }: Props) {
         }
     };
 
+    // Specifically for category chips (toggle logic)
+    const toggleCategory = (category: string) => {
+        toggleFilter(selectedCategories, category, setSelectedCategories);
+    };
+
     const clearFilters = () => {
         setSelectedCategories([]);
         setSelectedProvinces([]);
@@ -148,7 +154,45 @@ export default function ExplorerMap({ allPoints }: Props) {
                     className="h-full w-full"
                     headerContent={headerContent}
                     autoFit={true}
-                />
+                >
+                    {/* Overlay Content (Mobile Chips & Controls) */}
+                    <div className="flex flex-col gap-2">
+                        {/* 1. Category Chips Row */}
+                        <div className="md:hidden -mx-4 px-4 overflow-x-hidden">
+                            <MapCategoryChips
+                                categories={options.categories}
+                                selectedCategories={selectedCategories}
+                                onToggle={toggleCategory}
+                            />
+                        </div>
+
+                        {/* 2. Floating Search/Filter Button on Mobile (Bottom Right above sheet) */}
+                        {/* Actually, let's put it top right or integrate into chips row? 
+                            Let's put a compact search/filter row below chips for mobile.
+                        */}
+                        <div className="md:hidden flex items-center gap-2 pointer-events-auto">
+                            <div className="relative flex-grow shadow-lg rounded-full">
+                                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-charcoal-light" size={14} />
+                                <input
+                                    type="text"
+                                    placeholder="Search..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                    className="w-full pl-9 pr-3 py-2 text-sm bg-white border border-clay/20 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-terra/20 text-charcoal placeholder-charcoal-light/50"
+                                />
+                            </div>
+                            <button
+                                onClick={() => setIsFilterOpen(true)}
+                                className={`p-2 rounded-full border shadow-lg transition-colors ${hasActiveFilters
+                                    ? 'bg-terra text-white border-terra'
+                                    : 'bg-white text-charcoal-light border-clay/10'
+                                    }`}
+                            >
+                                <Filter size={18} />
+                            </button>
+                        </div>
+                    </div>
+                </InteractiveMap>
             </div>
         </div>
     );

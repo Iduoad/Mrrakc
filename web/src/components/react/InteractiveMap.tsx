@@ -53,6 +53,7 @@ import {
 } from 'lucide-react';
 
 import type { MapPoint } from '../../types/map';
+import MapBottomSheet from './MapBottomSheet';
 
 interface Props {
     points: MapPoint[];
@@ -61,6 +62,8 @@ interface Props {
     headerContent?: React.ReactNode;
     autoFit?: boolean;
     title?: string;
+    // New prop to pass children (like chips) to overlay
+    children?: React.ReactNode;
 }
 
 const getIcon = (kindString: string) => {
@@ -119,10 +122,11 @@ const getIcon = (kindString: string) => {
     return <MapPin size={18} />;
 };
 
-export default function InteractiveMap({ points, simple = false, className = '', headerContent, autoFit = false, title }: Props) {
+export default function InteractiveMap({ points, simple = false, className = '', headerContent, autoFit = false, title, children }: Props) {
     const [selectedPoint, setSelectedPoint] = useState<MapPoint | null>(null);
     const [isSidebarOpen, setIsSidebarOpen] = useState(!simple);
     const [isMaximized, setIsMaximized] = useState(false);
+    const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
     const mapRef = useRef<MapRef>(null);
 
     // Calculate bounds and fit map
@@ -165,14 +169,19 @@ export default function InteractiveMap({ points, simple = false, className = '',
             point.location.longitude + 0.0001, // maxX
             point.location.latitude + 0.0001   // maxY
         ];
+
+        // Adjust padding for mobile to account for bottom sheet
+        const isMobile = window.innerWidth < 768;
+        const padding = isMobile ? { top: 50, bottom: 300, left: 50, right: 50 } : 100;
+
         mapRef.current?.fitBounds(bounds, {
-            padding: 100,
+            padding: padding,
             maxZoom: 16,
             duration: 1000
         });
-        // On mobile, close sidebar when a point is selected
-        if (window.innerWidth < 768) {
-            setIsSidebarOpen(false);
+
+        if (isMobile) {
+            setIsMobileSheetOpen(true);
         }
     };
 
@@ -186,6 +195,90 @@ export default function InteractiveMap({ points, simple = false, className = '',
         window.addEventListener('keydown', handleEsc);
         return () => window.removeEventListener('keydown', handleEsc);
     }, [isMaximized]);
+
+    // Detail Card Render Helper
+    const renderDetailCard = (point: MapPoint) => (
+        <div className="space-y-4">
+            <div className="flex items-start justify-between gap-3">
+                <div className="flex items-start gap-3">
+                    <div className="w-12 h-12 rounded-xl bg-terra/10 text-terra flex items-center justify-center shrink-0">
+                        {React.cloneElement(getIcon(point.category) as React.ReactElement<{ size: number }>, { size: 24 })}
+                    </div>
+                    <div>
+                        <h3 className="font-serif font-bold text-xl text-charcoal dark:text-stone-100 leading-tight mb-1">
+                            {point.name}
+                        </h3>
+                        <p className="text-xs uppercase tracking-wider text-charcoal-light dark:text-stone-400 font-medium">
+                            {point.kind.split('/').pop()?.replace('-', ' ')}
+                        </p>
+                    </div>
+                </div>
+                {/* Close/Back Button */}
+                <button
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        setSelectedPoint(null);
+                    }}
+                    className="p-2 bg-clay/10 dark:bg-charcoal-light/10 rounded-full text-charcoal-light hover:text-terra"
+                    title="Back to List"
+                >
+                    <X size={18} />
+                </button>
+            </div>
+
+            <p className="text-sm text-charcoal dark:text-stone-300 leading-relaxed">
+                {point.description}
+            </p>
+
+            {point.prices && point.prices.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                    {point.prices.map((price, idx) => (
+                        <div key={idx} className="px-2 py-1 bg-clay/10 dark:bg-charcoal-light/10 rounded-md text-xs">
+                            <span className="text-charcoal-light dark:text-stone-400 mr-1">{price.title}:</span>
+                            <span className="font-bold text-charcoal dark:text-stone-200">
+                                {price.entranceFee === -1 ? 'Var' : (price.entranceFee ? `${price.entranceFee}` : 'Free')}
+                            </span>
+                        </div>
+                    ))}
+                </div>
+            )}
+
+            <a
+                href={`/provinces/${point.id}`}
+                className="block w-full text-center py-3 bg-terra text-white font-bold rounded-xl shadow-lg shadow-terra/20 hover:bg-terra-dark transition-all active:scale-95"
+            >
+                View Full Details
+            </a>
+        </div>
+    );
+
+    // List Item Render Helper
+    const renderListItem = (point: MapPoint) => (
+        <button
+            key={point.id}
+            onClick={() => handleFocus(point)}
+            className={`w-full text-left p-3 rounded-xl transition-all duration-200 flex items-center justify-between group ${selectedPoint?.id === point.id
+                ? 'bg-terra/10 border-terra/30 border shadow-sm'
+                : 'hover:bg-clay/20 dark:hover:bg-charcoal-light/20 border border-transparent'
+                }`}
+        >
+            <div className="flex items-center gap-3 min-w-0">
+                <div className={`w-10 h-10 rounded-lg flex items-center justify-center shrink-0 ${selectedPoint?.id === point.id ? 'bg-terra text-white' : 'bg-clay/30 dark:bg-charcoal-light/30 text-terra'
+                    }`}>
+                    {getIcon(point.category)}
+                </div>
+                <div className="not-prose flex flex-col justify-center min-w-0 gap-1">
+                    <h4 className="text-sm font-bold text-charcoal dark:text-stone-100 line-clamp-1 leading-tight">{point.name}</h4>
+                    <p className="text-[10px] uppercase tracking-wider text-charcoal-light dark:text-stone-400 font-medium leading-tight">
+                        {point.kind.split('/').pop()?.replace('-', ' ')}
+                    </p>
+                </div>
+            </div>
+            <ChevronRight size={16} className={`shrink-0 transition-transform duration-200 ${selectedPoint?.id === point.id ? 'translate-x-1 text-terra' : 'text-clay-dark dark:text-charcoal-light opacity-0 group-hover:opacity-100'
+                }`} />
+        </button>
+    );
+
 
     return (
         <>
@@ -203,17 +296,16 @@ export default function InteractiveMap({ points, simple = false, className = '',
                     : `relative w-full rounded-2xl ${className || 'h-[600px]'}`
                 }
             `}>
-                {/* Legend Sidebar */}
+                {/* Desktop: Legend Sidebar */}
                 {!simple && (
-                    <div className={`transition-all duration-300 ease-in-out z-20 bg-white dark:bg-charcoal flex flex-col border-clay/30 dark:border-charcoal-light
-                    ${isSidebarOpen ? 'w-full md:w-1/3 h-1/2 md:h-full opacity-100' : 'w-0 h-0 md:w-0 md:h-full opacity-0 pointer-events-none'}
-                    ${isSidebarOpen ? 'border-b md:border-b-0 md:border-r' : ''}
+                    <div className={`hidden md:flex transition-all duration-300 ease-in-out z-20 bg-white dark:bg-charcoal flex-col border-clay/30 dark:border-charcoal-light
+                    ${isSidebarOpen ? 'w-1/3 h-full opacity-100 border-r' : 'w-0 h-full opacity-0 pointer-events-none'}
                 `}>
                         <div className="p-4 bg-clay/10 dark:bg-charcoal-light/10 border-b border-clay/30 dark:border-charcoal-light flex items-start justify-between gap-3">
                             <div className="flex-grow min-w-0">
                                 {headerContent ? headerContent : (
                                     <>
-                                        <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100 leading-tight">{title || 'Mohammed V Street Tour'}</h3>
+                                        <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100 leading-tight">{title || 'Map Explorer'}</h3>
                                         <p className="text-xs text-charcoal-light dark:text-stone-400">{points.length} locations</p>
                                     </>
                                 )}
@@ -227,40 +319,16 @@ export default function InteractiveMap({ points, simple = false, className = '',
                             </button>
                         </div>
                         <div className="flex-1 overflow-y-auto p-2 space-y-2 custom-scrollbar">
-                            {points.map(point => (
-                                <button
-                                    key={point.id}
-                                    onClick={() => handleFocus(point)}
-                                    className={`w-full text-left p-3 rounded-xl transition-all duration-200 flex items-center justify-between group ${selectedPoint?.id === point.id
-                                        ? 'bg-terra/10 border-terra/30 border shadow-sm'
-                                        : 'hover:bg-clay/20 dark:hover:bg-charcoal-light/20 border border-transparent'
-                                        }`}
-                                >
-                                    <div className="flex items-center gap-3 min-w-0">
-                                        <div className={`w-10 h-10 rounded-lg flex items-center justify-center shrink-0 ${selectedPoint?.id === point.id ? 'bg-terra text-white' : 'bg-clay/30 dark:bg-charcoal-light/30 text-terra'
-                                            }`}>
-                                            {getIcon(point.category)}
-                                        </div>
-                                        <div className="not-prose flex flex-col justify-center min-w-0 gap-1">
-                                            <h4 className="text-sm font-bold text-charcoal dark:text-stone-100 line-clamp-1 leading-tight">{point.name}</h4>
-                                            <p className="text-[10px] uppercase tracking-wider text-charcoal-light dark:text-stone-400 font-medium leading-tight">
-                                                {point.kind.split('/').pop()?.replace('-', ' ')}
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <ChevronRight size={16} className={`shrink-0 transition-transform duration-200 ${selectedPoint?.id === point.id ? 'translate-x-1 text-terra' : 'text-clay-dark dark:text-charcoal-light opacity-0 group-hover:opacity-100'
-                                        }`} />
-                                </button>
-                            ))}
+                            {points.map(renderListItem)}
                         </div>
                     </div>
                 )}
 
-                {/* Sidebar Toggle Button (Floating) */}
+                {/* Desktop: Sidebar Toggle Button (Floating) */}
                 {!simple && !isSidebarOpen && (
                     <button
                         onClick={() => setIsSidebarOpen(true)}
-                        className="absolute top-4 left-4 z-30 p-3 bg-white dark:bg-charcoal text-terra rounded-full shadow-lg border border-clay/30 dark:border-charcoal-light hover:scale-110 transition-all duration-200 group"
+                        className="hidden md:block absolute top-4 left-4 z-30 p-3 bg-white dark:bg-charcoal text-terra rounded-full shadow-lg border border-clay/30 dark:border-charcoal-light hover:scale-110 transition-all duration-200 group"
                         title="Open Legend"
                     >
                         <Menu size={24} className="group-hover:rotate-90 transition-transform duration-300" />
@@ -270,7 +338,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                 {/* Maximize/Minimize Button (Floating) */}
                 <button
                     onClick={() => setIsMaximized(!isMaximized)}
-                    className="absolute top-4 right-14 z-30 p-2 bg-white dark:bg-charcoal text-charcoal dark:text-stone-100 rounded-lg shadow-md border border-clay/30 dark:border-charcoal-light hover:bg-clay/10 transition-colors"
+                    className="absolute top-4 right-14 z-30 p-2 bg-white dark:bg-charcoal text-charcoal dark:text-stone-100 rounded-lg shadow-md border border-clay/30 dark:border-charcoal-light hover:bg-clay/10 transition-colors hidden md:flex"
                     title={isMaximized ? "Minimize Map" : "Maximize Map"}
                 >
                     {isMaximized ? <Minimize2 size={20} /> : <Maximize2 size={20} />}
@@ -278,13 +346,28 @@ export default function InteractiveMap({ points, simple = false, className = '',
 
                 {/* Map Area */}
                 <div className={`flex-1 h-full relative bg-clay/10 transition-all duration-300`}>
+                    {/* Overlay Children (Chips etc) */}
+                    {children && (
+                        <div className="absolute top-0 left-0 right-0 z-20 pointer-events-none p-4">
+                            <div className="pointer-events-auto">
+                                {children}
+                            </div>
+                        </div>
+                    )}
+
                     <Map
                         ref={mapRef}
                         onLoad={fitMapToBounds}
                         initialViewState={initialViewState}
                         mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
                         style={{ width: '100%', height: '100%' }}
+                        attributionControl={false}
                     >
+                        {/* Only show attribution on desktop or small */}
+                        {!simple && !isMobileSheetOpen && (
+                            <div style={{ position: 'absolute', right: 5, bottom: 5, fontSize: 10, opacity: 0.5 }}>© MapLibre © Carto</div>
+                        )}
+
                         <NavigationControl position="top-right" />
 
                         {points.map(point => (
@@ -295,7 +378,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                 anchor="bottom"
                                 onClick={e => {
                                     e.originalEvent.stopPropagation();
-                                    setSelectedPoint(point);
+                                    handleFocus(point);
                                 }}
                             >
                                 <div className={`cursor-pointer transition-transform duration-200 hover:scale-110 ${selectedPoint?.id === point.id ? 'z-10' : 'z-0'
@@ -311,7 +394,8 @@ export default function InteractiveMap({ points, simple = false, className = '',
                             </Marker>
                         ))}
 
-                        {selectedPoint && (
+                        {/* Desktop Popup */}
+                        {selectedPoint && window.innerWidth >= 768 && (
                             <Popup
                                 longitude={selectedPoint.location.longitude}
                                 latitude={selectedPoint.location.latitude}
@@ -347,42 +431,6 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                                 </div>
                                             )}
 
-                                            {selectedPoint.prices && selectedPoint.prices.length > 0 && (
-                                                <div className="mb-3 p-2 bg-clay/20 dark:bg-charcoal-light/20 rounded-lg border border-clay/30 dark:border-charcoal-light/30">
-                                                    <div className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-terra mb-1.5">
-                                                        <Ticket size={12} />
-                                                        <span>Access & Prices</span>
-                                                    </div>
-                                                    <div className="space-y-1">
-                                                        {selectedPoint.prices.map((price, idx) => (
-                                                            <div key={idx} className="flex justify-between items-center text-[11px]">
-                                                                <span className="text-charcoal-light dark:text-stone-300">{price.title}</span>
-                                                                <span className="font-bold text-charcoal dark:text-stone-100">
-                                                                    {price.entranceFee === -1 ? 'Variable Price' : (price.entranceFee ? `${price.entranceFee} MAD` : 'Free')}
-                                                                </span>
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                </div>
-                                            )}
-
-                                            {selectedPoint.links && selectedPoint.links.length > 0 && (
-                                                <div className="flex flex-wrap gap-2 mt-2 pt-2 border-t border-clay/30 dark:border-charcoal-light/30">
-                                                    {selectedPoint.links.map((link, idx) => (
-                                                        <a
-                                                            key={idx}
-                                                            href={link.url}
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            className="flex items-center gap-1 text-[10px] font-bold text-terra hover:underline"
-                                                        >
-                                                            <ExternalLink size={10} />
-                                                            {link.title}
-                                                        </a>
-                                                    ))}
-                                                </div>
-                                            )}
-
                                             <div className="mt-3 pt-2 border-t border-clay/30 dark:border-charcoal-light/30 flex justify-end">
                                                 <a
                                                     href={`/provinces/${selectedPoint.id}`}
@@ -399,6 +447,34 @@ export default function InteractiveMap({ points, simple = false, className = '',
                         )}
                     </Map>
                 </div>
+
+                {/* Mobile Bottom Sheet */}
+                {!simple && (
+                    <div className="md:hidden">
+                        <MapBottomSheet
+                            isOpen={isMobileSheetOpen}
+                            onToggle={setIsMobileSheetOpen}
+                            peekHeight={selectedPoint ? '180px' : '100px'} // Show more if point selected
+                            expandedHeight="80%"
+                        >
+                            {selectedPoint ? (
+                                renderDetailCard(selectedPoint)
+                            ) : (
+                                <>
+                                    {/* Mobile Header in Sheet */}
+                                    <div className="mb-4">
+                                        <h3 className="text-lg font-serif font-bold text-charcoal dark:text-stone-100">{title || 'Locations'}</h3>
+                                        <p className="text-xs text-charcoal-light">{points.length} places found</p>
+                                    </div>
+                                    <div className="space-y-2">
+                                        {points.map(renderListItem)}
+                                    </div>
+                                </>
+                            )}
+                        </MapBottomSheet>
+                    </div>
+                )}
+
 
                 <style dangerouslySetInnerHTML={{
                     __html: `
