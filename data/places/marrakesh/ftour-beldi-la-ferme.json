@@ -1,10 +1,10 @@
 {
   "version": "mrrakc/v0",
-  "kind": "urban/landmark",
+  "kind": "food/street-food",
   "spec": {
     "name": "Ftour Beldi La Ferme",
     "id": "ftour-beldi-la-ferme",
-    "description": "kind: food/street-food",
+    "description": "No description available",
     "location": {
       "province": "province/marrakesh",
       "longitude": -8.030656,

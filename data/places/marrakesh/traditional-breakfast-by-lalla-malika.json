@@ -1,10 +1,10 @@
 {
   "version": "mrrakc/v0",
-  "kind": "urban/landmark",
+  "kind": "food/street-food",
   "spec": {
     "name": "Traditional Breakfast by Lalla Malika",
     "id": "traditional-breakfast-by-lalla-malika",
-    "description": "kind: food/street-food",
+    "description": "No description available",
     "location": {
       "province": "province/marrakesh",
       "longitude": -8.054434,

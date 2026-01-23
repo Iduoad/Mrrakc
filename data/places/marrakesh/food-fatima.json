@@ -1,10 +1,10 @@
 {
   "version": "mrrakc/v0",
-  "kind": "urban/landmark",
+  "kind": "food/restaurant",
   "spec": {
     "name": "Food Fatima",
     "id": "food-fatima",
-    "description": "kind: restaurant",
+    "description": "No description available",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.989701,
