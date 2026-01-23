@@ -1,10 +1,10 @@
 {
   "version": "mrrakc/v0",
-  "kind": "urban/landmark",
+  "kind": "food/cafe",
   "spec": {
     "name": "Mint Tea Cherratine",
     "id": "mint-tea-cherratine",
-    "description": "kind: food/cafe",
+    "description": "No description available",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.987317,

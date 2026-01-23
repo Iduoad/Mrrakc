@@ -1,10 +1,10 @@
 {
   "version": "mrrakc/v0",
-  "kind": "urban/landmark",
+  "kind": "food/street-food",
   "spec": {
     "name": "Snack Jad",
     "id": "snack-jad",
-    "description": "kind: street-food",
+    "description": "No description available",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.982886,

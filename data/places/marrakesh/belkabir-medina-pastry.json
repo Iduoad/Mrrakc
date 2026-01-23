@@ -1,10 +1,10 @@
 {
   "version": "mrrakc/v0",
-  "kind": "food/bakery",
+  "kind": "food/pastry",
   "spec": {
     "name": "Belkabir Medina Pastry",
     "id": "belkabir-medina-pastry",
-    "description": "kind: food/pastry",
+    "description": "No description available",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.987987,
