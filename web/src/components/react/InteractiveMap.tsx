@@ -182,9 +182,9 @@ export default function InteractiveMap({ points, simple = false, className = '',
         const isMobile = window.innerWidth < 768;
         const padding = isMobile ? { top: 50, bottom: 300, left: 50, right: 50 } : 100;
 
-        mapRef.current?.fitBounds(bounds, {
-            padding: padding,
-            maxZoom: 16,
+        mapRef.current?.flyTo({
+            center: [point.location.longitude, point.location.latitude],
+            padding: typeof padding === 'number' ? { top: padding, bottom: padding, left: padding, right: padding } : padding,
             duration: 1000
         });
 
