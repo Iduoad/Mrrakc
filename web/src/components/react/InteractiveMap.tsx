@@ -127,7 +127,15 @@ export default function InteractiveMap({ points, simple = false, className = '',
     const [isSidebarOpen, setIsSidebarOpen] = useState(!simple);
     const [isMaximized, setIsMaximized] = useState(false);
     const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
+    const [isMobile, setIsMobile] = useState(false);
     const mapRef = useRef<MapRef>(null);
+
+    useEffect(() => {
+        const checkMobile = () => setIsMobile(window.innerWidth < 768);
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
 
     // Calculate bounds and fit map
     const fitMapToBounds = React.useCallback(() => {
@@ -368,7 +376,10 @@ export default function InteractiveMap({ points, simple = false, className = '',
                             <div style={{ position: 'absolute', right: 5, bottom: 5, fontSize: 10, opacity: 0.5 }}>© MapLibre © Carto</div>
                         )}
 
-                        <NavigationControl position="top-right" />
+                        <NavigationControl
+                            position="top-right"
+                            style={isMobile ? { marginTop: '120px' } : {}}
+                        />
 
                         {points.map(point => (
                             <Marker
