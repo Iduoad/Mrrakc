@@ -131,6 +131,20 @@ const formatDate = (dateStr: string) => {
               </div>
             )}
 
+            {/* Directions Link */}
+            <div>
+                 <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Directions</span>
+                 <a 
+                    href={`https://www.google.com/maps/dir//${spec.location.latitude},${spec.location.longitude}`} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="flex items-center gap-2 text-sm font-bold text-terra hover:underline"
+                 > 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Get Directions
+                 </a>
+            </div>
+
           </div>
         </div>
 

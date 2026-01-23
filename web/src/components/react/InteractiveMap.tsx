@@ -238,6 +238,17 @@ export default function InteractiveMap({ points, simple = false, className = '',
                 {point.description}
             </p>
 
+            {/* Directions Link (Mobile) */}
+            <a
+                href={`https://www.google.com/maps/dir//${point.location.latitude},${point.location.longitude}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-xs font-bold text-terra hover:underline"
+            >
+                <MapPin size={14} />
+                Get Directions
+            </a>
+
             {point.prices && point.prices.length > 0 && (
                 <div className="flex flex-wrap gap-2">
                     {point.prices.map((price, idx) => (
@@ -434,6 +445,17 @@ export default function InteractiveMap({ points, simple = false, className = '',
                                             <p className="text-xs text-charcoal-light dark:text-stone-400 mb-3 line-clamp-3 leading-relaxed">
                                                 {selectedPoint.description}
                                             </p>
+
+                                            {/* Directions Link (Desktop Popup) */}
+                                            <a
+                                                href={`https://www.google.com/maps/dir//${selectedPoint.location.latitude},${selectedPoint.location.longitude}`}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="flex items-center gap-1.5 text-xs font-bold text-terra hover:underline mb-2"
+                                            >
+                                                <MapPin size={12} />
+                                                Get Directions
+                                            </a>
 
                                             {!!selectedPoint.location.altitude && (
                                                 <div className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-terra mb-3">
