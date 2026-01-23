@@ -188,9 +188,9 @@ export default function InteractiveMap({ points, simple = false, className = '',
             duration: 1000
         });
 
-        if (isMobile) {
-            setIsMobileSheetOpen(true);
-        }
+        // if (isMobile) {
+        //     setIsMobileSheetOpen(true);
+        // }
     };
 
     // Handle escape key to close modal
@@ -465,7 +465,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                         <MapBottomSheet
                             isOpen={isMobileSheetOpen}
                             onToggle={setIsMobileSheetOpen}
-                            peekHeight={selectedPoint ? '180px' : '100px'} // Show more if point selected
+                            peekHeight={selectedPoint ? '120px' : '100px'} // Reduced peek height for cleaner look
                             expandedHeight="80%"
                         >
                             {selectedPoint ? (
