@@ -2,13 +2,17 @@ import React, { useState, useMemo } from 'react';
 import InteractiveMap from './InteractiveMap';
 import MapFilters from './MapFilters';
 import type { MapPoint } from '../../types/map';
-import { Search, Filter } from 'lucide-react';
+import { Search, Filter, ChevronLeft } from 'lucide-react';
+import MapCategoryChips from './MapCategoryChips';
 
 interface Props {
     allPoints: MapPoint[];
+    children?: React.ReactNode;
+    title?: string;
+    backUrl?: string; // New: optional back URL
 }
 
-export default function ExplorerMap({ allPoints }: Props) {
+export default function ExplorerMap({ allPoints, children, title, backUrl }: Props) {
     const [searchQuery, setSearchQuery] = useState('');
     const [isFilterOpen, setIsFilterOpen] = useState(false);
     const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
@@ -84,6 +88,11 @@ export default function ExplorerMap({ allPoints }: Props) {
         }
     };
 
+    // Specifically for category chips (toggle logic)
+    const toggleCategory = (category: string) => {
+        toggleFilter(selectedCategories, category, setSelectedCategories);
+    };
+
     const clearFilters = () => {
         setSelectedCategories([]);
         setSelectedProvinces([]);
@@ -148,7 +157,61 @@ export default function ExplorerMap({ allPoints }: Props) {
                     className="h-full w-full"
                     headerContent={headerContent}
                     autoFit={true}
-                />
+                    title={title} // Pass title down
+                >
+                    {/* Overlay Content (Mobile Chips & Controls) */}
+                    <div className="flex flex-col gap-2">
+                        {/* Children Overlay (optional, legacy support) */}
+                        <div className="pointer-events-auto">
+                            {children}
+                        </div>
+
+                        {/* 1. Category Chips Row + Optional Back Button */}
+                        <div className="md:hidden flex items-center gap-2 -mx-4 px-4 pointer-events-auto">
+                            {backUrl && (
+                                <a
+                                    href={backUrl}
+                                    className="shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-charcoal/90 text-white shadow-md active:scale-95 transition-transform"
+                                    aria-label="Back"
+                                >
+                                    <ChevronLeft size={18} />
+                                </a>
+                            )}
+                            <div className="flex-1 overflow-hidden">
+                                {/* Chips container handles its own overflow-x-auto, but we wrap to constrain width */}
+                                <MapCategoryChips
+                                    categories={options.categories}
+                                    selectedCategories={selectedCategories}
+                                    onToggle={toggleCategory}
+                                    className="!px-0" // Remove default px since parent handles spacing
+                                />
+                            </div>
+                        </div>
+
+                        {/* 2. Floating Search/Filter Button on Mobile */}
+                        <div className="md:hidden flex items-center gap-2 pointer-events-auto">
+                            <div className="relative flex-grow shadow-lg rounded-full">
+                                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-charcoal-light" size={14} />
+                                <input
+                                    type="text"
+                                    placeholder="Search..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                    className="w-full pl-9 pr-3 py-2 text-sm bg-white border border-clay/20 rounded-full shadow-sm focus:outline-none focus:ring-2 focus:ring-terra/20 text-charcoal placeholder-charcoal-light/50"
+                                />
+                            </div>
+                            <button
+                                onClick={() => setIsFilterOpen(true)}
+                                className={`p-2 rounded-full border shadow-lg transition-colors ${hasActiveFilters
+                                    ? 'bg-terra text-white border-terra'
+                                    : 'bg-white text-charcoal-light border-clay/10'
+                                    }`}
+                            >
+                                <Filter size={18} />
+                            </button>
+                        </div>
+                    </div>
+                </InteractiveMap>
             </div>
         </div>
     );

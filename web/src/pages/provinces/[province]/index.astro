@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import MarkdownRenderer from '../../../components/react/MarkdownRenderer';
 
 export async function getStaticPaths() {
   const provinces = await getCollection('provinces');
@@ -44,9 +45,10 @@ provincePlaces.sort((a, b) => a.data.spec.name.localeCompare(b.data.spec.name));
             <h2 class="text-xl font-serif font-bold text-charcoal dark:text-stone-100 group-hover:text-terra transition-colors mb-2 line-clamp-2">
               {place.data.spec.name}
             </h2>
-            <p class="text-sm text-charcoal-light dark:text-stone-400 line-clamp-3 flex-grow">
-              {place.data.spec.description}
-            </p>
+            <MarkdownRenderer 
+              content={place.data.spec.description} 
+              className="text-sm text-charcoal-light dark:text-stone-400 line-clamp-3 flex-grow"
+            />
             <div class="mt-4 pt-4 border-t border-clay/10 dark:border-charcoal-light/10 flex items-center justify-between text-xs text-charcoal-light/70 dark:text-stone-500">
                <span>View Details</span>
                <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>

@@ -13,7 +13,7 @@
     "date": {
       "type": "string",
       "format": "date",
-      "description": "Event date in DD-MM-YYYY format"
+      "description": "Event date in YYYY-MM-DD format"
     },
     "description": {
       "type": "string",

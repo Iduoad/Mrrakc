@@ -7,14 +7,46 @@
   "spec": {
     "name": "16th November Square",
     "id": "16th-november-square",
-    "description": "Place du 16 Novembre (formerly Place Edmond Doutte) is a historic public square in Casablanca's medina. This square has been an important gathering place and commercial hub for centuries, serving as one of the main entry points to the old city. The square was renamed to commemorate Morocco's independence day (November 16, 1955) when King Mohammed V returned from exile. It features traditional architecture and remains a vibrant center of local life and commerce.",
+    "description": "Place du 16 Novembre is a historic square in Casablanca, named after November 16, 1955, the day King Mohammed V returned from exile. It is one of the best spots to admire iconic Casablanca architecture, surrounded by remarkable early 20th-century buildings such as the Baille, Bendahan, and Tazi buildings.",
     "location": {
       "longitude": -7.6169569,
       "latitude": 33.5946752,
       "province": "province/casablanca"
     },
     "people": [],
-    "timeline": [],
+
+    "timeline": [
+      {
+        "title": "Creation of the square",
+        "date": "1930-01-01",
+        "description": "The square was laid out in the late 1920s and early 1930s after the surrounding buildings were completed. It was first named Place des 5 Parties du Monde and later renamed Place Edmond Doutté."
+      },
+      {
+        "title": "Return of the Sultan from Exile",
+        "date": "1955-11-16",
+        "description": "Sultan Sidi Mohammed Ben Youssef and the royal family returned to Morocco after two years of forced exile, a historic event commemorated by Place du 16 Novembre."
+      },
+      {
+        "title": "Design of Prince Moulay Abdellah Pedestrian Street",
+        "date": "1970-01-01",
+        "description": "Architect Jean-François Zevaco designed the pedestrian Prince Moulay Abdellah Street during the 1970s."
+      },
+      {
+        "title": "Creation of the 'Source of Life' Sculpture",
+        "date": "1982-01-01",
+        "description": "Artist Abdelhak Sijelmassi created the ceramic sculpture 'Source de Vie,' accompanied by a fountain at Place du 16 Novembre."
+      },
+      {
+        "title": "First Restoration of the Fountain",
+        "date": "2003-01-01",
+        "description": "The fountain surrounding the 'Source de Vie' sculpture underwent its first restoration."
+      },
+      {
+        "title": "Second Restoration of the Fountain",
+        "date": "2020-01-01",
+        "description": "A second restoration was carried out to preserve the 'Source de Vie' sculpture and its fountain."
+      }
+    ],
     "links": [
       {
         "url": "https://maps.app.goo.gl/XwVqU7bNc8mdRNzq8",
@@ -41,8 +73,8 @@
       "status": "open"
     },
     "timePeriods": [
-      "20th century",
-      "21st century"
+      "20th Century",
+      "21st Century"
     ]
   }
 }

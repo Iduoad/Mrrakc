@@ -1,0 +1,47 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description?: string;
+    image?: string;
+}
+
+const { title, description = "Journey through the soul of Morocco.", image = '/blog-placeholder-1.jpg' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+
+		<title>{title}</title>
+		<meta name="description" content={description} />
+        <meta property="og:image" content={new URL(image, Astro.url)} />
+        {/* Fullscreen specific meta */}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <!-- Theme Management -->
+        <script is:inline>
+            (function() {
+                const savedTheme = localStorage.getItem('theme');
+                const theme = savedTheme || 'light';
+                if (theme === 'dark') {
+                    document.documentElement.classList.add('dark');
+                }
+            })();
+        </script>
+	</head>
+	<body class="bg-sand dark:bg-[#1a1a1a] text-charcoal dark:text-stone-100 font-sans h-[100dvh] w-screen overflow-hidden m-0 p-0 overscroll-none">
+		<slot />
+	</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Abdelwahab Doukkali",
+    "id": "abdelwahab-doukkali",
+    "bio": "Associated with Casablanca history. Mentioned in Abdelwahab Doukkali Small Museum",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "artist"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

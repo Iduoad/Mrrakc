@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Abdelhaq Sijelmassi",
+    "id": "abdelhaq-sijelmassi",
+    "bio": "Associated with Casablanca history. Mentioned in Statue 16th November",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

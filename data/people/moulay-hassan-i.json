@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": [
+      "stub"
+    ]
+  },
+  "spec": {
+    "name": "Moulay Hassan I",
+    "id": "moulay-hassan-i",
+    "bio": "Historical figure associated with Casablanca.",
+    "birthPlace": "province/casablanca",
+    "designations": [],
+    "timeline": [],
+    "links": []
+  }
+}

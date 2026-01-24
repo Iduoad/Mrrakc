@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Larbi Benbarek",
+    "id": "larbi-benbarek",
+    "bio": "Associated with Casablanca history. Mentioned in Stade Laarbi Ben Mubarak",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "athlete"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

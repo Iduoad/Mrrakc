@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Leonard Rene Morandi",
+    "id": "leonard-rene-morandi",
+    "bio": "Associated with Casablanca history. Mentioned in Abdelwahab Doukkali Small Museum",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}
