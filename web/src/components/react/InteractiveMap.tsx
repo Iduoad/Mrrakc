@@ -54,6 +54,7 @@ import {
 
 import type { MapPoint } from '../../types/map';
 import MapBottomSheet from './MapBottomSheet';
+import MarkdownRenderer from './MarkdownRenderer';
 
 interface Props {
     points: MapPoint[];
@@ -234,9 +235,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
                 </button>
             </div>
 
-            <p className="text-sm text-charcoal dark:text-stone-300 leading-relaxed">
-                {point.description}
-            </p>
+            <MarkdownRenderer content={point.description} className="text-sm text-charcoal dark:text-stone-300" />
 
             {/* Directions Link (Mobile) */}
             <a
@@ -442,9 +441,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
 
                                     {!simple && (
                                         <>
-                                            <p className="text-xs text-charcoal-light dark:text-stone-400 mb-3 line-clamp-3 leading-relaxed">
-                                                {selectedPoint.description}
-                                            </p>
+                                            <MarkdownRenderer content={selectedPoint.description} className="text-xs text-charcoal-light dark:text-stone-400 mb-3" />
 
                                             {/* Directions Link (Desktop Popup) */}
                                             <a

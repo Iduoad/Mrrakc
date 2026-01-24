@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import MiniMap from '../../../components/MiniMap.astro';
 import { ExternalLink, Calendar, User, Clock, Mountain } from 'lucide-react';
+import MarkdownRenderer from '../../../components/react/MarkdownRenderer';
 
 export async function getStaticPaths() {
   const places = await getCollection('places');
@@ -56,9 +57,11 @@ const formatDate = (dateStr: string) => {
       <div class="lg:col-span-2 space-y-10">
         
         {/* Description */}
-        <p class="text-lg md:text-xl text-charcoal-light dark:text-stone-300 leading-relaxed">
-          {spec.description}
-        </p>
+        {/* Description */}
+        <MarkdownRenderer 
+          content={spec.description} 
+          className="text-lg md:text-xl text-charcoal-light dark:text-stone-300"
+        />
         
         {/* Timeline */}
         {spec.timeline && spec.timeline.length > 0 && (
