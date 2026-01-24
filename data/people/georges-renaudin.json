@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Georges Renaudin",
+    "id": "georges-renaudin",
+    "bio": "Associated with Casablanca history. Mentioned in Marcel Raygot Garage Building",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

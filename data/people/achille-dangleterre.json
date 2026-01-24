@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Achille Dangleterre",
+    "id": "achille-dangleterre",
+    "bio": "Associated with Casablanca history. Mentioned in Church of Notre Dame of Lourdes",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

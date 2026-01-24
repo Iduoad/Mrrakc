@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": [
+      "stub"
+    ]
+  },
+  "spec": {
+    "name": "Ahmed Al Tijani",
+    "id": "ahmed-al-tijani",
+    "bio": "Historical figure associated with Casablanca.",
+    "birthPlace": "province/casablanca",
+    "designations": [],
+    "timeline": [],
+    "links": []
+  }
+}

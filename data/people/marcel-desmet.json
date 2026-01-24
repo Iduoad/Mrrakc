@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Marcel Desmet",
+    "id": "marcel-desmet",
+    "bio": "Associated with Casablanca history. Mentioned in La Fraternelle du Nord Building",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

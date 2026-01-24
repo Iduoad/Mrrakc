@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": [
+      "stub"
+    ]
+  },
+  "spec": {
+    "name": "El Kebir Ben Mohamed Lahrizi",
+    "id": "el-kebir-ben-mohamed-lahrizi",
+    "bio": "Historical figure associated with Casablanca.",
+    "birthPlace": "province/casablanca",
+    "designations": [],
+    "timeline": [],
+    "links": []
+  }
+}

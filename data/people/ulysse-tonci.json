@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ulysse Tonci",
+    "id": "ulysse-tonci",
+    "bio": "Associated with Casablanca history. Mentioned in Villa Carl Ficke",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "people/person",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Maurice Galamand",
+    "id": "maurice-galamand",
+    "bio": "Associated with Casablanca history. Mentioned in Cit\u00e9 Mar\u00e9chal Am\u00e9ziane",
+    "birthPlace": "province/casablanca",
+    "designations": [
+      "architect"
+    ],
+    "timeline": [],
+    "links": []
+  }
+}
