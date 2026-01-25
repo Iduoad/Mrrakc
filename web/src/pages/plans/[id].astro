@@ -1,5 +1,5 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import MapLayout from '../../layouts/MapLayout.astro';
 import PlanView from '../../components/react/PlanView';
 import plansData from '../../data/generated/plans.json';
 import { getEntry, render } from 'astro:content';
@@ -28,7 +28,7 @@ const description = plan.spec.description || entry?.data.description || `Itinera
 const heroImage = entry?.data.heroImage;
 ---
 
-<BaseLayout title={`${title} - Blanat`} description={description} heroImage={heroImage}>
+<MapLayout title={`${title} - Blanat`} description={description} image={heroImage}>
   <PlanView client:load plan={plan}>
     {Content && (
       <div class="prose dark:prose-invert max-w-none mb-12">
@@ -36,4 +36,4 @@ const heroImage = entry?.data.heroImage;
       </div>
     )}
   </PlanView>
-</BaseLayout>
+</MapLayout>

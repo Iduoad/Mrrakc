@@ -107,27 +107,35 @@ export default function ExplorerMap({ allPoints, children, title, backUrl }: Pro
         selectedPeople.length > 0;
 
     const headerContent = (
-        <div className="flex items-center gap-2 w-full">
-            <div className="relative flex-grow">
-                <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-charcoal-light dark:text-stone-500" size={14} />
-                <input
-                    type="text"
-                    placeholder="Search places..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="w-full pl-9 pr-3 py-1.5 text-sm bg-clay/5 dark:bg-charcoal-light/10 border border-clay/10 dark:border-charcoal-light/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-terra/20 text-charcoal dark:text-stone-100 placeholder-charcoal-light/50"
-                />
+        <div className="flex flex-col gap-4 w-full">
+            {backUrl && (
+                <a href={backUrl} className="inline-flex items-center gap-2 text-sm font-bold text-terra hover:underline pl-1">
+                    <ChevronLeft size={16} />
+                    Back to maps
+                </a>
+            )}
+            <div className="flex items-center gap-2 w-full">
+                <div className="relative flex-grow">
+                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-charcoal-light dark:text-stone-500" size={14} />
+                    <input
+                        type="text"
+                        placeholder="Search places..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="w-full pl-9 pr-3 py-1.5 text-sm bg-clay/5 dark:bg-charcoal-light/10 border border-clay/10 dark:border-charcoal-light/20 rounded-lg focus:outline-none focus:ring-2 focus:ring-terra/20 text-charcoal dark:text-stone-100 placeholder-charcoal-light/50"
+                    />
+                </div>
+                <button
+                    onClick={() => setIsFilterOpen(true)}
+                    className={`p-1.5 rounded-lg border transition-colors ${hasActiveFilters
+                        ? 'bg-terra/10 border-terra text-terra'
+                        : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light hover:text-terra'
+                        }`}
+                    title="Filter"
+                >
+                    <Filter size={16} />
+                </button>
             </div>
-            <button
-                onClick={() => setIsFilterOpen(true)}
-                className={`p-1.5 rounded-lg border transition-colors ${hasActiveFilters
-                    ? 'bg-terra/10 border-terra text-terra'
-                    : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light hover:text-terra'
-                    }`}
-                title="Filter"
-            >
-                <Filter size={16} />
-            </button>
         </div>
     );
 
