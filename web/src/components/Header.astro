@@ -10,17 +10,18 @@ const { transparent = false } = Astro.props;
     "fixed top-0 z-50 w-full transition-all duration-300",
     transparent 
         ? "bg-transparent text-white" 
-        : "bg-sand/90 dark:bg-[#1a1a1a]/90 backdrop-blur-md text-charcoal dark:text-sand border-b border-clay dark:border-charcoal"
+        : "bg-sand dark:bg-[#1a1a1a] text-charcoal dark:text-sand border-b border-clay dark:border-charcoal"
 ]}>
     <div class="container mx-auto px-4 h-20 flex items-center justify-between">
         <a href="/" class:list={[
-            "text-2xl font-serif font-bold hover:opacity-80 transition-opacity",
+            "text-2xl font-serif font-bold hover:opacity-80 transition-opacity z-50 relative",
             transparent ? "text-white drop-shadow-md" : "text-charcoal dark:text-terra"
         ]}>
             Mrrakc
         </a>
         
-        <nav class="flex items-center gap-6">
+        <!-- Desktop Navigation & Theme Toggle -->
+        <nav class="hidden md:flex items-center gap-6">
             <a href="/provinces" class:list={[
                 "text-sm font-medium transition-colors",
                 transparent ? "hover:text-stone-200 drop-shadow-sm" : "hover:text-terra"
@@ -46,12 +47,94 @@ const { transparent = false } = Astro.props;
                 "p-2 rounded-full transition-colors",
                 transparent ? "hover:bg-white/10 text-white" : "hover:bg-clay dark:hover:bg-charcoal"
             ]} aria-label="Toggle Dark Mode">
-                <!-- Sun Icon (shown in dark mode) -->
                 <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-                <!-- Moon Icon (shown in light mode) -->
                 <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
             </button>
         </nav>
+
+        <!-- Mobile Controls -->
+        <div class="flex md:hidden items-center gap-4 z-50">
+             <button id="mobile-theme-toggle" class:list={[
+                "p-2 rounded-full transition-colors",
+                transparent ? "hover:bg-white/10 text-white" : "hover:bg-clay dark:hover:bg-charcoal"
+            ]} aria-label="Toggle Dark Mode">
+                <svg class="w-5 h-5 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+                <svg class="w-5 h-5 block dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+            </button>
+
+            <button id="menu-toggle" class:list={[
+                "p-2 rounded-full transition-colors",
+                transparent ? "hover:bg-white/10 text-white" : "hover:bg-clay dark:hover:bg-charcoal"
+            ]} aria-label="Toggle Menu">
+                <svg id="menu-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-0 bg-sand dark:bg-[#1a1a1a] z-40 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col justify-center items-center gap-8 opacity-0 pointer-events-none">
+            <a href="/provinces" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Provinces</a>
+            <a href="/maps" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Maps</a>
+            <a href="/plans" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Plans</a>
+            <a href="/blog" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Blog</a>
+            <a href="/games" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Games</a>
+        </div>
     </div>
 </header>
+
+<script>
+    const menuBtn = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const mobileThemeToggle = document.getElementById('mobile-theme-toggle');
+
+    function toggleMenu() {
+        const isOpen = !mobileMenu?.classList.contains('translate-x-full');
+        
+        if (isOpen) {
+            // Close
+            mobileMenu?.classList.add('translate-x-full', 'opacity-0', 'pointer-events-none');
+            mobileMenu?.classList.remove('opacity-100', 'pointer-events-auto');
+            menuIcon?.classList.remove('hidden');
+            closeIcon?.classList.add('hidden');
+            document.body.style.overflow = '';
+        } else {
+            // Open
+            mobileMenu?.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
+            mobileMenu?.classList.add('opacity-100', 'pointer-events-auto');
+            menuIcon?.classList.add('hidden');
+            closeIcon?.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+    }
+
+    menuBtn?.addEventListener('click', toggleMenu);
+
+    // Close menu when clicking a link
+    const mobileLinks = mobileMenu?.querySelectorAll('a');
+    mobileLinks?.forEach(link => {
+        link.addEventListener('click', () => {
+             // Close menu logic repeated primarily to ensure clean navigation
+             mobileMenu?.classList.add('translate-x-full', 'opacity-0', 'pointer-events-none');
+             menuIcon?.classList.remove('hidden');
+             closeIcon?.classList.add('hidden');
+             document.body.style.overflow = '';
+        });
+    });
+
+    // Handle Mobile Theme Toggle (Logic duplicated from BaseLayout script for simplicity in this context)
+    mobileThemeToggle?.addEventListener('click', () => {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+        const newTheme = isDark ? 'light' : 'dark';
+        
+        html.classList.toggle('dark');
+        localStorage.setItem('theme', newTheme);
+    });
+</script>
 
