@@ -207,8 +207,8 @@ export default function InteractiveMap({ points, simple = false, className = '',
 
     // Detail Card Render Helper
     const renderDetailCard = (point: MapPoint) => (
-        <div className="space-y-4">
-            <div className="flex items-start justify-between gap-3">
+        <div className="space-y-0">
+            <div className="flex items-start justify-between gap-3 min-h-[85px] pb-4">
                 <div className="flex items-start gap-3">
                     <div className="w-12 h-12 rounded-xl bg-terra/10 text-terra flex items-center justify-center shrink-0">
                         {React.cloneElement(getIcon(point.category) as React.ReactElement<{ size: number }>, { size: 24 })}
@@ -228,45 +228,48 @@ export default function InteractiveMap({ points, simple = false, className = '',
                         e.stopPropagation();
                         setSelectedPoint(null);
                     }}
-                    className="p-2 bg-clay/10 dark:bg-charcoal-light/10 rounded-full text-charcoal-light hover:text-terra"
+                    className="p-2 bg-clay/10 dark:bg-charcoal-light/10 rounded-full text-charcoal-light hover:text-terra h-fit"
                     title="Back to List"
                 >
                     <X size={18} />
                 </button>
             </div>
 
-            <MarkdownRenderer content={point.description} className="text-sm text-charcoal dark:text-stone-300" />
+            {/* Content available on scroll/expand */}
+            <div className="space-y-4 pt-2 border-t border-clay/10 dark:border-charcoal-light/10">
+                <MarkdownRenderer content={point.description} className="text-sm text-charcoal dark:text-stone-300" />
 
-            {/* Directions Link (Mobile) */}
-            <a
-                href={`https://www.google.com/maps/dir//${point.location.latitude},${point.location.longitude}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-xs font-bold text-terra hover:underline"
-            >
-                <MapPin size={14} />
-                Get Directions
-            </a>
+                {/* Directions Link (Mobile) */}
+                <a
+                    href={`https://www.google.com/maps/dir//${point.location.latitude},${point.location.longitude}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-xs font-bold text-terra hover:underline"
+                >
+                    <MapPin size={14} />
+                    Get Directions
+                </a>
 
-            {point.prices && point.prices.length > 0 && (
-                <div className="flex flex-wrap gap-2">
-                    {point.prices.map((price, idx) => (
-                        <div key={idx} className="px-2 py-1 bg-clay/10 dark:bg-charcoal-light/10 rounded-md text-xs">
-                            <span className="text-charcoal-light dark:text-stone-400 mr-1">{price.title}:</span>
-                            <span className="font-bold text-charcoal dark:text-stone-200">
-                                {price.entranceFee === -1 ? 'Var' : (price.entranceFee ? `${price.entranceFee}` : 'Free')}
-                            </span>
-                        </div>
-                    ))}
-                </div>
-            )}
+                {point.prices && point.prices.length > 0 && (
+                    <div className="flex flex-wrap gap-2">
+                        {point.prices.map((price, idx) => (
+                            <div key={idx} className="px-2 py-1 bg-clay/10 dark:bg-charcoal-light/10 rounded-md text-xs">
+                                <span className="text-charcoal-light dark:text-stone-400 mr-1">{price.title}:</span>
+                                <span className="font-bold text-charcoal dark:text-stone-200">
+                                    {price.entranceFee === -1 ? 'Var' : (price.entranceFee ? `${price.entranceFee}` : 'Free')}
+                                </span>
+                            </div>
+                        ))}
+                    </div>
+                )}
 
-            <a
-                href={`/provinces/${point.id}`}
-                className="block w-full text-center py-3 bg-terra text-white font-bold rounded-xl shadow-lg shadow-terra/20 hover:bg-terra-dark transition-all active:scale-95"
-            >
-                View Full Details
-            </a>
+                <a
+                    href={`/provinces/${point.id}`}
+                    className="block w-full text-center py-3 bg-terra text-white font-bold rounded-xl shadow-lg shadow-terra/20 hover:bg-terra-dark transition-all active:scale-95"
+                >
+                    View Full Details
+                </a>
+            </div>
         </div>
     );
 
@@ -308,10 +311,10 @@ export default function InteractiveMap({ points, simple = false, className = '',
                 />
             )}
 
-            <div className={`flex flex-col md:flex-row overflow-hidden border border-clay/50 shadow-xl bg-white dark:bg-charcoal transition-all duration-300 ease-in-out
+            <div className={`flex flex-col md:flex-row overflow-hidden md:border border-clay/50 md:shadow-xl bg-white dark:bg-charcoal transition-all duration-300 ease-in-out
                 ${isMaximized
                     ? 'fixed inset-4 z-50 rounded-2xl h-[calc(100vh-2rem)] w-[calc(100vw-2rem)]'
-                    : `relative w-full rounded-2xl ${className || 'h-[600px]'}`
+                    : `relative w-full md:rounded-2xl ${className || 'h-[600px]'}`
                 }
             `}>
                 {/* Desktop: Legend Sidebar */}
