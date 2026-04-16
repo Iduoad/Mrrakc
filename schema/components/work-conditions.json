@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Work Conditions",
+  "description": "Work-friendliness ratings and conditions for cafes and coworking spaces",
+  "type": "object",
+  "required": [
+    "overall"
+  ],
+  "properties": {
+    "overall": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Overall work-friendliness score (0–5)"
+    },
+    "comment": {
+      "type": "string",
+      "description": "Overall comment about work conditions"
+    },
+    "wifi": {
+      "type": "object",
+      "description": "WiFi availability and quality",
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "reliable": {
+          "type": "string",
+          "enum": [
+            "poor",
+            "average",
+            "good",
+            "excellent"
+          ]
+        },
+        "speedMbps": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Approximate download speed in Mbps"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "powerOutlets": {
+      "type": "string",
+      "enum": [
+        "none",
+        "scarce",
+        "moderate",
+        "abundant"
+      ],
+      "description": "Availability of power outlets"
+    },
+    "noiseLevel": {
+      "type": "string",
+      "enum": [
+        "silent",
+        "quiet",
+        "moderate",
+        "loud",
+        "very_loud"
+      ],
+      "description": "Typical ambient noise level"
+    },
+    "seating": {
+      "type": "object",
+      "description": "Seating comfort and variety",
+      "properties": {
+        "comfort": {
+          "type": "string",
+          "enum": [
+            "poor",
+            "average",
+            "good",
+            "excellent"
+          ]
+        },
+        "deskSpace": {
+          "type": "string",
+          "enum": [
+            "cramped",
+            "adequate",
+            "spacious"
+          ],
+          "description": "Amount of desk/table surface available per person"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "bar_stools",
+              "lounge_chairs",
+              "standard_tables",
+              "standing_desks",
+              "private_booths",
+              "outdoor"
+            ]
+          }
+        }
+      }
+    },
+    "naturalLight": {
+      "type": "string",
+      "enum": [
+        "none",
+        "low",
+        "moderate",
+        "bright"
+      ],
+      "description": "Amount of natural light in the space"
+    },
+    "crowdedness": {
+      "type": "object",
+      "description": "How busy the place typically gets",
+      "properties": {
+        "peakHours": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Time ranges when the place is most crowded (e.g. '12:00–14:00')"
+        },
+        "laptopFriendly": {
+          "type": "boolean",
+          "description": "Whether staff/culture is tolerant of long laptop sessions"
+        },
+        "consumptionPrice": {
+          "type": "string",
+          "enum": [
+            "very_cheap",
+            "cheap",
+            "moderate",
+            "expensive",
+            "very_expensive"
+          ],
+          "description": "Price level for the consumption (drinks/food)"
+        }
+      }
+    },
+    "amenities": {
+      "type": "array",
+      "description": "Work-relevant amenities available on site",
+      "items": {
+        "type": "string",
+        "enum": [
+          "printer",
+          "scanner",
+          "projector",
+          "whiteboard",
+          "meeting_rooms",
+          "phone_booths",
+          "lockers",
+          "air_conditioning",
+          "heating"
+        ]
+      }
+    }
+  }
+}

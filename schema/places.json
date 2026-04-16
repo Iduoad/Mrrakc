@@ -9,6 +9,29 @@
   "allOf": [
     {
       "$ref": "base.json"
+    },
+    {
+      "if": {
+        "not": {
+          "properties": {
+            "kind": {
+              "enum": [
+                "food/cafe",
+                "service/coworking"
+              ]
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "spec": {
+            "properties": {
+              "workConditions": false
+            }
+          }
+        }
+      }
     }
   ],
   "properties": {
@@ -207,6 +230,9 @@
             "type": "string"
           },
           "description": "Time periods or era of the place"
+        },
+        "workConditions": {
+          "$ref": "components/work-conditions.json"
         },
         "comments": {
           "type": "array",
