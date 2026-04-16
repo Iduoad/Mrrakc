@@ -5,8 +5,8 @@ import { fileURLToPath } from 'url';
 import path from 'path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const placesDataPath = path.resolve(__dirname, '../../../data/places');
-const provincesDataPath = path.resolve(__dirname, '../../../data/provinces');
+const placesDataPath = path.resolve(__dirname, '../../../../data/places');
+const provincesDataPath = path.resolve(__dirname, '../../../../data/provinces');
 
 const blog = defineCollection({
     type: 'content',
