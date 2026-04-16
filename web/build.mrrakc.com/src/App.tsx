@@ -186,7 +186,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <APIProvider apiKey={API_KEY}>
+    <APIProvider apiKey={API_KEY} region="MA">
       <div className="h-screen w-screen flex overflow-hidden bg-sand dark:bg-stone-950">
         {/* Main Content: Map */}
         <main className="flex-1 relative">

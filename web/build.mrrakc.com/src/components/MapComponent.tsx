@@ -52,6 +52,7 @@ export const MapComponent: React.FC<Props> = ({
 
     const autocomplete = new placesLib.Autocomplete(searchInputRef.current, {
       fields: ['geometry', 'name', 'formatted_address', 'url'],
+      componentRestrictions: { country: 'ma' },
     });
 
     autocomplete.addListener('place_changed', () => {
