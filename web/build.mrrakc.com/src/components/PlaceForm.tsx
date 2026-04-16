@@ -13,7 +13,7 @@ import {
   ACCESS_MODALITY, 
   AUDIENCE 
 } from '../data/schema';
-import { X, Plus, Trash2, MapPin, Calendar, MessageSquare, Ticket } from 'lucide-react';
+import { X, Plus, Trash2, MapPin, Calendar, MessageSquare } from 'lucide-react';
 
 interface Props {
   initialData?: Partial<Place>;
@@ -43,6 +43,10 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
     resolver: zodResolver(PlaceSchema),
     defaultValues: {
       version: 'mrrakc/v0',
+      kind: 'urban/landmark',
+      metadata: {
+        tags: []
+      },
       spec: {
         name: '',
         id: '',
@@ -60,6 +64,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
           options: []
         },
         timeline: [],
+        people: [],
         comments: [],
         links: [],
         activities: [],
@@ -79,6 +84,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
       reset({
         ...currentValues,
         ...initialData,
+        metadata: initialData.metadata || currentValues.metadata || { tags: [] },
         spec: {
           ...currentValues.spec,
           ...initialData.spec,

@@ -5,7 +5,7 @@ import PlaceForm from './components/PlaceForm';
 import { loadProvinces, getProvinceForPoint } from './utils/geo';
 import { exportToZip } from './utils/export';
 import type { Place } from './data/schema';
-import { Download, Plus, Trash2, Map as MapIcon, CheckCircle2, Edit3, X, MapPin } from 'lucide-react';
+import { Download, Trash2, Map as MapIcon, Edit3, X, MapPin } from 'lucide-react';
 
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '';
 

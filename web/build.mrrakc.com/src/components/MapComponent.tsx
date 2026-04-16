@@ -76,7 +76,7 @@ export const MapComponent: React.FC<Props> = ({
       service.getDetails({
         placeId: ev.detail.placeId,
         fields: ['name', 'geometry', 'url']
-      }, (place, status) => {
+      }, (place: any, status: any) => {
         if (status === placesLib.PlacesServiceStatus.OK && place && place.name) {
           fetchAltitudeAndSelect(lat, lng, place.name, place.url);
         } else {
