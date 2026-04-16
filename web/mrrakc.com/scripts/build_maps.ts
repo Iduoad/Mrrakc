@@ -5,7 +5,7 @@ import jmespath from 'jmespath';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.resolve(__dirname, '../../data');
+const DATA_DIR = path.resolve(__dirname, '../../../data');
 const MAPS_DIR = path.join(DATA_DIR, 'maps');
 const PLACES_DIR = path.join(DATA_DIR, 'places');
 const PEOPLE_DIR = path.join(DATA_DIR, 'people');
