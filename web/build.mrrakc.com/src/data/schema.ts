@@ -45,11 +45,11 @@ export const AUDIENCE = [
 
 // Zod Schema matching Mrrakc Places Schema
 export const PlaceSchema = z.object({
-  version: z.literal("mrrakc/v0").default("mrrakc/v0"),
+  version: z.literal("mrrakc/v0"),
   kind: z.enum(KINDS),
   metadata: z.object({
-    tags: z.array(z.string()).optional().default([]),
-  }).optional().default({}),
+    tags: z.array(z.string()),
+  }),
   spec: z.object({
     name: z.string().min(1, "Name is required"),
     id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "ID must be kebab-case"),
@@ -64,19 +64,19 @@ export const PlaceSchema = z.object({
       id: z.string().regex(/^people\/[a-z0-9-]+$/),
       relationship: z.array(z.string()),
       comment: z.string().optional(),
-    })).optional().default([]),
+    })),
     timeline: z.array(z.object({
       title: z.string(),
       date: z.string(),
       description: z.string(),
-    })).optional().default([]),
+    })),
     links: z.array(z.object({
       url: z.string().url(),
       title: z.string(),
       type: z.enum(["article", "video", "image", "movie", "website", "book", "social", "map"]),
-    })).optional().default([]),
-    activities: z.array(z.enum(ACTIVITIES)).optional().default([]),
-    items: z.array(z.enum(ITEMS)).optional().default([]),
+    })),
+    activities: z.array(z.enum(ACTIVITIES)),
+    items: z.array(z.enum(ITEMS)),
     access: z.object({
       status: z.enum(ACCESS_STATUS),
       type: z.enum(ACCESS_TYPE),
@@ -85,10 +85,10 @@ export const PlaceSchema = z.object({
         modality: z.enum(ACCESS_MODALITY),
         audience: z.enum(AUDIENCE),
         entranceFee: z.number().min(-1),
-      })).optional().default([]),
+      })),
     }),
-    timePeriods: z.array(z.string()).min(1, "At least one time period is required").default(["Modern"]),
-    comments: z.array(z.string()).optional().default([]),
+    timePeriods: z.array(z.string()).min(1, "At least one time period is required"),
+    comments: z.array(z.string()),
   }),
 });
 
