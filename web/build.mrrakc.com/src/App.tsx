@@ -133,7 +133,8 @@ const App: React.FC = () => {
     let successCount = 0;
     const errors: string[] = [];
 
-    const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8787';
+    const API_URL = import.meta.env.VITE_API_URL || 
+      (import.meta.env.PROD ? 'https://api.mrrakc.com' : 'http://localhost:8787');
 
     for (const place of places) {
       try {
