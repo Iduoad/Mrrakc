@@ -8,4 +8,18 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('@vis.gl/react-google-maps') || id.includes('google-maps')) {
+            return 'maps';
+          }
+          if (id.includes('node_modules')) {
+            return 'vendor';
+          }
+        }
+      }
+    }
+  }
 })
