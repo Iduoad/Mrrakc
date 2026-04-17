@@ -7,6 +7,7 @@ import {
   Pin,
   InfoWindow
 } from '@vis.gl/react-google-maps';
+import type { MapMouseEvent } from '@vis.gl/react-google-maps';
 import { Search, Edit3, MapPin, Layers, Globe, Map as MapIconIcon } from 'lucide-react';
 import type { Place } from '../data/schema';
 import { loadProvinces } from '../utils/geo';
@@ -16,16 +17,6 @@ interface Props {
   selectedPoint?: { lat: number, lng: number };
   addedPlaces: Place[];
   onPlaceClick?: (index: number) => void;
-}
-
-interface MapClickEvent extends google.maps.MapMouseEvent {
-  detail?: {
-    placeId?: string;
-    latLng: {
-      lat: number;
-      lng: number;
-    };
-  };
 }
 
 const getCategoryColor = (kind: string) => {
@@ -121,13 +112,15 @@ export const MapComponent: React.FC<Props> = ({
     });
   }, [placesLib, map, fetchAltitudeAndSelect]);
 
-  const onMapClick = useCallback((ev: MapClickEvent) => {
-    const lat = ev.detail?.latLng?.lat || ev.latLng?.lat() || 0;
-    const lng = ev.detail?.latLng?.lng || ev.latLng?.lng() || 0;
+  const onMapClick = useCallback((ev: MapMouseEvent) => {
+    if (!ev.detail.latLng) return;
+    
+    const lat = ev.detail.latLng.lat;
+    const lng = ev.detail.latLng.lng;
     
     setInfoWindowData(null);
 
-    if (ev.detail?.placeId && placesLib && map) {
+    if (ev.detail.placeId && placesLib && map) {
       ev.stop();
       const service = new placesLib.PlacesService(map);
       service.getDetails({

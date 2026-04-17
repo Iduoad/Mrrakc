@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useForm, useFieldArray, Controller } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod';
 import Select from 'react-select';
 import { 
   PlaceSchema, 
@@ -19,6 +18,13 @@ interface Props {
   initialData?: Partial<Place>;
   onSubmit: (data: Place) => void;
   onCancel: () => void;
+}
+
+// Local interface for form handling because useFieldArray requires objects
+interface FormPlace extends Omit<Place, 'spec'> {
+  spec: Omit<Place['spec'], 'comments'> & {
+    comments: { value: string }[];
+  }
 }
 
 const kindOptions = KINDS.map(k => ({ value: k, label: k }));
@@ -70,8 +76,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
     reset,
     getValues,
     formState: { errors }
-  } = useForm<Place>({
-    resolver: zodResolver(PlaceSchema),
+  } = useForm<FormPlace>({
     defaultValues: {
       version: 'mrrakc/v0',
       kind: 'urban/landmark',
@@ -104,13 +109,13 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
     }
   });
 
-  // Reactive Update: Update form when initialData changes (e.g. Map Point Select)
+  // Reactive Update: Update form when initialData changes
   useEffect(() => {
     if (initialData) {
       const currentValues = getValues();
-      
-      // Determine if the incoming data has a map link
       const incomingHasMapLink = initialData.spec?.links?.some(l => l.type === 'map');
+
+      const mappedComments = initialData.spec?.comments?.map(c => ({ value: c })) || currentValues.spec.comments;
 
       reset({
         ...currentValues,
@@ -123,10 +128,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
             ...currentValues.spec?.location,
             ...initialData.spec?.location
           },
-          // Merge links:
-          // 1. Always take incoming links
-          // 2. Keep current links ONLY if they don't have the same URL AND 
-          //    (if we have an incoming map link, filter out existing map links)
+          comments: mappedComments as { value: string }[],
           links: initialData.spec?.links?.length 
             ? [
                 ...(initialData.spec.links), 
@@ -138,7 +140,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
               ]
             : currentValues.spec.links
         }
-      });
+      } as FormPlace);
     }
   }, [initialData, reset, getValues]);
 
@@ -170,8 +172,28 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
     name: 'spec.comments'
   });
 
+  const handleFormSubmit = (data: FormPlace) => {
+    // Transform back to Place schema
+    const finalData: Place = {
+      ...data,
+      spec: {
+        ...data.spec,
+        comments: data.spec.comments.map(c => c.value)
+      }
+    } as Place;
+
+    // Validate with Zod before calling parent onSubmit
+    const result = PlaceSchema.safeParse(finalData);
+    if (result.success) {
+      onSubmit(result.data);
+    } else {
+      console.error('Zod Validation Failed:', result.error);
+      alert('Form has errors. Please check console.');
+    }
+  };
+
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col h-full bg-white dark:bg-stone-900 overflow-hidden">
+    <form onSubmit={handleSubmit(handleFormSubmit)} className="flex flex-col h-full bg-white dark:bg-stone-900 overflow-hidden">
       <div className="flex-1 overflow-y-auto px-6 pb-32">
         <CollapsibleSection title="Basic Information" icon={<Info size={14} />} defaultOpen={true}>
           <div className="space-y-4">
@@ -182,7 +204,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
                 className="w-full px-4 py-2 rounded-lg border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 focus:ring-1 focus:ring-terra outline-none transition-all text-sm"
                 placeholder="e.g. Koutoubia Mosque"
               />
-              {errors.spec?.name && <p className="text-red-500 text-[10px] mt-1">{errors.spec.name.message}</p>}
+              {errors.spec?.name && <p className="text-red-500 text-[10px] mt-1">{(errors.spec.name as any).message}</p>}
             </div>
 
             <div className="space-y-1">
@@ -191,7 +213,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
                 {...register('spec.id')}
                 className="w-full px-4 py-2 rounded-lg border border-clay dark:border-stone-700 bg-sand/30 dark:bg-stone-900 font-mono text-xs outline-none"
               />
-              {errors.spec?.id && <p className="text-red-500 text-[10px] mt-1">{errors.spec.id.message}</p>}
+              {errors.spec?.id && <p className="text-red-500 text-[10px] mt-1">{(errors.spec.id as any).message}</p>}
             </div>
 
             <div className="space-y-1">
@@ -220,7 +242,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
                 className="w-full px-4 py-2 rounded-lg border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 focus:ring-1 focus:ring-terra outline-none transition-all text-sm"
                 placeholder="Write a brief description..."
               />
-              {errors.spec?.description && <p className="text-red-500 text-[10px] mt-1">{errors.spec.description.message}</p>}
+              {errors.spec?.description && <p className="text-red-500 text-[10px] mt-1">{(errors.spec.description as any).message}</p>}
             </div>
           </div>
         </CollapsibleSection>
@@ -431,7 +453,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
           <div className="space-y-4">
             <div className="flex justify-between items-center">
               <label className="text-[11px] font-bold uppercase text-stone-500">Comments</label>
-              <button type="button" onClick={() => appendComment('')} className="text-terra hover:text-terra-dark flex items-center gap-1 text-[10px] font-bold bg-terra/10 px-2 py-1 rounded-md transition-colors">
+              <button type="button" onClick={() => appendComment({ value: '' })} className="text-terra hover:text-terra-dark flex items-center gap-1 text-[10px] font-bold bg-terra/10 px-2 py-1 rounded-md transition-colors">
                 <Plus size={12} /> Add
               </button>
             </div>
@@ -439,7 +461,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
             <div className="space-y-2">
               {comments.map((field, index) => (
                 <div key={field.id} className="flex gap-2 group">
-                  <input {...register(`spec.comments.${index}`)} placeholder="Note..." className="flex-1 px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                  <input {...register(`spec.comments.${index}.value`)} placeholder="Note..." className="flex-1 px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
                   <button type="button" onClick={() => removeComment(index)} className="p-1 text-stone-300 hover:text-red-500 transition-colors">
                     <Trash2 size={14} />
                   </button>
