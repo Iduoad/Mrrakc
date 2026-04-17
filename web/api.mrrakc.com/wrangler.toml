@@ -1,4 +1,4 @@
-name = "api-mrrakc-com"
+name = "mrrakc-api"
 main = "src/index.ts"
 compatibility_date = "2024-04-16"
 
