@@ -4,6 +4,7 @@ import { MapComponent } from './components/MapComponent';
 import PlaceForm from './components/PlaceForm';
 import { loadProvinces, getProvinceForPoint } from './utils/geo';
 import { exportToZip } from './utils/export';
+import { StorageManager } from './utils/storage';
 import type { Place } from './data/schema';
 import { Download, Trash2, Map as MapIcon, Edit3, X, MapPin } from 'lucide-react';
 
@@ -22,25 +23,62 @@ const App: React.FC = () => {
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isPlacesListOpen, setPlacesListOpen] = useState(false);
-  const [accessCode, setAccessCode] = useState(() => localStorage.getItem('mrrakc-builder-access-code') || '');
+  const [accessCode, setAccessCode] = useState(() => StorageManager.loadAccessCode());
   const [isSubmitting, setIsSubmitting] = useState(false);
+  
+  const hasLoaded = React.useRef(false);
 
   // Load persistence and geo data
   useEffect(() => {
-    localStorage.setItem('mrrakc-builder-access-code', accessCode);
+    const savedPlaces = StorageManager.loadPlaces();
+    if (savedPlaces.length > 0) {
+      setPlaces(savedPlaces);
+    }
+    
+    // Check if we were editing something
+    const savedDraft = localStorage.getItem('mrrakc-builder-draft-point');
+    if (savedDraft) {
+      setSelectedPoint(JSON.parse(savedDraft));
+      setSidebarOpen(true);
+    }
+    
+    const savedEditingIndex = localStorage.getItem('mrrakc-builder-draft-index');
+    if (savedEditingIndex !== null) {
+      setEditingIndex(parseInt(savedEditingIndex, 10));
+    }
+
+    loadProvinces().then(() => {
+      setIsLoading(false);
+      hasLoaded.current = true;
+    });
+  }, []);
+
+  // Save persistence - only after initial load to avoid wiping storage with initial []
+  useEffect(() => {
+    if (hasLoaded.current) {
+      StorageManager.savePlaces(places);
+    }
+  }, [places]);
+
+  useEffect(() => {
+    StorageManager.saveAccessCode(accessCode);
   }, [accessCode]);
 
   useEffect(() => {
-    const saved = localStorage.getItem('mrrakc-builder-places');
-    if (saved) setPlaces(JSON.parse(saved));
-    
-    loadProvinces().then(() => setIsLoading(false));
-  }, []);
+    if (selectedPoint) {
+      localStorage.setItem('mrrakc-builder-draft-point', JSON.stringify(selectedPoint));
+    } else {
+      localStorage.removeItem('mrrakc-builder-draft-point');
+    }
+  }, [selectedPoint]);
 
-  // Save persistence
   useEffect(() => {
-    localStorage.setItem('mrrakc-builder-places', JSON.stringify(places));
-  }, [places]);
+    if (editingIndex !== null) {
+      localStorage.setItem('mrrakc-builder-draft-index', editingIndex.toString());
+    } else {
+      localStorage.removeItem('mrrakc-builder-draft-index');
+    }
+  }, [editingIndex]);
 
   const onPointSelect = useCallback((lat: number, lng: number, name?: string, altitude?: number, mapUrl?: string) => {
     setSelectedPoint({ lat, lng, name, altitude, mapUrl });
@@ -49,12 +87,25 @@ const App: React.FC = () => {
   }, []);
 
   const onSavePlace = (place: Place) => {
+    const now = new Date().toISOString();
     if (editingIndex !== null) {
       const newPlaces = [...places];
-      newPlaces[editingIndex] = place;
+      newPlaces[editingIndex] = {
+        ...place,
+        _internal: {
+          createdAt: places[editingIndex]._internal?.createdAt || now,
+          lastModified: now
+        }
+      };
       setPlaces(newPlaces);
     } else {
-      setPlaces(prev => [...prev, place]);
+      setPlaces(prev => [...prev, {
+        ...place,
+        _internal: {
+          createdAt: now,
+          lastModified: now
+        }
+      }]);
     }
     setSidebarOpen(false);
     setSelectedPoint(null);
@@ -81,13 +132,14 @@ const App: React.FC = () => {
 
     for (const place of places) {
       try {
+        const { _internal, ...submitData } = place as any;
         const response = await fetch(`${API_URL}/places`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
             'Authorization': accessCode
           },
-          body: JSON.stringify(place)
+          body: JSON.stringify(submitData)
         });
 
         const result = await response.json();

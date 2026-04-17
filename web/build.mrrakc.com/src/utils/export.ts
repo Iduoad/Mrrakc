@@ -9,8 +9,11 @@ export async function exportToZip(places: Place[]) {
     const provinceId = place.spec.location.province.replace('province/', '');
     const placeId = place.spec.id;
     
+    // Strip internal metadata for export
+    const { _internal, ...exportData } = place as any;
+    
     const filePath = `places/${provinceId}/${placeId}.json`;
-    zip.file(filePath, JSON.stringify(place, null, 2));
+    zip.file(filePath, JSON.stringify(exportData, null, 2));
   }
   
   const content = await zip.generateAsync({ type: 'blob' });
