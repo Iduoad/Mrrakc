@@ -7,19 +7,30 @@ type Bindings = {
   AIRTABLE_BASE_ID: string;
   AIRTABLE_TABLE_NAME: string;
   ACCESS_CODE: string;
+  GIT_COMMIT?: string;
 };
 
 const app = new Hono<{ Bindings: Bindings }>();
 
 // Enable CORS for frontend domains
 app.use('*', cors({
-  origin: ['http://localhost:5173', 'https://build.mrrakc.com'],
+  origin: (origin) => {
+    const allowedOrigins = ['http://localhost:5173', 'https://build.mrrakc.com'];
+    if (allowedOrigins.includes(origin)) {
+      return origin;
+    }
+    return allowedOrigins[1]; // Default to production
+  },
   allowHeaders: ['Content-Type', 'Authorization'],
   allowMethods: ['POST', 'GET', 'OPTIONS'],
+  exposeHeaders: ['Content-Length'],
   maxAge: 86400,
 }));
 
-app.get('/', (c) => c.text('Mrrakc API is online.'));
+app.get('/', (c) => {
+  const version = c.env.GIT_COMMIT || (c.env as any).CF_PAGES_COMMIT_SHA || 'development';
+  return c.text(`Mrrakc API is online. Version: ${version}`);
+});
 
 app.post('/places', async (c) => {
   const authHeader = c.req.header('Authorization');
