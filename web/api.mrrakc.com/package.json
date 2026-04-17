@@ -1,8 +1,13 @@
 {
   "name": "api.mrrakc.com",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc"
+  },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260416.2",
     "@types/bun": "latest",

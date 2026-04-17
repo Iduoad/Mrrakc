@@ -60,8 +60,6 @@ app.post('/places', async (c) => {
       {
         fields: {
           "id": placeId,
-          "name": placeData.spec?.name,
-          "kind": placeData.kind,
           "province": placeData.spec?.location?.province,
           "data": JSON.stringify(placeData, null, 2),
           "status": "pending"
