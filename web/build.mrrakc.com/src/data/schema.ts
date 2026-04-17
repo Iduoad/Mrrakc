@@ -90,6 +90,10 @@ export const PlaceSchema = z.object({
     timePeriods: z.array(z.string()).min(1, "At least one time period is required"),
     comments: z.array(z.string()),
   }),
+  _internal: z.object({
+    createdAt: z.string(),
+    lastModified: z.string(),
+  }).optional(),
 });
 
 export type Place = z.infer<typeof PlaceSchema>;
