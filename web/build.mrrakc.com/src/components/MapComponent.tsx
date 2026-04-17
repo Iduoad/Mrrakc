@@ -1,13 +1,15 @@
-import React, { useState, useCallback, useRef } from 'react';
+import React, { useState, useCallback, useRef, useEffect } from 'react';
 import {
   Map,
   AdvancedMarker,
   useMap,
   useMapsLibrary,
-  Pin
+  Pin,
+  InfoWindow
 } from '@vis.gl/react-google-maps';
-import { Search } from 'lucide-react';
+import { Search, Edit3, MapPin } from 'lucide-react';
 import type { Place } from '../data/schema';
+import { loadProvinces } from '../utils/geo';
 
 interface Props {
   onPointSelect: (lat: number, lng: number, name?: string, altitude?: number, mapUrl?: string) => void;
@@ -15,6 +17,26 @@ interface Props {
   addedPlaces: Place[];
   onPlaceClick?: (index: number) => void;
 }
+
+interface MapClickEvent extends google.maps.MapMouseEvent {
+  detail?: {
+    placeId?: string;
+    latLng: {
+      lat: number;
+      lng: number;
+    };
+  };
+}
+
+const getCategoryColor = (kind: string) => {
+  if (kind.startsWith('nature/')) return '#059669'; // Emerald 600
+  if (kind.startsWith('history/')) return '#A87C6D'; // Terra
+  if (kind.startsWith('religion/')) return '#7c3aed'; // Violet 600
+  if (kind.startsWith('food/') || kind.startsWith('leisure/')) return '#d97706'; // Amber 600
+  if (kind.startsWith('urban/') || kind.startsWith('public-space/')) return '#4b5563'; // Gray 600
+  if (kind.startsWith('architecture/')) return '#0891b2'; // Cyan 600
+  return '#2563eb'; // Blue 600 default
+};
 
 export const MapComponent: React.FC<Props> = ({ 
   onPointSelect, 
@@ -26,6 +48,32 @@ export const MapComponent: React.FC<Props> = ({
   const placesLib = useMapsLibrary('places');
   const [searchInput, setSearchInput] = useState('');
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const [infoWindowData, setInfoWindowData] = useState<{ index: number, place: Place } | null>(null);
+  const [provinces, setProvinces] = useState<object | null>(null);
+
+  // Load provinces for boundaries
+  useEffect(() => {
+    loadProvinces().then(data => setProvinces(data));
+  }, []);
+
+  // Set up Data layer for provinces
+  useEffect(() => {
+    if (!map || !provinces) return;
+
+    map.data.addGeoJson(provinces as object);
+    map.data.setStyle({
+      fillColor: '#A87C6D',
+      fillOpacity: 0.03,
+      strokeColor: '#A87C6D',
+      strokeWeight: 1,
+      strokeOpacity: 0.2,
+      clickable: false
+    });
+
+    return () => {
+      map.data.forEach(feature => map.data.remove(feature));
+    };
+  }, [map, provinces]);
 
   const fetchAltitudeAndSelect = useCallback(async (lat: number, lng: number, name?: string, mapUrl?: string) => {
     let altitude: number | undefined;
@@ -47,7 +95,7 @@ export const MapComponent: React.FC<Props> = ({
   }, [onPointSelect]);
 
   // Initialize Autocomplete
-  React.useEffect(() => {
+  useEffect(() => {
     if (!placesLib || !searchInputRef.current || !map) return;
 
     const autocomplete = new placesLib.Autocomplete(searchInputRef.current, {
@@ -62,22 +110,24 @@ export const MapComponent: React.FC<Props> = ({
         const lng = place.geometry.location.lng();
         map.panTo({ lat, lng });
         map.setZoom(17);
-        fetchAltitudeAndSelect(lat, lng, place.name, place.url);
+        fetchAltitudeAndSelect(lat, lng, place.name || '', place.url);
       }
     });
   }, [placesLib, map, fetchAltitudeAndSelect]);
 
-  const onMapClick = useCallback((ev: any) => {
-    const lat = ev.detail.latLng.lat;
-    const lng = ev.detail.latLng.lng;
+  const onMapClick = useCallback((ev: MapClickEvent) => {
+    const lat = ev.detail?.latLng?.lat || ev.latLng?.lat() || 0;
+    const lng = ev.detail?.latLng?.lng || ev.latLng?.lng() || 0;
     
-    if (ev.detail.placeId && placesLib && map) {
+    setInfoWindowData(null);
+
+    if (ev.detail?.placeId && placesLib && map) {
       ev.stop();
       const service = new placesLib.PlacesService(map);
       service.getDetails({
         placeId: ev.detail.placeId,
         fields: ['name', 'geometry', 'url']
-      }, (place: any, status: any) => {
+      }, (place, status) => {
         if (status === placesLib.PlacesServiceStatus.OK && place && place.name) {
           fetchAltitudeAndSelect(lat, lng, place.name, place.url);
         } else {
@@ -98,7 +148,7 @@ export const MapComponent: React.FC<Props> = ({
           ref={searchInputRef}
           type="text"
           placeholder="Search or click a marker..."
-          className="bg-transparent outline-none w-full text-sm py-1"
+          className="bg-transparent outline-none w-full text-sm py-1 dark:text-stone-200"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
         />
@@ -120,11 +170,47 @@ export const MapComponent: React.FC<Props> = ({
               lat: place.spec.location.latitude, 
               lng: place.spec.location.longitude 
             }}
-            onClick={() => onPlaceClick?.(index)}
+            onClick={() => setInfoWindowData({ index, place })}
           >
-            <Pin background={'#A87C6D'} glyphColor={'#FFF'} borderColor={'#8D6658'} />
+            <Pin 
+              background={getCategoryColor(place.kind)} 
+              glyphColor={'#FFF'} 
+              borderColor={'rgba(0,0,0,0.1)'} 
+            />
           </AdvancedMarker>
         ))}
+
+        {infoWindowData && (
+          <InfoWindow
+            position={{ 
+              lat: infoWindowData.place.spec.location.latitude, 
+              lng: infoWindowData.place.spec.location.longitude 
+            }}
+            onCloseClick={() => setInfoWindowData(null)}
+          >
+            <div className="p-1 min-w-[200px]">
+              <div className="flex items-center gap-2 mb-1">
+                <div className="p-1.5 rounded-md" style={{ backgroundColor: `${getCategoryColor(infoWindowData.place.kind)}22`, color: getCategoryColor(infoWindowData.place.kind) }}>
+                  <MapPin size={14} />
+                </div>
+                <div>
+                  <h3 className="font-bold text-sm leading-tight">{infoWindowData.place.spec.name}</h3>
+                  <p className="text-[10px] text-stone-500 uppercase font-medium tracking-wider">{infoWindowData.place.spec.location.province}</p>
+                </div>
+              </div>
+              <p className="text-[11px] text-stone-600 dark:text-stone-400 mb-3 line-clamp-2">{infoWindowData.place.spec.description}</p>
+              <button 
+                onClick={() => {
+                  onPlaceClick?.(infoWindowData.index);
+                  setInfoWindowData(null);
+                }}
+                className="w-full flex items-center justify-center gap-2 py-1.5 bg-terra hover:bg-terra-dark text-white text-xs font-bold rounded-md transition-colors"
+              >
+                <Edit3 size={12} /> Edit Place
+              </button>
+            </div>
+          </InfoWindow>
+        )}
 
         {selectedPoint && (
           <AdvancedMarker position={selectedPoint} />

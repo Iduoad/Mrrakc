@@ -10,7 +10,8 @@ export async function exportToZip(places: Place[]) {
     const placeId = place.spec.id;
     
     // Strip internal metadata for export
-    const { _internal, ...exportData } = place as any;
+    const exportData: Partial<Place> & { _internal?: unknown } = { ...place };
+    delete exportData._internal;
     
     const filePath = `places/${provinceId}/${placeId}.json`;
     zip.file(filePath, JSON.stringify(exportData, null, 2));
