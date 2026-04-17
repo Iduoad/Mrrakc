@@ -7,7 +7,7 @@ import {
   Pin,
   InfoWindow
 } from '@vis.gl/react-google-maps';
-import { Search, Edit3, MapPin } from 'lucide-react';
+import { Search, Edit3, MapPin, Layers, Globe, Map as MapIconIcon } from 'lucide-react';
 import type { Place } from '../data/schema';
 import { loadProvinces } from '../utils/geo';
 
@@ -50,6 +50,8 @@ export const MapComponent: React.FC<Props> = ({
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [infoWindowData, setInfoWindowData] = useState<{ index: number, place: Place } | null>(null);
   const [provinces, setProvinces] = useState<object | null>(null);
+  const [mapType, setMapType] = useState<'roadmap' | 'satellite' | 'hybrid' | 'terrain'>('roadmap');
+  const [showProvinces, setShowProvinces] = useState(true);
 
   // Load provinces for boundaries
   useEffect(() => {
@@ -60,20 +62,24 @@ export const MapComponent: React.FC<Props> = ({
   useEffect(() => {
     if (!map || !provinces) return;
 
-    map.data.addGeoJson(provinces as object);
-    map.data.setStyle({
-      fillColor: '#A87C6D',
-      fillOpacity: 0.03,
-      strokeColor: '#A87C6D',
-      strokeWeight: 1,
-      strokeOpacity: 0.2,
-      clickable: false
-    });
+    if (showProvinces) {
+      map.data.addGeoJson(provinces as object);
+      map.data.setStyle({
+        fillColor: '#A87C6D',
+        fillOpacity: mapType === 'satellite' || mapType === 'hybrid' ? 0.1 : 0.03,
+        strokeColor: '#A87C6D',
+        strokeWeight: 1,
+        strokeOpacity: 0.4,
+        clickable: false
+      });
+    } else {
+      map.data.forEach(feature => map.data.remove(feature));
+    }
 
     return () => {
       map.data.forEach(feature => map.data.remove(feature));
     };
-  }, [map, provinces]);
+  }, [map, provinces, showProvinces, mapType]);
 
   const fetchAltitudeAndSelect = useCallback(async (lat: number, lng: number, name?: string, mapUrl?: string) => {
     let altitude: number | undefined;
@@ -154,10 +160,36 @@ export const MapComponent: React.FC<Props> = ({
         />
       </div>
 
+      {/* Map Controls Overlay */}
+      <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
+        <div className="flex bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 p-1">
+          <button 
+            onClick={() => setMapType('roadmap')}
+            className={`p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'roadmap' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
+          >
+            <MapIconIcon size={16} /> Roadmap
+          </button>
+          <button 
+            onClick={() => setMapType('hybrid')}
+            className={`p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'hybrid' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
+          >
+            <Globe size={16} /> Satellite
+          </button>
+        </div>
+        
+        <button 
+          onClick={() => setShowProvinces(!showProvinces)}
+          className={`flex items-center gap-2 px-3 py-2 bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold ${showProvinces ? 'text-terra' : 'text-stone-400'}`}
+        >
+          <Layers size={16} /> {showProvinces ? 'Hide Boundaries' : 'Show Boundaries'}
+        </button>
+      </div>
+
       <Map
         defaultCenter={{ lat: 31.6295, lng: -7.9811 }} // Marrakesh
         defaultZoom={6}
         mapId="MRRAKC_MAP_BUILDER"
+        mapTypeId={mapType}
         onClick={onMapClick}
         disableDefaultUI={true}
         zoomControl={true}
