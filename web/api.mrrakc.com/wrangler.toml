@@ -5,6 +5,7 @@ compatibility_date = "2024-04-16"
 [vars]
 # These are public variables. Secrets must be added via 'wrangler secret put'
 # or in the Cloudflare dashboard.
-AIRTABLE_BASE_ID = "your_base_id"
-AIRTABLE_TABLE_NAME = "Places"
+AIRTABLE_BASE_ID = "appDtOHCHCU8iJEVu"
+AIRTABLE_TABLE_NAME = "places"
+# AIRTABLE_API_KEY should be a secret.
 # ACCESS_CODE should be a secret.
