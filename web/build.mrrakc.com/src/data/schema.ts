@@ -12,7 +12,7 @@ export const KINDS = [
   "leisure/hammam", "food/restaurant", "food/street-food", "food/cafe", "food/bakery", "food/pastry",
   "architecture/kasbah", "architecture/ksar", "architecture/building", "architecture/villa", "architecture/cite", "architecture/palace", "architecture/tower", "architecture/school", "architecture/house", "architecture/riad", "architecture/skyscraper", "architecture/hotel", "architecture/district", "architecture/garage", "architecture/hospital", "architecture/pharmacy", "architecture/lighthouse", "architecture/port", "architecture/village", "architecture/bridge",
   "accommodation/hotel", "accommodation/refuge", "accommodation/hostel", "accommodation/riad", "accommodation/gite",
-  "service/guide-office", "service/rental", "service/taxi-station", "service/bus-station", "admin/gendarmerie"
+  "service/guide-office", "service/rental", "service/taxi-station", "service/bus-station", "service/coworking", "admin/gendarmerie"
 ] as const;
 
 export const ACTIVITIES = [
@@ -42,6 +42,54 @@ export const ACCESS_MODALITY = [
 export const AUDIENCE = [
   "all", "locals", "tourists", "children", "muslims", "students"
 ] as const;
+
+export const RELIABILITY = ["poor", "average", "good", "excellent"] as const;
+export const PRICE_LEVELS = ["very_cheap", "cheap", "moderate", "expensive", "very_expensive"] as const;
+export const COFFEE_QUALITY = ["poor", "average", "good", "excellent"] as const;
+export const SEAT_COMFORT = ["poor", "average", "good", "excellent"] as const;
+export const DESK_SPACE = ["cramped", "adequate", "spacious"] as const;
+export const DESK_OPTIONS = ["bar_stools", "lounge_chairs", "standard_tables", "standing_desks", "private_booths", "outdoor"] as const;
+export const POWER_OUTLETS = ["none", "scarce", "moderate", "abundant"] as const;
+export const NATURAL_LIGHT = ["none", "low", "moderate", "bright"] as const;
+export const AMENITIES = ["printer", "scanner", "projector", "whiteboard", "meeting_rooms", "phone_booths", "lockers", "air_conditioning", "heating"] as const;
+export const NOISE_LEVEL = ["silent", "quiet", "moderate", "loud", "very_loud"] as const;
+export const AESTHETICS = ["poor", "average", "good", "excellent"] as const;
+export const WORK_AUDIENCE = ["students", "entrepreneurs", "developers", "generic"] as const;
+
+export const WorkConditionsSchema = z.object({
+  overall: z.number().min(0).max(5),
+  comment: z.string().optional(),
+  wifi: z.object({
+    available: z.boolean().optional(),
+    reliable: z.enum(RELIABILITY).optional(),
+    speedMbps: z.number().min(0).optional(),
+    password: z.string().optional(),
+    comment: z.string().optional(),
+  }).optional(),
+  consumption: z.object({
+    price: z.enum(PRICE_LEVELS).optional(),
+    renewalIntervalHours: z.number().optional(),
+    coffeeQuality: z.enum(COFFEE_QUALITY).optional(),
+    comment: z.string().optional(),
+  }).optional(),
+  environment: z.object({
+    seatComfort: z.enum(SEAT_COMFORT).optional(),
+    deskSpace: z.enum(DESK_SPACE).optional(),
+    deskOptions: z.array(z.enum(DESK_OPTIONS)).optional(),
+    powerOutlets: z.enum(POWER_OUTLETS).optional(),
+    naturalLight: z.enum(NATURAL_LIGHT).optional(),
+    aesthetics: z.enum(AESTHETICS).optional(),
+    amenities: z.array(z.enum(AMENITIES)).optional(),
+    comment: z.string().optional(),
+  }).optional(),
+  atmosphere: z.object({
+    noiseLevel: z.enum(NOISE_LEVEL).optional(),
+    peakHours: z.array(z.string()).optional(),
+    laptopFriendly: z.boolean().optional(),
+    audience: z.array(z.enum(WORK_AUDIENCE)).optional(),
+    comment: z.string().optional(),
+  }).optional(),
+});
 
 // Zod Schema matching Mrrakc Places Schema
 export const PlaceSchema = z.object({
@@ -87,6 +135,7 @@ export const PlaceSchema = z.object({
         entranceFee: z.number().min(-1),
       })),
     }),
+    workConditions: WorkConditionsSchema.optional(),
     timePeriods: z.array(z.string()).min(1, "At least one time period is required"),
     comments: z.array(z.string()),
   }),
@@ -95,5 +144,6 @@ export const PlaceSchema = z.object({
     lastModified: z.string(),
   }).optional(),
 });
+
 
 export type Place = z.infer<typeof PlaceSchema>;
