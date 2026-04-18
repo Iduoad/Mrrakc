@@ -154,27 +154,27 @@ export const MapComponent: React.FC<Props> = ({
       </div>
 
       {/* Map Controls Overlay */}
-      <div className="absolute top-4 right-4 z-10 flex flex-col gap-2">
+      <div className="absolute top-4 right-4 z-10 flex flex-col gap-2 items-end">
         <div className="flex bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 p-1">
           <button 
             onClick={() => setMapType('roadmap')}
-            className={`p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'roadmap' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
+            className={`p-3 md:p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'roadmap' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
           >
-            <MapIconIcon size={16} /> Roadmap
+            <MapIconIcon size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">Roadmap</span>
           </button>
           <button 
             onClick={() => setMapType('hybrid')}
-            className={`p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'hybrid' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
+            className={`p-3 md:p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'hybrid' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
           >
-            <Globe size={16} /> Satellite
+            <Globe size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">Satellite</span>
           </button>
         </div>
         
         <button 
           onClick={() => setShowProvinces(!showProvinces)}
-          className={`flex items-center gap-2 px-3 py-2 bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold ${showProvinces ? 'text-terra' : 'text-stone-400'}`}
+          className={`flex items-center gap-2 p-3 md:px-3 md:py-2 bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold ${showProvinces ? 'text-terra' : 'text-stone-400'}`}
         >
-          <Layers size={16} /> {showProvinces ? 'Hide Boundaries' : 'Show Boundaries'}
+          <Layers size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">{showProvinces ? 'Hide Boundaries' : 'Show Boundaries'}</span>
         </button>
       </div>
 

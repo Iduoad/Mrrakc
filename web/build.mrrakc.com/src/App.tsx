@@ -349,79 +349,101 @@ const App: React.FC = () => {
           )}
 
           {/* Bottom Toolbar Overlay */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md px-6 py-4 rounded-2xl shadow-2xl border border-clay dark:border-stone-800 max-w-[90vw] z-10">
-            <div className="hidden md:flex flex-col items-start px-2">
-              <span className="text-[10px] font-bold uppercase tracking-widest text-charcoal-light dark:text-stone-500">Places Saved</span>
-              <span className="text-2xl font-serif font-black text-terra leading-none">
+          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-2xl border border-clay dark:border-stone-800 max-w-[95vw] z-10 whitespace-nowrap overflow-x-auto no-scrollbar">
+            <button 
+              onClick={() => {
+                setSidebarView('list');
+                setSidebarOpen(true);
+              }}
+              className="flex flex-col items-start px-2 shrink-0 border-r border-clay dark:border-stone-800 pr-4 mr-2 hover:bg-clay/10 transition-colors group"
+              title="Open Manage Places sidebar"
+            >
+              <span className="text-[9px] font-bold uppercase tracking-widest text-charcoal-light dark:text-stone-500 leading-none mb-1">Places</span>
+              <span className="text-xl font-serif font-black text-terra leading-none group-hover:scale-110 transition-transform">
                 {places.length}
               </span>
-            </div>
+            </button>
             
-            <div className="hidden md:block h-10 w-px bg-clay dark:bg-stone-800 mx-1"></div>
-            
-            <div className="flex flex-wrap gap-2">
-              <input 
-                type="password" 
-                placeholder="Access Code"
-                value={accessCode}
-                onChange={(e) => setAccessCode(e.target.value)}
-                className="px-4 py-2 bg-sand/50 dark:bg-stone-800 border border-clay dark:border-stone-700 rounded-xl outline-none focus:ring-1 focus:ring-terra text-sm w-32"
-              />
+            <div className="flex items-center gap-3">
+              <div className="relative group">
+                <input 
+                  type="text" 
+                  placeholder="Code"
+                  value={accessCode}
+                  onChange={(e) => setAccessCode(e.target.value)}
+                  className="px-4 py-3 md:py-2 bg-sand/50 dark:bg-stone-800 border border-clay dark:border-stone-700 rounded-xl outline-none focus:ring-1 focus:ring-terra text-base md:text-sm w-24 sm:w-48 font-mono transition-all"
+                  title="Your API access code for Airtable"
+                />
+              </div>
               
               <button 
                 onClick={submitToAirtable}
                 disabled={isSubmitting || places.length === 0}
-                className="flex items-center gap-2 px-5 py-2.5 bg-terra hover:bg-terra-dark disabled:bg-stone-300 disabled:cursor-not-allowed text-white text-sm font-bold rounded-xl transition-all shadow-lg shadow-terra/20"
+                className="flex items-center gap-2 px-4 py-3 md:py-2.5 bg-terra hover:bg-terra-dark disabled:bg-stone-300 disabled:cursor-not-allowed text-white text-base md:text-sm font-bold rounded-xl transition-all shadow-lg shadow-terra/20 shrink-0"
+                title="Send all saved places to Airtable. This will clear the local list on success."
               >
-                {isSubmitting ? <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div> : <Download size={18} />} 
-                {isSubmitting ? '...' : 'Submit'}
+                {isSubmitting ? <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div> : <Download size={20} className="md:w-4 md:h-4" />} 
+                <span className="hidden sm:inline">{isSubmitting ? 'Submitting...' : 'Submit'}</span>
               </button>
               
               <button 
                 onClick={() => exportToZip(places)}
                 disabled={places.length === 0}
-                className="flex items-center gap-2 px-5 py-2.5 border border-clay dark:border-stone-700 bg-white dark:bg-stone-900 hover:bg-clay/10 disabled:bg-stone-100 disabled:text-stone-400 disabled:cursor-not-allowed text-sm font-bold rounded-xl transition-all"
+                className="flex items-center gap-2 px-4 py-3 md:py-2.5 border border-clay dark:border-stone-700 bg-white dark:bg-stone-900 hover:bg-clay/10 disabled:bg-stone-100 disabled:text-stone-400 disabled:cursor-not-allowed text-base md:text-sm font-bold rounded-xl transition-all shrink-0"
+                title="Download all places as a ZIP file containing JSON files organized by province."
               >
-                ZIP
+                <Download size={20} className="rotate-180 md:w-4 md:h-4" /> 
+                <span className="hidden sm:inline">ZIP</span>
+              </button>
+
+              <div className="h-6 w-px bg-clay dark:bg-stone-800 mx-1"></div>
+
+              <button 
+                onClick={clearPlaces}
+                disabled={places.length === 0}
+                className="p-2.5 text-stone-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/20 rounded-xl transition-all disabled:opacity-30 disabled:cursor-not-allowed"
+                title="Delete all unsaved places from your local list."
+              >
+                <Trash2 size={20} />
               </button>
             </div>
           </div>
         </main>
 
         {/* Unified Sidebar Panel */}
-        <aside className={`${isSidebarOpen ? 'w-[450px]' : 'w-0'} h-full shadow-2xl z-40 transition-all duration-300 border-l border-clay dark:border-stone-800 bg-white dark:bg-stone-900 overflow-hidden relative flex flex-col`}>
+        <aside className={`${isSidebarOpen ? 'w-full md:w-[450px]' : 'w-0'} h-full shadow-2xl z-40 transition-all duration-300 border-l border-clay dark:border-stone-800 bg-white dark:bg-stone-900 overflow-hidden relative flex flex-col`}>
           {sidebarView === 'list' ? (
             <>
-              <div className="p-4 border-b border-clay dark:border-stone-800 flex justify-between items-center bg-sand/50 dark:bg-stone-950/50 min-w-[450px]">
+              <div className="p-4 border-b border-clay dark:border-stone-800 flex justify-between items-center bg-sand/50 dark:bg-stone-950/50 min-w-full md:min-w-[450px]">
                 <h3 className="font-serif font-bold text-terra">Manage Places</h3>
                 <div className="flex gap-1">
                   <button 
                     onClick={clearPlaces}
-                    className="p-1.5 text-stone-400 hover:text-red-500 rounded-md transition-colors"
+                    className="p-2.5 md:p-1.5 text-stone-400 hover:text-red-500 rounded-md transition-colors"
                     title="Clear All"
                   >
-                    <Trash2 size={16} />
+                    <Trash2 size={20} className="md:w-4 md:h-4" />
                   </button>
-                  <button onClick={() => setSidebarOpen(false)} className="p-1.5 hover:bg-clay dark:hover:bg-stone-800 rounded-md transition-colors">
-                    <X size={16} />
+                  <button onClick={() => setSidebarOpen(false)} className="p-2.5 md:p-1.5 hover:bg-clay dark:hover:bg-stone-800 rounded-md transition-colors">
+                    <X size={20} className="md:w-4 md:h-4" />
                   </button>
                 </div>
               </div>
               
-              <div className="p-4 min-w-[450px]">
+              <div className="p-4 min-w-full md:min-w-[450px]">
                 <div className="relative">
-                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" size={16} />
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" size={18} />
                   <input 
                     type="text" 
                     placeholder="Search saved places..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
-                    className="w-full pl-9 pr-4 py-2 bg-sand/50 dark:bg-stone-800 border border-clay dark:border-stone-700 rounded-xl outline-none focus:ring-1 focus:ring-terra text-sm"
+                    className="w-full pl-10 pr-4 py-3 md:py-2 bg-sand/50 dark:bg-stone-800 border border-clay dark:border-stone-700 rounded-xl outline-none focus:ring-1 focus:ring-terra text-base md:text-sm"
                   />
                 </div>
               </div>
 
-              <div className="flex-1 overflow-y-auto p-4 space-y-4 min-w-[450px]">
+              <div className="flex-1 overflow-y-auto p-4 space-y-4 min-w-full md:min-w-[450px]">
                 {Object.keys(groupedPlaces).length === 0 && (
                   <div className="py-24 text-center">
                     <MapIcon className="mx-auto text-stone-300 mb-2" size={48} />
@@ -433,10 +455,10 @@ const App: React.FC = () => {
                   <div key={province} className="space-y-1">
                     <button 
                       onClick={() => toggleProvince(province)}
-                      className="w-full flex items-center justify-between px-2 py-1.5 text-[10px] font-bold uppercase tracking-widest text-stone-500 hover:bg-clay/10 rounded-md"
+                      className="w-full flex items-center justify-between px-2 py-2 md:py-1.5 text-[11px] md:text-[10px] font-bold uppercase tracking-widest text-stone-500 hover:bg-clay/10 rounded-md"
                     >
                       <span className="flex items-center gap-2">
-                        {expandedProvinces[province] !== false ? <ChevronDown size={12} /> : <ChevronRight size={12} />}
+                        {expandedProvinces[province] !== false ? <ChevronDown size={14} className="md:w-3 md:h-3" /> : <ChevronRight size={14} className="md:w-3 md:h-3" />}
                         {province} ({items.length})
                       </span>
                     </button>
@@ -444,20 +466,20 @@ const App: React.FC = () => {
                     {(expandedProvinces[province] !== false) && (
                       <div className="space-y-1 ml-1">
                         {items.map(({ place: p, originalIndex: i }) => (
-                          <div key={i} className={`group flex items-center gap-3 p-3 rounded-xl border transition-all cursor-pointer ${editingIndex === i ? 'border-terra bg-terra/5 ring-1 ring-terra/20' : 'border-transparent hover:border-clay dark:hover:border-stone-800 hover:bg-clay/5'}`} onClick={() => startEdit(i)}>
-                            <div className="bg-terra/10 p-2 rounded-lg text-terra shrink-0">
-                              <MapPin size={16} />
+                          <div key={i} className={`group flex items-center gap-3 p-4 md:p-3 rounded-xl border transition-all cursor-pointer ${editingIndex === i ? 'border-terra bg-terra/5 ring-1 ring-terra/20' : 'border-transparent hover:border-clay dark:hover:border-stone-800 hover:bg-clay/5'}`} onClick={() => startEdit(i)}>
+                            <div className="bg-terra/10 p-2.5 md:p-2 rounded-lg text-terra shrink-0">
+                              <MapPin size={18} className="md:w-4 md:h-4" />
                             </div>
                             <div className="flex-1 min-w-0">
                               <p className="text-sm font-bold truncate leading-tight">{p.spec.name}</p>
-                              <p className="text-[10px] text-stone-400 truncate">{p.kind}</p>
+                              <p className="text-[11px] md:text-[10px] text-stone-400 truncate">{p.kind}</p>
                             </div>
-                            <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity shrink-0">
+                            <div className="flex gap-1 opacity-0 md:group-hover:opacity-100 transition-opacity shrink-0">
                               <button 
                                 onClick={(e) => { e.stopPropagation(); deletePlace(i); }} 
-                                className="p-1.5 hover:bg-red-500 hover:text-white rounded-md text-stone-300 transition-all"
+                                className="p-2 md:p-1.5 hover:bg-red-500 hover:text-white rounded-md text-stone-300 transition-all"
                               >
-                                <Trash2 size={14} />
+                                <Trash2 size={18} className="md:w-3.5 md:h-3.5" />
                               </button>
                             </div>
                           </div>
@@ -469,7 +491,7 @@ const App: React.FC = () => {
               </div>
             </>
           ) : (
-            <div className="h-full flex flex-col min-w-[450px]">
+            <div className="h-full flex flex-col min-w-full md:min-w-[450px]">
               <div className="p-4 border-b border-clay dark:border-stone-800 flex items-center gap-4 bg-sand/50 dark:bg-stone-950/50">
                 <button 
                   onClick={() => {
@@ -477,17 +499,17 @@ const App: React.FC = () => {
                     setSelectedPoint(null);
                     setEditingIndex(null);
                   }}
-                  className="p-2 hover:bg-clay dark:hover:bg-stone-800 rounded-full transition-colors text-terra"
+                  className="p-3 md:p-2 hover:bg-clay dark:hover:bg-stone-800 rounded-full transition-colors text-terra"
                   title="Back to List"
                 >
-                  <ArrowLeft size={20} />
+                  <ArrowLeft size={24} className="md:w-5 md:h-5" />
                 </button>
                 <h3 className="font-serif font-bold text-terra">
                   {editingIndex !== null ? 'Edit Place' : 'New Place'}
                 </h3>
                 <div className="flex-1"></div>
-                <button onClick={() => setSidebarOpen(false)} className="p-2 hover:bg-clay dark:hover:bg-stone-800 rounded-full transition-colors">
-                  <X size={20} />
+                <button onClick={() => setSidebarOpen(false)} className="p-3 md:p-2 hover:bg-clay dark:hover:bg-stone-800 rounded-full transition-colors">
+                  <X size={24} className="md:w-5 md:h-5" />
                 </button>
               </div>
               <div className="flex-1 overflow-hidden">

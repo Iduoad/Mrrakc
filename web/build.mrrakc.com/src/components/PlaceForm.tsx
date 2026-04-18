@@ -204,7 +204,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
               <label className={`block text-[11px] font-bold uppercase ${errors.spec?.name ? 'text-red-500' : 'text-stone-500'}`}>Name</label>
               <input 
                 {...register('spec.name')}
-                className={`w-full px-4 py-2 rounded-lg border ${errors.spec?.name ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700 focus:ring-terra'} bg-white dark:bg-stone-800 focus:ring-1 outline-none transition-all text-sm`}
+                className={`w-full px-4 py-3 md:py-2 rounded-lg border ${errors.spec?.name ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700 focus:ring-terra'} bg-white dark:bg-stone-800 focus:ring-1 outline-none transition-all text-base md:text-sm`}
                 placeholder="e.g. Koutoubia Mosque"
               />
               {errors.spec?.name && <p className="text-red-500 text-[10px] mt-1">{errors.spec.name.message}</p>}
@@ -214,7 +214,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
               <label className={`block text-[11px] font-bold uppercase ${errors.spec?.id ? 'text-red-500' : 'text-stone-500'}`}>ID (Slug)</label>
               <input 
                 {...register('spec.id')}
-                className={`w-full px-4 py-2 rounded-lg border ${errors.spec?.id ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700'} bg-sand/30 dark:bg-stone-900 font-mono text-xs outline-none`}
+                className={`w-full px-4 py-3 md:py-2 rounded-lg border ${errors.spec?.id ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700'} bg-sand/30 dark:bg-stone-900 font-mono text-base md:text-xs outline-none`}
               />
               {errors.spec?.id && <p className="text-red-500 text-[10px] mt-1">{errors.spec.id.message}</p>}
             </div>
@@ -251,7 +251,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
               <textarea 
                 {...register('spec.description')}
                 rows={3}
-                className={`w-full px-4 py-2 rounded-lg border ${errors.spec?.description ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700 focus:ring-terra'} bg-white dark:bg-stone-800 focus:ring-1 outline-none transition-all text-sm`}
+                className={`w-full px-4 py-3 md:py-2 rounded-lg border ${errors.spec?.description ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700 focus:ring-terra'} bg-white dark:bg-stone-800 focus:ring-1 outline-none transition-all text-base md:text-sm`}
                 placeholder="Write a brief description..."
               />
               {errors.spec?.description && <p className="text-red-500 text-[10px] mt-1">{errors.spec.description.message}</p>}
@@ -264,25 +264,25 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-1">
                 <label className="text-[10px] uppercase font-bold text-stone-500">Latitude</label>
-                <input type="number" step="any" {...register('spec.location.latitude', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                <input type="number" step="any" {...register('spec.location.latitude', { valueAsNumber: true })} className="w-full px-3 py-2 md:py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-base md:text-xs" />
               </div>
               <div className="space-y-1">
                 <label className="text-[10px] uppercase font-bold text-stone-500">Longitude</label>
-                <input type="number" step="any" {...register('spec.location.longitude', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                <input type="number" step="any" {...register('spec.location.longitude', { valueAsNumber: true })} className="w-full px-3 py-2 md:py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-base md:text-xs" />
               </div>
             </div>
             
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-1">
                 <label className="text-[10px] uppercase font-bold text-stone-500">Altitude (m)</label>
-                <input type="number" step="any" {...register('spec.location.altitude', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                <input type="number" step="any" {...register('spec.location.altitude', { valueAsNumber: true })} className="w-full px-3 py-2 md:py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-base md:text-xs" />
               </div>
               <div className="space-y-1">
                 <label className={`text-[10px] uppercase font-bold ${errors.spec?.location?.province ? 'text-red-500' : 'text-stone-500'}`}>Province</label>
                 <input 
                   {...register('spec.location.province')}
                   readOnly
-                  className={`w-full px-3 py-1.5 rounded border ${errors.spec?.location?.province ? 'border-red-500 bg-red-50/10' : 'border-clay dark:border-stone-700 bg-clay/20 dark:bg-stone-900'} text-xs font-mono`}
+                  className={`w-full px-3 py-2 md:py-1.5 rounded border ${errors.spec?.location?.province ? 'border-red-500 bg-red-50/10' : 'border-clay dark:border-stone-700 bg-clay/20 dark:bg-stone-900'} text-base md:text-xs font-mono`}
                   placeholder="Auto..."
                 />
               </div>
