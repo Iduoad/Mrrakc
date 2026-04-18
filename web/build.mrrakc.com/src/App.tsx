@@ -333,10 +333,10 @@ const App: React.FC = () => {
 
   return (
     <APIProvider apiKey={API_KEY} region="MA">
-      <div className="h-screen w-screen flex overflow-hidden bg-sand dark:bg-stone-950">
+      <div className="h-dvh w-screen flex overflow-hidden bg-sand dark:bg-stone-950">
         
         {/* Main Content: Map */}
-        <main className="flex-1 relative">
+        <main className="flex-1 relative min-h-0">
           <MapComponent 
             onPointSelect={onPointSelect} 
             selectedPoint={selectedPoint || undefined} 
@@ -350,7 +350,7 @@ const App: React.FC = () => {
           />
 
           {/* Bottom Toolbar Overlay */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-2xl border border-clay dark:border-stone-800 max-w-[95vw] z-10 whitespace-nowrap overflow-x-auto no-scrollbar">
+          <div className="absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md px-6 py-3 pb-4 md:pb-3 rounded-2xl shadow-2xl border border-clay dark:border-stone-800 max-w-[95vw] z-10 whitespace-nowrap overflow-x-auto no-scrollbar">
             <button 
               onClick={() => {
                 setSidebarView('list');
@@ -543,8 +543,8 @@ const App: React.FC = () => {
         />
 
         {showSplash && (
-          <div className="fixed inset-0 z-[300] flex items-center justify-center p-6 bg-sand/40 dark:bg-stone-950/40 backdrop-blur-md animate-in fade-in duration-500">
-            <div className="max-w-md w-full bg-white/90 dark:bg-stone-900/90 p-10 rounded-3xl shadow-2xl border border-clay dark:border-stone-800 text-center space-y-8 animate-in zoom-in-95 duration-300">
+          <div className="fixed inset-0 z-[300] flex items-center justify-center p-4 md:p-6 bg-sand/40 dark:bg-stone-950/40 backdrop-blur-md animate-in fade-in duration-500 overflow-y-auto">
+            <div className="max-w-md w-full my-auto bg-white/90 dark:bg-stone-900/90 p-8 md:p-10 rounded-3xl shadow-2xl border border-clay dark:border-stone-800 text-center space-y-6 md:space-y-8 animate-in zoom-in-95 duration-300">
               <div className="bg-terra/10 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto text-terra ring-8 ring-terra/5">
                 <MapPin size={40} />
               </div>
