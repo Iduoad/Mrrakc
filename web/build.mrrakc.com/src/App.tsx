@@ -320,6 +320,10 @@ const App: React.FC = () => {
     setExpandedProvinces(prev => ({ ...prev, [province]: !prev[province] }));
   };
 
+  const onMapError = useCallback((msg: string) => {
+    addNotification(msg, 'error');
+  }, [addNotification]);
+
   if (isLoading) {
     return (
       <div className="h-screen w-screen flex items-center justify-center bg-sand dark:bg-stone-950">
@@ -347,6 +351,7 @@ const App: React.FC = () => {
               setSidebarOpen(true);
             }}
             isSidebarOpen={isSidebarOpen}
+            onError={onMapError}
           />
 
           {/* Bottom Toolbar Overlay */}

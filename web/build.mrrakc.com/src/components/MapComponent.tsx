@@ -8,7 +8,7 @@ import {
   InfoWindow
 } from '@vis.gl/react-google-maps';
 import type { MapMouseEvent } from '@vis.gl/react-google-maps';
-import { Search, Edit3, MapPin, Layers, Globe, Map as MapIconIcon } from 'lucide-react';
+import { Search, Edit3, MapPin, Layers, Globe, Map as MapIconIcon, Navigation } from 'lucide-react';
 import type { Place } from '../data/schema';
 import { loadProvinces } from '../utils/geo';
 
@@ -19,6 +19,7 @@ interface Props {
   onPlaceClick?: (index: number) => void;
   onMenuClick: () => void;
   isSidebarOpen: boolean;
+  onError?: (message: string) => void;
 }
 
 const getCategoryColor = (kind: string) => {
@@ -37,7 +38,8 @@ export const MapComponent: React.FC<Props> = ({
   addedPlaces,
   onPlaceClick,
   onMenuClick,
-  isSidebarOpen
+  isSidebarOpen,
+  onError
 }) => {
   const map = useMap();
   const placesLib = useMapsLibrary('places');
@@ -47,6 +49,46 @@ export const MapComponent: React.FC<Props> = ({
   const [provinces, setProvinces] = useState<object | null>(null);
   const [mapType, setMapType] = useState<'roadmap' | 'satellite' | 'hybrid' | 'terrain'>('roadmap');
   const [showProvinces, setShowProvinces] = useState(true);
+
+  const centerToMyLocation = useCallback((panOnly = false) => {
+    if (!map) return;
+
+    if (!navigator.geolocation) {
+      onError?.('Geolocation is not supported by your browser.');
+      return;
+    }
+
+    // Browsers block geolocation on non-secure origins (plain HTTP)
+    if (!window.isSecureContext && window.location.hostname !== 'localhost') {
+      onError?.('Geolocation requires a secure (HTTPS) connection.');
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude: lat, longitude: lng } = position.coords;
+        map.panTo({ lat, lng });
+        if (!panOnly) map.setZoom(15);
+      },
+      (error) => {
+        let message = 'Failed to get your location.';
+        if (error.code === error.PERMISSION_DENIED) {
+          message = 'Location access denied. Please enable it in your settings.';
+        } else if (error.code === error.POSITION_UNAVAILABLE) {
+          message = 'Location information is unavailable.';
+        } else if (error.code === error.TIMEOUT) {
+          message = 'Location request timed out.';
+        }
+        console.warn('Geolocation failed:', error);
+        onError?.(message);
+      },
+      { 
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 0
+      }
+    );
+  }, [map, onError]);
 
   // Load provinces for boundaries
   useEffect(() => {
@@ -196,6 +238,14 @@ export const MapComponent: React.FC<Props> = ({
             className={`w-12 h-12 md:w-auto md:h-auto md:px-3 md:py-2 flex items-center justify-center md:justify-start gap-2 bg-white dark:bg-stone-900 rounded-2xl md:rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold ${showProvinces ? 'text-terra' : 'text-stone-400'}`}
           >
             <Layers size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">{showProvinces ? 'Hide Boundaries' : 'Show Boundaries'}</span>
+          </button>
+
+          <button 
+            onClick={() => centerToMyLocation(true)}
+            className="w-12 h-12 md:w-auto md:h-auto md:px-3 md:py-2 flex items-center justify-center md:justify-start gap-2 bg-white dark:bg-stone-900 rounded-2xl md:rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold text-terra hover:bg-clay/10 active:scale-95"
+            title="Center to my location"
+          >
+            <Navigation size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">My Location</span>
           </button>
 
           {/* Desktop Menu Button: Right of Boundaries button */}
