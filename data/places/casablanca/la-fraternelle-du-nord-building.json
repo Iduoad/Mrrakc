@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "La Fraternelle du Nord Building",
-    "id": "la-fraternelle-du-nord-building",
-    "description": "The La Fraternelle du Nord Building is a historical residential and commercial structure, completed between 1931 and 1932. It was designed by architect **Marcel Desmet**, known for his work in the Art Deco and Modernist styles of the Protectorate era. Located in the central district, this building reflects the multi-story apartment block typology that defined the city's new urban center, blending commercial functionality with residential use.",
-    "location": {
-      "longitude": -7.6072909,
-      "latitude": 33.5934008,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marcel-desmet",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "La Fraternelle du Nord Building",
+        "id": "la-fraternelle-du-nord-building",
+        "description": "The La Fraternelle du Nord Building is a historical residential and commercial structure, completed between 1931 and 1932. It was designed by architect **Marcel Desmet**, known for his work in the Art Deco and Modernist styles of the Protectorate era. Located in the central district, this building reflects the multi-story apartment block typology that defined the city's new urban center, blending commercial functionality with residential use.",
+        "location": {
+            "longitude": -7.6072909,
+            "latitude": 33.5934008,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marcel-desmet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building."
+            }
         ],
-        "comment": "Architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1932-01-01",
-        "description": "The building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1932-01-01",
+                "description": "The building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

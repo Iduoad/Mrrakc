@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "modern-dining",
-      "fusion-cuisine",
-      "international"
-    ]
-  },
-  "spec": {
-    "name": "Niya Restaurant",
-    "id": "niya-restaurant",
-    "description": "Niya Restaurant (named after the Arabic word for intention/motive) is a contemporary dining establishment in Casablanca, likely specializing in modern Moroccan or international fusion cuisine. It offers a sophisticated atmosphere and caters to an audience looking for creative and high-quality culinary experiences.",
-    "location": {
-      "longitude": -7.6323284,
-      "latitude": 33.5888478,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "modern-dining",
+            "fusion-cuisine",
+            "international"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "coastline"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Niya Restaurant",
+        "id": "niya-restaurant",
+        "description": "Niya Restaurant (named after the Arabic word for intention/motive) is a contemporary dining establishment in Casablanca, likely specializing in modern Moroccan or international fusion cuisine. It offers a sophisticated atmosphere and caters to an audience looking for creative and high-quality culinary experiences.",
+        "location": {
+            "longitude": -7.6323284,
+            "latitude": 33.5888478,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "nature/coastline"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,73 +1,73 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "nature/aquarium",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "architecture",
-      "modernist",
-      "national-heritage",
-      "mid-20th-century",
-      "closed"
-    ]
-  },
-  "spec": {
-    "name": "Aquarium Building",
-    "id": "aquarium-building",
-    "description": "The historic Aquarium Building, designed by French architect Georges Delanoë, was a significant structure in Casablanca's post-war development, completed around 1950. It served as a public aquarium for several decades but is currently closed. Its architecture is recognized for its Modernist style, which was prevalent in Casablanca's rapid expansion during the mid-20th century. The building's cultural and historical value was formally acknowledged when it was declared a National Material Patrimony site in 2018.",
-    "location": {
-      "longitude": -7.6301385,
-      "latitude": 33.6067073,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "nature/aquarium",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "architecture",
+            "modernist",
+            "national-heritage",
+            "mid-20th-century",
+            "closed"
+        ]
     },
-    "people": [
-      {
-        "id": "people/georges-delanoe",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Aquarium Building",
+        "id": "aquarium-building",
+        "description": "The historic Aquarium Building, designed by French architect Georges Delanoë, was a significant structure in Casablanca's post-war development, completed around 1950. It served as a public aquarium for several decades but is currently closed. Its architecture is recognized for its Modernist style, which was prevalent in Casablanca's rapid expansion during the mid-20th century. The building's cultural and historical value was formally acknowledged when it was declared a National Material Patrimony site in 2018.",
+        "location": {
+            "longitude": -7.6301385,
+            "latitude": 33.6067073,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/georges-delanoe",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the original Aquarium Building."
+            }
         ],
-        "comment": "French architect who designed the original Aquarium Building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1950-01-01",
-        "description": "The public aquarium building was completed and opened."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      },
-      {
-        "title": "Closure",
-        "date": "1990-01-01",
-        "description": "The aquarium ceased operations (Approximate date, prior to patrimony declaration)."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.atelierobservatoire.com/aquarium",
-        "type": "article",
-        "title": "Article about the Aquarium from l'Observatoire"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "closed",
-      "comment": "The public aquarium is currently closed; building access is restricted."
-    },
-    "timePeriods": [
-      "1950s"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1950-01-01",
+                "description": "The public aquarium building was completed and opened."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            },
+            {
+                "title": "Closure",
+                "date": "1990-01-01",
+                "description": "The aquarium ceased operations (Approximate date, prior to patrimony declaration)."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.atelierobservatoire.com/aquarium",
+                "type": "article",
+                "title": "Article about the Aquarium from l'Observatoire"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "closed",
+            "comment": "The public aquarium is currently closed; building access is restricted."
+        },
+        "timePeriods": [
+            "1950s"
+        ]
+    }
 }

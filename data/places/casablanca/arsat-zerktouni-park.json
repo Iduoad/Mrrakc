@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "public-space/park",
-  "metadata": {
-    "tags": [
-      "urban-park",
-      "historical-site",
-      "old-medina",
-      "green-space",
-      "1908-establishment"
-    ]
-  },
-  "spec": {
-    "name": "Arsat Zerktouni Park",
-    "id": "arsat-zerktouni-park",
-    "description": "Arsat Zerktouni Park, originally established around 1908-1910 under the name 'Jardin Public,' is a historic green space of approximately 2 hectares located near the Old Medina (Ancienne Médina) and the port. The term 'arsat' in Arabic traditionally refers to a garden with a vegetable patch and fruit trees, reflecting its initial design or use. The park was laid out between the port and the residential area, serving as a vital early green lung for the rapidly developing city of Casablanca. It remains an emblematic part of the medina's history and urban planning, showcasing early colonial-era green space design.",
-    "location": {
-      "longitude": -7.6210205,
-      "latitude": 33.6045604,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "public-space/park",
+    "metadata": {
+        "tags": [
+            "urban-park",
+            "historical-site",
+            "old-medina",
+            "green-space",
+            "1908-establishment"
+        ]
     },
-    "people": [
-      {
-        "id": "people/captain-dessigny",
-        "relationship": [
-          "engineer",
-          "administrator"
+    "spec": {
+        "name": "Arsat Zerktouni Park",
+        "id": "arsat-zerktouni-park",
+        "description": "Arsat Zerktouni Park, originally established around 1908-1910 under the name 'Jardin Public,' is a historic green space of approximately 2 hectares located near the Old Medina (Ancienne Médina) and the port. The term 'arsat' in Arabic traditionally refers to a garden with a vegetable patch and fruit trees, reflecting its initial design or use. The park was laid out between the port and the residential area, serving as a vital early green lung for the rapidly developing city of Casablanca. It remains an emblematic part of the medina's history and urban planning, showcasing early colonial-era green space design.",
+        "location": {
+            "longitude": -7.6210205,
+            "latitude": 33.6045604,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/captain-dessigny",
+                "relationship": [
+                    "engineer",
+                    "administrator"
+                ],
+                "comment": "Director of urban services who oversaw the initial development of the park."
+            }
         ],
-        "comment": "Director of urban services who oversaw the initial development of the park."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Establishment (as Jardin Public)",
-        "date": "1908-01-01",
-        "description": "The park was created, initially known as the 'Jardin Public.'"
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.atelierbertrandhouin.com/casablanca-courts-circuits",
-        "type": "article",
-        "title": "Casablanca courts-circuits (Architectural reference)"
-      }
-    ],
-    "activities": [
-      "sightseeing",
-      "socializing",
-      "walking"
-    ],
-    "items": [
-      "gardens"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Park access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Establishment (as Jardin Public)",
+                "date": "1908-01-01",
+                "description": "The park was created, initially known as the 'Jardin Public.'"
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.atelierbertrandhouin.com/casablanca-courts-circuits",
+                "type": "article",
+                "title": "Casablanca courts-circuits (Architectural reference)"
+            }
+        ],
+        "activities": [
+            "sightseeing/historical",
+            "socializing/community",
+            "leisure/walking"
+        ],
+        "items": [
+            "nature/gardens"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Park access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century"
+        ]
+    }
 }

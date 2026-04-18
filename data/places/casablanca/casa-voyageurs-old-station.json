@@ -1,68 +1,68 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "railway",
-      "transportation",
-      "colonial-architecture",
-      "closed",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Casa Voyageurs old station",
-    "id": "casa-voyageurs-old-station",
-    "description": "The Casa Voyageurs Old Station building, constructed in 1923, represents an important piece of Casablanca's early railway history. It served as the city's primary railway station during the French Protectorate era. The architecture is typical of the colonial period's infrastructure projects, designed to be both functional and imposing. While the original building is closed, a new, modernized Casa Voyageurs station now serves as Casablanca's major transport hub, particularly for the high-speed rail line. The old structure remains a historical landmark adjacent to the new development.",
-    "location": {
-      "longitude": -7.5908846,
-      "latitude": 33.5897653,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "railway",
+            "transportation",
+            "colonial-architecture",
+            "closed",
+            "1920s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Construction",
-        "date": "1923-01-01",
-        "description": "The original Casa Voyageurs station building was constructed and opened for railway services."
-      },
-      {
-        "title": "Functional Obsolescence",
-        "date": "2018-01-01",
-        "description": "The station's function was largely taken over by the modern, newly built Casa Voyageurs hub."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Casa_Voyageurs_Railway_Station",
-        "type": "article",
-        "title": "Casa Voyageurs Railway Station Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "closed",
-      "comment": "The historical building is closed; operations moved to the new adjacent station."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Casa Voyageurs old station",
+        "id": "casa-voyageurs-old-station",
+        "description": "The Casa Voyageurs Old Station building, constructed in 1923, represents an important piece of Casablanca's early railway history. It served as the city's primary railway station during the French Protectorate era. The architecture is typical of the colonial period's infrastructure projects, designed to be both functional and imposing. While the original building is closed, a new, modernized Casa Voyageurs station now serves as Casablanca's major transport hub, particularly for the high-speed rail line. The old structure remains a historical landmark adjacent to the new development.",
+        "location": {
+            "longitude": -7.5908846,
+            "latitude": 33.5897653,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Construction",
+                "date": "1923-01-01",
+                "description": "The original Casa Voyageurs station building was constructed and opened for railway services."
+            },
+            {
+                "title": "Functional Obsolescence",
+                "date": "2018-01-01",
+                "description": "The station's function was largely taken over by the modern, newly built Casa Voyageurs hub."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Casa_Voyageurs_Railway_Station",
+                "type": "article",
+                "title": "Casa Voyageurs Railway Station Wikipedia Page"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "closed",
+            "comment": "The historical building is closed; operations moved to the new adjacent station."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

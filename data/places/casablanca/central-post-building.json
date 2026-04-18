@@ -1,87 +1,87 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "post-office",
-      "communications",
-      "neo-moorish",
-      "national-heritage",
-      "1910s"
-    ]
-  },
-  "spec": {
-    "name": "Central Post Building",
-    "id": "central-post-building",
-    "description": "The Central Post Building (La Poste Centrale) in Casablanca is a grand historical structure designed by architect **Adrien Laforgue** and constructed between 1918 and 1920. It is an exemplary piece of early colonial public architecture, designed in the majestic Neo-Moorish or Mauresque style, as dictated by Resident-General Lyautey's urban vision. This style blends traditional Moroccan forms with modern construction techniques, establishing a monumental civic identity for the new city. It remains the city's main post office and was declared a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6194704,
-      "latitude": 33.5928417,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "post-office",
+            "communications",
+            "neo-moorish",
+            "national-heritage",
+            "1910s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/adrien-laforgue",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "French architect who designed the Central Post Building."
-      },
-      {
-        "id": "people/hubert-lyautey",
-        "relationship": [
-          "commissioner"
-        ],
-        "comment": "French Resident-General whose urban vision dictated the Neo-Moorish style of major public buildings."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1918-01-01",
-        "description": "Construction of the Central Post Building began."
-      },
-      {
-        "title": "Building Completed and Opened",
-        "date": "1920-01-01",
-        "description": "The Central Post Building was completed and opened for services."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "postal services",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Central Post Building",
+        "id": "central-post-building",
+        "description": "The Central Post Building (La Poste Centrale) in Casablanca is a grand historical structure designed by architect **Adrien Laforgue** and constructed between 1918 and 1920. It is an exemplary piece of early colonial public architecture, designed in the majestic Neo-Moorish or Mauresque style, as dictated by Resident-General Lyautey's urban vision. This style blends traditional Moroccan forms with modern construction techniques, establishing a monumental civic identity for the new city. It remains the city's main post office and was declared a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6194704,
+            "latitude": 33.5928417,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Post services access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/adrien-laforgue",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the Central Post Building."
+            },
+            {
+                "id": "people/hubert-lyautey",
+                "relationship": [
+                    "commissioner"
+                ],
+                "comment": "French Resident-General whose urban vision dictated the Neo-Moorish style of major public buildings."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1918-01-01",
+                "description": "Construction of the Central Post Building began."
+            },
+            {
+                "title": "Building Completed and Opened",
+                "date": "1920-01-01",
+                "description": "The Central Post Building was completed and opened for services."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/postal",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Post services access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

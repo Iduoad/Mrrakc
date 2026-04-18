@@ -1,62 +1,62 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "historical-cinema",
-      "architecture",
-      "art-deco",
-      "colonial-era",
-      "national-heritage",
-      "closed"
-    ]
-  },
-  "spec": {
-    "name": "Arc Cinema",
-    "id": "arc-cinema",
-    "description": "The Arc Cinema is a historic movie theater in Casablanca, believed to date back to the 1940s, during a golden age of cinema and cultural development in the city. Cinéma Arc, along with other grand cinemas like the Empire and Rialto, are notable architectural landmarks, often featuring Art Deco or modernist styles characteristic of the colonial era. Though currently closed, its historical and architectural significance was recognized with its designation as a National Material Patrimony site in 2018.",
-    "location": {
-      "longitude": -7.6327468,
-      "latitude": 33.5950839,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "historical-cinema",
+            "architecture",
+            "art-deco",
+            "colonial-era",
+            "national-heritage",
+            "closed"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Establishment Period",
-        "date": "1940-01-01",
-        "description": "The cinema was established during the 1940s (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://visitcasablanca.ma/en/pois/cinema-empire/",
-        "type": "article",
-        "title": "Reference to other historical Casablanca cinemas (Visit Casablanca)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "closed",
-      "comment": "The cinema is currently closed for operation; interior access is restricted."
-    },
-    "timePeriods": [
-      "1940s",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Arc Cinema",
+        "id": "arc-cinema",
+        "description": "The Arc Cinema is a historic movie theater in Casablanca, believed to date back to the 1940s, during a golden age of cinema and cultural development in the city. Cinéma Arc, along with other grand cinemas like the Empire and Rialto, are notable architectural landmarks, often featuring Art Deco or modernist styles characteristic of the colonial era. Though currently closed, its historical and architectural significance was recognized with its designation as a National Material Patrimony site in 2018.",
+        "location": {
+            "longitude": -7.6327468,
+            "latitude": 33.5950839,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Establishment Period",
+                "date": "1940-01-01",
+                "description": "The cinema was established during the 1940s (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://visitcasablanca.ma/en/pois/cinema-empire/",
+                "type": "article",
+                "title": "Reference to other historical Casablanca cinemas (Visit Casablanca)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "closed",
+            "comment": "The cinema is currently closed for operation; interior access is restricted."
+        },
+        "timePeriods": [
+            "1940s",
+            "french protectorate"
+        ]
+    }
 }

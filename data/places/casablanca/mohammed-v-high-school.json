@@ -1,96 +1,96 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/school",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "education",
-      "art-deco",
-      "national-heritage",
-      "1920s-1950s"
-    ]
-  },
-  "spec": {
-    "name": "Mohammed V high school",
-    "id": "mohammed-v-high-school",
-    "description": "Mohammed V High School (Lycée Mohammed V) is one of Casablanca's most historically significant and prominent educational institutions, with its main building constructed between 1922 and 1954. It was designed by architects **Isaac Lévy and Elie Azagury**. The complex represents the monumental public architecture of the Protectorate era, blending early Art Deco with functional design. Named after King Mohammed V (Sultan Mohammed Ben Youssef), it became a symbol of national pride after independence and was declared a **National Material Patrimony** site in 2004.",
-    "location": {
-      "longitude": -7.6151533,
-      "latitude": 33.5779565,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/school",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "education",
+            "art-deco",
+            "national-heritage",
+            "1920s-1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/isaac-levy",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who co-designed the school building."
-      },
-      {
-        "id": "people/elie-azagury",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who co-designed the school building."
-      },
-      {
-        "id": "people/mohammed-v",
-        "relationship": [
-          "namesake",
-          "king"
-        ],
-        "comment": "King of Morocco after whom the school is named."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Began",
-        "date": "1922-01-01",
-        "description": "Construction began on the school building."
-      },
-      {
-        "title": "Building Completed",
-        "date": "1954-01-01",
-        "description": "The complex was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2004-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Mohammed V high school",
+        "id": "mohammed-v-high-school",
+        "description": "Mohammed V High School (Lycée Mohammed V) is one of Casablanca's most historically significant and prominent educational institutions, with its main building constructed between 1922 and 1954. It was designed by architects **Isaac Lévy and Elie Azagury**. The complex represents the monumental public architecture of the Protectorate era, blending early Art Deco with functional design. Named after King Mohammed V (Sultan Mohammed Ben Youssef), it became a symbol of national pride after independence and was declared a **National Material Patrimony** site in 2004.",
+        "location": {
+            "longitude": -7.6151533,
+            "latitude": 33.5779565,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Access for Students and Staff",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/isaac-levy",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the school building."
+            },
+            {
+                "id": "people/elie-azagury",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the school building."
+            },
+            {
+                "id": "people/mohammed-v",
+                "relationship": [
+                    "namesake",
+                    "king"
+                ],
+                "comment": "King of Morocco after whom the school is named."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction Began",
+                "date": "1922-01-01",
+                "description": "Construction began on the school building."
+            },
+            {
+                "title": "Building Completed",
+                "date": "1954-01-01",
+                "description": "The complex was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2004-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Access for Students and Staff",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted primarily to students, staff, and authorized personnel."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

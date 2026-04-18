@@ -1,46 +1,46 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "cinema",
-      "movie-theater",
-      "entertainment",
-      "modern"
-    ]
-  },
-  "spec": {
-    "name": "CinéAtlas Casablanca",
-    "id": "cineatlas-casablanca",
-    "description": "CinéAtlas Casablanca is a modern movie theater and cinema chain operating in Casablanca. It screens contemporary international and national films, offering a typical multiplex experience with updated sound and seating technology. It serves as a popular cultural and entertainment venue for the city's residents.",
-    "location": {
-      "longitude": -7.6635283,
-      "latitude": 33.5630172,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "cinema",
+            "movie-theater",
+            "entertainment",
+            "modern"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Ticket price",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "CinéAtlas Casablanca",
+        "id": "cineatlas-casablanca",
+        "description": "CinéAtlas Casablanca is a modern movie theater and cinema chain operating in Casablanca. It screens contemporary international and national films, offering a typical multiplex experience with updated sound and seating technology. It serves as a popular cultural and entertainment venue for the city's residents.",
+        "location": {
+            "longitude": -7.6635283,
+            "latitude": 33.5630172,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Ticket price",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

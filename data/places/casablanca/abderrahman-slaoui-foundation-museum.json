@@ -1,83 +1,83 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/museum",
-  "metadata": {
-    "tags": []
-  },
-  "spec": {
-    "name": "Abderrahman Slaoui Foundation Museum",
-    "id": "abderrahman-slaoui-foundation-museum",
-    "description": "The Abderrahman Slaoui Foundation Museum is a cultural institution dedicated to preserving and showcasing the personal collection of Abderrahman Slaoui, a prominent Moroccan collector and patron of the arts. Housed in a beautiful Art Deco villa built in 1921, the museum features an impressive collection of Moroccan jewelry, traditional ceramics, zellij (mosaic tilework), and other decorative arts. The museum serves as both a cultural center and a testament to Morocco's rich artistic heritage, offering visitors insight into traditional Moroccan craftsmanship and design.",
-    "location": {
-      "longitude": -7.6225725,
-      "latitude": 33.5923928,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/museum",
+    "metadata": {
+        "tags": []
     },
-    "people": [
-      {
-        "id": "people/abderrahman-slaoui",
-        "relationship": [
-          "collector",
-          "godfather"
-        ],
-        "comment": "The Museum consists mainly of items from Abderrahman's collection. When he died the museum was created by the foundation he created when he was alive."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction of the villa",
-        "date": "1921-01-01",
-        "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
-      },
-      {
-        "title": "Inauguration",
-        "date": "2012-05-12",
-        "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Abderrahman_Slaoui_Museum",
-        "title": "Wikipedia Page",
-        "type": "article"
-      },
-      {
-        "url": "https://maps.app.goo.gl/sq9DiANfxQAT2Ub19",
-        "type": "map",
-        "title": "Google Maps"
-      }
-    ],
-    "activities": [
-      "cafe",
-      "cultural activities",
-      "entertainment",
-      "guided tours"
-    ],
-    "items": [
-      "architecture",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "private",
-      "options": [
-        {
-          "title": "Museum access for everyone",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": 40
+    "spec": {
+        "name": "Abderrahman Slaoui Foundation Museum",
+        "id": "abderrahman-slaoui-foundation-museum",
+        "description": "The Abderrahman Slaoui Foundation Museum is a cultural institution dedicated to preserving and showcasing the personal collection of Abderrahman Slaoui, a prominent Moroccan collector and patron of the arts. Housed in a beautiful Art Deco villa built in 1921, the museum features an impressive collection of Moroccan jewelry, traditional ceramics, zellij (mosaic tilework), and other decorative arts. The museum serves as both a cultural center and a testament to Morocco's rich artistic heritage, offering visitors insight into traditional Moroccan craftsmanship and design.",
+        "location": {
+            "longitude": -7.6225725,
+            "latitude": 33.5923928,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Cafe access is seperate from museum access",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "21st century"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/abderrahman-slaoui",
+                "relationship": [
+                    "collector",
+                    "godfather"
+                ],
+                "comment": "The Museum consists mainly of items from Abderrahman's collection. When he died the museum was created by the foundation he created when he was alive."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction of the villa",
+                "date": "1921-01-01",
+                "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
+            },
+            {
+                "title": "Inauguration",
+                "date": "2012-05-12",
+                "description": "The Museum got Inaugurated in 2012 by Abderrahman Slaoui Foundation"
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Abderrahman_Slaoui_Museum",
+                "title": "Wikipedia Page",
+                "type": "article"
+            },
+            {
+                "url": "https://maps.app.goo.gl/sq9DiANfxQAT2Ub19",
+                "type": "map",
+                "title": "Google Maps"
+            }
+        ],
+        "activities": [
+            "dining/cafe",
+            "sightseeing/cultural",
+            "entertainment/cinema",
+            "sightseeing/cultural"
+        ],
+        "items": [
+            "architecture/historical",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "private",
+            "options": [
+                {
+                    "title": "Museum access for everyone",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": 40
+                },
+                {
+                    "title": "Cafe access is seperate from museum access",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "21st century"
+        ]
+    }
 }

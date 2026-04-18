@@ -1,72 +1,72 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "high-rise",
-      "skyscraper",
-      "modernist",
-      "post-war",
-      "landmark"
-    ]
-  },
-  "spec": {
-    "name": "Liberty Building",
-    "id": "liberty-building",
-    "description": "The Liberty Building (Immeuble Liberté), also known as the **'17-story building'**, is a defining modernist landmark of Casablanca, completed in 1950 and designed by architect **Léonard Morandi**. When it was built, it was reputed to be the **highest building in Africa**, a towering symbol of post-war architectural ambition and confidence in the French Protectorate. The building features commercial space and a large number of apartments, reflecting a monumental functionalist style. Its height and prominence cemented its status as one of Casablanca's most recognizable historical skyscrapers.",
-    "location": {
-      "longitude": -7.6103865,
-      "latitude": 33.5847033,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "high-rise",
+            "skyscraper",
+            "modernist",
+            "post-war",
+            "landmark"
+        ]
     },
-    "people": [
-      {
-        "id": "people/leonard-morandi",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Liberty Building",
+        "id": "liberty-building",
+        "description": "The Liberty Building (Immeuble Liberté), also known as the **'17-story building'**, is a defining modernist landmark of Casablanca, completed in 1950 and designed by architect **Léonard Morandi**. When it was built, it was reputed to be the **highest building in Africa**, a towering symbol of post-war architectural ambition and confidence in the French Protectorate. The building features commercial space and a large number of apartments, reflecting a monumental functionalist style. Its height and prominence cemented its status as one of Casablanca's most recognizable historical skyscrapers.",
+        "location": {
+            "longitude": -7.6103865,
+            "latitude": 33.5847033,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/leonard-morandi",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the Liberty Building, the tallest in Africa upon its completion."
+            }
         ],
-        "comment": "Architect who designed the Liberty Building, the tallest in Africa upon its completion."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1950-01-01",
-        "description": "The Liberty Building was completed, becoming the tallest building in Africa at the time."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Liberty_Building_(Casablanca)",
-        "type": "article",
-        "title": "Liberty Building (Casablanca) Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1950-01-01",
+                "description": "The Liberty Building was completed, becoming the tallest building in Africa at the time."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Liberty_Building_(Casablanca)",
+                "type": "article",
+                "title": "Liberty Building (Casablanca) Wikipedia Page"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

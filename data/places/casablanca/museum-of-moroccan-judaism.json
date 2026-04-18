@@ -1,69 +1,69 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/museum",
-  "metadata": {
-    "tags": [
-      "museum",
-      "jewish-heritage",
-      "history",
-      "religious-pluralism",
-      "cultural-institution"
-    ]
-  },
-  "spec": {
-    "name": "Museum of Moroccan Judaism",
-    "id": "museum-of-moroccan-judaism",
-    "description": "The Museum of Moroccan Judaism (Musée du Judaïsme Marocain) is the only Jewish museum in the Arab world and is located in the Oasis neighborhood of Casablanca. The museum is dedicated to preserving the history, traditions, and artifacts of the Jewish community in Morocco, which spanned over 2,000 years. It showcases a collection of clothing, religious objects, art, and archival documents, serving as a critical institution for promoting the culture of Moroccan Jewry and the country's history of religious pluralism and coexistence.",
-    "location": {
-      "longitude": -7.6391606,
-      "latitude": 33.5522201,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/museum",
+    "metadata": {
+        "tags": [
+            "museum",
+            "jewish-heritage",
+            "history",
+            "religious-pluralism",
+            "cultural-institution"
+        ]
     },
-    "people": [
-      {
-        "id": "people/simon-levy",
-        "relationship": [
-          "founder",
-          "director"
+    "spec": {
+        "name": "Museum of Moroccan Judaism",
+        "id": "museum-of-moroccan-judaism",
+        "description": "The Museum of Moroccan Judaism (Musée du Judaïsme Marocain) is the only Jewish museum in the Arab world and is located in the Oasis neighborhood of Casablanca. The museum is dedicated to preserving the history, traditions, and artifacts of the Jewish community in Morocco, which spanned over 2,000 years. It showcases a collection of clothing, religious objects, art, and archival documents, serving as a critical institution for promoting the culture of Moroccan Jewry and the country's history of religious pluralism and coexistence.",
+        "location": {
+            "longitude": -7.6391606,
+            "latitude": 33.5522201,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/simon-levy",
+                "relationship": [
+                    "founder",
+                    "director"
+                ],
+                "comment": "Key figure in the establishment and management of the museum."
+            }
         ],
-        "comment": "Key figure in the establishment and management of the museum."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Museum Opening",
-        "date": "1997-01-01",
-        "description": "The Museum of Moroccan Judaism was inaugurated and opened to the public."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Museum_of_Moroccan_Judaism",
-        "type": "article",
-        "title": "Museum of Moroccan Judaism Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Museum entrance fee",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Museum Opening",
+                "date": "1997-01-01",
+                "description": "The Museum of Moroccan Judaism was inaugurated and opened to the public."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Museum_of_Moroccan_Judaism",
+                "type": "article",
+                "title": "Museum of Moroccan Judaism Wikipedia Page"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Museum entrance fee",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,55 +1,55 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "historical-cinema",
-      "modernist",
-      "closed",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Lynx Cinema",
-    "id": "lynx-cinema",
-    "description": "Lynx Cinema (Cinéma Lynx) is a historical movie theater in Casablanca, completed in 1950 and designed by architect **Dominique Basciano**. The cinema's design reflects the sleek, functional **Modernist** style of the post-war era, characteristic of major commercial architecture in Casablanca at the time. It played a role in the city's mid-century cultural life but is now **closed**, standing as an example of the city's declining single-screen cinema heritage.",
-    "location": {
-      "longitude": -7.6174612,
-      "latitude": 33.587321,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "historical-cinema",
+            "modernist",
+            "closed",
+            "1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/dominique-basciano",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Lynx Cinema",
+        "id": "lynx-cinema",
+        "description": "Lynx Cinema (Cinéma Lynx) is a historical movie theater in Casablanca, completed in 1950 and designed by architect **Dominique Basciano**. The cinema's design reflects the sleek, functional **Modernist** style of the post-war era, characteristic of major commercial architecture in Casablanca at the time. It played a role in the city's mid-century cultural life but is now **closed**, standing as an example of the city's declining single-screen cinema heritage.",
+        "location": {
+            "longitude": -7.6174612,
+            "latitude": 33.587321,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/dominique-basciano",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the Lynx Cinema."
+            }
         ],
-        "comment": "Architect who designed the Lynx Cinema."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed and Opened",
-        "date": "1950-01-01",
-        "description": "The Lynx Cinema building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "closed",
-      "comment": "The cinema is currently closed for operation; interior access is restricted."
-    },
-    "timePeriods": [
-      "1950s"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed and Opened",
+                "date": "1950-01-01",
+                "description": "The Lynx Cinema building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "closed",
+            "comment": "The cinema is currently closed for operation; interior access is restricted."
+        },
+        "timePeriods": [
+            "1950s"
+        ]
+    }
 }

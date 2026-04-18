@@ -1,55 +1,55 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/cite",
-  "metadata": {
-    "tags": [
-      "residential-area",
-      "neighborhood",
-      "urban-planning",
-      "housing",
-      "hay-hassani"
-    ]
-  },
-  "spec": {
-    "name": "Cité Hay Hassani",
-    "id": "cite-hay-hassani",
-    "description": "Cité Hay Hassani is a large, modern residential quarter located within the Hay Hassani prefecture of Casablanca. These planned 'cités' represent the city's continuous effort to provide mass housing and structured urban living. Hay Hassani is known for its diverse residential blocks, parks, and local infrastructure, serving as an important and populous residential zone in the southwestern part of the city.",
-    "location": {
-      "longitude": -7.6713319,
-      "latitude": 33.5719117,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/cite",
+    "metadata": {
+        "tags": [
+            "residential-area",
+            "neighborhood",
+            "urban-planning",
+            "housing",
+            "hay-hassani"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "accommodation",
-      "using local amenities and shops"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Cité Hay Hassani",
+        "id": "cite-hay-hassani",
+        "description": "Cité Hay Hassani is a large, modern residential quarter located within the Hay Hassani prefecture of Casablanca. These planned 'cités' represent the city's continuous effort to provide mass housing and structured urban living. Hay Hassani is known for its diverse residential blocks, parks, and local infrastructure, serving as an important and populous residential zone in the southwestern part of the city.",
+        "location": {
+            "longitude": -7.6713319,
+            "latitude": 33.5719117,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Area access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "accommodation/hotel",
+            "shopping/general"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Area access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

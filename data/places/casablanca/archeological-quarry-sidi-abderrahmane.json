@@ -1,58 +1,58 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "history/archaeological-site",
-  "metadata": {
-    "tags": [
-      "archaeological-site",
-      "paleolithic",
-      "quarry",
-      "historical-protection",
-      "national-heritage"
-    ]
-  },
-  "spec": {
-    "name": "Archeological Quarry Sidi Abderrahmane",
-    "id": "archeological-quarry-sidi-abderrahmane",
-    "description": "The Archeological Quarry of Sidi Abderrahmane, located near the coast, was initially operated for extracting stone for construction purposes. However, it gained immense scientific importance due to significant archaeological discoveries within its layers, notably evidence of early human occupation spanning hundreds of thousands of years (Lower Paleolithic). These findings, including stone tools and hominid remains, led the Moroccan government to protect the site as part of the National Material Patrimony in 1942, long before the most famous mandible discovery in 1955. It is now part of the larger project to create the Archeological Park of Sidi Abd Errahmane.",
-    "location": {
-      "longitude": -7.6840464,
-      "latitude": 33.5808525,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "history/archaeological-site",
+    "metadata": {
+        "tags": [
+            "archaeological-site",
+            "paleolithic",
+            "quarry",
+            "historical-protection",
+            "national-heritage"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Inclusion in National Material Patrimony",
-        "date": "1942-01-01",
-        "description": "The area was officially included in the National Material Patrimony due to important archaeological findings."
-      },
-      {
-        "title": "Fragmented Human Mandible Discovery",
-        "date": "1955-01-01",
-        "description": "Major discovery of a 200,000-year-old fragmented human mandible on the site."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.casa-amenagement.ma/fr/nos-projets/parc-archeologique-de-sidi-abderrahmane",
-        "type": "website",
-        "title": "The project urban development page (Casa Aménagement)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "coastline",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "open",
-      "comment": "The area is a protected national patrimony site; public access is limited to the perimeter until the Archaeological Park is fully developed and operational."
-    },
-    "timePeriods": []
-  }
+    "spec": {
+        "name": "Archeological Quarry Sidi Abderrahmane",
+        "id": "archeological-quarry-sidi-abderrahmane",
+        "description": "The Archeological Quarry of Sidi Abderrahmane, located near the coast, was initially operated for extracting stone for construction purposes. However, it gained immense scientific importance due to significant archaeological discoveries within its layers, notably evidence of early human occupation spanning hundreds of thousands of years (Lower Paleolithic). These findings, including stone tools and hominid remains, led the Moroccan government to protect the site as part of the National Material Patrimony in 1942, long before the most famous mandible discovery in 1955. It is now part of the larger project to create the Archeological Park of Sidi Abd Errahmane.",
+        "location": {
+            "longitude": -7.6840464,
+            "latitude": 33.5808525,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Inclusion in National Material Patrimony",
+                "date": "1942-01-01",
+                "description": "The area was officially included in the National Material Patrimony due to important archaeological findings."
+            },
+            {
+                "title": "Fragmented Human Mandible Discovery",
+                "date": "1955-01-01",
+                "description": "Major discovery of a 200,000-year-old fragmented human mandible on the site."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.casa-amenagement.ma/fr/nos-projets/parc-archeologique-de-sidi-abderrahmane",
+                "type": "website",
+                "title": "The project urban development page (Casa Aménagement)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "nature/coastline",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "open",
+            "comment": "The area is a protected national patrimony site; public access is limited to the perimeter until the Archaeological Park is fully developed and operational."
+        },
+        "timePeriods": []
+    }
 }

@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "industrial-commerce",
-      "national-heritage",
-      "early-colonial",
-      "1910s"
-    ]
-  },
-  "spec": {
-    "name": "Comptoir Métallurgique Building",
-    "id": "comptoir-metallurgique-building",
-    "description": "The Comptoir Métallurgique Building is one of the oldest extant European-style commercial buildings in Casablanca's new town, dating back to 1913, shortly after the start of the French Protectorate. It was a center for metallurgical commerce and industry, reflecting the raw material and construction boom that defined early colonial Casablanca. Its pre-Art Deco, functional commercial style is historically important, leading to its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6169308,
-      "latitude": 33.5920633,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "industrial-commerce",
+            "national-heritage",
+            "early-colonial",
+            "1910s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1913-01-01",
-        "description": "The Comptoir Métallurgique building was completed, making it one of the city's oldest structures outside the medina."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing",
-      "transport services"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Comptoir Métallurgique Building",
+        "id": "comptoir-metallurgique-building",
+        "description": "The Comptoir Métallurgique Building is one of the oldest extant European-style commercial buildings in Casablanca's new town, dating back to 1913, shortly after the start of the French Protectorate. It was a center for metallurgical commerce and industry, reflecting the raw material and construction boom that defined early colonial Casablanca. Its pre-Art Deco, functional commercial style is historically important, leading to its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6169308,
+            "latitude": 33.5920633,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1913-01-01",
+                "description": "The Comptoir Métallurgique building was completed, making it one of the city's oldest structures outside the medina."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical",
+            "services/transport"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

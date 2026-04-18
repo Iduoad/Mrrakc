@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "mexican-cuisine",
-      "international-dining",
-      "modern"
-    ]
-  },
-  "spec": {
-    "name": "Los Bandidos",
-    "id": "los-bandidos",
-    "description": "Los Bandidos is a restaurant in Casablanca specializing in **Mexican cuisine**. It offers international dining with a focus on popular Mexican dishes, often featuring a lively or themed ambiance. It caters to locals and expatriates seeking diverse, non-Moroccan culinary experiences.",
-    "location": {
-      "longitude": -7.6331592,
-      "latitude": 33.5914948,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "mexican-cuisine",
+            "international-dining",
+            "modern"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Los Bandidos",
+        "id": "los-bandidos",
+        "description": "Los Bandidos is a restaurant in Casablanca specializing in **Mexican cuisine**. It offers international dining with a focus on popular Mexican dishes, often featuring a lively or themed ambiance. It caters to locals and expatriates seeking diverse, non-Moroccan culinary experiences.",
+        "location": {
+            "longitude": -7.6331592,
+            "latitude": 33.5914948,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

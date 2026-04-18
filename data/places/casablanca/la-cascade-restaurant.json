@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "international-cuisine",
-      "seaside-dining",
-      "coastal"
-    ]
-  },
-  "spec": {
-    "name": "La Cascade Restaurant",
-    "id": "la-cascade-restaurant",
-    "description": "La Cascade Restaurant (The Cascade Restaurant) is a dining establishment in Casablanca, often located in the coastal or high-end leisure districts, specializing in a varied **International menu**. Its name might suggest a setting with water features or an expansive, tiered layout. The restaurant provides a sophisticated culinary experience, catering to an audience seeking diverse cuisine and a pleasant, possibly scenic, ambiance.",
-    "location": {
-      "longitude": -7.6575883,
-      "latitude": 33.6059074,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "international-cuisine",
+            "seaside-dining",
+            "coastal"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "La Cascade Restaurant",
+        "id": "la-cascade-restaurant",
+        "description": "La Cascade Restaurant (The Cascade Restaurant) is a dining establishment in Casablanca, often located in the coastal or high-end leisure districts, specializing in a varied **International menu**. Its name might suggest a setting with water features or an expansive, tiered layout. The restaurant provides a sophisticated culinary experience, catering to an audience seeking diverse cuisine and a pleasant, possibly scenic, ambiance.",
+        "location": {
+            "longitude": -7.6575883,
+            "latitude": 33.6059074,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

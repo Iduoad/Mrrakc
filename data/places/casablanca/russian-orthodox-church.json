@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/church",
-  "metadata": {
-    "tags": [
-      "religious",
-      "russian-orthodox",
-      "historical-church",
-      "national-heritage",
-      "20th-century"
-    ]
-  },
-  "spec": {
-    "name": "Russian Orthodox Church",
-    "id": "russian-orthodox-church",
-    "description": "The Russian Orthodox Church in Casablanca is a religious landmark serving the small but historically present Russian Orthodox community. Built in the early 20th century, its architecture typically follows the characteristic Russian religious style (e.g., onion domes). It represents the diversity of the city's early 20th-century European population. The building was declared a **National Material Patrimony** site in 2013.",
-    "location": {
-      "longitude": -7.6227055,
-      "latitude": 33.5819769,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/church",
+    "metadata": {
+        "tags": [
+            "religious",
+            "russian-orthodox",
+            "historical-church",
+            "national-heritage",
+            "20th-century"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Establishment Period",
-        "date": "1930-01-01",
-        "description": "The church was established to serve the Russian community (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2013-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "religious activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Worship services access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Russian Orthodox Church",
+        "id": "russian-orthodox-church",
+        "description": "The Russian Orthodox Church in Casablanca is a religious landmark serving the small but historically present Russian Orthodox community. Built in the early 20th century, its architecture typically follows the characteristic Russian religious style (e.g., onion domes). It represents the diversity of the city's early 20th-century European population. The building was declared a **National Material Patrimony** site in 2013.",
+        "location": {
+            "longitude": -7.6227055,
+            "latitude": 33.5819769,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Establishment Period",
+                "date": "1930-01-01",
+                "description": "The church was established to serve the Russian community (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2013-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "religious/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Worship services access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period"
+        ]
+    }
 }

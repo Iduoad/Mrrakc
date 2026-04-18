@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mausoleum",
-  "metadata": {
-    "tags": [
-      "religious",
-      "mausoleum",
-      "marabout",
-      "local-shrine",
-      "sufism"
-    ]
-  },
-  "spec": {
-    "name": "Sidi Ahmed Ben Lahcen Mausoleum",
-    "id": "sidi-ahmed-ben-lahcen-mausoleum",
-    "description": "The Sidi Ahmed Ben Lahcen Mausoleum (Marabout de Sidi Ahmed Ben Lahcen) is a local religious shrine located outside the immediate city center. It is dedicated to a local saint, Sidi Ahmed Ben Lahcen, and serves as a traditional site for veneration and seeking spiritual blessings (baraka) within the Moroccan Sufi tradition. These mausoleums are integral to the cultural and religious life of the local community.",
-    "location": {
-      "longitude": -7.5172016,
-      "latitude": 33.4519001,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mausoleum",
+    "metadata": {
+        "tags": [
+            "religious",
+            "mausoleum",
+            "marabout",
+            "local-shrine",
+            "sufism"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-ahmed-ben-lahcen",
-        "relationship": [
-          "namesake",
-          "marabout",
-          "historical-figure"
+    "spec": {
+        "name": "Sidi Ahmed Ben Lahcen Mausoleum",
+        "id": "sidi-ahmed-ben-lahcen-mausoleum",
+        "description": "The Sidi Ahmed Ben Lahcen Mausoleum (Marabout de Sidi Ahmed Ben Lahcen) is a local religious shrine located outside the immediate city center. It is dedicated to a local saint, Sidi Ahmed Ben Lahcen, and serves as a traditional site for veneration and seeking spiritual blessings (baraka) within the Moroccan Sufi tradition. These mausoleums are integral to the cultural and religious life of the local community.",
+        "location": {
+            "longitude": -7.5172016,
+            "latitude": 33.4519001,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-ahmed-ben-lahcen",
+                "relationship": [
+                    "namesake",
+                    "marabout",
+                    "historical-figure"
+                ],
+                "comment": "The revered local saint."
+            }
         ],
-        "comment": "The revered local saint."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mausoleum access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mausoleum access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

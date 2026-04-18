@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/amusement-park",
-  "metadata": {
-    "tags": [
-      "amusement-park",
-      "theme-park",
-      "leisure",
-      "family-fun"
-    ]
-  },
-  "spec": {
-    "name": "Yasmine Fun Park",
-    "id": "yasmine-fun-park",
-    "description": "Yasmine Fun Park is a recreational facility offering various amusement rides, games, and entertainment options, catering primarily to families and children. It provides a popular local venue for weekend leisure and fun activities.",
-    "location": {
-      "longitude": -7.6386155,
-      "latitude": 33.5785336,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/amusement-park",
+    "metadata": {
+        "tags": [
+            "amusement-park",
+            "theme-park",
+            "leisure",
+            "family-fun"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "entertainment",
-      "gaming"
-    ],
-    "items": [
-      "amusement rides",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Entrance Fee/Ride Tickets",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Yasmine Fun Park",
+        "id": "yasmine-fun-park",
+        "description": "Yasmine Fun Park is a recreational facility offering various amusement rides, games, and entertainment options, catering primarily to families and children. It provides a popular local venue for weekend leisure and fun activities.",
+        "location": {
+            "longitude": -7.6386155,
+            "latitude": 33.5785336,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/cinema",
+            "entertainment/gaming"
+        ],
+        "items": [
+            "entertainment/rides",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Entrance Fee/Ride Tickets",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

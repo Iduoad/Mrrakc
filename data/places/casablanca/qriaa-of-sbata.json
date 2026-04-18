@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/market",
-  "metadata": {
-    "tags": [
-      "market",
-      "souk",
-      "local-commerce",
-      "neighborhood-market",
-      "sbata"
-    ]
-  },
-  "spec": {
-    "name": "Qriaa of Sbata",
-    "id": "qriaa-of-sbata",
-    "description": "Qriaa of Sbata (Qriaa, often referring to a small town or district) is a major local marketplace or souk in the densely populated Sbata neighborhood of Casablanca. Markets in these peripheral districts are vital for daily commerce, offering everything from fresh food and clothing to small hardware and electronics. The Qriaa is a bustling commercial center, known for its affordable goods and strong local character.",
-    "location": {
-      "longitude": -7.5682288,
-      "latitude": 33.552771,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/market",
+    "metadata": {
+        "tags": [
+            "market",
+            "souk",
+            "local-commerce",
+            "neighborhood-market",
+            "sbata"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "shopping"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Qriaa of Sbata",
+        "id": "qriaa-of-sbata",
+        "description": "Qriaa of Sbata (Qriaa, often referring to a small town or district) is a major local marketplace or souk in the densely populated Sbata neighborhood of Casablanca. Markets in these peripheral districts are vital for daily commerce, offering everything from fresh food and clothing to small hardware and electronics. The Qriaa is a bustling commercial center, known for its affordable goods and strong local character.",
+        "location": {
+            "longitude": -7.5682288,
+            "latitude": 33.552771,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

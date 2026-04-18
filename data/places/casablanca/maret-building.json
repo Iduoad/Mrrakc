@@ -1,69 +1,69 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Maret Building",
-    "id": "maret-building",
-    "description": "The Maret Building is a historical residential and commercial structure in central Casablanca, completed in 1932 and designed by architect **Hippolyte-Joseph Delaporte**. Its architecture is characteristic of the Art Deco style, featuring the geometric designs and massing typical of the early 1930s. The building's central location and aesthetic quality contributed to its designation as a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6095621,
-      "latitude": 33.5939192,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/hippolyte-joseph-delaporte",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Maret Building",
+        "id": "maret-building",
+        "description": "The Maret Building is a historical residential and commercial structure in central Casablanca, completed in 1932 and designed by architect **Hippolyte-Joseph Delaporte**. Its architecture is characteristic of the Art Deco style, featuring the geometric designs and massing typical of the early 1930s. The building's central location and aesthetic quality contributed to its designation as a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6095621,
+            "latitude": 33.5939192,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/hippolyte-joseph-delaporte",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the Maret Building and the Excelsior Hotel."
+            }
         ],
-        "comment": "Architect who designed the Maret Building and the Excelsior Hotel."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1932-01-01",
-        "description": "The Maret Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1932-01-01",
+                "description": "The Maret Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/street-food",
-  "metadata": {
-    "tags": [
-      "street-food",
-      "dibiterie",
-      "grilled-meat",
-      "traditional-food",
-      "senegalese-cuisine"
-    ]
-  },
-  "spec": {
-    "name": "Restaurant Dibiterie Darou Salam",
-    "id": "restaurant-dibiterie-darou-salam",
-    "description": "Restaurant Dibiterie Darou Salam is a specialized eatery focusing on **Dibiterie**—a West African (often Senegalese) style of serving grilled meat (typically lamb or beef) cut into small pieces. These small restaurants or stalls are celebrated for their rich, smoky flavors and are popular among the local West African community and locals seeking authentic grilled food. 'Darou Salam' suggests a link to Senegal or a peaceful gathering place.",
-    "location": {
-      "longitude": -7.620672,
-      "latitude": 33.5971237,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/street-food",
+    "metadata": {
+        "tags": [
+            "street-food",
+            "dibiterie",
+            "grilled-meat",
+            "traditional-food",
+            "senegalese-cuisine"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining"
-    ],
-    "items": [
-      "architecture",
-      "grilled lamb/beef (dibiterie)"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Food purchase",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Restaurant Dibiterie Darou Salam",
+        "id": "restaurant-dibiterie-darou-salam",
+        "description": "Restaurant Dibiterie Darou Salam is a specialized eatery focusing on **Dibiterie**—a West African (often Senegalese) style of serving grilled meat (typically lamb or beef) cut into small pieces. These small restaurants or stalls are celebrated for their rich, smoky flavors and are popular among the local West African community and locals seeking authentic grilled food. 'Darou Salam' suggests a link to Senegal or a peaceful gathering place.",
+        "location": {
+            "longitude": -7.620672,
+            "latitude": 33.5971237,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant"
+        ],
+        "items": [
+            "architecture/historical",
+            "cuisine/grilled"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Food purchase",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

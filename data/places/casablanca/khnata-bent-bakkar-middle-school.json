@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/school",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "education",
-      "national-heritage",
-      "namesake",
-      "colonial-architecture"
-    ]
-  },
-  "spec": {
-    "name": "Khnata bent Bakkar Middle School",
-    "id": "khnata-bent-bakkar-middle-school",
-    "description": "Khnata bent Bakkar Middle School (Collège Khnata bent Bakkar) is a significant educational institution in Casablanca, with its building being recognized for its architectural or social history. Named after **Khnata bent Bakkar** (d. 1754), a powerful and educated woman from the Alawite dynasty known for her political influence and scholarly achievements, the school honors a key historical female figure. The building's importance was formalized by its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6087975,
-      "latitude": 33.5829908,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/school",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "education",
+            "national-heritage",
+            "namesake",
+            "colonial-architecture"
+        ]
     },
-    "people": [
-      {
-        "id": "people/khnata-bent-bakkar",
-        "relationship": [
-          "namesake",
-          "historical-figure"
-        ],
-        "comment": "A prominent and influential woman of the Alawite dynasty, known for her patronage of the arts and diplomacy."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The school building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Khnata bent Bakkar Middle School",
+        "id": "khnata-bent-bakkar-middle-school",
+        "description": "Khnata bent Bakkar Middle School (Collège Khnata bent Bakkar) is a significant educational institution in Casablanca, with its building being recognized for its architectural or social history. Named after **Khnata bent Bakkar** (d. 1754), a powerful and educated woman from the Alawite dynasty known for her political influence and scholarly achievements, the school honors a key historical female figure. The building's importance was formalized by its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6087975,
+            "latitude": 33.5829908,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Access for Students and Staff",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/khnata-bent-bakkar",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "A prominent and influential woman of the Alawite dynasty, known for her patronage of the arts and diplomacy."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The school building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Access for Students and Staff",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted primarily to students, staff, and authorized personnel."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,65 +1,65 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/port",
-  "metadata": {
-    "tags": [
-      "maritime",
-      "port-infrastructure",
-      "historical-pier",
-      "coastal-engineering",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Moulay Youssef Pier",
-    "id": "moulay-youssef-pier",
-    "description": "The Moulay Youssef Pier (Jetée Moulay Youssef) is a major piece of maritime infrastructure in the Port of Casablanca, constructed in the 1930s. Piers of this size were vital to the development of Casablanca as the leading commercial port in North Africa, allowing for the handling of significant cargo volumes and larger ships. Named after Sultan Moulay Youssef, it is a testament to the large-scale public works undertaken during the French Protectorate to expand the city's economic capabilities.",
-    "location": {
-      "longitude": -7.6019542,
-      "latitude": 33.6159079,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/port",
+    "metadata": {
+        "tags": [
+            "maritime",
+            "port-infrastructure",
+            "historical-pier",
+            "coastal-engineering",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/moulay-youssef",
-        "relationship": [
-          "namesake",
-          "sultan"
+    "spec": {
+        "name": "Moulay Youssef Pier",
+        "id": "moulay-youssef-pier",
+        "description": "The Moulay Youssef Pier (Jetée Moulay Youssef) is a major piece of maritime infrastructure in the Port of Casablanca, constructed in the 1930s. Piers of this size were vital to the development of Casablanca as the leading commercial port in North Africa, allowing for the handling of significant cargo volumes and larger ships. Named after Sultan Moulay Youssef, it is a testament to the large-scale public works undertaken during the French Protectorate to expand the city's economic capabilities.",
+        "location": {
+            "longitude": -7.6019542,
+            "latitude": 33.6159079,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/moulay-youssef",
+                "relationship": [
+                    "namesake",
+                    "sultan"
+                ],
+                "comment": "Sultan of Morocco during the pier's development period."
+            }
         ],
-        "comment": "Sultan of Morocco during the pier's development period."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1930-01-01",
-        "description": "The pier was constructed as part of the port expansion (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing",
-      "transport services"
-    ],
-    "items": [
-      "architecture",
-      "goods"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "The pier is a working port facility; public access is restricted for security and operational reasons."
-    },
-    "timePeriods": [
-      "1930s"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1930-01-01",
+                "description": "The pier was constructed as part of the port expansion (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical",
+            "services/transport"
+        ],
+        "items": [
+            "architecture/historical",
+            "item/goods"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "The pier is a working port facility; public access is restricted for security and operational reasons."
+        },
+        "timePeriods": [
+            "1930s"
+        ]
+    }
 }

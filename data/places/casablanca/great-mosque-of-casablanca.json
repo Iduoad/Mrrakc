@@ -1,103 +1,103 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": [
-      "historical-mosque",
-      "old-medina",
-      "alawite-dynasty",
-      "makhzen",
-      "architecture",
-      "18th-century"
-    ]
-  },
-  "spec": {
-    "name": "The Great Mosque of Casablanca",
-    "id": "great-mosque-of-casablanca",
-    "description": "The Great Mosque of Casablanca (Jamaa El Kebir), also known as the **Makhzen Mosque** (Mosque of the Royal Administration), is one of the oldest mosques in the city. It was built around the **1780s CE** during the reign of Sultan **Sidi Mohammed Ibn Abdellah**, the founder of modern Casablanca (then Dār al-Bayḍāʼ). Its structure reflects the traditional Islamic architecture of the time, often featuring simple, dignified forms. It has undergone several renovations, notably by Sultan Moulay Hassan I and King Mohammed V, the latter rebuilding the minaret in the 1960s, inspired by the Koutoubia minaret in Marrakech, after it was destroyed in the 1907 French bombardment.",
-    "location": {
-      "longitude": -7.6160814,
-      "latitude": 33.5989621,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": [
+            "historical-mosque",
+            "old-medina",
+            "alawite-dynasty",
+            "makhzen",
+            "architecture",
+            "18th-century"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-mohammed-ibn-abdellah",
-        "relationship": [
-          "sultan",
-          "founder"
+    "spec": {
+        "name": "The Great Mosque of Casablanca",
+        "id": "great-mosque-of-casablanca",
+        "description": "The Great Mosque of Casablanca (Jamaa El Kebir), also known as the **Makhzen Mosque** (Mosque of the Royal Administration), is one of the oldest mosques in the city. It was built around the **1780s CE** during the reign of Sultan **Sidi Mohammed Ibn Abdellah**, the founder of modern Casablanca (then Dār al-Bayḍāʼ). Its structure reflects the traditional Islamic architecture of the time, often featuring simple, dignified forms. It has undergone several renovations, notably by Sultan Moulay Hassan I and King Mohammed V, the latter rebuilding the minaret in the 1960s, inspired by the Koutoubia minaret in Marrakech, after it was destroyed in the 1907 French bombardment.",
+        "location": {
+            "longitude": -7.6160814,
+            "latitude": 33.5989621,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-mohammed-ibn-abdellah",
+                "relationship": [
+                    "sultan",
+                    "founder"
+                ],
+                "comment": "Alawite Sultan who founded the city and commissioned the original mosque in the 1780s."
+            },
+            {
+                "id": "people/moulay-hassan-i",
+                "relationship": [
+                    "sultan",
+                    "renovator"
+                ],
+                "comment": "Sultan who renovated and enlarged the mosque in the late 19th century."
+            },
+            {
+                "id": "people/mohammed-v",
+                "relationship": [
+                    "king",
+                    "renovator"
+                ],
+                "comment": "King who oversaw the post-independence renovation and the construction of the new minaret in the 1960s."
+            }
         ],
-        "comment": "Alawite Sultan who founded the city and commissioned the original mosque in the 1780s."
-      },
-      {
-        "id": "people/moulay-hassan-i",
-        "relationship": [
-          "sultan",
-          "renovator"
+        "timeline": [
+            {
+                "title": "Founding and construction",
+                "description": "The mosque was founded during the early year of the the new Casablanca, during the reign of Sidi Mohammed Ibn Abdellah.",
+                "date": "1780-01-01"
+            },
+            {
+                "title": "First renovation and enlarging",
+                "description": "The mosque was renovated and enlarged by Sultan Moulay Hassan I.",
+                "date": "1890-01-01"
+            },
+            {
+                "title": "Minaret Demolition (French Attack)",
+                "description": "The mosque's Minaret was demolished during the French bombardment of Casablanca.",
+                "date": "1907-08-05"
+            },
+            {
+                "title": "Second Renovation and new minaret",
+                "description": "The mosque was renovated after the independance during the reign of king Mohammed V. The mosque got a new minaret inspired by Koutoubia's Minaret",
+                "date": "1960-01-01"
+            }
         ],
-        "comment": "Sultan who renovated and enlarged the mosque in the late 19th century."
-      },
-      {
-        "id": "people/mohammed-v",
-        "relationship": [
-          "king",
-          "renovator"
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Casablanca",
+                "type": "website",
+                "title": "Great Mosque of Casablanca Wikipedia Page"
+            }
         ],
-        "comment": "King who oversaw the post-independence renovation and the construction of the new minaret in the 1960s."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Founding and construction",
-        "description": "The mosque was founded during the early year of the the new Casablanca, during the reign of Sidi Mohammed Ibn Abdellah.",
-        "date": "1780-01-01"
-      },
-      {
-        "title": "First renovation and enlarging",
-        "description": "The mosque was renovated and enlarged by Sultan Moulay Hassan I.",
-        "date": "1890-01-01"
-      },
-      {
-        "title": "Minaret Demolition (French Attack)",
-        "description": "The mosque's Minaret was demolished during the French bombardment of Casablanca.",
-        "date": "1907-08-05"
-      },
-      {
-        "title": "Second Renovation and new minaret",
-        "description": "The mosque was renovated after the independance during the reign of king Mohammed V. The mosque got a new minaret inspired by Koutoubia's Minaret",
-        "date": "1960-01-01"
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Casablanca",
-        "type": "website",
-        "title": "Great Mosque of Casablanca Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "religious activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access for Muslims",
-          "modality": "free",
-          "audience": "muslims",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "18th century",
-      "19th century",
-      "20th century"
-    ]
-  }
+        "activities": [
+            "religious/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access for Muslims",
+                    "modality": "free",
+                    "audience": "muslims",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "18th century",
+            "19th century",
+            "20th century"
+        ]
+    }
 }

@@ -1,83 +1,83 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "bank-headquarters",
-      "colonial-architecture",
-      "henri-prost-plan",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Attijari Wafabank Building",
-    "id": "attijari-wafabank-building",
-    "description": "This Attijari Wafabank building is a historical landmark that was originally built in 1928 to house a branch of the 'Compagnie Algérienne' (Algerian Company), a bank prominent during the French Protectorate era. It was designed by the renowned French architectural duo Henri Prost (the urban planner of colonial Casablanca) and Antoine Marchisio. The structure is part of the early 20th-century development that shaped Casablanca's 'new town,' combining monumental European designs with local influences. Today, it serves as an office for Attijariwafa Bank, reflecting the continuous use of historical buildings by modern financial institutions.",
-    "location": {
-      "longitude": -7.6178758,
-      "latitude": 33.5949227,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "bank-headquarters",
+            "colonial-architecture",
+            "henri-prost-plan",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/henri-prost",
-        "relationship": [
-          "architect",
-          "urban-planner"
+    "spec": {
+        "name": "Attijari Wafabank Building",
+        "id": "attijari-wafabank-building",
+        "description": "This Attijari Wafabank building is a historical landmark that was originally built in 1928 to house a branch of the 'Compagnie Algérienne' (Algerian Company), a bank prominent during the French Protectorate era. It was designed by the renowned French architectural duo Henri Prost (the urban planner of colonial Casablanca) and Antoine Marchisio. The structure is part of the early 20th-century development that shaped Casablanca's 'new town,' combining monumental European designs with local influences. Today, it serves as an office for Attijariwafa Bank, reflecting the continuous use of historical buildings by modern financial institutions.",
+        "location": {
+            "longitude": -7.6178758,
+            "latitude": 33.5949227,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/henri-prost",
+                "relationship": [
+                    "architect",
+                    "urban-planner"
+                ],
+                "comment": "French urban planner and architect who collaborated on the design."
+            },
+            {
+                "id": "people/antoine-marchisio",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who collaborated with Prost on the building's design."
+            }
         ],
-        "comment": "French urban planner and architect who collaborated on the design."
-      },
-      {
-        "id": "people/antoine-marchisio",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1928-01-01",
+                "description": "The building was erected to house the Compagnie Algérienne bank."
+            },
+            {
+                "title": "Conversion to Attijariwafa Bank Office",
+                "date": "2003-01-01",
+                "description": "The building's function continued under Attijariwafa Bank following the merger that formed the bank (Approximate date)."
+            }
         ],
-        "comment": "Architect who collaborated with Prost on the building's design."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1928-01-01",
-        "description": "The building was erected to house the Compagnie Algérienne bank."
-      },
-      {
-        "title": "Conversion to Attijariwafa Bank Office",
-        "date": "2003-01-01",
-        "description": "The building's function continued under Attijariwafa Bank following the merger that formed the bank (Approximate date)."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Compagnie_Alg%C3%A9rienne",
-        "type": "article",
-        "title": "Compagnie Algérienne Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "banking",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a bank office; general interior access is limited to bank clients and staff."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Compagnie_Alg%C3%A9rienne",
+                "type": "article",
+                "title": "Compagnie Algérienne Wikipedia Page"
+            }
+        ],
+        "activities": [
+            "services/banking",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a bank office; general interior access is limited to bank clients and staff."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

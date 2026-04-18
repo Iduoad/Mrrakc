@@ -1,64 +1,64 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "pierre-jabin",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Moretti-Milone Building",
-    "id": "moretti-milone-building",
-    "description": "The Moretti-Milone Building is a historical residential and commercial structure completed in 1934. It was designed by architect **Pierre Jabin**, known for his contributions to the Art Deco and Modernist movements in Casablanca. The building is named after its original owners (Moretti and Milone, likely Italian), reflecting the diverse European communities that commissioned key architectural projects during the Protectorate era. It remains an actively inhabited urban block.",
-    "location": {
-      "longitude": -7.6161201,
-      "latitude": 33.5972394,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "pierre-jabin",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/pierre-jabin",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Moretti-Milone Building",
+        "id": "moretti-milone-building",
+        "description": "The Moretti-Milone Building is a historical residential and commercial structure completed in 1934. It was designed by architect **Pierre Jabin**, known for his contributions to the Art Deco and Modernist movements in Casablanca. The building is named after its original owners (Moretti and Milone, likely Italian), reflecting the diverse European communities that commissioned key architectural projects during the Protectorate era. It remains an actively inhabited urban block.",
+        "location": {
+            "longitude": -7.6161201,
+            "latitude": 33.5972394,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/pierre-jabin",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building."
+            }
         ],
-        "comment": "Architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1934-01-01",
-        "description": "The Moretti-Milone Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1934-01-01",
+                "description": "The Moretti-Milone Building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

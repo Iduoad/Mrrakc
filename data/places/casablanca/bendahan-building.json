@@ -1,75 +1,75 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Bendahan Building",
-    "id": "bendahan-building",
-    "description": "The Bendahan Building is a striking architectural landmark in Casablanca, designed by French architect **Edmond Brion** and completed in 1935. It is known for its elegant Art Deco style, characterized by streamlined geometric forms and a monumental facade. The building, located in a key area of the 'new town,' features commercial space on the ground floor and residential apartments above. It is a prime example of Casablanca's architectural heritage from the Protectorate era, a status formalized by its designation as a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6170557,
-      "latitude": 33.5949466,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/edmond-brion",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Bendahan Building",
+        "id": "bendahan-building",
+        "description": "The Bendahan Building is a striking architectural landmark in Casablanca, designed by French architect **Edmond Brion** and completed in 1935. It is known for its elegant Art Deco style, characterized by streamlined geometric forms and a monumental facade. The building, located in a key area of the 'new town,' features commercial space on the ground floor and residential apartments above. It is a prime example of Casablanca's architectural heritage from the Protectorate era, a status formalized by its designation as a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6170557,
+            "latitude": 33.5949466,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/edmond-brion",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the building and other notable structures in Casablanca."
+            }
         ],
-        "comment": "French architect who designed the building and other notable structures in Casablanca."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1935-01-01",
-        "description": "The Bendahan Building was completed, designed by Edmond Brion."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
-        "type": "article",
-        "title": "Ancienne Médina de Casablanca (We See Casa - References historical bank buildings in the area)"
-      }
-    ],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1935-01-01",
+                "description": "The Bendahan Building was completed, designed by Edmond Brion."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+                "type": "article",
+                "title": "Ancienne Médina de Casablanca (We See Casa - References historical bank buildings in the area)"
+            }
+        ],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

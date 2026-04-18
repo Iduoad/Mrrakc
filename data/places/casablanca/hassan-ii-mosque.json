@@ -1,58 +1,58 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": []
-  },
-  "spec": {
-    "name": "Hassan II Mosque",
-    "id": "hassan-ii-mosque",
-    "description": "Designed by Michel Pinseau and completed on August 30, 1993, the Hassan II Mosque is an active religious site and was declared a National Material Patrimony in 2015.",
-    "location": {
-      "longitude": -7.632668,
-      "latitude": 33.6082229,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": []
     },
-    "people": [
-      {
-        "id": "people/hassan-ii",
-        "relationship": [
-          "king",
-          "founder"
+    "spec": {
+        "name": "Hassan II Mosque",
+        "id": "hassan-ii-mosque",
+        "description": "Designed by Michel Pinseau and completed on August 30, 1993, the Hassan II Mosque is an active religious site and was declared a National Material Patrimony in 2015.",
+        "location": {
+            "longitude": -7.632668,
+            "latitude": 33.6082229,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/hassan-ii",
+                "relationship": [
+                    "king",
+                    "founder"
+                ]
+            },
+            {
+                "id": "people/michel-pinseau",
+                "relationship": [
+                    "architect"
+                ]
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Completion Date",
+                "description": "The Mosque was completed",
+                "date": "1993-08-30"
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "description": "The mosque was declared as a National Patrimony",
+                "date": "2015-01-01"
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "religious/general"
+        ],
+        "items": [],
+        "access": {
+            "type": "public",
+            "options": [],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century"
         ]
-      },
-      {
-        "id": "people/michel-pinseau",
-        "relationship": [
-          "architect"
-        ]
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Completion Date",
-        "description": "The Mosque was completed",
-        "date": "1993-08-30"
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "description": "The mosque was declared as a National Patrimony",
-        "date": "2015-01-01"
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural_visits",
-      "religious activities"
-    ],
-    "items": [],
-    "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century"
-    ]
-  }
+    }
 }

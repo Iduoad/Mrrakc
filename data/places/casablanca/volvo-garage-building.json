@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/garage",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "industrial-architecture",
-      "modernist",
-      "national-heritage",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Volvo Garage Building",
-    "id": "volvo-garage-building",
-    "description": "The Volvo Garage Building is a significant structure of modernist industrial architecture, completed in 1955 and designed by architect **Omar Benjelloun**. It served as a major dealership and service center for Volvo, reflecting the internationalization of Morocco's automotive sector in the post-war era. The building is architecturally notable for its Modernist design, which contributed to its designation as a **National Material Patrimony** site in 2014.",
-    "location": {
-      "longitude": -7.6107749,
-      "latitude": 33.5890486,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/garage",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "industrial-architecture",
+            "modernist",
+            "national-heritage",
+            "1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/omar-benjelloun",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Volvo Garage Building",
+        "id": "volvo-garage-building",
+        "description": "The Volvo Garage Building is a significant structure of modernist industrial architecture, completed in 1955 and designed by architect **Omar Benjelloun**. It served as a major dealership and service center for Volvo, reflecting the internationalization of Morocco's automotive sector in the post-war era. The building is architecturally notable for its Modernist design, which contributed to its designation as a **National Material Patrimony** site in 2014.",
+        "location": {
+            "longitude": -7.6107749,
+            "latitude": 33.5890486,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/omar-benjelloun",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Moroccan architect who designed the building."
+            }
         ],
-        "comment": "Moroccan architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1955-01-01",
-        "description": "The Volvo Garage building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2014-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "gaming",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted to clients and staff."
-    },
-    "timePeriods": [
-      "1950s",
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1955-01-01",
+                "description": "The Volvo Garage building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2014-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "entertainment/gaming",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted to clients and staff."
+        },
+        "timePeriods": [
+            "1950s",
+            "contemporary period"
+        ]
+    }
 }

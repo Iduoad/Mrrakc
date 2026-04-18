@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "square",
-      "neighborhood-center",
-      "social-hub"
-    ]
-  },
-  "spec": {
-    "name": "Sraghna Square",
-    "id": "sraghna-square",
-    "description": "Sraghna Square (Place Sraghna) is a public square in a residential or commercial district of Casablanca. Squares like this function as essential local gathering spots, providing open space, seating, and a nucleus for neighborhood life and commerce. The name may refer to a region of Morocco (Beni Mellal-Khénifra) or a local figure.",
-    "location": {
-      "longitude": -7.6014511,
-      "latitude": 33.569566,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "square",
+            "neighborhood-center",
+            "social-hub"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "relaxing",
-      "using nearby amenities"
-    ],
-    "items": [
-      "coastline",
-      "gardens"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Sraghna Square",
+        "id": "sraghna-square",
+        "description": "Sraghna Square (Place Sraghna) is a public square in a residential or commercial district of Casablanca. Squares like this function as essential local gathering spots, providing open space, seating, and a nucleus for neighborhood life and commerce. The name may refer to a region of Morocco (Beni Mellal-Khénifra) or a local figure.",
+        "location": {
+            "longitude": -7.6014511,
+            "latitude": 33.569566,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "wellness/relaxing",
+            "socializing/community"
+        ],
+        "items": [
+            "nature/coastline",
+            "nature/gardens"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

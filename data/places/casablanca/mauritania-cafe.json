@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/cafe",
-  "metadata": {
-    "tags": [
-      "cafe",
-      "habous-quarter",
-      "traditional",
-      "social-hub"
-    ]
-  },
-  "spec": {
-    "name": "Mauritania Cafe",
-    "id": "mauritania-cafe",
-    "description": "Mauritania Cafe (Café Mauritania) is a traditional coffee house located in the Habous Quarter (Nouvelle Médina). It serves as a local social hub, particularly for men, offering a classic Moroccan cafe environment for enjoying coffee, mint tea, and socializing. Its name references Mauritania, reflecting the broader geographical and cultural ties of the Moroccan populace.",
-    "location": {
-      "longitude": -7.6062125,
-      "latitude": 33.5789155,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/cafe",
+    "metadata": {
+        "tags": [
+            "cafe",
+            "habous-quarter",
+            "traditional",
+            "social-hub"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "relaxing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Cafe services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Mauritania Cafe",
+        "id": "mauritania-cafe",
+        "description": "Mauritania Cafe (Café Mauritania) is a traditional coffee house located in the Habous Quarter (Nouvelle Médina). It serves as a local social hub, particularly for men, offering a classic Moroccan cafe environment for enjoying coffee, mint tea, and socializing. Its name references Mauritania, reflecting the broader geographical and cultural ties of the Moroccan populace.",
+        "location": {
+            "longitude": -7.6062125,
+            "latitude": 33.5789155,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "wellness/relaxing"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Cafe services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

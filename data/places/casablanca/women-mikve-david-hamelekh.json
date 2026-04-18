@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/jewish-site",
-  "metadata": {
-    "tags": [
-      "religious",
-      "jewish-heritage",
-      "mikveh",
-      "ritual-bath",
-      "religious-pluralism"
-    ]
-  },
-  "spec": {
-    "name": "Women Mikve David Hamelekh",
-    "id": "women-mikve-david-hamelekh",
-    "description": "The Women Mikve David Hamelekh is a Jewish ritual bath (Mikveh) dedicated primarily for women's use. The Mikveh is a vital religious institution for maintaining ritual purity according to Jewish law. Its existence in Casablanca's modern district highlights the enduring presence and religious needs of the city's Jewish community.",
-    "location": {
-      "longitude": -7.6557329,
-      "latitude": 33.5975528,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/jewish-site",
+    "metadata": {
+        "tags": [
+            "religious",
+            "jewish-heritage",
+            "mikveh",
+            "ritual-bath",
+            "religious-pluralism"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities",
-      "swimming"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "private",
-      "options": [
-        {
-          "title": "Ritual Bath Fee",
-          "modality": "donation",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted to the Jewish community, especially for ritual use."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Women Mikve David Hamelekh",
+        "id": "women-mikve-david-hamelekh",
+        "description": "The Women Mikve David Hamelekh is a Jewish ritual bath (Mikveh) dedicated primarily for women's use. The Mikveh is a vital religious institution for maintaining ritual purity according to Jewish law. Its existence in Casablanca's modern district highlights the enduring presence and religious needs of the city's Jewish community.",
+        "location": {
+            "longitude": -7.6557329,
+            "latitude": 33.5975528,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general",
+            "sports/swimming"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "private",
+            "options": [
+                {
+                    "title": "Ritual Bath Fee",
+                    "modality": "donation",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted to the Jewish community, especially for ritual use."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

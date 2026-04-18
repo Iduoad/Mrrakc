@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "La Gare Building",
-    "id": "la-gare-building",
-    "description": "The La Gare Building (Immeuble La Gare) is a historical structure dating from the **1920s**, likely named for its proximity to a train station (Gare). Its central location and architecture reflect the rapid urban development and Art Deco influence of the French Protectorate era. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2012.",
-    "location": {
-      "longitude": -7.6038941,
-      "latitude": 33.5941736,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1925-01-01",
-        "description": "The building was completed during the mid-1920s (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2012-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "La Gare Building",
+        "id": "la-gare-building",
+        "description": "The La Gare Building (Immeuble La Gare) is a historical structure dating from the **1920s**, likely named for its proximity to a train station (Gare). Its central location and architecture reflect the rapid urban development and Art Deco influence of the French Protectorate era. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2012.",
+        "location": {
+            "longitude": -7.6038941,
+            "latitude": 33.5941736,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1925-01-01",
+                "description": "The building was completed during the mid-1920s (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2012-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Taher Sebti Building",
-    "id": "taher-sebti-building",
-    "description": "The Taher Sebti Building (Immeuble Taher Sebti) is a historical commercial and residential structure completed around 1930. The building's architecture is characteristic of the monumental Art Deco style of the era, reflecting the commercial prosperity of the central district. Its historical and architectural value was formally recognized by its designation as a **National Material Patrimony** site in 2006. This building is often confused with the nearby Comptoir des Mines Building, which is also sometimes referred to as the Taher Sebti Building.",
-    "location": {
-      "longitude": -7.614992,
-      "latitude": 33.591874,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/taher-sebti",
-        "relationship": [
-          "namesake",
-          "patron"
+    "spec": {
+        "name": "Taher Sebti Building",
+        "id": "taher-sebti-building",
+        "description": "The Taher Sebti Building (Immeuble Taher Sebti) is a historical commercial and residential structure completed around 1930. The building's architecture is characteristic of the monumental Art Deco style of the era, reflecting the commercial prosperity of the central district. Its historical and architectural value was formally recognized by its designation as a **National Material Patrimony** site in 2006. This building is often confused with the nearby Comptoir des Mines Building, which is also sometimes referred to as the Taher Sebti Building.",
+        "location": {
+            "longitude": -7.614992,
+            "latitude": 33.591874,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/taher-sebti",
+                "relationship": [
+                    "namesake",
+                    "patron"
+                ],
+                "comment": "The original owner or commissioner of the building."
+            }
         ],
-        "comment": "The original owner or commissioner of the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1930-01-01",
-        "description": "The building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2006-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1930-01-01",
+                "description": "The building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2006-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

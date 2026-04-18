@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/garage",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "industrial-architecture",
-      "art-deco",
-      "national-heritage",
-      "1920s",
-      "repurposed"
-    ]
-  },
-  "spec": {
-    "name": "Old Citroen Garage",
-    "id": "old-citroen-garage",
-    "description": "The Old Citroen Garage Building is a remarkable piece of historical industrial architecture, completed in 1928 and designed by architect **Maurice-Jacques Ravazé**. It is significant for its early use of modernist and Art Deco principles in a large commercial-industrial structure, featuring open space and functionality essential for early automotive sales and service. The building's architectural legacy was acknowledged when it was declared a **National Material Patrimony** site in 2015. It is no longer a functioning garage but remains a historically important building.",
-    "location": {
-      "longitude": -7.6188065,
-      "latitude": 33.5932621,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/garage",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "industrial-architecture",
+            "art-deco",
+            "national-heritage",
+            "1920s",
+            "repurposed"
+        ]
     },
-    "people": [
-      {
-        "id": "people/maurice-jacques-ravaze",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Old Citroen Garage",
+        "id": "old-citroen-garage",
+        "description": "The Old Citroen Garage Building is a remarkable piece of historical industrial architecture, completed in 1928 and designed by architect **Maurice-Jacques Ravazé**. It is significant for its early use of modernist and Art Deco principles in a large commercial-industrial structure, featuring open space and functionality essential for early automotive sales and service. The building's architectural legacy was acknowledged when it was declared a **National Material Patrimony** site in 2015. It is no longer a functioning garage but remains a historically important building.",
+        "location": {
+            "longitude": -7.6188065,
+            "latitude": 33.5932621,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/maurice-jacques-ravaze",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the garage building."
+            }
         ],
-        "comment": "Architect who designed the garage building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1928-01-01",
-        "description": "The Old Citroen Garage building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2015-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1928-01-01",
+                "description": "The Old Citroen Garage building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2015-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

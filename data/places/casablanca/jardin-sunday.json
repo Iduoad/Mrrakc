@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/park",
-  "metadata": {
-    "tags": [
-      "urban-park",
-      "green-space",
-      "recreational",
-      "local-park"
-    ]
-  },
-  "spec": {
-    "name": "Jardin Sunday",
-    "id": "jardin-sunday",
-    "description": "Jardin Sunday (likely named for a nearby street or feature) is a local public park or garden in Casablanca, serving as an important green space for the surrounding community. These parks offer residents a place for outdoor recreation, exercise, and quiet relaxation, contributing to the quality of urban life in the city's residential areas.",
-    "location": {
-      "longitude": -7.5763572,
-      "latitude": 33.5380076,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/park",
+    "metadata": {
+        "tags": [
+            "urban-park",
+            "green-space",
+            "recreational",
+            "local-park"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "gaming",
-      "relaxing",
-      "walking"
-    ],
-    "items": [
-      "coastline",
-      "gardens"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Park access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Jardin Sunday",
+        "id": "jardin-sunday",
+        "description": "Jardin Sunday (likely named for a nearby street or feature) is a local public park or garden in Casablanca, serving as an important green space for the surrounding community. These parks offer residents a place for outdoor recreation, exercise, and quiet relaxation, contributing to the quality of urban life in the city's residential areas.",
+        "location": {
+            "longitude": -7.5763572,
+            "latitude": 33.5380076,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/gaming",
+            "wellness/relaxing",
+            "leisure/walking"
+        ],
+        "items": [
+            "nature/coastline",
+            "nature/gardens"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Park access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

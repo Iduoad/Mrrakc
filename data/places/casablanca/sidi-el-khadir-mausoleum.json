@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mausoleum",
-  "metadata": {
-    "tags": [
-      "religious",
-      "mausoleum",
-      "marabout",
-      "local-shrine",
-      "sufism"
-    ]
-  },
-  "spec": {
-    "name": "Sidi El Khadir Mausoleum",
-    "id": "sidi-el-khadir-mausoleum",
-    "description": "The Sidi El Khadir Mausoleum (Marabout de Sidi El Khadir) is a local religious shrine dedicated to a saint associated with the mythical Islamic figure Al-Khidr. Located in a peripheral area, it serves as a center for local veneration and spiritual activity, attracting pilgrims from the surrounding neighborhood who seek blessings (baraka).",
-    "location": {
-      "longitude": -7.6882851,
-      "latitude": 33.5707432,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mausoleum",
+    "metadata": {
+        "tags": [
+            "religious",
+            "mausoleum",
+            "marabout",
+            "local-shrine",
+            "sufism"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-el-khadir",
-        "relationship": [
-          "namesake",
-          "marabout",
-          "historical-figure"
+    "spec": {
+        "name": "Sidi El Khadir Mausoleum",
+        "id": "sidi-el-khadir-mausoleum",
+        "description": "The Sidi El Khadir Mausoleum (Marabout de Sidi El Khadir) is a local religious shrine dedicated to a saint associated with the mythical Islamic figure Al-Khidr. Located in a peripheral area, it serves as a center for local veneration and spiritual activity, attracting pilgrims from the surrounding neighborhood who seek blessings (baraka).",
+        "location": {
+            "longitude": -7.6882851,
+            "latitude": 33.5707432,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-el-khadir",
+                "relationship": [
+                    "namesake",
+                    "marabout",
+                    "historical-figure"
+                ],
+                "comment": "The revered local saint."
+            }
         ],
-        "comment": "The revered local saint."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mausoleum access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mausoleum access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

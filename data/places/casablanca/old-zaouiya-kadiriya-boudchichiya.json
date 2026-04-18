@@ -1,60 +1,60 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/zaouiya",
-  "metadata": {
-    "tags": [
-      "religious",
-      "sufism",
-      "zaouiya",
-      "kadiriya-boudchichiya",
-      "old-medina-vicinity"
-    ]
-  },
-  "spec": {
-    "name": "Zaouiya Kadiriya Boudchichiya (Old)",
-    "id": "old-zaouiya-kadiriya-boudchichiya",
-    "description": "The Old Zaouiya Kadiriya Boudchichiya is a historical religious center in Casablanca, associated with the **Qadiriyya Boutchichiyya Sufi order**, one of the most prominent Sufi brotherhoods in Morocco. A 'zaouiya' is a spiritual school or retreat, serving as a hub for the order's religious, charitable, and social activities. This older location near the Medina is significant to the local history of Sufism before the growth of the order's modern centers.",
-    "location": {
-      "longitude": -7.6191228,
-      "latitude": 33.6020969,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/zaouiya",
+    "metadata": {
+        "tags": [
+            "religious",
+            "sufism",
+            "zaouiya",
+            "kadiriya-boudchichiya",
+            "old-medina-vicinity"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sufi-leaders-boudchichiya",
-        "relationship": [
-          "historical-figure",
-          "religious-leader"
+    "spec": {
+        "name": "Zaouiya Kadiriya Boudchichiya (Old)",
+        "id": "old-zaouiya-kadiriya-boudchichiya",
+        "description": "The Old Zaouiya Kadiriya Boudchichiya is a historical religious center in Casablanca, associated with the **Qadiriyya Boutchichiyya Sufi order**, one of the most prominent Sufi brotherhoods in Morocco. A 'zaouiya' is a spiritual school or retreat, serving as a hub for the order's religious, charitable, and social activities. This older location near the Medina is significant to the local history of Sufism before the growth of the order's modern centers.",
+        "location": {
+            "longitude": -7.6191228,
+            "latitude": 33.6020969,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sufi-leaders-boudchichiya",
+                "relationship": [
+                    "historical-figure",
+                    "religious-leader"
+                ],
+                "comment": "The leaders and sheikhs of the Qadiriyya Boutchichiyya Sufi order."
+            }
         ],
-        "comment": "The leaders and sheikhs of the Qadiriyya Boutchichiyya Sufi order."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dancing",
-      "religious activities",
-      "socializing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Access for Sufi Members",
-          "modality": "donation",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/dancing",
+            "religious/general",
+            "socializing/community"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Access for Sufi Members",
+                    "modality": "donation",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/market",
-  "metadata": {
-    "tags": [
-      "market",
-      "local-commerce",
-      "fresh-produce",
-      "fish-market",
-      "local-shopping"
-    ]
-  },
-  "spec": {
-    "name": "Crio Market",
-    "id": "crio-market",
-    "description": "Crio Market (Marché Crio) is a local marketplace in Casablanca, likely specializing in perishable goods such as fresh fish, meat, and produce, given the term 'Crio' often relates to refrigeration or chilling. Markets like this are integral to the local economy and provide a daily source of food and social interaction for the surrounding community.",
-    "location": {
-      "longitude": -7.5578566,
-      "latitude": 33.5521948,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/market",
+    "metadata": {
+        "tags": [
+            "market",
+            "local-commerce",
+            "fresh-produce",
+            "fish-market",
+            "local-shopping"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "shopping"
-    ],
-    "items": [
-      "coastline",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Crio Market",
+        "id": "crio-market",
+        "description": "Crio Market (Marché Crio) is a local marketplace in Casablanca, likely specializing in perishable goods such as fresh fish, meat, and produce, given the term 'Crio' often relates to refrigeration or chilling. Markets like this are integral to the local economy and provide a daily source of food and social interaction for the surrounding community.",
+        "location": {
+            "longitude": -7.5578566,
+            "latitude": 33.5521948,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general"
+        ],
+        "items": [
+            "nature/coastline",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,65 +1,65 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/museum",
-  "metadata": {
-    "tags": [
-      "museum",
-      "historical-heritage",
-      "national-resistance",
-      "liberation-army",
-      "ben-msiq",
-      "educational"
-    ]
-  },
-  "spec": {
-    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Ben Msiq",
-    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-ben-msiq",
-    "description": "The Regional Museum of the National Movement, Resistance, and Liberation Army in Ben Msiq is a national cultural institution dedicated to documenting and commemorating Morocco's struggle for independence, focusing on the resistance movement and the liberation army in the Casablanca-Settat region. The museum features exhibits on key historical events, figures, and artifacts from the colonial era through independence (1912-1956). It plays a crucial educational role in preserving national memory.",
-    "location": {
-      "longitude": -7.5830903,
-      "latitude": 33.557173,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/museum",
+    "metadata": {
+        "tags": [
+            "museum",
+            "historical-heritage",
+            "national-resistance",
+            "liberation-army",
+            "ben-msiq",
+            "educational"
+        ]
     },
-    "people": [
-      {
-        "id": "people/mohammed-v",
-        "relationship": [
-          "historical-figure"
+    "spec": {
+        "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Ben Msiq",
+        "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-ben-msiq",
+        "description": "The Regional Museum of the National Movement, Resistance, and Liberation Army in Ben Msiq is a national cultural institution dedicated to documenting and commemorating Morocco's struggle for independence, focusing on the resistance movement and the liberation army in the Casablanca-Settat region. The museum features exhibits on key historical events, figures, and artifacts from the colonial era through independence (1912-1956). It plays a crucial educational role in preserving national memory.",
+        "location": {
+            "longitude": -7.5830903,
+            "latitude": 33.557173,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/mohammed-v",
+                "relationship": [
+                    "historical-figure"
+                ],
+                "comment": "Symbol of the national movement and resistance."
+            }
         ],
-        "comment": "Symbol of the national movement and resistance."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Museum Establishment",
-        "date": "2000-01-01",
-        "description": "The museum was established as part of the national effort to preserve resistance history (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Museum entrance fee",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Museum Establishment",
+                "date": "2000-01-01",
+                "description": "The museum was established as part of the national effort to preserve resistance history (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Museum entrance fee",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period"
+        ]
+    }
 }

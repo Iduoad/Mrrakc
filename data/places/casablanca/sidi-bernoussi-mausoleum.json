@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mausoleum",
-  "metadata": {
-    "tags": [
-      "religious",
-      "mausoleum",
-      "marabout",
-      "local-shrine",
-      "sufism"
-    ]
-  },
-  "spec": {
-    "name": "Sidi Bernoussi Mausoleum",
-    "id": "sidi-bernoussi-mausoleum",
-    "description": "The Sidi Bernoussi Mausoleum (Marabout de Sidi Bernoussi) is a local religious shrine located in the large Sidi Bernoussi neighborhood, which is named after the saint. The site serves as a spiritual center and point of local pilgrimage, attracting visitors seeking blessings (baraka). These mausoleums are foundational to the social and religious identity of the surrounding community.",
-    "location": {
-      "longitude": -7.498631,
-      "latitude": 33.6163225,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mausoleum",
+    "metadata": {
+        "tags": [
+            "religious",
+            "mausoleum",
+            "marabout",
+            "local-shrine",
+            "sufism"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-bernoussi",
-        "relationship": [
-          "namesake",
-          "marabout",
-          "historical-figure"
+    "spec": {
+        "name": "Sidi Bernoussi Mausoleum",
+        "id": "sidi-bernoussi-mausoleum",
+        "description": "The Sidi Bernoussi Mausoleum (Marabout de Sidi Bernoussi) is a local religious shrine located in the large Sidi Bernoussi neighborhood, which is named after the saint. The site serves as a spiritual center and point of local pilgrimage, attracting visitors seeking blessings (baraka). These mausoleums are foundational to the social and religious identity of the surrounding community.",
+        "location": {
+            "longitude": -7.498631,
+            "latitude": 33.6163225,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-bernoussi",
+                "relationship": [
+                    "namesake",
+                    "marabout",
+                    "historical-figure"
+                ],
+                "comment": "The revered local saint after whom the neighborhood is named."
+            }
         ],
-        "comment": "The revered local saint after whom the neighborhood is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mausoleum access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mausoleum access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

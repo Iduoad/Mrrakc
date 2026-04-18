@@ -1,56 +1,56 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": [
-      "religious",
-      "historical-mosque",
-      "old-medina-vicinity",
-      "architecture"
-    ]
-  },
-  "spec": {
-    "name": "El Kebir Ben Mohamed Lahrizi Mosque",
-    "id": "el-kebir-ben-mohamed-lahrizi-mosque",
-    "description": "El Kebir Ben Mohamed Lahrizi Mosque (Mosquée El Kebir Ben Mohamed Lahrizi) is a community mosque located in the historic area near the Old Medina. It serves the daily religious needs of the local population. Given its location and name, it may be dedicated to a respected local figure or family (Ben Mohamed Lahrizi) and features traditional Moroccan mosque architecture, including a minaret and a prayer hall.",
-    "location": {
-      "longitude": -7.6211945,
-      "latitude": 33.6029558,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": [
+            "religious",
+            "historical-mosque",
+            "old-medina-vicinity",
+            "architecture"
+        ]
     },
-    "people": [
-      {
-        "id": "people/el-kebir-ben-mohamed-lahrizi",
-        "relationship": [
-          "namesake",
-          "patron"
+    "spec": {
+        "name": "El Kebir Ben Mohamed Lahrizi Mosque",
+        "id": "el-kebir-ben-mohamed-lahrizi-mosque",
+        "description": "El Kebir Ben Mohamed Lahrizi Mosque (Mosquée El Kebir Ben Mohamed Lahrizi) is a community mosque located in the historic area near the Old Medina. It serves the daily religious needs of the local population. Given its location and name, it may be dedicated to a respected local figure or family (Ben Mohamed Lahrizi) and features traditional Moroccan mosque architecture, including a minaret and a prayer hall.",
+        "location": {
+            "longitude": -7.6211945,
+            "latitude": 33.6029558,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/el-kebir-ben-mohamed-lahrizi",
+                "relationship": [
+                    "namesake",
+                    "patron"
+                ],
+                "comment": "The historical or local figure after whom the mosque is named."
+            }
         ],
-        "comment": "The historical or local figure after whom the mosque is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access for Muslims",
-          "modality": "free",
-          "audience": "muslims",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access for Muslims",
+                    "modality": "free",
+                    "audience": "muslims",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

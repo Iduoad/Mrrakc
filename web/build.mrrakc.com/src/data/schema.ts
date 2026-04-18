@@ -16,11 +16,28 @@ export const KINDS = [
 ] as const;
 
 export const ACTIVITIES = [
-  "sightseeing", "cultural activities", "dining", "religious activities", "socializing", "walking", "relaxing", "entertainment", "shopping", "gaming", "photography", "transport services", "accommodation", "banking", "dancing", "sports", "fitness", "swimming", "administrative services", "guided tours", "medical services", "cycling", "using nearby amenities", "postal services", "using local amenities and shops", "karting", "cultural_visits", "cafe", "community activities", "surfing", "group school visits", "outdoor recreation", "conducting automobile sales and services", "nature walks", "convenience services", "fishing", "conducting commercial and industry services", "pedestrian thoroughfare", "custom salad bar access", "skating", "borrowing books and materials", "military and defense operations (restricted)", "feeding the pigeons"
+  "sightseeing/historical", "sightseeing/cultural", "sightseeing/nature",
+  "dining/restaurant", "dining/cafe", "dining/street-food", "dining/bakery",
+  "socializing/community", "socializing/events", "socializing/nightlife",
+  "sports/swimming", "sports/surfing", "sports/karting", "sports/skating", "sports/fitness",
+  "wellness/relaxing",
+  "shopping/souvenirs", "shopping/electronics", "shopping/grocery", "shopping/automotive", "shopping/general",
+  "services/administrative", "services/banking", "services/medical", "services/postal", "services/transport",
+  "entertainment/gaming", "entertainment/cinema", "entertainment/dancing",
+  "religious/mosque", "religious/church", "religious/synagogue", "religious/general",
+  "education/research", "education/library",
+  "leisure/walking", "leisure/photography", "leisure/fishing", "leisure/birds-feeding",
+  "accommodation/hotel", "accommodation/hostel", "accommodation/apartment"
 ] as const;
 
 export const ITEMS = [
-  "architecture", "facilities", "memorabilia", "coastline", "food & drink", "gardens", "animals", "moroccan sweets", "goods", "amusement rides", "kaab el ghzal (gazelle horns)", "nightclubs", "restaurants and cafes", "planetarium (360° projection)", "medical and technical facilities", "extensive network of walking and cycling trails", "sports facilities", "3D/IMAX", "high-intensity light beam", "marina port facilities", "urban landscaping", "grilled lamb/beef (dibiterie)", "hotel and conference facilities", "art", "common areas and facilities", "cannons", "amazigh rugs"
+  "architecture/historical", "architecture/modern",
+  "culture/memorabilia", "culture/art", "culture/crafts", "culture/rugs", "culture/artifacts",
+  "nature/coastline", "nature/gardens", "nature/animals", "nature/landscaping",
+  "cuisine/main-dish", "cuisine/sweets", "cuisine/drinks", "cuisine/grilled",
+  "facility/parking", "facility/wifi", "facility/toilets", "facility/prayer-room", "facility/sports", "facility/medical", "facility/conference", "facility/port", "facility/trails", "facility/walking-paths",
+  "entertainment/rides", "entertainment/cinema", "entertainment/planetarium", "entertainment/nightclub",
+  "item/cannons", "item/memorabilia", "item/goods"
 ] as const;
 
 export const PROVINCES = [

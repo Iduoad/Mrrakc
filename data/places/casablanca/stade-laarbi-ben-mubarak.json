@@ -1,58 +1,58 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "sports/stadium",
-  "metadata": {
-    "tags": [
-      "sports-facility",
-      "stadium",
-      "football",
-      "namesake",
-      "historical-figure"
-    ]
-  },
-  "spec": {
-    "name": "Stade Laarbi Ben Mubarak",
-    "id": "stade-laarbi-ben-mubarak",
-    "description": "Stade Laarbi Ben Mubarak (Larbi Benbarek Stadium) is a sports stadium named after the legendary Moroccan football player **Larbi Benbarek** (1917–1992), often called the 'Black Pearl,' who played for teams like Olympique de Marseille and Atlético Madrid. The stadium is a local sports venue primarily used for football matches, serving the community's recreational and competitive sports needs.",
-    "location": {
-      "longitude": -7.6082025,
-      "latitude": 33.5955354,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "sports/stadium",
+    "metadata": {
+        "tags": [
+            "sports-facility",
+            "stadium",
+            "football",
+            "namesake",
+            "historical-figure"
+        ]
     },
-    "people": [
-      {
-        "id": "people/larbi-benbarek",
-        "relationship": [
-          "namesake",
-          "historical-figure",
-          "footballer"
+    "spec": {
+        "name": "Stade Laarbi Ben Mubarak",
+        "id": "stade-laarbi-ben-mubarak",
+        "description": "Stade Laarbi Ben Mubarak (Larbi Benbarek Stadium) is a sports stadium named after the legendary Moroccan football player **Larbi Benbarek** (1917–1992), often called the 'Black Pearl,' who played for teams like Olympique de Marseille and Atlético Madrid. The stadium is a local sports venue primarily used for football matches, serving the community's recreational and competitive sports needs.",
+        "location": {
+            "longitude": -7.6082025,
+            "latitude": 33.5955354,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/larbi-benbarek",
+                "relationship": [
+                    "namesake",
+                    "historical-figure",
+                    "footballer"
+                ],
+                "comment": "Legendary Moroccan football player after whom the stadium is named."
+            }
         ],
-        "comment": "Legendary Moroccan football player after whom the stadium is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "fitness",
-      "sports"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Event ticket",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sports/fitness",
+            "sports/fitness"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Event ticket",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

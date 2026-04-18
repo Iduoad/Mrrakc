@@ -1,58 +1,58 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "square",
-      "historical-figure",
-      "city-center",
-      "residential-area"
-    ]
-  },
-  "spec": {
-    "name": "Carl Ficke Square",
-    "id": "carl-ficke-square",
-    "description": "Carl Ficke Square (Place Carl Ficke) is a public square located in a central residential and commercial area of Casablanca. Squares like this serve as local neighborhood centers, providing space for relaxation, small gatherings, and access to surrounding shops and cafes. The name likely honors a historical figure associated with the city's development, though detailed public information on Carl Ficke himself is scarce. The square contributes to the organized urban fabric established during the Protectorate era.",
-    "location": {
-      "longitude": -7.6098199,
-      "latitude": 33.583483,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "square",
+            "historical-figure",
+            "city-center",
+            "residential-area"
+        ]
     },
-    "people": [
-      {
-        "id": "people/carl-ficke",
-        "relationship": [
-          "namesake",
-          "historical-figure"
+    "spec": {
+        "name": "Carl Ficke Square",
+        "id": "carl-ficke-square",
+        "description": "Carl Ficke Square (Place Carl Ficke) is a public square located in a central residential and commercial area of Casablanca. Squares like this serve as local neighborhood centers, providing space for relaxation, small gatherings, and access to surrounding shops and cafes. The name likely honors a historical figure associated with the city's development, though detailed public information on Carl Ficke himself is scarce. The square contributes to the organized urban fabric established during the Protectorate era.",
+        "location": {
+            "longitude": -7.6098199,
+            "latitude": 33.583483,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/carl-ficke",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "Likely a historical figure or administrator associated with the development of the neighborhood or city."
+            }
         ],
-        "comment": "Likely a historical figure or administrator associated with the development of the neighborhood or city."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "relaxing",
-      "using nearby amenities"
-    ],
-    "items": [
-      "coastline",
-      "gardens"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "wellness/relaxing",
+            "socializing/community"
+        ],
+        "items": [
+            "nature/coastline",
+            "nature/gardens"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

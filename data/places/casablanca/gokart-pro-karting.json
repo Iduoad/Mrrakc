@@ -1,55 +1,55 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "sports/karting",
-  "metadata": {
-    "tags": [
-      "karting",
-      "motorsports",
-      "go-karts",
-      "racing",
-      "entertainment"
-    ]
-  },
-  "spec": {
-    "name": "Gokart pro Karting",
-    "id": "gokart-pro-karting",
-    "description": "Gokart pro Karting is a professional or high-quality recreational karting track located near Casablanca. It provides a popular venue for motorsports enthusiasts, offering high-speed go-kart racing for individuals, groups, and competitive events. It caters to the growing demand for modern leisure and competitive sports infrastructure outside of the city center.",
-    "location": {
-      "longitude": -7.6360756,
-      "latitude": 33.4797575,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "sports/karting",
+    "metadata": {
+        "tags": [
+            "karting",
+            "motorsports",
+            "go-karts",
+            "racing",
+            "entertainment"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://www.gokartpro.ma/",
-        "type": "website",
-        "title": "Gokart pro Karting Official Website"
-      }
-    ],
-    "activities": [
-      "karting"
-    ],
-    "items": [
-      "architecture",
-      "goods",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Karting Session Fee",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Gokart pro Karting",
+        "id": "gokart-pro-karting",
+        "description": "Gokart pro Karting is a professional or high-quality recreational karting track located near Casablanca. It provides a popular venue for motorsports enthusiasts, offering high-speed go-kart racing for individuals, groups, and competitive events. It caters to the growing demand for modern leisure and competitive sports infrastructure outside of the city center.",
+        "location": {
+            "longitude": -7.6360756,
+            "latitude": 33.4797575,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://www.gokartpro.ma/",
+                "type": "website",
+                "title": "Gokart pro Karting Official Website"
+            }
+        ],
+        "activities": [
+            "sports/karting"
+        ],
+        "items": [
+            "architecture/historical",
+            "item/goods",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Karting Session Fee",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

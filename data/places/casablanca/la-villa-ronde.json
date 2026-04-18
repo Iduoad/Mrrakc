@@ -1,87 +1,87 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/villa",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "villa",
-      "modernist",
-      "mid-century-modern",
-      "national-heritage",
-      "1960s"
-    ]
-  },
-  "spec": {
-    "name": "La Villa Ronde",
-    "id": "la-villa-ronde",
-    "description": "La Villa Ronde (The Round Villa), famously nicknamed **Villa Camembert** or Villa Docteur B., is an iconic piece of modernist architecture in Casablanca. Designed by German architect **Wolfgang Ewerth** and built between 1963 and 1964, the house is celebrated for its highly unconventional circular shape, which stands out in the urban landscape. It is a key example of post-independence architectural experimentation and design freedom. The villa's unique importance was formally recognized by its designation as a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.66717,
-      "latitude": 33.5868853,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/villa",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "villa",
+            "modernist",
+            "mid-century-modern",
+            "national-heritage",
+            "1960s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/wolfgang-ewerth",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "La Villa Ronde",
+        "id": "la-villa-ronde",
+        "description": "La Villa Ronde (The Round Villa), famously nicknamed **Villa Camembert** or Villa Docteur B., is an iconic piece of modernist architecture in Casablanca. Designed by German architect **Wolfgang Ewerth** and built between 1963 and 1964, the house is celebrated for its highly unconventional circular shape, which stands out in the urban landscape. It is a key example of post-independence architectural experimentation and design freedom. The villa's unique importance was formally recognized by its designation as a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.66717,
+            "latitude": 33.5868853,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/wolfgang-ewerth",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "German architect who designed the distinctive circular villa."
+            },
+            {
+                "id": "people/docteur-b",
+                "relationship": [
+                    "original-owner"
+                ],
+                "comment": "Original owner after whom the villa is sometimes named (Villa Docteur B.)."
+            }
         ],
-        "comment": "German architect who designed the distinctive circular villa."
-      },
-      {
-        "id": "people/docteur-b",
-        "relationship": [
-          "original-owner"
+        "timeline": [
+            {
+                "title": "Construction Began",
+                "date": "1963-01-01",
+                "description": "Construction of the modernist villa began."
+            },
+            {
+                "title": "Building Completed",
+                "date": "1964-01-01",
+                "description": "The villa was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The villa was officially included in the National Material Patrimony of Morocco."
+            }
         ],
-        "comment": "Original owner after whom the villa is sometimes named (Villa Docteur B.)."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Began",
-        "date": "1963-01-01",
-        "description": "Construction of the modernist villa began."
-      },
-      {
-        "title": "Building Completed",
-        "date": "1964-01-01",
-        "description": "The villa was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The villa was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://docplayer.fr/84787303-Villa-ronde-casablanca-wolfgang-ewerth-1963-1964.html",
-        "type": "article",
-        "title": "Villa Ronde Casablanca Wolfgang Ewerth 1963-1964 (Architectural Document)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "private",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is an inhabited private residence; exterior view is public, interior access is restricted to residents."
-    },
-    "timePeriods": [
-      "1960s"
-    ]
-  }
+        "links": [
+            {
+                "url": "https://docplayer.fr/84787303-Villa-ronde-casablanca-wolfgang-ewerth-1963-1964.html",
+                "type": "article",
+                "title": "Villa Ronde Casablanca Wolfgang Ewerth 1963-1964 (Architectural Document)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "private",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is an inhabited private residence; exterior view is public, interior access is restricted to residents."
+        },
+        "timePeriods": [
+            "1960s"
+        ]
+    }
 }

@@ -1,74 +1,74 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": [
-      "religious",
-      "architecture",
-      "royal-history",
-      "mid-20th-century"
-    ]
-  },
-  "spec": {
-    "name": "Al-Malik Mosque",
-    "id": "al-malik-mosque",
-    "description": "Al-Malik Mosque (Mosquée Al-Malik) is a significant religious structure in Casablanca, representing the architecture of the mid-20th century. Its construction began during the reign of King Mohammed V and was later inaugurated by his son, King Hassan II, in 1961 CE. The mosque serves as an important local place of worship and a testament to the continuity of royal patronage in building religious and civic structures in post-independence Morocco. The design is characteristic of the time, often blending traditional Moroccan motifs with modern construction techniques.",
-    "location": {
-      "longitude": -7.5657735,
-      "latitude": 33.5865766,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": [
+            "religious",
+            "architecture",
+            "royal-history",
+            "mid-20th-century"
+        ]
     },
-    "people": [
-      {
-        "id": "people/mohammed-v",
-        "relationship": [
-          "commissioner"
+    "spec": {
+        "name": "Al-Malik Mosque",
+        "id": "al-malik-mosque",
+        "description": "Al-Malik Mosque (Mosquée Al-Malik) is a significant religious structure in Casablanca, representing the architecture of the mid-20th century. Its construction began during the reign of King Mohammed V and was later inaugurated by his son, King Hassan II, in 1961 CE. The mosque serves as an important local place of worship and a testament to the continuity of royal patronage in building religious and civic structures in post-independence Morocco. The design is characteristic of the time, often blending traditional Moroccan motifs with modern construction techniques.",
+        "location": {
+            "longitude": -7.5657735,
+            "latitude": 33.5865766,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/mohammed-v",
+                "relationship": [
+                    "commissioner"
+                ],
+                "comment": "King of Morocco who initiated the construction works of the mosque."
+            },
+            {
+                "id": "people/hassan-ii",
+                "relationship": [
+                    "inaugurator"
+                ],
+                "comment": "King of Morocco who inaugurated the mosque in 1961 CE."
+            }
         ],
-        "comment": "King of Morocco who initiated the construction works of the mosque."
-      },
-      {
-        "id": "people/hassan-ii",
-        "relationship": [
-          "inaugurator"
+        "timeline": [
+            {
+                "title": "Construction Initiated",
+                "date": "1956-01-01",
+                "description": "Construction works started during the reign of King Mohammed V (Approximate start date based on the era of the King's reign)."
+            },
+            {
+                "title": "Inauguration",
+                "date": "1961-01-01",
+                "description": "The mosque was officially inaugurated by King Hassan II."
+            }
         ],
-        "comment": "King of Morocco who inaugurated the mosque in 1961 CE."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Initiated",
-        "date": "1956-01-01",
-        "description": "Construction works started during the reign of King Mohammed V (Approximate start date based on the era of the King's reign)."
-      },
-      {
-        "title": "Inauguration",
-        "date": "1961-01-01",
-        "description": "The mosque was officially inaugurated by King Hassan II."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "religious activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access for Muslims",
-          "modality": "free",
-          "audience": "muslims",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "religious/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access for Muslims",
+                    "modality": "free",
+                    "audience": "muslims",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century"
+        ]
+    }
 }

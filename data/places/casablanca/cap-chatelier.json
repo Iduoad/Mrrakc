@@ -1,55 +1,55 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "history/archaeological-site",
-  "metadata": {
-    "tags": [
-      "archaeological-site",
-      "prehistoric",
-      "paleontology",
-      "atlantic-coast",
-      "sidi-abderrahmane"
-    ]
-  },
-  "spec": {
-    "name": "Cap Chatelier",
-    "id": "cap-chatelier",
-    "description": "Cap Chatelier is a geographical feature and an important archaeological area located along the Atlantic coast near the Sidi Abderrahmane quarry sites in Casablanca. This area is highly significant for the study of the **Quaternary period** in North Africa. It is known for its marine and continental deposits that have yielded numerous archaeological and paleontological finds, including evidence of early human activity and fossilized mammalian fauna. The site provides vital context for understanding the long history of occupation in the Casablanca region, alongside sites like the nearby Bears Cave.",
-    "location": {
-      "longitude": -7.683521,
-      "latitude": 33.5818649,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "history/archaeological-site",
+    "metadata": {
+        "tags": [
+            "archaeological-site",
+            "prehistoric",
+            "paleontology",
+            "atlantic-coast",
+            "sidi-abderrahmane"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Paleontological Research Period",
-        "date": "1940-01-01",
-        "description": "The site was actively researched for Quaternary mammalian biochronology (Approximate period)."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
-        "type": "article",
-        "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre régional (Source referring to faunal discoveries)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "animals",
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "restricted",
-      "comment": "Primarily a scientific/archaeological site; general access is limited to coastal public areas."
-    },
-    "timePeriods": [
-      "prehistoric"
-    ]
-  }
+    "spec": {
+        "name": "Cap Chatelier",
+        "id": "cap-chatelier",
+        "description": "Cap Chatelier is a geographical feature and an important archaeological area located along the Atlantic coast near the Sidi Abderrahmane quarry sites in Casablanca. This area is highly significant for the study of the **Quaternary period** in North Africa. It is known for its marine and continental deposits that have yielded numerous archaeological and paleontological finds, including evidence of early human activity and fossilized mammalian fauna. The site provides vital context for understanding the long history of occupation in the Casablanca region, alongside sites like the nearby Bears Cave.",
+        "location": {
+            "longitude": -7.683521,
+            "latitude": 33.5818649,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Paleontological Research Period",
+                "date": "1940-01-01",
+                "description": "The site was actively researched for Quaternary mammalian biochronology (Approximate period)."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.researchgate.net/publication/248556832_Biochronologie_mammalienne_du_Quaternaire_du_Maroc_atlantique_dans_son_cadre_regional/figures?lo=1",
+                "type": "article",
+                "title": "Biochronologie mammalienne du Quaternaire du Maroc atlantique, dans son cadre régional (Source referring to faunal discoveries)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "nature/animals",
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "restricted",
+            "comment": "Primarily a scientific/archaeological site; general access is limited to coastal public areas."
+        },
+        "timePeriods": [
+            "prehistoric"
+        ]
+    }
 }

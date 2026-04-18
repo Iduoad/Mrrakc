@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "rooftop-bar",
-      "international-cuisine",
-      "panoramic-view",
-      "modern"
-    ]
-  },
-  "spec": {
-    "name": "The 24 rooftop",
-    "id": "the-24-rooftop",
-    "description": "The 24 Rooftop is a modern restaurant, bar, and lounge located on the rooftop (likely the 24th floor) of a high-rise building in Casablanca's central district. It specializes in offering an **International menu** alongside drinks, capitalizing on its elevated position to provide **panoramic city views**. It is a popular spot for sophisticated evening socializing and entertainment.",
-    "location": {
-      "longitude": -7.6139111,
-      "latitude": 33.5981877,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "rooftop-bar",
+            "international-cuisine",
+            "panoramic-view",
+            "modern"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant and bar services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "The 24 rooftop",
+        "id": "the-24-rooftop",
+        "description": "The 24 Rooftop is a modern restaurant, bar, and lounge located on the rooftop (likely the 24th floor) of a high-rise building in Casablanca's central district. It specializes in offering an **International menu** alongside drinks, capitalizing on its elevated position to provide **panoramic city views**. It is a popular spot for sophisticated evening socializing and entertainment.",
+        "location": {
+            "longitude": -7.6139111,
+            "latitude": 33.5981877,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant and bar services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

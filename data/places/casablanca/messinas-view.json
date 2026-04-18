@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/viewpoint",
-  "metadata": {
-    "tags": [
-      "viewpoint",
-      "panoramic-view",
-      "coastal-area",
-      "el-hank",
-      "ocean-view"
-    ]
-  },
-  "spec": {
-    "name": "Messinas View",
-    "id": "messinas-view",
-    "description": "Messinas View (Point de vue Messinas) is a scenic coastal viewpoint located on the El Hank peninsula, offering broad views of the Atlantic Ocean and the surrounding coastal area. This viewpoint is part of the public access along the coast, providing a popular spot for photography, watching the waves, and observing the maritime activity near the Port and the Hassan II Mosque.",
-    "location": {
-      "longitude": -7.6445897,
-      "latitude": 33.6051641,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/viewpoint",
+    "metadata": {
+        "tags": [
+            "viewpoint",
+            "panoramic-view",
+            "coastal-area",
+            "el-hank",
+            "ocean-view"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "photography",
-      "relaxing",
-      "sightseeing"
-    ],
-    "items": [
-      "coastline"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Viewpoint access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Messinas View",
+        "id": "messinas-view",
+        "description": "Messinas View (Point de vue Messinas) is a scenic coastal viewpoint located on the El Hank peninsula, offering broad views of the Atlantic Ocean and the surrounding coastal area. This viewpoint is part of the public access along the coast, providing a popular spot for photography, watching the waves, and observing the maritime activity near the Port and the Hassan II Mosque.",
+        "location": {
+            "longitude": -7.6445897,
+            "latitude": 33.6051641,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "leisure/photography",
+            "wellness/relaxing",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "nature/coastline"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Viewpoint access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "historical-cinema",
-      "art-deco",
-      "closed",
-      "national-heritage",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Verdun Cinema",
-    "id": "verdun-cinema",
-    "description": "Verdun Cinema (Cinéma Verdun) is a historical movie theater established in the 1950s, designed by architect **Léon Aroutcheff**. Its architecture reflects the later Modernist style of the post-war era. Located in a central district, the cinema was a prominent cultural venue during its operation. Though currently **closed**, the building's historical importance was recognized by its designation as a **National Material Patrimony** site in 2014.",
-    "location": {
-      "longitude": -7.625816,
-      "latitude": 33.5960595,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "historical-cinema",
+            "art-deco",
+            "closed",
+            "national-heritage",
+            "1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/leon-aroutcheff",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Verdun Cinema",
+        "id": "verdun-cinema",
+        "description": "Verdun Cinema (Cinéma Verdun) is a historical movie theater established in the 1950s, designed by architect **Léon Aroutcheff**. Its architecture reflects the later Modernist style of the post-war era. Located in a central district, the cinema was a prominent cultural venue during its operation. Though currently **closed**, the building's historical importance was recognized by its designation as a **National Material Patrimony** site in 2014.",
+        "location": {
+            "longitude": -7.625816,
+            "latitude": 33.5960595,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/leon-aroutcheff",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the cinema building."
+            }
         ],
-        "comment": "Architect who designed the cinema building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Establishment Period",
-        "date": "1950-01-01",
-        "description": "The cinema was established during the mid-1950s (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2014-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "closed",
-      "comment": "The cinema is currently closed for operation; interior access is restricted."
-    },
-    "timePeriods": [
-      "1950s"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Establishment Period",
+                "date": "1950-01-01",
+                "description": "The cinema was established during the mid-1950s (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2014-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "closed",
+            "comment": "The cinema is currently closed for operation; interior access is restricted."
+        },
+        "timePeriods": [
+            "1950s"
+        ]
+    }
 }

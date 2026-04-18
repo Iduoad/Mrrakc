@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/zaouiya",
-  "metadata": {
-    "tags": [
-      "religious",
-      "sufism",
-      "zaouiya",
-      "tidjania",
-      "ain-chock"
-    ]
-  },
-  "spec": {
-    "name": "Zaouiya Tidjania - Ain chock",
-    "id": "zaouiya-tidjania-ain-chock",
-    "description": "Zaouiya Tidjania - Ain Chock is a local religious center associated with the influential **Tijaniyya Sufi order**, one of the largest Sufi brotherhoods in West Africa and Morocco. Located in the Ain Chock neighborhood, it serves as a community hub for members of the order, providing space for collective prayers, spiritual recitation, and teaching.",
-    "location": {
-      "longitude": -7.6002424,
-      "latitude": 33.5534369,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/zaouiya",
+    "metadata": {
+        "tags": [
+            "religious",
+            "sufism",
+            "zaouiya",
+            "tidjania",
+            "ain-chock"
+        ]
     },
-    "people": [
-      {
-        "id": "people/ahmed-al-tijani",
-        "relationship": [
-          "founder"
+    "spec": {
+        "name": "Zaouiya Tidjania - Ain chock",
+        "id": "zaouiya-tidjania-ain-chock",
+        "description": "Zaouiya Tidjania - Ain Chock is a local religious center associated with the influential **Tijaniyya Sufi order**, one of the largest Sufi brotherhoods in West Africa and Morocco. Located in the Ain Chock neighborhood, it serves as a community hub for members of the order, providing space for collective prayers, spiritual recitation, and teaching.",
+        "location": {
+            "longitude": -7.6002424,
+            "latitude": 33.5534369,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/ahmed-al-tijani",
+                "relationship": [
+                    "founder"
+                ],
+                "comment": "The founder of the Tijaniyya Sufi order."
+            }
         ],
-        "comment": "The founder of the Tijaniyya Sufi order."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dancing",
-      "religious activities"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Access for Sufi Members",
-          "modality": "donation",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/dancing",
+            "religious/general"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Access for Sufi Members",
+                    "modality": "donation",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

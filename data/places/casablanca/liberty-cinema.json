@@ -1,73 +1,73 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "historical-cinema",
-      "modernist",
-      "repurposed",
-      "national-heritage",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Liberty Cinema",
-    "id": "liberty-cinema",
-    "description": "Liberty Cinema (Cinéma Liberté) is a former major movie theater completed in 1954, designed by architect **Albert Planque**. Like many cinemas of the mid-20th century, its architecture reflected the clean lines and functionalism of the Modernist style. The building is historically significant, but the cinema operations have ceased, and the structure has been **repurposed into a commercial space (Marjane Market)**. Its architectural heritage was formally acknowledged by its designation as a **National Material Patrimony** site in 2014.",
-    "location": {
-      "longitude": -7.6124881,
-      "latitude": 33.5879236,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "historical-cinema",
+            "modernist",
+            "repurposed",
+            "national-heritage",
+            "1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/albert-planque",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Liberty Cinema",
+        "id": "liberty-cinema",
+        "description": "Liberty Cinema (Cinéma Liberté) is a former major movie theater completed in 1954, designed by architect **Albert Planque**. Like many cinemas of the mid-20th century, its architecture reflected the clean lines and functionalism of the Modernist style. The building is historically significant, but the cinema operations have ceased, and the structure has been **repurposed into a commercial space (Marjane Market)**. Its architectural heritage was formally acknowledged by its designation as a **National Material Patrimony** site in 2014.",
+        "location": {
+            "longitude": -7.6124881,
+            "latitude": 33.5879236,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/albert-planque",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the cinema building."
+            }
         ],
-        "comment": "Architect who designed the cinema building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed and Opened",
-        "date": "1954-01-01",
-        "description": "The Liberty Cinema building was completed."
-      },
-      {
-        "title": "Repurposing",
-        "date": "2000-01-01",
-        "description": "The cinema was closed and the structure repurposed into a supermarket (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2014-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "shopping",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed and Opened",
+                "date": "1954-01-01",
+                "description": "The Liberty Cinema building was completed."
+            },
+            {
+                "title": "Repurposing",
+                "date": "2000-01-01",
+                "description": "The cinema was closed and the structure repurposed into a supermarket (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2014-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "shopping/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period"
+        ]
+    }
 }

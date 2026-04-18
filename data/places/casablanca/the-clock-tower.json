@@ -1,73 +1,73 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/tower",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "clock-tower",
-      "old-medina-landmark",
-      "rebuilt",
-      "1900s"
-    ]
-  },
-  "spec": {
-    "name": "The Clock Tower",
-    "id": "the-clock-tower",
-    "description": "The Clock Tower (Tour de l'Horloge) is a prominent landmark located at the entrance to the Old Medina. The original tower, built in **1909** by **Génie Bouillot**, was one of the first major public structures erected by the French Administration, symbolizing the beginning of the modern city's expansion. The original tower was **demolished in 1948** and the current replica was **rebuilt in 1993**. It serves as a historical and symbolic gate between the Old Medina and the new city.",
-    "location": {
-      "longitude": -7.617253,
-      "latitude": 33.596889,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/tower",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "clock-tower",
+            "old-medina-landmark",
+            "rebuilt",
+            "1900s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/genie-bouillot",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "The Clock Tower",
+        "id": "the-clock-tower",
+        "description": "The Clock Tower (Tour de l'Horloge) is a prominent landmark located at the entrance to the Old Medina. The original tower, built in **1909** by **Génie Bouillot**, was one of the first major public structures erected by the French Administration, symbolizing the beginning of the modern city's expansion. The original tower was **demolished in 1948** and the current replica was **rebuilt in 1993**. It serves as a historical and symbolic gate between the Old Medina and the new city.",
+        "location": {
+            "longitude": -7.617253,
+            "latitude": 33.596889,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/genie-bouillot",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect/engineer who designed and built the original 1909 clock tower."
+            }
         ],
-        "comment": "Architect/engineer who designed and built the original 1909 clock tower."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Original Construction",
-        "date": "1909-01-01",
-        "description": "The original Clock Tower was completed."
-      },
-      {
-        "title": "Demolition",
-        "date": "1948-01-01",
-        "description": "The original clock tower was demolished."
-      },
-      {
-        "title": "Reconstruction",
-        "date": "1993-01-01",
-        "description": "The clock tower replica was completed and unveiled."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Original Construction",
+                "date": "1909-01-01",
+                "description": "The original Clock Tower was completed."
+            },
+            {
+                "title": "Demolition",
+                "date": "1948-01-01",
+                "description": "The original clock tower was demolished."
+            },
+            {
+                "title": "Reconstruction",
+                "date": "1993-01-01",
+                "description": "The clock tower replica was completed and unveiled."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

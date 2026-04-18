@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "french-cuisine",
-      "modern-dining",
-      "international"
-    ]
-  },
-  "spec": {
-    "name": "Le Rossignol Restaurant",
-    "id": "le-rossignol-restaurant",
-    "description": "Le Rossignol Restaurant (The Nightingale Restaurant) is a dining establishment in Casablanca specializing in **French cuisine**. It likely aims for a formal or classic ambiance, providing high-quality European dining that reflects the city's strong French cultural legacy. It serves as a popular choice for business lunches and fine dining occasions.",
-    "location": {
-      "longitude": -7.6304005,
-      "latitude": 33.5902161,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "french-cuisine",
+            "modern-dining",
+            "international"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Le Rossignol Restaurant",
+        "id": "le-rossignol-restaurant",
+        "description": "Le Rossignol Restaurant (The Nightingale Restaurant) is a dining establishment in Casablanca specializing in **French cuisine**. It likely aims for a formal or classic ambiance, providing high-quality European dining that reflects the city's strong French cultural legacy. It serves as a popular choice for business lunches and fine dining occasions.",
+        "location": {
+            "longitude": -7.6304005,
+            "latitude": 33.5902161,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

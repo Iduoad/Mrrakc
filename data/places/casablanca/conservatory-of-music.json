@@ -1,60 +1,60 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/workshop",
-  "metadata": {
-    "tags": [
-      "music-education",
-      "cultural-institution",
-      "performance-venue",
-      "arts"
-    ]
-  },
-  "spec": {
-    "name": "Conservatory Of Music",
-    "id": "conservatory-of-music",
-    "description": "The Conservatory of Music (Conservatoire de Musique) in Casablanca is a foundational cultural institution dedicated to musical education and performance. It offers training in various musical disciplines, including traditional Moroccan music, classical Western music, and contemporary styles. The conservatory plays a vital role in preserving and promoting Moroccan musical heritage while fostering new artistic talent. It often hosts student and professional concerts open to the public.",
-    "location": {
-      "longitude": -7.6195975,
-      "latitude": 33.5933989,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/workshop",
+    "metadata": {
+        "tags": [
+            "music-education",
+            "cultural-institution",
+            "performance-venue",
+            "arts"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://www.weseecasa.com/project/conservatoire-de-musique/",
-        "type": "article",
-        "title": "Conservatoire de Musique (We See Casa)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "entertainment"
-    ],
-    "items": [
-      "facilities",
-      "goods"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Concert/Performance access",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
+    "spec": {
+        "name": "Conservatory Of Music",
+        "id": "conservatory-of-music",
+        "description": "The Conservatory of Music (Conservatoire de Musique) in Casablanca is a foundational cultural institution dedicated to musical education and performance. It offers training in various musical disciplines, including traditional Moroccan music, classical Western music, and contemporary styles. The conservatory plays a vital role in preserving and promoting Moroccan musical heritage while fostering new artistic talent. It often hosts student and professional concerts open to the public.",
+        "location": {
+            "longitude": -7.6195975,
+            "latitude": 33.5933989,
+            "province": "province/casablanca"
         },
-        {
-          "title": "School enrollment",
-          "modality": "membership",
-          "audience": "students",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://www.weseecasa.com/project/conservatoire-de-musique/",
+                "type": "article",
+                "title": "Conservatoire de Musique (We See Casa)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "entertainment/cinema"
+        ],
+        "items": [
+            "facility/toilets",
+            "item/goods"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Concert/Performance access",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                },
+                {
+                    "title": "School enrollment",
+                    "modality": "membership",
+                    "audience": "students",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

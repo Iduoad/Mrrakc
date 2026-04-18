@@ -1,89 +1,89 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/district",
-  "metadata": {
-    "tags": [
-      "historical-district",
-      "colonial-era",
-      "controlled-area",
-      "architecture",
-      "controversial-history",
-      "habbous-neighbor"
-    ]
-  },
-  "spec": {
-    "name": "Bousbir Quarter",
-    "id": "bousbir-quarter",
-    "description": "The Bousbir Quarter, located adjacent to the Habous Quarter (Nouvelle Médina), holds a unique and controversial place in Casablanca's history. It was a closed, controlled neighborhood established by the French Protectorate authorities in 1924, designed initially as a segregated and regulated area. Architecturally, it was built in the Neo-Moorish style to blend with the Habous Quarter, creating a distinct, walled-off urban environment. Although it no longer serves its original function, the area's architecture and layout remain a subject of historical study, representing a complex facet of colonial-era social engineering and urban planning.",
-    "location": {
-      "longitude": -7.602417,
-      "latitude": 33.5744552,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/district",
+    "metadata": {
+        "tags": [
+            "historical-district",
+            "colonial-era",
+            "controlled-area",
+            "architecture",
+            "controversial-history",
+            "habbous-neighbor"
+        ]
     },
-    "people": [
-      {
-        "id": "people/albert-laprade",
-        "relationship": [
-          "urban-planner"
-        ],
-        "comment": "Architect and urban planner involved in the design of the Habous and surrounding areas, including the architectural style of Bousbir."
-      },
-      {
-        "id": "people/henri-prost",
-        "relationship": [
-          "urban-planner"
-        ],
-        "comment": "The overall urban plan for Casablanca's expansion under the Protectorate influenced the creation of segregated districts."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Quarter Established",
-        "date": "1924-01-01",
-        "description": "The controlled quarter was formally established by the French Protectorate authorities."
-      },
-      {
-        "title": "Official Closure",
-        "date": "1955-01-01",
-        "description": "The quarter was officially closed shortly before Moroccan independence."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Bousbir",
-        "type": "article",
-        "title": "Bousbir Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Bousbir Quarter",
+        "id": "bousbir-quarter",
+        "description": "The Bousbir Quarter, located adjacent to the Habous Quarter (Nouvelle Médina), holds a unique and controversial place in Casablanca's history. It was a closed, controlled neighborhood established by the French Protectorate authorities in 1924, designed initially as a segregated and regulated area. Architecturally, it was built in the Neo-Moorish style to blend with the Habous Quarter, creating a distinct, walled-off urban environment. Although it no longer serves its original function, the area's architecture and layout remain a subject of historical study, representing a complex facet of colonial-era social engineering and urban planning.",
+        "location": {
+            "longitude": -7.602417,
+            "latitude": 33.5744552,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Street access (Exterior view)",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "The area is an open urban district today, though historical internal buildings may be privately owned/restricted."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/albert-laprade",
+                "relationship": [
+                    "urban-planner"
+                ],
+                "comment": "Architect and urban planner involved in the design of the Habous and surrounding areas, including the architectural style of Bousbir."
+            },
+            {
+                "id": "people/henri-prost",
+                "relationship": [
+                    "urban-planner"
+                ],
+                "comment": "The overall urban plan for Casablanca's expansion under the Protectorate influenced the creation of segregated districts."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Quarter Established",
+                "date": "1924-01-01",
+                "description": "The controlled quarter was formally established by the French Protectorate authorities."
+            },
+            {
+                "title": "Official Closure",
+                "date": "1955-01-01",
+                "description": "The quarter was officially closed shortly before Moroccan independence."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Bousbir",
+                "type": "article",
+                "title": "Bousbir Wikipedia Page"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Street access (Exterior view)",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "The area is an open urban district today, though historical internal buildings may be privately owned/restricted."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

@@ -1,42 +1,42 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/bakery",
-  "metadata": {
-    "tags": []
-  },
-  "spec": {
-    "name": "Ahl Fes Pastry Shop",
-    "id": "ahl-fes-pastry-shop",
-    "description": "Ahl Fes is a traditional Moroccan pastry shop in Derb Sultabe specializing in authentic Fassi and Moroccan pastries and sweets. The shop offers a wide variety of traditional Moroccan delicacies including baklava, chebakia, gazelle horns (kaab el ghzal), and other regional specialties. Known for its quality ingredients and traditional preparation methods, Ahl Fes provides locals and visitors with an authentic taste of Moroccan culinary heritage.",
-    "location": {
-      "longitude": -7.6040899,
-      "latitude": 33.5762218,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/bakery",
+    "metadata": {
+        "tags": []
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://maps.app.goo.gl/Q4pRcq7z4WFHmq5k6",
-        "type": "map",
-        "title": "Google Maps"
-      }
-    ],
-    "activities": [
-      "shopping"
-    ],
-    "items": [
-      "food & drink",
-      "kaab el ghzal (gazelle horns)",
-      "moroccan sweets"
-    ],
-    "access": {
-      "type": "private",
-      "options": [],
-      "status": "open"
-    },
-    "timePeriods": [
-      "21st century"
-    ]
-  }
+    "spec": {
+        "name": "Ahl Fes Pastry Shop",
+        "id": "ahl-fes-pastry-shop",
+        "description": "Ahl Fes is a traditional Moroccan pastry shop in Derb Sultabe specializing in authentic Fassi and Moroccan pastries and sweets. The shop offers a wide variety of traditional Moroccan delicacies including baklava, chebakia, gazelle horns (kaab el ghzal), and other regional specialties. Known for its quality ingredients and traditional preparation methods, Ahl Fes provides locals and visitors with an authentic taste of Moroccan culinary heritage.",
+        "location": {
+            "longitude": -7.6040899,
+            "latitude": 33.5762218,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.app.goo.gl/Q4pRcq7z4WFHmq5k6",
+                "type": "map",
+                "title": "Google Maps"
+            }
+        ],
+        "activities": [
+            "shopping/general"
+        ],
+        "items": [
+            "cuisine/drinks",
+            "cuisine/sweets",
+            "cuisine/sweets"
+        ],
+        "access": {
+            "type": "private",
+            "options": [],
+            "status": "open"
+        },
+        "timePeriods": [
+            "21st century"
+        ]
+    }
 }

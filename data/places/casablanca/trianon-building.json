@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Trianon Building",
-    "id": "trianon-building",
-    "description": "The Trianon Building (Immeuble Trianon) is a historical residential and commercial structure completed in 1935. It was designed by architect **Marcel Desmet**, known for his Modernist and Art Deco contributions to Casablanca. The building's architecture is typical of the multi-story apartment and retail blocks of the mid-1930s, reflecting the continued, refined urban development of the city center.",
-    "location": {
-      "longitude": -7.6164368,
-      "latitude": 33.5952906,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marcel-desmet",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Trianon Building",
+        "id": "trianon-building",
+        "description": "The Trianon Building (Immeuble Trianon) is a historical residential and commercial structure completed in 1935. It was designed by architect **Marcel Desmet**, known for his Modernist and Art Deco contributions to Casablanca. The building's architecture is typical of the multi-story apartment and retail blocks of the mid-1930s, reflecting the continued, refined urban development of the city center.",
+        "location": {
+            "longitude": -7.6164368,
+            "latitude": 33.5952906,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marcel-desmet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building."
+            }
         ],
-        "comment": "Architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1935-01-01",
-        "description": "The Trianon Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1935-01-01",
+                "description": "The Trianon Building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

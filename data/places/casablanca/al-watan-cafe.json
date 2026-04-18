@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/cafe",
-  "metadata": {
-    "tags": [
-      "cafe",
-      "local-business",
-      "coffee",
-      "meeting-place"
-    ]
-  },
-  "spec": {
-    "name": "Al Watan Cafe",
-    "id": "al-watan-cafe",
-    "description": "Al Watan Cafe is a local cafe in Casablanca that serves as a neighborhood meeting place. Cafes are fundamental to Moroccan social life, serving not just as places for coffee and tea but as hubs for conversation, business, and community interaction. Its location suggests it caters to a local clientele, offering a traditional Casablanca cafe experience.",
-    "location": {
-      "longitude": -7.6054613,
-      "latitude": 33.5744823,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/cafe",
+    "metadata": {
+        "tags": [
+            "cafe",
+            "local-business",
+            "coffee",
+            "meeting-place"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Cafe services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Al Watan Cafe",
+        "id": "al-watan-cafe",
+        "description": "Al Watan Cafe is a local cafe in Casablanca that serves as a neighborhood meeting place. Cafes are fundamental to Moroccan social life, serving not just as places for coffee and tea but as hubs for conversation, business, and community interaction. Its location suggests it caters to a local clientele, offering a traditional Casablanca cafe experience.",
+        "location": {
+            "longitude": -7.6054613,
+            "latitude": 33.5744823,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Cafe services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

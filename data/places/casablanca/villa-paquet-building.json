@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Villa Paquet Building",
-    "id": "villa-paquet-building",
-    "description": "The Villa Paquet Building (Immeuble Villa Paquet) is a multi-story structure completed in 1952, designed by architect **Jacques Gouyon**. Its architecture reflects the late Modernist and functionalist trends of the post-war era. It is named after the Paquet family or company, reflecting the strong French commercial presence in the city during this period.",
-    "location": {
-      "longitude": -7.608807,
-      "latitude": 33.5940552,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/jacques-gouyon",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Villa Paquet Building",
+        "id": "villa-paquet-building",
+        "description": "The Villa Paquet Building (Immeuble Villa Paquet) is a multi-story structure completed in 1952, designed by architect **Jacques Gouyon**. Its architecture reflects the late Modernist and functionalist trends of the post-war era. It is named after the Paquet family or company, reflecting the strong French commercial presence in the city during this period.",
+        "location": {
+            "longitude": -7.608807,
+            "latitude": 33.5940552,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/jacques-gouyon",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building."
+            }
         ],
-        "comment": "Architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1952-01-01",
-        "description": "The Villa Paquet Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "1950s",
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1952-01-01",
+                "description": "The Villa Paquet Building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "1950s",
+            "contemporary period"
+        ]
+    }
 }

@@ -1,69 +1,69 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "cinema",
-      "multiplex",
-      "modern",
-      "international-chain",
-      "entertainment"
-    ]
-  },
-  "spec": {
-    "name": "Pathé Cinema",
-    "id": "pathe-cinema",
-    "description": "Pathé Cinema is a modern multiplex movie theater in Casablanca, part of the international Pathé cinema chain. It offers a premium cinematic experience with multiple screens, advanced digital projection, and comfortable amenities, screening a range of international and Arabic films. Pathé represents the highest tier of contemporary cinema entertainment in the city.",
-    "location": {
-      "longitude": -7.6398598,
-      "latitude": 33.5440783,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "cinema",
+            "multiplex",
+            "modern",
+            "international-chain",
+            "entertainment"
+        ]
     },
-    "people": [
-      {
-        "id": "people/pathe-group",
-        "relationship": [
-          "owner",
-          "operator"
+    "spec": {
+        "name": "Pathé Cinema",
+        "id": "pathe-cinema",
+        "description": "Pathé Cinema is a modern multiplex movie theater in Casablanca, part of the international Pathé cinema chain. It offers a premium cinematic experience with multiple screens, advanced digital projection, and comfortable amenities, screening a range of international and Arabic films. Pathé represents the highest tier of contemporary cinema entertainment in the city.",
+        "location": {
+            "longitude": -7.6398598,
+            "latitude": 33.5440783,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/pathe-group",
+                "relationship": [
+                    "owner",
+                    "operator"
+                ],
+                "comment": "The French cinema group that operates the multiplex."
+            }
         ],
-        "comment": "The French cinema group that operates the multiplex."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Cinema Opening",
-        "date": "2015-01-01",
-        "description": "The modern Pathé cinema was opened (Approximate date)."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://pathe.ma/",
-        "type": "website",
-        "title": "Pathé Morocco Official Website"
-      }
-    ],
-    "activities": [
-      "sightseeing",
-      "socializing"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Ticket price",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Cinema Opening",
+                "date": "2015-01-01",
+                "description": "The modern Pathé cinema was opened (Approximate date)."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://pathe.ma/",
+                "type": "website",
+                "title": "Pathé Morocco Official Website"
+            }
+        ],
+        "activities": [
+            "sightseeing/historical",
+            "socializing/community"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Ticket price",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

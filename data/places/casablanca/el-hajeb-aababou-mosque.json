@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": [
-      "religious",
-      "local-mosque",
-      "worship-center",
-      "architecture"
-    ]
-  },
-  "spec": {
-    "name": "El Hajeb Aababou Mosque",
-    "id": "el-hajeb-aababou-mosque",
-    "description": "El Hajeb Aababou Mosque (Mosquée El Hajeb Aababou) is a local community mosque located in a residential area of Casablanca. It serves as a vital center for daily Muslim worship, religious education, and community activities for the surrounding neighborhood. Like most Moroccan mosques, it features a minaret and traditional architectural design adapted to the urban setting.",
-    "location": {
-      "longitude": -7.605178,
-      "latitude": 33.5789904,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": [
+            "religious",
+            "local-mosque",
+            "worship-center",
+            "architecture"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities",
-      "socializing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access for Muslims",
-          "modality": "free",
-          "audience": "muslims",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "El Hajeb Aababou Mosque",
+        "id": "el-hajeb-aababou-mosque",
+        "description": "El Hajeb Aababou Mosque (Mosquée El Hajeb Aababou) is a local community mosque located in a residential area of Casablanca. It serves as a vital center for daily Muslim worship, religious education, and community activities for the surrounding neighborhood. Like most Moroccan mosques, it features a minaret and traditional architectural design adapted to the urban setting.",
+        "location": {
+            "longitude": -7.605178,
+            "latitude": 33.5789904,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general",
+            "socializing/community"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access for Muslims",
+                    "modality": "free",
+                    "audience": "muslims",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

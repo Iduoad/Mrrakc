@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "commercial",
-      "laboratory",
-      "art-deco",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Tazi Laboratory Building",
-    "id": "tazi-laboratory-building",
-    "description": "The Tazi Laboratory Building is a historical commercial and medical structure dating from the **1930s**. It was likely built as a private or commercial laboratory facility, reflecting the growing presence of modern medical and scientific services during the French Protectorate era. The building's functionalist and Art Deco architectural style is typical of the commercial development in the surrounding central district.",
-    "location": {
-      "longitude": -7.6255254,
-      "latitude": 33.590908,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "commercial",
+            "laboratory",
+            "art-deco",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/tazi-family",
-        "relationship": [
-          "original-owner"
+    "spec": {
+        "name": "Tazi Laboratory Building",
+        "id": "tazi-laboratory-building",
+        "description": "The Tazi Laboratory Building is a historical commercial and medical structure dating from the **1930s**. It was likely built as a private or commercial laboratory facility, reflecting the growing presence of modern medical and scientific services during the French Protectorate era. The building's functionalist and Art Deco architectural style is typical of the commercial development in the surrounding central district.",
+        "location": {
+            "longitude": -7.6255254,
+            "latitude": 33.590908,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/tazi-family",
+                "relationship": [
+                    "original-owner"
+                ],
+                "comment": "The family associated with commissioning or running the laboratory."
+            }
         ],
-        "comment": "The family associated with commissioning or running the laboratory."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1935-01-01",
-        "description": "The laboratory building was completed (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "medical services",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted."
-    },
-    "timePeriods": [
-      "1930s"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1935-01-01",
+                "description": "The laboratory building was completed (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/medical",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted."
+        },
+        "timePeriods": [
+            "1930s"
+        ]
+    }
 }

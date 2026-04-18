@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/market",
-  "metadata": {
-    "tags": [
-      "market",
-      "souk",
-      "local-commerce",
-      "hay-hassani",
-      "traditional-market"
-    ]
-  },
-  "spec": {
-    "name": "Souk Ouald Mina",
-    "id": "souk-ouald-mina",
-    "description": "Souk Ouald Mina is a local marketplace or souk in the Hay Hassani neighborhood. These souks are informal or semi-formal commercial centers, typically offering fresh food, spices, clothing, and various household goods, serving as a primary shopping and social hub for the immediate residential community.",
-    "location": {
-      "longitude": -7.6741414,
-      "latitude": 33.5686798,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/market",
+    "metadata": {
+        "tags": [
+            "market",
+            "souk",
+            "local-commerce",
+            "hay-hassani",
+            "traditional-market"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "shopping"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Souk Ouald Mina",
+        "id": "souk-ouald-mina",
+        "description": "Souk Ouald Mina is a local marketplace or souk in the Hay Hassani neighborhood. These souks are informal or semi-formal commercial centers, typically offering fresh food, spices, clothing, and various household goods, serving as a primary shopping and social hub for the immediate residential community.",
+        "location": {
+            "longitude": -7.6741414,
+            "latitude": 33.5686798,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/street-food",
-  "metadata": {
-    "tags": [
-      "street-food",
-      "traditional-food",
-      "late-night-dining",
-      "mqila",
-      "local-cuisine"
-    ]
-  },
-  "spec": {
-    "name": "Midnight Mqila",
-    "id": "midnight-mqila",
-    "description": "Midnight Mqila (M'qila de Minuit) refers to stalls or venues specializing in 'mqila' (a hot, savory stew or slow-cooked meat dish, often eaten with bread) that are particularly popular late at night or around midnight. This type of street food vendor caters to the late-night social scene and represents a distinctive part of Casablanca's nocturnal culinary culture, offering filling, traditional meals after other restaurants have closed.",
-    "location": {
-      "longitude": -7.608944,
-      "latitude": 33.5971778,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/street-food",
+    "metadata": {
+        "tags": [
+            "street-food",
+            "traditional-food",
+            "late-night-dining",
+            "mqila",
+            "local-cuisine"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Food purchase",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "Typically operates during evening and late-night hours."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Midnight Mqila",
+        "id": "midnight-mqila",
+        "description": "Midnight Mqila (M'qila de Minuit) refers to stalls or venues specializing in 'mqila' (a hot, savory stew or slow-cooked meat dish, often eaten with bread) that are particularly popular late at night or around midnight. This type of street food vendor caters to the late-night social scene and represents a distinctive part of Casablanca's nocturnal culinary culture, offering filling, traditional meals after other restaurants have closed.",
+        "location": {
+            "longitude": -7.608944,
+            "latitude": 33.5971778,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Food purchase",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "Typically operates during evening and late-night hours."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

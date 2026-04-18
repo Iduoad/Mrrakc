@@ -1,65 +1,65 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/mall",
-  "metadata": {
-    "tags": [
-      "shopping-center",
-      "retail",
-      "leisure",
-      "modern-architecture",
-      "seaside"
-    ]
-  },
-  "spec": {
-    "name": "Anfaplace Mall",
-    "id": "anfaplace-mall",
-    "description": "Anfaplace Mall is a contemporary shopping and leisure center situated on the Ain Diab Corniche in Casablanca, offering stunning views of the Atlantic Ocean. It was designed by the acclaimed international architectural firm led by Norman Foster, giving it a sleek, modern architectural profile. The mall is a popular destination for shopping, dining, and entertainment, hosting a variety of international and local brands. Its development is part of the larger Anfaplace Living Resort complex.",
-    "location": {
-      "longitude": -7.6646354,
-      "latitude": 33.598129,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/mall",
+    "metadata": {
+        "tags": [
+            "shopping-center",
+            "retail",
+            "leisure",
+            "modern-architecture",
+            "seaside"
+        ]
     },
-    "people": [
-      {
-        "id": "people/norman-foster",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Anfaplace Mall",
+        "id": "anfaplace-mall",
+        "description": "Anfaplace Mall is a contemporary shopping and leisure center situated on the Ain Diab Corniche in Casablanca, offering stunning views of the Atlantic Ocean. It was designed by the acclaimed international architectural firm led by Norman Foster, giving it a sleek, modern architectural profile. The mall is a popular destination for shopping, dining, and entertainment, hosting a variety of international and local brands. Its development is part of the larger Anfaplace Living Resort complex.",
+        "location": {
+            "longitude": -7.6646354,
+            "latitude": 33.598129,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/norman-foster",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Acclaimed British architect who designed the mall."
+            }
         ],
-        "comment": "Acclaimed British architect who designed the mall."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Mall Opening",
-        "date": "2013-02-08",
-        "description": "Anfaplace Mall officially opened to the public."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "dining",
-      "entertainment",
-      "shopping"
-    ],
-    "items": [
-      "coastline",
-      "facilities",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mall access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Mall Opening",
+                "date": "2013-02-08",
+                "description": "Anfaplace Mall officially opened to the public."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "entertainment/cinema",
+            "shopping/general"
+        ],
+        "items": [
+            "nature/coastline",
+            "facility/toilets",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mall access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

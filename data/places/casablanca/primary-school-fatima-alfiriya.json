@@ -1,62 +1,62 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/school",
-  "metadata": {
-    "tags": [
-      "education",
-      "historical-figure",
-      "old-medina-vicinity",
-      "primary-school"
-    ]
-  },
-  "spec": {
-    "name": "Primary School Fatima Alfiriya",
-    "id": "primary-school-fatima-alfiriya",
-    "description": "Primary School Fatima Alfiriya (École Primaire Fatima Alfiriya) is an educational institution named after **Fatima al-Fihri**, the influential Muslim woman who founded the University of al-Qarawiyyin in Fez in the 9th century. The school honors this historical figure and serves the local community with primary education. Its location near the Old Medina and historical buildings suggests it is a well-established local school.",
-    "location": {
-      "longitude": -7.6188368,
-      "latitude": 33.6019693,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/school",
+    "metadata": {
+        "tags": [
+            "education",
+            "historical-figure",
+            "old-medina-vicinity",
+            "primary-school"
+        ]
     },
-    "people": [
-      {
-        "id": "people/fatima-alfihri",
-        "relationship": [
-          "namesake",
-          "historical-figure"
-        ],
-        "comment": "The founder of the University of al-Qarawiyyin, after whom the school is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cultural activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Primary School Fatima Alfiriya",
+        "id": "primary-school-fatima-alfiriya",
+        "description": "Primary School Fatima Alfiriya (École Primaire Fatima Alfiriya) is an educational institution named after **Fatima al-Fihri**, the influential Muslim woman who founded the University of al-Qarawiyyin in Fez in the 9th century. The school honors this historical figure and serves the local community with primary education. Its location near the Old Medina and historical buildings suggests it is a well-established local school.",
+        "location": {
+            "longitude": -7.6188368,
+            "latitude": 33.6019693,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Access for Students and Staff",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/fatima-alfihri",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "The founder of the University of al-Qarawiyyin, after whom the school is named."
+            }
+        ],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Access for Students and Staff",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted primarily to students, staff, and authorized personnel."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,53 +1,53 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "historical-cinema",
-      "art-deco",
-      "closed",
-      "national-heritage",
-      "1940s-1950s"
-    ]
-  },
-  "spec": {
-    "name": "Mamouniya Cinema",
-    "id": "mamouniya-cinema",
-    "description": "Mamouniya Cinema (Cinéma Mamouniya) is a historical movie theater established in the mid-20th century (1940–1950 period) in Casablanca. Its architecture is representative of the grand cinemas that characterized the city's cultural boom during the late French Protectorate, likely featuring Art Deco or modernist elements. Though now **closed**, its cultural significance was recognized when the building was declared a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6023812,
-      "latitude": 33.5838878,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "historical-cinema",
+            "art-deco",
+            "closed",
+            "national-heritage",
+            "1940s-1950s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Establishment Period",
-        "date": "1945-01-01",
-        "description": "The cinema was built during the peak period of cinema construction in Casablanca (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "closed",
-      "comment": "The cinema is currently closed for operation; interior access is restricted."
-    },
-    "timePeriods": [
-      "20th century"
-    ]
-  }
+    "spec": {
+        "name": "Mamouniya Cinema",
+        "id": "mamouniya-cinema",
+        "description": "Mamouniya Cinema (Cinéma Mamouniya) is a historical movie theater established in the mid-20th century (1940–1950 period) in Casablanca. Its architecture is representative of the grand cinemas that characterized the city's cultural boom during the late French Protectorate, likely featuring Art Deco or modernist elements. Though now **closed**, its cultural significance was recognized when the building was declared a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6023812,
+            "latitude": 33.5838878,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Establishment Period",
+                "date": "1945-01-01",
+                "description": "The cinema was built during the peak period of cinema construction in Casablanca (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "closed",
+            "comment": "The cinema is currently closed for operation; interior access is restricted."
+        },
+        "timePeriods": [
+            "20th century"
+        ]
+    }
 }

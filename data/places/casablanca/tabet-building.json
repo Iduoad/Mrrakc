@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Tabet Building",
-    "id": "tabet-building",
-    "description": "The Tabet Building is a historical residential and commercial structure completed in 1929. It was designed by the prominent Art Deco architects **Joseph and Elias Suraqui**. The building reflects the characteristic multi-story, mixed-use construction of the French Protectorate's new town, featuring the geometric detailing and decorative elements typical of the Suraqui brothers' work.",
-    "location": {
-      "longitude": -7.620145,
-      "latitude": 33.593584,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/joseph-suraqui",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Tabet Building",
+        "id": "tabet-building",
+        "description": "The Tabet Building is a historical residential and commercial structure completed in 1929. It was designed by the prominent Art Deco architects **Joseph and Elias Suraqui**. The building reflects the characteristic multi-story, mixed-use construction of the French Protectorate's new town, featuring the geometric detailing and decorative elements typical of the Suraqui brothers' work.",
+        "location": {
+            "longitude": -7.620145,
+            "latitude": 33.593584,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/joseph-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            },
+            {
+                "id": "people/elias-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      },
-      {
-        "id": "people/elias-suraqui",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1929-01-01",
+                "description": "The Tabet Building was completed."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1929-01-01",
-        "description": "The Tabet Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }
