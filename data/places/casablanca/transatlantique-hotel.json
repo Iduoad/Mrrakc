@@ -1,77 +1,77 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/hotel",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "hotel",
-      "art-deco",
-      "national-heritage",
-      "1920s",
-      "city-center"
-    ]
-  },
-  "spec": {
-    "name": "Transatlantique Hotel",
-    "id": "transatlantique-hotel",
-    "description": "The Transatlantique Hotel (Hôtel Transatlantique) is a major historical hotel, completed in 1922. It was owned by the Compagnie Générale Transatlantique, a French shipping company, and reflects the grand scale and elegance of colonial-era hospitality. The architecture is a blend of Art Deco and Neo-Moorish styles, characteristic of the monumental buildings of the 'new town.' Its historical importance was recognized by its designation as a **National Material Patrimony** site in 2004.",
-    "location": {
-      "longitude": -7.6141621,
-      "latitude": 33.5923948,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/hotel",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "hotel",
+            "art-deco",
+            "national-heritage",
+            "1920s",
+            "city-center"
+        ]
     },
-    "people": [
-      {
-        "id": "people/compagnie-generale-transatlantique",
-        "relationship": [
-          "original-owner"
-        ],
-        "comment": "The French shipping company that owned and operated the hotel."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed and Opened",
-        "date": "1922-01-01",
-        "description": "The hotel was completed and opened for accommodation."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2004-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "accommodation",
-      "dining"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Transatlantique Hotel",
+        "id": "transatlantique-hotel",
+        "description": "The Transatlantique Hotel (Hôtel Transatlantique) is a major historical hotel, completed in 1922. It was owned by the Compagnie Générale Transatlantique, a French shipping company, and reflects the grand scale and elegance of colonial-era hospitality. The architecture is a blend of Art Deco and Neo-Moorish styles, characteristic of the monumental buildings of the 'new town.' Its historical importance was recognized by its designation as a **National Material Patrimony** site in 2004.",
+        "location": {
+            "longitude": -7.6141621,
+            "latitude": 33.5923948,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Hotel services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "Access is public for guests and patrons of hotel facilities."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/compagnie-generale-transatlantique",
+                "relationship": [
+                    "original-owner"
+                ],
+                "comment": "The French shipping company that owned and operated the hotel."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Building Completed and Opened",
+                "date": "1922-01-01",
+                "description": "The hotel was completed and opened for accommodation."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2004-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "accommodation/hotel",
+            "dining/restaurant"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Hotel services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "Access is public for guests and patrons of hotel facilities."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

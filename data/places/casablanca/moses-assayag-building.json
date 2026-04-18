@@ -1,82 +1,82 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Moses Assayag Building",
-    "id": "moses-assayag-building",
-    "description": "The Moses Assayag Building is a prominent historical residential and commercial structure, completed between 1930 and 1932. It was designed by architect **Marius Boyer**, whose Art Deco and Neo-Moorish buildings defined much of Casablanca's central district. The building's name refers to its original owner, likely from the influential Jewish community of Casablanca. Its importance to the city's architectural and social history was recognized with its designation as a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.61042,
-      "latitude": 33.5954482,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Moses Assayag Building",
+        "id": "moses-assayag-building",
+        "description": "The Moses Assayag Building is a prominent historical residential and commercial structure, completed between 1930 and 1932. It was designed by architect **Marius Boyer**, whose Art Deco and Neo-Moorish buildings defined much of Casablanca's central district. The building's name refers to its original owner, likely from the influential Jewish community of Casablanca. Its importance to the city's architectural and social history was recognized with its designation as a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.61042,
+            "latitude": 33.5954482,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the building."
+            },
+            {
+                "id": "people/moses-assayag",
+                "relationship": [
+                    "original-owner"
+                ],
+                "comment": "The original Jewish owner/commissioner of the building."
+            }
         ],
-        "comment": "French architect who designed the building."
-      },
-      {
-        "id": "people/moses-assayag",
-        "relationship": [
-          "original-owner"
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1932-01-01",
+                "description": "The Moses Assayag Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
         ],
-        "comment": "The original Jewish owner/commissioner of the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1932-01-01",
-        "description": "The Moses Assayag Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://medias24.com/2022/02/04/visite-guidee-le-casablanca-de-rachid-andaloussi/",
-        "type": "article",
-        "title": "Visite Guidee. Le Casablanca de Rachid Andaloussi (Article referencing the building)"
-      }
-    ],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [
+            {
+                "url": "https://medias24.com/2022/02/04/visite-guidee-le-casablanca-de-rachid-andaloussi/",
+                "type": "article",
+                "title": "Visite Guidee. Le Casablanca de Rachid Andaloussi (Article referencing the building)"
+            }
+        ],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

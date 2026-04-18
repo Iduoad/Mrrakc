@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "international-cuisine",
-      "modern-dining",
-      "healthy-food"
-    ]
-  },
-  "spec": {
-    "name": "Les Soeurettes Restaurant",
-    "id": "les-soeurettes-restaurant",
-    "description": "Les Soeurettes Restaurant (The Little Sisters Restaurant) is a modern dining spot in Casablanca known for its **International menu** and a specific focus on fresh, **custom salads** and healthy food options. It caters to a contemporary urban clientele looking for quick, quality meals and customizable dishes. The restaurant provides a casual yet stylish setting for lunch and dinner.",
-    "location": {
-      "longitude": -7.6443176,
-      "latitude": 33.5910986,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "international-cuisine",
+            "modern-dining",
+            "healthy-food"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "custom salad bar access",
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Les Soeurettes Restaurant",
+        "id": "les-soeurettes-restaurant",
+        "description": "Les Soeurettes Restaurant (The Little Sisters Restaurant) is a modern dining spot in Casablanca known for its **International menu** and a specific focus on fresh, **custom salads** and healthy food options. It caters to a contemporary urban clientele looking for quick, quality meals and customizable dishes. The restaurant provides a casual yet stylish setting for lunch and dinner.",
+        "location": {
+            "longitude": -7.6443176,
+            "latitude": 33.5910986,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,64 +1,64 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "international-cuisine",
-      "rooftop-bar",
-      "panoramic-view",
-      "fine-dining"
-    ]
-  },
-  "spec": {
-    "name": "Sky 28 Restaurant",
-    "id": "sky-28-restaurant",
-    "description": "Sky 28 Restaurant is a premium dining and bar establishment located on the 28th floor of a high-rise building (often the Kenzi Tower Hotel) in Casablanca's business district. It specializes in **International cuisine** and is renowned for its spectacular **360° panoramic views** of the city, including the Hassan II Mosque and the coastline. It caters to a sophisticated clientele for fine dining, cocktails, and special events.",
-    "location": {
-      "longitude": -7.6320104,
-      "latitude": 33.586646,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "international-cuisine",
+            "rooftop-bar",
+            "panoramic-view",
+            "fine-dining"
+        ]
     },
-    "people": [
-      {
-        "id": "people/kenzi-group",
-        "relationship": [
-          "owner",
-          "operator"
+    "spec": {
+        "name": "Sky 28 Restaurant",
+        "id": "sky-28-restaurant",
+        "description": "Sky 28 Restaurant is a premium dining and bar establishment located on the 28th floor of a high-rise building (often the Kenzi Tower Hotel) in Casablanca's business district. It specializes in **International cuisine** and is renowned for its spectacular **360° panoramic views** of the city, including the Hassan II Mosque and the coastline. It caters to a sophisticated clientele for fine dining, cocktails, and special events.",
+        "location": {
+            "longitude": -7.6320104,
+            "latitude": 33.586646,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/kenzi-group",
+                "relationship": [
+                    "owner",
+                    "operator"
+                ],
+                "comment": "Operator of the hotel/complex where the restaurant is located."
+            }
         ],
-        "comment": "Operator of the hotel/complex where the restaurant is located."
-      }
-    ],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://www.kenzitower.com/fr/restaurants-et-bars/sky-28",
-        "type": "website",
-        "title": "Sky 28 Official Page (Kenzi Tower Hotel)"
-      }
-    ],
-    "activities": [
-      "dining",
-      "relaxing"
-    ],
-    "items": [
-      "architecture",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant and Bar services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://www.kenzitower.com/fr/restaurants-et-bars/sky-28",
+                "type": "website",
+                "title": "Sky 28 Official Page (Kenzi Tower Hotel)"
+            }
+        ],
+        "activities": [
+            "dining/restaurant",
+            "wellness/relaxing"
+        ],
+        "items": [
+            "architecture/historical",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant and Bar services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

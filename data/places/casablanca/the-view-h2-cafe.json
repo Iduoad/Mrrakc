@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/cafe",
-  "metadata": {
-    "tags": [
-      "cafe",
-      "ocean-view",
-      "hassan-ii-mosque-vicinity",
-      "leisure"
-    ]
-  },
-  "spec": {
-    "name": "The view H2 Cafe",
-    "id": "the-view-h2-cafe",
-    "description": "The View H2 Cafe (Café La Vue H2) is a modern cafe located near the Hassan II Mosque (H2), offering excellent views of the mosque and the Atlantic Ocean. It provides a contemporary, comfortable setting for coffee, tea, and light snacks, serving as a popular spot for visitors to the mosque complex and locals enjoying the coastal area.",
-    "location": {
-      "longitude": -7.6288981,
-      "latitude": 33.6079998,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/cafe",
+    "metadata": {
+        "tags": [
+            "cafe",
+            "ocean-view",
+            "hassan-ii-mosque-vicinity",
+            "leisure"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "sightseeing",
-      "socializing"
-    ],
-    "items": [
-      "coastline",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Cafe services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "The view H2 Cafe",
+        "id": "the-view-h2-cafe",
+        "description": "The View H2 Cafe (Café La Vue H2) is a modern cafe located near the Hassan II Mosque (H2), offering excellent views of the mosque and the Atlantic Ocean. It provides a contemporary, comfortable setting for coffee, tea, and light snacks, serving as a popular spot for visitors to the mosque complex and locals enjoying the coastal area.",
+        "location": {
+            "longitude": -7.6288981,
+            "latitude": 33.6079998,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "sightseeing/historical",
+            "socializing/community"
+        ],
+        "items": [
+            "nature/coastline",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Cafe services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

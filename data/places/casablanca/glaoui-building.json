@@ -1,90 +1,90 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "neo-moorish",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Glaoui Building",
-    "id": "glaoui-building",
-    "description": "The Glaoui Building is a prestigious and historically significant residential and commercial structure in central Casablanca. Designed by architects **Marius Boyer** and **Jean Balois** and constructed between 1922 and 1927, it is a prime example of the Neo-Moorish architectural style favored by the Protectorate for important civilian buildings. The building was likely commissioned by or named after the influential family of Thami El Glaoui, the Pasha of Marrakech. Its grand scale and fusion of traditional Moroccan craftsmanship with modernist forms cemented its importance, leading to its designation as a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6164083,
-      "latitude": 33.595488,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "neo-moorish",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Glaoui Building",
+        "id": "glaoui-building",
+        "description": "The Glaoui Building is a prestigious and historically significant residential and commercial structure in central Casablanca. Designed by architects **Marius Boyer** and **Jean Balois** and constructed between 1922 and 1927, it is a prime example of the Neo-Moorish architectural style favored by the Protectorate for important civilian buildings. The building was likely commissioned by or named after the influential family of Thami El Glaoui, the Pasha of Marrakech. Its grand scale and fusion of traditional Moroccan craftsmanship with modernist forms cemented its importance, leading to its designation as a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6164083,
+            "latitude": 33.595488,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who co-designed the Glaoui Building."
+            },
+            {
+                "id": "people/jean-balois",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the Glaoui Building."
+            },
+            {
+                "id": "people/thami-el-glaoui",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "Influential Pasha of Marrakech, after whose family the building is likely named."
+            }
         ],
-        "comment": "French architect who co-designed the Glaoui Building."
-      },
-      {
-        "id": "people/jean-balois",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Construction Began",
+                "date": "1922-01-01",
+                "description": "Construction of the prestigious building began."
+            },
+            {
+                "title": "Building Completed",
+                "date": "1927-01-01",
+                "description": "The Glaoui Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
         ],
-        "comment": "Architect who co-designed the Glaoui Building."
-      },
-      {
-        "id": "people/thami-el-glaoui",
-        "relationship": [
-          "namesake",
-          "historical-figure"
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
         ],
-        "comment": "Influential Pasha of Marrakech, after whose family the building is likely named."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Began",
-        "date": "1922-01-01",
-        "description": "Construction of the prestigious building began."
-      },
-      {
-        "title": "Building Completed",
-        "date": "1927-01-01",
-        "description": "The Glaoui Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

@@ -1,85 +1,85 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": [
-      "religious",
-      "historical-mosque",
-      "habous-quarter",
-      "neo-moorish",
-      "colonial-architecture",
-      "20th-century"
-    ]
-  },
-  "spec": {
-    "name": "Muhammadi Mosque",
-    "id": "muhammadi-mosque",
-    "description": "The Muhammadi Mosque (Mosquée Muhammadi), also known as the **Mohammed Ben Youssef Mosque**, is a grand historical mosque in the Habous Quarter, designed by French architects **Auguste Cadet and Edmond Brion** and built between 1934 and 1936 CE. It is named after **Sultan Mohammed Ben Youssef (King Mohammed V)**, symbolizing his role as a spiritual and national leader. Recognized as one of Casablanca's largest mosques (second only to Hassan II Mosque in size), it is an exemplary work of the Neo-Moorish style, featuring monumental scale and traditional Moroccan decoration. It remains a major active religious center.",
-    "location": {
-      "longitude": -7.6060377,
-      "latitude": 33.5763273,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": [
+            "religious",
+            "historical-mosque",
+            "habous-quarter",
+            "neo-moorish",
+            "colonial-architecture",
+            "20th-century"
+        ]
     },
-    "people": [
-      {
-        "id": "people/mohammed-v",
-        "relationship": [
-          "sultan",
-          "namesake"
+    "spec": {
+        "name": "Muhammadi Mosque",
+        "id": "muhammadi-mosque",
+        "description": "The Muhammadi Mosque (Mosquée Muhammadi), also known as the **Mohammed Ben Youssef Mosque**, is a grand historical mosque in the Habous Quarter, designed by French architects **Auguste Cadet and Edmond Brion** and built between 1934 and 1936 CE. It is named after **Sultan Mohammed Ben Youssef (King Mohammed V)**, symbolizing his role as a spiritual and national leader. Recognized as one of Casablanca's largest mosques (second only to Hassan II Mosque in size), it is an exemplary work of the Neo-Moorish style, featuring monumental scale and traditional Moroccan decoration. It remains a major active religious center.",
+        "location": {
+            "longitude": -7.6060377,
+            "latitude": 33.5763273,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/mohammed-v",
+                "relationship": [
+                    "sultan",
+                    "namesake"
+                ],
+                "comment": "Sultan of Morocco after whom the mosque is named."
+            },
+            {
+                "id": "people/auguste-cadet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who co-designed the mosque."
+            },
+            {
+                "id": "people/edmond-brion",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who co-designed the mosque."
+            }
         ],
-        "comment": "Sultan of Morocco after whom the mosque is named."
-      },
-      {
-        "id": "people/auguste-cadet",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1934-01-01",
+                "description": "Construction began on the mosque."
+            },
+            {
+                "title": "Completion Date",
+                "date": "1936-01-01",
+                "description": "The mosque was completed and opened for worship."
+            }
         ],
-        "comment": "French architect who co-designed the mosque."
-      },
-      {
-        "id": "people/edmond-brion",
-        "relationship": [
-          "architect"
+        "links": [],
+        "activities": [
+            "religious/general",
+            "sightseeing/historical"
         ],
-        "comment": "French architect who co-designed the mosque."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1934-01-01",
-        "description": "Construction began on the mosque."
-      },
-      {
-        "title": "Completion Date",
-        "date": "1936-01-01",
-        "description": "The mosque was completed and opened for worship."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "religious activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access for Muslims",
-          "modality": "free",
-          "audience": "muslims",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access for Muslims",
+                    "modality": "free",
+                    "audience": "muslims",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

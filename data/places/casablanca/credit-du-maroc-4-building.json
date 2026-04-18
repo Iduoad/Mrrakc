@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Crédit Du Maroc 4 Building",
-    "id": "credit-du-maroc-4-building",
-    "description": "The Crédit Du Maroc 4 Building is a historical residential and commercial structure dating from the 1920s, located in Casablanca's highly valued central district. It is architecturally significant as a prime example of the early Art Deco period that characterized the 'new town' construction. Its preservation and historical value were formally recognized by its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6169237,
-      "latitude": 33.5876982,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1920-01-01",
-        "description": "The building was completed during the 1920s (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Crédit Du Maroc 4 Building",
+        "id": "credit-du-maroc-4-building",
+        "description": "The Crédit Du Maroc 4 Building is a historical residential and commercial structure dating from the 1920s, located in Casablanca's highly valued central district. It is architecturally significant as a prime example of the early Art Deco period that characterized the 'new town' construction. Its preservation and historical value were formally recognized by its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6169237,
+            "latitude": 33.5876982,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1920-01-01",
+                "description": "The building was completed during the 1920s (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

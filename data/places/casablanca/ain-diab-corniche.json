@@ -1,90 +1,89 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/corniche",
-  "metadata": {
-    "tags": [
-      "seaside",
-      "promenade",
-      "entertainment",
-      "nightlife",
-      "historic-development",
-      "atlantic-coast"
-    ]
-  },
-  "spec": {
-    "name": "Ain Diab Corniche",
-    "id": "ain-diab-corniche",
-    "description": "The Ain Diab Corniche is Casablanca's premier seaside promenade, transforming from a small fishing village into a vibrant hub of leisure and entertainment during the French Protectorate era. Development began in the 1920s and 1930s with the construction of beach clubs, restaurants, and cafes. Today, it is famous for its fashionable stretch of coastline, lined with hotels, restaurants, nightclubs, and public beaches like Lalla Meryem and Ain Diab Beach. It is a major attraction for both locals and tourists, serving as a center for relaxation, sports, and nightlife.",
-    "location": {
-      "longitude": -7.6742452,
-      "latitude": 33.5964552,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/corniche",
+    "metadata": {
+        "tags": [
+            "seaside",
+            "promenade",
+            "entertainment",
+            "nightlife",
+            "historic-development",
+            "atlantic-coast"
+        ]
     },
-    "people": [
-      {
-        "id": "people/tahir-shah",
-        "relationship": [
-          "notable-resident"
+    "spec": {
+        "name": "Ain Diab Corniche",
+        "id": "ain-diab-corniche",
+        "description": "The Ain Diab Corniche is Casablanca's premier seaside promenade, transforming from a small fishing village into a vibrant hub of leisure and entertainment during the French Protectorate era. Development began in the 1920s and 1930s with the construction of beach clubs, restaurants, and cafes. Today, it is famous for its fashionable stretch of coastline, lined with hotels, restaurants, nightclubs, and public beaches like Lalla Meryem and Ain Diab Beach. It is a major attraction for both locals and tourists, serving as a center for relaxation, sports, and nightlife.",
+        "location": {
+            "longitude": -7.6742452,
+            "latitude": 33.5964552,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/tahir-shah",
+                "relationship": [
+                    "notable-resident"
+                ],
+                "comment": "British-born writer known to be a resident of the Ain Diab neighborhood."
+            }
         ],
-        "comment": "British-born writer known to be a resident of the Ain Diab neighborhood."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Initial Development Begins",
-        "date": "1920-01-01",
-        "description": "Start of development during the French Protectorate era, with the establishment of early beach clubs and cafes."
-      },
-      {
-        "title": "Formula One Race",
-        "date": "1958-10-19",
-        "description": "Ain Diab hosted a round of the Formula One World Championship on the Ain-Diab Circuit."
-      },
-      {
-        "title": "McDonald's Opening",
-        "date": "1992-01-01",
-        "description": "The first McDonald's franchise in Africa and the Arab world opened on Ain Diab."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Ain_Diab",
-        "type": "article",
-        "title": "Ain Diab Wikipedia Page"
-      },
-      {
-        "url": "https://maps.app.goo.gl/CLpQqb16A9dAJBwNA",
-        "type": "map",
-        "title": "Google Maps"
-      }
-    ],
-    "activities": [
-      "dining",
-      "sightseeing",
-      "socializing",
-      "swimming",
-      "walking"
-    ],
-    "items": [
-      "coastline",
-      "nightclubs",
-      "restaurants and cafes"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access to the Corniche promenade",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Initial Development Begins",
+                "date": "1920-01-01",
+                "description": "Start of development during the French Protectorate era, with the establishment of early beach clubs and cafes."
+            },
+            {
+                "title": "Formula One Race",
+                "date": "1958-10-19",
+                "description": "Ain Diab hosted a round of the Formula One World Championship on the Ain-Diab Circuit."
+            },
+            {
+                "title": "McDonald's Opening",
+                "date": "1992-01-01",
+                "description": "The first McDonald's franchise in Africa and the Arab world opened on Ain Diab."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Ain_Diab",
+                "type": "article",
+                "title": "Ain Diab Wikipedia Page"
+            },
+            {
+                "url": "https://maps.app.goo.gl/CLpQqb16A9dAJBwNA",
+                "type": "map",
+                "title": "Google Maps"
+            }
+        ],
+        "activities": [
+            "dining/restaurant",
+            "sightseeing/historical",
+            "socializing/community",
+            "sports/swimming",
+            "leisure/walking"
+        ],
+        "items": [
+            "nature/coastline",
+            "entertainment/nightclub"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access to the Corniche promenade",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

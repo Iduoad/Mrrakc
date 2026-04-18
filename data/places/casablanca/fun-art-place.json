@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/workshop",
-  "metadata": {
-    "tags": [
-      "art-studio",
-      "workshop",
-      "creative-space",
-      "leisure",
-      "children-activities"
-    ]
-  },
-  "spec": {
-    "name": "Fun Art Place",
-    "id": "fun-art-place",
-    "description": "Fun Art Place is a creative space and art studio in Casablanca that focuses on offering artistic workshops and leisure activities, often catering to children and families. It provides a relaxed environment for learning various art techniques, hands-on craft creation, and creative expression, serving as a recreational and educational hub for the local community.",
-    "location": {
-      "longitude": -7.6641477,
-      "latitude": 33.5990149,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/workshop",
+    "metadata": {
+        "tags": [
+            "art-studio",
+            "workshop",
+            "creative-space",
+            "leisure",
+            "children-activities"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cultural activities"
-    ],
-    "items": [
-      "facilities",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Workshop/Activity Fee",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Fun Art Place",
+        "id": "fun-art-place",
+        "description": "Fun Art Place is a creative space and art studio in Casablanca that focuses on offering artistic workshops and leisure activities, often catering to children and families. It provides a relaxed environment for learning various art techniques, hands-on craft creation, and creative expression, serving as a recreational and educational hub for the local community.",
+        "location": {
+            "longitude": -7.6641477,
+            "latitude": 33.5990149,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural"
+        ],
+        "items": [
+            "facility/toilets",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Workshop/Activity Fee",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

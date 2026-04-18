@@ -1,83 +1,83 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "government",
-      "justice",
-      "neo-moorish",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Justice Palace Building",
-    "id": "justice-palace-building",
-    "description": "The Justice Palace (Palais de Justice) is a monumental governmental building in Casablanca, designed by architect **Joseph Marrast** and constructed between 1920 and 1923. It is a prime example of the grand Neo-Moorish architectural style, which aimed to establish a sense of modern authority while respecting Moroccan traditions. The building is characterized by its large central courtyard and meticulously crafted traditional ornamentation. It continues to function as a **Tribunal** (Courthouse) and was declared a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6173522,
-      "latitude": 33.5907988,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "government",
+            "justice",
+            "neo-moorish",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/joseph-marrast",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "French architect who designed the Justice Palace."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1920-01-01",
-        "description": "Construction of the Justice Palace began."
-      },
-      {
-        "title": "Building Completed and Opened",
-        "date": "1923-01-01",
-        "description": "The Justice Palace was completed and opened."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "administrative services",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Justice Palace Building",
+        "id": "justice-palace-building",
+        "description": "The Justice Palace (Palais de Justice) is a monumental governmental building in Casablanca, designed by architect **Joseph Marrast** and constructed between 1920 and 1923. It is a prime example of the grand Neo-Moorish architectural style, which aimed to establish a sense of modern authority while respecting Moroccan traditions. The building is characterized by its large central courtyard and meticulously crafted traditional ornamentation. It continues to function as a **Tribunal** (Courthouse) and was declared a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6173522,
+            "latitude": 33.5907988,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Access for Judicial Business",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a courthouse; interior access is limited to those with official business."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/joseph-marrast",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the Justice Palace."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1920-01-01",
+                "description": "Construction of the Justice Palace began."
+            },
+            {
+                "title": "Building Completed and Opened",
+                "date": "1923-01-01",
+                "description": "The Justice Palace was completed and opened."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/administrative",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Access for Judicial Business",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a courthouse; interior access is limited to those with official business."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

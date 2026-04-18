@@ -1,55 +1,55 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "modernist",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Marignan Building",
-    "id": "marignan-building",
-    "description": "The Marignan Building (Immeuble Marignan) is a multi-story commercial and residential structure dating from around **1950**. It reflects the post-war shift towards Modernist architecture in Casablanca, emphasizing clean lines, functionalism, and less overt ornamentation than the earlier Art Deco style. Its mid-century design contributes to the architectural diversity of the city's central districts.",
-    "location": {
-      "longitude": -7.6083676,
-      "latitude": 33.5936331,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "modernist",
+            "1950s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1950-01-01",
-        "description": "The Marignan Building was completed (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "1950s",
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Marignan Building",
+        "id": "marignan-building",
+        "description": "The Marignan Building (Immeuble Marignan) is a multi-story commercial and residential structure dating from around **1950**. It reflects the post-war shift towards Modernist architecture in Casablanca, emphasizing clean lines, functionalism, and less overt ornamentation than the earlier Art Deco style. Its mid-century design contributes to the architectural diversity of the city's central districts.",
+        "location": {
+            "longitude": -7.6083676,
+            "latitude": 33.5936331,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1950-01-01",
+                "description": "The Marignan Building was completed (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "1950s",
+            "contemporary period"
+        ]
+    }
 }

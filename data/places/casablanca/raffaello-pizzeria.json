@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "italian-cuisine",
-      "pizzeria",
-      "city-center"
-    ]
-  },
-  "spec": {
-    "name": "Raffaello Pizzeria",
-    "id": "raffaello-pizzeria",
-    "description": "Raffaello Pizzeria is a casual dining restaurant in Casablanca specializing in **pizza and Italian cuisine**. Located in the central district, it caters to urban diners seeking international comfort food. The establishment provides a quick, popular option for Italian classics.",
-    "location": {
-      "longitude": -7.6169457,
-      "latitude": 33.5930885,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "italian-cuisine",
+            "pizzeria",
+            "city-center"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Raffaello Pizzeria",
+        "id": "raffaello-pizzeria",
+        "description": "Raffaello Pizzeria is a casual dining restaurant in Casablanca specializing in **pizza and Italian cuisine**. Located in the central district, it caters to urban diners seeking international comfort food. The establishment provides a quick, popular option for Italian classics.",
+        "location": {
+            "longitude": -7.6169457,
+            "latitude": 33.5930885,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

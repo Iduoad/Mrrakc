@@ -1,75 +1,75 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/villa",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "villa",
-      "art-deco",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Villa Avenir",
-    "id": "villa-avenir",
-    "description": "Villa Avenir is a historically significant residential villa completed in 1929, designed by architect **Louis Henri Fleurant**. The villa's architecture is a notable example of the Art Deco style applied to residential buildings in Casablanca, featuring simplified geometric forms and elegance. Its architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6137675,
-      "latitude": 33.5822033,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/villa",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "villa",
+            "art-deco",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/louis-henri-fleurant",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Villa Avenir",
+        "id": "villa-avenir",
+        "description": "Villa Avenir is a historically significant residential villa completed in 1929, designed by architect **Louis Henri Fleurant**. The villa's architecture is a notable example of the Art Deco style applied to residential buildings in Casablanca, featuring simplified geometric forms and elegance. Its architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6137675,
+            "latitude": 33.5822033,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/louis-henri-fleurant",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the Villa Avenir."
+            }
         ],
-        "comment": "Architect who designed the Villa Avenir."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1929-01-01",
-        "description": "The villa was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://telquel.ma/2018/05/17/visite-de-six-edifices-casablancais-inscrits-au-patrimoine-culturel-national_1593792",
-        "type": "article",
-        "title": "Visite de six edifices casablancais inscrits au patrimoine culturel national (Telquel)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "private",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building status is unknown/private; exterior viewing is public."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1929-01-01",
+                "description": "The villa was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://telquel.ma/2018/05/17/visite-de-six-edifices-casablancais-inscrits-au-patrimoine-culturel-national_1593792",
+                "type": "article",
+                "title": "Visite de six edifices casablancais inscrits au patrimoine culturel national (Telquel)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "private",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building status is unknown/private; exterior viewing is public."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

@@ -1,96 +1,96 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "cultural-center",
-      "industrial-architecture",
-      "art-deco",
-      "national-heritage",
-      "1920s",
-      "repurposed"
-    ]
-  },
-  "spec": {
-    "name": "Old Slaughterhouses",
-    "id": "old-slaughterhouses",
-    "description": "The Old Slaughterhouses (Anciens Abattoirs) is a sprawling historical industrial complex completed in 1922, designed by architects **Georges Desmarest and Albert Greslin**. It is a major example of early 20th-century functionalist industrial architecture, incorporating elements of the prevailing Art Deco style. The complex's significance lies in its historical role in the city's infrastructure and its successful transformation into a **Cultural Center** (Les Abattoirs de Casablanca). This repurposing is a key model for preserving industrial heritage through cultural use. The site was declared a **National Material Patrimony** in 2003.",
-    "location": {
-      "longitude": -7.5826155,
-      "latitude": 33.5945066,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "cultural-center",
+            "industrial-architecture",
+            "art-deco",
+            "national-heritage",
+            "1920s",
+            "repurposed"
+        ]
     },
-    "people": [
-      {
-        "id": "people/georges-desmarest",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who co-designed the complex."
-      },
-      {
-        "id": "people/albert-greslin",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who co-designed the complex."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Completed",
-        "date": "1922-01-01",
-        "description": "The industrial complex was completed."
-      },
-      {
-        "title": "Conversion to Cultural Center",
-        "date": "2000-01-01",
-        "description": "The site began its conversion and operation as a cultural center (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Old Slaughterhouses",
+        "id": "old-slaughterhouses",
+        "description": "The Old Slaughterhouses (Anciens Abattoirs) is a sprawling historical industrial complex completed in 1922, designed by architects **Georges Desmarest and Albert Greslin**. It is a major example of early 20th-century functionalist industrial architecture, incorporating elements of the prevailing Art Deco style. The complex's significance lies in its historical role in the city's infrastructure and its successful transformation into a **Cultural Center** (Les Abattoirs de Casablanca). This repurposing is a key model for preserving industrial heritage through cultural use. The site was declared a **National Material Patrimony** in 2003.",
+        "location": {
+            "longitude": -7.5826155,
+            "latitude": 33.5945066,
+            "province": "province/casablanca"
         },
-        {
-          "title": "General Center Access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+        "people": [
+            {
+                "id": "people/georges-desmarest",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the complex."
+            },
+            {
+                "id": "people/albert-greslin",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the complex."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction Completed",
+                "date": "1922-01-01",
+                "description": "The industrial complex was completed."
+            },
+            {
+                "title": "Conversion to Cultural Center",
+                "date": "2000-01-01",
+                "description": "The site began its conversion and operation as a cultural center (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "General Center Access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Event Ticket",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
         },
-        {
-          "title": "Event Ticket",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

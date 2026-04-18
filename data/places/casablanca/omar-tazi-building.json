@@ -1,77 +1,77 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Omar Tazi Building",
-    "id": "omar-tazi-building",
-    "description": "The Omar Tazi Building is a historical residential and commercial structure completed in 1931. It was designed by the Italian architect **Aldo Manassi**, a prolific contributor to Casablanca's Art Deco and Modernist heritage. The building's name is associated with the influential Tazi family, reflecting the involvement of wealthy Moroccan families in the city's architectural development during the Protectorate era. Its historical value was recognized by its designation as a **National Material Patrimony** site in 2004.",
-    "location": {
-      "longitude": -7.6179541,
-      "latitude": 33.5944317,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/aldo-manassi",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Omar Tazi Building",
+        "id": "omar-tazi-building",
+        "description": "The Omar Tazi Building is a historical residential and commercial structure completed in 1931. It was designed by the Italian architect **Aldo Manassi**, a prolific contributor to Casablanca's Art Deco and Modernist heritage. The building's name is associated with the influential Tazi family, reflecting the involvement of wealthy Moroccan families in the city's architectural development during the Protectorate era. Its historical value was recognized by its designation as a **National Material Patrimony** site in 2004.",
+        "location": {
+            "longitude": -7.6179541,
+            "latitude": 33.5944317,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/aldo-manassi",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Italian architect who designed the building."
+            },
+            {
+                "id": "people/omar-tazi-family",
+                "relationship": [
+                    "original-owner",
+                    "patron"
+                ],
+                "comment": "The family that commissioned the building."
+            }
         ],
-        "comment": "Italian architect who designed the building."
-      },
-      {
-        "id": "people/omar-tazi-family",
-        "relationship": [
-          "original-owner",
-          "patron"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1931-01-01",
+                "description": "The Omar Tazi Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2004-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
         ],
-        "comment": "The family that commissioned the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1931-01-01",
-        "description": "The Omar Tazi Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2004-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

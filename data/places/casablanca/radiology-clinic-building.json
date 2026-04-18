@@ -1,72 +1,72 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/hospital",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "medical-facility",
-      "art-deco",
-      "colonial-architecture",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Radiology clinic Building",
-    "id": "radiology-clinic-building",
-    "description": "The Radiology Clinic Building, originally constructed in 1928 and designed by architect **Pierre Bousquet**, is a significant historical structure in Casablanca's central district. Bousquet was a prolific architect during the French Protectorate, and the building's design reflects the early **Art Deco** movement. It was initially built for a medical function and continues this legacy today, operating as the **Oued El Makhazine Radiology Center**.",
-    "location": {
-      "longitude": -7.6239265,
-      "latitude": 33.5943259,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/hospital",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "medical-facility",
+            "art-deco",
+            "colonial-architecture",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/pierre-bousquet",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who designed the building in 1928."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1928-01-01",
-        "description": "The clinic building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "medical services",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "goods"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Radiology clinic Building",
+        "id": "radiology-clinic-building",
+        "description": "The Radiology Clinic Building, originally constructed in 1928 and designed by architect **Pierre Bousquet**, is a significant historical structure in Casablanca's central district. Bousquet was a prolific architect during the French Protectorate, and the building's design reflects the early **Art Deco** movement. It was initially built for a medical function and continues this legacy today, operating as the **Oued El Makhazine Radiology Center**.",
+        "location": {
+            "longitude": -7.6239265,
+            "latitude": 33.5943259,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Medical services access",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted to patients and medical staff."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/pierre-bousquet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building in 1928."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1928-01-01",
+                "description": "The clinic building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/medical",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "item/goods"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Medical services access",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted to patients and medical staff."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

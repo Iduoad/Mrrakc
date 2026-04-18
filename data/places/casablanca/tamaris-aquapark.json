@@ -1,55 +1,55 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/amusement-park",
-  "metadata": {
-    "tags": [
-      "aquapark",
-      "water-park",
-      "leisure",
-      "family-fun",
-      "coastal"
-    ]
-  },
-  "spec": {
-    "name": "Tamaris Aquapark",
-    "id": "tamaris-aquapark",
-    "description": "Tamaris Aquapark is a large water park located in the Tamaris area near Casablanca, offering a range of water slides, pools, and recreational facilities. As a major seasonal entertainment complex, it caters to families and tourists seeking leisure and cool relief during the hot summer months.",
-    "location": {
-      "longitude": -7.7839804,
-      "latitude": 33.5225589,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/amusement-park",
+    "metadata": {
+        "tags": [
+            "aquapark",
+            "water-park",
+            "leisure",
+            "family-fun",
+            "coastal"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://tamaris-aquaparc.com/",
-        "type": "website",
-        "title": "Tamaris Aquapark Official Website"
-      }
-    ],
-    "activities": [
-      "swimming"
-    ],
-    "items": [
-      "coastline",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Day pass ticket",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "The park is typically open seasonally during warmer months; ticket price varies."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Tamaris Aquapark",
+        "id": "tamaris-aquapark",
+        "description": "Tamaris Aquapark is a large water park located in the Tamaris area near Casablanca, offering a range of water slides, pools, and recreational facilities. As a major seasonal entertainment complex, it caters to families and tourists seeking leisure and cool relief during the hot summer months.",
+        "location": {
+            "longitude": -7.7839804,
+            "latitude": 33.5225589,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://tamaris-aquaparc.com/",
+                "type": "website",
+                "title": "Tamaris Aquapark Official Website"
+            }
+        ],
+        "activities": [
+            "sports/swimming"
+        ],
+        "items": [
+            "nature/coastline",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Day pass ticket",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "The park is typically open seasonally during warmer months; ticket price varies."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

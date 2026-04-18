@@ -1,50 +1,50 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/mall",
-  "metadata": {
-    "tags": [
-      "shopping-center",
-      "retail",
-      "leisure",
-      "modern",
-      "suburban-shopping"
-    ]
-  },
-  "spec": {
-    "name": "California Mall",
-    "id": "california-mall",
-    "description": "California Mall is a modern, neighborhood shopping center located in the California district of Casablanca. It serves the retail and service needs of the surrounding residential area, often featuring a mix of local shops, cafes, services, and possibly a supermarket. Malls like this represent the decentralized development of commerce away from the city center in modern Casablanca.",
-    "location": {
-      "longitude": -7.6401545,
-      "latitude": 33.5445568,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/mall",
+    "metadata": {
+        "tags": [
+            "shopping-center",
+            "retail",
+            "leisure",
+            "modern",
+            "suburban-shopping"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "convenience services",
-      "dining",
-      "shopping"
-    ],
-    "items": [
-      "facilities",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mall access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "California Mall",
+        "id": "california-mall",
+        "description": "California Mall is a modern, neighborhood shopping center located in the California district of Casablanca. It serves the retail and service needs of the surrounding residential area, often featuring a mix of local shops, cafes, services, and possibly a supermarket. Malls like this represent the decentralized development of commerce away from the city center in modern Casablanca.",
+        "location": {
+            "longitude": -7.6401545,
+            "latitude": 33.5445568,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general",
+            "dining/restaurant",
+            "shopping/general"
+        ],
+        "items": [
+            "facility/toilets",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mall access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

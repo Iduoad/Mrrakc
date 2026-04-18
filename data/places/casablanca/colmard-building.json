@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Colmard Building",
-    "id": "colmard-building",
-    "description": "The Colmard Building is a historical residential and commercial structure located in Casablanca's central district, dating back to the 1920s. Its architecture is typical of the early Art Deco period that flourished in the city under the French Protectorate. Like many buildings in this area, it combines multi-story residential units with commercial space on the ground floor. Its long-standing architectural value was recognized with its designation as a **National Material Patrimony** site in 2011.",
-    "location": {
-      "longitude": -7.6133279,
-      "latitude": 33.5864724,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1920-01-01",
-        "description": "The building was completed during the 1920s (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2011-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th Century",
-      "French Protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Colmard Building",
+        "id": "colmard-building",
+        "description": "The Colmard Building is a historical residential and commercial structure located in Casablanca's central district, dating back to the 1920s. Its architecture is typical of the early Art Deco period that flourished in the city under the French Protectorate. Like many buildings in this area, it combines multi-story residential units with commercial space on the ground floor. Its long-standing architectural value was recognized with its designation as a **National Material Patrimony** site in 2011.",
+        "location": {
+            "longitude": -7.6133279,
+            "latitude": 33.5864724,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1920-01-01",
+                "description": "The building was completed during the 1920s (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2011-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th Century",
+            "French Protectorate"
+        ]
+    }
 }

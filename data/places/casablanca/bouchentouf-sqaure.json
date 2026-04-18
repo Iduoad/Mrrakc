@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "square",
-      "neighborhood-center",
-      "social-hub",
-      "bouchentouf"
-    ]
-  },
-  "spec": {
-    "name": "Bouchentouf Square",
-    "id": "bouchentouf-sqaure",
-    "description": "Bouchentouf Square (Place Bouchentouf) is a prominent public square located in the popular Bouchentouf neighborhood of Casablanca. Public squares are essential components of Moroccan urban life, serving as gathering points, marketplaces, and social hubs. This square likely functions as the central point of the neighborhood, surrounded by local commerce, cafes, and residential buildings, providing a space for both planned and spontaneous community activity.",
-    "location": {
-      "longitude": -7.6030351,
-      "latitude": 33.5696821,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "square",
+            "neighborhood-center",
+            "social-hub",
+            "bouchentouf"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "shopping",
-      "sightseeing"
-    ],
-    "items": [
-      "facilities",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Bouchentouf Square",
+        "id": "bouchentouf-sqaure",
+        "description": "Bouchentouf Square (Place Bouchentouf) is a prominent public square located in the popular Bouchentouf neighborhood of Casablanca. Public squares are essential components of Moroccan urban life, serving as gathering points, marketplaces, and social hubs. This square likely functions as the central point of the neighborhood, surrounded by local commerce, cafes, and residential buildings, providing a space for both planned and spontaneous community activity.",
+        "location": {
+            "longitude": -7.6030351,
+            "latitude": 33.5696821,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "facility/toilets",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

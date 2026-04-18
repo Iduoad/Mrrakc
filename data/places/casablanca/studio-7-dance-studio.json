@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/workshop",
-  "metadata": {
-    "tags": [
-      "dance-studio",
-      "performing-arts",
-      "fitness",
-      "education"
-    ]
-  },
-  "spec": {
-    "name": "Studio 7 Dance Studio",
-    "id": "studio-7-dance-studio",
-    "description": "Studio 7 Dance Studio is a dedicated facility in Casablanca offering classes and workshops in various forms of dance, ranging from traditional Moroccan to modern and international styles. It serves as a community hub for artistic expression, physical fitness, and cultural activity.",
-    "location": {
-      "longitude": -7.6282876,
-      "latitude": 33.5888173,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/workshop",
+    "metadata": {
+        "tags": [
+            "dance-studio",
+            "performing-arts",
+            "fitness",
+            "education"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dancing",
-      "entertainment"
-    ],
-    "items": [
-      "facilities",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Class enrollment fee",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Studio 7 Dance Studio",
+        "id": "studio-7-dance-studio",
+        "description": "Studio 7 Dance Studio is a dedicated facility in Casablanca offering classes and workshops in various forms of dance, ranging from traditional Moroccan to modern and international styles. It serves as a community hub for artistic expression, physical fitness, and cultural activity.",
+        "location": {
+            "longitude": -7.6282876,
+            "latitude": 33.5888173,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/dancing",
+            "entertainment/cinema"
+        ],
+        "items": [
+            "facility/toilets",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Class enrollment fee",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

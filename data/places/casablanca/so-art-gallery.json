@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/art-gallery",
-  "metadata": {
-    "tags": [
-      "art-gallery",
-      "contemporary-art",
-      "modern-art",
-      "exhibition-space"
-    ]
-  },
-  "spec": {
-    "name": "SO ART GALLERY",
-    "id": "so-art-gallery",
-    "description": "SO ART GALLERY is a contemporary art space in Casablanca dedicated to curating and exhibiting works by modern and contemporary artists, with an emphasis on Moroccan art and African art. Located in a commercial and cultural district, the gallery contributes to the active cultural scene, focusing on the promotion and sale of high-quality artwork.",
-    "location": {
-      "longitude": -7.6368048,
-      "latitude": 33.587837,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/art-gallery",
+    "metadata": {
+        "tags": [
+            "art-gallery",
+            "contemporary-art",
+            "modern-art",
+            "exhibition-space"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "shopping",
-      "sightseeing"
-    ],
-    "items": [
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Gallery access during opening hours",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "SO ART GALLERY",
+        "id": "so-art-gallery",
+        "description": "SO ART GALLERY is a contemporary art space in Casablanca dedicated to curating and exhibiting works by modern and contemporary artists, with an emphasis on Moroccan art and African art. Located in a commercial and cultural district, the gallery contributes to the active cultural scene, focusing on the promotion and sale of high-quality artwork.",
+        "location": {
+            "longitude": -7.6368048,
+            "latitude": 33.587837,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "shopping/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Gallery access during opening hours",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

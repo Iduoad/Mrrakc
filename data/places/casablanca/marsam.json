@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/art-gallery",
-  "metadata": {
-    "tags": [
-      "art-gallery",
-      "contemporary-art",
-      "modern-art",
-      "exhibition-space"
-    ]
-  },
-  "spec": {
-    "name": "Marsam",
-    "id": "marsam",
-    "description": "Marsam (meaning 'artist's studio' or workshop) is a contemporary art gallery in Casablanca dedicated to the promotion of both established and emerging artists, with a focus on modern and contemporary visual arts. Galleries like Marsam are central to the city's cultural scene, offering a venue for exhibitions, artistic critique, and the sale of artwork to collectors.",
-    "location": {
-      "longitude": -7.6417696,
-      "latitude": 33.5935182,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/art-gallery",
+    "metadata": {
+        "tags": [
+            "art-gallery",
+            "contemporary-art",
+            "modern-art",
+            "exhibition-space"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Gallery access during opening hours",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Marsam",
+        "id": "marsam",
+        "description": "Marsam (meaning 'artist's studio' or workshop) is a contemporary art gallery in Casablanca dedicated to the promotion of both established and emerging artists, with a focus on modern and contemporary visual arts. Galleries like Marsam are central to the city's cultural scene, offering a venue for exhibitions, artistic critique, and the sale of artwork to collectors.",
+        "location": {
+            "longitude": -7.6417696,
+            "latitude": 33.5935182,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Gallery access during opening hours",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

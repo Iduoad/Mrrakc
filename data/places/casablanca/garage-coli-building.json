@@ -1,83 +1,83 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/garage",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "industrial-architecture",
-      "modernist",
-      "national-heritage",
-      "1950s",
-      "repurposed"
-    ]
-  },
-  "spec": {
-    "name": "Garage Coli Building",
-    "id": "garage-coli-building",
-    "description": "The Garage Coli Building is a significant example of mid-20th century functional architecture in Casablanca. Designed by architect **Amédée Anicet** and completed in 1955, it was originally a large industrial garage. The structure is characterized by its large, column-free spaces and a modern, often minimalist facade, typical of the era's industrial and automotive architecture. It has since been repurposed for commercial use, currently housing a **hotel and various businesses**. Its historical and architectural value led to its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.611898,
-      "latitude": 33.5934273,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/garage",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "industrial-architecture",
+            "modernist",
+            "national-heritage",
+            "1950s",
+            "repurposed"
+        ]
     },
-    "people": [
-      {
-        "id": "people/amedee-anicet",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who designed the Garage Coli building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1955-01-01",
-        "description": "The Garage Coli building was completed and opened as an industrial garage."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
-        "type": "article",
-        "title": "Ancienne Médina de Casablanca (We See Casa - References historical buildings)"
-      }
-    ],
-    "activities": [
-      "accommodation",
-      "shopping",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Garage Coli Building",
+        "id": "garage-coli-building",
+        "description": "The Garage Coli Building is a significant example of mid-20th century functional architecture in Casablanca. Designed by architect **Amédée Anicet** and completed in 1955, it was originally a large industrial garage. The structure is characterized by its large, column-free spaces and a modern, often minimalist facade, typical of the era's industrial and automotive architecture. It has since been repurposed for commercial use, currently housing a **hotel and various businesses**. Its historical and architectural value led to its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.611898,
+            "latitude": 33.5934273,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Commercial and hotel access",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "1950s",
-      "contemporary period"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/amedee-anicet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the Garage Coli building."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1955-01-01",
+                "description": "The Garage Coli building was completed and opened as an industrial garage."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+                "type": "article",
+                "title": "Ancienne Médina de Casablanca (We See Casa - References historical buildings)"
+            }
+        ],
+        "activities": [
+            "accommodation/hotel",
+            "shopping/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Commercial and hotel access",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "1950s",
+            "contemporary period"
+        ]
+    }
 }

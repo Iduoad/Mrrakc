@@ -1,62 +1,62 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/amusement-park",
-  "metadata": {
-    "tags": [
-      "children-museum",
-      "play-area",
-      "educational",
-      "family-friendly",
-      "indoor-park"
-    ]
-  },
-  "spec": {
-    "name": "Amuzeum",
-    "id": "amuzeum",
-    "description": "Amuzeum is a family-friendly educational play park and children's museum located in Dar Bouazza, near Casablanca. Spanning nearly 2000 m² across three levels, its mission is to make learning fun for children aged 18 months to 12 years by encouraging them to touch, experiment, and explore. It offers a unique concept in Morocco, combining the joy of an amusement park with the educational value of a museum, with activities designed to awaken curiosity in subjects like history, science, and knowledge.",
-    "location": {
-      "longitude": -7.8174842,
-      "latitude": 33.512778,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/amusement-park",
+    "metadata": {
+        "tags": [
+            "children-museum",
+            "play-area",
+            "educational",
+            "family-friendly",
+            "indoor-park"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://amuzeum.ma/?lang=en",
-        "type": "website",
-        "title": "Amuzeum Official Website"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "group school visits"
-    ],
-    "items": [
-      "facilities",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Weekday Rate (Before 4:00 PM)",
-          "modality": "ticket",
-          "audience": "children",
-          "entranceFee": 120
+    "spec": {
+        "name": "Amuzeum",
+        "id": "amuzeum",
+        "description": "Amuzeum is a family-friendly educational play park and children's museum located in Dar Bouazza, near Casablanca. Spanning nearly 2000 m² across three levels, its mission is to make learning fun for children aged 18 months to 12 years by encouraging them to touch, experiment, and explore. It offers a unique concept in Morocco, combining the joy of an amusement park with the educational value of a museum, with activities designed to awaken curiosity in subjects like history, science, and knowledge.",
+        "location": {
+            "longitude": -7.8174842,
+            "latitude": 33.512778,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Weekend Rate (Before 4:00 PM)",
-          "modality": "ticket",
-          "audience": "children",
-          "entranceFee": 180
-        }
-      ],
-      "status": "open",
-      "comment": "Fees are for one accompanied child (under 7) or unaccompanied child (over 7); one accompanying adult is free."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://amuzeum.ma/?lang=en",
+                "type": "website",
+                "title": "Amuzeum Official Website"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "education/research"
+        ],
+        "items": [
+            "facility/toilets",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Weekday Rate (Before 4:00 PM)",
+                    "modality": "ticket",
+                    "audience": "children",
+                    "entranceFee": 120
+                },
+                {
+                    "title": "Weekend Rate (Before 4:00 PM)",
+                    "modality": "ticket",
+                    "audience": "children",
+                    "entranceFee": 180
+                }
+            ],
+            "status": "open",
+            "comment": "Fees are for one accompanied child (under 7) or unaccompanied child (over 7); one accompanying adult is free."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

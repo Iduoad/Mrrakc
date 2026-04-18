@@ -1,75 +1,75 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "IMCAMA Building",
-    "id": "imcama-building",
-    "description": "The IMCAMA Building, also known locally as the **Sony Building**, is a significant historical residential and commercial property designed by architect **Albert Greslin** and completed in 1928. It is a prime example of the early **Art Deco** style that defined Casablanca's 'new town,' featuring distinctive facade ornamentation. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2005. The building remains inhabited, showcasing the enduring functionality of early 20th-century urban design.",
-    "location": {
-      "longitude": -7.6207911,
-      "latitude": 33.587506,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/albert-greslin",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "IMCAMA Building",
+        "id": "imcama-building",
+        "description": "The IMCAMA Building, also known locally as the **Sony Building**, is a significant historical residential and commercial property designed by architect **Albert Greslin** and completed in 1928. It is a prime example of the early **Art Deco** style that defined Casablanca's 'new town,' featuring distinctive facade ornamentation. Its historical and architectural value was formally recognized with its designation as a **National Material Patrimony** site in 2005. The building remains inhabited, showcasing the enduring functionality of early 20th-century urban design.",
+        "location": {
+            "longitude": -7.6207911,
+            "latitude": 33.587506,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/albert-greslin",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the IMCAMA Building, completed in 1928."
+            }
         ],
-        "comment": "Architect who designed the IMCAMA Building, completed in 1928."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1928-01-01",
-        "description": "The IMCAMA Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2005-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.maghress.com/fr/lagazette/12189",
-        "type": "article",
-        "title": "À la une : L'immeuble Albert Greslin (Article referencing the building)"
-      }
-    ],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1928-01-01",
+                "description": "The IMCAMA Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2005-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.maghress.com/fr/lagazette/12189",
+                "type": "article",
+                "title": "À la une : L'immeuble Albert Greslin (Article referencing the building)"
+            }
+        ],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

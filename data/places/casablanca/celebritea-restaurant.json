@@ -1,46 +1,46 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "international-cuisine",
-      "brunch",
-      "modern-dining"
-    ]
-  },
-  "spec": {
-    "name": "Celebritea Restaurant",
-    "id": "celebritea-restaurant",
-    "description": "Celebritea Restaurant is a modern dining establishment in Casablanca known for its **International menu** and its popularity as a **brunch** destination. Located in a fashionable district of the city, the restaurant caters to a contemporary urban clientele, offering diverse culinary options and a trendy ambiance. It is a social spot for casual meals, weekend gatherings, and exploring global flavors.",
-    "location": {
-      "longitude": -7.6586422,
-      "latitude": 33.5760658,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "international-cuisine",
+            "brunch",
+            "modern-dining"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Celebritea Restaurant",
+        "id": "celebritea-restaurant",
+        "description": "Celebritea Restaurant is a modern dining establishment in Casablanca known for its **International menu** and its popularity as a **brunch** destination. Located in a fashionable district of the city, the restaurant caters to a contemporary urban clientele, offering diverse culinary options and a trendy ambiance. It is a social spot for casual meals, weekend gatherings, and exploring global flavors.",
+        "location": {
+            "longitude": -7.6586422,
+            "latitude": 33.5760658,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

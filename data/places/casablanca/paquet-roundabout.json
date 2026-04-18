@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "roundabout",
-      "traffic-hub",
-      "city-center"
-    ]
-  },
-  "spec": {
-    "name": "Paquet Roundabout",
-    "id": "paquet-roundabout",
-    "description": "Paquet Roundabout (Rond-Point Paquet) is a major traffic circle and urban landmark in the central commercial district of Casablanca. Named after a prominent figure or company (likely from the French Protectorate era), the roundabout is a key intersection, directing traffic across important avenues. It features a central island, often decorated with greenery or a monument, serving as a visual focal point in the urban landscape.",
-    "location": {
-      "longitude": -7.6085837,
-      "latitude": 33.5939906,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "roundabout",
+            "traffic-hub",
+            "city-center"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "sightseeing",
-      "transport services"
-    ],
-    "items": [
-      "memorabilia",
-      "urban landscaping"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Paquet Roundabout",
+        "id": "paquet-roundabout",
+        "description": "Paquet Roundabout (Rond-Point Paquet) is a major traffic circle and urban landmark in the central commercial district of Casablanca. Named after a prominent figure or company (likely from the French Protectorate era), the roundabout is a key intersection, directing traffic across important avenues. It features a central island, often decorated with greenery or a monument, serving as a visual focal point in the urban landscape.",
+        "location": {
+            "longitude": -7.6085837,
+            "latitude": 33.5939906,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/historical",
+            "services/transport"
+        ],
+        "items": [
+            "culture/memorabilia",
+            "nature/landscaping"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

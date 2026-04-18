@@ -1,61 +1,61 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "national-heritage",
-      "city-center"
-    ]
-  },
-  "spec": {
-    "name": "Neptune Building",
-    "id": "neptune-building",
-    "description": "The Neptune Building (Immeuble Neptune) is a historical residential and commercial structure located in central Casablanca. It dates from the height of the city's Art Deco building boom. The building's name references the Roman god of the sea, often reflected in subtle architectural or decorative marine motifs, fitting for a coastal city. Its historical importance was formally recognized with its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6154541,
-      "latitude": 33.597776,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "national-heritage",
+            "city-center"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1930-01-01",
-        "description": "The building was completed during the Art Deco period (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Neptune Building",
+        "id": "neptune-building",
+        "description": "The Neptune Building (Immeuble Neptune) is a historical residential and commercial structure located in central Casablanca. It dates from the height of the city's Art Deco building boom. The building's name references the Roman god of the sea, often reflected in subtle architectural or decorative marine motifs, fitting for a coastal city. Its historical importance was formally recognized with its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6154541,
+            "latitude": 33.597776,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1930-01-01",
+                "description": "The building was completed during the Art Deco period (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period"
+        ]
+    }
 }

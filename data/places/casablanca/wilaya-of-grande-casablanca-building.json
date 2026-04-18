@@ -1,83 +1,83 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "government",
-      "administrative",
-      "neo-moorish",
-      "national-heritage",
-      "1920s-1930s"
-    ]
-  },
-  "spec": {
-    "name": "Wilaya of Grande Casablanca Building",
-    "id": "wilaya-of-grande-casablanca-building",
-    "description": "The Wilaya of Grande Casablanca Building (Hôtel de Ville / Préfecture) is the main administrative building and city hall for the Casablanca region. Designed by architect **Marius Boyer** and constructed between 1928 and 1936, it is a monumental structure central to the Place Mohammed V complex. The building is a prime example of the **Neo-Moorish** style, featuring a majestic clock tower and ornate decoration that reflects the colonial administration's architectural mandate. It was declared a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6190468,
-      "latitude": 33.5903455,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "government",
+            "administrative",
+            "neo-moorish",
+            "national-heritage",
+            "1920s-1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "French architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Began",
-        "date": "1928-01-01",
-        "description": "Construction of the administrative building began."
-      },
-      {
-        "title": "Building Completed",
-        "date": "1936-01-01",
-        "description": "The Wilaya Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "administrative services",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Wilaya of Grande Casablanca Building",
+        "id": "wilaya-of-grande-casablanca-building",
+        "description": "The Wilaya of Grande Casablanca Building (Hôtel de Ville / Préfecture) is the main administrative building and city hall for the Casablanca region. Designed by architect **Marius Boyer** and constructed between 1928 and 1936, it is a monumental structure central to the Place Mohammed V complex. The building is a prime example of the **Neo-Moorish** style, featuring a majestic clock tower and ornate decoration that reflects the colonial administration's architectural mandate. It was declared a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6190468,
+            "latitude": 33.5903455,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Access for Official Business",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a high-level government office; interior access is restricted."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the building."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction Began",
+                "date": "1928-01-01",
+                "description": "Construction of the administrative building began."
+            },
+            {
+                "title": "Building Completed",
+                "date": "1936-01-01",
+                "description": "The Wilaya Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/administrative",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Access for Official Business",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a high-level government office; interior access is restricted."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

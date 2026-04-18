@@ -1,79 +1,79 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residence",
-      "government",
-      "neo-moorish",
-      "lyautey",
-      "colonial-architecture"
-    ]
-  },
-  "spec": {
-    "name": "Lyautey's Residence",
-    "id": "lyautey-s-residence",
-    "description": "Lyautey's Residence (Résidence du Général Lyautey) is a highly significant historical building, constructed in 1915 and designed by architect **Pierre Bousquet**. It was the personal residence of **Marshal Hubert Lyautey**, the first French Resident-General of Morocco and the chief architect of Casablanca's modern urban plan. The architecture is a prime example of the early **Neo-Moorish** style favored by Lyautey. The building is currently repurposed as an office for the **Morocco Union of Workers** (Union Marocaine du Travail - UMT), maintaining its status as a landmark of civic importance.",
-    "location": {
-      "longitude": -7.6188157,
-      "latitude": 33.6015568,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residence",
+            "government",
+            "neo-moorish",
+            "lyautey",
+            "colonial-architecture"
+        ]
     },
-    "people": [
-      {
-        "id": "people/hubert-lyautey",
-        "relationship": [
-          "original-owner",
-          "historical-figure"
+    "spec": {
+        "name": "Lyautey's Residence",
+        "id": "lyautey-s-residence",
+        "description": "Lyautey's Residence (Résidence du Général Lyautey) is a highly significant historical building, constructed in 1915 and designed by architect **Pierre Bousquet**. It was the personal residence of **Marshal Hubert Lyautey**, the first French Resident-General of Morocco and the chief architect of Casablanca's modern urban plan. The architecture is a prime example of the early **Neo-Moorish** style favored by Lyautey. The building is currently repurposed as an office for the **Morocco Union of Workers** (Union Marocaine du Travail - UMT), maintaining its status as a landmark of civic importance.",
+        "location": {
+            "longitude": -7.6188157,
+            "latitude": 33.6015568,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/hubert-lyautey",
+                "relationship": [
+                    "original-owner",
+                    "historical-figure"
+                ],
+                "comment": "First French Resident-General of Morocco and commissioner of the urban plan."
+            },
+            {
+                "id": "people/pierre-bousquet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the residence."
+            }
         ],
-        "comment": "First French Resident-General of Morocco and commissioner of the urban plan."
-      },
-      {
-        "id": "people/pierre-bousquet",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1915-01-01",
+                "description": "The residence for General Resident Lyautey was completed."
+            },
+            {
+                "title": "Repurposing",
+                "date": "1960-01-01",
+                "description": "The building was repurposed to serve as the headquarters for the Morocco Union of Workers (Approximate date)."
+            }
         ],
-        "comment": "Architect who designed the residence."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1915-01-01",
-        "description": "The residence for General Resident Lyautey was completed."
-      },
-      {
-        "title": "Repurposing",
-        "date": "1960-01-01",
-        "description": "The building was repurposed to serve as the headquarters for the Morocco Union of Workers (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing",
-      "transport services"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a private organization's office; interior access is restricted to members and staff."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/historical",
+            "services/transport"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a private organization's office; interior access is restricted to members and staff."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

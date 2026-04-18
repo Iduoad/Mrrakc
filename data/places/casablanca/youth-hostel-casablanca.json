@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/hotel",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "hostel",
-      "youth-travel",
-      "old-medina-vicinity",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Youth Hostel Casablanca",
-    "id": "youth-hostel-casablanca",
-    "description": "The Youth Hostel Casablanca (Auberge de Jeunesse de Casablanca) is a historically important accommodation facility for travelers. It is noted as the **oldest youth hostel in Morocco**, established in the 1930s, predating the official network in the country. Located near the historical core, it has provided affordable lodging for young travelers and backpackers for decades, reflecting a long history of youth tourism and cultural exchange.",
-    "location": {
-      "longitude": -7.6174283,
-      "latitude": 33.6003443,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/hotel",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "hostel",
+            "youth-travel",
+            "old-medina-vicinity",
+            "1930s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Establishment Period",
-        "date": "1935-01-01",
-        "description": "The youth hostel was established, making it the oldest in Morocco (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "accommodation",
-      "socializing"
-    ],
-    "items": [
-      "common areas and facilities",
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Youth Hostel Casablanca",
+        "id": "youth-hostel-casablanca",
+        "description": "The Youth Hostel Casablanca (Auberge de Jeunesse de Casablanca) is a historically important accommodation facility for travelers. It is noted as the **oldest youth hostel in Morocco**, established in the 1930s, predating the official network in the country. Located near the historical core, it has provided affordable lodging for young travelers and backpackers for decades, reflecting a long history of youth tourism and cultural exchange.",
+        "location": {
+            "longitude": -7.6174283,
+            "latitude": 33.6003443,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Accommodation fee (per night)",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted to registered guests and patrons."
-    },
-    "timePeriods": [
-      "1930s",
-      "contemporary period"
-    ]
-  }
+        "people": [],
+        "timeline": [
+            {
+                "title": "Establishment Period",
+                "date": "1935-01-01",
+                "description": "The youth hostel was established, making it the oldest in Morocco (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "accommodation/hotel",
+            "socializing/community"
+        ],
+        "items": [
+            "facility/wifi",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Accommodation fee (per night)",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted to registered guests and patrons."
+        },
+        "timePeriods": [
+            "1930s",
+            "contemporary period"
+        ]
+    }
 }

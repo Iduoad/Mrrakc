@@ -1,76 +1,76 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "bank-headquarters",
-      "national-heritage",
-      "art-deco",
-      "monumental",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Bank Al Maghrib Building",
-    "id": "bank-al-maghrib-building",
-    "description": "The Bank Al Maghrib Building in Casablanca, the former branch of Morocco's central bank, is a monumental piece of colonial-era architecture. Designed by **Edmond Brion** and completed in 1937, it is situated prominently in the heart of the city's financial district. The building features a grand, imposing facade typical of central banks, often incorporating classical or Neo-Moorish architectural elements to symbolize stability and authority. Its historical significance and architectural quality earned it the status of a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6181516,
-      "latitude": 33.5929716,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "bank-headquarters",
+            "national-heritage",
+            "art-deco",
+            "monumental",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/edmond-brion",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Bank Al Maghrib Building",
+        "id": "bank-al-maghrib-building",
+        "description": "The Bank Al Maghrib Building in Casablanca, the former branch of Morocco's central bank, is a monumental piece of colonial-era architecture. Designed by **Edmond Brion** and completed in 1937, it is situated prominently in the heart of the city's financial district. The building features a grand, imposing facade typical of central banks, often incorporating classical or Neo-Moorish architectural elements to symbolize stability and authority. Its historical significance and architectural quality earned it the status of a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6181516,
+            "latitude": 33.5929716,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/edmond-brion",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect of many major buildings in Casablanca, who designed the Bank Al Maghrib branch."
+            }
         ],
-        "comment": "French architect of many major buildings in Casablanca, who designed the Bank Al Maghrib branch."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1937-01-01",
-        "description": "The Bank Al Maghrib branch building was completed and opened."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
-        "type": "article",
-        "title": "Ancienne Médina de Casablanca (We See Casa - References historical bank buildings)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a central bank office; interior access is highly restricted to staff and authorized personnel."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1937-01-01",
+                "description": "The Bank Al Maghrib branch building was completed and opened."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+                "type": "article",
+                "title": "Ancienne Médina de Casablanca (We See Casa - References historical bank buildings)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a central bank office; interior access is highly restricted to staff and authorized personnel."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

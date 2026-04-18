@@ -1,71 +1,71 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/villa",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "villa",
-      "art-deco",
-      "marius-boyer",
-      "national-heritage",
-      "closed",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Villa des Tourelles",
-    "id": "villa-des-tourelles",
-    "description": "Villa des Tourelles (Villa of the Turrets) is a historical residential villa completed in 1930, designed by architect **Marius Boyer**. Its name suggests a picturesque style incorporating small towers or turrets, blending European residential revival styles with Art Deco elements. As a major work of Boyer, the villa is architecturally significant and was declared a **National Material Patrimony** site in 2003. It is currently **closed** or awaiting renovation/repurposing.",
-    "location": {
-      "longitude": -7.625001,
-      "latitude": 33.59205,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/villa",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "villa",
+            "art-deco",
+            "marius-boyer",
+            "national-heritage",
+            "closed",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Villa des Tourelles",
+        "id": "villa-des-tourelles",
+        "description": "Villa des Tourelles (Villa of the Turrets) is a historical residential villa completed in 1930, designed by architect **Marius Boyer**. Its name suggests a picturesque style incorporating small towers or turrets, blending European residential revival styles with Art Deco elements. As a major work of Boyer, the villa is architecturally significant and was declared a **National Material Patrimony** site in 2003. It is currently **closed** or awaiting renovation/repurposing.",
+        "location": {
+            "longitude": -7.625001,
+            "latitude": 33.59205,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the villa."
+            }
         ],
-        "comment": "French architect who designed the villa."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1930-01-01",
-        "description": "The villa was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "closed",
-      "comment": "The building is closed; exterior viewing is public."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1930-01-01",
+                "description": "The villa was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "closed",
+            "comment": "The building is closed; exterior viewing is public."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

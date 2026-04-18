@@ -1,72 +1,72 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "mythological-elements",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Gallinari Building",
-    "id": "gallinari-building",
-    "description": "The Gallinari Building is a notable historical residential and commercial structure in central Casablanca. Designed in 1924 by the prominent Jewish Moroccan architects **Elias and Joseph Suraqui**, it is a key example of the early Art Deco and classicist revival styles of the Protectorate era. A unique feature of the facade is a decorative face, believed to be that of **Dionysus**, the Greek god of Wine, reflecting a blend of European classical and modernist influences in the city's early architecture. It remains an actively inhabited building.",
-    "location": {
-      "longitude": -7.6140746,
-      "latitude": 33.5950876,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "mythological-elements",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/elias-suraqui",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Gallinari Building",
+        "id": "gallinari-building",
+        "description": "The Gallinari Building is a notable historical residential and commercial structure in central Casablanca. Designed in 1924 by the prominent Jewish Moroccan architects **Elias and Joseph Suraqui**, it is a key example of the early Art Deco and classicist revival styles of the Protectorate era. A unique feature of the facade is a decorative face, believed to be that of **Dionysus**, the Greek god of Wine, reflecting a blend of European classical and modernist influences in the city's early architecture. It remains an actively inhabited building.",
+        "location": {
+            "longitude": -7.6140746,
+            "latitude": 33.5950876,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/elias-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the Gallinari Building."
+            },
+            {
+                "id": "people/joseph-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the Gallinari Building."
+            }
         ],
-        "comment": "Architect who co-designed the Gallinari Building."
-      },
-      {
-        "id": "people/joseph-suraqui",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1924-01-01",
+                "description": "The Gallinari Building was completed."
+            }
         ],
-        "comment": "Architect who co-designed the Gallinari Building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1924-01-01",
-        "description": "The Gallinari Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

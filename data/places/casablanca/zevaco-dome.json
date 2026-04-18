@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/landmark",
-  "metadata": {
-    "tags": [
-      "landmark",
-      "architecture",
-      "modernist",
-      "zevaco",
-      "city-center"
-    ]
-  },
-  "spec": {
-    "name": "Zevaco dome",
-    "id": "zevaco-dome",
-    "description": "The Zevaco Dome (Dôme de Zevaco) is a distinctive architectural landmark in Casablanca's central district. It is a large, modernist concrete dome structure, designed by the celebrated architect **Jean-François Zevaco**. It once housed a market or public facility and is a notable example of the post-war Modernist and Brutalist architecture Zevaco contributed to the city. The dome's unusual form makes it a recognizable urban feature.",
-    "location": {
-      "longitude": -7.6176583,
-      "latitude": 33.5964523,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/landmark",
+    "metadata": {
+        "tags": [
+            "landmark",
+            "architecture",
+            "modernist",
+            "zevaco",
+            "city-center"
+        ]
     },
-    "people": [
-      {
-        "id": "people/jean-francois-zevaco",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Zevaco dome",
+        "id": "zevaco-dome",
+        "description": "The Zevaco Dome (Dôme de Zevaco) is a distinctive architectural landmark in Casablanca's central district. It is a large, modernist concrete dome structure, designed by the celebrated architect **Jean-François Zevaco**. It once housed a market or public facility and is a notable example of the post-war Modernist and Brutalist architecture Zevaco contributed to the city. The dome's unusual form makes it a recognizable urban feature.",
+        "location": {
+            "longitude": -7.6176583,
+            "latitude": 33.5964523,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/jean-francois-zevaco",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French-Moroccan architect who designed the dome."
+            }
         ],
-        "comment": "French-Moroccan architect who designed the dome."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1950-01-01",
-        "description": "The dome was constructed as part of a post-war public facility (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "1950s",
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1950-01-01",
+                "description": "The dome was constructed as part of a post-war public facility (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "1950s",
+            "contemporary period"
+        ]
+    }
 }

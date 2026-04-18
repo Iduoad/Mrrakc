@@ -1,56 +1,56 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/church",
-  "metadata": {
-    "tags": [
-      "religious",
-      "christian-site",
-      "historical-figure",
-      "catholic"
-    ]
-  },
-  "spec": {
-    "name": "Charles De Foucauld Church",
-    "id": "charles-de-foucauld-church",
-    "description": "Charles De Foucauld Church (Église Charles de Foucauld) is a Catholic church dedicated to Charles de Foucauld (1858–1916), a French soldier and explorer who became a Catholic priest and hermit and was martyred in Algeria. The church serves the local Christian community in Casablanca and is a spiritual focal point for those inspired by De Foucauld's life and work in North Africa. The architecture is typically modern or mid-20th century, common for churches built after the city's rapid expansion.",
-    "location": {
-      "longitude": -7.6186346,
-      "latitude": 33.5718649,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/church",
+    "metadata": {
+        "tags": [
+            "religious",
+            "christian-site",
+            "historical-figure",
+            "catholic"
+        ]
     },
-    "people": [
-      {
-        "id": "people/charles-de-foucauld",
-        "relationship": [
-          "namesake",
-          "historical-figure"
+    "spec": {
+        "name": "Charles De Foucauld Church",
+        "id": "charles-de-foucauld-church",
+        "description": "Charles De Foucauld Church (Église Charles de Foucauld) is a Catholic church dedicated to Charles de Foucauld (1858–1916), a French soldier and explorer who became a Catholic priest and hermit and was martyred in Algeria. The church serves the local Christian community in Casablanca and is a spiritual focal point for those inspired by De Foucauld's life and work in North Africa. The architecture is typically modern or mid-20th century, common for churches built after the city's rapid expansion.",
+        "location": {
+            "longitude": -7.6186346,
+            "latitude": 33.5718649,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/charles-de-foucauld",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "French Catholic priest, hermit, and martyr in North Africa, after whom the church is named."
+            }
         ],
-        "comment": "French Catholic priest, hermit, and martyr in North Africa, after whom the church is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Worship services access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Worship services access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period"
+        ]
+    }
 }

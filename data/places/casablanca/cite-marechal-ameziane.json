@@ -1,82 +1,82 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/cite",
-  "metadata": {
-    "tags": [
-      "historical-district",
-      "residential-area",
-      "urban-planning",
-      "modernist",
-      "social-housing",
-      "1940s-1950s"
-    ]
-  },
-  "spec": {
-    "name": "Cité Maréchal Améziane",
-    "id": "cite-marechal-ameziane",
-    "description": "Cité Maréchal Améziane is a historically planned residential estate in Casablanca, designed by architect **Maurice Galamand** with construction spanning from 1949 to 1953. This 'cité' (housing estate) is a significant example of post-war housing projects during the French Protectorate, aiming to address the city's housing shortage. It is characterized by modernist architectural principles applied to social housing, and remains an active residential area today. The name commemorates Maréchal Jean-Louis Améziane, a notable figure from the French colonial administration.",
-    "location": {
-      "longitude": -7.619261,
-      "latitude": 33.585308,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/cite",
+    "metadata": {
+        "tags": [
+            "historical-district",
+            "residential-area",
+            "urban-planning",
+            "modernist",
+            "social-housing",
+            "1940s-1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/maurice-galamand",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who designed the Cité Maréchal Améziane housing estate."
-      },
-      {
-        "id": "people/jean-louis-ameziane",
-        "relationship": [
-          "namesake"
-        ],
-        "comment": "Maréchal of the French colonial administration after whom the cité was named."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1949-01-01",
-        "description": "Construction of the housing estate began."
-      },
-      {
-        "title": "Completion",
-        "date": "1953-01-01",
-        "description": "The Cité Maréchal Améziane was completed and opened for habitation."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "accommodation",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Cité Maréchal Améziane",
+        "id": "cite-marechal-ameziane",
+        "description": "Cité Maréchal Améziane is a historically planned residential estate in Casablanca, designed by architect **Maurice Galamand** with construction spanning from 1949 to 1953. This 'cité' (housing estate) is a significant example of post-war housing projects during the French Protectorate, aiming to address the city's housing shortage. It is characterized by modernist architectural principles applied to social housing, and remains an active residential area today. The name commemorates Maréchal Jean-Louis Améziane, a notable figure from the French colonial administration.",
+        "location": {
+            "longitude": -7.619261,
+            "latitude": 33.585308,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Area access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/maurice-galamand",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the Cité Maréchal Améziane housing estate."
+            },
+            {
+                "id": "people/jean-louis-ameziane",
+                "relationship": [
+                    "namesake"
+                ],
+                "comment": "Maréchal of the French colonial administration after whom the cité was named."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1949-01-01",
+                "description": "Construction of the housing estate began."
+            },
+            {
+                "title": "Completion",
+                "date": "1953-01-01",
+                "description": "The Cité Maréchal Améziane was completed and opened for habitation."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "accommodation/hotel",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Area access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

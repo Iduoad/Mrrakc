@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "sports/park",
-  "metadata": {
-    "tags": [
-      "sports-facility",
-      "calisthenics",
-      "outdoor-gym",
-      "fitness",
-      "public-space"
-    ]
-  },
-  "spec": {
-    "name": "Park Calisthenics",
-    "id": "park-calisthenics",
-    "description": "Park Calisthenics (Parc de Calisthénie) is a public fitness and sports area dedicated to calisthenics (bodyweight exercises). These facilities, featuring pull-up bars, parallel bars, and other structured equipment, are increasingly common in modern urban parks. The park provides free access to fitness equipment, promoting public health and physical activity in the local community.",
-    "location": {
-      "longitude": -7.5686789,
-      "latitude": 33.5532819,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "sports/park",
+    "metadata": {
+        "tags": [
+            "sports-facility",
+            "calisthenics",
+            "outdoor-gym",
+            "fitness",
+            "public-space"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "fitness"
-    ],
-    "items": [
-      "architecture",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Park access and equipment use",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Park Calisthenics",
+        "id": "park-calisthenics",
+        "description": "Park Calisthenics (Parc de Calisthénie) is a public fitness and sports area dedicated to calisthenics (bodyweight exercises). These facilities, featuring pull-up bars, parallel bars, and other structured equipment, are increasingly common in modern urban parks. The park provides free access to fitness equipment, promoting public health and physical activity in the local community.",
+        "location": {
+            "longitude": -7.5686789,
+            "latitude": 33.5532819,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sports/fitness"
+        ],
+        "items": [
+            "architecture/historical",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Park access and equipment use",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

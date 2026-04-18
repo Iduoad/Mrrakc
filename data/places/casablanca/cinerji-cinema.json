@@ -1,62 +1,62 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "cinema",
-      "movie-theater",
-      "entertainment",
-      "modern",
-      "mall-based"
-    ]
-  },
-  "spec": {
-    "name": "Cinerji Cinema",
-    "id": "cinerji-cinema",
-    "description": "Cinerji Cinema is a modern multiplex located within the Morocco Mall complex in Casablanca. It provides a contemporary cinematic experience, featuring multiple screens, modern sound technology, and comfortable seating. Its location in a major shopping center makes it a popular entertainment destination for families and younger audiences.",
-    "location": {
-      "longitude": -7.7048529,
-      "latitude": 33.5774393,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "cinema",
+            "movie-theater",
+            "entertainment",
+            "modern",
+            "mall-based"
+        ]
     },
-    "people": [
-      {
-        "id": "people/morocco-mall-developer",
-        "relationship": [
-          "owner"
+    "spec": {
+        "name": "Cinerji Cinema",
+        "id": "cinerji-cinema",
+        "description": "Cinerji Cinema is a modern multiplex located within the Morocco Mall complex in Casablanca. It provides a contemporary cinematic experience, featuring multiple screens, modern sound technology, and comfortable seating. Its location in a major shopping center makes it a popular entertainment destination for families and younger audiences.",
+        "location": {
+            "longitude": -7.7048529,
+            "latitude": 33.5774393,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/morocco-mall-developer",
+                "relationship": [
+                    "owner"
+                ],
+                "comment": "The developer/owner of the Morocco Mall complex."
+            }
         ],
-        "comment": "The developer/owner of the Morocco Mall complex."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Cinema Opening",
-        "date": "2011-12-01",
-        "description": "The cinema opened along with the Morocco Mall."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "3D/IMAX",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Ticket price",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Cinema Opening",
+                "date": "2011-12-01",
+                "description": "The cinema opened along with the Morocco Mall."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "entertainment/cinema",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Ticket price",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "italian-cuisine",
-      "fine-dining",
-      "modern-dining"
-    ]
-  },
-  "spec": {
-    "name": "Il Ferrarino Restaurant",
-    "id": "il-ferrarino-restaurant",
-    "description": "Il Ferrarino Restaurant is a popular dining spot in Casablanca specializing in **Italian cuisine**. Located in a modern or upscale commercial district, the restaurant offers an international menu featuring classic Italian dishes, often with a focus on fresh ingredients and sophisticated preparation. It caters to a clientele seeking European culinary standards and a contemporary dining experience.",
-    "location": {
-      "longitude": -7.6423387,
-      "latitude": 33.5877302,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "italian-cuisine",
+            "fine-dining",
+            "modern-dining"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Il Ferrarino Restaurant",
+        "id": "il-ferrarino-restaurant",
+        "description": "Il Ferrarino Restaurant is a popular dining spot in Casablanca specializing in **Italian cuisine**. Located in a modern or upscale commercial district, the restaurant offers an international menu featuring classic Italian dishes, often with a focus on fresh ingredients and sophisticated preparation. It caters to a clientele seeking European culinary standards and a contemporary dining experience.",
+        "location": {
+            "longitude": -7.6423387,
+            "latitude": 33.5877302,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

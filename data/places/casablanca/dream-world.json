@@ -1,56 +1,56 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/amusement-park",
-  "metadata": {
-    "tags": [
-      "amusement-park",
-      "theme-park",
-      "rides",
-      "family-fun",
-      "leisure"
-    ]
-  },
-  "spec": {
-    "name": "Dream World",
-    "id": "dream-world",
-    "description": "Dream World (Le Monde des Rêves) is a major amusement park in Casablanca, offering a wide range of attractions, rides, and entertainment options for visitors of all ages. It serves as a significant leisure destination for the city and surrounding areas, providing an organized venue for family outings and large-scale entertainment. Its existence reflects the growing demand for modern leisure and entertainment infrastructure in Morocco's economic capital.",
-    "location": {
-      "longitude": -7.6330593,
-      "latitude": 33.5818992,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/amusement-park",
+    "metadata": {
+        "tags": [
+            "amusement-park",
+            "theme-park",
+            "rides",
+            "family-fun",
+            "leisure"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://www.tripadvisor.com/Attraction_Review-g293737-d4508493-Reviews-Dream_World-Casablanca_Casablanca_Settat.html",
-        "type": "website",
-        "title": "Dream World on TripAdvisor"
-      }
-    ],
-    "activities": [
-      "entertainment",
-      "gaming",
-      "sports"
-    ],
-    "items": [
-      "amusement rides",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Entrance Fee/Ride Tickets",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Dream World",
+        "id": "dream-world",
+        "description": "Dream World (Le Monde des Rêves) is a major amusement park in Casablanca, offering a wide range of attractions, rides, and entertainment options for visitors of all ages. It serves as a significant leisure destination for the city and surrounding areas, providing an organized venue for family outings and large-scale entertainment. Its existence reflects the growing demand for modern leisure and entertainment infrastructure in Morocco's economic capital.",
+        "location": {
+            "longitude": -7.6330593,
+            "latitude": 33.5818992,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://www.tripadvisor.com/Attraction_Review-g293737-d4508493-Reviews-Dream_World-Casablanca_Casablanca_Settat.html",
+                "type": "website",
+                "title": "Dream World on TripAdvisor"
+            }
+        ],
+        "activities": [
+            "entertainment/cinema",
+            "entertainment/gaming",
+            "sports/fitness"
+        ],
+        "items": [
+            "entertainment/rides",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Entrance Fee/Ride Tickets",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

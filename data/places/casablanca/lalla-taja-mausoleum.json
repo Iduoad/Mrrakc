@@ -1,73 +1,73 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mausoleum",
-  "metadata": {
-    "tags": [
-      "religious",
-      "mausoleum",
-      "marabout",
-      "female-saint",
-      "old-medina",
-      "social-history"
-    ]
-  },
-  "spec": {
-    "name": "Lalla Taja Mausoleum",
-    "id": "lalla-taja-mausoleum",
-    "description": "The Lalla Taja Mausoleum (Marabout de Lalla Taja) is a unique and significant religious site located within the Casablanca Medina, as it is the **sole mausoleum dedicated to a woman in the Medina**. Dating from the **early 20th century**, it honors Lalla Taja, a revered figure known for her extraordinary **benevolence, particularly her care of orphans and support for single mothers**. She received assistance from the Belgian consulate due to her charitable work. Following her death, the women of the Medina, who deeply esteemed her, collectively buried her and erected this mausoleum in her honor. Lalla Taja remains a cherished symbol of compassion and a figure of veneration for the women of Casablanca.",
-    "location": {
-      "longitude": -7.6180037,
-      "latitude": 33.60038,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mausoleum",
+    "metadata": {
+        "tags": [
+            "religious",
+            "mausoleum",
+            "marabout",
+            "female-saint",
+            "old-medina",
+            "social-history"
+        ]
     },
-    "people": [
-      {
-        "id": "people/lalla-taja",
-        "relationship": [
-          "namesake",
-          "historical-figure",
-          "marabout"
+    "spec": {
+        "name": "Lalla Taja Mausoleum",
+        "id": "lalla-taja-mausoleum",
+        "description": "The Lalla Taja Mausoleum (Marabout de Lalla Taja) is a unique and significant religious site located within the Casablanca Medina, as it is the **sole mausoleum dedicated to a woman in the Medina**. Dating from the **early 20th century**, it honors Lalla Taja, a revered figure known for her extraordinary **benevolence, particularly her care of orphans and support for single mothers**. She received assistance from the Belgian consulate due to her charitable work. Following her death, the women of the Medina, who deeply esteemed her, collectively buried her and erected this mausoleum in her honor. Lalla Taja remains a cherished symbol of compassion and a figure of veneration for the women of Casablanca.",
+        "location": {
+            "longitude": -7.6180037,
+            "latitude": 33.60038,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/lalla-taja",
+                "relationship": [
+                    "namesake",
+                    "historical-figure",
+                    "marabout"
+                ],
+                "comment": "Revered female figure known for her benevolence and care for orphans and single mothers."
+            }
         ],
-        "comment": "Revered female figure known for her benevolence and care for orphans and single mothers."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Establishment/Death of Lalla Taja",
-        "date": "1900-01-01",
-        "description": "Lalla Taja passed away and the mausoleum was erected by the women of the Medina in her honor (Approximate date)."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
-        "type": "article",
-        "title": "Ancienne Médina de Casablanca (We See Casa - References Medina landmarks)"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "religious activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mausoleum access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is generally free but may require respectful attire/behavior."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Establishment/Death of Lalla Taja",
+                "date": "1900-01-01",
+                "description": "Lalla Taja passed away and the mausoleum was erected by the women of the Medina in her honor (Approximate date)."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://www.weseecasa.com/project/ancienne-medina-de-casablanca/",
+                "type": "article",
+                "title": "Ancienne Médina de Casablanca (We See Casa - References Medina landmarks)"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "religious/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mausoleum access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is generally free but may require respectful attire/behavior."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

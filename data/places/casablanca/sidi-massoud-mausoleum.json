@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mausoleum",
-  "metadata": {
-    "tags": [
-      "religious",
-      "mausoleum",
-      "marabout",
-      "local-shrine",
-      "sufism"
-    ]
-  },
-  "spec": {
-    "name": "Sidi Massoud Mausoleum",
-    "id": "sidi-massoud-mausoleum",
-    "description": "The Sidi Massoud Mausoleum (Marabout de Sidi Massoud) is a local religious shrine dedicated to a saint. The site is a point of local piety and veneration within the Moroccan Sufi tradition, drawing pilgrims from the surrounding community for spiritual purposes.",
-    "location": {
-      "longitude": -7.6287886,
-      "latitude": 33.5164052,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mausoleum",
+    "metadata": {
+        "tags": [
+            "religious",
+            "mausoleum",
+            "marabout",
+            "local-shrine",
+            "sufism"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-massoud",
-        "relationship": [
-          "namesake",
-          "marabout",
-          "historical-figure"
+    "spec": {
+        "name": "Sidi Massoud Mausoleum",
+        "id": "sidi-massoud-mausoleum",
+        "description": "The Sidi Massoud Mausoleum (Marabout de Sidi Massoud) is a local religious shrine dedicated to a saint. The site is a point of local piety and veneration within the Moroccan Sufi tradition, drawing pilgrims from the surrounding community for spiritual purposes.",
+        "location": {
+            "longitude": -7.6287886,
+            "latitude": 33.5164052,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-massoud",
+                "relationship": [
+                    "namesake",
+                    "marabout",
+                    "historical-figure"
+                ],
+                "comment": "The revered local saint."
+            }
         ],
-        "comment": "The revered local saint."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mausoleum access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mausoleum access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

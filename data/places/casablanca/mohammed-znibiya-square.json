@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "square",
-      "neighborhood-center",
-      "social-hub"
-    ]
-  },
-  "spec": {
-    "name": "Mohammed Znibiya Square",
-    "id": "mohammed-znibiya-square",
-    "description": "Mohammed Znibiya Square (Place Mohammed Znibiya) is a public square located in a residential area of Casablanca. Squares like this serve as vital local gathering points, providing open space, public seating, and pedestrian access to surrounding commercial and residential buildings. It is named after a local or historical figure (Mohammed Znibiya).",
-    "location": {
-      "longitude": -7.5639887,
-      "latitude": 33.5608398,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "square",
+            "neighborhood-center",
+            "social-hub"
+        ]
     },
-    "people": [
-      {
-        "id": "people/mohammed-znibiya",
-        "relationship": [
-          "namesake",
-          "local-figure"
+    "spec": {
+        "name": "Mohammed Znibiya Square",
+        "id": "mohammed-znibiya-square",
+        "description": "Mohammed Znibiya Square (Place Mohammed Znibiya) is a public square located in a residential area of Casablanca. Squares like this serve as vital local gathering points, providing open space, public seating, and pedestrian access to surrounding commercial and residential buildings. It is named after a local or historical figure (Mohammed Znibiya).",
+        "location": {
+            "longitude": -7.5639887,
+            "latitude": 33.5608398,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/mohammed-znibiya",
+                "relationship": [
+                    "namesake",
+                    "local-figure"
+                ],
+                "comment": "The local figure after whom the square is named."
+            }
         ],
-        "comment": "The local figure after whom the square is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "relaxing",
-      "socializing"
-    ],
-    "items": [
-      "coastline",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "wellness/relaxing",
+            "socializing/community"
+        ],
+        "items": [
+            "nature/coastline",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

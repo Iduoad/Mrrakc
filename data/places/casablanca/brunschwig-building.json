@@ -1,71 +1,71 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "colonial-architecture",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Brunschwig Building",
-    "id": "brunschwig-building",
-    "description": "The Brunschwig Building is a historical residential and commercial structure in central Casablanca, designed in 1928 by architects **Elias and Joseph Suraqui**. The Suraqui brothers were prominent Jewish Moroccan architects who significantly contributed to the city's architectural identity during the Protectorate era, particularly in the Art Deco style. The building is characteristic of the multi-story apartment blocks constructed in the new town, featuring the sleek, stylized decoration and functionality of the late 1920s, and remains inhabited today.",
-    "location": {
-      "longitude": -7.61965,
-      "latitude": 33.594246,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "colonial-architecture",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/elias-suraqui",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Brunschwig Building",
+        "id": "brunschwig-building",
+        "description": "The Brunschwig Building is a historical residential and commercial structure in central Casablanca, designed in 1928 by architects **Elias and Joseph Suraqui**. The Suraqui brothers were prominent Jewish Moroccan architects who significantly contributed to the city's architectural identity during the Protectorate era, particularly in the Art Deco style. The building is characteristic of the multi-story apartment blocks constructed in the new town, featuring the sleek, stylized decoration and functionality of the late 1920s, and remains inhabited today.",
+        "location": {
+            "longitude": -7.61965,
+            "latitude": 33.594246,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/elias-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the Brunschwig Building."
+            },
+            {
+                "id": "people/joseph-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the Brunschwig Building."
+            }
         ],
-        "comment": "Architect who co-designed the Brunschwig Building."
-      },
-      {
-        "id": "people/joseph-suraqui",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1928-01-01",
+                "description": "The Brunschwig Building was completed, designed by Elias and Joseph Suraqui."
+            }
         ],
-        "comment": "Architect who co-designed the Brunschwig Building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1928-01-01",
-        "description": "The Brunschwig Building was completed, designed by Elias and Joseph Suraqui."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

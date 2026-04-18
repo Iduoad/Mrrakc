@@ -1,78 +1,78 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/church",
-  "metadata": {
-    "tags": [
-      "historical-church",
-      "spanish-heritage",
-      "catholic",
-      "cultural-center",
-      "pre-protectorate-era"
-    ]
-  },
-  "spec": {
-    "name": "Church of San Buenaventura",
-    "id": "church-of-san-buenaventura",
-    "description": "The Church of San Buenaventura (Église San Buenaventura) is a historical site in Casablanca, built in 1891 and originally home to the **Spanish Franciscans**. Its construction predates the French Protectorate, making it an early and crucial piece of evidence regarding the significant role the **Spanish community** played in the city before the major French colonial development. The church, a simple, historical structure, has since been converted into a **Cultural Center**, preserving the building while repurposing it for public benefit and highlighting the city's pre-colonial European influences.",
-    "location": {
-      "longitude": -7.6201236,
-      "latitude": 33.6014996,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/church",
+    "metadata": {
+        "tags": [
+            "historical-church",
+            "spanish-heritage",
+            "catholic",
+            "cultural-center",
+            "pre-protectorate-era"
+        ]
     },
-    "people": [
-      {
-        "id": "people/spanish-franciscans",
-        "relationship": [
-          "founder",
-          "historical-occupants"
+    "spec": {
+        "name": "Church of San Buenaventura",
+        "id": "church-of-san-buenaventura",
+        "description": "The Church of San Buenaventura (Église San Buenaventura) is a historical site in Casablanca, built in 1891 and originally home to the **Spanish Franciscans**. Its construction predates the French Protectorate, making it an early and crucial piece of evidence regarding the significant role the **Spanish community** played in the city before the major French colonial development. The church, a simple, historical structure, has since been converted into a **Cultural Center**, preserving the building while repurposing it for public benefit and highlighting the city's pre-colonial European influences.",
+        "location": {
+            "longitude": -7.6201236,
+            "latitude": 33.6014996,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/spanish-franciscans",
+                "relationship": [
+                    "founder",
+                    "historical-occupants"
+                ],
+                "comment": "The religious order that originally founded and occupied the church."
+            },
+            {
+                "id": "people/spanish-community",
+                "relationship": [
+                    "patron"
+                ],
+                "comment": "The community that established the church prior to the French Protectorate."
+            }
         ],
-        "comment": "The religious order that originally founded and occupied the church."
-      },
-      {
-        "id": "people/spanish-community",
-        "relationship": [
-          "patron"
+        "timeline": [
+            {
+                "title": "Construction Date",
+                "date": "1891-01-01",
+                "description": "The church was built for the Spanish Franciscans."
+            },
+            {
+                "title": "Conversion to Cultural Center",
+                "date": "1980-01-01",
+                "description": "The church was converted into a cultural center (Approximate date)."
+            }
         ],
-        "comment": "The community that established the church prior to the French Protectorate."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Date",
-        "date": "1891-01-01",
-        "description": "The church was built for the Spanish Franciscans."
-      },
-      {
-        "title": "Conversion to Cultural Center",
-        "date": "1980-01-01",
-        "description": "The church was converted into a cultural center (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Cultural center access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a cultural center; access fee depends on the exhibition or event."
-    },
-    "timePeriods": [
-      "19th century",
-      "contemporary period"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Cultural center access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a cultural center; access fee depends on the exhibition or event."
+        },
+        "timePeriods": [
+            "19th century",
+            "contemporary period"
+        ]
+    }
 }

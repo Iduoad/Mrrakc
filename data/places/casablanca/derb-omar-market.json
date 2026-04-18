@@ -1,65 +1,65 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/market",
-  "metadata": {
-    "tags": [
-      "market",
-      "souk",
-      "wholesale",
-      "commerce",
-      "historical-market",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Derb Omar Market",
-    "id": "derb-omar-market",
-    "description": "Derb Omar is arguably the most famous and largest commercial district and market in Casablanca, and one of the largest centers for wholesale and retail trade in Morocco. Established in the **1920s** during the city's rapid colonial-era expansion, Derb Omar specializes in imported goods, electronics, household items, and textiles, serving as a primary distribution hub for the entire country. The area is characterized by dense, intense commercial activity and reflects the city's identity as Morocco's economic powerhouse.",
-    "location": {
-      "longitude": -7.6111262,
-      "latitude": 33.5922446,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/market",
+    "metadata": {
+        "tags": [
+            "market",
+            "souk",
+            "wholesale",
+            "commerce",
+            "historical-market",
+            "1920s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Market Establishment",
-        "date": "1920-01-01",
-        "description": "The commercial district began developing as a major trade and wholesale center during the French Protectorate era (Approximate date)."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/Casablanca",
-        "type": "article",
-        "title": "Casablanca Wikipedia Page (References Derb Omar as a major market)"
-      }
-    ],
-    "activities": [
-      "photography",
-      "shopping",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "goods"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Derb Omar Market",
+        "id": "derb-omar-market",
+        "description": "Derb Omar is arguably the most famous and largest commercial district and market in Casablanca, and one of the largest centers for wholesale and retail trade in Morocco. Established in the **1920s** during the city's rapid colonial-era expansion, Derb Omar specializes in imported goods, electronics, household items, and textiles, serving as a primary distribution hub for the entire country. The area is characterized by dense, intense commercial activity and reflects the city's identity as Morocco's economic powerhouse.",
+        "location": {
+            "longitude": -7.6111262,
+            "latitude": 33.5922446,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Market Establishment",
+                "date": "1920-01-01",
+                "description": "The commercial district began developing as a major trade and wholesale center during the French Protectorate era (Approximate date)."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/Casablanca",
+                "type": "article",
+                "title": "Casablanca Wikipedia Page (References Derb Omar as a major market)"
+            }
+        ],
+        "activities": [
+            "leisure/photography",
+            "shopping/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "item/goods"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

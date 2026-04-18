@@ -1,53 +1,53 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/landmark",
-  "metadata": {
-    "tags": [
-      "public-art",
-      "landmark",
-      "photography-spot",
-      "city-branding"
-    ]
-  },
-  "spec": {
-    "name": "We Casablanca Marker",
-    "id": "we-casablanca-marker",
-    "description": "The 'We Casablanca' Marker is a contemporary piece of public art, typically a large-scale, stylized sign or sculpture spelling out the phrase 'We Casablanca' (or similar branding) for photography and city identity purposes. It is part of the city's modern branding efforts, serving as a popular photo opportunity and a symbol of civic pride in a prominent urban location.",
-    "location": {
-      "longitude": -7.6183182,
-      "latitude": 33.5921128,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/landmark",
+    "metadata": {
+        "tags": [
+            "public-art",
+            "landmark",
+            "photography-spot",
+            "city-branding"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Installation Date",
-        "date": "2015-01-01",
-        "description": "The marker was installed as part of the city's tourism and branding efforts (Approximate date)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "photography",
-      "sightseeing"
-    ],
-    "items": [
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Viewing access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "We Casablanca Marker",
+        "id": "we-casablanca-marker",
+        "description": "The 'We Casablanca' Marker is a contemporary piece of public art, typically a large-scale, stylized sign or sculpture spelling out the phrase 'We Casablanca' (or similar branding) for photography and city identity purposes. It is part of the city's modern branding efforts, serving as a popular photo opportunity and a symbol of civic pride in a prominent urban location.",
+        "location": {
+            "longitude": -7.6183182,
+            "latitude": 33.5921128,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Installation Date",
+                "date": "2015-01-01",
+                "description": "The marker was installed as part of the city's tourism and branding efforts (Approximate date)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "leisure/photography",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Viewing access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

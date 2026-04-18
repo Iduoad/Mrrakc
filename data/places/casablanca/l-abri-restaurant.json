@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "restaurant",
-      "mediterranean-cuisine",
-      "international-dining",
-      "modern"
-    ]
-  },
-  "spec": {
-    "name": "L'abri Restaurant",
-    "id": "l-abri-restaurant",
-    "description": "L'abri Restaurant is a contemporary dining establishment in Casablanca specializing in **Mediterranean cuisine**. Often featuring dishes influenced by coastal European and North African traditions, the restaurant provides a fresh, modern menu. Its ambiance is likely casual yet chic, catering to an urban clientele seeking light, flavorful, and international dining options.",
-    "location": {
-      "longitude": -7.6474654,
-      "latitude": 33.5867545,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "restaurant",
+            "mediterranean-cuisine",
+            "international-dining",
+            "modern"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "coastline"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "L'abri Restaurant",
+        "id": "l-abri-restaurant",
+        "description": "L'abri Restaurant is a contemporary dining establishment in Casablanca specializing in **Mediterranean cuisine**. Often featuring dishes influenced by coastal European and North African traditions, the restaurant provides a fresh, modern menu. Its ambiance is likely casual yet chic, catering to an urban clientele seeking light, flavorful, and international dining options.",
+        "location": {
+            "longitude": -7.6474654,
+            "latitude": 33.5867545,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "nature/coastline"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

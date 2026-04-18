@@ -1,70 +1,70 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "commercial",
-      "residential",
-      "art-deco",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "South American Mutual Mortgage Company Building",
-    "id": "south-american-mutual-mortgage-company-building",
-    "description": "The South American Mutual Mortgage Company Building (Société mutuelle hypothécaire sud-américaine) is a historical residential and commercial structure completed in 1929. It was designed by the prominent duo **Marius Boyer and Jean Balois**. This building reflects the international investment and architectural ambition of the Art Deco era in Casablanca, particularly concerning foreign financial institutions. It remains an inhabited building.",
-    "location": {
-      "longitude": -7.612655,
-      "latitude": 33.5937697,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "commercial",
+            "residential",
+            "art-deco",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "South American Mutual Mortgage Company Building",
+        "id": "south-american-mutual-mortgage-company-building",
+        "description": "The South American Mutual Mortgage Company Building (Société mutuelle hypothécaire sud-américaine) is a historical residential and commercial structure completed in 1929. It was designed by the prominent duo **Marius Boyer and Jean Balois**. This building reflects the international investment and architectural ambition of the Art Deco era in Casablanca, particularly concerning foreign financial institutions. It remains an inhabited building.",
+        "location": {
+            "longitude": -7.612655,
+            "latitude": 33.5937697,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who co-designed the building."
+            },
+            {
+                "id": "people/jean-balois",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            }
         ],
-        "comment": "French architect who co-designed the building."
-      },
-      {
-        "id": "people/jean-balois",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1929-01-01",
+                "description": "The building was completed."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1929-01-01",
-        "description": "The building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

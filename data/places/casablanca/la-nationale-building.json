@@ -1,71 +1,71 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "modernist",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "La Nationale Building",
-    "id": "la-nationale-building",
-    "description": "The La Nationale Building (Immeuble La Nationale) is a historical residential and commercial building completed between 1930 and 1931. It was designed by architects **Xavier Rendu and R. Ponsard**. The building exemplifies the Art Deco and early Modernist styles that characterized Casablanca's downtown area, featuring multi-story units and often decorative architectural elements. These buildings defined the city's commercial and residential boom during the French Protectorate.",
-    "location": {
-      "longitude": -7.619565,
-      "latitude": 33.5898645,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "modernist",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/xavier-rendu",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "La Nationale Building",
+        "id": "la-nationale-building",
+        "description": "The La Nationale Building (Immeuble La Nationale) is a historical residential and commercial building completed between 1930 and 1931. It was designed by architects **Xavier Rendu and R. Ponsard**. The building exemplifies the Art Deco and early Modernist styles that characterized Casablanca's downtown area, featuring multi-story units and often decorative architectural elements. These buildings defined the city's commercial and residential boom during the French Protectorate.",
+        "location": {
+            "longitude": -7.619565,
+            "latitude": 33.5898645,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/xavier-rendu",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            },
+            {
+                "id": "people/r-ponsard",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      },
-      {
-        "id": "people/r-ponsard",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1931-01-01",
+                "description": "The La Nationale Building was completed."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1931-01-01",
-        "description": "The La Nationale Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

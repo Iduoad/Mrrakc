@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "sports/skatepark",
-  "metadata": {
-    "tags": [
-      "skatepark",
-      "sports",
-      "youth-culture",
-      "public-space",
-      "recreational"
-    ]
-  },
-  "spec": {
-    "name": "Nevada Rachidi Skatepark",
-    "id": "nevada-rachidi-skatepark",
-    "description": "Nevada Rachidi Skatepark (Skatepark Nevada Rachidi) is a public recreational facility dedicated to skateboarding, rollerblading, and other wheeled sports. Located in the Nevada/Rachidi neighborhood, the park provides a safe and structured environment for youth culture and physical activity. It is an important element of the city's modern public sports infrastructure, catering to a specific urban subculture.",
-    "location": {
-      "longitude": -7.6218081,
-      "latitude": 33.5901256,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "sports/skatepark",
+    "metadata": {
+        "tags": [
+            "skatepark",
+            "sports",
+            "youth-culture",
+            "public-space",
+            "recreational"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "skating"
-    ],
-    "items": [
-      "architecture",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Park access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Nevada Rachidi Skatepark",
+        "id": "nevada-rachidi-skatepark",
+        "description": "Nevada Rachidi Skatepark (Skatepark Nevada Rachidi) is a public recreational facility dedicated to skateboarding, rollerblading, and other wheeled sports. Located in the Nevada/Rachidi neighborhood, the park provides a safe and structured environment for youth culture and physical activity. It is an important element of the city's modern public sports infrastructure, catering to a specific urban subculture.",
+        "location": {
+            "longitude": -7.6218081,
+            "latitude": 33.5901256,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sports/skating"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Park access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

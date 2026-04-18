@@ -1,64 +1,64 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "marius-boyer",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Lévy-Bendayan Building",
-    "id": "levy-bendayan-building",
-    "description": "The Lévy-Bendayan Building is a historical residential and commercial structure in central Casablanca, completed in 1929. It was designed by architect **Marius Boyer**, a leading figure in the city's Art Deco and Neo-Moorish architectural scene. The building, named after its original owners/commissioners (Lévy-Bendayan, likely from the Jewish community), reflects the period's multi-story, mixed-use construction and the characteristic Art Deco detailing of Boyer's work.",
-    "location": {
-      "longitude": -7.6147646,
-      "latitude": 33.5914412,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "marius-boyer",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Lévy-Bendayan Building",
+        "id": "levy-bendayan-building",
+        "description": "The Lévy-Bendayan Building is a historical residential and commercial structure in central Casablanca, completed in 1929. It was designed by architect **Marius Boyer**, a leading figure in the city's Art Deco and Neo-Moorish architectural scene. The building, named after its original owners/commissioners (Lévy-Bendayan, likely from the Jewish community), reflects the period's multi-story, mixed-use construction and the characteristic Art Deco detailing of Boyer's work.",
+        "location": {
+            "longitude": -7.6147646,
+            "latitude": 33.5914412,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the building."
+            }
         ],
-        "comment": "French architect who designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1929-01-01",
-        "description": "The Lévy-Bendayan Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1929-01-01",
+                "description": "The Lévy-Bendayan Building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

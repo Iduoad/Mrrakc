@@ -1,85 +1,85 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "press",
-      "media-history",
-      "art-deco",
-      "marius-boyer",
-      "national-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Maroc-Soir Building",
-    "id": "maroc-soir-building",
-    "description": "The Maroc-Soir Building (Immeuble Maroc-Soir) is a historical commercial and residential structure completed in 1924 and designed by architect **Marius Boyer**. It is famously the former headquarter for the French-language colonial newspaper **'La Vigie Marocaine'** (later merged into 'Maroc-Soir'), making it a site of significant media history. The building features the classic Art Deco style characteristic of Boyer's work and the city's commercial boom. Its architectural and historical importance was recognized by its designation as a **National Material Patrimony** site in 2003.",
-    "location": {
-      "longitude": -7.6141389,
-      "latitude": 33.594847,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "press",
+            "media-history",
+            "art-deco",
+            "marius-boyer",
+            "national-heritage",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/marius-boyer",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Maroc-Soir Building",
+        "id": "maroc-soir-building",
+        "description": "The Maroc-Soir Building (Immeuble Maroc-Soir) is a historical commercial and residential structure completed in 1924 and designed by architect **Marius Boyer**. It is famously the former headquarter for the French-language colonial newspaper **'La Vigie Marocaine'** (later merged into 'Maroc-Soir'), making it a site of significant media history. The building features the classic Art Deco style characteristic of Boyer's work and the city's commercial boom. Its architectural and historical importance was recognized by its designation as a **National Material Patrimony** site in 2003.",
+        "location": {
+            "longitude": -7.6141389,
+            "latitude": 33.594847,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/marius-boyer",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the building."
+            },
+            {
+                "id": "people/la-vigie-marocaine-founders",
+                "relationship": [
+                    "original-occupants"
+                ],
+                "comment": "The founding team of the colonial newspaper La Vigie Marocaine."
+            }
         ],
-        "comment": "French architect who designed the building."
-      },
-      {
-        "id": "people/la-vigie-marocaine-founders",
-        "relationship": [
-          "original-occupants"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1924-01-01",
+                "description": "The Maroc-Soir Building was completed and became the home of La Vigie Marocaine newspaper."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2003-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
         ],
-        "comment": "The founding team of the colonial newspaper La Vigie Marocaine."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1924-01-01",
-        "description": "The Maroc-Soir Building was completed and became the home of La Vigie Marocaine newspaper."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2003-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/La_Vigie_Marocaine",
-        "type": "article",
-        "title": "La Vigie Marocaine Wikipedia Page"
-      }
-    ],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/La_Vigie_Marocaine",
+                "type": "article",
+                "title": "La Vigie Marocaine Wikipedia Page"
+            }
+        ],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited/commercial; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

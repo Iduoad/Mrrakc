@@ -1,58 +1,58 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mausoleum",
-  "metadata": {
-    "tags": [
-      "religious",
-      "mausoleum",
-      "marabout",
-      "local-shrine",
-      "sufism",
-      "sidi-othmane"
-    ]
-  },
-  "spec": {
-    "name": "Sidi Othmane Mausoleum",
-    "id": "sidi-othmane-mausoleum",
-    "description": "The Sidi Othmane Mausoleum (Marabout de Sidi Othmane) is a local religious shrine located in the Sidi Othmane neighborhood, which is named after the saint. The site is a traditional center for local piety and spiritual gatherings, playing a role in the social and religious identity of the community.",
-    "location": {
-      "longitude": -7.5726133,
-      "latitude": 33.5597611,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mausoleum",
+    "metadata": {
+        "tags": [
+            "religious",
+            "mausoleum",
+            "marabout",
+            "local-shrine",
+            "sufism",
+            "sidi-othmane"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-othmane",
-        "relationship": [
-          "namesake",
-          "marabout",
-          "historical-figure"
+    "spec": {
+        "name": "Sidi Othmane Mausoleum",
+        "id": "sidi-othmane-mausoleum",
+        "description": "The Sidi Othmane Mausoleum (Marabout de Sidi Othmane) is a local religious shrine located in the Sidi Othmane neighborhood, which is named after the saint. The site is a traditional center for local piety and spiritual gatherings, playing a role in the social and religious identity of the community.",
+        "location": {
+            "longitude": -7.5726133,
+            "latitude": 33.5597611,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-othmane",
+                "relationship": [
+                    "namesake",
+                    "marabout",
+                    "historical-figure"
+                ],
+                "comment": "The revered local saint after whom the neighborhood is named."
+            }
         ],
-        "comment": "The revered local saint after whom the neighborhood is named."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "religious activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Mausoleum access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "religious/general"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Mausoleum access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

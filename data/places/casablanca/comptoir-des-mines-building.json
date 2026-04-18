@@ -1,62 +1,62 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "finance",
-      "bank",
-      "national-heritage",
-      "art-deco",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Comptoir des mines Building",
-    "id": "comptoir-des-mines-building",
-    "description": "The Comptoir des Mines Building, also known as the **Taher Sebti Building**, is a monumental structure completed in 1930. It originally housed the **Comptoir des Mines**, a major colonial-era financial institution focused on mining and industry. The building's architecture is reflective of the grand, commercial Art Deco style prevalent in the city's financial district. It currently functions as a bank. Its historical and architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6150295,
-      "latitude": 33.5926494,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "finance",
+            "bank",
+            "national-heritage",
+            "art-deco",
+            "1930s"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1930-01-01",
-        "description": "The Comptoir des Mines building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "banking",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a bank office; interior access is limited to bank clients and staff."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Comptoir des mines Building",
+        "id": "comptoir-des-mines-building",
+        "description": "The Comptoir des Mines Building, also known as the **Taher Sebti Building**, is a monumental structure completed in 1930. It originally housed the **Comptoir des Mines**, a major colonial-era financial institution focused on mining and industry. The building's architecture is reflective of the grand, commercial Art Deco style prevalent in the city's financial district. It currently functions as a bank. Its historical and architectural importance was recognized with its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6150295,
+            "latitude": 33.5926494,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1930-01-01",
+                "description": "The Comptoir des Mines building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/banking",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a bank office; interior access is limited to bank clients and staff."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

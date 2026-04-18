@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/zaouiya",
-  "metadata": {
-    "tags": [
-      "religious",
-      "sufism",
-      "zaouiya",
-      "derkaouia",
-      "old-medina-vicinity"
-    ]
-  },
-  "spec": {
-    "name": "Zaouiya Derkaouia",
-    "id": "zaouiya-derkaouia",
-    "description": "Zaouiya Derkaouia (Zawiya Derqawiyya) is a religious center associated with the Darqawa Sufi order. Located near the historical core of Casablanca, it serves as a spiritual and social hub for members of the Sufi brotherhood, providing a place for religious rituals, learning, and community engagement.",
-    "location": {
-      "longitude": -7.6191527,
-      "latitude": 33.6026101,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/zaouiya",
+    "metadata": {
+        "tags": [
+            "religious",
+            "sufism",
+            "zaouiya",
+            "derkaouia",
+            "old-medina-vicinity"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-abdelkader-el-derkaoui",
-        "relationship": [
-          "founder"
+    "spec": {
+        "name": "Zaouiya Derkaouia",
+        "id": "zaouiya-derkaouia",
+        "description": "Zaouiya Derkaouia (Zawiya Derqawiyya) is a religious center associated with the Darqawa Sufi order. Located near the historical core of Casablanca, it serves as a spiritual and social hub for members of the Sufi brotherhood, providing a place for religious rituals, learning, and community engagement.",
+        "location": {
+            "longitude": -7.6191527,
+            "latitude": 33.6026101,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-abdelkader-el-derkaoui",
+                "relationship": [
+                    "founder"
+                ],
+                "comment": "Historical figure of the Derkaouia order (Requires local verification)."
+            }
         ],
-        "comment": "Historical figure of the Derkaouia order (Requires local verification)."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dancing",
-      "religious activities"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Access for Sufi Members",
-          "modality": "donation",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/dancing",
+            "religious/general"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Access for Sufi Members",
+                    "modality": "donation",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/mall",
-  "metadata": {
-    "tags": [
-      "market",
-      "social-commerce",
-      "cooperative",
-      "local-products",
-      "ben-msik"
-    ]
-  },
-  "spec": {
-    "name": "The Solidarity Market",
-    "id": "the-solidarity-market",
-    "description": "The Solidarity Market (Marché de la Solidarité) is a commercial space dedicated to promoting goods and products from local cooperatives, associations, and small businesses, often focusing on women's enterprises and traditional crafts. The market embodies a social solidarity economy, offering shoppers authentic local products and supporting community development.",
-    "location": {
-      "longitude": -7.6323625,
-      "latitude": 33.5544187,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/mall",
+    "metadata": {
+        "tags": [
+            "market",
+            "social-commerce",
+            "cooperative",
+            "local-products",
+            "ben-msik"
+        ]
     },
-    "people": [
-      {
-        "id": "people/local-cooperatives",
-        "relationship": [
-          "seller",
-          "producer"
+    "spec": {
+        "name": "The Solidarity Market",
+        "id": "the-solidarity-market",
+        "description": "The Solidarity Market (Marché de la Solidarité) is a commercial space dedicated to promoting goods and products from local cooperatives, associations, and small businesses, often focusing on women's enterprises and traditional crafts. The market embodies a social solidarity economy, offering shoppers authentic local products and supporting community development.",
+        "location": {
+            "longitude": -7.6323625,
+            "latitude": 33.5544187,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/local-cooperatives",
+                "relationship": [
+                    "seller",
+                    "producer"
+                ],
+                "comment": "The local cooperatives and associations whose goods are sold here."
+            }
         ],
-        "comment": "The local cooperatives and associations whose goods are sold here."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "shopping",
-      "transport services"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general",
+            "services/transport"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

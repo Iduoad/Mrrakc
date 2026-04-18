@@ -1,51 +1,51 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/mosque",
-  "metadata": {
-    "tags": [
-      "religious",
-      "architecture",
-      "local-mosque",
-      "park-adjacent"
-    ]
-  },
-  "spec": {
-    "name": "Ain Chock mosque Park",
-    "id": "ain-chock-mosque-park",
-    "description": "The Ain Chock Mosque is a local place of worship in the Aïn Chock neighborhood of Casablanca. The naming convention 'Ain Chock Mosque Park' suggests it is either situated within a park or, more likely, adjacent to a public green space, providing both a religious and communal area for the local population. Mosques like this are centers for daily prayers and community gatherings.",
-    "location": {
-      "longitude": -7.6009371,
-      "latitude": 33.553271,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/mosque",
+    "metadata": {
+        "tags": [
+            "religious",
+            "architecture",
+            "local-mosque",
+            "park-adjacent"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://maps.app.goo.gl/o846BCPXVwznTV7b6",
-        "type": "map",
-        "title": "Google Maps"
-      }
-    ],
-    "activities": [
-      "community activities",
-      "religious activities"
-    ],
-    "items": [],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Access for Muslims",
-          "modality": "free",
-          "audience": "muslims",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Ain Chock mosque Park",
+        "id": "ain-chock-mosque-park",
+        "description": "The Ain Chock Mosque is a local place of worship in the Aïn Chock neighborhood of Casablanca. The naming convention 'Ain Chock Mosque Park' suggests it is either situated within a park or, more likely, adjacent to a public green space, providing both a religious and communal area for the local population. Mosques like this are centers for daily prayers and community gatherings.",
+        "location": {
+            "longitude": -7.6009371,
+            "latitude": 33.553271,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.app.goo.gl/o846BCPXVwznTV7b6",
+                "type": "map",
+                "title": "Google Maps"
+            }
+        ],
+        "activities": [
+            "socializing/community",
+            "religious/general"
+        ],
+        "items": [],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Access for Muslims",
+                    "modality": "free",
+                    "audience": "muslims",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

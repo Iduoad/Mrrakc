@@ -1,63 +1,63 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/street-food",
-  "metadata": {
-    "tags": [
-      "seafood",
-      "street-food",
-      "market",
-      "local-cuisine",
-      "fresh-seafood"
-    ]
-  },
-  "spec": {
-    "name": "Chez Latifa Sea food",
-    "id": "chez-latifa-sea-food",
-    "description": "Chez Latifa Sea Food is a renowned street food vendor, likely located in or near the Marché Central, famous for serving **fresh fish snacks, including crab and oysters**. This spot is highly popular with locals and food tourists seeking authentic, fresh seafood prepared simply and quickly. It represents the vibrant and essential role of street food markets in Casablanca's daily culinary life, drawing on the city's position as a major port.",
-    "location": {
-      "longitude": -7.611937,
-      "latitude": 33.5948681,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/street-food",
+    "metadata": {
+        "tags": [
+            "seafood",
+            "street-food",
+            "market",
+            "local-cuisine",
+            "fresh-seafood"
+        ]
     },
-    "people": [
-      {
-        "id": "people/latifa",
-        "relationship": [
-          "founder",
-          "namesake"
+    "spec": {
+        "name": "Chez Latifa Sea food",
+        "id": "chez-latifa-sea-food",
+        "description": "Chez Latifa Sea Food is a renowned street food vendor, likely located in or near the Marché Central, famous for serving **fresh fish snacks, including crab and oysters**. This spot is highly popular with locals and food tourists seeking authentic, fresh seafood prepared simply and quickly. It represents the vibrant and essential role of street food markets in Casablanca's daily culinary life, drawing on the city's position as a major port.",
+        "location": {
+            "longitude": -7.611937,
+            "latitude": 33.5948681,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/latifa",
+                "relationship": [
+                    "founder",
+                    "namesake"
+                ],
+                "comment": "The person who founded and operates the popular seafood stall/restaurant."
+            }
         ],
-        "comment": "The person who founded and operates the popular seafood stall/restaurant."
-      }
-    ],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://www.tripadvisor.com/Restaurant_Review-g293737-d20516768-Reviews-Chez_Latifa_Seafood-Casablanca_Casablanca_Settat.html",
-        "type": "website",
-        "title": "Chez Latifa Sea Food on TripAdvisor"
-      }
-    ],
-    "activities": [
-      "dining"
-    ],
-    "items": [
-      "animals",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Food purchase",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://www.tripadvisor.com/Restaurant_Review-g293737-d20516768-Reviews-Chez_Latifa_Seafood-Casablanca_Casablanca_Settat.html",
+                "type": "website",
+                "title": "Chez Latifa Sea Food on TripAdvisor"
+            }
+        ],
+        "activities": [
+            "dining/restaurant"
+        ],
+        "items": [
+            "nature/animals",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Food purchase",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

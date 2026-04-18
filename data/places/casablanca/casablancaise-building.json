@@ -1,65 +1,65 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "art-deco",
-      "modernist",
-      "sports-history",
-      "renovating",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Casablancaise Building",
-    "id": "casablancaise-building",
-    "description": "The Casablancaise Building, dedicated to **Physical Education and Sports**, is an architecturally significant structure designed by **Robert Lièvre** and completed in 1936. This building is a noteworthy example of the Modernist style that evolved in Casablanca in the 1930s, prioritizing functionality and clean lines. Its original use reflects the colonial administration's focus on public health and recreation. The building is currently undergoing renovation, signaling efforts to preserve its historical and architectural value while potentially preparing it for a new function.",
-    "location": {
-      "longitude": -7.6217188,
-      "latitude": 33.5894334,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "art-deco",
+            "modernist",
+            "sports-history",
+            "renovating",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/robert-lievre",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Casablancaise Building",
+        "id": "casablancaise-building",
+        "description": "The Casablancaise Building, dedicated to **Physical Education and Sports**, is an architecturally significant structure designed by **Robert Lièvre** and completed in 1936. This building is a noteworthy example of the Modernist style that evolved in Casablanca in the 1930s, prioritizing functionality and clean lines. Its original use reflects the colonial administration's focus on public health and recreation. The building is currently undergoing renovation, signaling efforts to preserve its historical and architectural value while potentially preparing it for a new function.",
+        "location": {
+            "longitude": -7.6217188,
+            "latitude": 33.5894334,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/robert-lievre",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building dedicated to physical education and sports."
+            }
         ],
-        "comment": "Architect who designed the building dedicated to physical education and sports."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1936-01-01",
-        "description": "The Casablancaise Building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "under_renovation",
-      "comment": "The building is currently undergoing renovation; access is restricted."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1936-01-01",
+                "description": "The Casablancaise Building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "under_renovation",
+            "comment": "The building is currently undergoing renovation; access is restricted."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

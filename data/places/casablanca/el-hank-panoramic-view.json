@@ -1,50 +1,50 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/viewpoint",
-  "metadata": {
-    "tags": [
-      "viewpoint",
-      "panoramic-view",
-      "coastal-area",
-      "el-hank",
-      "casablanca-skyline"
-    ]
-  },
-  "spec": {
-    "name": "El Hank Panoramic View",
-    "id": "el-hank-panoramic-view",
-    "description": "El Hank Panoramic View is a scenic coastal point located on the El Hank peninsula, offering sweeping vistas of Casablanca's skyline, the Atlantic Ocean, and the iconic Hassan II Mosque. Situated near the El Hank Lighthouse, this area is a popular destination for locals and tourists seeking photo opportunities, particularly at sunset, and for enjoying the sea breeze. It showcases the dramatic intersection of Casablanca's modern urban development and its natural coastline.",
-    "location": {
-      "longitude": -7.6556307,
-      "latitude": 33.6095861,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/viewpoint",
+    "metadata": {
+        "tags": [
+            "viewpoint",
+            "panoramic-view",
+            "coastal-area",
+            "el-hank",
+            "casablanca-skyline"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "photography",
-      "relaxing",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "coastline"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Viewpoint access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "El Hank Panoramic View",
+        "id": "el-hank-panoramic-view",
+        "description": "El Hank Panoramic View is a scenic coastal point located on the El Hank peninsula, offering sweeping vistas of Casablanca's skyline, the Atlantic Ocean, and the iconic Hassan II Mosque. Situated near the El Hank Lighthouse, this area is a popular destination for locals and tourists seeking photo opportunities, particularly at sunset, and for enjoying the sea breeze. It showcases the dramatic intersection of Casablanca's modern urban development and its natural coastline.",
+        "location": {
+            "longitude": -7.6556307,
+            "latitude": 33.6095861,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "leisure/photography",
+            "wellness/relaxing",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "nature/coastline"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Viewpoint access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

@@ -1,54 +1,54 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/school",
-  "metadata": {
-    "tags": [
-      "education",
-      "historical-building",
-      "national-heritage",
-      "colonial-architecture"
-    ]
-  },
-  "spec": {
-    "name": "El Kastalani Middle School",
-    "id": "el-kastalani-middle-school",
-    "description": "El Kastalani Middle School (Collège El Kastalani) is a recognized historical educational institution in Casablanca. Its building, likely dating from the mid-20th century or the later Protectorate era, is deemed significant enough for its architectural or social history to be included in the national registry. It continues to function as a public school, providing middle-level education to the surrounding residential community. Its designation as a **National Material Patrimony** site in 2018 highlights its enduring value.",
-    "location": {
-      "longitude": -7.6078636,
-      "latitude": 33.5746894,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/school",
+    "metadata": {
+        "tags": [
+            "education",
+            "historical-building",
+            "national-heritage",
+            "colonial-architecture"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The school building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "El Kastalani Middle School",
+        "id": "el-kastalani-middle-school",
+        "description": "El Kastalani Middle School (Collège El Kastalani) is a recognized historical educational institution in Casablanca. Its building, likely dating from the mid-20th century or the later Protectorate era, is deemed significant enough for its architectural or social history to be included in the national registry. It continues to function as a public school, providing middle-level education to the surrounding residential community. Its designation as a **National Material Patrimony** site in 2018 highlights its enduring value.",
+        "location": {
+            "longitude": -7.6078636,
+            "latitude": 33.5746894,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The school building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted primarily to students, staff, and authorized personnel."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period"
+        ]
+    }
 }

@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/street-food",
-  "metadata": {
-    "tags": [
-      "street-food",
-      "traditional-food",
-      "sfenj",
-      "bakery",
-      "local-cuisine"
-    ]
-  },
-  "spec": {
-    "name": "Moroccan Sfenj (Donuts)",
-    "id": "moroccan-sfenj-donuts",
-    "description": "This location represents a typical street vendor or small shop specializing in **Sfenj** (Moroccan donuts), a popular deep-fried pastry staple of Moroccan street food. Sfenj are traditionally consumed hot, often for breakfast or as a snack. The location indicates a thriving, local street food spot where these classic treats are made and sold.",
-    "location": {
-      "longitude": -7.6152916,
-      "latitude": 33.5985609,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/street-food",
+    "metadata": {
+        "tags": [
+            "street-food",
+            "traditional-food",
+            "sfenj",
+            "bakery",
+            "local-cuisine"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining"
-    ],
-    "items": [
-      "architecture",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Food purchase",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Moroccan Sfenj (Donuts)",
+        "id": "moroccan-sfenj-donuts",
+        "description": "This location represents a typical street vendor or small shop specializing in **Sfenj** (Moroccan donuts), a popular deep-fried pastry staple of Moroccan street food. Sfenj are traditionally consumed hot, often for breakfast or as a snack. The location indicates a thriving, local street food spot where these classic treats are made and sold.",
+        "location": {
+            "longitude": -7.6152916,
+            "latitude": 33.5985609,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant"
+        ],
+        "items": [
+            "architecture/historical",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Food purchase",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

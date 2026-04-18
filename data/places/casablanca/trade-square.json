@@ -1,54 +1,54 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "square",
-      "historical-commerce",
-      "old-medina-vicinity",
-      "social-hub"
-    ]
-  },
-  "spec": {
-    "name": "Trade Square",
-    "id": "trade-square",
-    "description": "Trade Square (Place du Commerce) is a historical public space located near the border of the Old Medina and the new town. Throughout the **19th and early 20th centuries**, it was a very important gathering point where **local and international traders** met to discuss business and finalize deals, particularly in real estate and port-related commerce. It represents the crucial mercantile spirit that fueled Casablanca's early transformation into an economic powerhouse.",
-    "location": {
-      "longitude": -7.6175058,
-      "latitude": 33.5997684,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "square",
+            "historical-commerce",
+            "old-medina-vicinity",
+            "social-hub"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Peak Period of Commercial Activity",
-        "date": "1880-01-01",
-        "description": "The square served as a critical hub for international trade and real estate deals (Approximate period)."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "19th century",
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Trade Square",
+        "id": "trade-square",
+        "description": "Trade Square (Place du Commerce) is a historical public space located near the border of the Old Medina and the new town. Throughout the **19th and early 20th centuries**, it was a very important gathering point where **local and international traders** met to discuss business and finalize deals, particularly in real estate and port-related commerce. It represents the crucial mercantile spirit that fueled Casablanca's early transformation into an economic powerhouse.",
+        "location": {
+            "longitude": -7.6175058,
+            "latitude": 33.5997684,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Peak Period of Commercial Activity",
+                "date": "1880-01-01",
+                "description": "The square served as a critical hub for international trade and real estate deals (Approximate period)."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "19th century",
+            "contemporary period"
+        ]
+    }
 }

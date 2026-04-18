@@ -1,48 +1,48 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": []
-  },
-  "spec": {
-    "name": "Ahmed El Bidaoui Square",
-    "id": "ahmed-el-bidaoui-square",
-    "description": "One of the most important square of the Medina. Being in front of Bab El Marsa Gate made it the first step for the foreign trader entering the city. It was until 1920 that the warehouses were demolished and the sqaure was arranged. The square used to be named Amiral Philibert during the colonial era.",
-    "location": {
-      "longitude": -7.6171497,
-      "latitude": 33.6002756,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": []
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://maps.app.goo.gl/RtTN31LQcu7npFaz7",
-        "type": "map",
-        "title": "Google Maps"
-      }
-    ],
-    "activities": [
-      "dining",
-      "photography",
-      "shopping",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture",
-      "facilities",
-      "gardens"
-    ],
-    "access": {
-      "type": "public",
-      "options": [],
-      "status": "open"
-    },
-    "timePeriods": [
-      "18th century",
-      "19th century",
-      "20th century",
-      "21st century"
-    ]
-  }
+    "spec": {
+        "name": "Ahmed El Bidaoui Square",
+        "id": "ahmed-el-bidaoui-square",
+        "description": "One of the most important square of the Medina. Being in front of Bab El Marsa Gate made it the first step for the foreign trader entering the city. It was until 1920 that the warehouses were demolished and the sqaure was arranged. The square used to be named Amiral Philibert during the colonial era.",
+        "location": {
+            "longitude": -7.6171497,
+            "latitude": 33.6002756,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://maps.app.goo.gl/RtTN31LQcu7npFaz7",
+                "type": "map",
+                "title": "Google Maps"
+            }
+        ],
+        "activities": [
+            "dining/restaurant",
+            "leisure/photography",
+            "shopping/general",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical",
+            "facility/toilets",
+            "nature/gardens"
+        ],
+        "access": {
+            "type": "public",
+            "options": [],
+            "status": "open"
+        },
+        "timePeriods": [
+            "18th century",
+            "19th century",
+            "20th century",
+            "21st century"
+        ]
+    }
 }

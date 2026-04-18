@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/square",
-  "metadata": {
-    "tags": [
-      "public-space",
-      "square",
-      "city-center",
-      "historical-figure",
-      "social-hub"
-    ]
-  },
-  "spec": {
-    "name": "Fraternity Square",
-    "id": "fraternity-square",
-    "description": "Fraternity Square (Place de la Fraternité) is a public square located in the central district of Casablanca. As a key gathering space, it is part of the city's planned urban environment developed during the French Protectorate. The name, emphasizing fraternity, reflects civic values. It functions as a local hub for socializing, relaxation, and provides pedestrian access to surrounding commercial and residential areas.",
-    "location": {
-      "longitude": -7.6287499,
-      "latitude": 33.5939147,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/square",
+    "metadata": {
+        "tags": [
+            "public-space",
+            "square",
+            "city-center",
+            "historical-figure",
+            "social-hub"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "pedestrian thoroughfare",
-      "relaxing"
-    ],
-    "items": [
-      "coastline",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Square access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Fraternity Square",
+        "id": "fraternity-square",
+        "description": "Fraternity Square (Place de la Fraternité) is a public square located in the central district of Casablanca. As a key gathering space, it is part of the city's planned urban environment developed during the French Protectorate. The name, emphasizing fraternity, reflects civic values. It functions as a local hub for socializing, relaxation, and provides pedestrian access to surrounding commercial and residential areas.",
+        "location": {
+            "longitude": -7.6287499,
+            "latitude": 33.5939147,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "leisure/walking",
+            "wellness/relaxing"
+        ],
+        "items": [
+            "nature/coastline",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Square access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

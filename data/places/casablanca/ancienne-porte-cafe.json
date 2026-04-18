@@ -1,56 +1,56 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/cafe",
-  "metadata": {
-    "tags": [
-      "cafe",
-      "old-medina",
-      "traditional",
-      "historical-area",
-      "social-hub"
-    ]
-  },
-  "spec": {
-    "name": "Ancienne Porte Cafe",
-    "id": "ancienne-porte-cafe",
-    "description": "Ancienne Porte Cafe (Café de l'Ancienne Porte, meaning 'Cafe of the Old Gate') is situated in the vicinity of the Old Medina (Ancienne Médina) of Casablanca, potentially near one of the historical gates that once marked the entrance to the old walled city. Cafes in this area are deeply rooted in the local culture, serving as traditional social hubs for residents and providing visitors with a glimpse into the everyday life of the historic district. It offers a relaxed setting to enjoy Moroccan coffee and tea, often with a view of the bustling medina activity.",
-    "location": {
-      "longitude": -7.61596,
-      "latitude": 33.5995107,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/cafe",
+    "metadata": {
+        "tags": [
+            "cafe",
+            "old-medina",
+            "traditional",
+            "historical-area",
+            "social-hub"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [
-      {
-        "url": "https://www.getyourguide.com/ancienne-medina-casablanca-l237909/",
-        "type": "website",
-        "title": "Tours and Things to Do in Ancienne Medina, Casablanca"
-      }
-    ],
-    "activities": [
-      "dining",
-      "sightseeing",
-      "socializing"
-    ],
-    "items": [
-      "architecture",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Cafe services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Ancienne Porte Cafe",
+        "id": "ancienne-porte-cafe",
+        "description": "Ancienne Porte Cafe (Café de l'Ancienne Porte, meaning 'Cafe of the Old Gate') is situated in the vicinity of the Old Medina (Ancienne Médina) of Casablanca, potentially near one of the historical gates that once marked the entrance to the old walled city. Cafes in this area are deeply rooted in the local culture, serving as traditional social hubs for residents and providing visitors with a glimpse into the everyday life of the historic district. It offers a relaxed setting to enjoy Moroccan coffee and tea, often with a view of the bustling medina activity.",
+        "location": {
+            "longitude": -7.61596,
+            "latitude": 33.5995107,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [
+            {
+                "url": "https://www.getyourguide.com/ancienne-medina-casablanca-l237909/",
+                "type": "website",
+                "title": "Tours and Things to Do in Ancienne Medina, Casablanca"
+            }
+        ],
+        "activities": [
+            "dining/restaurant",
+            "sightseeing/historical",
+            "socializing/community"
+        ],
+        "items": [
+            "architecture/historical",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Cafe services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

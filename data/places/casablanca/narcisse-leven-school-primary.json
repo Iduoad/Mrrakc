@@ -1,85 +1,85 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/school",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "education",
-      "art-deco",
-      "jewish-heritage",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Narcisse Leven School Primary",
-    "id": "narcisse-leven-school-primary",
-    "description": "Narcisse Leven Primary School is a historical educational building completed in 1927, designed by architects **Elias and Joseph Suraqui**. The school was built to serve the educational needs of the local Jewish community and is named after **Narcisse Leven**, a key figure in the Alliance Israélite Universelle (AIU), which historically funded and ran Jewish schools across North Africa. The architecture is typical of the Art Deco style found in the growing new town, adapted for educational use.",
-    "location": {
-      "longitude": -7.6306501,
-      "latitude": 33.5956467,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/school",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "education",
+            "art-deco",
+            "jewish-heritage",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/elias-suraqui",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who co-designed the school building."
-      },
-      {
-        "id": "people/joseph-suraqui",
-        "relationship": [
-          "architect"
-        ],
-        "comment": "Architect who co-designed the school building."
-      },
-      {
-        "id": "people/narcisse-leven",
-        "relationship": [
-          "namesake",
-          "historical-figure"
-        ],
-        "comment": "President of the Alliance Israélite Universelle (AIU), after whom the school is named."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1927-01-01",
-        "description": "The Narcisse Leven School building was completed."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
+    "spec": {
+        "name": "Narcisse Leven School Primary",
+        "id": "narcisse-leven-school-primary",
+        "description": "Narcisse Leven Primary School is a historical educational building completed in 1927, designed by architects **Elias and Joseph Suraqui**. The school was built to serve the educational needs of the local Jewish community and is named after **Narcisse Leven**, a key figure in the Alliance Israélite Universelle (AIU), which historically funded and ran Jewish schools across North Africa. The architecture is typical of the Art Deco style found in the growing new town, adapted for educational use.",
+        "location": {
+            "longitude": -7.6306501,
+            "latitude": 33.5956467,
+            "province": "province/casablanca"
         },
-        {
-          "title": "Access for Students and Staff",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted primarily to students, staff, and authorized personnel."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "people": [
+            {
+                "id": "people/elias-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the school building."
+            },
+            {
+                "id": "people/joseph-suraqui",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the school building."
+            },
+            {
+                "id": "people/narcisse-leven",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "President of the Alliance Israélite Universelle (AIU), after whom the school is named."
+            }
+        ],
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1927-01-01",
+                "description": "The Narcisse Leven School building was completed."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                },
+                {
+                    "title": "Access for Students and Staff",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted primarily to students, staff, and authorized personnel."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

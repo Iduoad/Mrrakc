@@ -1,60 +1,60 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "nature/park",
-  "metadata": {
-    "tags": [
-      "urban-park",
-      "historical-figure",
-      "green-space",
-      "city-center",
-      "colonial-era",
-      "political-namesake"
-    ]
-  },
-  "spec": {
-    "name": "Felix Houphouet Park",
-    "id": "felix-houphouet-park",
-    "description": "Felix Houphouet Park (Jardin Félix Houphouët-Boigny) is a prominent public garden located near the central district of Casablanca. The park is named after Félix Houphouët-Boigny (1905–1993), the first President of Côte d'Ivoire, reflecting the strong political and cultural ties between Morocco and West African nations. Situated close to the historic city center and the port, it serves as a serene green space for relaxation and is particularly significant for its symbolic dedication to a major African political figure.",
-    "location": {
-      "longitude": -7.616273,
-      "latitude": 33.5973941,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "nature/park",
+    "metadata": {
+        "tags": [
+            "urban-park",
+            "historical-figure",
+            "green-space",
+            "city-center",
+            "colonial-era",
+            "political-namesake"
+        ]
     },
-    "people": [
-      {
-        "id": "people/felix-houphouet-boigny",
-        "relationship": [
-          "namesake",
-          "historical-figure"
+    "spec": {
+        "name": "Felix Houphouet Park",
+        "id": "felix-houphouet-park",
+        "description": "Felix Houphouet Park (Jardin Félix Houphouët-Boigny) is a prominent public garden located near the central district of Casablanca. The park is named after Félix Houphouët-Boigny (1905–1993), the first President of Côte d'Ivoire, reflecting the strong political and cultural ties between Morocco and West African nations. Situated close to the historic city center and the port, it serves as a serene green space for relaxation and is particularly significant for its symbolic dedication to a major African political figure.",
+        "location": {
+            "longitude": -7.616273,
+            "latitude": 33.5973941,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/felix-houphouet-boigny",
+                "relationship": [
+                    "namesake",
+                    "historical-figure"
+                ],
+                "comment": "First President of Côte d'Ivoire, honored for his role in African history and Morocco-Ivorian relations."
+            }
         ],
-        "comment": "First President of Côte d'Ivoire, honored for his role in African history and Morocco-Ivorian relations."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "relaxing",
-      "sightseeing",
-      "walking"
-    ],
-    "items": [
-      "coastline",
-      "gardens"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Park access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "wellness/relaxing",
+            "sightseeing/historical",
+            "leisure/walking"
+        ],
+        "items": [
+            "nature/coastline",
+            "nature/gardens"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Park access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

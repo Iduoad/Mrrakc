@@ -1,75 +1,75 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/garage",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "industrial-architecture",
-      "modernist",
-      "national-heritage",
-      "1950s"
-    ]
-  },
-  "spec": {
-    "name": "Royal Garage Building",
-    "id": "royal-garage-building",
-    "description": "The Royal Garage Building (Garage Royal) is a notable industrial-commercial structure completed in 1957, designed by architects **Amédée Anicet and Louis Perrin-Hoppenot**. Its post-independence construction reflects the continuation of modernist, functionalist design for large-scale automotive facilities. The building is significant for its association with the Royal Garage function and its modern aesthetic, which earned it a designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6063146,
-      "latitude": 33.5931028,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/garage",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "industrial-architecture",
+            "modernist",
+            "national-heritage",
+            "1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/amedee-anicet",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Royal Garage Building",
+        "id": "royal-garage-building",
+        "description": "The Royal Garage Building (Garage Royal) is a notable industrial-commercial structure completed in 1957, designed by architects **Amédée Anicet and Louis Perrin-Hoppenot**. Its post-independence construction reflects the continuation of modernist, functionalist design for large-scale automotive facilities. The building is significant for its association with the Royal Garage function and its modern aesthetic, which earned it a designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6063146,
+            "latitude": 33.5931028,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/amedee-anicet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            },
+            {
+                "id": "people/louis-perrin-hoppenot",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who co-designed the building."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      },
-      {
-        "id": "people/louis-perrin-hoppenot",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1957-01-01",
+                "description": "The Royal Garage Building was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The building was officially included in the National Material Patrimony of Morocco."
+            }
         ],
-        "comment": "Architect who co-designed the building."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1957-01-01",
-        "description": "The Royal Garage Building was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "gaming",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is restricted to clients and staff."
-    },
-    "timePeriods": [
-      "20th century"
-    ]
-  }
+        "links": [],
+        "activities": [
+            "entertainment/gaming",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is restricted to clients and staff."
+        },
+        "timePeriods": [
+            "20th century"
+        ]
+    }
 }

@@ -1,77 +1,77 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "residential",
-      "commercial",
-      "art-deco",
-      "colonial-architecture",
-      "1930s"
-    ]
-  },
-  "spec": {
-    "name": "Baille Building",
-    "id": "baille-building",
-    "description": "The Baille Building is a prominent residential and commercial structure in central Casablanca, designed in 1931 by the notable French architectural partnership of **Auguste Cadet** and **Edmond Brion**. The building is recognized for its sleek, monumental style, characteristic of the Art Deco movement and early modernism that dominated Casablanca's architecture during the French Protectorate. It forms part of the city's historical downtown area, which was carefully planned by Henri Prost, and remains an active residential building today.",
-    "location": {
-      "longitude": -7.616434,
-      "latitude": 33.594368,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "residential",
+            "commercial",
+            "art-deco",
+            "colonial-architecture",
+            "1930s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/auguste-cadet",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Baille Building",
+        "id": "baille-building",
+        "description": "The Baille Building is a prominent residential and commercial structure in central Casablanca, designed in 1931 by the notable French architectural partnership of **Auguste Cadet** and **Edmond Brion**. The building is recognized for its sleek, monumental style, characteristic of the Art Deco movement and early modernism that dominated Casablanca's architecture during the French Protectorate. It forms part of the city's historical downtown area, which was carefully planned by Henri Prost, and remains an active residential building today.",
+        "location": {
+            "longitude": -7.616434,
+            "latitude": 33.594368,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/auguste-cadet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who co-designed the Baille Building."
+            },
+            {
+                "id": "people/edmond-brion",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who co-designed the Baille Building and other prominent structures in Casablanca."
+            }
         ],
-        "comment": "French architect who co-designed the Baille Building."
-      },
-      {
-        "id": "people/edmond-brion",
-        "relationship": [
-          "architect"
+        "timeline": [
+            {
+                "title": "Building Completed",
+                "date": "1931-01-01",
+                "description": "The Baille Building was completed, designed by Cadet and Brion."
+            }
         ],
-        "comment": "French architect who co-designed the Baille Building and other prominent structures in Casablanca."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed",
-        "date": "1931-01-01",
-        "description": "The Baille Building was completed, designed by Cadet and Brion."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
-        "type": "website",
-        "title": "La Compagnie algérienne... (Reference to surrounding architecture)"
-      }
-    ],
-    "activities": [
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "links": [
+            {
+                "url": "https://www.persee.fr/doc/outre_0300-9513_2000_num_87_328_3814",
+                "type": "website",
+                "title": "La Compagnie algérienne... (Reference to surrounding architecture)"
+            }
+        ],
+        "activities": [
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Building is inhabited; exterior view is public, interior access is restricted to residents/tenants."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

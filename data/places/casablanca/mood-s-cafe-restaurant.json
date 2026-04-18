@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/restaurant",
-  "metadata": {
-    "tags": [
-      "cafe-restaurant",
-      "modern-dining",
-      "social-hub",
-      "marina-district"
-    ]
-  },
-  "spec": {
-    "name": "Mood's Café-Restaurant",
-    "id": "mood-s-cafe-restaurant",
-    "description": "Mood's Café-Restaurant is a modern dual-function establishment offering both cafe services and a full restaurant menu. Located in the developing Marina district of Casablanca, it caters to urban professionals and visitors to the area, providing a contemporary setting for casual dining, business meetings, and coffee. Its location suggests a focus on modern ambiance and a diverse, international-style menu.",
-    "location": {
-      "longitude": -7.6191761,
-      "latitude": 33.6065793,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/restaurant",
+    "metadata": {
+        "tags": [
+            "cafe-restaurant",
+            "modern-dining",
+            "social-hub",
+            "marina-district"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "socializing"
-    ],
-    "items": [
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Cafe and restaurant services",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Mood's Café-Restaurant",
+        "id": "mood-s-cafe-restaurant",
+        "description": "Mood's Café-Restaurant is a modern dual-function establishment offering both cafe services and a full restaurant menu. Located in the developing Marina district of Casablanca, it caters to urban professionals and visitors to the area, providing a contemporary setting for casual dining, business meetings, and coffee. Its location suggests a focus on modern ambiance and a diverse, international-style menu.",
+        "location": {
+            "longitude": -7.6191761,
+            "latitude": 33.6065793,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "socializing/community"
+        ],
+        "items": [
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Cafe and restaurant services",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

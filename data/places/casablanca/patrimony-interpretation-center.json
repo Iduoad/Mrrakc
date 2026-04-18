@@ -1,56 +1,56 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/museum",
-  "metadata": {
-    "tags": [
-      "museum",
-      "historical-heritage",
-      "interpretation-center",
-      "old-medina-vicinity",
-      "urban-planning"
-    ]
-  },
-  "spec": {
-    "name": "Patrimony Interpretation Center",
-    "id": "patrimony-interpretation-center",
-    "description": "The Patrimony Interpretation Center is a planned or existing museum dedicated to educating the public about the historical, architectural, and cultural heritage of Casablanca, focusing on the preservation and understanding of its municipal patrimony. Located near the Old Medina, it serves as a key informational hub for local history, often featuring models, maps, and interactive exhibits detailing the evolution of the city's unique Art Deco and Neo-Moorish architecture.",
-    "location": {
-      "longitude": -7.6180961,
-      "latitude": 33.6011366,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/museum",
+    "metadata": {
+        "tags": [
+            "museum",
+            "historical-heritage",
+            "interpretation-center",
+            "old-medina-vicinity",
+            "urban-planning"
+        ]
     },
-    "people": [
-      {
-        "id": "people/casablanca-a-m-nagement",
-        "relationship": [
-          "developer"
+    "spec": {
+        "name": "Patrimony Interpretation Center",
+        "id": "patrimony-interpretation-center",
+        "description": "The Patrimony Interpretation Center is a planned or existing museum dedicated to educating the public about the historical, architectural, and cultural heritage of Casablanca, focusing on the preservation and understanding of its municipal patrimony. Located near the Old Medina, it serves as a key informational hub for local history, often featuring models, maps, and interactive exhibits detailing the evolution of the city's unique Art Deco and Neo-Moorish architecture.",
+        "location": {
+            "longitude": -7.6180961,
+            "latitude": 33.6011366,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/casablanca-a-m-nagement",
+                "relationship": [
+                    "developer"
+                ],
+                "comment": "The municipal development body likely involved in commissioning the center."
+            }
         ],
-        "comment": "The municipal development body likely involved in commissioning the center."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Museum entrance fee",
-          "modality": "ticket",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Museum entrance fee",
+                    "modality": "ticket",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

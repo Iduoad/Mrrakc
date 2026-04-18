@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "shopping/market",
-  "metadata": {
-    "tags": [
-      "market",
-      "local-commerce",
-      "municipal-market",
-      "produce",
-      "ain-chock"
-    ]
-  },
-  "spec": {
-    "name": "Municipal Market of Ain Chok",
-    "id": "municipal-market-of-ain-chok",
-    "description": "The Municipal Market of Ain Chok (Marché Municipal d'Aïn Chock) is a centrally organized local market serving the Aïn Chock neighborhood. Municipal markets are typically covered or organized public spaces providing essential goods like fresh produce, meat, and fish to the local community. It is a vital spot for daily commerce and local social interaction.",
-    "location": {
-      "longitude": -7.597614,
-      "latitude": 33.5477509,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "shopping/market",
+    "metadata": {
+        "tags": [
+            "market",
+            "local-commerce",
+            "municipal-market",
+            "produce",
+            "ain-chock"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "shopping"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Market access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Municipal Market of Ain Chok",
+        "id": "municipal-market-of-ain-chok",
+        "description": "The Municipal Market of Ain Chok (Marché Municipal d'Aïn Chock) is a centrally organized local market serving the Aïn Chock neighborhood. Municipal markets are typically covered or organized public spaces providing essential goods like fresh produce, meat, and fish to the local community. It is a vital spot for daily commerce and local social interaction.",
+        "location": {
+            "longitude": -7.597614,
+            "latitude": 33.5477509,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "shopping/general"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Market access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

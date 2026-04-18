@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "nature/beach",
-  "metadata": {
-    "tags": [
-      "beach",
-      "coastal",
-      "sunbathing",
-      "leisure",
-      "corniche-area"
-    ]
-  },
-  "spec": {
-    "name": "Madame Choual Beach",
-    "id": "madame-choual-beach",
-    "description": "Madame Choual Beach (Plage Madame Choual) is a public beach located along the Ain Diab Corniche area of Casablanca, known for its fine sand and proximity to coastal resorts and amenities. Like other beaches in the area, it is a popular destination for sunbathing and water activities, particularly during the summer months. The beach is characteristic of Casablanca's Atlantic coast leisure environment.",
-    "location": {
-      "longitude": -7.7138364,
-      "latitude": 33.5721214,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "nature/beach",
+    "metadata": {
+        "tags": [
+            "beach",
+            "coastal",
+            "sunbathing",
+            "leisure",
+            "corniche-area"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "sports",
-      "swimming",
-      "walking"
-    ],
-    "items": [
-      "coastline"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Beach access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Madame Choual Beach",
+        "id": "madame-choual-beach",
+        "description": "Madame Choual Beach (Plage Madame Choual) is a public beach located along the Ain Diab Corniche area of Casablanca, known for its fine sand and proximity to coastal resorts and amenities. Like other beaches in the area, it is a popular destination for sunbathing and water activities, particularly during the summer months. The beach is characteristic of Casablanca's Atlantic coast leisure environment.",
+        "location": {
+            "longitude": -7.7138364,
+            "latitude": 33.5721214,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sports/fitness",
+            "sports/swimming",
+            "leisure/walking"
+        ],
+        "items": [
+            "nature/coastline"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Beach access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

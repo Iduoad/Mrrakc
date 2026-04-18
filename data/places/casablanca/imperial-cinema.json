@@ -1,54 +1,54 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "entertainment/cinema",
-  "metadata": {
-    "tags": [
-      "historical-cinema",
-      "art-deco",
-      "closed",
-      "national-heritage",
-      "early-20th-century"
-    ]
-  },
-  "spec": {
-    "name": "Impérial Cinema",
-    "id": "imperial-cinema",
-    "description": "Impérial Cinema (Cinéma Impérial) is a historically significant movie theater located near the Old Medina and the new town's central commercial district. Dating back to the **early 20th century**, it is one of the oldest grand cinemas established during Casablanca's rapid development under the French Protectorate. Like many of its contemporaries, it was designed in the monumental Art Deco style. Though currently **closed**, its importance to the city's cultural and architectural heritage was recognized by its designation as a **National Material Patrimony** site in 2018.",
-    "location": {
-      "longitude": -7.6170491,
-      "latitude": 33.5988998,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "entertainment/cinema",
+    "metadata": {
+        "tags": [
+            "historical-cinema",
+            "art-deco",
+            "closed",
+            "national-heritage",
+            "early-20th-century"
+        ]
     },
-    "people": [],
-    "timeline": [
-      {
-        "title": "Establishment Period",
-        "date": "1930-01-01",
-        "description": "The cinema was established during the golden age of cinema in Casablanca (Approximate date)."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [],
-      "status": "closed",
-      "comment": "The cinema is currently closed for operation; interior access is restricted."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+    "spec": {
+        "name": "Impérial Cinema",
+        "id": "imperial-cinema",
+        "description": "Impérial Cinema (Cinéma Impérial) is a historically significant movie theater located near the Old Medina and the new town's central commercial district. Dating back to the **early 20th century**, it is one of the oldest grand cinemas established during Casablanca's rapid development under the French Protectorate. Like many of its contemporaries, it was designed in the monumental Art Deco style. Though currently **closed**, its importance to the city's cultural and architectural heritage was recognized by its designation as a **National Material Patrimony** site in 2018.",
+        "location": {
+            "longitude": -7.6170491,
+            "latitude": 33.5988998,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [
+            {
+                "title": "Establishment Period",
+                "date": "1930-01-01",
+                "description": "The cinema was established during the golden age of cinema in Casablanca (Approximate date)."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The cinema building was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [],
+            "status": "closed",
+            "comment": "The cinema is currently closed for operation; interior access is restricted."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

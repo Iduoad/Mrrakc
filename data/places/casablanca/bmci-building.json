@@ -1,69 +1,69 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "bank-headquarters",
-      "modernist",
-      "post-war",
-      "1940s-1950s"
-    ]
-  },
-  "spec": {
-    "name": "BMCI Building",
-    "id": "bmci-building",
-    "description": "The BMCI Building (Banque Marocaine pour le Commerce et l'Industrie), located in the heart of Casablanca's commercial district, is a significant post-war administrative structure. Designed by architect **Alexandre Courtois** and constructed between 1947 and 1950, it reflects the shift towards modernist and international styles in the latter years of the Protectorate. The building is known for its imposing scale and functional design, typical of major financial headquarters of the mid-20th century, and remains an active bank today.",
-    "location": {
-      "longitude": -7.6172637,
-      "latitude": 33.5958291,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "bank-headquarters",
+            "modernist",
+            "post-war",
+            "1940s-1950s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/alexandre-courtois",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "BMCI Building",
+        "id": "bmci-building",
+        "description": "The BMCI Building (Banque Marocaine pour le Commerce et l'Industrie), located in the heart of Casablanca's commercial district, is a significant post-war administrative structure. Designed by architect **Alexandre Courtois** and constructed between 1947 and 1950, it reflects the shift towards modernist and international styles in the latter years of the Protectorate. The building is known for its imposing scale and functional design, typical of major financial headquarters of the mid-20th century, and remains an active bank today.",
+        "location": {
+            "longitude": -7.6172637,
+            "latitude": 33.5958291,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/alexandre-courtois",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the BMCI headquarters."
+            }
         ],
-        "comment": "Architect who designed the BMCI headquarters."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Period",
-        "date": "1947-01-01",
-        "description": "Construction began on the BMCI headquarters."
-      },
-      {
-        "title": "Building Completed",
-        "date": "1950-01-01",
-        "description": "The building was completed and opened for business."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "banking",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as an active bank; interior access is limited to bank clients and staff."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Construction Period",
+                "date": "1947-01-01",
+                "description": "Construction began on the BMCI headquarters."
+            },
+            {
+                "title": "Building Completed",
+                "date": "1950-01-01",
+                "description": "The building was completed and opened for business."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "services/banking",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as an active bank; interior access is limited to bank clients and staff."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

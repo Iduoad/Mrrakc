@@ -1,71 +1,71 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/cite",
-  "metadata": {
-    "tags": [
-      "historical-district",
-      "worker-housing",
-      "social-housing",
-      "modernist",
-      "national-heritage",
-      "1930s",
-      "closed"
-    ]
-  },
-  "spec": {
-    "name": "Worker neighborhood Cosuma",
-    "id": "worker-neighborhood-cosuma",
-    "description": "The Worker Neighborhood Cosuma (Cité Ouvrière Cosuma) is a historical residential complex for workers, built between 1932 and 1937, designed by architect **Edmond Brion**. This complex represents early attempts at organized social housing during the French Protectorate, aimed at providing functional, modern residences for the rapidly growing industrial workforce. The architecture reflects early Modernist principles. The complex is historically significant and was declared a **National Material Patrimony** site in 2018. It is currently **closed** or awaiting repurposing.",
-    "location": {
-      "longitude": -7.5715161,
-      "latitude": 33.6006246,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/cite",
+    "metadata": {
+        "tags": [
+            "historical-district",
+            "worker-housing",
+            "social-housing",
+            "modernist",
+            "national-heritage",
+            "1930s",
+            "closed"
+        ]
     },
-    "people": [
-      {
-        "id": "people/edmond-brion",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Worker neighborhood Cosuma",
+        "id": "worker-neighborhood-cosuma",
+        "description": "The Worker Neighborhood Cosuma (Cité Ouvrière Cosuma) is a historical residential complex for workers, built between 1932 and 1937, designed by architect **Edmond Brion**. This complex represents early attempts at organized social housing during the French Protectorate, aimed at providing functional, modern residences for the rapidly growing industrial workforce. The architecture reflects early Modernist principles. The complex is historically significant and was declared a **National Material Patrimony** site in 2018. It is currently **closed** or awaiting repurposing.",
+        "location": {
+            "longitude": -7.5715161,
+            "latitude": 33.6006246,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/edmond-brion",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "French architect who designed the worker housing complex."
+            }
         ],
-        "comment": "French architect who designed the worker housing complex."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Construction Completed",
-        "date": "1937-01-01",
-        "description": "The worker neighborhood was completed."
-      },
-      {
-        "title": "National Material Patrimony Declaration",
-        "date": "2018-01-01",
-        "description": "The complex was officially included in the National Material Patrimony of Morocco."
-      }
-    ],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "closed",
-      "comment": "The complex is currently closed or awaiting renovation/repurposing; interior access is restricted."
-    },
-    "timePeriods": [
-      "20th century",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Construction Completed",
+                "date": "1937-01-01",
+                "description": "The worker neighborhood was completed."
+            },
+            {
+                "title": "National Material Patrimony Declaration",
+                "date": "2018-01-01",
+                "description": "The complex was officially included in the National Material Patrimony of Morocco."
+            }
+        ],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "closed",
+            "comment": "The complex is currently closed or awaiting renovation/repurposing; interior access is restricted."
+        },
+        "timePeriods": [
+            "20th century",
+            "french protectorate"
+        ]
+    }
 }

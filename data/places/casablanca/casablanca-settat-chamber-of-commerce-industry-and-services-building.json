@@ -1,72 +1,72 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "architecture/building",
-  "metadata": {
-    "tags": [
-      "historical-building",
-      "finance",
-      "stock-exchange",
-      "commerce-chamber",
-      "art-deco",
-      "1920s"
-    ]
-  },
-  "spec": {
-    "name": "Casablanca Settat Chamber of Commerce - Industry and Services Building",
-    "id": "casablanca-settat-chamber-of-commerce-industry-and-services-building",
-    "description": "This prominent building, designed by architect **Pierre Bousquet** and completed in 1929, is historically significant as the former site of the **Casablanca Stock Exchange (Bourse de Casablanca)**, one of the first stock exchanges in Africa. Located in the heart of the city's financial district, its architecture reflects the Art Deco influence characteristic of major public and financial buildings of the French Protectorate era. It now houses the Casablanca-Settat Chamber of Commerce, Industry, and Services (CCIS), continuing its tradition as a center for economic activity and governance.",
-    "location": {
-      "longitude": -7.613631,
-      "latitude": 33.5946816,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "architecture/building",
+    "metadata": {
+        "tags": [
+            "historical-building",
+            "finance",
+            "stock-exchange",
+            "commerce-chamber",
+            "art-deco",
+            "1920s"
+        ]
     },
-    "people": [
-      {
-        "id": "people/pierre-bousquet",
-        "relationship": [
-          "architect"
+    "spec": {
+        "name": "Casablanca Settat Chamber of Commerce - Industry and Services Building",
+        "id": "casablanca-settat-chamber-of-commerce-industry-and-services-building",
+        "description": "This prominent building, designed by architect **Pierre Bousquet** and completed in 1929, is historically significant as the former site of the **Casablanca Stock Exchange (Bourse de Casablanca)**, one of the first stock exchanges in Africa. Located in the heart of the city's financial district, its architecture reflects the Art Deco influence characteristic of major public and financial buildings of the French Protectorate era. It now houses the Casablanca-Settat Chamber of Commerce, Industry, and Services (CCIS), continuing its tradition as a center for economic activity and governance.",
+        "location": {
+            "longitude": -7.613631,
+            "latitude": 33.5946816,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/pierre-bousquet",
+                "relationship": [
+                    "architect"
+                ],
+                "comment": "Architect who designed the building, completed in 1929."
+            }
         ],
-        "comment": "Architect who designed the building, completed in 1929."
-      }
-    ],
-    "timeline": [
-      {
-        "title": "Building Completed (as Stock Exchange)",
-        "date": "1929-01-01",
-        "description": "The building was completed and operated as the Casablanca Stock Exchange."
-      }
-    ],
-    "links": [
-      {
-        "url": "https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
-        "type": "article",
-        "title": "List of African Stock Exchanges from Wikipedia"
-      }
-    ],
-    "activities": [
-      "conducting commercial and industry services",
-      "sightseeing"
-    ],
-    "items": [
-      "architecture"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Exterior viewing",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Functions as a Chamber of Commerce office; general interior access is limited to members and staff."
-    },
-    "timePeriods": [
-      "20th century",
-      "contemporary period",
-      "french protectorate"
-    ]
-  }
+        "timeline": [
+            {
+                "title": "Building Completed (as Stock Exchange)",
+                "date": "1929-01-01",
+                "description": "The building was completed and operated as the Casablanca Stock Exchange."
+            }
+        ],
+        "links": [
+            {
+                "url": "https://en.wikipedia.org/wiki/List_of_African_stock_exchanges)",
+                "type": "article",
+                "title": "List of African Stock Exchanges from Wikipedia"
+            }
+        ],
+        "activities": [
+            "services/administrative",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "architecture/historical"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Exterior viewing",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Functions as a Chamber of Commerce office; general interior access is limited to members and staff."
+        },
+        "timePeriods": [
+            "20th century",
+            "contemporary period",
+            "french protectorate"
+        ]
+    }
 }

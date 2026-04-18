@@ -1,50 +1,50 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "urban/viewpoint",
-  "metadata": {
-    "tags": [
-      "viewpoint",
-      "panoramic-view",
-      "coastal-area",
-      "el-hank",
-      "ocean-view"
-    ]
-  },
-  "spec": {
-    "name": "Ragouba Panoramic View",
-    "id": "ragouba-panoramic-view",
-    "description": "Ragouba Panoramic View (Point de vue panoramique de Ragouba) is a scenic vantage point on the El Hank peninsula, offering wide-ranging views of the Atlantic coastline and the northern parts of Casablanca, including the port entrance. It is a popular spot for sightseeing and photography, especially during sunrise or sunset, and contributes to the coastal recreational space.",
-    "location": {
-      "longitude": -7.6509204,
-      "latitude": 33.6122675,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "urban/viewpoint",
+    "metadata": {
+        "tags": [
+            "viewpoint",
+            "panoramic-view",
+            "coastal-area",
+            "el-hank",
+            "ocean-view"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "photography",
-      "relaxing",
-      "sightseeing"
-    ],
-    "items": [
-      "coastline",
-      "facilities"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Viewpoint access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Ragouba Panoramic View",
+        "id": "ragouba-panoramic-view",
+        "description": "Ragouba Panoramic View (Point de vue panoramique de Ragouba) is a scenic vantage point on the El Hank peninsula, offering wide-ranging views of the Atlantic coastline and the northern parts of Casablanca, including the port entrance. It is a popular spot for sightseeing and photography, especially during sunrise or sunset, and contributes to the coastal recreational space.",
+        "location": {
+            "longitude": -7.6509204,
+            "latitude": 33.6122675,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "leisure/photography",
+            "wellness/relaxing",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "nature/coastline",
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Viewpoint access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

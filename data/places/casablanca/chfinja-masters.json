@@ -1,49 +1,49 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "food/bakery",
-  "metadata": {
-    "tags": [
-      "bakery",
-      "traditional-food",
-      "street-food",
-      "moroccan-cuisine",
-      "donut"
-    ]
-  },
-  "spec": {
-    "name": "Chfinja Masters",
-    "id": "chfinja-masters",
-    "description": "Chfinja Masters specializes in making and selling **Sfenj**, a traditional Moroccan donut or fritter. Sfenj is a staple street food, deep-fried until golden and often served hot and dusted with sugar. Places dedicated to sfenj, like Chfinja Masters, are popular early morning stops for breakfast or a quick snack, emphasizing traditional, simple, and affordable Moroccan culinary practices.",
-    "location": {
-      "longitude": -7.6463305,
-      "latitude": 33.6020879,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "food/bakery",
+    "metadata": {
+        "tags": [
+            "bakery",
+            "traditional-food",
+            "street-food",
+            "moroccan-cuisine",
+            "donut"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dining",
-      "shopping"
-    ],
-    "items": [
-      "architecture",
-      "food & drink"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Food purchase",
-          "modality": "consumption",
-          "audience": "all",
-          "entranceFee": -1
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Chfinja Masters",
+        "id": "chfinja-masters",
+        "description": "Chfinja Masters specializes in making and selling **Sfenj**, a traditional Moroccan donut or fritter. Sfenj is a staple street food, deep-fried until golden and often served hot and dusted with sugar. Places dedicated to sfenj, like Chfinja Masters, are popular early morning stops for breakfast or a quick snack, emphasizing traditional, simple, and affordable Moroccan culinary practices.",
+        "location": {
+            "longitude": -7.6463305,
+            "latitude": 33.6020879,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "dining/restaurant",
+            "shopping/general"
+        ],
+        "items": [
+            "architecture/historical",
+            "cuisine/drinks"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Food purchase",
+                    "modality": "consumption",
+                    "audience": "all",
+                    "entranceFee": -1
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

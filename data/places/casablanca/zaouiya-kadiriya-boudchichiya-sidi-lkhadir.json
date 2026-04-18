@@ -1,57 +1,57 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "religion/zaouiya",
-  "metadata": {
-    "tags": [
-      "religious",
-      "sufism",
-      "zaouiya",
-      "kadiriya-boudchichiya",
-      "sidi-lkhadir"
-    ]
-  },
-  "spec": {
-    "name": "Zaouiya Kadiriya Boudchichiya Sidi Lkhadir",
-    "id": "zaouiya-kadiriya-boudchichiya-sidi-lkhadir",
-    "description": "This is a specific location (Zaouiya) of the prominent **Qadiriyya Boutchichiyya Sufi order**, likely associated with the nearby Sidi El Khadir site. These zaouiyas are spiritual centers crucial for the Sufi community's religious practices, meditation, and leadership.",
-    "location": {
-      "longitude": -7.6880995,
-      "latitude": 33.5716564,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "religion/zaouiya",
+    "metadata": {
+        "tags": [
+            "religious",
+            "sufism",
+            "zaouiya",
+            "kadiriya-boudchichiya",
+            "sidi-lkhadir"
+        ]
     },
-    "people": [
-      {
-        "id": "people/sidi-hamza-al-qadiri-al-boutchichi",
-        "relationship": [
-          "religious-leader"
+    "spec": {
+        "name": "Zaouiya Kadiriya Boudchichiya Sidi Lkhadir",
+        "id": "zaouiya-kadiriya-boudchichiya-sidi-lkhadir",
+        "description": "This is a specific location (Zaouiya) of the prominent **Qadiriyya Boutchichiyya Sufi order**, likely associated with the nearby Sidi El Khadir site. These zaouiyas are spiritual centers crucial for the Sufi community's religious practices, meditation, and leadership.",
+        "location": {
+            "longitude": -7.6880995,
+            "latitude": 33.5716564,
+            "province": "province/casablanca"
+        },
+        "people": [
+            {
+                "id": "people/sidi-hamza-al-qadiri-al-boutchichi",
+                "relationship": [
+                    "religious-leader"
+                ],
+                "comment": "The spiritual head of the Qadiriyya Boutchichiyya Sufi order."
+            }
         ],
-        "comment": "The spiritual head of the Qadiriyya Boutchichiyya Sufi order."
-      }
-    ],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "dancing",
-      "religious activities"
-    ],
-    "items": [
-      "facilities"
-    ],
-    "access": {
-      "type": "restricted",
-      "options": [
-        {
-          "title": "Access for Sufi Members",
-          "modality": "donation",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open",
-      "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "entertainment/dancing",
+            "religious/general"
+        ],
+        "items": [
+            "facility/toilets"
+        ],
+        "access": {
+            "type": "restricted",
+            "options": [
+                {
+                    "title": "Access for Sufi Members",
+                    "modality": "donation",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open",
+            "comment": "Access is generally restricted to members of the Sufi order or with prior permission."
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

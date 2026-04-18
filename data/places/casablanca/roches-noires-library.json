@@ -1,50 +1,50 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/library",
-  "metadata": {
-    "tags": [
-      "library",
-      "public-service",
-      "roches-noires",
-      "reading",
-      "community"
-    ]
-  },
-  "spec": {
-    "name": "Roches Noires Library",
-    "id": "roches-noires-library",
-    "description": "Roches Noires Library (Bibliothèque des Roches Noires) is a local public library serving the Roches Noires neighborhood of Casablanca. Libraries are essential civic resources, offering access to books, educational materials, and a quiet space for study and reading. This library supports the educational and cultural needs of the surrounding residential community.",
-    "location": {
-      "longitude": -7.5969295,
-      "latitude": 33.5911621,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/library",
+    "metadata": {
+        "tags": [
+            "library",
+            "public-service",
+            "roches-noires",
+            "reading",
+            "community"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "borrowing books and materials",
-      "cultural activities",
-      "entertainment"
-    ],
-    "items": [
-      "amusement rides",
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Library access",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "Roches Noires Library",
+        "id": "roches-noires-library",
+        "description": "Roches Noires Library (Bibliothèque des Roches Noires) is a local public library serving the Roches Noires neighborhood of Casablanca. Libraries are essential civic resources, offering access to books, educational materials, and a quiet space for study and reading. This library supports the educational and cultural needs of the surrounding residential community.",
+        "location": {
+            "longitude": -7.5969295,
+            "latitude": 33.5911621,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "education/library",
+            "sightseeing/cultural",
+            "entertainment/cinema"
+        ],
+        "items": [
+            "entertainment/rides",
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Library access",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }

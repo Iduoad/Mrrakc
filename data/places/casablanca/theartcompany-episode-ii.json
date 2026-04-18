@@ -1,47 +1,47 @@
 {
-  "version": "mrrakc/v0",
-  "kind": "culture/art-gallery",
-  "metadata": {
-    "tags": [
-      "art-gallery",
-      "contemporary-art",
-      "modern-art",
-      "exhibition-space"
-    ]
-  },
-  "spec": {
-    "name": "TheArtCompany... Episode II",
-    "id": "theartcompany-episode-ii",
-    "description": "TheArtCompany... Episode II is a contemporary art gallery and exhibition space that, through its unusual name, suggests a modern, potentially thematic approach to art curation. It showcases contemporary art, providing a platform for artists and promoting cultural dialogue in the city's art scene.",
-    "location": {
-      "longitude": -7.6465754,
-      "latitude": 33.5853144,
-      "province": "province/casablanca"
+    "version": "mrrakc/v0",
+    "kind": "culture/art-gallery",
+    "metadata": {
+        "tags": [
+            "art-gallery",
+            "contemporary-art",
+            "modern-art",
+            "exhibition-space"
+        ]
     },
-    "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [
-      "cultural activities",
-      "sightseeing"
-    ],
-    "items": [
-      "memorabilia"
-    ],
-    "access": {
-      "type": "public",
-      "options": [
-        {
-          "title": "Gallery access during opening hours",
-          "modality": "free",
-          "audience": "all",
-          "entranceFee": 0
-        }
-      ],
-      "status": "open"
-    },
-    "timePeriods": [
-      "contemporary period"
-    ]
-  }
+    "spec": {
+        "name": "TheArtCompany... Episode II",
+        "id": "theartcompany-episode-ii",
+        "description": "TheArtCompany... Episode II is a contemporary art gallery and exhibition space that, through its unusual name, suggests a modern, potentially thematic approach to art curation. It showcases contemporary art, providing a platform for artists and promoting cultural dialogue in the city's art scene.",
+        "location": {
+            "longitude": -7.6465754,
+            "latitude": 33.5853144,
+            "province": "province/casablanca"
+        },
+        "people": [],
+        "timeline": [],
+        "links": [],
+        "activities": [
+            "sightseeing/cultural",
+            "sightseeing/historical"
+        ],
+        "items": [
+            "culture/memorabilia"
+        ],
+        "access": {
+            "type": "public",
+            "options": [
+                {
+                    "title": "Gallery access during opening hours",
+                    "modality": "free",
+                    "audience": "all",
+                    "entranceFee": 0
+                }
+            ],
+            "status": "open"
+        },
+        "timePeriods": [
+            "contemporary period"
+        ]
+    }
 }
