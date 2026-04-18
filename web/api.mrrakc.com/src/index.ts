@@ -73,7 +73,7 @@ app.post('/places', async (c) => {
           "id": placeId,
           "province": placeData.spec?.location?.province,
           "data": JSON.stringify(placeData, null, 2),
-          "status": "pending"
+          "status": "Pending"
         }
       }
     ]);
