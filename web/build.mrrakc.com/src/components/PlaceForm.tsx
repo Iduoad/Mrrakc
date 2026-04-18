@@ -18,6 +18,7 @@ interface Props {
   initialData?: Partial<Place>;
   onSubmit: (data: Place) => void;
   onCancel: () => void;
+  onError?: (message: string) => void;
 }
 
 // Local interface for form handling because useFieldArray requires objects
@@ -66,7 +67,7 @@ const CollapsibleSection: React.FC<{
   );
 };
 
-const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
+const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }) => {
   const {
     register,
     control,
@@ -188,7 +189,9 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
       onSubmit(result.data);
     } else {
       console.error('Zod Validation Failed:', result.error);
-      alert('Form has errors. Please check console.');
+      if (onError) {
+        onError('Please check the highlighted fields.');
+      }
     }
   };
 
@@ -198,26 +201,26 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
         <CollapsibleSection title="Basic Information" icon={<Info size={14} />} defaultOpen={true}>
           <div className="space-y-4">
             <div className="space-y-1">
-              <label className="block text-[11px] font-bold uppercase text-stone-500">Name</label>
+              <label className={`block text-[11px] font-bold uppercase ${errors.spec?.name ? 'text-red-500' : 'text-stone-500'}`}>Name</label>
               <input 
                 {...register('spec.name')}
-                className="w-full px-4 py-2 rounded-lg border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 focus:ring-1 focus:ring-terra outline-none transition-all text-sm"
+                className={`w-full px-4 py-2 rounded-lg border ${errors.spec?.name ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700 focus:ring-terra'} bg-white dark:bg-stone-800 focus:ring-1 outline-none transition-all text-sm`}
                 placeholder="e.g. Koutoubia Mosque"
               />
-              {errors.spec?.name && <p className="text-red-500 text-[10px] mt-1">{(errors.spec.name as any).message}</p>}
+              {errors.spec?.name && <p className="text-red-500 text-[10px] mt-1">{errors.spec.name.message}</p>}
             </div>
 
             <div className="space-y-1">
-              <label className="block text-[11px] font-bold uppercase text-stone-500">ID (Slug)</label>
+              <label className={`block text-[11px] font-bold uppercase ${errors.spec?.id ? 'text-red-500' : 'text-stone-500'}`}>ID (Slug)</label>
               <input 
                 {...register('spec.id')}
-                className="w-full px-4 py-2 rounded-lg border border-clay dark:border-stone-700 bg-sand/30 dark:bg-stone-900 font-mono text-xs outline-none"
+                className={`w-full px-4 py-2 rounded-lg border ${errors.spec?.id ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700'} bg-sand/30 dark:bg-stone-900 font-mono text-xs outline-none`}
               />
-              {errors.spec?.id && <p className="text-red-500 text-[10px] mt-1">{(errors.spec.id as any).message}</p>}
+              {errors.spec?.id && <p className="text-red-500 text-[10px] mt-1">{errors.spec.id.message}</p>}
             </div>
 
             <div className="space-y-1">
-              <label className="block text-[11px] font-bold uppercase text-stone-500">Kind</label>
+              <label className={`block text-[11px] font-bold uppercase ${errors.kind ? 'text-red-500' : 'text-stone-500'}`}>Kind</label>
               <Controller
                 name="kind"
                 control={control}
@@ -228,6 +231,15 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
                     value={kindOptions.find(o => o.value === field.value)}
                     onChange={(val) => field.onChange((val as { value: typeof KINDS[number] } | null)?.value)}
                     className="text-sm"
+                    styles={{
+                      control: (base) => ({
+                        ...base,
+                        borderColor: errors.kind ? '#ef4444' : base.borderColor,
+                        '&:hover': {
+                          borderColor: errors.kind ? '#ef4444' : base.borderColor,
+                        }
+                      })
+                    }}
                   />
                 )}
               />
@@ -235,20 +247,20 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
             </div>
 
             <div className="space-y-1">
-              <label className="block text-[11px] font-bold uppercase text-stone-500">Description</label>
+              <label className={`block text-[11px] font-bold uppercase ${errors.spec?.description ? 'text-red-500' : 'text-stone-500'}`}>Description</label>
               <textarea 
                 {...register('spec.description')}
                 rows={3}
-                className="w-full px-4 py-2 rounded-lg border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 focus:ring-1 focus:ring-terra outline-none transition-all text-sm"
+                className={`w-full px-4 py-2 rounded-lg border ${errors.spec?.description ? 'border-red-500 focus:ring-red-500' : 'border-clay dark:border-stone-700 focus:ring-terra'} bg-white dark:bg-stone-800 focus:ring-1 outline-none transition-all text-sm`}
                 placeholder="Write a brief description..."
               />
-              {errors.spec?.description && <p className="text-red-500 text-[10px] mt-1">{(errors.spec.description as any).message}</p>}
+              {errors.spec?.description && <p className="text-red-500 text-[10px] mt-1">{errors.spec.description.message}</p>}
             </div>
           </div>
         </CollapsibleSection>
 
         <CollapsibleSection title="Location" icon={<MapPin size={14} />} defaultOpen={true}>
-          <div className="space-y-4 p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50">
+          <div className={`space-y-4 p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border ${errors.spec?.location ? 'border-red-500/50 bg-red-50/10' : 'border-clay/50 dark:border-stone-800/50'}`}>
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-1">
                 <label className="text-[10px] uppercase font-bold text-stone-500">Latitude</label>
@@ -266,11 +278,11 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel }) => {
                 <input type="number" step="any" {...register('spec.location.altitude', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
               </div>
               <div className="space-y-1">
-                <label className="text-[10px] uppercase font-bold text-stone-500">Province</label>
+                <label className={`text-[10px] uppercase font-bold ${errors.spec?.location?.province ? 'text-red-500' : 'text-stone-500'}`}>Province</label>
                 <input 
                   {...register('spec.location.province')}
                   readOnly
-                  className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-clay/20 dark:bg-stone-900 text-xs font-mono"
+                  className={`w-full px-3 py-1.5 rounded border ${errors.spec?.location?.province ? 'border-red-500 bg-red-50/10' : 'border-clay dark:border-stone-700 bg-clay/20 dark:bg-stone-900'} text-xs font-mono`}
                   placeholder="Auto..."
                 />
               </div>

@@ -2,6 +2,8 @@ import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import { APIProvider } from '@vis.gl/react-google-maps';
 import { MapComponent } from './components/MapComponent';
 import PlaceForm from './components/PlaceForm';
+import Modal from './components/Modal';
+import { ToastContainer, type NotificationType } from './components/Notification';
 import { loadProvinces, getProvinceForPoint } from './utils/geo';
 import { exportToZip } from './utils/export';
 import { StorageManager } from './utils/storage';
@@ -28,7 +30,50 @@ const App: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [expandedProvinces, setExpandedProvinces] = useState<Record<string, boolean>>({});
   
+  // Notification State
+  const [notifications, setNotifications] = useState<{ id: string; message: string; type: NotificationType }[]>([]);
+
+  const addNotification = useCallback((message: string, type: NotificationType = 'info') => {
+    const id = Math.random().toString(36).substring(2, 9);
+    setNotifications(prev => [...prev, { id, message, type }]);
+  }, []);
+
+  const removeNotification = useCallback((id: string) => {
+    setNotifications(prev => prev.filter(n => n.id !== id));
+  }, []);
+
+  // Modal State
+  const [modalState, setModalState] = useState<{
+    isOpen: boolean;
+    title: string;
+    message: string | React.ReactNode;
+    type: 'info' | 'success' | 'error' | 'confirm';
+    onConfirm?: () => void;
+  }>({
+    isOpen: false,
+    title: '',
+    message: '',
+    type: 'info'
+  });
+
   const hasLoaded = useRef(false);
+
+  const showModal = useCallback((title: string, message: string | React.ReactNode, type: 'info' | 'success' | 'error' | 'confirm' = 'info', onConfirm?: () => void) => {
+    setModalState({ 
+      isOpen: true, 
+      title, 
+      message, 
+      type, 
+      onConfirm: onConfirm ? () => {
+        onConfirm();
+        setModalState(prev => ({ ...prev, isOpen: false }));
+      } : undefined 
+    });
+  }, []);
+
+  const closeModal = useCallback(() => {
+    setModalState(prev => ({ ...prev, isOpen: false }));
+  }, []);
 
   // Load persistence and geo data
   useEffect(() => {
@@ -117,18 +162,7 @@ const App: React.FC = () => {
     setEditingIndex(null);
   };
 
-  const submitToAirtable = async () => {
-    if (!accessCode) {
-      alert('Please enter your Access Code first.');
-      return;
-    }
-
-    if (places.length === 0) return;
-
-    if (!confirm(`Are you sure you want to submit ${places.length} places to Airtable?`)) {
-      return;
-    }
-
+  const performAirtableSubmission = async () => {
     setIsSubmitting(true);
     let successCount = 0;
     const errors: string[] = [];
@@ -164,26 +198,49 @@ const App: React.FC = () => {
     setIsSubmitting(false);
 
     if (successCount > 0) {
-      alert(`Successfully submitted ${successCount} places to Airtable!`);
-      if (confirm('Would you like to clear the local list now?')) {
-        setPlaces([]);
-      }
+      addNotification(`Successfully submitted ${successCount} places to Airtable.`, 'success');
+      setPlaces([]);
     }
 
     if (errors.length > 0) {
-      alert(`Errors occurred during submission:\n${errors.join('\n')}`);
+      showModal(
+        'Submission Errors', 
+        `Errors occurred during submission:\n${errors.join('\n')}`, 
+        'error'
+      );
     }
   };
 
-  const deletePlace = (index: number) => {
-    if (confirm(`Are you sure you want to delete "${places[index].spec.name}"?`)) {
-      setPlaces(prev => prev.filter((_, i) => i !== index));
-      if (editingIndex === index) {
-        setSidebarView('list');
-        setEditingIndex(null);
-        setSelectedPoint(null);
-      }
+  const submitToAirtable = async () => {
+    if (!accessCode) {
+      showModal('Access Code Required', 'Please enter your Access Code first.', 'info');
+      return;
     }
+
+    if (places.length === 0) return;
+
+    showModal(
+      'Confirm Submission', 
+      `Are you sure you want to submit ${places.length} places to Airtable?`, 
+      'confirm', 
+      performAirtableSubmission
+    );
+  };
+
+  const deletePlace = (index: number) => {
+    showModal(
+      'Confirm Delete', 
+      `Are you sure you want to delete "${places[index].spec.name}"?`, 
+      'confirm', 
+      () => {
+        setPlaces(prev => prev.filter((_, i) => i !== index));
+        if (editingIndex === index) {
+          setSidebarView('list');
+          setEditingIndex(null);
+          setSelectedPoint(null);
+        }
+      }
+    );
   };
 
   const startEdit = (index: number) => {
@@ -200,9 +257,12 @@ const App: React.FC = () => {
   };
 
   const clearPlaces = () => {
-    if (confirm('Are you sure you want to clear all added places?')) {
-      setPlaces([]);
-    }
+    showModal(
+      'Clear All Places', 
+      'Are you sure you want to clear all added places? This cannot be undone.', 
+      'confirm', 
+      () => setPlaces([])
+    );
   };
 
   const formData = useMemo(() => {
@@ -439,11 +499,26 @@ const App: React.FC = () => {
                     setSelectedPoint(null);
                     setEditingIndex(null);
                   }}
+                  onError={(msg) => addNotification(msg, 'error')}
                 />
               </div>
             </div>
           )}
         </aside>
+
+        <Modal 
+          isOpen={modalState.isOpen}
+          onClose={closeModal}
+          title={modalState.title}
+          message={modalState.message}
+          type={modalState.type}
+          onConfirm={modalState.onConfirm}
+        />
+
+        <ToastContainer 
+          notifications={notifications} 
+          removeNotification={removeNotification} 
+        />
       </div>
     </APIProvider>
   );
