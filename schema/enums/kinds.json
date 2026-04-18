@@ -99,6 +99,7 @@
     "service/rental",
     "service/taxi-station",
     "service/bus-station",
+    "service/coworking",
     "admin/gendarmerie"
   ]
 }

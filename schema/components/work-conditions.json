@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Work Conditions",
+  "description": "Work-friendliness ratings and conditions for cafes and coworking spaces",
+  "type": "object",
+  "required": [
+    "overall"
+  ],
+  "properties": {
+    "overall": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Overall work-friendliness score (0–5)"
+    },
+    "comment": {
+      "type": "string",
+      "description": "General summary or additional notes about the work conditions"
+    },
+    "wifi": {
+      "type": "object",
+      "description": "Connectivity details including availability, reliability, and performance",
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "reliable": {
+          "type": "string",
+          "enum": [
+            "poor",
+            "average",
+            "good",
+            "excellent"
+          ]
+        },
+        "speedMbps": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Approximate download speed in Mbps"
+        },
+        "password": {
+          "type": "string"
+        },
+        "comment": {
+          "type": "string",
+          "description": "Notes regarding WiFi reliability, coverage, or login process"
+        }
+      }
+    },
+    "consumption": {
+      "type": "object",
+      "description": "Requirements and quality related to food, drinks, and staying time",
+      "properties": {
+        "price": {
+          "type": "string",
+          "enum": [
+            "very_cheap",
+            "cheap",
+            "moderate",
+            "expensive",
+            "very_expensive"
+          ],
+          "description": "General price level of the menu"
+        },
+        "renewalIntervalHours": {
+          "type": "number",
+          "description": "Expected frequency of new purchases (e.g., a new drink every 2 hours) to justify a long stay"
+        },
+        "coffeeQuality": {
+          "type": "string",
+          "enum": [
+            "poor",
+            "average",
+            "good",
+            "excellent"
+          ],
+          "description": "Subjective rating of the coffee flavor and preparation"
+        },
+        "comment": {
+          "type": "string",
+          "description": "Notes on food quality, menu variety, or specific purchasing policies"
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "description": "Physical workspace setup, furniture, and ergonomics",
+      "properties": {
+        "seatComfort": {
+          "type": "string",
+          "enum": [
+            "poor",
+            "average",
+            "good",
+            "excellent"
+          ],
+          "description": "Ergonomics and comfort of the available seating"
+        },
+        "deskSpace": {
+          "type": "string",
+          "enum": [
+            "cramped",
+            "adequate",
+            "spacious"
+          ],
+          "description": "Amount of usable table surface available per person"
+        },
+        "deskOptions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "bar_stools",
+              "lounge_chairs",
+              "standard_tables",
+              "standing_desks",
+              "private_booths",
+              "outdoor"
+            ]
+          },
+          "description": "Types of seating and work surfaces available"
+        },
+        "powerOutlets": {
+          "type": "string",
+          "enum": [
+            "none",
+            "scarce",
+            "moderate",
+            "abundant"
+          ],
+          "description": "Availability and accessibility of power sockets"
+        },
+        "naturalLight": {
+          "type": "string",
+          "enum": [
+            "none",
+            "low",
+            "moderate",
+            "bright"
+          ],
+          "description": "Level of natural illumination in the workspace"
+        },
+        "amenities": {
+          "type": "array",
+          "description": "Productivity-focused amenities and facilities",
+          "items": {
+            "type": "string",
+            "enum": [
+              "printer",
+              "scanner",
+              "projector",
+              "whiteboard",
+              "meeting_rooms",
+              "phone_booths",
+              "lockers",
+              "air_conditioning",
+              "heating"
+            ]
+          }
+        },
+        "comment": {
+          "type": "string",
+          "description": "Additional details about the physical space, temperature, or specific furniture"
+        }
+      }
+    },
+    "atmosphere": {
+      "type": "object",
+      "description": "Social vibe, crowd dynamics, and noise conditions",
+      "properties": {
+        "noiseLevel": {
+          "type": "string",
+          "enum": [
+            "silent",
+            "quiet",
+            "moderate",
+            "loud",
+            "very_loud"
+          ],
+          "description": "Typical ambient sound level during working hours"
+        },
+        "peakHours": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Time periods when the location is most busy or crowded (e.g. '14:00–17:00')"
+        },
+        "laptopFriendly": {
+          "type": "boolean",
+          "description": "Whether the staff and general culture are welcoming of long laptop sessions"
+        },
+        "audience": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "students",
+              "entrepreneurs",
+              "developers",
+              "generic"
+            ]
+          },
+          "description": "The primary types of people usually found working or visiting here"
+        },
+        "aesthetics": {
+          "type": "string",
+          "enum": [
+            "poor",
+            "average",
+            "good",
+            "excellent"
+          ],
+          "description": "Visual and sensory appeal, including decor, views, and background music"
+        },
+        "comment": {
+          "type": "string",
+          "description": "Notes on the social vibe, music volume, or specific times to avoid/visit"
+        }
+      }
+    }
+  }
+}
