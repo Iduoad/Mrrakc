@@ -23,7 +23,8 @@ const App: React.FC = () => {
   } | null>(null);
   const [editingIndex, setEditingIndex] = useState<number | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [isSidebarOpen, setSidebarOpen] = useState(true);
+  const [showSplash, setShowSplash] = useState(() => !localStorage.getItem('mrrakc-splash-seen'));
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarView, setSidebarView] = useState<'list' | 'editor'>('list');
   const [searchTerm, setSearchTerm] = useState('');
   const [accessCode, setAccessCode] = useState(() => StorageManager.loadAccessCode());
@@ -90,17 +91,21 @@ const App: React.FC = () => {
       if (savedDraft) {
         setSelectedPoint(JSON.parse(savedDraft));
         setSidebarView('editor');
-        setSidebarOpen(true);
       }
       if (savedEditingIndex !== null) {
         setEditingIndex(parseInt(savedEditingIndex, 10));
         setSidebarView('editor');
-        setSidebarOpen(true);
       }
+
       setIsLoading(false);
       hasLoaded.current = true;
     });
   }, []);
+
+  const handleStartBuilding = () => {
+    setShowSplash(false);
+    localStorage.setItem('mrrakc-splash-seen', 'true');
+  };
 
   // Save persistence
   useEffect(() => {
@@ -337,16 +342,12 @@ const App: React.FC = () => {
             selectedPoint={selectedPoint || undefined} 
             addedPlaces={places}
             onPlaceClick={startEdit}
+            onMenuClick={() => {
+              setSidebarView('list');
+              setSidebarOpen(true);
+            }}
+            isSidebarOpen={isSidebarOpen}
           />
-
-          {!isSidebarOpen && (
-            <button 
-              onClick={() => setSidebarOpen(true)}
-              className="absolute right-4 top-4 z-40 bg-white dark:bg-stone-900 p-3 rounded-full shadow-2xl border border-clay dark:border-stone-800 hover:bg-clay/10 transition-colors"
-            >
-              <MapIcon size={20} className="text-terra" />
-            </button>
-          )}
 
           {/* Bottom Toolbar Overlay */}
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md px-6 py-3 rounded-2xl shadow-2xl border border-clay dark:border-stone-800 max-w-[95vw] z-10 whitespace-nowrap overflow-x-auto no-scrollbar">
@@ -383,20 +384,20 @@ const App: React.FC = () => {
                 title="Send all saved places to Airtable. This will clear the local list on success."
               >
                 {isSubmitting ? <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div> : <Download size={20} className="md:w-4 md:h-4" />} 
-                <span className="hidden sm:inline">{isSubmitting ? 'Submitting...' : 'Submit'}</span>
+                <span>{isSubmitting ? '...' : 'Submit'}</span>
               </button>
               
               <button 
                 onClick={() => exportToZip(places)}
                 disabled={places.length === 0}
-                className="flex items-center gap-2 px-4 py-3 md:py-2.5 border border-clay dark:border-stone-700 bg-white dark:bg-stone-900 hover:bg-clay/10 disabled:bg-stone-100 disabled:text-stone-400 disabled:cursor-not-allowed text-base md:text-sm font-bold rounded-xl transition-all shrink-0"
+                className="hidden lg:flex items-center gap-2 px-4 py-3 md:py-2.5 border border-clay dark:border-stone-700 bg-white dark:bg-stone-900 hover:bg-clay/10 disabled:bg-stone-100 disabled:text-stone-400 disabled:cursor-not-allowed text-base md:text-sm font-bold rounded-xl transition-all shrink-0"
                 title="Download all places as a ZIP file containing JSON files organized by province."
               >
                 <Download size={20} className="rotate-180 md:w-4 md:h-4" /> 
-                <span className="hidden sm:inline">ZIP</span>
+                <span>ZIP</span>
               </button>
 
-              <div className="h-6 w-px bg-clay dark:bg-stone-800 mx-1"></div>
+              <div className="hidden lg:block h-6 w-px bg-clay dark:bg-stone-800 mx-1"></div>
 
               <button 
                 onClick={clearPlaces}
@@ -521,7 +522,6 @@ const App: React.FC = () => {
                     setSelectedPoint(null);
                     setEditingIndex(null);
                   }}
-                  onError={(msg) => addNotification(msg, 'error')}
                 />
               </div>
             </div>
@@ -541,6 +541,47 @@ const App: React.FC = () => {
           notifications={notifications} 
           removeNotification={removeNotification} 
         />
+
+        {showSplash && (
+          <div className="fixed inset-0 z-[300] flex items-center justify-center p-6 bg-sand/40 dark:bg-stone-950/40 backdrop-blur-md animate-in fade-in duration-500">
+            <div className="max-w-md w-full bg-white/90 dark:bg-stone-900/90 p-10 rounded-3xl shadow-2xl border border-clay dark:border-stone-800 text-center space-y-8 animate-in zoom-in-95 duration-300">
+              <div className="bg-terra/10 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto text-terra ring-8 ring-terra/5">
+                <MapPin size={40} />
+              </div>
+              
+              <div className="space-y-3">
+                <h1 className="text-3xl font-serif font-black text-charcoal dark:text-stone-100">
+                  Welcome to Mrrakc
+                </h1>
+                <p className="text-charcoal-light dark:text-stone-400 text-sm leading-relaxed">
+                  Start building your curated map of Morocco. Explore the landscape, identify unique spots, and add them to our growing collection.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 gap-4 text-left">
+                <div className="flex items-start gap-4 p-4 bg-sand/50 dark:bg-stone-950/30 rounded-2xl border border-clay/50 dark:border-stone-800/50">
+                  <div className="shrink-0 w-8 h-8 rounded-full bg-terra text-white flex items-center justify-center text-xs font-black italic">1</div>
+                  <p className="text-xs text-charcoal dark:text-stone-300 font-medium">Click anywhere on the map to pin a new location.</p>
+                </div>
+                <div className="flex items-start gap-4 p-4 bg-sand/50 dark:bg-stone-950/30 rounded-2xl border border-clay/50 dark:border-stone-800/50">
+                  <div className="shrink-0 w-8 h-8 rounded-full bg-terra text-white flex items-center justify-center text-xs font-black italic">2</div>
+                  <p className="text-xs text-charcoal dark:text-stone-300 font-medium">Fill in the details and save it to your local list.</p>
+                </div>
+                <div className="flex items-start gap-4 p-4 bg-sand/50 dark:bg-stone-950/30 rounded-2xl border border-clay/50 dark:border-stone-800/50">
+                  <div className="shrink-0 w-8 h-8 rounded-full bg-terra text-white flex items-center justify-center text-xs font-black italic">3</div>
+                  <p className="text-xs text-charcoal dark:text-stone-300 font-medium">Submit your collection to the cloud when ready.</p>
+                </div>
+              </div>
+
+              <button 
+                onClick={handleStartBuilding}
+                className="w-full py-4 bg-terra hover:bg-terra-dark text-white font-black rounded-2xl shadow-xl shadow-terra/20 transition-all active:scale-[0.98] uppercase tracking-widest text-sm"
+              >
+                Start Building
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </APIProvider>
   );

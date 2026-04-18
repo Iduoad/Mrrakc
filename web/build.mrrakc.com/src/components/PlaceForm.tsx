@@ -484,11 +484,11 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
         </CollapsibleSection>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 p-6 border-t border-clay dark:border-stone-800 bg-white/80 dark:bg-stone-900/80 backdrop-blur-md flex gap-4 z-10">
-        <button type="button" onClick={onCancel} className="flex-1 px-4 py-2 border border-clay dark:border-stone-700 rounded-lg hover:bg-clay/20 transition-colors text-sm font-bold">
+      <div className="shrink-0 p-6 border-t border-clay dark:border-stone-800 bg-white/90 dark:bg-stone-900/90 backdrop-blur-md flex gap-4 z-10">
+        <button type="button" onClick={onCancel} className="flex-1 px-4 py-3 border border-clay dark:border-stone-700 rounded-lg hover:bg-clay/20 transition-colors text-sm font-bold">
           Cancel
         </button>
-        <button type="submit" className="flex-[2] px-4 py-2 bg-terra hover:bg-terra-dark text-white font-bold rounded-lg transition-colors shadow-lg shadow-terra/20 text-sm">
+        <button type="submit" className="flex-[2] px-4 py-3 bg-terra hover:bg-terra-dark text-white font-bold rounded-lg transition-colors shadow-lg shadow-terra/20 text-sm">
           Save Place
         </button>
       </div>

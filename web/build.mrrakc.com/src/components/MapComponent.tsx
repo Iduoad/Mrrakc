@@ -17,6 +17,8 @@ interface Props {
   selectedPoint?: { lat: number, lng: number };
   addedPlaces: Place[];
   onPlaceClick?: (index: number) => void;
+  onMenuClick: () => void;
+  isSidebarOpen: boolean;
 }
 
 const getCategoryColor = (kind: string) => {
@@ -33,7 +35,9 @@ export const MapComponent: React.FC<Props> = ({
   onPointSelect, 
   selectedPoint, 
   addedPlaces,
-  onPlaceClick 
+  onPlaceClick,
+  onMenuClick,
+  isSidebarOpen
 }) => {
   const map = useMap();
   const placesLib = useMapsLibrary('places');
@@ -140,42 +144,72 @@ export const MapComponent: React.FC<Props> = ({
 
   return (
     <div className="relative w-full h-full">
-      {/* Search Overlay */}
-      <div className="absolute top-4 left-4 z-10 w-96 flex items-center bg-white dark:bg-stone-900 rounded-full shadow-2xl border border-clay dark:border-stone-800 px-4 py-2">
-        <Search className="text-stone-400 mr-2" size={20} />
-        <input
-          ref={searchInputRef}
-          type="text"
-          placeholder="Search or click a marker..."
-          className="bg-transparent outline-none w-full text-sm py-1 dark:text-stone-200"
-          value={searchInput}
-          onChange={(e) => setSearchInput(e.target.value)}
-        />
-      </div>
-
-      {/* Map Controls Overlay */}
-      <div className="absolute top-4 right-4 z-10 flex flex-col gap-2 items-end">
-        <div className="flex bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 p-1">
-          <button 
-            onClick={() => setMapType('roadmap')}
-            className={`p-3 md:p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'roadmap' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
-          >
-            <MapIconIcon size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">Roadmap</span>
-          </button>
-          <button 
-            onClick={() => setMapType('hybrid')}
-            className={`p-3 md:p-2 rounded-lg transition-all flex items-center gap-2 text-xs font-bold ${mapType === 'hybrid' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
-          >
-            <Globe size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">Satellite</span>
-          </button>
-        </div>
+      {/* Search & Top Controls Overlay */}
+      <div className="absolute top-4 left-4 right-4 z-10 flex flex-col md:flex-row md:justify-between items-start md:items-center gap-3 pointer-events-none">
         
-        <button 
-          onClick={() => setShowProvinces(!showProvinces)}
-          className={`flex items-center gap-2 p-3 md:px-3 md:py-2 bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold ${showProvinces ? 'text-terra' : 'text-stone-400'}`}
-        >
-          <Layers size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">{showProvinces ? 'Hide Boundaries' : 'Show Boundaries'}</span>
-        </button>
+        {/* Search Bar + Mobile Menu Button */}
+        <div className="w-full md:w-auto flex items-center gap-2 pointer-events-auto">
+          <div className="flex-1 md:w-[500px] flex items-center bg-white dark:bg-stone-900 h-12 md:h-auto rounded-full shadow-2xl border border-clay dark:border-stone-800 px-4">
+            <Search className="text-stone-400 mr-2 shrink-0" size={20} />
+            <input
+              ref={searchInputRef}
+              type="text"
+              placeholder="Search or click a marker..."
+              className="bg-transparent outline-none w-full text-sm py-2 dark:text-stone-200"
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
+            />
+          </div>
+          
+          {/* Mobile Menu Button: Right of Search bar */}
+          {!isSidebarOpen && (
+            <button 
+              onClick={onMenuClick}
+              className="md:hidden shrink-0 bg-terra text-white w-12 h-12 rounded-2xl shadow-2xl flex items-center justify-center active:scale-95 transition-all"
+              title="Open Menu"
+            >
+              <MapIconIcon size={22} />
+            </button>
+          )}
+        </div>
+
+        {/* Desktop Controls + Desktop Menu Button */}
+        <div className="w-full md:w-auto flex flex-col md:flex-row items-end md:items-center gap-2 pointer-events-auto">
+          {/* Map Type Switcher */}
+          <div className="flex flex-col md:flex-row bg-white dark:bg-stone-900 rounded-2xl md:rounded-xl shadow-xl border border-clay dark:border-stone-800 md:p-1">
+            <button 
+              onClick={() => setMapType('roadmap')}
+              className={`w-12 h-12 md:w-auto md:h-auto md:p-2 rounded-t-2xl md:rounded-lg border-b md:border-b-0 border-clay dark:border-stone-800 transition-all flex items-center justify-center md:justify-start gap-2 text-xs font-bold ${mapType === 'roadmap' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
+            >
+              <MapIconIcon size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">Roadmap</span>
+            </button>
+            <button 
+              onClick={() => setMapType('hybrid')}
+              className={`w-12 h-12 md:w-auto md:h-auto md:p-2 rounded-b-2xl md:rounded-lg transition-all flex items-center justify-center md:justify-start gap-2 text-xs font-bold ${mapType === 'hybrid' ? 'bg-terra text-white' : 'hover:bg-clay/20 text-stone-500'}`}
+            >
+              <Globe size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">Satellite</span>
+            </button>
+          </div>
+          
+          <button 
+            onClick={() => setShowProvinces(!showProvinces)}
+            className={`w-12 h-12 md:w-auto md:h-auto md:px-3 md:py-2 flex items-center justify-center md:justify-start gap-2 bg-white dark:bg-stone-900 rounded-2xl md:rounded-xl shadow-xl border border-clay dark:border-stone-800 transition-all text-xs font-bold ${showProvinces ? 'text-terra' : 'text-stone-400'}`}
+          >
+            <Layers size={20} className="md:w-4 md:h-4" /> <span className="hidden sm:inline">{showProvinces ? 'Hide Boundaries' : 'Show Boundaries'}</span>
+          </button>
+
+          {/* Desktop Menu Button: Right of Boundaries button */}
+          {!isSidebarOpen && (
+            <button 
+              onClick={onMenuClick}
+              className="hidden md:flex items-center gap-2 px-4 py-2 bg-white dark:bg-stone-900 rounded-xl shadow-xl border border-clay dark:border-stone-800 hover:bg-clay/10 transition-colors text-xs font-bold text-terra"
+              title="Open Menu"
+            >
+              <MapIconIcon size={16} />
+              <span>Menu</span>
+            </button>
+          )}
+        </div>
       </div>
 
       <Map
