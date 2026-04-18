@@ -23,11 +23,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "sightseeing/cultural"
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets",
-            "culture/memorabilia"
+            "amenities/restrooms",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

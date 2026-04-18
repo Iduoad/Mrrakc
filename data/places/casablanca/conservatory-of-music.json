@@ -28,12 +28,12 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "entertainment/cinema"
+            "culture/sightseeing",
+            "culture/event-attendance"
         ],
         "items": [
-            "facility/toilets",
-            "item/goods"
+            "amenities/restrooms",
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "public",

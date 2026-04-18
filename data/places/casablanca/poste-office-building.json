@@ -22,11 +22,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "services/banking",
-            "services/postal"
+            "utility/shopping"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

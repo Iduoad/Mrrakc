@@ -24,12 +24,12 @@
         "links": [],
         "activities": [
             "leisure/photography",
-            "wellness/relaxing",
-            "sightseeing/historical"
+            "leisure/relaxing",
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/coastline",
-            "facility/toilets"
+            "nature/scenic-views",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

@@ -42,12 +42,12 @@
         ],
         "links": [],
         "activities": [
-            "entertainment/cinema",
-            "wellness/relaxing",
-            "sightseeing/historical"
+            "culture/event-attendance",
+            "leisure/relaxing",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

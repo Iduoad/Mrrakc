@@ -43,13 +43,12 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "wellness/relaxing",
-            "leisure/walking"
+            "utility/dining",
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/coastline",
-            "facility/toilets",
+            "nature/scenic-views",
+            "amenities/restrooms",
             "nature/gardens"
         ],
         "access": {

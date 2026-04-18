@@ -29,10 +29,10 @@
             }
         ],
         "activities": [
-            "dining/restaurant"
+            "utility/dining"
         ],
         "items": [
-            "cuisine/drinks"
+            "food/coffee"
         ],
         "access": {
             "type": "public",

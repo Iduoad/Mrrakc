@@ -43,13 +43,13 @@
             }
         ],
         "activities": [
-            "leisure/fishing",
-            "shopping/general",
-            "sightseeing/historical"
+            "nature/fishing",
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "restricted",

@@ -35,13 +35,13 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "entertainment/cinema",
-            "shopping/general"
+            "utility/dining",
+            "culture/event-attendance",
+            "utility/shopping"
         ],
         "items": [
-            "facility/toilets",
-            "cuisine/drinks"
+            "amenities/restrooms",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

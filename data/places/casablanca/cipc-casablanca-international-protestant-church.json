@@ -37,12 +37,12 @@
             }
         ],
         "activities": [
-            "entertainment/cinema",
-            "religious/general",
-            "socializing/community"
+            "culture/event-attendance",
+            "culture/sightseeing",
+            "leisure/socializing"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

@@ -22,11 +22,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "socializing/community"
+            "utility/dining",
+            "leisure/socializing"
         ],
         "items": [
-            "nature/coastline"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

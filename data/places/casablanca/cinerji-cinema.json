@@ -37,11 +37,11 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "entertainment/cinema",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

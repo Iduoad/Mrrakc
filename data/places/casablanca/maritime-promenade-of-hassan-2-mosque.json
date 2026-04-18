@@ -38,12 +38,11 @@
         "links": [],
         "activities": [
             "leisure/photography",
-            "wellness/relaxing",
-            "leisure/walking"
+            "leisure/relaxing"
         ],
         "items": [
-            "architecture/historical",
-            "nature/coastline"
+            "architecture/monuments",
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

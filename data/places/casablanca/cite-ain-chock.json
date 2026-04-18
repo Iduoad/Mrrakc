@@ -22,12 +22,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "accommodation/hotel",
-            "shopping/general"
+            "leisure/relaxing",
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

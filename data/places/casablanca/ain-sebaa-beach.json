@@ -31,10 +31,10 @@
         "activities": [
             "sports/surfing",
             "sports/swimming",
-            "leisure/walking"
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/coastline"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

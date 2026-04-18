@@ -41,12 +41,10 @@
         ],
         "activities": [
             "sports/fitness",
-            "leisure/walking",
-            "wellness/relaxing",
-            "leisure/walking"
+            "leisure/relaxing"
         ],
         "items": [
-            "facility/toilets",
+            "amenities/restrooms",
             "nature/gardens"
         ],
         "access": {

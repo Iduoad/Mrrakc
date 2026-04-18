@@ -45,13 +45,13 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "shopping/general",
-            "sightseeing/historical"
+            "utility/dining",
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/animals",
-            "facility/toilets"
+            "nature/wildlife",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

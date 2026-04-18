@@ -23,10 +23,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general"
+            "utility/shopping"
         ],
         "items": [
-            "cuisine/drinks"
+            "food/coffee"
         ],
         "access": {
             "type": "public",

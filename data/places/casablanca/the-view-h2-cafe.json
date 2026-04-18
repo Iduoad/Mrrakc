@@ -22,13 +22,13 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical",
-            "socializing/community"
+            "utility/dining",
+            "culture/sightseeing",
+            "leisure/socializing"
         ],
         "items": [
-            "nature/coastline",
-            "cuisine/drinks"
+            "nature/scenic-views",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

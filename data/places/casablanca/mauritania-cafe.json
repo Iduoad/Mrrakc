@@ -22,11 +22,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "wellness/relaxing"
+            "utility/dining",
+            "leisure/relaxing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

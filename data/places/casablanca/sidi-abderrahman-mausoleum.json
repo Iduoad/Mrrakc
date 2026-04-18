@@ -45,12 +45,11 @@
             }
         ],
         "activities": [
-            "religious/general",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "nature/coastline"
+            "architecture/monuments",
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

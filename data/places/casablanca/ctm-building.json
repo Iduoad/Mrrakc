@@ -49,12 +49,12 @@
             }
         ],
         "activities": [
-            "sightseeing/historical",
-            "services/transport"
+            "culture/sightseeing",
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

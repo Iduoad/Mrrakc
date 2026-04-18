@@ -31,11 +31,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "entertainment/dancing",
-            "religious/general"
+            "leisure/socializing",
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "restricted",

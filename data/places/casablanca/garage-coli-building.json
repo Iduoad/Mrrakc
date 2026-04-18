@@ -49,13 +49,13 @@
             }
         ],
         "activities": [
-            "accommodation/hotel",
-            "shopping/general",
-            "sightseeing/historical"
+            "leisure/relaxing",
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

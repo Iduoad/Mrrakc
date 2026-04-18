@@ -41,11 +41,11 @@
             }
         ],
         "activities": [
-            "accommodation/hotel",
-            "dining/restaurant"
+            "leisure/relaxing",
+            "utility/dining"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

@@ -59,15 +59,14 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical",
-            "socializing/community",
+            "utility/dining",
+            "culture/sightseeing",
+            "leisure/socializing",
             "sports/swimming",
-            "leisure/walking"
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/coastline",
-            "entertainment/nightclub"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

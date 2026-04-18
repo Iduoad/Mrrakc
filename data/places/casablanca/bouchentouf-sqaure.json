@@ -23,12 +23,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets",
-            "culture/memorabilia"
+            "amenities/restrooms",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

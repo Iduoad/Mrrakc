@@ -44,11 +44,10 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/animals"
+            "nature/wildlife"
         ],
         "access": {
             "type": "public",

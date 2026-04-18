@@ -23,11 +23,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general"
+            "utility/shopping"
         ],
         "items": [
-            "nature/coastline",
-            "cuisine/drinks"
+            "nature/scenic-views",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

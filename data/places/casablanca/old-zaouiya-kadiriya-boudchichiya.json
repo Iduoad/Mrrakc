@@ -32,13 +32,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "entertainment/dancing",
-            "religious/general",
-            "socializing/community"
+            "leisure/socializing",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "restricted",

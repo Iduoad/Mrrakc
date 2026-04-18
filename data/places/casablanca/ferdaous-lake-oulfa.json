@@ -24,12 +24,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "wellness/relaxing",
-            "sightseeing/historical",
-            "leisure/walking"
+            "leisure/relaxing",
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/coastline",
+            "nature/scenic-views",
             "nature/gardens"
         ],
         "access": {

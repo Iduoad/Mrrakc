@@ -22,12 +22,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "entertainment/cinema",
-            "shopping/general",
-            "sightseeing/historical"
+            "culture/event-attendance",
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

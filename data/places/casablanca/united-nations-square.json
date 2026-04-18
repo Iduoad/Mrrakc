@@ -35,12 +35,11 @@
             }
         ],
         "activities": [
-            "sightseeing/historical",
-            "services/transport"
+            "culture/sightseeing",
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

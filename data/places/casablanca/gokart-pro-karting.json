@@ -29,12 +29,11 @@
             }
         ],
         "activities": [
-            "sports/karting"
+            "leisure/socializing"
         ],
         "items": [
-            "architecture/historical",
-            "item/goods",
-            "culture/memorabilia"
+            "architecture/monuments",
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "public",

@@ -37,11 +37,11 @@
         ],
         "links": [],
         "activities": [
-            "services/medical",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

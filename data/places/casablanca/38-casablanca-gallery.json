@@ -95,12 +95,11 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets",
-            "culture/memorabilia"
+            "amenities/restrooms",
+            "architecture/monuments"
         ],
         "access": {
             "type": "private",

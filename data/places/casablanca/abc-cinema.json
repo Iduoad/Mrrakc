@@ -71,12 +71,12 @@
             }
         ],
         "activities": [
-            "entertainment/cinema"
+            "culture/event-attendance"
         ],
         "items": [
-            "architecture/historical",
-            "nature/coastline",
-            "facility/toilets"
+            "architecture/monuments",
+            "nature/scenic-views",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "private",

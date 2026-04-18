@@ -54,17 +54,16 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "entertainment/cinema",
+            "utility/dining",
+            "culture/event-attendance",
             "leisure/photography",
-            "shopping/general",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets",
-            "nature/gardens",
-            "culture/memorabilia"
+            "architecture/monuments",
+            "amenities/restrooms",
+            "nature/gardens"
         ],
         "access": {
             "type": "public",

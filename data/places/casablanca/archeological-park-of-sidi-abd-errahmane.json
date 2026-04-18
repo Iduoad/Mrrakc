@@ -41,13 +41,12 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical",
-            "leisure/walking"
+            "culture/sightseeing",
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/animals",
-            "culture/memorabilia"
+            "nature/wildlife",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

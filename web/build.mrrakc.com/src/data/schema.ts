@@ -16,28 +16,30 @@ export const KINDS = [
 ] as const;
 
 export const ACTIVITIES = [
-  "sightseeing/historical", "sightseeing/cultural", "sightseeing/nature",
-  "dining/restaurant", "dining/cafe", "dining/street-food", "dining/bakery",
-  "socializing/community", "socializing/events", "socializing/nightlife",
-  "sports/swimming", "sports/surfing", "sports/karting", "sports/skating", "sports/fitness",
-  "wellness/relaxing",
-  "shopping/souvenirs", "shopping/electronics", "shopping/grocery", "shopping/automotive", "shopping/general",
-  "services/administrative", "services/banking", "services/medical", "services/postal", "services/transport",
-  "entertainment/gaming", "entertainment/cinema", "entertainment/dancing",
-  "religious/mosque", "religious/church", "religious/synagogue", "religious/general",
-  "education/research", "education/library",
-  "leisure/walking", "leisure/photography", "leisure/fishing", "leisure/birds-feeding",
-  "accommodation/hotel", "accommodation/hostel", "accommodation/apartment"
+  "sports/surfing", "sports/kitesurfing", "sports/windsurfing", "sports/sandboarding",
+  "sports/hiking", "sports/mountain-biking", "sports/rock-climbing", "sports/paragliding",
+  "sports/horseback-riding", "sports/camel-riding",
+  "sports/skiing", "sports/snowboarding",
+  "sports/running", "sports/cycling", "sports/tennis", "sports/padel", "sports/golf",
+  "sports/swimming", "sports/fitness", "sports/yoga", "sports/martial-arts",
+  "nature/bird-watching", "nature/camping", "nature/picnicking", "nature/fishing", "nature/stargazing",
+  "leisure/relaxing", "leisure/socializing", "leisure/photography", "leisure/spa", "leisure/hammam",
+  "culture/sightseeing", "culture/guided-tour", "culture/museum-visit", "culture/workshop", "culture/reading", "culture/event-attendance",
+  "utility/coworking", "utility/studying", "utility/shopping", "utility/dining"
 ] as const;
 
 export const ITEMS = [
-  "architecture/historical", "architecture/modern",
-  "culture/memorabilia", "culture/art", "culture/crafts", "culture/rugs", "culture/artifacts",
-  "nature/coastline", "nature/gardens", "nature/animals", "nature/landscaping",
-  "cuisine/main-dish", "cuisine/sweets", "cuisine/drinks", "cuisine/grilled",
-  "facility/parking", "facility/wifi", "facility/toilets", "facility/prayer-room", "facility/sports", "facility/medical", "facility/conference", "facility/port", "facility/trails", "facility/walking-paths",
-  "entertainment/rides", "entertainment/cinema", "entertainment/planetarium", "entertainment/nightclub",
-  "item/cannons", "item/memorabilia", "item/goods"
+  "cuisine/moroccan", "cuisine/mediterranean", "cuisine/lebanese", "cuisine/middle-eastern",
+  "cuisine/italian", "cuisine/french", "cuisine/spanish", "cuisine/european",
+  "cuisine/asian", "cuisine/japanese", "cuisine/chinese", "cuisine/indian", "cuisine/thai",
+  "cuisine/mexican", "cuisine/american", "cuisine/international",
+  "cuisine/seafood", "cuisine/vegetarian", "cuisine/vegan", "cuisine/halal",
+  "cuisine/fast-food", "cuisine/street-food", "cuisine/bakery", "cuisine/cafe",
+  "food/coffee", "food/tea", "food/pastries", "food/traditional-sweets", "food/local-produce", "food/spices",
+  "shopping/handicrafts", "shopping/carpets", "shopping/pottery", "shopping/leather-goods", "shopping/jewelry", "shopping/clothing", "shopping/argan-oil",
+  "architecture/ruins", "architecture/monuments", "architecture/islamic-art", "architecture/fountains", "architecture/mosaics", "architecture/traditional-decor",
+  "nature/gardens", "nature/wildlife", "nature/scenic-views", "nature/trails", "nature/water-features",
+  "amenities/seating-areas", "amenities/power-outlets", "amenities/free-wifi", "amenities/parking", "amenities/restrooms", "amenities/playground", "amenities/air-conditioning"
 ] as const;
 
 export const PROVINCES = [

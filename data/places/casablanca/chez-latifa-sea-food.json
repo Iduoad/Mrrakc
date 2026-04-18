@@ -38,11 +38,11 @@
             }
         ],
         "activities": [
-            "dining/restaurant"
+            "utility/dining"
         ],
         "items": [
-            "nature/animals",
-            "cuisine/drinks"
+            "nature/wildlife",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

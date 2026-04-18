@@ -34,12 +34,11 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "dining/restaurant",
-            "sightseeing/historical"
+            "culture/sightseeing",
+            "utility/dining"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

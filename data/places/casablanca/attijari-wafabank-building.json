@@ -56,11 +56,11 @@
             }
         ],
         "activities": [
-            "services/banking",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

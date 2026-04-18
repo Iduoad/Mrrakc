@@ -38,11 +38,11 @@
             }
         ],
         "activities": [
-            "dining/restaurant"
+            "utility/dining"
         ],
         "items": [
-            "nature/coastline",
-            "cuisine/drinks"
+            "nature/scenic-views",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

@@ -44,11 +44,11 @@
             }
         ],
         "activities": [
-            "sightseeing/historical",
-            "socializing/community"
+            "culture/sightseeing",
+            "leisure/socializing"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

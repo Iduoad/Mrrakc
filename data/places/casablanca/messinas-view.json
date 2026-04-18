@@ -24,11 +24,11 @@
         "links": [],
         "activities": [
             "leisure/photography",
-            "wellness/relaxing",
-            "sightseeing/historical"
+            "leisure/relaxing",
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/coastline"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

@@ -48,11 +48,10 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

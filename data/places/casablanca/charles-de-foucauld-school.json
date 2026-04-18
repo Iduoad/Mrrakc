@@ -37,11 +37,11 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/cultural"
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets",
-            "facility/sports"
+            "amenities/restrooms",
+            "amenities/playground"
         ],
         "access": {
             "type": "restricted",

@@ -29,10 +29,10 @@
         "links": [],
         "activities": [
             "leisure/photography",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

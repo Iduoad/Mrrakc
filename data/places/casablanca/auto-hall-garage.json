@@ -70,12 +70,12 @@
             }
         ],
         "activities": [
-            "shopping/automotive",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

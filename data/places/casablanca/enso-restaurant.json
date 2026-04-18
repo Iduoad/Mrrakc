@@ -29,11 +29,11 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "socializing/community"
+            "utility/dining",
+            "leisure/socializing"
         ],
         "items": [
-            "cuisine/drinks"
+            "food/coffee"
         ],
         "access": {
             "type": "public",

@@ -23,13 +23,13 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "education/library",
-            "sightseeing/cultural",
-            "entertainment/cinema"
+            "utility/studying",
+            "culture/sightseeing",
+            "culture/event-attendance"
         ],
         "items": [
-            "entertainment/rides",
-            "culture/memorabilia"
+            "amenities/playground",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

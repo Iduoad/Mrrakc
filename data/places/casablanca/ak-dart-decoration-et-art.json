@@ -29,13 +29,12 @@
             }
         ],
         "activities": [
-            "shopping/general",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "item/goods",
-            "culture/memorabilia"
+            "architecture/monuments",
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "public",

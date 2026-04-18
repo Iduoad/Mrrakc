@@ -80,14 +80,12 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "entertainment/cinema",
-            "sightseeing/cultural",
-            "socializing/community"
+            "culture/sightseeing",
+            "culture/event-attendance",
+            "leisure/socializing"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "private",

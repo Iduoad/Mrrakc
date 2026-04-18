@@ -40,12 +40,11 @@
             }
         ],
         "activities": [
-            "religious/general",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

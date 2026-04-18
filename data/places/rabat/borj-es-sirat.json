@@ -39,7 +39,7 @@
         "links": [],
         "activities": [],
         "items": [
-            "item/cannons"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

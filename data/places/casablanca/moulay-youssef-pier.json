@@ -38,12 +38,12 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/historical",
-            "services/transport"
+            "culture/sightseeing",
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical",
-            "item/goods"
+            "architecture/monuments",
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "restricted",

@@ -25,10 +25,10 @@
             }
         ],
         "activities": [
-            "shopping/general"
+            "utility/shopping"
         ],
         "items": [
-            "culture/rugs"
+            "shopping/carpets"
         ],
         "access": {
             "type": "public",

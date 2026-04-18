@@ -51,11 +51,11 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/historical",
-            "services/transport"
+            "culture/sightseeing",
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

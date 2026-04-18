@@ -65,12 +65,11 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical",
-            "leisure/walking"
+            "culture/sightseeing",
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/animals",
+            "nature/wildlife",
             "nature/gardens"
         ],
         "access": {

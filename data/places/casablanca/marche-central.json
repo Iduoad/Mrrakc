@@ -49,12 +49,12 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical"
+            "utility/dining",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "nature/coastline",
+            "architecture/monuments",
+            "nature/scenic-views",
             "nature/gardens"
         ],
         "access": {

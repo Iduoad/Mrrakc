@@ -37,13 +37,13 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/historical",
-            "leisure/walking"
+            "culture/sightseeing",
+            "leisure/relaxing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets",
-            "facility/port"
+            "architecture/monuments",
+            "amenities/restrooms",
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

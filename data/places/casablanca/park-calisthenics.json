@@ -26,8 +26,8 @@
             "sports/fitness"
         ],
         "items": [
-            "architecture/historical",
-            "cuisine/drinks"
+            "architecture/monuments",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

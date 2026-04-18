@@ -35,12 +35,11 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "entertainment/cinema",
-            "sightseeing/historical"
+            "culture/sightseeing",
+            "culture/event-attendance"
         ],
         "items": [
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

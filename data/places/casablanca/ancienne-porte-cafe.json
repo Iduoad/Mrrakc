@@ -29,13 +29,13 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical",
-            "socializing/community"
+            "utility/dining",
+            "culture/sightseeing",
+            "leisure/socializing"
         ],
         "items": [
-            "architecture/historical",
-            "cuisine/drinks"
+            "architecture/monuments",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

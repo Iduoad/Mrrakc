@@ -29,12 +29,12 @@
         ],
         "links": [],
         "activities": [
-            "accommodation/hotel",
-            "socializing/community"
+            "leisure/relaxing",
+            "leisure/socializing"
         ],
         "items": [
-            "facility/wifi",
-            "facility/toilets"
+            "amenities/free-wifi",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "restricted",

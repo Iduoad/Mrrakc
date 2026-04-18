@@ -32,11 +32,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general",
-            "services/transport"
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

@@ -29,11 +29,11 @@
             }
         ],
         "activities": [
-            "entertainment/gaming",
+            "leisure/socializing",
             "sports/fitness"
         ],
         "items": [
-            "item/goods"
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "public",

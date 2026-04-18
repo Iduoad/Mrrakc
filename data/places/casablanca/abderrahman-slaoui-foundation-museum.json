@@ -48,14 +48,12 @@
             }
         ],
         "activities": [
-            "dining/cafe",
-            "sightseeing/cultural",
-            "entertainment/cinema",
-            "sightseeing/cultural"
+            "utility/dining",
+            "culture/sightseeing",
+            "culture/event-attendance"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "private",

@@ -29,13 +29,13 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
+            "culture/sightseeing",
             "sports/fitness",
-            "entertainment/gaming"
+            "leisure/socializing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

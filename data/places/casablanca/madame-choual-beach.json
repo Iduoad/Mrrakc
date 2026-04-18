@@ -25,10 +25,10 @@
         "activities": [
             "sports/fitness",
             "sports/swimming",
-            "leisure/walking"
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/coastline"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

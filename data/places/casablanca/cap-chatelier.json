@@ -35,12 +35,11 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/animals",
-            "architecture/historical"
+            "nature/wildlife",
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

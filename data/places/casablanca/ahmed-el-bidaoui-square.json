@@ -23,14 +23,14 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
+            "utility/dining",
             "leisure/photography",
-            "shopping/general",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets",
+            "architecture/monuments",
+            "amenities/restrooms",
             "nature/gardens"
         ],
         "access": {

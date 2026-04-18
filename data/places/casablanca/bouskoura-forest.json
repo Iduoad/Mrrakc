@@ -37,12 +37,11 @@
         ],
         "activities": [
             "sports/fitness",
-            "sightseeing/nature",
-            "wellness/relaxing",
-            "leisure/walking"
+            "culture/sightseeing",
+            "leisure/relaxing"
         ],
         "items": [
-            "facility/trails",
+            "nature/trails",
             "nature/gardens"
         ],
         "access": {

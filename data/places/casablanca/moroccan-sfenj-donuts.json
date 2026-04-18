@@ -23,11 +23,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant"
+            "utility/dining"
         ],
         "items": [
-            "architecture/historical",
-            "cuisine/drinks"
+            "architecture/monuments",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

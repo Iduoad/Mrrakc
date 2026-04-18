@@ -31,11 +31,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "religious/general"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

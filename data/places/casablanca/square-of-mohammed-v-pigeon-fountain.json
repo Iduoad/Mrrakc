@@ -37,12 +37,11 @@
         ],
         "links": [],
         "activities": [
-            "leisure/birds-feeding",
-            "sightseeing/historical"
+            "nature/bird-watching",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

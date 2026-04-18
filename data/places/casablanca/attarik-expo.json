@@ -45,14 +45,12 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "entertainment/cinema",
-            "sightseeing/historical"
+            "culture/sightseeing",
+            "culture/event-attendance"
         ],
         "items": [
-            "nature/animals",
-            "architecture/historical",
-            "entertainment/planetarium"
+            "nature/wildlife",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

@@ -22,11 +22,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "wellness/relaxing",
-            "socializing/community"
+            "leisure/relaxing",
+            "leisure/socializing"
         ],
         "items": [
-            "nature/coastline",
+            "nature/scenic-views",
             "nature/gardens"
         ],
         "access": {

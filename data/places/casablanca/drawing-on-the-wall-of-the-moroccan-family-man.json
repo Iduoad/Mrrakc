@@ -37,11 +37,10 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

@@ -43,14 +43,14 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical",
-            "services/transport"
+            "utility/dining",
+            "culture/sightseeing",
+            "utility/shopping"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets",
-            "facility/conference"
+            "architecture/monuments",
+            "amenities/restrooms",
+            "amenities/seating-areas"
         ],
         "access": {
             "type": "public",

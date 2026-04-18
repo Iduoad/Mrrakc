@@ -23,10 +23,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general"
+            "utility/shopping"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

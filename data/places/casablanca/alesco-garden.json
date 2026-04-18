@@ -48,15 +48,14 @@
             }
         ],
         "activities": [
-            "entertainment/cinema",
-            "entertainment/gaming",
-            "wellness/relaxing",
-            "sports/fitness",
-            "leisure/walking"
+            "culture/event-attendance",
+            "leisure/socializing",
+            "leisure/relaxing",
+            "sports/fitness"
         ],
         "items": [
-            "facility/toilets",
-            "culture/memorabilia"
+            "amenities/restrooms",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

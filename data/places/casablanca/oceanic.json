@@ -33,10 +33,10 @@
         ],
         "links": [],
         "activities": [
-            "dining/restaurant"
+            "utility/dining"
         ],
         "items": [
-            "nature/coastline"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

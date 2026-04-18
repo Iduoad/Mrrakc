@@ -37,14 +37,14 @@
         ],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "entertainment/cinema",
-            "shopping/general"
+            "utility/dining",
+            "culture/event-attendance",
+            "utility/shopping"
         ],
         "items": [
-            "nature/coastline",
-            "facility/toilets",
-            "cuisine/drinks"
+            "nature/scenic-views",
+            "amenities/restrooms",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

@@ -50,11 +50,11 @@
         ],
         "links": [],
         "activities": [
-            "entertainment/gaming",
-            "sightseeing/historical"
+            "leisure/socializing",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

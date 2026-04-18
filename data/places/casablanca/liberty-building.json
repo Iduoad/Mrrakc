@@ -44,11 +44,10 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

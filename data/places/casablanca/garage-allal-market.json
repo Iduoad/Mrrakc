@@ -24,11 +24,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general"
+            "utility/shopping"
         ],
         "items": [
-            "facility/toilets",
-            "item/goods"
+            "amenities/restrooms",
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "public",

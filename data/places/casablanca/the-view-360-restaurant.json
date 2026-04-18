@@ -23,12 +23,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical"
+            "utility/dining",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "cuisine/drinks"
+            "architecture/monuments",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

@@ -62,12 +62,11 @@
             }
         ],
         "activities": [
-            "services/administrative",
-            "sightseeing/cultural",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

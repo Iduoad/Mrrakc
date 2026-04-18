@@ -23,11 +23,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "religious/general",
+            "culture/sightseeing",
             "sports/swimming"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "private",

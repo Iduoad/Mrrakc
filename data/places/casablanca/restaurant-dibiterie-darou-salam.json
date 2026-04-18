@@ -23,11 +23,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant"
+            "utility/dining"
         ],
         "items": [
-            "architecture/historical",
-            "cuisine/grilled"
+            "architecture/monuments",
+            "cuisine/moroccan"
         ],
         "access": {
             "type": "public",

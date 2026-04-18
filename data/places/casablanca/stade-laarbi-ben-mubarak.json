@@ -33,11 +33,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "sports/fitness",
             "sports/fitness"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

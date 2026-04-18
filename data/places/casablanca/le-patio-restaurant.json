@@ -22,12 +22,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "socializing/community"
+            "utility/dining",
+            "leisure/socializing"
         ],
         "items": [
-            "architecture/historical",
-            "nature/coastline"
+            "architecture/monuments",
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

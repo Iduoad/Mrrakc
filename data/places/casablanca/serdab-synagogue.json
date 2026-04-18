@@ -28,12 +28,10 @@
         ],
         "links": [],
         "activities": [
-            "religious/general",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

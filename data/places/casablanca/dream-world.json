@@ -29,13 +29,13 @@
             }
         ],
         "activities": [
-            "entertainment/cinema",
-            "entertainment/gaming",
+            "culture/event-attendance",
+            "leisure/socializing",
             "sports/fitness"
         ],
         "items": [
-            "entertainment/rides",
-            "cuisine/drinks"
+            "amenities/playground",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

@@ -23,12 +23,11 @@
             }
         ],
         "activities": [
-            "shopping/general"
+            "utility/shopping"
         ],
         "items": [
-            "cuisine/drinks",
-            "cuisine/sweets",
-            "cuisine/sweets"
+            "food/coffee",
+            "food/traditional-sweets"
         ],
         "access": {
             "type": "private",

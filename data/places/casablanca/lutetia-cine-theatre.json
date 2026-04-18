@@ -29,12 +29,12 @@
         ],
         "links": [],
         "activities": [
-            "entertainment/cinema",
-            "sightseeing/historical"
+            "culture/event-attendance",
+            "culture/sightseeing"
         ],
         "items": [
-            "nature/coastline",
-            "facility/toilets"
+            "nature/scenic-views",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

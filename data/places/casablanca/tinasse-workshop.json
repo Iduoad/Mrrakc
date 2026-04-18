@@ -22,10 +22,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "sightseeing/cultural"
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

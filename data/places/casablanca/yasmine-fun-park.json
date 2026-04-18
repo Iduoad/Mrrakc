@@ -22,12 +22,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "entertainment/cinema",
-            "entertainment/gaming"
+            "culture/event-attendance",
+            "leisure/socializing"
         ],
         "items": [
-            "entertainment/rides",
-            "facility/toilets"
+            "amenities/playground",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

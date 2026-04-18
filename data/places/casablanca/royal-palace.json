@@ -38,11 +38,11 @@
         ],
         "links": [],
         "activities": [
-            "entertainment/cinema",
-            "sightseeing/historical"
+            "culture/event-attendance",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
+            "architecture/monuments",
             "nature/gardens"
         ],
         "access": {

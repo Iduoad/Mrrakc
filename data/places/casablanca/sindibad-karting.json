@@ -43,11 +43,11 @@
             }
         ],
         "activities": [
-            "sports/karting",
-            "wellness/relaxing"
+            "leisure/socializing",
+            "leisure/relaxing"
         ],
         "items": [
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

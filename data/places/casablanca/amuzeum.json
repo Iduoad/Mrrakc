@@ -29,12 +29,12 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "education/research"
+            "culture/sightseeing",
+            "utility/studying"
         ],
         "items": [
-            "facility/toilets",
-            "culture/memorabilia"
+            "amenities/restrooms",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

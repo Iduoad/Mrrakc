@@ -32,7 +32,7 @@
             "sports/swimming"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

@@ -23,13 +23,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "shopping/general",
-            "dining/restaurant",
-            "shopping/general"
+            "utility/shopping",
+            "utility/dining"
         ],
         "items": [
-            "facility/toilets",
-            "cuisine/drinks"
+            "amenities/restrooms",
+            "food/coffee"
         ],
         "access": {
             "type": "public",

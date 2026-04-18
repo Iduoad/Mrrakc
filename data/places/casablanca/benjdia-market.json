@@ -30,12 +30,12 @@
             }
         ],
         "activities": [
-            "shopping/general",
-            "leisure/walking"
+            "utility/shopping",
+            "leisure/relaxing"
         ],
         "items": [
-            "architecture/historical",
-            "facility/toilets"
+            "architecture/monuments",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

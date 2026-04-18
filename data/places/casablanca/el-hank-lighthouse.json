@@ -49,13 +49,12 @@
             }
         ],
         "activities": [
-            "entertainment/gaming",
+            "leisure/socializing",
             "leisure/photography",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "architecture/modern"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

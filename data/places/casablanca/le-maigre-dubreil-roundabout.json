@@ -32,12 +32,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "sightseeing/historical",
-            "services/transport"
+            "culture/sightseeing",
+            "utility/shopping"
         ],
         "items": [
             "nature/gardens",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

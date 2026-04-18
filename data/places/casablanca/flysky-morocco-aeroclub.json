@@ -29,13 +29,13 @@
             }
         ],
         "activities": [
-            "entertainment/cinema",
+            "culture/event-attendance",
             "sports/fitness",
-            "services/transport"
+            "utility/shopping"
         ],
         "items": [
-            "facility/toilets",
-            "item/goods"
+            "amenities/restrooms",
+            "shopping/handicrafts"
         ],
         "access": {
             "type": "restricted",

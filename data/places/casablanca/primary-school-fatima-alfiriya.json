@@ -31,10 +31,10 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "sightseeing/cultural"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

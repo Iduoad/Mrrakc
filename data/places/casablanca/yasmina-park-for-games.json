@@ -22,12 +22,12 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "entertainment/gaming",
+            "leisure/socializing",
             "sports/fitness",
-            "leisure/walking"
+            "leisure/relaxing"
         ],
         "items": [
-            "facility/toilets",
+            "amenities/restrooms",
             "nature/gardens"
         ],
         "access": {

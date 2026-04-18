@@ -29,11 +29,11 @@
         ],
         "links": [],
         "activities": [
-            "dining/restaurant",
-            "sightseeing/historical"
+            "utility/dining",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

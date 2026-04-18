@@ -35,13 +35,13 @@
             }
         ],
         "activities": [
-            "entertainment/dancing",
-            "entertainment/cinema",
-            "sightseeing/historical"
+            "leisure/socializing",
+            "culture/event-attendance",
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets",
-            "culture/memorabilia"
+            "amenities/restrooms",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

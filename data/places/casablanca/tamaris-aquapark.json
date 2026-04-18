@@ -32,8 +32,8 @@
             "sports/swimming"
         ],
         "items": [
-            "nature/coastline",
-            "facility/toilets"
+            "nature/scenic-views",
+            "amenities/restrooms"
         ],
         "access": {
             "type": "public",

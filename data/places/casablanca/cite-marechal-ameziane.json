@@ -50,11 +50,11 @@
         ],
         "links": [],
         "activities": [
-            "accommodation/hotel",
-            "sightseeing/historical"
+            "leisure/relaxing",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

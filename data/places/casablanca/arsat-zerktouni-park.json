@@ -44,9 +44,9 @@
             }
         ],
         "activities": [
-            "sightseeing/historical",
-            "socializing/community",
-            "leisure/walking"
+            "culture/sightseeing",
+            "leisure/socializing",
+            "leisure/relaxing"
         ],
         "items": [
             "nature/gardens"

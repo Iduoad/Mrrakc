@@ -70,13 +70,12 @@
             }
         ],
         "activities": [
-            "wellness/relaxing",
-            "sightseeing/historical",
-            "leisure/walking"
+            "leisure/relaxing",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "nature/coastline",
+            "architecture/monuments",
+            "nature/scenic-views",
             "nature/gardens"
         ],
         "access": {

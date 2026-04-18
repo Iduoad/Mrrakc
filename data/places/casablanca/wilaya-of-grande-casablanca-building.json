@@ -48,12 +48,11 @@
         ],
         "links": [],
         "activities": [
-            "services/administrative",
-            "sightseeing/historical"
+            "utility/shopping",
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical",
-            "culture/memorabilia"
+            "architecture/monuments"
         ],
         "access": {
             "type": "restricted",

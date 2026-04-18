@@ -29,12 +29,11 @@
             }
         ],
         "activities": [
-            "entertainment/dancing",
-            "religious/general",
-            "socializing/community"
+            "leisure/socializing",
+            "culture/sightseeing"
         ],
         "items": [
-            "facility/toilets"
+            "amenities/restrooms"
         ],
         "access": {
             "type": "restricted",

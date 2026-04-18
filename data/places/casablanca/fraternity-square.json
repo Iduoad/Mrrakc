@@ -23,12 +23,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "leisure/walking",
-            "wellness/relaxing"
+            "leisure/relaxing"
         ],
         "items": [
-            "nature/coastline",
-            "culture/memorabilia"
+            "nature/scenic-views",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

@@ -44,14 +44,12 @@
             }
         ],
         "activities": [
-            "sightseeing/cultural",
-            "entertainment/cinema",
-            "sightseeing/historical"
+            "culture/sightseeing",
+            "culture/event-attendance"
         ],
         "items": [
-            "architecture/historical",
-            "nature/gardens",
-            "culture/memorabilia"
+            "architecture/monuments",
+            "nature/gardens"
         ],
         "access": {
             "type": "public",

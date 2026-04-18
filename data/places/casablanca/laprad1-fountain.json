@@ -32,11 +32,11 @@
         "timeline": [],
         "links": [],
         "activities": [
-            "sightseeing/historical",
-            "socializing/community"
+            "culture/sightseeing",
+            "leisure/socializing"
         ],
         "items": [
-            "nature/coastline"
+            "nature/scenic-views"
         ],
         "access": {
             "type": "public",

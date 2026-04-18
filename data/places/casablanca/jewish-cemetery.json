@@ -38,12 +38,10 @@
         ],
         "links": [],
         "activities": [
-            "sightseeing/cultural",
-            "religious/general",
-            "sightseeing/historical"
+            "culture/sightseeing"
         ],
         "items": [
-            "architecture/historical"
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",

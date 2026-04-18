@@ -53,12 +53,12 @@
             }
         ],
         "activities": [
-            "dining/restaurant",
-            "entertainment/cinema"
+            "utility/dining",
+            "culture/event-attendance"
         ],
         "items": [
-            "cuisine/drinks",
-            "culture/memorabilia"
+            "food/coffee",
+            "architecture/monuments"
         ],
         "access": {
             "type": "public",
