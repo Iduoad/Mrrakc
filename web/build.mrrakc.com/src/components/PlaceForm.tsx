@@ -206,7 +206,15 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
 
   const name = watch('spec.name');
   const currentKind = watch('kind');
-  const showWorkConditions = currentKind === 'food/cafe' || currentKind === 'service/coworking';
+  const showWorkConditions = currentKind === 'food/cafe' || currentKind === 'food/restaurant' || currentKind === 'service/coworking';
+  const [includeWorkConditions, setIncludeWorkConditions] = useState(false);
+
+  // Initialize toggle state based on initialData
+  useEffect(() => {
+    if (initialData?.spec?.workConditions) {
+      setIncludeWorkConditions(true);
+    }
+  }, [initialData]);
 
   useEffect(() => {
     if (name && !initialData?.spec?.id) {
@@ -242,8 +250,8 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
       spec: {
         ...data.spec,
         comments: data.spec.comments.map(c => c.value),
-        // Only include work conditions if relevant to kind
-        workConditions: showWorkConditions ? data.spec.workConditions : undefined
+        // Only include work conditions if relevant to kind and toggle is ON
+        workConditions: (showWorkConditions && includeWorkConditions) ? data.spec.workConditions : undefined
       }
     } as Place;
 
@@ -355,189 +363,206 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
         </CollapsibleSection>
 
         {showWorkConditions && (
-          <CollapsibleSection title="Work Conditions" icon={<Coffee size={14} />} defaultOpen={true}>
+          <CollapsibleSection title="Work Conditions" icon={<Coffee size={14} />} defaultOpen={includeWorkConditions}>
             <div className="space-y-6">
-              <div className="space-y-2">
-                <label className="text-[10px] uppercase font-bold text-stone-500">Overall Work-Friendliness (0-5)</label>
-                <input type="number" step="0.5" min="0" max="5" {...register('spec.workConditions.overall', { valueAsNumber: true })} className="w-full px-4 py-2 border border-clay dark:border-stone-700 rounded-lg bg-white dark:bg-stone-800 text-sm" />
+              <div className="flex items-center justify-between p-4 bg-terra/5 rounded-xl border border-terra/10">
+                <span className="text-xs font-bold uppercase text-terra">Include Work Details</span>
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input 
+                    type="checkbox" 
+                    checked={includeWorkConditions} 
+                    onChange={(e) => setIncludeWorkConditions(e.target.checked)} 
+                    className="sr-only peer" 
+                  />
+                  <div className="w-11 h-6 bg-clay rounded-full peer peer-focus:ring-4 peer-focus:ring-terra/20 dark:bg-stone-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-terra"></div>
+                </label>
               </div>
 
-              <div className="space-y-1">
-                <label className="text-[10px] uppercase font-bold text-stone-500">General Comment</label>
-                <textarea {...register('spec.workConditions.comment')} rows={2} className="w-full px-4 py-2 border border-clay dark:border-stone-700 rounded-lg bg-white dark:bg-stone-800 text-sm" placeholder="Overall vibe for working..." />
-              </div>
-
-              {/* WiFi Section */}
-              <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
-                <div className="flex items-center justify-between">
-                  <span className="text-[11px] font-bold uppercase text-stone-600">WiFi</span>
-                  <label className="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" {...register('spec.workConditions.wifi.available')} className="w-4 h-4 accent-terra" />
-                    <span className="text-xs font-medium">Available</span>
-                  </label>
-                </div>
-                <Controller
-                  name="spec.workConditions.wifi.reliable"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Reliability" value={field.value} options={RELIABILITY} onChange={field.onChange} />
-                  )}
-                />
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-1">
-                    <label className="text-[10px] uppercase font-bold text-stone-500">Speed (Mbps)</label>
-                    <input type="number" {...register('spec.workConditions.wifi.speedMbps', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+              {includeWorkConditions && (
+                <>
+                  <div className="space-y-2">
+                    <label className="text-[10px] uppercase font-bold text-stone-500">Overall Work-Friendliness (0-5)</label>
+                    <input type="number" step="0.5" min="0" max="5" {...register('spec.workConditions.overall', { valueAsNumber: true })} className="w-full px-4 py-2 border border-clay dark:border-stone-700 rounded-lg bg-white dark:bg-stone-800 text-sm" />
                   </div>
+
                   <div className="space-y-1">
-                    <label className="text-[10px] uppercase font-bold text-stone-500">Password</label>
-                    <input {...register('spec.workConditions.wifi.password')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                    <label className="text-[10px] uppercase font-bold text-stone-500">General Comment</label>
+                    <textarea {...register('spec.workConditions.comment')} rows={2} className="w-full px-4 py-2 border border-clay dark:border-stone-700 rounded-lg bg-white dark:bg-stone-800 text-sm" placeholder="Overall vibe for working..." />
                   </div>
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">WiFi Notes</label>
-                  <input {...register('spec.workConditions.wifi.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Only works near the bar" />
-                </div>
-              </div>
 
-              {/* Consumption Section */}
-              <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
-                <span className="text-[11px] font-bold uppercase text-stone-600">Consumption</span>
-                <Controller
-                  name="spec.workConditions.consumption.price"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Price Level" value={field.value} options={PRICE_LEVELS} onChange={field.onChange} />
-                  )}
-                />
-                <Controller
-                  name="spec.workConditions.consumption.coffeeQuality"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Coffee Quality" value={field.value} options={COFFEE_QUALITY} onChange={field.onChange} />
-                  )}
-                />
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Renewal Interval (Hours)</label>
-                  <input type="number" step="0.5" {...register('spec.workConditions.consumption.renewalIntervalHours', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Consumption Notes</label>
-                  <input {...register('spec.workConditions.consumption.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Great avocado toast" />
-                </div>
-              </div>
+                  {/* WiFi Section */}
+                  <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[11px] font-bold uppercase text-stone-600">WiFi</span>
+                      <label className="flex items-center gap-2 cursor-pointer">
+                        <input type="checkbox" {...register('spec.workConditions.wifi.available')} className="w-4 h-4 accent-terra" />
+                        <span className="text-xs font-medium">Available</span>
+                      </label>
+                    </div>
+                    <Controller
+                      name="spec.workConditions.wifi.reliable"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Reliability" value={field.value} options={RELIABILITY} onChange={field.onChange} />
+                      )}
+                    />
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="space-y-1">
+                        <label className="text-[10px] uppercase font-bold text-stone-500">Speed (Mbps)</label>
+                        <input type="number" {...register('spec.workConditions.wifi.speedMbps', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                      </div>
+                      <div className="space-y-1">
+                        <label className="text-[10px] uppercase font-bold text-stone-500">Password</label>
+                        <input {...register('spec.workConditions.wifi.password')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                      </div>
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">WiFi Notes</label>
+                      <input {...register('spec.workConditions.wifi.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Only works near the bar" />
+                    </div>
+                  </div>
 
-              {/* Environment Section */}
-              <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
-                <span className="text-[11px] font-bold uppercase text-stone-600">Environment</span>
-                <Controller
-                  name="spec.workConditions.environment.seatComfort"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Seat Comfort" value={field.value} options={SEAT_COMFORT} onChange={field.onChange} />
-                  )}
-                />
-                <Controller
-                  name="spec.workConditions.environment.deskSpace"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Desk Space" value={field.value} options={DESK_SPACE} onChange={field.onChange} />
-                  )}
-                />
-                <Controller
-                  name="spec.workConditions.environment.powerOutlets"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Power Outlets" value={field.value} options={POWER_OUTLETS} onChange={field.onChange} />
-                  )}
-                />
-                <Controller
-                  name="spec.workConditions.environment.naturalLight"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Natural Light" value={field.value} options={NATURAL_LIGHT} onChange={field.onChange} />
-                  )}
-                />
-                <Controller
-                  name="spec.workConditions.environment.aesthetics"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Aesthetics" value={field.value} options={AESTHETICS} onChange={field.onChange} />
-                  )}
-                />
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Desk Options</label>
-                  <Controller
-                    name="spec.workConditions.environment.deskOptions"
-                    control={control}
-                    render={({ field }) => (
-                      <Select isMulti options={deskOptionOptions} value={deskOptionOptions.filter(o => field.value?.includes(o.value))} onChange={(vals) => field.onChange(vals.map(v => v.value))} className="text-xs" />
-                    )}
-                  />
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Work Amenities</label>
-                  <Controller
-                    name="spec.workConditions.environment.amenities"
-                    control={control}
-                    render={({ field }) => (
-                      <Select isMulti options={amenityOptions} value={amenityOptions.filter(o => field.value?.includes(o.value))} onChange={(vals) => field.onChange(vals.map(v => v.value))} className="text-xs" />
-                    )}
-                  />
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Environment Notes</label>
-                  <input {...register('spec.workConditions.environment.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. AC is quite strong" />
-                </div>
-              </div>
+                  {/* Consumption Section */}
+                  <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
+                    <span className="text-[11px] font-bold uppercase text-stone-600">Consumption</span>
+                    <Controller
+                      name="spec.workConditions.consumption.price"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Price Level" value={field.value} options={PRICE_LEVELS} onChange={field.onChange} />
+                      )}
+                    />
+                    <Controller
+                      name="spec.workConditions.consumption.coffeeQuality"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Coffee Quality" value={field.value} options={COFFEE_QUALITY} onChange={field.onChange} />
+                      )}
+                    />
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Renewal Interval (Hours)</label>
+                      <input type="number" step="0.5" {...register('spec.workConditions.consumption.renewalIntervalHours', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Consumption Notes</label>
+                      <input {...register('spec.workConditions.consumption.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Great avocado toast" />
+                    </div>
+                  </div>
 
-              {/* Atmosphere Section */}
-              <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
-                <span className="text-[11px] font-bold uppercase text-stone-600">Atmosphere</span>
-                <Controller
-                  name="spec.workConditions.atmosphere.noiseLevel"
-                  control={control}
-                  render={({ field }) => (
-                    <LevelSlider label="Noise Level" value={field.value} options={NOISE_LEVEL} onChange={field.onChange} />
-                  )}
-                />
-                <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-bold uppercase text-stone-500">Laptop Friendly</span>
-                  <input type="checkbox" {...register('spec.workConditions.atmosphere.laptopFriendly')} className="w-4 h-4 accent-terra" />
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Typical Audience</label>
-                  <Controller
-                    name="spec.workConditions.atmosphere.audience"
-                    control={control}
-                    render={({ field }) => (
-                      <Select isMulti options={workAudienceOptions} value={workAudienceOptions.filter(o => field.value?.includes(o.value))} onChange={(vals) => field.onChange(vals.map(v => v.value))} className="text-xs" />
-                    )}
-                  />
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Peak Hours (e.g. 14:00-17:00)</label>
-                  <Controller
-                    name="spec.workConditions.atmosphere.peakHours"
-                    control={control}
-                    render={({ field }) => (
-                      <CreatableSelect
-                        isMulti
-                        options={[]}
-                        noOptionsMessage={() => "Type a range and press enter"}
-                        value={field.value?.map(v => ({ value: v, label: v }))}
-                        onChange={(vals) => field.onChange(vals.map(v => v.value))}
-                        formatCreateLabel={(userInput) => `Add "${userInput}"`}
-                        className="text-xs"
-                        placeholder="Add peak hour ranges..."
+                  {/* Environment Section */}
+                  <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
+                    <span className="text-[11px] font-bold uppercase text-stone-600">Environment</span>
+                    <Controller
+                      name="spec.workConditions.environment.seatComfort"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Seat Comfort" value={field.value} options={SEAT_COMFORT} onChange={field.onChange} />
+                      )}
+                    />
+                    <Controller
+                      name="spec.workConditions.environment.deskSpace"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Desk Space" value={field.value} options={DESK_SPACE} onChange={field.onChange} />
+                      )}
+                    />
+                    <Controller
+                      name="spec.workConditions.environment.powerOutlets"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Power Outlets" value={field.value} options={POWER_OUTLETS} onChange={field.onChange} />
+                      )}
+                    />
+                    <Controller
+                      name="spec.workConditions.environment.naturalLight"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Natural Light" value={field.value} options={NATURAL_LIGHT} onChange={field.onChange} />
+                      )}
+                    />
+                    <Controller
+                      name="spec.workConditions.environment.aesthetics"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Aesthetics" value={field.value} options={AESTHETICS} onChange={field.onChange} />
+                      )}
+                    />
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Desk Options</label>
+                      <Controller
+                        name="spec.workConditions.environment.deskOptions"
+                        control={control}
+                        render={({ field }) => (
+                          <Select isMulti options={deskOptionOptions} value={deskOptionOptions.filter(o => field.value?.includes(o.value))} onChange={(vals) => field.onChange(vals.map(v => v.value))} className="text-xs" />
+                        )}
                       />
-                    )}
-                  />
-                </div>
-                <div className="space-y-1">
-                  <label className="text-[10px] uppercase font-bold text-stone-500">Atmosphere Notes</label>
-                  <input {...register('spec.workConditions.atmosphere.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Very chill background music" />
-                </div>
-              </div>
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Work Amenities</label>
+                      <Controller
+                        name="spec.workConditions.environment.amenities"
+                        control={control}
+                        render={({ field }) => (
+                          <Select isMulti options={amenityOptions} value={amenityOptions.filter(o => field.value?.includes(o.value))} onChange={(vals) => field.onChange(vals.map(v => v.value))} className="text-xs" />
+                        )}
+                      />
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Environment Notes</label>
+                      <input {...register('spec.workConditions.environment.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. AC is quite strong" />
+                    </div>
+                  </div>
+
+                  {/* Atmosphere Section */}
+                  <div className="p-4 bg-sand/30 dark:bg-stone-950/30 rounded-xl border border-clay/50 dark:border-stone-800/50 space-y-4">
+                    <span className="text-[11px] font-bold uppercase text-stone-600">Atmosphere</span>
+                    <Controller
+                      name="spec.workConditions.atmosphere.noiseLevel"
+                      control={control}
+                      render={({ field }) => (
+                        <LevelSlider label="Noise Level" value={field.value} options={NOISE_LEVEL} onChange={field.onChange} />
+                      )}
+                    />
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-bold uppercase text-stone-500">Laptop Friendly</span>
+                      <input type="checkbox" {...register('spec.workConditions.atmosphere.laptopFriendly')} className="w-4 h-4 accent-terra" />
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Typical Audience</label>
+                      <Controller
+                        name="spec.workConditions.atmosphere.audience"
+                        control={control}
+                        render={({ field }) => (
+                          <Select isMulti options={workAudienceOptions} value={workAudienceOptions.filter(o => field.value?.includes(o.value))} onChange={(vals) => field.onChange(vals.map(v => v.value))} className="text-xs" />
+                        )}
+                      />
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Peak Hours (e.g. 14:00-17:00)</label>
+                      <Controller
+                        name="spec.workConditions.atmosphere.peakHours"
+                        control={control}
+                        render={({ field }) => (
+                          <CreatableSelect
+                            isMulti
+                            options={[]}
+                            noOptionsMessage={() => "Type a range and press enter"}
+                            value={field.value?.map(v => ({ value: v, label: v }))}
+                            onChange={(vals) => field.onChange(vals.map(v => v.value))}
+                            formatCreateLabel={(userInput) => `Add "${userInput}"`}
+                            className="text-xs"
+                            placeholder="Add peak hour ranges..."
+                          />
+                        )}
+                      />
+                    </div>
+                    <div className="space-y-1">
+                      <label className="text-[10px] uppercase font-bold text-stone-500">Atmosphere Notes</label>
+                      <input {...register('spec.workConditions.atmosphere.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Very chill background music" />
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </CollapsibleSection>
         )}

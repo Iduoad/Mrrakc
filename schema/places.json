@@ -17,6 +17,7 @@
             "kind": {
               "enum": [
                 "food/cafe",
+                "food/restaurant",
                 "service/coworking"
               ]
             }

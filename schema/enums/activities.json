@@ -44,6 +44,10 @@
         "utility/coworking",
         "utility/studying",
         "utility/shopping",
-        "utility/dining"
+        "utility/dining",
+        "utility/eating",
+        "religion/prayer",
+        "religion/worship",
+        "religion/pilgrimage"
     ]
 }

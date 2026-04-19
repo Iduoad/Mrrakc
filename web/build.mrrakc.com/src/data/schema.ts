@@ -25,7 +25,8 @@ export const ACTIVITIES = [
   "nature/bird-watching", "nature/camping", "nature/picnicking", "nature/fishing", "nature/stargazing",
   "leisure/relaxing", "leisure/socializing", "leisure/photography", "leisure/spa", "leisure/hammam",
   "culture/sightseeing", "culture/guided-tour", "culture/museum-visit", "culture/workshop", "culture/reading", "culture/event-attendance",
-  "utility/coworking", "utility/studying", "utility/shopping", "utility/dining"
+  "utility/coworking", "utility/studying", "utility/shopping", "utility/dining", "utility/eating",
+  "religion/prayer", "religion/worship", "religion/pilgrimage"
 ] as const;
 
 export const ITEMS = [
@@ -35,7 +36,7 @@ export const ITEMS = [
   "cuisine/mexican", "cuisine/american", "cuisine/international",
   "cuisine/seafood", "cuisine/vegetarian", "cuisine/vegan", "cuisine/halal",
   "cuisine/fast-food", "cuisine/street-food", "cuisine/bakery", "cuisine/cafe",
-  "food/coffee", "food/tea", "food/pastries", "food/traditional-sweets", "food/local-produce", "food/spices",
+  "food/coffee", "food/tea", "food/pastries", "food/juice", "food/traditional-sweets", "food/local-produce", "food/spices",
   "shopping/handicrafts", "shopping/carpets", "shopping/pottery", "shopping/leather-goods", "shopping/jewelry", "shopping/clothing", "shopping/argan-oil",
   "architecture/ruins", "architecture/monuments", "architecture/islamic-art", "architecture/fountains", "architecture/mosaics", "architecture/traditional-decor",
   "nature/gardens", "nature/wildlife", "nature/scenic-views", "nature/trails", "nature/water-features",
