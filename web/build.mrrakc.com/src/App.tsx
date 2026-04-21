@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { APIProvider } from '@vis.gl/react-google-maps';
+import { Turnstile } from '@marsidev/react-turnstile';
 import { MapComponent } from './components/MapComponent';
 import PlaceForm from './components/PlaceForm';
 import Modal from './components/Modal';
@@ -27,7 +28,7 @@ const App: React.FC = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarView, setSidebarView] = useState<'list' | 'editor'>('list');
   const [searchTerm, setSearchTerm] = useState('');
-  const [accessCode, setAccessCode] = useState(() => StorageManager.loadAccessCode());
+  const [turnstileToken, setTurnstileToken] = useState<string>('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [expandedProvinces, setExpandedProvinces] = useState<Record<string, boolean>>({});
   
@@ -115,10 +116,6 @@ const App: React.FC = () => {
   }, [places]);
 
   useEffect(() => {
-    StorageManager.saveAccessCode(accessCode);
-  }, [accessCode]);
-
-  useEffect(() => {
     if (selectedPoint) {
       localStorage.setItem('mrrakc-builder-draft-point', JSON.stringify(selectedPoint));
     } else {
@@ -183,7 +180,7 @@ const App: React.FC = () => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': accessCode
+            'X-Turnstile-Token': turnstileToken
           },
           body: JSON.stringify(submitData)
         });
@@ -217,8 +214,8 @@ const App: React.FC = () => {
   };
 
   const submitToAirtable = async () => {
-    if (!accessCode) {
-      showModal('Access Code Required', 'Please enter your Access Code first.', 'info');
+    if (!turnstileToken) {
+      showModal('Verification Required', 'Please wait for the security verification to complete.', 'info');
       return;
     }
 
@@ -371,14 +368,15 @@ const App: React.FC = () => {
             </button>
             
             <div className="flex items-center gap-3">
-              <div className="relative group">
-                <input 
-                  type="text" 
-                  placeholder="Code"
-                  value={accessCode}
-                  onChange={(e) => setAccessCode(e.target.value)}
-                  className="px-4 py-3 md:py-2 bg-sand/50 dark:bg-stone-800 border border-clay dark:border-stone-700 rounded-xl outline-none focus:ring-1 focus:ring-terra text-base md:text-sm w-24 sm:w-48 font-mono transition-all"
-                  title="Your API access code for Airtable"
+              <div className="relative flex items-center scale-90 origin-left">
+                <Turnstile 
+                  siteKey={import.meta.env.VITE_TURNSTILE_SITE_KEY || '1x00000000000000000000AA'} 
+                  onSuccess={(token) => setTurnstileToken(token)}
+                  onExpire={() => setTurnstileToken('')}
+                  options={{
+                    theme: 'auto',
+                    size: 'flexible'
+                  }}
                 />
               </div>
               

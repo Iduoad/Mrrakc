@@ -6,7 +6,7 @@ type Bindings = {
   AIRTABLE_API_KEY: string;
   AIRTABLE_BASE_ID: string;
   AIRTABLE_TABLE_NAME: string;
-  ACCESS_CODE: string;
+  TURNSTILE_SECRET_KEY: string;
   GIT_COMMIT?: string;
 };
 
@@ -21,7 +21,7 @@ app.use('*', cors({
     }
     return allowedOrigins[1]; // Default to production
   },
-  allowHeaders: ['Content-Type', 'Authorization'],
+  allowHeaders: ['Content-Type', 'X-Turnstile-Token'],
   allowMethods: ['POST', 'GET', 'OPTIONS'],
   exposeHeaders: ['Content-Length'],
   maxAge: 86400,
@@ -33,12 +33,29 @@ app.get('/', (c) => {
 });
 
 app.post('/places', async (c) => {
-  const authHeader = c.req.header('Authorization');
-  const accessCode = c.env.ACCESS_CODE;
+  const turnstileToken = c.req.header('X-Turnstile-Token');
+  const remoteIp = c.req.header('CF-Connecting-IP');
 
-  // 1. Authorization check
-  if (!authHeader || authHeader !== accessCode) {
-    return c.json({ error: 'Unauthorized: Invalid access code' }, 401);
+  // 1. Bot Verification check
+  if (!turnstileToken) {
+    return c.json({ error: 'Unauthorized: Missing security token' }, 401);
+  }
+
+  const formData = new FormData();
+  // Use provided secret or the "Always Pass" test secret
+  const secretKey = c.env.TURNSTILE_SECRET_KEY || '1x0000000000000000000000000000000AA';
+  formData.append('secret', secretKey);
+  formData.append('response', turnstileToken);
+  if (remoteIp) formData.append('remoteip', remoteIp);
+
+  const verificationResponse = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+    method: 'POST',
+    body: formData,
+  });
+
+  const verificationResult: any = await verificationResponse.json();
+  if (!verificationResult.success) {
+    return c.json({ error: 'Unauthorized: Bot verification failed', details: verificationResult['error-codes'] }, 403);
   }
 
   try {

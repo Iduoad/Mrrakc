@@ -1,7 +1,6 @@
 import type { Place } from '../data/schema';
 
 const STORAGE_KEY = 'mrrakc-builder-places-v1';
-const ACCESS_CODE_KEY = 'mrrakc-builder-access-code';
 
 export interface StoredData {
   places: Place[];
@@ -35,14 +34,6 @@ export const StorageManager = {
       console.error('Failed to load from localStorage:', e);
       return [];
     }
-  },
-
-  saveAccessCode(code: string) {
-    localStorage.setItem(ACCESS_CODE_KEY, code);
-  },
-
-  loadAccessCode(): string {
-    return localStorage.getItem(ACCESS_CODE_KEY) || '';
   },
 
   clear() {
