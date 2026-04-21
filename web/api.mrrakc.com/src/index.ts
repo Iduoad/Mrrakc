@@ -41,21 +41,28 @@ app.post('/places', async (c) => {
     return c.json({ error: 'Unauthorized: Missing security token' }, 401);
   }
 
-  const formData = new FormData();
   // Use provided secret or the "Always Pass" test secret
   const secretKey = c.env.TURNSTILE_SECRET_KEY || '1x0000000000000000000000000000000AA';
-  formData.append('secret', secretKey);
-  formData.append('response', turnstileToken);
-  if (remoteIp) formData.append('remoteip', remoteIp);
-
+  
   const verificationResponse = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
     method: 'POST',
-    body: formData,
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: new URLSearchParams({
+      secret: secretKey,
+      response: turnstileToken,
+      remoteip: remoteIp || '',
+    }),
   });
 
   const verificationResult: any = await verificationResponse.json();
   if (!verificationResult.success) {
-    return c.json({ error: 'Unauthorized: Bot verification failed', details: verificationResult['error-codes'] }, 403);
+    return c.json({ 
+      error: 'Unauthorized: Bot verification failed', 
+      code: 'VERIFICATION_FAILED',
+      details: verificationResult['error-codes'] 
+    }, 403);
   }
 
   try {
