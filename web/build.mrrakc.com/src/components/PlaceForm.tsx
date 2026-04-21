@@ -339,6 +339,26 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
               />
               {errors.spec?.description && <p className="text-red-500 text-[10px] mt-1">{errors.spec.description.message}</p>}
             </div>
+
+            <div className="space-y-1">
+              <label className="block text-[11px] font-bold uppercase text-stone-500">Tags</label>
+              <Controller
+                name="metadata.tags"
+                control={control}
+                render={({ field }) => (
+                  <CreatableSelect
+                    isMulti
+                    options={[]}
+                    noOptionsMessage={() => "Type a tag and press enter"}
+                    value={field.value?.map(v => ({ value: v, label: v })) || []}
+                    onChange={(vals) => field.onChange(vals.map(v => v.value))}
+                    formatCreateLabel={(userInput) => `Add "${userInput}"`}
+                    className="text-xs"
+                    placeholder="Add tags..."
+                  />
+                )}
+              />
+            </div>
           </div>
         </CollapsibleSection>
 
