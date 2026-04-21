@@ -166,50 +166,47 @@ const App: React.FC = () => {
 
   const performAirtableSubmission = async () => {
     setIsSubmitting(true);
-    let successCount = 0;
-    const errors: string[] = [];
 
     const API_URL = import.meta.env.VITE_API_URL || 
       (import.meta.env.PROD ? 'https://api.mrrakc.com' : 'http://localhost:8787');
 
-    for (const place of places) {
-      try {
-        const { _internal, ...submitData } = place;
-        console.log('Submitting place:', _internal?.lastModified); // Use variable
-        const response = await fetch(`${API_URL}/places`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'X-Turnstile-Token': turnstileToken
-          },
-          body: JSON.stringify(submitData)
-        });
+    try {
+      const submitData = places.map(p => {
+        const { _internal, ...rest } = p;
+        return rest;
+      });
 
-        const result = await response.json();
+      const response = await fetch(`${API_URL}/places`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Turnstile-Token': turnstileToken
+        },
+        body: JSON.stringify(submitData)
+      });
 
-        if (response.ok) {
-          successCount++;
-        } else {
-          errors.push(`${place.spec.id}: ${result.error || 'Unknown error'}`);
-        }
-      } catch {
-        errors.push(`${place.spec.id}: Connection failed`);
+      const result = await response.json();
+
+      if (response.ok) {
+        addNotification(`Successfully submitted ${places.length} places to Airtable.`, 'success');
+        setPlaces([]);
+      } else {
+        showModal(
+          'Submission Error', 
+          result.error || 'Failed to submit places', 
+          'error'
+        );
       }
-    }
-
-    setIsSubmitting(false);
-
-    if (successCount > 0) {
-      addNotification(`Successfully submitted ${successCount} places to Airtable.`, 'success');
-      setPlaces([]);
-    }
-
-    if (errors.length > 0) {
+    } catch (err: any) {
       showModal(
-        'Submission Errors', 
-        `Errors occurred during submission:\n${errors.join('\n')}`, 
+        'Connection Error', 
+        'Could not reach the server. Please try again.', 
         'error'
       );
+    } finally {
+      setIsSubmitting(false);
+      // Reset token to force a new verification for next time
+      setTurnstileToken('');
     }
   };
 

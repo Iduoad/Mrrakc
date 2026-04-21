@@ -59,43 +59,51 @@ app.post('/places', async (c) => {
   }
 
   try {
-    const placeData = await c.req.json();
-    const placeId = placeData.spec?.id;
+    const body = await c.req.json();
+    const places = Array.isArray(body) ? body : [body];
 
-    if (!placeId) {
-      return c.json({ error: 'Invalid data: place id is required' }, 400);
+    if (places.length === 0) {
+      return c.json({ error: 'No places provided' }, 400);
     }
 
     const base = new Airtable({ apiKey: c.env.AIRTABLE_API_KEY }).base(c.env.AIRTABLE_BASE_ID);
     const table = base(c.env.AIRTABLE_TABLE_NAME || 'Places');
 
-    // 2. Duplicate Check
-    const existingRecords = await table
-      .select({
-        filterByFormula: `{id} = '${placeId}'`,
-        maxRecords: 1,
-      })
-      .firstPage();
+    // 2. Process in batches (Airtable limit is 10 per create call)
+    const results = {
+      success: 0,
+      errors: [] as string[]
+    };
 
-    if (existingRecords.length > 0) {
-      return c.json({ error: 'Conflict: This place already exists in Airtable' }, 409);
-    }
-
-    // 3. Insert Record
-    // We map the nested JSON to a flat structure for Airtable or store it as a string
-    // Here we'll store the core fields and the full JSON string for safety.
-    await table.create([
-      {
+    for (let i = 0; i < places.length; i += 10) {
+      const batch = places.slice(i, i + 10);
+      
+      const recordsToCreate = batch.map((placeData: any) => ({
         fields: {
-          "id": placeId,
+          "id": placeData.spec?.id,
           "province": placeData.spec?.location?.province,
           "data": JSON.stringify(placeData, null, 2),
           "status": "Pending"
         }
-      }
-    ]);
+      }));
 
-    return c.json({ success: true, message: `Place '${placeId}' added to Airtable.` });
+      try {
+        await table.create(recordsToCreate);
+        results.success += batch.length;
+      } catch (err: any) {
+        results.errors.push(`Batch ${i/10 + 1}: ${err.message}`);
+      }
+    }
+
+    if (results.errors.length > 0 && results.success === 0) {
+      return c.json({ error: 'All batch submissions failed', details: results.errors }, 500);
+    }
+
+    return c.json({ 
+      success: true, 
+      message: `Successfully processed ${results.success} places.`,
+      errors: results.errors.length > 0 ? results.errors : undefined
+    });
 
   } catch (error: any) {
     console.error('Submission failed:', error);
