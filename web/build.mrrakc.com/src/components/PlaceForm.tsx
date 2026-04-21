@@ -59,11 +59,12 @@ const LevelSlider: React.FC<{
   value: string | undefined;
   options: readonly string[];
   onChange: (val: string) => void;
-}> = ({ label, value, options, onChange }) => {
+  disabled?: boolean;
+}> = ({ label, value, options, onChange, disabled }) => {
   const currentIndex = value ? options.indexOf(value) : 0;
   
   return (
-    <div className="space-y-2">
+    <div className={`space-y-2 ${disabled ? 'opacity-40 pointer-events-none' : ''}`}>
       <div className="flex justify-between items-center">
         <label className="text-[10px] uppercase font-bold text-stone-500">{label}</label>
         <span className="text-[10px] font-bold text-terra uppercase tracking-wider bg-terra/5 px-2 py-0.5 rounded border border-terra/10">
@@ -77,6 +78,7 @@ const LevelSlider: React.FC<{
         step="1"
         value={currentIndex === -1 ? 0 : currentIndex}
         onChange={(e) => onChange(options[parseInt(e.target.value, 10)])}
+        disabled={disabled}
         className="w-full h-1.5 bg-clay dark:bg-stone-800 rounded-lg appearance-none cursor-pointer accent-terra"
       />
       <div className="flex justify-between px-1">
@@ -159,7 +161,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
         items: [],
         workConditions: {
           overall: 3,
-          wifi: { available: true, reliable: 'average' },
+          wifi: { available: true, reliable: 'average', speedMbps: 0 },
           consumption: { price: 'moderate', coffeeQuality: 'average' },
           environment: { seatComfort: 'average', deskSpace: 'adequate', powerOutlets: 'moderate', naturalLight: 'moderate', aesthetics: 'average' },
           atmosphere: { noiseLevel: 'moderate', laptopFriendly: true }
@@ -206,6 +208,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
 
   const name = watch('spec.name');
   const currentKind = watch('kind');
+  const wifiAvailable = watch('spec.workConditions.wifi.available');
   const showWorkConditions = currentKind === 'food/cafe' || currentKind === 'food/restaurant' || currentKind === 'service/coworking';
   const [includeWorkConditions, setIncludeWorkConditions] = useState(false);
 
@@ -244,14 +247,22 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
   });
 
   const handleFormSubmit = (data: FormPlace) => {
-    // Transform back to Place schema
+    // Sanitize WiFi details if not available
+    const sanitizedWorkConditions = data.spec.workConditions ? {
+      ...data.spec.workConditions,
+      wifi: data.spec.workConditions.wifi?.available 
+        ? data.spec.workConditions.wifi 
+        : { available: false }
+    } : undefined;
+
+    // Transform back to Place schema and filter for safety
     const finalData: Place = {
       ...data,
       spec: {
         ...data.spec,
         comments: data.spec.comments.map(c => c.value),
         // Only include work conditions if relevant to kind and toggle is ON
-        workConditions: (showWorkConditions && includeWorkConditions) ? data.spec.workConditions : undefined
+        workConditions: (showWorkConditions && includeWorkConditions) ? sanitizedWorkConditions : undefined
       }
     } as Place;
 
@@ -403,22 +414,22 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
                       name="spec.workConditions.wifi.reliable"
                       control={control}
                       render={({ field }) => (
-                        <LevelSlider label="Reliability" value={field.value} options={RELIABILITY} onChange={field.onChange} />
+                        <LevelSlider label="Reliability" value={field.value} options={RELIABILITY} onChange={field.onChange} disabled={!wifiAvailable} />
                       )}
                     />
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className={`grid grid-cols-2 gap-4 ${!wifiAvailable ? 'opacity-40 pointer-events-none' : ''}`}>
                       <div className="space-y-1">
                         <label className="text-[10px] uppercase font-bold text-stone-500">Speed (Mbps)</label>
-                        <input type="number" {...register('spec.workConditions.wifi.speedMbps', { valueAsNumber: true })} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                        <input type="number" {...register('spec.workConditions.wifi.speedMbps', { valueAsNumber: true })} disabled={!wifiAvailable} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
                       </div>
                       <div className="space-y-1">
                         <label className="text-[10px] uppercase font-bold text-stone-500">Password</label>
-                        <input {...register('spec.workConditions.wifi.password')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
+                        <input {...register('spec.workConditions.wifi.password')} disabled={!wifiAvailable} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" />
                       </div>
                     </div>
-                    <div className="space-y-1">
+                    <div className={`space-y-1 ${!wifiAvailable ? 'opacity-40 pointer-events-none' : ''}`}>
                       <label className="text-[10px] uppercase font-bold text-stone-500">WiFi Notes</label>
-                      <input {...register('spec.workConditions.wifi.comment')} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Only works near the bar" />
+                      <input {...register('spec.workConditions.wifi.comment')} disabled={!wifiAvailable} className="w-full px-3 py-1.5 rounded border border-clay dark:border-stone-700 bg-white dark:bg-stone-800 text-xs" placeholder="e.g. Only works near the bar" />
                     </div>
                   </div>
 
