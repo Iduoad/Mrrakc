@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ferteh gate",
+    "id": "ferteh-gate",
+    "description": "Small gate on the northern side of the Medina wall. Also known as Ghrabliya gate, its name is a funny word which translates from Darija to run.",
+    "location": {
+      "longitude": -6.8189749,
+      "latitude": 34.0400015,
+      "altitude": 19,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1135561571144193879",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing",
+      "culture/guided-tour"
+    ],
+    "items": [
+      "architecture/monuments"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

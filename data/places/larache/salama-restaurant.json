@@ -1,0 +1,59 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "restaurant",
+      "roadside",
+      "family-friendly",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Salama Restaurant",
+    "id": "salama-restaurant",
+    "description": "Salama Restaurant and Café is a well-known roadside establishment located on the Rabat-Tangier road near Ksar el-Kebir. It serves as a popular stop for travelers, offering a variety of Moroccan dishes including fresh fish, grills, and traditional tagines. The facility is designed for families, featuring a large dining area, a garden, a children's playground, and a swimming pool.",
+    "location": {
+      "longitude": -5.973097085952759,
+      "latitude": 35.01781680490863,
+      "altitude": 15,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Expansion",
+        "date": "2001-01-01",
+        "description": "Expansion of facilities to include a swimming pool and enhanced leisure areas for families."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=18351536086478156597",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/dining",
+      "sports/swimming"
+    ],
+    "items": [
+      "cuisine/moroccan",
+      "cuisine/seafood"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The restaurant is part of a service complex that includes a gas station.",
+      "Highly popular during the summer months due to its swimming pool and outdoor seating."
+    ]
+  }
+}

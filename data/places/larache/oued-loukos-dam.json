@@ -2,28 +2,51 @@
   "version": "mrrakc/v0",
   "kind": "nature/dam",
   "metadata": {
-    "tags": []
+    "tags": [
+      "larache",
+      "dam",
+      "water-management",
+      "agriculture",
+      "loukkos"
+    ]
   },
   "spec": {
     "name": "Oued Loukos Dam",
     "id": "oued-loukos-dam",
-    "description": "No description available.",
+    "description": "The Oued Loukos Dam, also known as the Barrage de Garde (Guard Dam), is a crucial hydraulic infrastructure located in the lower Loukkos valley near Larache. Unlike traditional storage dams, this regulating dam's primary function is to prevent saltwater intrusion from the Atlantic Ocean into the river, protecting the fertile agricultural lands of the 'Bas Loukkos' perimeter. It also helps regulate water levels for irrigation, supporting the region's intensive farming of red fruits and sugar beets. The dam is an essential component of the Loukkos Hydraulic Basin's management, balancing the needs of agriculture with the preservation of the nearby Ramsar-protected wetlands.",
     "location": {
       "longitude": -6.0882424,
       "latitude": 35.1548487,
       "province": "province/larache"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Irrigation Development",
+        "date": "1970-01-01",
+        "description": "Development of the Loukkos irrigation perimeters and identification of the need for anti-salt infrastructure."
+      },
+      {
+        "title": "Operational Start",
+        "date": "1980-01-01",
+        "description": "The Barrage de Garde becomes operational as part of the regional water management strategy."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "culture/sightseeing"
+    ],
+    "items": [
+      "nature/water-features"
+    ],
     "access": {
       "type": "public",
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Modern"
+    ],
     "comments": []
   }
 }

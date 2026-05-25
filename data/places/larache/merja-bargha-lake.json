@@ -2,34 +2,63 @@
   "version": "mrrakc/v0",
   "kind": "nature/lake",
   "metadata": {
-    "tags": []
+    "tags": [
+      "larache",
+      "lake",
+      "nature",
+      "ramsar",
+      "ksar el-kebir"
+    ]
   },
   "spec": {
     "name": "Merja Bargha Lake",
     "id": "merja-bargha-lake",
-    "description": "No description available.",
+    "description": "A significant coastal wetland and Ramsar site located south of Larache. Part of the Loukkos estuary complex, it is a vital habitat for migratory birds and is historically linked to the mythical Garden of the Hesperides.",
     "location": {
       "longitude": -6.2122664,
       "latitude": 35.0168573,
       "province": "province/larache"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Agricultural Development",
+        "date": "1930-01-01",
+        "description": "The surrounding plains began to be developed for farming by the Agricultural Company of Loukkos."
+      },
+      {
+        "title": "Irrigation Project",
+        "date": "1978-01-01",
+        "description": "Launch of the R'mel irrigation sector, which significantly altered the lake's hydrology."
+      },
+      {
+        "title": "Ramsar Designation",
+        "date": "2005-01-15",
+        "description": "Designated as a Wetland of International Importance under the Ramsar Convention."
+      }
+    ],
     "links": [
       {
         "url": "https://www.grepom.org/marais-cote-plateau-rmel/",
         "type": "website",
-        "title": "Link"
+        "title": "Grepom BirdLife Morocco"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "nature/bird-watching",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "nature/wildlife"
+    ],
     "access": {
       "type": "public",
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Modern"
+    ],
     "comments": []
   }
 }

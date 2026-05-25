@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "synagogue",
+      "jewish-heritage",
+      "religion",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Rebbi Mose Synagogue",
+    "id": "rebbi-mose-synagogue",
+    "description": "The Rebbi Mose Synagogue (often associated with the shrine of Rabbi Yehuda Al-Jabali) is a significant site of Jewish heritage in Ksar El Kebir. It is particularly known as the resting place of Rabbi Yehuda Al-Jabali, an 18th-century sage and 'miracle-worker' who is deeply revered by the Jewish community. Interestingly, the site is also known locally by the name 'Sidi Belabbass,' a title given by local Muslims out of respect for the Rabbi's perceived miracles. This dual reverence makes the synagogue and its associated shrine a poignant example of the historical coexistence and shared spiritual landscape between Jews and Muslims in northern Morocco. Each year, Jewish pilgrims gather here to celebrate the Rabbi's Hilloula.",
+    "location": {
+      "longitude": -5.9064871072769165,
+      "latitude": 34.99355990217801,
+      "altitude": 22,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Life of Rabbi Yehuda",
+        "date": "1701-01-01",
+        "description": "Life and miracles of Rabbi Yehuda Al-Jabali in Ksar El Kebir."
+      },
+      {
+        "title": "Community Focus",
+        "date": "1801-01-01",
+        "description": "The synagogue and shrine serve as a focal point for the Jewish community of Ksar El Kebir."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=4814037656797346290",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing",
+      "religion/pilgrimage"
+    ],
+    "items": [
+      "architecture/traditional-decor",
+      "architecture/monuments"
+    ],
+    "access": {
+      "status": "open",
+      "type": "restricted",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

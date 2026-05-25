@@ -1,0 +1,61 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Amezri Village",
+    "id": "amezri-village",
+    "description": "A small village in the High Atlas, located in a valley over 2,000 meters above sea level along the Oued Tassaout river. It serves as a hub for nearby villages and hosts a weekly souk every Tuesday.",
+    "location": {
+      "longitude": -6.629074699999999,
+      "latitude": 31.4484211,
+      "altitude": 2266,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17252237894372746273",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://www.instagram.com/p/CwnGqXUtDHw/",
+        "title": "Instagram reel by Ossama Bakader",
+        "type": "social"
+      }
+    ],
+    "activities": [
+      "sports/hiking",
+      "sports/mountain-biking",
+      "sports/swimming",
+      "nature/camping",
+      "utility/shopping",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "food/local-produce",
+      "shopping/carpets",
+      "shopping/clothing",
+      "architecture/ruins",
+      "architecture/traditional-decor",
+      "nature/gardens"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "Trasportation from Ouarzazate: Taxi to Imghrane Toundoute -> Transit van to Amezri.",
+      "Locals are kind but conservative. Make sure to respect the people and their traditions.",
+      "Accomodation: You can camp around the village, local gites and guest houses are available for daily rent."
+    ]
+  }
+}

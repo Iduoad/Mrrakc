@@ -2,28 +2,54 @@
   "version": "mrrakc/v0",
   "kind": "nature/dam",
   "metadata": {
-    "tags": []
+    "tags": [
+      "larache",
+      "ksar-el-kebir",
+      "dam",
+      "water-resources",
+      "history",
+      "ksar el-kebir"
+    ]
   },
   "spec": {
     "name": "Oued El Mahkazine Dam",
     "id": "oued-el-mahkazine-dam",
-    "description": "No description available.",
+    "description": "The Oued El Mahkazine Dam is one of the largest and most important dams in Morocco, located on the Loukkos River near the city of Ksar El Kebir. Inaugurated in 1979 by King Hassan II, it was named in honor of the historic Battle of Oued el-Makhazine (1578), which took place in the vicinity. The dam plays a vital role in regional development by providing irrigation for the fertile Loukkos plains, generating hydroelectric power, and supplying drinking water to the northern regions. Its vast reservoir is also a site of natural beauty, attracting local visitors for its serene landscapes.",
     "location": {
       "longitude": -5.7710272,
       "latitude": 34.9363426,
       "province": "province/larache"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Historic Battle",
+        "date": "1578-08-04",
+        "description": "The Battle of Oued el-Makhazine takes place in the plains where the dam is now situated."
+      },
+      {
+        "title": "Inauguration",
+        "date": "1979-01-01",
+        "description": "Inauguration of the dam by King Hassan II as part of the national water policy."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "culture/sightseeing",
+      "leisure/photography"
+    ],
+    "items": [
+      "nature/scenic-views",
+      "nature/water-features"
+    ],
     "access": {
       "type": "public",
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Modern"
+    ],
     "comments": []
   }
 }

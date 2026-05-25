@@ -1,0 +1,60 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/lighthouse",
+  "metadata": {
+    "tags": [
+      "larache",
+      "lighthouse",
+      "maritime",
+      "spanish-protectorate"
+    ]
+  },
+  "spec": {
+    "name": "Pointe Nador Lighthouse",
+    "id": "pointe-nador-lighthouse",
+    "description": "The Pointe Nador Lighthouse (also known as Punta Nador) is a prominent maritime landmark situated on a windswept headland overlooking the Atlantic Ocean and the mouth of the Loukkos River in Larache. Constructed during the Spanish Protectorate era, the lighthouse was designed to guide ships navigating the treacherous coastal waters between Cádiz, Ceuta, and the port of Larache. Its architectural style is influenced by Andalusian traditions, characterized by a simple yet robust tower built to withstand the elements. Today, it remains a symbolic sentinel at the intersection of the river and the sea, marking the geographical and historical gateway to the city.",
+    "location": {
+      "longitude": -6.1679675,
+      "latitude": 35.1930576,
+      "altitude": 45,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1920-01-01",
+        "description": "Construction of the lighthouse under the Spanish Protectorate to improve maritime safety."
+      },
+      {
+        "title": "Independence",
+        "date": "1956-01-01",
+        "description": "Integration into the Moroccan maritime infrastructure following independence."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=18375174420239931893",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing",
+      "leisure/photography"
+    ],
+    "items": [
+      "architecture/monuments",
+      "nature/scenic-views"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

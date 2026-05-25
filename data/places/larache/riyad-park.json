@@ -1,0 +1,63 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/park",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "park",
+      "garden",
+      "recreation",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Riyad Park",
+    "id": "riyad-park",
+    "description": "Riyad Park (حديقة الرياض) is one of the primary public green spaces and recreational areas in Ksar El Kebir. Strategically located near the central Great Mosque and the city's railway station, the park serves as a vital 'lung' for the urban center, offering a peaceful environment for families and visitors. In recent years, the park has undergone significant renovation and landscaping improvements, including the installation of modern public lighting, seating areas, and playgrounds for children. Its proximity to key historical and administrative landmarks makes it a popular meeting point and a cornerstone of the city's public life.",
+    "location": {
+      "longitude": -5.904872417449951,
+      "latitude": 34.99419272498484,
+      "altitude": 18,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1901-01-01",
+        "description": "Established as a public garden during the city's modern urban expansion."
+      },
+      {
+        "title": "Renovation",
+        "date": "2010-01-01",
+        "description": "Extensive renovation projects by the local municipality to modernize facilities and expand green areas."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15141937833734307269",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing",
+      "nature/picnicking",
+      "leisure/photography"
+    ],
+    "items": [
+      "nature/gardens",
+      "amenities/playground",
+      "architecture/fountains"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

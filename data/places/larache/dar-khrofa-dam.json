@@ -2,7 +2,9 @@
   "version": "mrrakc/v0",
   "kind": "nature/dam",
   "metadata": {
-    "tags": []
+    "tags": [
+      "larache"
+    ]
   },
   "spec": {
     "name": "Dar Khrofa Dam",

@@ -1,0 +1,68 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mosque",
+      "historic",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Moulay Ali Belarabi mosque",
+    "id": "moulay-ali-belarabi-mosque",
+    "description": "A 16th-century mosque in Ksar El Kebir distinguished by its uniquely rare hexagonal minaret. It was a major center of learning where the prominent scholar Ibn Al-Arabi taught, and it now serves as his final resting place.",
+    "location": {
+      "longitude": -5.9070826,
+      "latitude": 34.9936915,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1530-01-01",
+        "description": "Built during the Saadian dynasty, becoming a vibrant center of learning."
+      },
+      {
+        "title": "Death of Ibn Al-Arabi",
+        "date": "1555-01-01",
+        "description": "The scholar Abu Al-Hasan Ali Ibn Al-Arabi was entombed within the mosque."
+      },
+      {
+        "title": "Modern Renovation",
+        "date": "2024-01-01",
+        "description": "Closed for extensive renovation, scheduled for completion in mid-2026."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16838936916162720765",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "under_renovation",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Saadian",
+      "Alouite",
+      "Modern"
+    ],
+    "comments": [
+      "The popular city saint Abu El Mahassin Yussuf El Fassi studied and later taught in the mosque."
+    ]
+  }
+}

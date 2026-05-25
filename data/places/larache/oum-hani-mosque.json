@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mosque",
+      "medina",
+      "religion",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Oum Hani Mosque",
+    "id": "oum-hani-mosque",
+    "description": "Oum Hani Mosque is a traditional place of worship located on a corner of a central square within the historic Medina of Ksar El Kebir. While relatively small and modest in its architectural scale, the mosque is a quintessential example of the local religious heritage that characterizes the city's old quarters. Its minaret is simply designed, and its entrance follows the established aesthetic patterns seen in other historic mosques and zaouiyas of the city, such as the Zaouiya Bedouiya. The mosque serves as an important neighborhood landmark, providing a quiet space for prayer amidst the bustling life of the medina.",
+    "location": {
+      "longitude": -5.905449,
+      "latitude": 34.997574,
+      "altitude": 19,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Historical Context",
+        "date": "1601-01-01",
+        "description": "Likely period of construction, following the architectural styles prevalent in northern Moroccan medinas."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7701057806082737425",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/monuments",
+      "architecture/traditional-decor"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Medieval",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

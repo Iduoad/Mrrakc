@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "market",
+      "shopping",
+      "kissaria",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Municipal Caesarea",
+    "id": "municipal-caesarea",
+    "description": "The Municipal Caesarea (also known as the Central Market or Al Kissaria) of Ksar El Kebir is a vibrant commercial hub located in the heart of the city's historic center. As a central point of trade for both locals and visitors, the market is known for its diverse offerings, ranging from fresh produce and traditional Moroccan crafts to textiles and jewelry. The architecture reflects the traditional layout of Moroccan marketplaces, with specialized sections or 'souks' dedicated to different types of goods. It remains a bustling social and economic landmark, embodying the commercial vitality of Ksar El Kebir.",
+    "location": {
+      "longitude": -5.9031404,
+      "latitude": 34.9948114,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Municipal Development",
+        "date": "1956-01-01",
+        "description": "The market developed as the primary municipal commercial center of the city."
+      },
+      {
+        "title": "Modernization",
+        "date": "2020-01-01",
+        "description": "Ongoing efforts to modernize and reorganize the market while preserving its traditional character."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8457702464658852553",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/shopping",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "shopping/clothing",
+      "shopping/handicrafts",
+      "food/local-produce"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

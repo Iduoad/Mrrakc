@@ -1,0 +1,53 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/shop",
+  "metadata": {
+    "tags": [
+      "zemita"
+    ]
+  },
+  "spec": {
+    "name": "Khalid Cherki Mill",
+    "id": "khalid-cherki-mill",
+    "description": "One of the oldest flour mills of the Medina still active today. It was inaugurated in 1920. It was known of a special Zemita with 19 herbs, grains and dried fruits.",
+    "location": {
+      "longitude": -6.822375500000001,
+      "latitude": 34.038751,
+      "altitude": 19,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Inauguration of the mill",
+        "date": "1920-01-01",
+        "description": "The mill was inaugurated."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2718399774631249649",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/shopping"
+    ],
+    "items": [
+      "food/local-produce",
+      "cuisine/moroccan"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The mill is known of the special Zemita."
+    ]
+  }
+}

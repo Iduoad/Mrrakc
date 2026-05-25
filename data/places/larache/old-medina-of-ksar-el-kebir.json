@@ -1,0 +1,73 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "medina",
+      "history",
+      "architecture",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Old Medina of Ksar El Kebir",
+    "id": "old-medina-of-ksar-el-kebir",
+    "description": "The Old Medina of Ksar El Kebir is one of Morocco’s most historically significant urban centers, with roots tracing back to the Almoravid and Almohad dynasties. Known for its dense network of narrow alleys, historic mosques, and traditional zaouiyas, the medina serves as a living museum of Jbala culture and Islamic architecture. It houses one of the oldest great mosques in Morocco, believed to date back to the Idrisid era. The medina is organized into traditional neighborhoods like Qattanin and is a center for traditional crafts, spiritual life, and historical memory, particularly related to the Battle of the Three Kings (Oued el-Makhazine).",
+    "location": {
+      "longitude": -5.9072113037109375,
+      "latitude": 34.99282160271928,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Founding",
+        "date": "0801-01-01",
+        "description": "Potential Idrisid foundations of the city and its great mosque."
+      },
+      {
+        "title": "Medieval Expansion",
+        "date": "1001-01-01",
+        "description": "Significant development under the Almoravid and Almohad dynasties."
+      },
+      {
+        "title": "Battle of Three Kings",
+        "date": "1578-08-04",
+        "description": "The historic Battle of Oued el-Makhazine takes place nearby, cementing the medina's strategic importance."
+      },
+      {
+        "title": "Spanish Protectorate",
+        "date": "1912-01-01",
+        "description": "The city was included in the Spanish Protectorate zone."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17299927904767051792",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing",
+      "culture/guided-tour",
+      "utility/shopping"
+    ],
+    "items": [
+      "architecture/monuments",
+      "architecture/traditional-decor"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Medieval",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

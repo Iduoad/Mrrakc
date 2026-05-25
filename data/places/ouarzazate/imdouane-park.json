@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Imdouane Park",
+    "id": "imdouane-park",
+    "description": "Imdouane Park, on the side of Tassaout river.",
+    "location": {
+      "longitude": -6.629133224487305,
+      "latitude": 31.445414920966947,
+      "altitude": 2240,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2904034873464667706",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

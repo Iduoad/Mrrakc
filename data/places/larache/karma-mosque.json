@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Karma Mosque",
+    "id": "karma-mosque",
+    "description": "Very small mosque near Sidi Al Fassi mausoleum. It may be built by Abu Al Mahassin Al Fassi during his life in Ksar El Kebir, or one his descendants.",
+    "location": {
+      "longitude": -5.90759,
+      "latitude": 34.992769,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7930095823309060181",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/church",
+  "metadata": {
+    "tags": [
+      "larache",
+      "church",
+      "spanish-protectorate",
+      "architecture"
+    ]
+  },
+  "spec": {
+    "name": "Nuestra Señora del Pilar Church",
+    "id": "nuestra-seora-del-pilar-church",
+    "description": "Nuestra Señora del Pilar Church is a significant architectural landmark from the Spanish Protectorate era in Larache. Built in the 1920s to serve the city's Catholic community, which included Spanish officers, teachers, and civil servants, the church is a prime example of Spanish rationalist architecture. Its design features clean, straight lines, a minimalist facade, and a modest bell tower. While it no longer holds regular services and remains closed most of the time, the building stands as a testament to Larache's multicultural history and the period of Spanish influence in northern Morocco.",
+    "location": {
+      "longitude": -6.151480078697205,
+      "latitude": 35.19544940142566,
+      "altitude": 33,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1920-01-01",
+        "description": "Construction of the church to serve the Spanish Catholic community during the Protectorate."
+      },
+      {
+        "title": "Independence",
+        "date": "1956-01-01",
+        "description": "Moroccan independence; the Spanish population began to decline, and the church's role changed."
+      },
+      {
+        "title": "Present Status",
+        "date": "2024-01-01",
+        "description": "The church remains a historical visual landmark on Mohammed V Avenue."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1746210027928302842",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/monuments"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": [
+      "bissara"
+    ]
+  },
+  "spec": {
+    "name": "El Habib Moul El Bissara",
+    "id": "el-habib-moul-el-bissara",
+    "description": "A small bissara shop (fava beans soup) in the center of Azrou's Kasbah",
+    "location": {
+      "longitude": -5.2214214,
+      "latitude": 33.4351377,
+      "altitude": 1277,
+      "province": "province/ifrane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1514050567024785238",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/eating"
+    ],
+    "items": [
+      "cuisine/moroccan",
+      "cuisine/street-food",
+      "food/tea"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The small restaurant has a very nice vibe especially in cold winter mornings."
+    ]
+  }
+}

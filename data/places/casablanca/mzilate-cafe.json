@@ -1,0 +1,86 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/cafe",
+  "metadata": {
+    "tags": [
+      "rca",
+      "cafe",
+      "football",
+      "gallery"
+    ]
+  },
+  "spec": {
+    "name": "Mzilate Café ",
+    "id": "mzilate-cafe",
+    "description": "A unique cafe with a big exposition of Raja Athletic Club pictures and artifacts. ",
+    "location": {
+      "longitude": -7.6072088,
+      "latitude": 33.5663464,
+      "altitude": 39,
+      "province": "province/casablanca"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2079393735856534390",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing",
+      "culture/museum-visit"
+    ],
+    "items": [
+      "cuisine/cafe",
+      "food/tea"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "workConditions": {
+      "overall": 2,
+      "comment": "Very good vibe if you want to enjoy a cup of coffee or a cup of tea. Not ideal for work",
+      "wifi": {
+        "available": false,
+        "reliable": "poor",
+        "speedMbps": 0,
+        "password": "",
+        "comment": ""
+      },
+      "consumption": {
+        "price": "cheap",
+        "renewalIntervalHours": 0,
+        "coffeeQuality": "good",
+        "comment": ""
+      },
+      "environment": {
+        "seatComfort": "poor",
+        "deskSpace": "cramped",
+        "deskOptions": [
+          "standard_tables"
+        ],
+        "powerOutlets": "none",
+        "naturalLight": "moderate",
+        "aesthetics": "excellent",
+        "amenities": [],
+        "comment": "No ideal for work."
+      },
+      "atmosphere": {
+        "noiseLevel": "loud",
+        "laptopFriendly": true,
+        "audience": [
+          "generic"
+        ],
+        "comment": ""
+      }
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

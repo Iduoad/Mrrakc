@@ -1,0 +1,46 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/pastry",
+  "metadata": {
+    "tags": [
+      "pankaces"
+    ]
+  },
+  "spec": {
+    "name": "Crêpeti Plage Salé",
+    "id": "crepeti-plage-sale",
+    "description": "A pancake shop near the beach offering a variety of sweet and savory options.",
+    "location": {
+      "longitude": -6.828206777572632,
+      "latitude": 34.03623079084678,
+      "altitude": 10,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3866677557901638068",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/eating"
+    ],
+    "items": [
+      "cuisine/fast-food",
+      "cuisine/street-food",
+      "cuisine/bakery"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

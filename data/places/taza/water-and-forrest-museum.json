@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Water and Forrest Museum",
+    "id": "water-and-forrest-museum",
+    "description": "An old abandoned museum in the way to Tazzeka.",
+    "location": {
+      "longitude": -4.169783592224121,
+      "latitude": 34.05187717780879,
+      "altitude": 1531,
+      "province": "province/taza"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1926948437127733884",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/ruins",
+      "architecture/mosaics"
+    ],
+    "access": {
+      "status": "closed",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

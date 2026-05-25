@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Lalla Fatima El Andalousia Mosque",
+    "id": "lalla-fatima-el-andalousia-mosque",
+    "description": "Misquéeمسجد للا فاطمة الأندلسية",
+    "location": {
+      "longitude": -5.909118354320526,
+      "latitude": 34.99255352805345,
+      "altitude": 18,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13002508230352911110",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/artisanal-complex",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Foundouk Zeljou",
+    "id": "foundouk-zeljou",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.15177646279335,
+      "latitude": 35.19753275304073,
+      "altitude": 31,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8072623975657170118",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

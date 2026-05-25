@@ -1,0 +1,68 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": [
+      "larache",
+      "medina",
+      "lalla-mennana"
+    ]
+  },
+  "spec": {
+    "name": "Zawiya Masbahiya Mosque",
+    "id": "zawiya-masbahiya-mosque",
+    "description": "The Zawiya Masbahiya is a significant religious landmark in Larache, dedicated to the Masbahi family. It is most famous for its association with Lalla Mennana al-Masbahiya, the city's patron saint. Local legend tells of her transformation into a white dove upon her death, and she remains a central figure in Larache's spiritual identity. The site is a focal point for the city's annual Moussem, celebrating her piety and legacy.",
+    "location": {
+      "longitude": -6.151579320430756,
+      "latitude": 35.19841276399929,
+      "altitude": 17,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Rise of Masbahi Family",
+        "date": "1550-01-01",
+        "description": "The Masbahi family gains prominence in the region for their resistance against foreign occupation."
+      },
+      {
+        "title": "Legacy of Lalla Mennana",
+        "date": "1600-01-01",
+        "description": "Life and death of Lalla Mennana, establishing the site's spiritual importance."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5158918848546344754",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing",
+      "religion/pilgrimage"
+    ],
+    "items": [
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Public Prayer Access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Saadian",
+      "Alouite",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

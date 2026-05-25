@@ -1,0 +1,45 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tuesday Souk Amezri",
+    "id": "tuesday-souk-amezri",
+    "description": "Weekly souk of Amezri. It happens every tuesday",
+    "location": {
+      "longitude": -6.6245949268341064,
+      "latitude": 31.450330045928748,
+      "altitude": 2288,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17788351302506139970",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/shopping"
+    ],
+    "items": [
+      "cuisine/street-food",
+      "food/local-produce",
+      "food/spices",
+      "food/traditional-sweets"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

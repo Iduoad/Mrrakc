@@ -1,0 +1,45 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Amezri Old Mosque",
+    "id": "amezri-old-mosque",
+    "description": "The old mosque of Douar Amezri, aka the great mosque of Amezri.",
+    "location": {
+      "longitude": -6.625372767448425,
+      "latitude": 31.44975800088245,
+      "altitude": 2285,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1126585885791381333",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "religion/worship",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/islamic-art",
+      "architecture/monuments"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

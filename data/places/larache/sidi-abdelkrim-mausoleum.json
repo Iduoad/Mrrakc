@@ -1,0 +1,75 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "larache",
+      "mausoleum",
+      "sufi",
+      "historic"
+    ]
+  },
+  "spec": {
+    "name": "Sidi Abdelkrim Mausoleum",
+    "id": "sidi-abdelkrim-mausoleum",
+    "description": "The Sidi Abdelkrim Mausoleum is the final resting place of Sidi Abdelkrim Hashkouri Sahrawi, a respected Sufi figure who settled in Larache in the mid-19th century. Built by order of Pasha Ali Ben Mohamed Aztout, the structure is a notable example of Moroccan funerary architecture, characterized by its square plan, decorated dome (koubba), and a distinctive small minaret. It is located in the old medina, adjacent to the Anwar Mosque.",
+    "location": {
+      "longitude": -6.149170696735382,
+      "latitude": 35.19639190272521,
+      "altitude": 34,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/sidi-abdelkrim-hashkouri-sahrawi",
+        "relationship": [
+          "saint"
+        ]
+      },
+      {
+        "id": "people/pasha-ali-ben-mohamed-aztout",
+        "relationship": [
+          "founder"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Arrival in Larache",
+        "date": "1852-01-01",
+        "description": "Sidi Abdelkrim Hashkouri Sahrawi moves to Larache during the reign of Sultan Moulay Abderrahman."
+      },
+      {
+        "title": "Construction",
+        "date": "1880-01-01",
+        "description": "Construction of the mausoleum by Pasha Ali Ben Mohamed Aztout to honor the saint."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9824959073918330542",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/pilgrimage",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/monuments",
+      "architecture/traditional-decor"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The mausoleum is part of a historic religious cluster in the old medina."
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": [
+      "larache",
+      "food",
+      "breakfast"
+    ]
+  },
+  "spec": {
+    "name": "Mohammed Rubio Breakfast",
+    "id": "mohammed-rubio-breakfast",
+    "description": "A legendary breakfast spot associated with Mohammed Rubio, a local checkers champion and personality. It offers a quintessential Larache experience featuring fresh Bissara, Atlantic fish, and traditional mountain cheese.",
+    "location": {
+      "longitude": -6.151783,
+      "latitude": 35.1975997,
+      "altitude": 32,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Cultural Landmark",
+        "date": "2015-01-01",
+        "description": "Became widely recognized as a cultural and culinary landmark through the personality of Mohammed Rubio."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15244286908379734730",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/dining",
+      "leisure/socializing"
+    ],
+    "items": [
+      "cuisine/moroccan",
+      "cuisine/street-food",
+      "cuisine/seafood"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Breakfast service",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -3,14 +3,17 @@
   "kind": "nature/mountain",
   "metadata": {
     "tags": [
-      "Moulay Abdeslam",
-      "Rif"
+      "larache",
+      "beni-arous",
+      "moulay-abdeslam",
+      "rif",
+      "mountain"
     ]
   },
   "spec": {
     "name": "Mount El Kachla",
     "id": "mount-el-kachla",
-    "description": "No description available",
+    "description": "Mount El Kachla, also known as Jebel El Qashla, is a prominent peak in the western Rif Mountains, located in the Beni Arous region near the spiritual village of Moulay Abdeslam Ben Mchich. Rising to an altitude of 1,640 meters, the mountain's name, meaning 'the barracks,' likely refers to historical military posts or lookouts situated on its heights. The area is characterized by lush forests of oak and pine and offers panoramic views of the Jbala region. It holds significant spiritual importance due to its proximity to the shrine of Moulay Abdeslam Ben Mchich, a major pilgrimage site for the Chadhiliyya Sufi order.",
     "location": {
       "longitude": -5.49815361589767,
       "latitude": 35.2499205236445,
@@ -18,16 +21,36 @@
       "province": "province/larache"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Spiritual Influence",
+        "date": "1101-01-01",
+        "description": "Life of Moulay Abdeslam Ben Mchich, whose spiritual influence defined the surrounding Jbel Alam and Beni Arous region."
+      },
+      {
+        "title": "Military Use",
+        "date": "1912-01-01",
+        "description": "During the Spanish Protectorate, the mountain likely served as a strategic military lookout, giving rise to its name 'Qashla' (barracks)."
+      }
+    ],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "sports/hiking",
+      "culture/sightseeing",
+      "leisure/photography"
+    ],
+    "items": [
+      "nature/scenic-views"
+    ],
     "access": {
       "type": "public",
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Medieval",
+      "Modern"
+    ],
     "comments": []
   }
 }
