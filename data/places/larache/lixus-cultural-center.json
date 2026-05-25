@@ -1,0 +1,58 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/cultural-center",
+  "metadata": {
+    "tags": [
+      "larache",
+      "culture"
+    ]
+  },
+  "spec": {
+    "name": "Lixus Cultural Center",
+    "id": "lixus-cultural-center",
+    "description": "A contemporary cultural hub in Larache dedicated to arts, literature, and regional history. It hosts workshops, exhibitions, and multilingual events that bridge the town's modern identity with its deep historical roots at the nearby Lixus site.",
+    "location": {
+      "longitude": -6.149076819419861,
+      "latitude": 35.19929824485497,
+      "altitude": 7,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "2010-01-01",
+        "description": "Inaugurated as a center for contemporary cultural exchange and education in Larache."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=12720818014073844364",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://artmap.ma/page/centre-culturel-lixus/",
+        "title": "ArtMap page for the center",
+        "type": "website"
+      }
+    ],
+    "activities": [
+      "culture/workshop",
+      "culture/reading",
+      "culture/event-attendance"
+    ],
+    "items": [
+      "amenities/seating-areas"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

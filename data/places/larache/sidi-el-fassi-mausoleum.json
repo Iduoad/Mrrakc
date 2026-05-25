@@ -1,0 +1,75 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mausoleum",
+      "sufi",
+      "scholar",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Sidi El Fassi Mausoleum",
+    "id": "sidi-el-fassi-mausoleum",
+    "description": "This mausoleum is dedicated to Sidi Ahmed El Fassi (Abu al-Abbas Ahmed Ibn Abi al-Mahasin Al Fassi), a highly revered Sufi ascetic and teacher from the prominent Al Fassi family of Ksar el-Kebir. Born in 1612, he was celebrated for his profound piety, his dedication to feeding the poor, and his scholarly works, including a biography of his father who died resisting colonial concessions in Larache. His shrine remains a center of spiritual devotion in the Qattanin neighborhood.",
+    "location": {
+      "longitude": -5.907525540964935,
+      "latitude": 34.992691123385946,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/sidi-ahmed-el-fassi",
+        "relationship": [
+          "saint"
+        ]
+      },
+      {
+        "id": "people/abu-al-mahasin-yusuf-al-fasi",
+        "relationship": [
+          "relative"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Birth",
+        "date": "1612-01-01",
+        "description": "Sidi Ahmed El Fassi is born in Ksar el-Kebir shortly after the death of his father."
+      },
+      {
+        "title": "Celebrated Sufi",
+        "date": "1650-01-01",
+        "description": "Ahmed El Fassi becomes a celebrated Sufi master and philanthropist in the city."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17299927904767051792",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "utility/studying"
+    ],
+    "items": [
+      "architecture/traditional-decor"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The Al Fassi family is one of the most respected intellectual and spiritual lineages in the city."
+    ]
+  }
+}

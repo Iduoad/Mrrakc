@@ -1,0 +1,53 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": [
+      "juice",
+      "street-food"
+    ]
+  },
+  "spec": {
+    "name": "El Allali Juice",
+    "id": "el-allali-juice",
+    "description": "Creative juice shop offering multiple detoxx juice variation based on healthy ingredient like Spinash, beats, green apples, celery, carrots and sugar cane juice.",
+    "location": {
+      "longitude": -6.8223461508750916,
+      "latitude": 34.03600407482076,
+      "altitude": 13,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=11928426157469075087",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [
+      "cuisine/street-food"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Juice cup price",
+          "modality": "consumption",
+          "audience": "all",
+          "entranceFee": 15
+        }
+      ]
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "El Allali is a very nice person, always smilling.",
+      "Although the quatity is very good, they often offer you free refills called \"Daam\"."
+    ]
+  }
+}

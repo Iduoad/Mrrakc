@@ -1,0 +1,66 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": [
+      "moroccan-food",
+      "good-prices",
+      "ngo",
+      "association"
+    ]
+  },
+  "spec": {
+    "name": "CIAT Dalia Restaurant",
+    "id": "ciat-dalia-restaurant",
+    "description": "A solidarity-based restaurant run by the Centre d'Inclusion et d'Aide par le Travail (CIAT), dedicated to helping people with disabilities integrate into society. The restaurant is based at the old Riad Dalia.",
+    "location": {
+      "longitude": -6.8220055103302,
+      "latitude": 34.038515698928855,
+      "altitude": 19,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2693312274028495183",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://www.instagram.com/riaddalia.ciat/",
+        "title": "Restaurant's Instagram page",
+        "type": "social"
+      },
+      {
+        "url": "https://www.instagram.com/ciat_de_sale/",
+        "title": "CIAT Sale instagram page",
+        "type": "social"
+      }
+    ],
+    "activities": [
+      "leisure/relaxing",
+      "leisure/socializing",
+      "culture/sightseeing",
+      "utility/dining",
+      "culture/event-attendance"
+    ],
+    "items": [
+      "cuisine/moroccan",
+      "food/local-produce",
+      "architecture/mosaics",
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "Very beautiful vibe, and very good prices."
+    ]
+  }
+}

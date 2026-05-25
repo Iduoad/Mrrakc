@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/gate",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Bab Bhar",
+    "id": "bab-bhar",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.1495596170425415,
+      "latitude": 35.198342626489236,
+      "altitude": 8,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15151128406344988982",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": [
+      "larache",
+      "medina",
+      "souk"
+    ]
+  },
+  "spec": {
+    "name": "The Small Souk",
+    "id": "the-small-souk",
+    "description": "The Petit Souk, also known as Zoco Chico or Souk Esseghir, is a historic rectangular plaza at the heart of Larache's medina. Characterized by its elegant porticoes and white-and-blue arcades, it serves as a bridge between the city's Moroccan heritage and its colonial past. The square is a bustling center for traditional markets and social life, anchored by the presence of the Great Mosque.",
+    "location": {
+      "longitude": -6.151249408721924,
+      "latitude": 35.19720617120589,
+      "altitude": 30,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Origins",
+        "date": "1650-01-01",
+        "description": "Earliest origins of the rectangular plaza layout in the medina."
+      },
+      {
+        "title": "Alouite Revitalization",
+        "date": "1780-01-01",
+        "description": "Sultan Sidi Mohammed ben Abdallah revitalizes the square and commissions the adjacent Great Mosque."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=18391098520527493461",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/shopping",
+      "culture/sightseeing",
+      "utility/dining"
+    ],
+    "items": [
+      "architecture/traditional-decor",
+      "shopping/handicrafts"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Public Market Access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Saadian",
+      "Alouite",
+      "Protectorate",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

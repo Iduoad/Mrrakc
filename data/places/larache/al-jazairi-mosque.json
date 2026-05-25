@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Al Jazairi Mosque",
+    "id": "al-jazairi-mosque",
+    "description": "A small, currently inactive mosque is undergoing renovation. Its name suggests a connection to an Algerian individual, a hypothesis supported by online records indicating that a man named El Haj El Ouahrani (meaning \"from Oran\") once resided nearby.",
+    "location": {
+      "longitude": -5.904236733913422,
+      "latitude": 34.997273271678445,
+      "altitude": 19,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=264870040150789519",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "under_renovation",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "leisure/hammam",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Hammam Sidi Mimoun",
+    "id": "hammam-sidi-mimoun",
+    "description": "No description available.",
+    "location": {
+      "longitude": -5.908190310001373,
+      "latitude": 34.99203715224727,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2975091297534581041",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

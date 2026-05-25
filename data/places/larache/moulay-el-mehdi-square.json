@@ -1,0 +1,64 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "square",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Moulay El Mehdi Square",
+    "id": "moulay-el-mehdi-square",
+    "description": "The principal square of the Spanish Ensanche in Ksar El Kebir, designed in the 1920s as a transition between the old medina and the new city. It is surrounded by notable architecture blending European and traditional Moroccan elements.",
+    "location": {
+      "longitude": -5.907905995845795,
+      "latitude": 34.99570005404595,
+      "altitude": 17,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Urban Design",
+        "date": "1923-01-01",
+        "description": "The square's layout was designed by Spanish consul Isidro de las Cagigas as part of the city's expansion."
+      },
+      {
+        "title": "Building Construction",
+        "date": "1932-01-01",
+        "description": "A prominent reinforced concrete building was constructed, reflecting modern colonial styles."
+      },
+      {
+        "title": "Fernando Chueca Goitia Project",
+        "date": "1953-01-01",
+        "description": "Completion of the triangular building with semicircular arches designed by the renowned Spanish architect."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8423310360230460839",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/sightseeing",
+      "utility/shopping"
+    ],
+    "items": [
+      "architecture/monuments",
+      "amenities/seating-areas"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

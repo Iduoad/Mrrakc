@@ -1,0 +1,69 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "medina",
+      "mosque",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Zellij Mosque",
+    "id": "zellij-mosque",
+    "description": "The Zellij Mosque (Masjid al-Zellij) is an ancient place of worship located in the Hay al-Diwan neighborhood, one of the oldest districts in the medina of Ksar el-Kebir. The mosque is historically noted for its decorative traditional Moroccan tilework (zellij), from which it derives its name. It stands as a significant landmark of the city's spiritual and architectural heritage.",
+    "location": {
+      "longitude": -5.906036,
+      "latitude": 34.994054,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1400-01-01",
+        "description": "Construction of the mosque in the historic Hay al-Diwan district."
+      },
+      {
+        "title": "Closure for Restoration",
+        "date": "2010-01-01",
+        "description": "The mosque is closed for safety reasons and structural concerns, leading to a period of planned restoration."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=14774760905201911109",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/mosaics",
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "temporarily_closed",
+      "type": "public",
+      "options": [
+        {
+          "title": "Public Prayer Access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Marinid",
+      "Alouite",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

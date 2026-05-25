@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/cultural-center",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "City Cultural Center",
+    "id": "city-cultural-center",
+    "description": "No description available",
+    "location": {
+      "longitude": -5.906167924404144,
+      "latitude": 34.995561627024564,
+      "altitude": 18,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=4825846255088051847",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

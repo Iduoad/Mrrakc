@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Ain Abid Park",
+    "id": "ain-abid-park",
+    "description": "No description available.",
+    "location": {
+      "longitude": -5.989179611206055,
+      "latitude": 35.02142144204034,
+      "altitude": 16,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7156092149289155681",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

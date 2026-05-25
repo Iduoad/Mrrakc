@@ -1,0 +1,68 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": [
+      "larache",
+      "medina",
+      "naciria"
+    ]
+  },
+  "spec": {
+    "name": "Zaouiya Ennaciria",
+    "id": "zaouiya-ennaciria",
+    "description": "The Zaouiya Ennaciria in Larache is a branch of the influential Naciria Sufi brotherhood, originally founded in Tamegroute. Located in the Bab al-Bahr neighborhood of the old medina, it historically served as a center for spiritual guidance, Quranic education, and social welfare. During the Spanish protectorate, it played a vital role in preserving Moroccan cultural and religious identity by continuing the teaching of Arabic and Islamic sciences.",
+    "location": {
+      "longitude": -6.150144338607788,
+      "latitude": 35.19805769223185,
+      "altitude": 9,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1675-01-01",
+        "description": "Establishment of the Naciria presence in Larache as part of the brotherhood's nationwide expansion."
+      },
+      {
+        "title": "Spanish Protectorate Era",
+        "date": "1912-01-01",
+        "description": "Begins serving as a cultural resistance center during the Spanish Protectorate era."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=629172240324111688",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing",
+      "utility/studying"
+    ],
+    "items": [
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Public Prayer Access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Alouite",
+      "Protectorate",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

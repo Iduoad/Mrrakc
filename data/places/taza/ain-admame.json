@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Ain Admame",
+    "id": "ain-admame",
+    "description": "Ain Admame is the main source of the Admam village",
+    "location": {
+      "longitude": -4.149270057678223,
+      "latitude": 34.05244608293711,
+      "altitude": 1447,
+      "province": "province/taza"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=11266160557240139163",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "nature/picnicking"
+    ],
+    "items": [
+      "nature/water-features"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

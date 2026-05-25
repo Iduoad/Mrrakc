@@ -1,29 +1,65 @@
 {
   "version": "mrrakc/v0",
-  "kind": "religion/mosque",
+  "kind": "religion/mausoleum",
   "metadata": {
     "tags": []
   },
   "spec": {
     "name": "Sidi Moul Goumri Mausoleum",
     "id": "sidi-moul-goumri-mausoleum",
-    "description": "No description available.",
+    "description": "Sidi Mohammed El Mofaddal Ibn Mohammed El Hafni aka Moul El  Goumri is one of the most popular saints of Salé.\n\nBeing a descendant of Sidi Bouaaibid Cherki of Bejaad, his mausoleum is also home of Zaouiya Cherkaouia in Salé",
     "location": {
-      "longitude": -6.8272331,
-      "latitude": 34.0412895,
+      "longitude": -6.827175,
+      "latitude": 34.041295,
+      "altitude": 19,
       "province": "province/sale"
     },
     "people": [],
-    "timeline": [],
-    "links": [],
-    "activities": [],
-    "items": [],
+    "timeline": [
+      {
+        "title": "Founding of Zaouiya Cherkaouia",
+        "date": "1559-01-01",
+        "description": "Sidi Bouabid Cherki (Moul Goumri's great grandfather) founded the city of Bejaad and the Zaouiya Cherkaouia."
+      },
+      {
+        "title": "Birth of Moul El Goumri",
+        "date": "1600-01-01",
+        "description": "Sidi Moul El Goumri was born and lived during the 17th century (10th century of Hijrah)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7172229579597454620",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://www.facebook.com/Hamzakettanihomepage/posts/%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%AD-%D8%A3%D8%AB%D9%86%D8%A7%D8%A1-%D8%B2%D9%8A%D8%A7%D8%B1%D8%AA%D9%8A-%D9%84%D9%84%D8%B2%D8%A7%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D8%A7%D9%88%D9%8A%D8%A9-%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B3%D9%84%D8%A7-%D8%A7%D9%84%D8%B4%D9%87%D9%8A%D8%B1%D8%A9-%D8%A8%D8%B6%D8%B1%D9%8A%D8%AD-%D8%B3%D9%8A%D8%AF%D9%8A-%D9%85%D9%88%D9%84-%D8%A7%D9%84%D9%82%D9%85/825668519563298/",
+        "title": "Facebook post by Dr. Hamza Ben Ali Kettani",
+        "type": "social"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=yV9SeW5DZC4",
+        "title": "Video about Sale saints, includes a passage about Moul Goumri",
+        "type": "video"
+      }
+    ],
+    "activities": [
+      "culture/guided-tour"
+    ],
+    "items": [
+      "architecture/monuments"
+    ],
     "access": {
-      "type": "public",
       "status": "open",
+      "type": "restricted",
       "options": []
     },
-    "timePeriods": [],
-    "comments": []
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "Moul Goumri lives on in the collective memory of the Slaoui people as a symbol of defending the oppressed. Even after his death, those who suffer ظلم (injustice) come to his mausoleum, bringing roasted wheat which they scatter for the birds, and pray to Allah to grant them justice and avenge their suffering."
+    ]
   }
 }

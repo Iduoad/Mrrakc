@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Al Hamra Mosque",
+    "id": "al-hamra-mosque",
+    "description": "El Hamrah mosque is a relatively small compared to the other big mosques, it is close to the Bedouia Zaouiya. I could find anything online about it. It may be built by someone from the zaouiya due the proximity to it.",
+    "location": {
+      "longitude": -5.904692709445953,
+      "latitude": 34.99671298115668,
+      "altitude": 22,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=10976631308516497487",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Las Hespérides Garden",
+    "id": "las-hesprides-garden",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.149551570415497,
+      "latitude": 35.194888279179864,
+      "altitude": 36,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16870158319912879725",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

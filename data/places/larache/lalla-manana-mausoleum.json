@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Lalla Manana Mausoleum",
+    "id": "lalla-manana-mausoleum",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.148545742034912,
+      "latitude": 35.1932048891878,
+      "altitude": 45,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5086551162745372619",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

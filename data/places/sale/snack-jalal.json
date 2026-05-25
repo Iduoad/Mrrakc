@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Snack Jalal",
+    "id": "snack-jalal",
+    "description": "Street food restaurant specialized in seafood, paeala and Hourgma (aka Kouraine).",
+    "location": {
+      "longitude": -6.814319299999999,
+      "latitude": 34.0548533,
+      "altitude": 20,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13875865255737371423",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/eating"
+    ],
+    "items": [
+      "cuisine/moroccan",
+      "cuisine/seafood",
+      "cuisine/street-food",
+      "food/tea"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The restaurant offers at least the following - Hourgma (aka Kouraain): Cow feet cooked with chickpeas. - Bouzroug: Mussels tagine cooked with tomato sauce and spices. - Paella: Paella with shrimps and vegetables. - Sardice Balls - Mqila: Fish and shrimp pans. - Optional composed Salad."
+    ]
+  }
+}

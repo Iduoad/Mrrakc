@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Liberation Square",
+    "id": "liberation-square",
+    "description": "You are standing in Liberation Square, once the “living room” of Spanish Larache. Its elliptical shape follows the line of the old ramparts and links the medina to the new Spanish quarter, the Ensanche. Arcades guide you naturally toward Bab el Medina, the main gate of the old town. Around the square, early twentieth-century façades mix neo-Arab, rationalist, and almost Art Deco details. Since Independence in 1956, names and uses have changed, but the city still converges here.🔎 You can visit this place on this tour",
+    "location": {
+      "longitude": -6.152198910713196,
+      "latitude": 35.19711521025974,
+      "altitude": 30,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15427012781120224517",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

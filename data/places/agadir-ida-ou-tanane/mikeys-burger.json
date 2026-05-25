@@ -1,0 +1,49 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mikey's Burger",
+    "id": "mikeys-burger",
+    "description": "Burger restaurant in Hassan II street in Agadir. They offer multiple types of burgers.",
+    "location": {
+      "longitude": -9.597112834453583,
+      "latitude": 30.41823459316689,
+      "altitude": 23,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=11482969936870698186",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://x.com/sefarjaaal/status/2046342636315836423",
+        "title": "Recommendation from an X user",
+        "type": "social"
+      }
+    ],
+    "activities": [
+      "utility/dining"
+    ],
+    "items": [
+      "cuisine/american",
+      "cuisine/street-food",
+      "food/juice"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/jewish-site",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Jewish cemetery",
+    "id": "jewish-cemetery",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.14709734916687,
+      "latitude": 35.19533542378316,
+      "altitude": 11,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5827649726834875433",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

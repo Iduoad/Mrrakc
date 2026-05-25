@@ -1,0 +1,63 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "market",
+      "souk",
+      "commerce",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Souk Sebta",
+    "id": "souk-sebta",
+    "description": "Souk Sebta (also known as Kissariat Souk Sebta) is a major commercial center in the heart of Ksar el-Kebir. Historically known as the 'Grain Market,' it has evolved into a bustling modern marketplace specializing in textiles, electronics, and cosmetics. It is considered the city's second most important market after the Central Market, serving as a primary shopping destination for both locals and visitors from surrounding provinces.",
+    "location": {
+      "longitude": -5.9025925397872925,
+      "latitude": 34.995082623778586,
+      "altitude": 19,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Grain Market",
+        "date": "1800-01-01",
+        "description": "Operation as the city's primary market for grain and cereals."
+      },
+      {
+        "title": "Modern Kissaria",
+        "date": "1950-01-01",
+        "description": "Conversion into a permanent 'Kissaria' (covered market) with hundreds of specialized shops."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3182256997250442477",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/shopping",
+      "leisure/socializing"
+    ],
+    "items": [
+      "shopping/clothing",
+      "shopping/handicrafts"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The market includes its own mosque for the convenience of traders and shoppers."
+    ]
+  }
+}

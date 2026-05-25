@@ -1,0 +1,69 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mausoleum",
+      "seven-saints",
+      "folklore",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Sidi El Khatib Mausoleum",
+    "id": "sidi-el-khatib-mausoleum",
+    "description": "The Sidi El Khatib Mausoleum is a highly significant historical and spiritual site in Ksar el-Kebir. The saint's name likely refers to his role as the orator (Khatib) of the city's Great Mosque. The shrine is central to the local 'Seven Saints' tradition of Ksar el-Kebir. While little is documented about his life, local legends link him and the other six saints either to mujahidin who fought in Al-Andalus or to martyrs who fell during the Battle of Oued el-Makhazin.",
+    "location": {
+      "longitude": -5.9074862,
+      "latitude": 34.9931553,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/sidi-el-khatib",
+        "relationship": [
+          "saint"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Battle of the Three Kings",
+        "date": "1578-08-04",
+        "description": "Association with the Battle of Oued el-Makhazin according to one local tradition."
+      },
+      {
+        "title": "Establishment",
+        "date": "1800-01-01",
+        "description": "Establishment of the shrine as part of the city's 'Seven Saints' heptad."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1279913919657684310",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/pilgrimage",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/traditional-decor"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The 'Seven Saints' of Ksar el-Kebir are a cornerstone of the city's identity, though their individual identities remain mysterious."
+    ]
+  }
+}

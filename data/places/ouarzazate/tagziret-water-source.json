@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/water-source",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Tagziret Water Source",
+    "id": "tagziret-water-source",
+    "description": "Tagziret water source.",
+    "location": {
+      "longitude": -6.614434719085693,
+      "latitude": 31.454768996759555,
+      "altitude": 2267,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17875482702727677554",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "sports/hiking"
+    ],
+    "items": [
+      "nature/scenic-views",
+      "nature/gardens"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

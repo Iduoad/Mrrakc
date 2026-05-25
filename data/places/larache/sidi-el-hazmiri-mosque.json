@@ -1,0 +1,69 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mosque",
+      "medina",
+      "historic",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Sidi El Hazmiri Mosque",
+    "id": "sidi-el-hazmiri-mosque",
+    "description": "The Sidi El Hazmiri Mosque is one of the largest and most significant places of worship in the medina of Ksar el-Kebir. It was originally established as a Zaouiya (Sufi lodge) for the saint Abu Zaid El Hazmiri before being converted into a mosque in the 14th century. The mosque is known for its spacious prayer hall and its role as a major religious landmark in the city's historic center.",
+    "location": {
+      "longitude": -5.906674861907959,
+      "latitude": 34.99457285577688,
+      "altitude": 20,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/abu-zaid-el-hazmiri",
+        "relationship": [
+          "founder"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Conversion",
+        "date": "1301-01-01",
+        "description": "Conversion of the original Zaouiya into a public mosque."
+      },
+      {
+        "title": "Renovation",
+        "date": "2010-01-01",
+        "description": "Extensive renovation and reopening of the mosque for daily prayers."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9557697914505349967",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The mosque is a central landmark in the medina's layout."
+    ]
+  }
+}

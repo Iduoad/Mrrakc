@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Al Kabibat Fort",
+    "id": "al-kabibat-fort",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.1525958776474,
+      "latitude": 35.1994166004756,
+      "altitude": 10,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17436740734247778326",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

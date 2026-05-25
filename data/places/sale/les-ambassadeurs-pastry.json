@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/bakery",
+  "metadata": {
+    "tags": [
+      "pastry",
+      "cafe"
+    ]
+  },
+  "spec": {
+    "name": "Les Ambassadeurs Pastry",
+    "id": "les-ambassadeurs-pastry",
+    "description": "Slaoui pastry shop offering various pastry and sweets choices including Moroccan sweets, cake and French pastries.",
+    "location": {
+      "longitude": -6.8231213092803955,
+      "latitude": 34.03542061167349,
+      "altitude": 11,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13451909574511170624",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/eating"
+    ],
+    "items": [
+      "food/pastries",
+      "food/traditional-sweets",
+      "food/tea"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

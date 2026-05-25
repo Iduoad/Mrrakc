@@ -1,0 +1,75 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mosque",
+      "medina",
+      "Roman-origin",
+      "archaeology",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Great Mosque of Ksar el-Kebir",
+    "id": "great-mosque-ksar-el-kebir",
+    "description": "The Great Mosque of Ksar el-Kebir is one of Morocco's oldest and most significant religious structures. Located in the historic El Oued neighborhood, it was built using large stones of Roman origin, some featuring Latin and Amazigh inscriptions. Local tradition and archaeological evidence suggest the site was originally a church in the late Roman era before becoming a mosque during the Idrissid period. A unique feature of the mosque is its ancient underground basin designed to collect and store water.",
+    "location": {
+      "longitude": -5.907672643661499,
+      "latitude": 34.991886633579945,
+      "altitude": 22,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Roman Inscriptions",
+        "date": "0291-01-01",
+        "description": "Approximate date of the Roman inscriptions found within the mosque's structure."
+      },
+      {
+        "title": "Idrissid Foundation",
+        "date": "0801-01-01",
+        "description": "Established as a Great Mosque during the Idrissid dynasty."
+      },
+      {
+        "title": "Restoration",
+        "date": "1950-01-01",
+        "description": "Various restoration projects aimed at preserving the mosque's Roman and Islamic layers."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5189946547108762562",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://zamane.ma/patrimoine-des-inscriptions-latines-sur-la-mosquee-de-ksar-el-kebir-zamane/",
+        "title": "Roman inscriptions found in the Great mosque of Ksar El Kebir",
+        "type": "article"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/ruins",
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "Old rocks from the Roman era are still visible in the mosque's small garden.",
+      "The mosque has a unique underground basin to collect water."
+    ]
+  }
+}

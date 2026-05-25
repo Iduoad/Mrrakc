@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/tannery",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Ksar El Kebir Tannery",
+    "id": "ksar-el-kebir-tannery",
+    "description": "No Information available",
+    "location": {
+      "longitude": -5.90827614068985,
+      "latitude": 34.99065720432063,
+      "altitude": 18,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1219036174443062955",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

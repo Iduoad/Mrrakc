@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Kasbah neighbourhood",
+    "id": "kasbah-neighbourhood",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.150081306695938,
+      "latitude": 35.19657711390432,
+      "altitude": 35,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1488040619562694546",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "zaouiya",
+      "sufism",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Zaouïa Mjoueliya",
+    "id": "zaoua-mjoueliya",
+    "description": "Zaouïa Mjoueliya is a historic religious and spiritual institution in Ksar el-Kebir, established during the 17th and 18th centuries. As part of the city's rich Sufi heritage, it traditionally served as a center for prayer, Quranic education, and a sanctuary for travelers and the needy, contributing to the city's reputation as a land of saints and scholars.",
+    "location": {
+      "longitude": -5.903721749782562,
+      "latitude": 34.99849271425966,
+      "altitude": 24,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1700-01-01",
+        "description": "Emergence of the Zaouïa Mjoueliya as a spiritual center in Ksar el-Kebir."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=14828238982023080441",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Public Prayer Access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Alouite",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

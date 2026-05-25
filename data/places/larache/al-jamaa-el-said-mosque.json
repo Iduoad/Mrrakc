@@ -1,0 +1,46 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Al Jamaa El Said Mosque",
+    "id": "al-jamaa-el-said-mosque",
+    "description": "Beautiful mosque from the Alouite era, built during Moulay Ismail's reign after he reclaimed Larache and Ksar El Kbir back from the Spanish.\n\nSince its inception, It competed with the old grande mosque for the spotlight.",
+    "location": {
+      "longitude": -5.904732942581177,
+      "latitude": 34.99860037588484,
+      "altitude": 19,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Construction",
+        "date": "1684-01-01",
+        "description": "Built during the reign of Sultan Moulay Ismail after the liberation of the city."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=6013431423388732664",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Alouite Era"
+    ],
+    "comments": []
+  }
+}

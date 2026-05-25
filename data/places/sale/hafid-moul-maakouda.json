@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": [
+      "maakouda",
+      "street-food"
+    ]
+  },
+  "spec": {
+    "name": "Hafid moul Maakouda",
+    "id": "hafid-moul-maakouda",
+    "description": "One of the most popular Maakouda (Mashed Potatoes snack) sandwich shops, managed by the kind Slaoui Hafid.",
+    "location": {
+      "longitude": -6.824812696163707,
+      "latitude": 34.038069376215596,
+      "altitude": 19,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [
+      "utility/eating"
+    ],
+    "items": [
+      "cuisine/street-food"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

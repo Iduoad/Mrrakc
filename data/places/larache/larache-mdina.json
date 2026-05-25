@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "metadata": {
+    "tags": [
+      "medina",
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Larache Mdina",
+    "id": "larache-mdina",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.151552498340607,
+      "latitude": 35.19735850316473,
+      "altitude": 30,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15018439827352603741",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

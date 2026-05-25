@@ -1,0 +1,70 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/workshop",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "workshop",
+      "Saadian",
+      "weaving",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "The Grande Draz",
+    "id": "the-grande-draz",
+    "description": "The Great Daraz (al-Daraz al-Kabir) is a historic weaving workshop from the Saadian era located in the Qattanin (cotton workers) neighborhood of Ksar el-Kebir. It was established by the prominent scholar Abu al-Mahasin Yusuf al-Fasi, who endowed its revenues to support religious scholarship at the nearby Great Mosque. The facility once housed numerous looms for traditional woolen textiles and remains a significant witness to the city's industrial and charitable history.",
+    "location": {
+      "longitude": -5.907683372497559,
+      "latitude": 34.99239531964197,
+      "altitude": 21,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/abu-al-mahasin-yusuf-al-fasi",
+        "relationship": [
+          "founder"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Waqf Endowment",
+        "date": "1591-01-01",
+        "description": "Abu al-Mahasin Yusuf al-Fasi endows the workshop's income to fund chairs of Quranic exegesis (Tafsir) and Hadith."
+      },
+      {
+        "title": "Restoration",
+        "date": "2001-01-01",
+        "description": "The site is restored through a joint effort between local authorities and the Regional Government of Andalusia."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3969227196015677610",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "culture/workshop",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "shopping/handicrafts",
+      "architecture/traditional-decor"
+    ],
+    "access": {
+      "status": "closed",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The site covers approximately 351 square meters and features a traditional central courtyard."
+    ]
+  }
+}

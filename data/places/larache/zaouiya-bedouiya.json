@@ -1,0 +1,63 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/zaouiya",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "zaouiya",
+      "kadiriya",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Zaouiya Bedouiya",
+    "id": "zaouiya-bedouiya",
+    "description": "The Zaouiya Bedouiya is one of the important spiritual centers in Ksar el-Kebir following the Kadiriya Sufi method. Located in the old medina near the Al Hamra mosque, it shares architectural similarities with other local religious sites, such as its distinctive traditional door. It serves as a space for prayer and spiritual gathering for the local community.",
+    "location": {
+      "longitude": -5.904443264007568,
+      "latitude": 34.996616303188404,
+      "altitude": 19,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [
+      {
+        "title": "Establishment",
+        "date": "1650-01-01",
+        "description": "Establishment of the Zaouiya following the expansion of the Kadiriya order in the region."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16186488279423766855",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/islamic-art"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": [
+        {
+          "title": "Public Prayer Access",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "timePeriods": [
+      "Saadian",
+      "Alouite",
+      "Modern"
+    ],
+    "comments": []
+  }
+}

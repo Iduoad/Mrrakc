@@ -2,34 +2,59 @@
   "version": "mrrakc/v0",
   "kind": "nature/lake",
   "metadata": {
-    "tags": []
+    "tags": [
+      "larache",
+      "lake",
+      "nature",
+      "ramsar",
+      "ksar el-kebir"
+    ]
   },
   "spec": {
     "name": "Merja Wlad Skher Lake",
     "id": "merja-wlad-skher-lake",
-    "description": "No description available.",
+    "description": "A freshwater lake and bird sanctuary on the Rmel Plateau. It is an internationally recognized wetland (Ramsar site) that supports rare species like the Marsh Owl and serves as a key stopover for birds on the East Atlantic Flyway.",
     "location": {
       "longitude": -6.2027699,
       "latitude": 35.0472189,
       "province": "province/larache"
     },
     "people": [],
-    "timeline": [],
+    "timeline": [
+      {
+        "title": "Battle of the Three Kings",
+        "date": "1578-08-04",
+        "description": "The surrounding marshes played a strategic role in the defeat of the Portuguese army due to the difficult terrain."
+      },
+      {
+        "title": "Ramsar Inclusion",
+        "date": "2005-01-15",
+        "description": "The lake was included in the 'Marais et côte du Plateau de Rmel' Ramsar site."
+      }
+    ],
     "links": [
       {
         "url": "https://www.grepom.org/marais-cote-plateau-rmel/",
         "type": "website",
-        "title": "Link"
+        "title": "Grepom BirdLife Morocco"
       }
     ],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "nature/bird-watching",
+      "sports/hiking"
+    ],
+    "items": [
+      "nature/wildlife",
+      "nature/trails"
+    ],
     "access": {
       "type": "public",
       "status": "open",
       "options": []
     },
-    "timePeriods": [],
+    "timePeriods": [
+      "Modern"
+    ],
     "comments": []
   }
 }

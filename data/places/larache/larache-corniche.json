@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/corniche",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Larache Corniche",
+    "id": "larache-corniche",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.150246262550354,
+      "latitude": 35.198987012585086,
+      "altitude": 8,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8214462349162393698",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

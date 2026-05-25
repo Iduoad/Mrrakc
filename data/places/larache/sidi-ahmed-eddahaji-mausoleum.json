@@ -1,0 +1,69 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "mausoleum",
+      "agriculture",
+      "saint",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Sidi Ahmed Eddahaji Mausoleum",
+    "id": "sidi-ahmed-eddahaji-mausoleum",
+    "description": "The mausoleum of Sidi Ahmed Eddahaji (also known as Al-Haddaji) honors one of the celebrated seventy-five saints of Ksar el-Kebir. Associated with the Awlad Dahaj tribe, he is traditionally regarded as the patron saint of peasants and agriculturists in the region. The shrine serves as a focal point for local spiritual life, especially during the annual festival held in his honor to mark the beginning of the agricultural season.",
+    "location": {
+      "longitude": -5.907828211784363,
+      "latitude": 34.99202616549261,
+      "altitude": 22,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/sidi-ahmed-eddahaji",
+        "relationship": [
+          "saint"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Battle of Three Kings",
+        "date": "1578-08-04",
+        "description": "According to local tradition, the saint was part of the Moroccan army during the Battle of Oued el-Makhazin (Battle of the Three Kings)."
+      },
+      {
+        "title": "Annual Festival",
+        "date": "2024-01-01",
+        "description": "A traditional festival is organized by local farmers to seek blessings for the upcoming harvest."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2724351208988215081",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/pilgrimage",
+      "culture/event-attendance"
+    ],
+    "items": [
+      "architecture/monuments"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The saint is particularly revered by the agricultural communities surrounding Ksar el-Kebir."
+    ]
+  }
+}

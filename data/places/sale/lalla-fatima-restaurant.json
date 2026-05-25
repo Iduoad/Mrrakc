@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": [
+      "morocco-food",
+      "good-price"
+    ]
+  },
+  "spec": {
+    "name": "Lalla Fatima Restaurant",
+    "id": "lalla-fatima-restaurant",
+    "description": "A small restaurant close to Souk Laghzel serving various Moroccan dishes including tagines, lentilles, beans, Kouraain, ... The food is cooked and the restaurant is managed by a nice Slaoui woman Lalla Fatima.",
+    "location": {
+      "longitude": -6.8247313,
+      "latitude": 34.0381157,
+      "altitude": 19,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7118011924845855922",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/dining"
+    ],
+    "items": [
+      "cuisine/moroccan"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "Food is served with love. The service is very nice."
+    ]
+  }
+}

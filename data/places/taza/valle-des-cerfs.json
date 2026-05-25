@@ -1,0 +1,45 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/park",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Vallée des cerfs",
+    "id": "valle-des-cerfs",
+    "description": "Conservatory park for Atlas deer (aka African elk or Barbary stag). ",
+    "location": {
+      "longitude": -4.185984134674072,
+      "latitude": 34.046010120995135,
+      "altitude": 1310,
+      "province": "province/taza"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=4956370439450379462",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "nature/bird-watching",
+      "nature/picnicking"
+    ],
+    "items": [
+      "nature/wildlife",
+      "nature/scenic-views",
+      "nature/trails"
+    ],
+    "access": {
+      "status": "open",
+      "type": "restricted",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

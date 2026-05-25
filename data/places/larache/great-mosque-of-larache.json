@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mosque",
+  "metadata": {
+    "tags": [
+      "larache"
+    ]
+  },
+  "spec": {
+    "name": "Great Mosque of Larache",
+    "id": "great-mosque-of-larache",
+    "description": "In the centre of the Petit Souk stands the Great Mosque, often called Masjid Adham. Built in the late eighteenth century under Sultan Sidi Mohammed ben Abdallah, it anchored Larache’s status as a royal port. Its exterior is deliberately sober: a compact white volume, a discreet entrance, and a square minaret influenced by northern Moroccan forms. Inside, regular aisles and white arches create a bright, calm prayer hall. Attached to it, the madrasa once trained students in Islamic law, grammar, and recitation.🔎 You can visit this place on this tour",
+    "location": {
+      "longitude": -6.15071564912796,
+      "latitude": 35.197210554863396,
+      "altitude": 32,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2498448953466302375",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "service/bus-station",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Ksar El Kebir Bus Station",
+    "id": "ksar-el-kebir-bus-station",
+    "description": "No description available",
+    "location": {
+      "longitude": -5.902428925037384,
+      "latitude": 34.99680746178807,
+      "altitude": 19,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13188399612888431624",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

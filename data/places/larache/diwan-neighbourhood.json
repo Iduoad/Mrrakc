@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "metadata": {
+    "tags": [
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Diwan Neighbourhood",
+    "id": "diwan-neighbourhood",
+    "description": "No description available",
+    "location": {
+      "longitude": -5.9068237245082855,
+      "latitude": 34.99444651192339,
+      "altitude": 20,
+      "province": "province/larache"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=11782901790400963571",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

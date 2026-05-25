@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/mountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mount Ait Ouanass",
+    "id": "mount-ait-ouanass",
+    "description": "Mount Adrar Ait Ounnass.",
+    "location": {
+      "longitude": -6.615142822265625,
+      "latitude": 31.378114957146995,
+      "altitude": 2385,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=6279881161962549094",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "sports/hiking"
+    ],
+    "items": [
+      "nature/trails"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

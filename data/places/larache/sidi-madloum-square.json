@@ -1,0 +1,70 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/square",
+  "metadata": {
+    "tags": [
+      "ksar-el-kebir",
+      "square",
+      "medina",
+      "resistance",
+      "ksar el-kebir"
+    ]
+  },
+  "spec": {
+    "name": "Sidi Madloum Square",
+    "id": "sidi-madloum-square",
+    "description": "Sidi Madloum Square is a historic public space in Ksar el-Kebir named after the Sufi saint Sidi Abdullah al-Madloum. Historically, this area served as the 'Cemetery of the Martyrs of the Battle of Al-Anssora' (1913), where local mujahidin who fought against the Spanish protectorate forces were buried. Today, the square is a vibrant social hub that bridges the city's spiritual heritage with its history of national resistance.",
+    "location": {
+      "longitude": -5.904775857925415,
+      "latitude": 34.98990789164016,
+      "altitude": 18,
+      "province": "province/larache"
+    },
+    "people": [
+      {
+        "id": "people/sidi-abdullah-al-madloum",
+        "relationship": [
+          "associated"
+        ]
+      }
+    ],
+    "timeline": [
+      {
+        "title": "Battle of Al-Anssora",
+        "date": "1913-01-01",
+        "description": "The Battle of Al-Anssora takes place between local tribes and the Spanish army; the site becomes a cemetery for the fallen."
+      },
+      {
+        "title": "Urban Transformation",
+        "date": "1950-01-01",
+        "description": "The site is transformed from a cemetery into a public square during the city's urban expansion."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9244867630421113622",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "leisure/socializing",
+      "culture/sightseeing"
+    ],
+    "items": [
+      "architecture/monuments",
+      "amenities/seating-areas"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": [
+      "The square retains deep symbolic value for its association with the struggle for independence."
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/mountain",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Mount Tizoula",
+    "id": "mount-tizoula",
+    "description": "Tizoula peak (~3447m)",
+    "location": {
+      "longitude": -6.685953140258789,
+      "latitude": 31.389838694006603,
+      "altitude": 3418,
+      "province": "province/ouarzazate"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1934329008818159829",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "sports/hiking"
+    ],
+    "items": [
+      "nature/trails"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}
