@@ -30,6 +30,22 @@ const formatDate = (dateStr: string) => {
 ---
 
 <BaseLayout title={`${spec.name} - ${spec.location.province.split('/')[1]}`} description={spec.description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "name": spec.name,
+    "description": spec.description,
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": spec.location.latitude,
+      "longitude": spec.location.longitude
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": spec.location.province.split('/')[1],
+      "addressCountry": "MA"
+    }
+  })} />
   <main class="w-full max-w-6xl mx-auto px-4 pt-32 pb-20">
     <div class="mb-6">
       <a href={`/provinces/${spec.location.province.replace('province/', '')}`} class="text-sm text-terra hover:underline mb-2 inline-block">&larr; Back to {spec.location.province.replace('province/', '')}</a>

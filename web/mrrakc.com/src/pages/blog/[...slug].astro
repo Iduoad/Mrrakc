@@ -27,6 +27,18 @@ const heroImageSrc = typeof heroImage === 'string' ? heroImage : heroImage?.src;
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description} image={heroImageSrc}>
+	<script type="application/ld+json" is:inline set:html={JSON.stringify({
+	  "@context": "https://schema.org",
+	  "@type": "BlogPosting",
+	  "headline": post.data.title,
+	  "description": post.data.description,
+	  "image": heroImageSrc ? new URL(heroImageSrc, Astro.site) : undefined,
+	  "datePublished": post.data.pubDate.toISOString(),
+	  "author": {
+		"@type": "Person",
+		"name": post.data.author
+	  }
+	})} />
 	<article class="bg-sand dark:bg-[#1a1a1a] transition-colors duration-300 pb-20">
         <!-- Hero Section -->
         <div class="relative h-[60vh] w-full overflow-hidden">

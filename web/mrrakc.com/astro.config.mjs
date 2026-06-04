@@ -13,20 +13,32 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeExternalLinks from 'rehype-external-links';
 
 import react from '@astrojs/react';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://mrrakc.com',
   vite: {
     plugins: [tailwindcss()]
   },
 
-  integrations: [mdx(), react()],
+  integrations: [mdx(), react(), sitemap()],
   markdown: {
     remarkPlugins: [remarkGfm, [remarkToc, { heading: 'contents' }], remarkDirective, remarkNote, remarkReadingTime],
     rehypePlugins: [
       rehypeSlug,
       [rehypeAutolinkHeadings, { behavior: 'append' }],
-      [rehypeExternalLinks, { target: '_blank', rel: ['nofollow', 'noopener', 'noreferrer'] }]
+      [rehypeExternalLinks, { 
+        target: '_blank', 
+        rel: (el) => {
+          const href = el.properties?.href;
+          const highAuthority = ['wikipedia.org', 'unesco.org', 'visitmorocco.com', 'fnm.ma'];
+          if (typeof href === 'string' && highAuthority.some(domain => href.includes(domain))) {
+             return ['noopener', 'noreferrer'];
+          }
+          return ['nofollow', 'noopener', 'noreferrer'];
+        }
+      }]
     ],
   }
 });

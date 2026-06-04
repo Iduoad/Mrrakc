@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404: Not Found | Mrrakc" description="The page you are looking for does not exist.">
+	<section class="h-[70vh] flex items-center justify-center text-center px-4">
+        <div class="max-w-md">
+            <h1 class="text-9xl font-serif font-black text-terra/20 mb-4">404</h1>
+            <h2 class="text-3xl font-serif font-bold text-charcoal dark:text-stone-100 mb-6">Page Not Found</h2>
+            <p class="text-charcoal-light dark:text-stone-400 mb-10 text-lg">
+                It seems you've wandered off the map. The page you're looking for has moved or vanished into the dunes.
+            </p>
+            <a href="/" class="inline-flex items-center gap-2 px-8 py-3 bg-terra text-white font-bold rounded-full hover:bg-terra-dark transition-all transform hover:scale-105 shadow-lg">
+                Return to Home
+            </a>
+        </div>
+    </section>
+</BaseLayout>

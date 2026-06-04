@@ -36,11 +36,11 @@ const heroImage = post.data.heroImage;
         <div class="mb-3 flex items-center gap-2 text-xs font-medium text-terra uppercase tracking-wider">
             {post.data.tags[0] || 'Uncategorized'}
         </div>
-        <h3 class="mb-2 text-xl font-serif font-bold text-charcoal dark:text-stone-100 group-hover:text-terra transition-colors leading-tight">
+        <h2 class="mb-2 text-xl font-serif font-bold text-charcoal dark:text-stone-100 group-hover:text-terra transition-colors leading-tight">
             <a href={`/blog/${post.slug}`}>
                 {post.data.title}
             </a>
-        </h3>
+        </h2>
         <p class="mb-4 text-sm text-charcoal-light dark:text-stone-400 line-clamp-3 flex-grow">
             {post.data.description}
         </p>
