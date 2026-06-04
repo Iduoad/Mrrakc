@@ -129,6 +129,7 @@ export default function InteractiveMap({ points, simple = false, className = '',
     const [isMaximized, setIsMaximized] = useState(false);
     const [isMobileSheetOpen, setIsMobileSheetOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
+    const [isMapLoaded, setIsMapLoaded] = useState(false);
     const mapRef = useRef<MapRef>(null);
 
     useEffect(() => {
@@ -317,6 +318,14 @@ export default function InteractiveMap({ points, simple = false, className = '',
                     : `relative w-full md:rounded-2xl ${className || 'h-[600px]'}`
                 }
             `}>
+                {!isMapLoaded && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-clay/5 dark:bg-stone-900/50 z-10 backdrop-blur-sm">
+                        <div className="flex flex-col items-center gap-3">
+                            <div className="w-8 h-8 border-2 border-terra border-t-transparent rounded-full animate-spin"></div>
+                            <p className="text-xs text-charcoal-light dark:text-stone-400 font-medium">Loading Morocco...</p>
+                        </div>
+                    </div>
+                )}
                 {/* Desktop: Legend Sidebar */}
                 {!simple && (
                     <div className={`hidden md:flex transition-all duration-300 ease-in-out z-20 bg-white dark:bg-charcoal flex-col border-clay/30 dark:border-charcoal-light
@@ -378,7 +387,10 @@ export default function InteractiveMap({ points, simple = false, className = '',
 
                     <Map
                         ref={mapRef}
-                        onLoad={fitMapToBounds}
+                        onLoad={() => {
+                            fitMapToBounds();
+                            setIsMapLoaded(true);
+                        }}
                         initialViewState={initialViewState}
                         mapStyle="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json"
                         style={{ width: '100%', height: '100%' }}

@@ -12,6 +12,10 @@ interface Props {
 
 const { title, description = "Journey through the soul of Morocco.", image = '/blog-placeholder-1.jpg', transparentHeader = false } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// Handle image preloading for LCP
+const isHome = Astro.url.pathname === '/';
+const heroImage = "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=2500&auto=format&fit=crop";
 ---
 
 <!doctype html>
@@ -24,11 +28,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 		<!-- Canonical URL -->
 		<link rel="canonical" href={canonicalURL} />
+
+        {isHome && <link rel="preload" as="image" href={heroImage} fetchpriority="high" />}
         
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap&font-display=swap" rel="stylesheet">
 
 		<title>{title}</title>
 		<meta name="description" content={description} />

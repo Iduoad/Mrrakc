@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
 
 import { getCollection } from 'astro:content';
 
@@ -64,6 +65,8 @@ const gridItems = allItems.slice(0, 7).map((item, index) => ({
     ...item,
     span: spans[index] || "col-span-1 row-span-1"
 }));
+
+const heroImage = "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=2500&auto=format&fit=crop";
 ---
 
 <BaseLayout title="Mrrakc | Soul of Morocco" transparentHeader={true}>
@@ -71,10 +74,16 @@ const gridItems = allItems.slice(0, 7).map((item, index) => ({
         <!-- Hero Section -->
         <section class="relative h-screen w-full overflow-hidden">
             <div class="absolute inset-0">
-                <img 
-                    src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=2500&auto=format&fit=crop" 
+                <Image 
+                    src={heroImage} 
                     alt="Moroccan Desert Sunset" 
+                    width={1920}
+                    height={1080}
+                    widths={[640, 1024, 1920]}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1920px"
                     class="h-full w-full object-cover object-center"
+                    loading="eager"
+                    fetchpriority="high"
                 />
                 <div class="absolute inset-0 bg-black/60 bg-gradient-to-b from-black/70 via-transparent to-black/70"></div>
             </div>
@@ -110,11 +119,27 @@ const gridItems = allItems.slice(0, 7).map((item, index) => ({
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[300px]">
                     {gridItems.map((item) => (
                         <a href={item.url} class={`group relative overflow-hidden rounded-xl shadow-md cursor-pointer block ${item.span}`}>
-                            <img 
-                                src={item.image} 
-                                alt={item.title}
-                                class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                            />
+                            {typeof item.image === 'string' && item.image.startsWith('http') ? (
+                                <img 
+                                    src={item.image} 
+                                    alt={item.title}
+                                    class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            ) : (
+                                <Image 
+                                    src={item.image as any} 
+                                    alt={item.title}
+                                    width={800}
+                                    height={600}
+                                    widths={[400, 800]}
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+                                    class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            )}
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                             <div class="absolute bottom-0 left-0 p-4 w-full">
                                 <span class="bg-terra/80 text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded mb-2 inline-block backdrop-blur-sm">

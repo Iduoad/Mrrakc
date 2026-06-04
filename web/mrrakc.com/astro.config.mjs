@@ -18,6 +18,9 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://mrrakc.com',
+  image: {
+    domains: ['images.unsplash.com', 'upload.wikimedia.org'],
+  },
   vite: {
     plugins: [tailwindcss()]
   },

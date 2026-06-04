@@ -16,18 +16,32 @@ const heroImage = post.data.heroImage;
             <img 
                 src={heroImage || '/blog-placeholder-1.jpg'} 
                 alt={post.data.title} 
+                width="400"
+                height="300"
+                loading="lazy"
+                decoding="async"
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
         ) : heroImage ? (
             <Image 
                 src={heroImage} 
                 alt={post.data.title} 
+                width={400}
+                height={300}
+                widths={[400, 800]}
+                sizes="(max-width: 768px) 100vw, 400px"
+                loading="lazy"
+                decoding="async"
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
         ) : (
             <img 
                 src="/blog-placeholder-1.jpg" 
                 alt={post.data.title} 
+                width="400"
+                height="300"
+                loading="lazy"
+                decoding="async"
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
         )}
