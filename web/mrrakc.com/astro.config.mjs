@@ -20,11 +20,20 @@ export default defineConfig({
   site: 'https://mrrakc.com',
   image: {
     domains: ['images.unsplash.com', 'upload.wikimedia.org'],
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        quality: 75,
+      },
+    },
   },
   vite: {
     plugins: [tailwindcss()]
   },
 
+  build: {
+    inlineStylesheets: 'always'
+  },
   integrations: [mdx(), react(), sitemap()],
   markdown: {
     remarkPlugins: [remarkGfm, [remarkToc, { heading: 'contents' }], remarkDirective, remarkNote, remarkReadingTime],

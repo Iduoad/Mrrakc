@@ -34,7 +34,12 @@ const heroImage = "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap&font-display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://images.unsplash.com">
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap&font-display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap&font-display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+        <noscript>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap&font-display=swap" rel="stylesheet">
+        </noscript>
 
 		<title>{title}</title>
 		<meta name="description" content={description} />

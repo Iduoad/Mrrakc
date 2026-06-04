@@ -23,8 +23,12 @@ const posts = (await getCollection('blog', ({ data }) => {
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {posts.map((post) => (
-                    <PostCard post={post} />
+                {posts.map((post, index) => (
+                    <PostCard 
+                        post={post} 
+                        loading={index === 0 ? "eager" : "lazy"}
+                        fetchpriority={index === 0 ? "high" : "auto"}
+                    />
                 ))}
             </div>
         </div>

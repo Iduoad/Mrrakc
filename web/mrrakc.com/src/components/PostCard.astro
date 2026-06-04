@@ -4,9 +4,11 @@ import { Image } from 'astro:assets';
 
 interface Props {
 	post: CollectionEntry<'blog'>;
+    loading?: "lazy" | "eager";
+    fetchpriority?: "high" | "low" | "auto";
 }
 
-const { post } = Astro.props;
+const { post, loading = "lazy", fetchpriority = "auto" } = Astro.props;
 const heroImage = post.data.heroImage;
 ---
 
@@ -18,8 +20,9 @@ const heroImage = post.data.heroImage;
                 alt={post.data.title} 
                 width="400"
                 height="300"
-                loading="lazy"
-                decoding="async"
+                loading={loading}
+                fetchpriority={fetchpriority}
+                decoding={loading === "eager" ? "sync" : "async"}
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
         ) : heroImage ? (
@@ -30,8 +33,9 @@ const heroImage = post.data.heroImage;
                 height={300}
                 widths={[400, 800]}
                 sizes="(max-width: 768px) 100vw, 400px"
-                loading="lazy"
-                decoding="async"
+                loading={loading}
+                fetchpriority={fetchpriority}
+                decoding={loading === "eager" ? "sync" : "async"}
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
         ) : (
@@ -40,7 +44,7 @@ const heroImage = post.data.heroImage;
                 alt={post.data.title} 
                 width="400"
                 height="300"
-                loading="lazy"
+                loading={loading}
                 decoding="async"
                 class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
             />

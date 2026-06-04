@@ -23,7 +23,7 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
     </header>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {maps.map(map => {
+      {maps.map((map, index) => {
         let mapTitle = map.data.title;
         let mapDescription = map.data.description;
         let mapTags = map.data.tags;
@@ -44,7 +44,8 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
                   src={map.data.heroImage} 
                   alt={mapTitle || ''}
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
+                  loading={index < 2 ? "eager" : "lazy"}
+                  fetchpriority={index === 0 ? "high" : "auto"}
                 />
               ) : (
                 <Image 
@@ -55,8 +56,9 @@ maps.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
                   widths={[400, 800]}
                   sizes="(max-width: 768px) 100vw, 400px"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  loading="lazy"
-                  decoding="async"
+                  loading={index < 2 ? "eager" : "lazy"}
+                  decoding={index < 2 ? "sync" : "async"}
+                  fetchpriority={index === 0 ? "high" : "auto"}
                 />
               )
             ) : (
