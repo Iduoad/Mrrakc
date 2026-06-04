@@ -43,17 +43,26 @@ const heroImageSrc = typeof heroImage === 'string' ? heroImage : heroImage?.src;
         <!-- Hero Section -->
         <div class="relative h-[60vh] w-full overflow-hidden">
             {typeof heroImage === 'string' ? (
-                <Image 
-                    src={heroImage} 
-                    alt={post.data.title} 
-                    width={1920}
-                    height={1080}
-                    widths={[640, 1024, 1920]}
-                    sizes="100vw"
-                    class="h-full w-full object-cover"
-                    loading="eager"
-                    fetchpriority="high"
-                />
+                heroImage.startsWith('http') ? (
+                    <Image 
+                        src={heroImage} 
+                        alt={post.data.title} 
+                        width={1920}
+                        height={1080}
+                        widths={[640, 1024, 1920]}
+                        sizes="100vw"
+                        class="h-full w-full object-cover"
+                        loading="eager"
+                        fetchpriority="high"
+                    />
+                ) : (
+                    <img 
+                        src={heroImage} 
+                        alt={post.data.title} 
+                        class="h-full w-full object-cover"
+                        loading="eager"
+                    />
+                )
             ) : heroImage ? (
                 <Image 
                     src={heroImage} 

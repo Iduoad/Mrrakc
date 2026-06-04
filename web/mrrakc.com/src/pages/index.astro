@@ -13,9 +13,7 @@ const allPlans = await getCollection('plans');
 // Normalize items
 const mapItems = allMaps.map(item => ({
     title: item.data.title || item.id,
-    image: (typeof item.data.heroImage === 'object' && item.data.heroImage !== null && 'src' in item.data.heroImage) 
-        ? item.data.heroImage.src 
-        : (item.data.heroImage || "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop"),
+    image: item.data.heroImage || "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=800&auto=format&fit=crop",
     url: `/maps/${item.id}`,
     photographer: item.data.author || "Mrrakc Team",
     type: "Map"
@@ -23,9 +21,7 @@ const mapItems = allMaps.map(item => ({
 
 const blogItems = allBlogs.map(item => ({
     title: item.data.title,
-    image: (typeof item.data.heroImage === 'object' && item.data.heroImage !== null && 'src' in item.data.heroImage)
-        ? item.data.heroImage.src
-        : (item.data.heroImage || "https://images.unsplash.com/photo-1512152272829-e313960f7b61?q=80&w=800&auto=format&fit=crop"),
+    image: item.data.heroImage || "https://images.unsplash.com/photo-1512152272829-e313960f7b61?q=80&w=800&auto=format&fit=crop",
     url: `/blog/${item.slug}`,
     photographer: item.data.author || "Mrrakc Team", 
     type: "Journal"
@@ -33,9 +29,7 @@ const blogItems = allBlogs.map(item => ({
 
 const planItems = allPlans.map(item => ({
     title: item.data.title || item.id,
-    image: (typeof item.data.heroImage === 'object' && item.data.heroImage !== null && 'src' in item.data.heroImage)
-        ? item.data.heroImage.src
-        : (item.data.heroImage || "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=800&auto=format&fit=crop"),
+    image: item.data.heroImage || "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=800&auto=format&fit=crop",
     url: `/plans/${item.id}`,
     photographer: "Mrrakc Team",
     type: "Plan"
@@ -119,15 +113,7 @@ const heroImage = "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[300px]">
                     {gridItems.map((item) => (
                         <a href={item.url} class={`group relative overflow-hidden rounded-xl shadow-md cursor-pointer block ${item.span}`}>
-                            {typeof item.image === 'string' && item.image.startsWith('http') ? (
-                                <img 
-                                    src={item.image} 
-                                    alt={item.title}
-                                    class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-                                    loading="lazy"
-                                    decoding="async"
-                                />
-                            ) : (
+                            {typeof item.image === 'object' || (typeof item.image === 'string' && item.image.startsWith('http')) ? (
                                 <Image 
                                     src={item.image as any} 
                                     alt={item.title}
@@ -139,10 +125,18 @@ const heroImage = "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?
                                     loading="lazy"
                                     decoding="async"
                                 />
+                            ) : (
+                                <img 
+                                    src={item.image as any} 
+                                    alt={item.title}
+                                    class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
                             )}
                             <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
                             <div class="absolute bottom-0 left-0 p-4 w-full">
-                                <span class="bg-terra/80 text-white text-[10px] uppercase font-bold px-2 py-0.5 rounded mb-2 inline-block backdrop-blur-sm">
+                                <span class="bg-white text-terra-dark text-[10px] uppercase font-bold px-2 py-0.5 rounded mb-2 inline-block backdrop-blur-sm">
                                     {item.type}
                                 </span>
                                 <h3 class="text-white text-lg md:text-xl font-bold tracking-wide transform translate-y-1 group-hover:translate-y-0 transition-transform duration-300 font-serif leading-tight">

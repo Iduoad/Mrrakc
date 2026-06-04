@@ -48,7 +48,7 @@ const formatDate = (dateStr: string) => {
   })} />
   <main class="w-full max-w-6xl mx-auto px-4 pt-32 pb-20">
     <div class="mb-6">
-      <a href={`/provinces/${spec.location.province.replace('province/', '')}`} class="text-sm text-terra hover:underline mb-2 inline-block">&larr; Back to {spec.location.province.replace('province/', '')}</a>
+      <a href={`/provinces/${spec.location.province.replace('province/', '')}`} class="text-sm text-terra-dark hover:underline mb-2 inline-block">&larr; Back to {spec.location.province.replace('province/', '')}</a>
     </div>
 
     <header class="mb-10">
@@ -89,7 +89,7 @@ const formatDate = (dateStr: string) => {
               {spec.timeline.map(event => (
                 <div class="relative pl-8">
                   <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-terra border-4 border-white dark:border-charcoal"></div>
-                  <span class="text-sm font-bold text-terra mb-1 block">{formatDate(event.date)}</span>
+                  <span class="text-sm font-bold text-terra-dark mb-1 block">{formatDate(event.date)}</span>
                   <h3 class="text-lg font-bold text-charcoal dark:text-stone-100 mb-1">{event.title}</h3>
                   <p class="text-charcoal-light dark:text-stone-400">{event.description}</p>
                 </div>
@@ -112,7 +112,7 @@ const formatDate = (dateStr: string) => {
           <div class="space-y-4">
             {spec.people && spec.people.length > 0 && (
               <div>
-                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Key Figures</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Key Figures</span>
                 <ul class="space-y-2">
                   {spec.people.map(person => (
                     <li class="flex items-start gap-2">
@@ -129,7 +129,7 @@ const formatDate = (dateStr: string) => {
 
             {spec.location.altitude && (
               <div>
-                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Altitude</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Altitude</span>
                 <div class="flex items-center gap-2 text-charcoal dark:text-stone-200 font-bold">
                   <Mountain size={16} className="text-terra" />
                   <span>{spec.location.altitude} m</span>
@@ -139,7 +139,7 @@ const formatDate = (dateStr: string) => {
 
             {spec.timePeriods && spec.timePeriods.length > 0 && (
               <div>
-                <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Era</span>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Era</span>
                 <div class="flex flex-wrap gap-2">
                   {spec.timePeriods.map(period => (
                     <span class="inline-flex items-center gap-1 px-2 py-1 bg-white dark:bg-charcoal rounded-md text-xs border border-clay/20 dark:border-charcoal-light text-charcoal dark:text-stone-300">
@@ -152,12 +152,12 @@ const formatDate = (dateStr: string) => {
 
             {/* Directions Link */}
             <div>
-                 <span class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 block mb-1">Directions</span>
+                 <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Directions</span>
                  <a 
                     href={`https://www.google.com/maps/dir//${spec.location.latitude},${spec.location.longitude}`} 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    class="flex items-center gap-2 text-sm font-bold text-terra hover:underline"
+                    class="flex items-center gap-2 text-sm font-bold text-terra-dark hover:underline"
                  > 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                     Get Directions
@@ -187,7 +187,7 @@ const formatDate = (dateStr: string) => {
                  </div>
                ))}
                {spec.access.comment && (
-                 <p class="text-xs text-charcoal-light dark:text-stone-500 italic mt-2 bg-clay/10 dark:bg-charcoal-light/10 p-2 rounded">
+                 <p class="text-xs text-charcoal/80 dark:text-stone-400 italic mt-2 bg-clay/10 dark:bg-charcoal-light/10 p-2 rounded">
                    "{spec.access.comment}"
                  </p>
                )}
@@ -202,7 +202,7 @@ const formatDate = (dateStr: string) => {
             <ul class="space-y-2">
               {spec.links.map(link => (
                 <li>
-                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-terra hover:underline group">
+                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-terra-dark dark:text-terra hover:underline group">
                     <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
                     <span class="line-clamp-1">{link.title}</span>
                   </a>
