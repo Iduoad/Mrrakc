@@ -23,7 +23,7 @@ export default defineConfig({
     service: {
       entrypoint: 'astro/assets/services/sharp',
       config: {
-        quality: 75,
+        quality: 60,
       },
     },
   },
