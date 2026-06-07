@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "Sidi Mohammed Ben Abdellah Museum",
+    "id": "sidi-mohammed-ben-abdellah-museum",
+    "description": "None",
+    "location": {
+      "longitude": -9.7714524,
+      "latitude": 31.5138683,
+      "altitude": 10,
+      "province": "province/essaouira"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13664401261577747882",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

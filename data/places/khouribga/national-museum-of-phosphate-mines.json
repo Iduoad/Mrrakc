@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "khouribga",
+      "ocp"
+    ]
+  },
+  "spec": {
+    "name": "National Museum of Phosphate Mines",
+    "id": "national-museum-of-phosphate-mines",
+    "description": "None",
+    "location": {
+      "longitude": -6.904311799999999,
+      "latitude": 32.8805835,
+      "altitude": 799,
+      "province": "province/khouribga"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2249345352727584434",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}
