@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "safi"
+    ]
+  },
+  "spec": {
+    "name": "Dar Essoltane Ceramic Museum",
+    "id": "dar-essoltane-ceramic-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/safi",
+      "longitude": -9.238742,
+      "latitude": 32.298712,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

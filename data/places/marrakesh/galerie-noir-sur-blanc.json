@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
+  "spec": {
+    "name": "Galerie Noir sur Blanc",
+    "id": "galerie-noir-sur-blanc",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -8.013956,
+      "latitude": 31.634902,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

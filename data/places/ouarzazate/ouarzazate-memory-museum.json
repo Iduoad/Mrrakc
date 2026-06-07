@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "ouarzazate",
+      "skoura"
+    ]
+  },
+  "spec": {
+    "name": "Ouarzazate Memory Museum",
+    "id": "ouarzazate-memory-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/ouarzazate",
+      "longitude": -6.580933,
+      "latitude": 31.034178,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

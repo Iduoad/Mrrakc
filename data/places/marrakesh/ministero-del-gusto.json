@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
+  "spec": {
+    "name": "Ministero del Gusto",
+    "id": "ministero-del-gusto",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.990458,
+      "latitude": 31.629916,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

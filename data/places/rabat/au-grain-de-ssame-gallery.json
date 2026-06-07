@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Au Grain de Sésame Gallery",
+    "id": "au-grain-de-ssame-gallery",
+    "description": "No description available",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.836447,
+      "latitude": 34.029898,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

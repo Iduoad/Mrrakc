@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "The space of historical memory of resistance and liberation army Azemmour",
+    "id": "the-space-of-historical-memory-of-resistance-and-liberation-army-azemmour",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.341046422719955,
+      "latitude": 33.29299644567078,
+      "altitude": 14,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13963065593475854320",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

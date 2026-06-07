@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "metadata": {
+    "tags": [
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "Synagogue Habarim",
+    "id": "synagogue-habarim",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -4.99068,
+      "latitude": 34.052095,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

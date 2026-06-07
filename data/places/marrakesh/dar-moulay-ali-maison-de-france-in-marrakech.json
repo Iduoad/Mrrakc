@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
+  "spec": {
+    "name": "Dar Moulay Ali, Maison de France in Marrakech",
+    "id": "dar-moulay-ali-maison-de-france-in-marrakech",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.992059,
+      "latitude": 31.623681,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

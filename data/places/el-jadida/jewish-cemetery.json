@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/jewish-site",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Jewish Cemetery",
+    "id": "jewish-cemetery",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.343064785003662,
+      "latitude": 33.298933033266614,
+      "altitude": 15,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8242586504799037888",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

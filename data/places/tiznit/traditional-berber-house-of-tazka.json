@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tafraout"
+    ]
+  },
+  "spec": {
+    "name": "Traditional Berber house of Tazka",
+    "id": "traditional-berber-house-of-tazka",
+    "description": "No description available",
+    "location": {
+      "province": "province/tiznit",
+      "longitude": -8.98692,
+      "latitude": 29.709855,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

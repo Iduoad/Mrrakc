@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "agadir",
+      "anza",
+      "private-museum"
+    ]
+  },
+  "spec": {
+    "name": "Geology and History Museum - Anza",
+    "id": "geology-and-history-museum-anza",
+    "description": "No description available",
+    "location": {
+      "longitude": -9.655267499999999,
+      "latitude": 30.4443037,
+      "altitude": 19,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=14474706134595593819",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

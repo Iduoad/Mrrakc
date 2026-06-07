@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of Resistance and Members of the Liberation Army Fez",
+    "id": "regional-museum-of-resistance-and-members-of-the-liberation-army-fez",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -5.013923,
+      "latitude": 34.058986,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

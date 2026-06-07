@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/district",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "El Mellah of Azemmour",
+    "id": "el-mellah-of-azemmour",
+    "description": "No Description available",
+    "location": {
+      "longitude": -8.341546654701233,
+      "latitude": 33.29272740645294,
+      "altitude": 20,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=12106789912686971077",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

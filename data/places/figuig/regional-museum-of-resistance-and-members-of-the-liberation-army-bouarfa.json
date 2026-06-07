@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "bouarfa"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of Resistance and Members of the Liberation Army Bouaarfa",
+    "id": "regional-museum-of-resistance-and-members-of-the-liberation-army-bouarfa",
+    "description": "No description available",
+    "location": {
+      "province": "province/figuig",
+      "longitude": -1.973479,
+      "latitude": 32.528109,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Espace Rivages",
+    "id": "espace-rivages",
+    "description": "No description available",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.851134,
+      "latitude": 33.990138,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

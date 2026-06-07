@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "mohammedia"
+    ]
+  },
+  "spec": {
+    "name": "Villa Houda",
+    "id": "villa-houda",
+    "description": "No description available",
+    "location": {
+      "province": "province/mohammedia",
+      "longitude": -7.395298,
+      "latitude": 33.705653,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

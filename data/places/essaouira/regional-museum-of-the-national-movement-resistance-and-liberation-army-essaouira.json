@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Essaouira",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-essaouira",
+    "description": "No description available",
+    "location": {
+      "province": "province/essaouira",
+      "longitude": -9.753518,
+      "latitude": 31.49995,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

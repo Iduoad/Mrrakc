@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Lalla Aicha El Bahria Mausoleum",
+    "id": "lalla-aicha-el-bahria-mausoleum",
+    "description": "No information is available",
+    "location": {
+      "longitude": -8.335018157958984,
+      "latitude": 33.31948377743833,
+      "altitude": 4,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=11983832197417440958",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "religion/prayer"
+    ],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "restricted",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

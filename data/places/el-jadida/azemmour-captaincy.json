@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Azemmour Captaincy",
+    "id": "azemmour-captaincy",
+    "description": "No Description available",
+    "location": {
+      "longitude": -8.341698199510574,
+      "latitude": 33.29140349721636,
+      "altitude": 24,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=606575841109292772",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

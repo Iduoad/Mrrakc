@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "Nejjarine Museum of Wooden Arts & Crafts",
+    "id": "nejjarine-museum-of-wooden-arts-crafts",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -4.975905,
+      "latitude": 34.064753,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

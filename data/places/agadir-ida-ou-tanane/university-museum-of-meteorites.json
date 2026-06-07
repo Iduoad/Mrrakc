@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "agadir",
+      "uiz",
+      "public-museum"
+    ]
+  },
+  "spec": {
+    "name": "University Museum of Meteorites",
+    "id": "university-museum-of-meteorites",
+    "description": "No information available.",
+    "location": {
+      "longitude": -9.579109847545624,
+      "latitude": 30.406786836041984,
+      "altitude": 43,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1656708547704922510",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://www.facebook.com/Musee.Universitaire.Meteorites/",
+        "title": "Official Facebook page",
+        "type": "social"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

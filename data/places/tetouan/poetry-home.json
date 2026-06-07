@@ -2,7 +2,9 @@
   "version": "mrrakc/v0",
   "kind": "culture/cultural-center",
   "metadata": {
-    "tags": []
+    "tags": [
+      "tetouan"
+    ]
   },
   "spec": {
     "name": "Poetry home",

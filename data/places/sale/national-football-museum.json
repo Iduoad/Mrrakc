@@ -1,0 +1,34 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "sale",
+      "fnm",
+      "football"
+    ]
+  },
+  "spec": {
+    "name": "National Football Museum",
+    "id": "national-football-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/sale",
+      "longitude": -6.726114,
+      "latitude": 34.021218,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

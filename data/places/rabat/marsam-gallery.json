@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Marsam Gallery",
+    "id": "marsam-gallery",
+    "description": "No description available",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.832431,
+      "latitude": 34.017029,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

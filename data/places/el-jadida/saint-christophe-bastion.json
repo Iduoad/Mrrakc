@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Saint Christophe Bastion",
+    "id": "saint-christophe-bastion",
+    "description": "No Description Available.",
+    "location": {
+      "longitude": -8.341643214225769,
+      "latitude": 33.28757962963195,
+      "altitude": 26,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3303382159171295381",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

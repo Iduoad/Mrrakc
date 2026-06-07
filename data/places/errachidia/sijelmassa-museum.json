@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "errachidia"
+    ]
+  },
+  "spec": {
+    "name": "Sijelmassa Museum",
+    "id": "sijelmassa-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -4.44572,
+      "latitude": 31.918644,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

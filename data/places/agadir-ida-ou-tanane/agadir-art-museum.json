@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "agadir",
+      "fnm"
+    ]
+  },
+  "spec": {
+    "name": "Agadir Art Museum",
+    "id": "agadir-art-museum",
+    "description": "Art museum of Agadir",
+    "location": {
+      "longitude": -9.597026,
+      "latitude": 30.4159487,
+      "altitude": 24,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9831852595831604991",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Barid Al-Maghrib Museum",
+    "id": "barid-al-maghrib-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.836811,
+      "latitude": 34.018939,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

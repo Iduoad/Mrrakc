@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "history/bastion",
+  "metadata": {
+    "tags": [
+      "Azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Santos Bastion",
+    "id": "santos-bastion",
+    "description": "No Description Available.",
+    "location": {
+      "longitude": -8.339875638484955,
+      "latitude": 33.287763484033526,
+      "altitude": 15,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9983157136613791803",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

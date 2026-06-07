@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "Mohamed Kacimi Gallery",
+    "id": "mohamed-kacimi-gallery",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -4.996289,
+      "latitude": 34.046344,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

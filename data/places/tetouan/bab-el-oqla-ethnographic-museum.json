@@ -1,0 +1,29 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": ["tetouan", "fnm"]
+  },
+  "spec": {
+    "name": "Bab El Oqla Ethnographic Museum",
+    "id": "bab-el-oqla-ethnographic-museum",
+    "description": "No description available.",
+    "location": {
+      "longitude": -5.364109,
+      "latitude": 35.5702592,
+      "province": "province/tetouan"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

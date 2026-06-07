@@ -2,7 +2,9 @@
   "version": "mrrakc/v0",
   "kind": "history/gate",
   "metadata": {
-    "tags": []
+    "tags": [
+      "tangier"
+    ]
   },
   "spec": {
     "name": "Bab El-Assa",

@@ -1,6 +1,12 @@
 {
   "version": "mrrakc/v0",
   "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh",
+      "fnm"
+    ]
+  },
   "spec": {
     "name": "Dar El Bacha Museum",
     "id": "dar-el-bacha-museum",

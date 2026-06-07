@@ -1,6 +1,11 @@
 {
   "version": "mrrakc/v0",
   "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
   "spec": {
     "name": "House of Photography Museum",
     "id": "house-of-photography-museum",

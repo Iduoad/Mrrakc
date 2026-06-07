@@ -2,7 +2,9 @@
   "version": "mrrakc/v0",
   "kind": "culture/art-gallery",
   "metadata": {
-    "tags": []
+    "tags": [
+      "rabat"
+    ]
   },
   "spec": {
     "name": "Villa des Arts",

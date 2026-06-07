@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Azemmour",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-azemmour",
+    "description": "No description available",
+    "location": {
+      "province": "province/el-jadida",
+      "longitude": -8.341046,
+      "latitude": 33.292996,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

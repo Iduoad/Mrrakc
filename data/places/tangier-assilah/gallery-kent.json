@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Gallery Kent",
+    "id": "gallery-kent",
+    "description": "No description available",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.808924,
+      "latitude": 35.780329,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "Museum of Science",
+    "id": "museum-of-science",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -5.002432,
+      "latitude": 34.04629,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

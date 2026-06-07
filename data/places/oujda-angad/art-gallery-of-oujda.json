@@ -2,7 +2,9 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "oujda"
+    ]
   },
   "spec": {
     "name": "Art Gallery of Oujda",

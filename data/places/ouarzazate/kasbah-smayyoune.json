@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/kasbah",
+  "metadata": {
+    "tags": [
+      "ouarzazate",
+      "tidgheste"
+    ]
+  },
+  "spec": {
+    "name": "Kasbah Smayyoune",
+    "id": "kasbah-smayyoune",
+    "description": "No description available",
+    "location": {
+      "province": "province/ouarzazate",
+      "longitude": -6.811395,
+      "latitude": 31.046985,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://ecotourisme.geoparcjbelbani.com/article/les-muses-du-goparc-du-jbel-bani/54/128/1882/les-muses-de-tsgjb-amdgjb",
+        "title": "https://ecotourisme.geoparcjbelbani.com/article/les-muses-du-goparc-du-jbel-bani/54/128/1882/les-muses-de-tsgjb-amdgjb",
+        "type": "article"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

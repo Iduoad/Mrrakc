@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "oujda"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of Resistance and Members of the Liberation Army Oujda",
+    "id": "regional-museum-of-resistance-and-members-of-the-liberation-army-oujda",
+    "description": "No description available",
+    "location": {
+      "province": "province/oujda-angad",
+      "longitude": -1.91538,
+      "latitude": 34.678093,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "zaouiat-cheikh"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Zaouiat Cheikh",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-zaouiat-cheikh",
+    "description": "No description available",
+    "location": {
+      "province": "province/khenifra",
+      "longitude": -5.917667,
+      "latitude": 32.640316,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

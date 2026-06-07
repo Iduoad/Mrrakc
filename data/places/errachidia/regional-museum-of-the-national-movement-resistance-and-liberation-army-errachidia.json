@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "errachidia"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Errachidia",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-errachidia",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -4.424921,
+      "latitude": 31.932994,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

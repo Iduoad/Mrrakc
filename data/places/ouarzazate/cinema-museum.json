@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "ouarzazate",
+      "cinema"
+    ]
+  },
+  "spec": {
+    "name": "Cinema Museum",
+    "id": "cinema-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/ouarzazate",
+      "longitude": -6.899393,
+      "latitude": 30.921675,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Mohamed Drissi Gallery",
+    "id": "mohamed-drissi-gallery",
+    "description": "No description available",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.816033,
+      "latitude": 35.782182,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

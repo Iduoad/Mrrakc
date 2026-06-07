@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "The Kasbah Museum of Mediterranean Culture",
+    "id": "the-kasbah-museum-of-mediterranean-culture",
+    "description": "With an age approaching a century, this cultural institution stands as one of the oldest establishments dedicated to interpreting and conserving the cultural wealth and variety of the Mediterranean region. It is located at the center of the historical Kasbah in Tangier.",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.812436,
+      "latitude": 35.788218,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://fnm.ma/musees-ouverts/musee-la-kasbah-des-cultures-mediterraneennes-tanger/",
+        "title": "- More info",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Musée cynégétique au bois de l'Agdal",
+    "id": "muse-cyngtique-au-bois-de-lagdal",
+    "description": "No description available",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.841701,
+      "latitude": 33.994781,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

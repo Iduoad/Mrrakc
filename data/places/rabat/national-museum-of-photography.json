@@ -2,7 +2,10 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "rabat",
+      "fnm"
+    ]
   },
   "spec": {
     "name": "National Museum of Photography",

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "casablanca"
+    ]
+  },
+  "spec": {
+    "name": "Actua Art Space",
+    "id": "actua-art-space",
+    "description": "No description available",
+    "location": {
+      "province": "province/casablanca",
+      "longitude": -7.62557,
+      "latitude": 33.590556,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

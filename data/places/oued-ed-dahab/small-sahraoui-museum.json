@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "dakhla"
+    ]
+  },
+  "spec": {
+    "name": "Small Sahraoui Museum",
+    "id": "small-sahraoui-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/oued-ed-dahab",
+      "longitude": -15.934171,
+      "latitude": 23.70225,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

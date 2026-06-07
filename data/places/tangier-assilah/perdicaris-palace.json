@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Perdicaris Palace",
+    "id": "perdicaris-palace",
+    "description": "During the 19th century, the American businessman and diplomat, Perdicaris, held significant influence in Tangier, and his palace, which remains standing, stands as a testament to that era. While not accessible to the public, the Perdicaris Park, located nearby, is a worthwhile attraction to visit.",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.860274,
+      "latitude": 35.792155,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

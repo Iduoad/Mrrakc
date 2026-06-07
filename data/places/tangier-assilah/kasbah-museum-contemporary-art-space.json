@@ -1,0 +1,36 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": ["tangier", "fnm"]
+  },
+  "spec": {
+    "name": "Kasbah Museum, Contemporary Art Space",
+    "id": "kasbah-museum-contemporary-art-space",
+    "description": "A prominent art museum in the city, exhibiting artwork from both the Tangeaoui and northern art schools. - Price: 30Dh for locals (For all of Kasbah Museum) - More Info",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.812211,
+      "latitude": 35.78857,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://fnm.ma/musees-ouverts/musee-la-kasbah-espace-dart-contemporain-tanger/",
+        "title": "- More Info",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

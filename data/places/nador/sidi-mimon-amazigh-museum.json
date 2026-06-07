@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "nador"
+    ]
+  },
+  "spec": {
+    "name": "Sidi Mimon Amazigh Museum",
+    "id": "sidi-mimon-amazigh-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/nador",
+      "longitude": -3.01493,
+      "latitude": 35.199439,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

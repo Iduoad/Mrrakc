@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "safi"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Safi",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-safi",
+    "description": "No description available",
+    "location": {
+      "province": "province/safi",
+      "longitude": -9.236128,
+      "latitude": 32.29562,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/beach",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Miral Beach",
+    "id": "miral-beach",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.323688507080078,
+      "latitude": 33.337071796549424,
+      "altitude": 4,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8113945636794484924",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

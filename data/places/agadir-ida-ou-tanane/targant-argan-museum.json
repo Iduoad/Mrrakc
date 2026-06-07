@@ -1,0 +1,50 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "taghazout",
+      "private-museum"
+    ]
+  },
+  "spec": {
+    "name": "Targant - Argan Museum",
+    "id": "targant-argan-museum",
+    "description": "No Description available",
+    "location": {
+      "longitude": -9.6867308,
+      "latitude": 30.5441172,
+      "altitude": 96,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=13854970998406512926",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://www.targanttaghazout.com/en-GB/",
+        "title": "Official website",
+        "type": "website"
+      }
+    ],
+    "activities": [
+      "utility/shopping"
+    ],
+    "items": [
+      "shopping/argan-oil"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

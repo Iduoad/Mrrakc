@@ -2,7 +2,7 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": ["rabat", "fnm"]
   },
   "spec": {
     "name": "Museum of History and Civilizations",

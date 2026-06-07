@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/forest",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Haouzia Forrest",
+    "id": "haouzia-forrest",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.34636926651001,
+      "latitude": 33.30314758587142,
+      "altitude": 15,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7444272475109550926",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

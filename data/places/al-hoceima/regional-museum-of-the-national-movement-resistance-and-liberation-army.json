@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "al-hoceima"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Al Hoceima",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-al-hoceima",
+    "description": "No description available",
+    "location": {
+      "province": "province/al-hoceima",
+      "longitude": -3.941064,
+      "latitude": 35.247134,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Art Gallery Espace Expressions CDG",
+    "id": "art-gallery-espace-expressions-cdg",
+    "description": "No description available",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.830541,
+      "latitude": 34.016307,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "beni-mellal"
+    ]
+  },
+  "spec": {
+    "name": "Cultural Patrimony Interpretation Center Beni-Mellal",
+    "id": "cultural-patrimony-interpretation-center-beni-mellal",
+    "description": "No description available",
+    "location": {
+      "province": "province/beni-mellal",
+      "longitude": -6.337126,
+      "latitude": 32.325348,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

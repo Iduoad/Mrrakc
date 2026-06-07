@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "ksar-essegir"
+    ]
+  },
+  "spec": {
+    "name": "Ksar Essegir Archeological Museum",
+    "id": "ksar-essegir-archeological-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.558676,
+      "latitude": 35.842949,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

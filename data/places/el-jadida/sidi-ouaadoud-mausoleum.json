@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sidi Ouaadoud Mausoleum",
+    "id": "sidi-ouaadoud-mausoleum",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.342227935791016,
+      "latitude": 33.30359593054659,
+      "altitude": 16,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8395985863180547583",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

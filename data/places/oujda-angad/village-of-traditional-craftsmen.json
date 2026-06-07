@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "oujda"
+    ]
+  },
+  "spec": {
+    "name": "Village of Traditional Craftsmen",
+    "id": "village-of-traditional-craftsmen",
+    "description": "No description available",
+    "location": {
+      "province": "province/oujda-angad",
+      "longitude": -1.919219,
+      "latitude": 34.710993,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

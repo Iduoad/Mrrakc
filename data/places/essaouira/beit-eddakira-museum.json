@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "Beit Eddakira Museum",
+    "id": "beit-eddakira-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/essaouira",
+      "longitude": -9.771126,
+      "latitude": 31.513402,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

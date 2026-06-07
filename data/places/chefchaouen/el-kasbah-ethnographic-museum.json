@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "chefchaouen"
+    ]
+  },
+  "spec": {
+    "name": "El Kasbah Ethnographic Museum",
+    "id": "el-kasbah-ethnographic-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/chefchaouen",
+      "longitude": -5.261712,
+      "latitude": 35.168786,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

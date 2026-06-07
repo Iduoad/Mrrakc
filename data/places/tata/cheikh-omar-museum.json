@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "akka"
+    ]
+  },
+  "spec": {
+    "name": "Cheikh Omar Museum",
+    "id": "cheikh-omar-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/tata",
+      "longitude": -8.265108,
+      "latitude": 29.396732,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://ecotourisme.geoparcjbelbani.com/article/les-muses-du-goparc-du-jbel-bani/54/128/582/les-muses-de-tsgjb-amdgjb",
+        "title": "https://ecotourisme.geoparcjbelbani.com/article/les-muses-du-goparc-du-jbel-bani/54/128/582/les-muses-de-tsgjb-amdgjb",
+        "type": "article"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

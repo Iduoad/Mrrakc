@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Instituto Cervantes",
+    "id": "instituto-cervantes",
+    "description": "No description available",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.820602,
+      "latitude": 35.780241,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

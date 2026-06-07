@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "zagora"
+    ]
+  },
+  "spec": {
+    "name": "Atelier Bannour",
+    "id": "atelier-bannour",
+    "description": "No description available",
+    "location": {
+      "province": "province/zagora",
+      "longitude": -5.861953,
+      "latitude": 30.396266,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "nature/river",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Oued Oum Rabii embouchure",
+    "id": "oued-oum-rabii-embouchure",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.338665962219238,
+      "latitude": 33.30411600748227,
+      "altitude": 2,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=7152790600188635775",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

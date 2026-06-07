@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "bir-jedid"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Bir Jedid",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-bir-jedid",
+    "description": "No description available",
+    "location": {
+      "province": "province/el-jadida",
+      "longitude": -7.995428,
+      "latitude": 33.376325,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

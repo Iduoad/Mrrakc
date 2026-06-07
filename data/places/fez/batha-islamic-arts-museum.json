@@ -1,0 +1,30 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": ["fez", "fnm", "palace", "riad", "arts", "islam"]
+  },
+  "spec": {
+    "name": "Batha Islamic Arts Museum",
+    "id": "batha-islamic-arts-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -4.982671,
+      "latitude": 34.060551,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "azrou"
+    ]
+  },
+  "spec": {
+    "name": "Cedar Forest House",
+    "id": "cedar-forest-house",
+    "description": "No description available",
+    "location": {
+      "province": "province/ifrane",
+      "longitude": -5.177286,
+      "latitude": 33.419875,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

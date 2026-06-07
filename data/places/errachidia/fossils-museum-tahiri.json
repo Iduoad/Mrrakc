@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "erfoud"
+    ]
+  },
+  "spec": {
+    "name": "Fossils Museum Tahiri",
+    "id": "fossils-museum-tahiri",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -4.290732,
+      "latitude": 31.349827,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

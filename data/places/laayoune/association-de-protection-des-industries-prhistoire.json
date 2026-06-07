@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "laayoune"
+    ]
+  },
+  "spec": {
+    "name": "Association de protection des industries préhistoire",
+    "id": "association-de-protection-des-industries-prehistoire",
+    "description": "No description available",
+    "location": {
+      "province": "province/laayoune",
+      "longitude": -13.213328,
+      "latitude": 27.161733,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

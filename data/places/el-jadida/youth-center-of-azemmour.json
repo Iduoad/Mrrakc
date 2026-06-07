@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/cultural-center",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Youth center of Azemmour",
+    "id": "youth-center-of-azemmour",
+    "description": "No Description Avaiable",
+    "location": {
+      "longitude": -8.340554237365723,
+      "latitude": 33.284682750612106,
+      "altitude": 27,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16523323871448852109",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

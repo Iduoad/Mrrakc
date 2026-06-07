@@ -2,7 +2,7 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": ["tetouan", "fnm"]
   },
   "spec": {
     "name": "Archeological Museum",

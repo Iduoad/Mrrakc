@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "el-khorbat",
+      "tinejdad"
+    ]
+  },
+  "spec": {
+    "name": "Oasis Museum",
+    "id": "oasis-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -5.085631,
+      "latitude": 31.494514,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

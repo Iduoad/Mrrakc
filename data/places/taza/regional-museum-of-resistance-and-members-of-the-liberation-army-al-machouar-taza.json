@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "taza"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of Resistance and Members of the Liberation Army Al Machouar Taza",
+    "id": "regional-museum-of-resistance-and-members-of-the-liberation-army-al-machouar-taza",
+    "description": "No description available",
+    "location": {
+      "province": "province/taza",
+      "longitude": -4.016586,
+      "latitude": 34.208617,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

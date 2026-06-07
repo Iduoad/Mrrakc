@@ -1,6 +1,11 @@
 {
   "version": "mrrakc/v0",
   "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
   "spec": {
     "name": "Majorelle Berber Museum",
     "id": "majorelle-berber-museum",

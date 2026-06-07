@@ -1,6 +1,11 @@
 {
   "version": "mrrakc/v0",
   "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
   "spec": {
     "name": "Tiskiwine Museum",
     "id": "tiskiwine-museum",

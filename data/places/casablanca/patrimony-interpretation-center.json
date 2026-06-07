@@ -7,7 +7,8 @@
             "historical-heritage",
             "interpretation-center",
             "old-medina-vicinity",
-            "urban-planning"
+            "urban-planning",
+            "casablanca"
         ]
     },
     "spec": {
@@ -21,7 +22,7 @@
         },
         "people": [
             {
-                "id": "people/casablanca-a-m-nagement",
+                "id": "people/casablanca-management",
                 "relationship": [
                     "developer"
                 ],

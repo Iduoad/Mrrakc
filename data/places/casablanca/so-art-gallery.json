@@ -20,7 +20,13 @@
         },
         "people": [],
         "timeline": [],
-        "links": [],
+        "links": [
+          {
+            "url": "https://www.soart-gallery.com/",
+            "type": "website",
+            "title": "Official website"
+          }
+        ],
         "activities": [
             "culture/sightseeing",
             "utility/shopping"

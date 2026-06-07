@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "safi",
+      "fnm"
+    ]
+  },
+  "spec": {
+    "name": "National Museum of Ceramics",
+    "id": "national-museum-of-ceramics",
+    "description": "No description available",
+    "location": {
+      "province": "province/safi",
+      "longitude": -9.237115,
+      "latitude": 32.296945,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

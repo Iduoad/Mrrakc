@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "agadir",
+      "fnm",
+      "agadir-earthquake"
+    ]
+  },
+  "spec": {
+    "name": "Agadir reconstruction museum",
+    "id": "agadir-reconstruction-museum",
+    "description": "Agadir reconstruction museum",
+    "location": {
+      "longitude": -9.602830599999999,
+      "latitude": 30.423847,
+      "altitude": 30,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5592051794776044583",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

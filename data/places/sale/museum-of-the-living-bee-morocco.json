@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "Museum of the Living Bee Morocco",
+    "id": "museum-of-the-living-bee-morocco",
+    "description": "No description available",
+    "location": {
+      "province": "province/sale",
+      "longitude": -6.799912,
+      "latitude": 34.020343,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

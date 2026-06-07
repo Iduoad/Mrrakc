@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "Haj Abdelkrim Raïs Museum‎",
+    "id": "haj-abdelkrim-ras-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/fez",
+      "longitude": -4.992668,
+      "latitude": 34.033127,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

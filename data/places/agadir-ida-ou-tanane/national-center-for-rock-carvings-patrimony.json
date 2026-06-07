@@ -1,0 +1,46 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "agadir",
+      "public-museum"
+    ]
+  },
+  "spec": {
+    "name": "National Center for Rock Carvings Patrimony",
+    "id": "national-center-for-rock-carvings-patrimony",
+    "description": "No description available",
+    "location": {
+      "longitude": -9.5966943,
+      "latitude": 30.42461939999999,
+      "altitude": 38,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=14617287054059945412",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://www.facebook.com/p/Centre-National-du-Patrimoine-Rupestre-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84%D9%86%D9%82%D9%88%D8%B4-%D8%A7%D9%84%D8%B5%D8%AE%D8%B1%D9%8A%D8%A9-100062954483744/",
+        "title": "Facebook page",
+        "type": "social"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

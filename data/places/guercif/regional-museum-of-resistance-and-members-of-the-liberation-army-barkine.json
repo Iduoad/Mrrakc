@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "berkine"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of Resistance and Members of the Liberation Army Barkine",
+    "id": "regional-museum-of-resistance-and-members-of-the-liberation-army-barkine",
+    "description": "No description available",
+    "location": {
+      "province": "province/guercif",
+      "longitude": -3.845868,
+      "latitude": 33.766005,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

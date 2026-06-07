@@ -1,0 +1,34 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/synagogue",
+  "metadata": {
+    "tags": [
+      "ouarzazate",
+      "kasbah",
+      "taourirt"
+    ]
+  },
+  "spec": {
+    "name": "The old synagogue of Taourirt",
+    "id": "the-old-synagogue-of-taourirt",
+    "description": "No description available",
+    "location": {
+      "province": "province/ouarzazate",
+      "longitude": -6.897735,
+      "latitude": 30.91921,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

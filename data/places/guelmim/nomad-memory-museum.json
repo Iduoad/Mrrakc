@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "guelmim"
+    ]
+  },
+  "spec": {
+    "name": "Nomad Memory Museum",
+    "id": "nomad-memory-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/guelmim",
+      "longitude": -9.964941,
+      "latitude": 28.945527,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

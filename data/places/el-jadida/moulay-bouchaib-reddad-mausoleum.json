@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Moulay Bouchaib Reddad Mausoleum",
+    "id": "moulay-bouchaib-reddad-mausoleum",
+    "description": "No description Available.",
+    "location": {
+      "longitude": -8.346304893493652,
+      "latitude": 33.28350782799779,
+      "altitude": 43,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16487322043879680021",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

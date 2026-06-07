@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tafraout"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Tafraout",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-tafraout",
+    "description": "No description available",
+    "location": {
+      "province": "province/tiznit",
+      "longitude": -8.97883,
+      "latitude": 29.717184,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

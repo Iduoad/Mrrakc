@@ -1,6 +1,11 @@
 {
   "version": "mrrakc/v0",
   "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh"
+    ]
+  },
   "spec": {
     "name": "Berber Museum of Jardin Majorelle",
     "id": "berber-museum-of-jardin-majorelle",

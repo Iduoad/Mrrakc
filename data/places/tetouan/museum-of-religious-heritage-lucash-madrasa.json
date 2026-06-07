@@ -2,7 +2,9 @@
   "version": "mrrakc/v0",
   "kind": "culture/museum",
   "metadata": {
-    "tags": []
+    "tags": [
+      "tetouan"
+    ]
   },
   "spec": {
     "name": "Museum of Religious Heritage / Lucash Madrasa",

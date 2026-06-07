@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "erfoud"
+    ]
+  },
+  "spec": {
+    "name": "Exposition Zyma Carrière de fossiles et marbre",
+    "id": "exposition-zyma-carrire-de-fossiles-et-marbre",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -4.16592,
+      "latitude": 31.376342,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

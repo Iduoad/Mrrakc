@@ -1,0 +1,35 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "azilal",
+      "fnm",
+      "dinosaurs",
+      "mgoun-geopark"
+    ]
+  },
+  "spec": {
+    "name": "Azilal museum",
+    "id": "azilal-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/azilal",
+      "longitude": -6.565146,
+      "latitude": 31.964305,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

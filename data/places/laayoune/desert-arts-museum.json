@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "laayoune"
+    ]
+  },
+  "spec": {
+    "name": "Desert Arts Museum",
+    "id": "desert-arts-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/laayoune",
+      "longitude": -13.206348,
+      "latitude": 27.151567,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "http://www.sahara-culture.com/Default.aspx?tabid=82",
+        "title": "http://www.sahara-culture.com/Default.aspx?tabid=82",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

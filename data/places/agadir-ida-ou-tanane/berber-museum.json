@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": [
+      "agadir",
+      "private-museum"
+    ]
+  },
+  "spec": {
+    "name": "Berber Museum",
+    "id": "berber-museum",
+    "description": "No description available.",
+    "location": {
+      "longitude": -9.5726967,
+      "latitude": 30.3846037,
+      "altitude": 19,
+      "province": "province/agadir-ida-ou-tanane"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3241406821013712307",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

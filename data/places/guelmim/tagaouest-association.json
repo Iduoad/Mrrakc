@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "guelmim"
+    ]
+  },
+  "spec": {
+    "name": "Tagaouest Association",
+    "id": "tagaouest-association",
+    "description": "No description available",
+    "location": {
+      "province": "province/guelmim",
+      "longitude": -10.170739,
+      "latitude": 28.996404,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

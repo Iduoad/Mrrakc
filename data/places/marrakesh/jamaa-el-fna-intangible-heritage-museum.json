@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh",
+      "fnm"
+    ]
+  },
+  "spec": {
+    "name": "Jamaa El Fna Intangible Heritage Museum",
+    "id": "jamaa-el-fna-intangible-heritage-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.98913,
+      "latitude": 31.625148,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

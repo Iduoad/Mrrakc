@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "zagora"
+    ]
+  },
+  "spec": {
+    "name": "Museum of Art & Traditions",
+    "id": "museum-of-art-traditions",
+    "description": "No description available",
+    "location": {
+      "province": "province/zagora",
+      "longitude": -5.859022,
+      "latitude": 30.396435,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

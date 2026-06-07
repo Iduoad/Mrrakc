@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Dolls of the World Exposition",
+    "id": "dolls-of-the-world-exposition",
+    "description": "- 💰 Price: 25 MAD (Local Price) - 🎨 Themes: Dolls ... - 🏛️ Venue: Riad in the Medina",
+    "location": {
+      "province": "province/rabat",
+      "longitude": -6.835532,
+      "latitude": 34.026611,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

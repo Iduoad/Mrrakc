@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tetouan"
+    ]
+  },
+  "spec": {
+    "name": "Palace Bricha",
+    "id": "palace-bricha",
+    "description": "No description available",
+    "location": {
+      "province": "province/tetouan",
+      "longitude": -5.365686,
+      "latitude": 35.572562,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

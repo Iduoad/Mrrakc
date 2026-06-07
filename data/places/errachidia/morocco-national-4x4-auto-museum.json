@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "merzouga"
+    ]
+  },
+  "spec": {
+    "name": "Morocco National 4x4 Auto Museum",
+    "id": "morocco-national-4x4-auto-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -4.011921,
+      "latitude": 31.072228,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

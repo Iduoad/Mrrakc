@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Lighthouse Museum - Cap Spartel",
+    "id": "lighthouse-museum-cap-spartel",
+    "description": "At one of Tangier's most picturesque locations, you will find the Cap Spartel Lighthouse, which once played a crucial role in maritime navigation. Now transformed into a museum dedicated to lighthouses, it offers an opportunity to explore their history and significance. Price: 20Dh for locals (+30Dh to go to the top of the lighthouse)",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.923884,
+      "latitude": 35.791057,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

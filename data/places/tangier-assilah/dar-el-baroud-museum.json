@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Dar El Baroud Museum",
+    "id": "dar-el-baroud-museum",
+    "description": "Now a Museum, Dar El Baroud is one of the city's significant bastions. It showcases with ammunition storage rooms, diverse cannons, military fortifications, and preserved artifacts like weapons and historical manuscripts.",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.808173,
+      "latitude": 35.788628,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

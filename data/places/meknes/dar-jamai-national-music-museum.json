@@ -1,0 +1,30 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": ["meknes", "fnm"]
+  },
+  "spec": {
+    "name": "Dar Jamai National Music Museum",
+    "id": "dar-jamai-national-music-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/meknes",
+      "longitude": -5.566581,
+      "latitude": 33.893741,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

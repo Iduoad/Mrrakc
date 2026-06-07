@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/art-gallery",
+  "metadata": {
+    "tags": [
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "Galerie Cote Oriental",
+    "id": "galerie-cote-oriental",
+    "description": "No description available",
+    "location": {
+      "province": "province/essaouira",
+      "longitude": -9.772505,
+      "latitude": 31.513161,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

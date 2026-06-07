@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "American Legation Museum",
+    "id": "american-legation-museum",
+    "description": "The only US National Historic Landmark located in a foreign country, is now home to the Tangier American Legation Institute for Moroccan Studies.",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.810707,
+      "latitude": 35.784116,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.legation.org/",
+        "title": "- More Info",
+        "type": "website"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

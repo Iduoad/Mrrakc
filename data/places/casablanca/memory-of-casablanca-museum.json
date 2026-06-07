@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "casablanca",
+      "villa",
+      "carl-ficke",
+      "fnm"
+    ]
+  },
+  "spec": {
+    "name": "Memory of Casablanca Museum",
+    "id": "memory-of-casablanca-museum",
+    "description": "No Description available",
+    "location": {
+      "longitude": -7.609057500958443,
+      "latitude": 33.58288612004246,
+      "altitude": 32,
+      "province": "province/casablanca"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=4342942976123468631",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

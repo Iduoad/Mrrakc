@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/building",
+  "metadata": {
+    "tags": [
+      "al-hoceima"
+    ]
+  },
+  "spec": {
+    "name": "Plaza de Annual",
+    "id": "plaza-de-annual",
+    "description": "No description available",
+    "location": {
+      "province": "province/al-hoceima",
+      "longitude": -3.600479,
+      "latitude": 35.13742,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

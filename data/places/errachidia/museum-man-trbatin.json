@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "goulmima"
+    ]
+  },
+  "spec": {
+    "name": "Museum Man Trbatin",
+    "id": "museum-man-trbatin",
+    "description": "No description available",
+    "location": {
+      "province": "province/errachidia",
+      "longitude": -4.848848,
+      "latitude": 31.548869,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

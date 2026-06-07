@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/artisanal-complex",
+  "metadata": {
+    "tags": [
+      "azemmour"
+    ]
+  },
+  "spec": {
+    "name": "Artisans House of Azemmour",
+    "id": "artisans-house-of-azemmour",
+    "description": "No Description Available",
+    "location": {
+      "longitude": -8.341557383537292,
+      "latitude": 33.29066138181329,
+      "altitude": 25,
+      "province": "province/el-jadida"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=4673299697647042122",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "kasbat-tadla"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army tadla",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-tadla",
+    "description": "No description available",
+    "location": {
+      "province": "province/beni-mellal",
+      "longitude": -6.268048,
+      "latitude": 32.595256,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

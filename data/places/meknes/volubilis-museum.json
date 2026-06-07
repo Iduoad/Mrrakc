@@ -1,0 +1,36 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "meknes",
+      "roman",
+      "moorish",
+      "pre-history",
+      "zerhoun"
+    ]
+  },
+  "spec": {
+    "name": "Volubilis Museum",
+    "id": "volubilis-museum",
+    "description": "No description available",
+    "location": {
+      "province": "province/meknes",
+      "longitude": -5.553372,
+      "latitude": 34.071505,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

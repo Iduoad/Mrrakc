@@ -1,8 +1,14 @@
 {
   "version": "mrrakc/v0",
   "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "marrakesh",
+      "fnm"
+    ]
+  },
   "spec": {
-    "name": "Dar Si Said Museum",
+    "name": "Dar Si Said National Museum of Weaving and Carpets",
     "id": "dar-si-said-museum",
     "description": "No description available",
     "location": {

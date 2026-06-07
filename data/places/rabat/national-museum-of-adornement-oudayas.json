@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "rabat",
+      "fnm"
+    ]
+  },
+  "spec": {
+    "name": "National Museum of Adornement Oudayas",
+    "id": "national-museum-of-adornement-oudayas",
+    "description": "No description available.",
+    "location": {
+      "longitude": -6.8356632,
+      "latitude": 34.0306121,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "comments": []
+  }
+}

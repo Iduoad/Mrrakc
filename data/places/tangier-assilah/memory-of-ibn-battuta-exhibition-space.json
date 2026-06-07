@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Memory of Ibn Battuta exhibition space",
+    "id": "memory-of-ibn-battuta-exhibition-space",
+    "description": "The museum is dedicated to honoring the memory of the renowned Moroccan explorer, Ibn Battuta, who is considered one of the greatest explorers in history. It displays exhibitions depicting his extraordinary journeys, the routes he traversed, and the remarkable adventures he undertook.",
+    "location": {
+      "province": "province/tangier-assilah",
+      "longitude": -5.814417,
+      "latitude": 35.789062,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

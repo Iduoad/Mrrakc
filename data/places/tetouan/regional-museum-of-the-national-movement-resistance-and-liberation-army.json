@@ -1,0 +1,32 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "tetouan"
+    ]
+  },
+  "spec": {
+    "name": "Regional Museum of the National Movement, Resistance, and Liberation Army Tetouan",
+    "id": "regional-museum-of-the-national-movement-resistance-and-liberation-army-tetouan",
+    "description": "No description available",
+    "location": {
+      "province": "province/tetouan",
+      "longitude": -5.365207,
+      "latitude": 35.572406,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}
