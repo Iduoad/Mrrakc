@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Cap de l'eau viewpoint",
+    "id": "cap-de-leau-viewpoint",
+    "description": "Beautiful viewpoint on Rabat and Mohammed VI tower.",
+    "location": {
+      "longitude": -6.804530918598175,
+      "latitude": 34.0258856996084,
+      "altitude": 58,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=12878280234598758408",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

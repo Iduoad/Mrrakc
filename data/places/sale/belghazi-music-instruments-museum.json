@@ -9,21 +9,33 @@
   "spec": {
     "name": "Belghazi Music Instruments Museum",
     "id": "belghazi-music-instruments-museum",
-    "description": "No description available.",
+    "description": "One of the oldest building still standing in Sale. It used to be a Maristan (Hospital) then Judge house, then today it was turned to a Music Instruments Museum.",
     "location": {
       "longitude": -6.8246742,
       "latitude": 34.0379525,
+      "altitude": 0,
       "province": "province/sale"
     },
     "people": [],
     "timeline": [],
     "links": [],
-    "activities": [],
-    "items": [],
+    "activities": [
+      "culture/museum-visit"
+    ],
+    "items": [
+      "architecture/monuments"
+    ],
     "access": {
-      "type": "public",
       "status": "open",
-      "options": []
+      "type": "private",
+      "options": [
+        {
+          "title": "Adults",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": 40
+        }
+      ]
     },
     "timePeriods": [],
     "comments": []

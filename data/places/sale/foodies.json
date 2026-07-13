@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/street-food",
+  "metadata": {
+    "tags": [
+      "churro",
+      "waffle",
+      "tiramisu"
+    ]
+  },
+  "spec": {
+    "name": "Foodie's",
+    "id": "foodies",
+    "description": "A small Churros and Waffles restaurant. They provide both sweet and salty combinations and few deserts.",
+    "location": {
+      "longitude": -6.801395416259766,
+      "latitude": 34.02980248974552,
+      "altitude": 62,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=14653894168660588477",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/dining"
+    ],
+    "items": [
+      "cuisine/mediterranean",
+      "cuisine/street-food",
+      "cuisine/bakery"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

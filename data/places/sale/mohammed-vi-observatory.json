@@ -1,0 +1,53 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "culture/museum",
+  "metadata": {
+    "tags": [
+      "observatory"
+    ]
+  },
+  "spec": {
+    "name": "Mohammed VI Observatory",
+    "id": "mohammed-vi-observatory",
+    "description": "A space museum and observatory in the 55th floor of the Mohammed VI tower.",
+    "location": {
+      "longitude": -6.805402636528015,
+      "latitude": 34.01892750514229,
+      "altitude": 4,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17099535700289837284",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "private",
+      "options": [
+        {
+          "title": "Adults",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": 250
+        },
+        {
+          "title": "Youth (Under 18)",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": 80
+        }
+      ]
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

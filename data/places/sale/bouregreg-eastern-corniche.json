@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": [
+      "corniche",
+      "bouregreg",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "Bouregreg Eastern Corniche",
+    "id": "bouregreg-eastern-corniche",
+    "description": "Bouregreg Eastern Corniche - Sale",
+    "location": {
+      "longitude": -6.8061912059783936,
+      "latitude": 34.020910537532096,
+      "altitude": 4,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=9725594321565235519",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "architecture/tower",
+  "metadata": {
+    "tags": [
+      "tower"
+    ]
+  },
+  "spec": {
+    "name": "Mohammed VI Tower",
+    "id": "mohammed-vi-tower",
+    "description": "The Mohammed VI Tower is a 55-story, 250-metre skyscraper in the city of Salé, bordering Rabat, the capital of Morocco. It is the tallest building in Morocco and the fourth tallest in Africa. It is a project by the Moroccan businessman Othman Benjelloun and led by the company O'Tower.",
+    "location": {
+      "longitude": -6.8051934242248535,
+      "latitude": 34.01894529039202,
+      "altitude": 4,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=15912443594169784162",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

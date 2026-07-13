@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "entertainment/theatre",
+  "metadata": {
+    "tags": [
+      "theater",
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Royal Theater Rabat",
+    "id": "royal-theater-rabat",
+    "description": "The royal theater of Rabat",
+    "location": {
+      "longitude": -6.815096139907837,
+      "latitude": 34.02589014555666,
+      "altitude": 6,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1921190598979687580",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

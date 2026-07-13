@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/landmark",
+  "metadata": {
+    "tags": [
+      "park",
+      "rabat",
+      "mohammed 6 tower"
+    ]
+  },
+  "spec": {
+    "name": "Water Games Park",
+    "id": "water-games-park",
+    "description": "A Small part on the side of the Mohammed VI tower",
+    "location": {
+      "longitude": -6.8082404136657715,
+      "latitude": 34.02053705515225,
+      "altitude": 3,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=3168563454124371673",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

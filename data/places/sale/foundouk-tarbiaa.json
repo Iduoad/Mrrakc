@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/artisanal-complex",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Foundouk Tarbiaa",
+    "id": "foundouk-tarbiaa",
+    "description": "Foundouk Tarbiaa (aka Sidi Benaacher) is one of the oldest Foundouks in the Souk El Kebir ",
+    "location": {
+      "longitude": -6.822783350944519,
+      "latitude": 34.038684619651114,
+      "altitude": 19,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2789478407131078944",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

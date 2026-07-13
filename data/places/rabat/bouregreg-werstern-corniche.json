@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/corniche",
+  "metadata": {
+    "tags": [
+      "corniche",
+      "bouregreg"
+    ]
+  },
+  "spec": {
+    "name": "Bouregreg Werstern Corniche",
+    "id": "bouregreg-werstern-corniche",
+    "description": "East part of Bouregreg corniche - Rabat",
+    "location": {
+      "longitude": -6.808294057846069,
+      "latitude": 34.019007538736766,
+      "altitude": 7,
+      "province": "province/rabat"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=2797801240005726900",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [
+      "nature/scenic-views"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

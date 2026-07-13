@@ -1,0 +1,49 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "religion/mausoleum",
+  "metadata": {
+    "tags": [
+      "mausoleum"
+    ]
+  },
+  "spec": {
+    "name": "Sidi Bou Sedra Mausoleum",
+    "id": "sidi-bou-sedra-mausoleum",
+    "description": "Very small mausoleum close to the northern bank of the Bouregreg River. \"Bou Sedra\" means \"the one of the sidra\" (the Christ's-thorn jujube), a tree regarded as sacred in several religions.\n\nIn the collective memory of the people of Salé (the Slaouis), the mausoleum is associated with the prophet Younes (Jonah). According to local traditions and historical sources, Jonah is said to have been cast ashore here after emerging from the belly of the whale, sick and weak, whereupon God caused a gourd plant to grow beside him. the gourd known to this day as the \"Salé squash\" (al-qar'a Slaouia) also called the \"noble gourd\" (al-qar'a al-sharifa) out of reverence for its link to the prophet.\n\nThe historian Muhammad Hajji notes that, although the tradition is not free of a legendary character, it is not ruled out on geographical grounds, since the Mediterranean is connected to the Atlantic, nor denied by history, given the reach of Roman influence at the time, which brought both the Levant and Morocco into the sphere of its empire.\n\nThe mausoleum is related in the collectiive memory of Slaoui People with the prophet Younes (Jonah). Since the place is close to the sea according to various ",
+    "location": {
+      "longitude": -6.807543039321899,
+      "latitude": 34.02553446895866,
+      "altitude": 8,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=8529346107145402312",
+        "title": "Google Maps",
+        "type": "map"
+      },
+      {
+        "url": "https://ar.zamane.ma/%D9%82%D8%A8%D8%B1-%D8%A7%D9%84%D9%86%D8%A8%D9%8A-%D9%8A%D9%88%D9%86%D8%B3-%D9%8A%D9%88%D8%AC%D8%AF-%D8%A8%D8%B3%D9%84%D8%A7-%D8%B2%D9%85%D8%A7%D9%86/",
+        "title": "Zamane Magazine Article",
+        "type": "article"
+      }
+    ],
+    "activities": [
+      "religion/pilgrimage"
+    ],
+    "items": [
+      "architecture/monuments"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

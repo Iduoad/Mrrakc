@@ -1,0 +1,46 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/restaurant",
+  "metadata": {
+    "tags": [
+      "sea-food"
+    ]
+  },
+  "spec": {
+    "name": "Al Marsa Restaurant",
+    "id": "al-marsa-restaurant",
+    "description": "Dine Dinning restaurant on the Marina corniche of Sale",
+    "location": {
+      "longitude": -6.822810173034668,
+      "latitude": 34.028095307191144,
+      "altitude": 4,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=17666997714706602035",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [
+      "utility/dining"
+    ],
+    "items": [
+      "cuisine/moroccan",
+      "cuisine/mediterranean",
+      "cuisine/seafood"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

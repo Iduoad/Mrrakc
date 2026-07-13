@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/park",
+  "metadata": {
+    "tags": [
+      "park",
+      "picnic"
+    ]
+  },
+  "spec": {
+    "name": "Almoravide Corniche Park",
+    "id": "almoravide-corniche-park",
+    "description": "Almoravide corniche park, A good picnic place.",
+    "location": {
+      "longitude": -6.81801438331604,
+      "latitude": 34.029775815282264,
+      "altitude": 5,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=16938997986909177162",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}

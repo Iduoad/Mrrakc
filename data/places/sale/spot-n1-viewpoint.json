@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "urban/viewpoint",
+  "metadata": {
+    "tags": [
+      "viewpoint"
+    ]
+  },
+  "spec": {
+    "name": "Spot N1 Viewpoint",
+    "id": "spot-n1-viewpoint",
+    "description": "A good viewpoint on Sale, Rabat and Mohammed VI Tower",
+    "location": {
+      "longitude": -6.806121468544006,
+      "latitude": 34.02615912499397,
+      "altitude": 57,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=5631032787237752614",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [
+      "nature/scenic-views"
+    ],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}
