@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useForm, useFieldArray, Controller } from 'react-hook-form';
 import Select from 'react-select';
 import CreatableSelect from 'react-select/creatable';
-import { 
-  PlaceSchema, 
-  type Place, 
-  KINDS, 
+import {
+  PlaceSchema,
+  PlaceEditSchema,
+  type Place,
+  KINDS,
   ACTIVITIES, 
   ITEMS, 
   ACCESS_STATUS, 
@@ -32,6 +33,8 @@ interface Props {
   onSubmit: (data: Place) => void;
   onCancel: () => void;
   onError?: (message: string) => void;
+  /** Use the relaxed PlaceEditSchema on submit (local editor mode). */
+  lenient?: boolean;
 }
 
 // Local interface for form handling because useFieldArray requires objects
@@ -120,7 +123,7 @@ const CollapsibleSection: React.FC<{
   );
 };
 
-const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }) => {
+const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError, lenient }) => {
   const {
     register,
     control,
@@ -267,7 +270,7 @@ const PlaceForm: React.FC<Props> = ({ initialData, onSubmit, onCancel, onError }
     } as Place;
 
     // Validate with Zod before calling parent onSubmit
-    const result = PlaceSchema.safeParse(finalData);
+    const result = (lenient ? PlaceEditSchema : PlaceSchema).safeParse(finalData);
     if (result.success) {
       onSubmit(result.data);
     } else {

@@ -165,5 +165,15 @@ export const PlaceSchema = z.object({
   }).optional(),
 });
 
+// Relaxed schema for the local editor: existing dataset files often have an
+// empty timePeriods array and placeholder descriptions, which the strict
+// PlaceSchema rejects. This lets legacy records be saved after minor edits
+// without forcing the user to complete every required field.
+export const PlaceEditSchema = PlaceSchema.extend({
+  spec: PlaceSchema.shape.spec.extend({
+    description: z.string(),
+    timePeriods: z.array(z.string()),
+  }),
+});
 
 export type Place = z.infer<typeof PlaceSchema>;

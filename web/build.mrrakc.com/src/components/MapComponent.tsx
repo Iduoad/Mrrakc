@@ -20,6 +20,8 @@ interface Props {
   onMenuClick: () => void;
   isSidebarOpen: boolean;
   onError?: (message: string) => void;
+  /** Optional: pan/zoom the map to this point when it changes (editor mode). */
+  focusPoint?: { lat: number; lng: number; zoom?: number };
 }
 
 const getCategoryColor = (kind: string) => {
@@ -39,7 +41,8 @@ export const MapComponent: React.FC<Props> = ({
   onPlaceClick,
   onMenuClick,
   isSidebarOpen,
-  onError
+  onError,
+  focusPoint
 }) => {
   const map = useMap();
   const placesLib = useMapsLibrary('places');
@@ -94,6 +97,13 @@ export const MapComponent: React.FC<Props> = ({
   useEffect(() => {
     loadProvinces().then(data => setProvinces(data));
   }, []);
+
+  // Editor mode: pan to the selected province when it changes
+  useEffect(() => {
+    if (!map || !focusPoint) return;
+    map.panTo({ lat: focusPoint.lat, lng: focusPoint.lng });
+    map.setZoom(focusPoint.zoom ?? 10);
+  }, [map, focusPoint]);
 
   // Set up Data layer for provinces
   useEffect(() => {
