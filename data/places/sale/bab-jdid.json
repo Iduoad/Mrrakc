@@ -2,15 +2,18 @@
   "version": "mrrakc/v0",
   "kind": "history/gate",
   "metadata": {
-    "tags": []
+    "tags": [
+      "gate"
+    ]
   },
   "spec": {
     "name": "Bab Jdid",
     "id": "bab-jdid",
-    "description": "No description available.",
+    "description": "Small city gate with little importance. It was used during the 1960s as a gate to the warehouses.",
     "location": {
       "longitude": -6.8267584,
       "latitude": 34.0364842,
+      "altitude": 0,
       "province": "province/sale"
     },
     "people": [],
@@ -19,8 +22,8 @@
     "activities": [],
     "items": [],
     "access": {
-      "type": "public",
       "status": "open",
+      "type": "public",
       "options": []
     },
     "timePeriods": [],

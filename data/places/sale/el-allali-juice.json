@@ -10,7 +10,7 @@
   "spec": {
     "name": "El Allali Juice",
     "id": "el-allali-juice",
-    "description": "Creative juice shop offering multiple detoxx juice variation based on healthy ingredient like Spinash, beats, green apples, celery, carrots and sugar cane juice.",
+    "description": "Creative juice shop offering multiple detoxx juice variation based on healthy ingredient like Spinash, beats, green apples, celery, carrots and sugar cane juice.\n\nThey offer 3 different variations of the juice: Green (Cucumber), Red (beats) and Yellow (carrots) with optional sugar cane juice and ginger.",
     "location": {
       "longitude": -6.8223461508750916,
       "latitude": 34.03600407482076,
@@ -32,7 +32,7 @@
     ],
     "access": {
       "status": "open",
-      "type": "public",
+      "type": "private",
       "options": [
         {
           "title": "Juice cup price",

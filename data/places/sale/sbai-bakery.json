@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "food/bakery",
+  "metadata": {
+    "tags": []
+  },
+  "spec": {
+    "name": "Sbai Bakery",
+    "id": "sbai-bakery",
+    "description": "One of the oldest bakeries of sale, offering pastries, Moroccan almond sweets and Sables.",
+    "location": {
+      "longitude": -6.821713149547577,
+      "latitude": 34.03557731359863,
+      "altitude": 11,
+      "province": "province/sale"
+    },
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://maps.google.com/?cid=1338655523373475736",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "access": {
+      "status": "open",
+      "type": "public",
+      "options": []
+    },
+    "timePeriods": [
+      "Modern"
+    ],
+    "comments": []
+  }
+}
