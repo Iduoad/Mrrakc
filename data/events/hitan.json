@@ -1,17 +1,18 @@
 {
   "version": "mrrakc/v0",
-  "kind": "festival/spring",
+  "kind": "festival/visual-arts",
   "metadata": {
     "tags": [
-      "spring",
-      "cultural",
+      "street-art",
+      "murals",
+      "urban-art",
       "sale"
     ]
   },
   "spec": {
     "name": "Hitan Festival",
     "id": "hitan",
-    "description": "Spring festival in Salé celebrating the season with cultural performances, workshops and community gatherings.",
+    "description": "Street-art festival adding a creative touch to the urban fabric of Salé. Internationally selected and emerging Moroccan artists paint murals across the city's neighborhoods, alongside a collaborative mural, an exhibition of competition entries, and a guide documenting Salé's visual artists. Organized by the Salé municipality with the Salé Foundation for Culture and Arts and the French Institute in Morocco.",
     "status": "active",
     "host": {
       "provinces": [
@@ -24,8 +25,23 @@
       "months": [
         5
       ],
-      "part": "mid",
-      "note": "Spring season, mid-May"
-    }
+      "part": "late",
+      "note": "Late May"
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2025,
+        "startDate": "2025-05-19",
+        "endDate": "2025-05-28"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.villedesale.ma/",
+        "title": "Ville de Salé",
+        "type": "website"
+      }
+    ]
   }
 }

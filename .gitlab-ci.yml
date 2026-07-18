@@ -1,0 +1,42 @@
+# Validate Mrrakc JSON data against the boon schemas.
+# Mirrors .github/workflows/validate.yml for the GitLab origin.
+
+stages:
+  - validate
+
+validate-json:
+  stage: validate
+  image: rust:latest
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+  variables:
+    # Keep the cargo home inside the project so the boon binary is cacheable.
+    CARGO_HOME: "$CI_PROJECT_DIR/.cargo"
+  cache:
+    key: boon-cli
+    paths:
+      - .cargo/bin/boon
+  before_script:
+    - export PATH="$CARGO_HOME/bin:$PATH"
+    - command -v boon || cargo install boon-cli
+  script:
+    - echo "🏛️ Validating provinces data..."
+    - boon schema/provinces.json data/provinces/*.json
+    - echo "✅ Provinces validation passed"
+
+    - echo "🧑 Validating people data..."
+    - boon schema/people.json data/people/*.json
+    - echo "✅ People validation passed"
+
+    - echo "🏛️ Validating places data..."
+    - boon schema/places.json data/places/*/*.json
+    - echo "✅ Places validation passed"
+
+    - echo "🗺️ Validating maps data..."
+    - boon schema/maps.json data/maps/*.json
+    - echo "✅ Maps validation passed"
+
+    - echo "🎪 Validating events data..."
+    - boon schema/events.json data/events/*.json
+    - echo "✅ Events validation passed"
