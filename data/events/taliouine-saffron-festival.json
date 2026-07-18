@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "saffron",
+      "harvest",
+      "souss",
+      "taliouine"
+    ]
+  },
+  "spec": {
+    "name": "Taliouine International Saffron Festival",
+    "id": "taliouine-saffron-festival",
+    "description": "Festival of the saffron harvest in Taliouine, Morocco's saffron capital, with an exhibition of producers, ahwach performances and workshops around the world's most precious spice.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taroudant"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "early",
+      "typicalDurationDays": 4,
+      "note": "Dates depend on the saffron harvest and are announced shortly before"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    }
+  }
+}

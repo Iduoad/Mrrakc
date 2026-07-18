@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "urban",
+      "rock",
+      "hip-hop",
+      "casablanca"
+    ]
+  },
+  "spec": {
+    "name": "L'Boulevard",
+    "id": "lboulevard",
+    "description": "Casablanca's legendary urban music festival and the largest street-culture event in North Africa, running since 1999. Rock, metal, hip-hop and fusion acts play the R.U.C. stadium, with the Tremplin competition serving as a springboard for young Moroccan bands.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Festival tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 22,
+        "startDate": "2024-09-12",
+        "endDate": "2024-09-15"
+      },
+      {
+        "year": 2025,
+        "edition": 23,
+        "startDate": "2025-09-18",
+        "endDate": "2025-09-21"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.boulevard.ma/",
+        "title": "L'Boulevard official website",
+        "type": "website"
+      }
+    ]
+  }
+}

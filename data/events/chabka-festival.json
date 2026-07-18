@@ -1,0 +1,28 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "textiles",
+      "crafts",
+      "weaving",
+      "heritage"
+    ]
+  },
+  "spec": {
+    "name": "Chabka Festival",
+    "id": "chabka-festival",
+    "description": "Festival celebrating traditional Moroccan weaving and textile arts, showcasing chabka (a traditional weaving technique) and contemporary interpretations.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "irregular",
+      "note": "Exact dates announced per edition"
+    }
+  }
+}

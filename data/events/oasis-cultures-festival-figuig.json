@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "oasis",
+      "heritage",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Oasis Cultures Festival of Figuig",
+    "id": "oasis-cultures-festival-figuig",
+    "description": "Festival highlighting the beauty, culture and traditions of the Figuig oasis, promoting its natural and human potential, supporting tourism projects and helping break the isolation of the region.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/figuig"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 14,
+        "startDate": "2021-11-26",
+        "endDate": "2021-11-28",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

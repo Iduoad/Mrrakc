@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/religious",
+  "metadata": {
+    "tags": [
+      "moussem",
+      "tbourida",
+      "fantasia",
+      "doukkala"
+    ]
+  },
+  "spec": {
+    "name": "Moussem of Moulay Abdellah Amghar",
+    "id": "moussem-moulay-abdellah-amghar",
+    "description": "One of the largest religious moussems in Morocco, held around the mausoleum of Moulay Abdellah Amghar near El Jadida. It is famous for its massive tbourida (fantasia) gatherings, drawing hundreds of horse troupes and hundreds of thousands of visitors.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/el-jadida"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "hijri",
+      "hijriMonth": 3,
+      "observance": "mawlid",
+      "note": "Traditionally tied to the weeks around Mawlid; exact Gregorian dates drift each year and are announced close to the event"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Open moussem grounds",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    }
+  }
+}

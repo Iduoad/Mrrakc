@@ -7,6 +7,7 @@ import path from 'path';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const placesDataPath = path.resolve(__dirname, '../../../../data/places');
 const provincesDataPath = path.resolve(__dirname, '../../../../data/provinces');
+const eventsDataPath = path.resolve(__dirname, '../../../../data/events');
 
 const blog = defineCollection({
     type: 'content',
@@ -135,5 +136,66 @@ const plans = defineCollection({
     }),
 });
 
-export const collections = { blog, places, provinces, maps, games, plans };
+const events = defineCollection({
+    loader: glob({ pattern: "**/*.json", base: eventsDataPath }),
+    schema: z.object({
+        version: z.string(),
+        kind: z.string(),
+        metadata: z.object({
+            tags: z.array(z.string()).optional()
+        }).optional(),
+        spec: z.object({
+            name: z.string(),
+            id: z.string(),
+            description: z.string(),
+            status: z.enum(['active', 'discontinued', 'unknown']),
+            host: z.object({
+                provinces: z.array(z.string()).min(1),
+                places: z.array(z.string()).optional(),
+            }),
+            recurrence: z.object({
+                frequency: z.enum(['annual', 'biennial', 'irregular']),
+                type: z.enum(['gregorian', 'hijri', 'seasonal', 'irregular']),
+                typicalDurationDays: z.number().int().positive().optional(),
+                note: z.string().optional(),
+                months: z.array(z.number().int().min(1).max(12)).optional(),
+                part: z.enum(['early', 'mid', 'late', 'first-half', 'second-half', 'full']).optional(),
+                hijriMonth: z.number().int().min(1).max(12).optional(),
+                hijriDay: z.number().int().min(1).max(30).optional(),
+                observance: z.enum(['ramadan', 'eid-al-fitr', 'eid-al-adha', 'mawlid', 'ashura', 'hijri-new-year']).optional(),
+                season: z.enum(['spring', 'summer', 'autumn', 'winter']).optional(),
+                urls: z.array(z.object({
+                    url: z.string(),
+                    title: z.string().optional(),
+                })).optional(),
+            }),
+            admission: z.object({
+                options: z.array(z.object({
+                    title: z.string(),
+                    modality: z.string(),
+                    audience: z.string(),
+                    entranceFee: z.number(),
+                })),
+            }).optional(),
+            editions: z.array(z.object({
+                edition: z.number().int().optional(),
+                year: z.number().int(),
+                status: z.enum(['held', 'cancelled']).default('held'),
+                startDate: z.string().optional(),
+                endDate: z.string().optional(),
+                provinces: z.array(z.string()).optional(),
+                places: z.array(z.string()).optional(),
+                notes: z.string().optional(),
+            })).optional(),
+            links: z.array(z.object({
+                url: z.string(),
+                type: z.string(),
+                title: z.string(),
+            })).optional(),
+            comments: z.array(z.string()).optional(),
+        }),
+    }),
+});
+
+export const collections = { blog, places, provinces, maps, games, plans, events };
 

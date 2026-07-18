@@ -1,0 +1,58 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "cherry",
+      "harvest",
+      "unesco",
+      "sefrou"
+    ]
+  },
+  "spec": {
+    "name": "Sefrou Cherry Festival",
+    "id": "sefrou-cherry-festival",
+    "description": "Harvest festival celebrating the cherry season in Sefrou since 1920, crowned by the parade of the Cherry Queen. Inscribed by UNESCO on the Representative List of the Intangible Cultural Heritage of Humanity in 2012.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sefrou"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 1920,
+        "edition": 1,
+        "notes": "First edition"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ],
+    "comments": [
+      "One of the oldest festivals in Morocco, running since 1920."
+    ]
+  }
+}

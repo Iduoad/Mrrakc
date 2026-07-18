@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "popular-arts",
+      "folklore",
+      "marrakesh"
+    ]
+  },
+  "spec": {
+    "name": "National Festival of Popular Arts",
+    "id": "marrakech-popular-arts-festival",
+    "description": "The oldest festival in Morocco, held in Marrakesh since 1959. Folk troupes from every region of the country, from ahwach to gnaoua to abidat rma, perform in the historic venues of the city, notably the El Badi Palace and Jemaa el-Fna.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "note": "Recent editions have shifted between late June and July"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2019,
+        "edition": 50,
+        "notes": "50th anniversary edition"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ],
+    "comments": [
+      "Founded in 1959, making it the oldest running festival in Morocco."
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "gnaoua",
+      "world-music",
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "Gnaoua and World Music Festival",
+    "id": "gnaoua-world-music-festival",
+    "description": "Festival held in Essaouira since 1998, dedicated to Gnaoua music and its fusion with jazz, blues and world music. Maalems and international artists perform on open-air stages and in intimate venues across the medina.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/essaouira"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "late",
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Open-air stages",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Intimate concerts",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2019,
+        "edition": 22,
+        "startDate": "2019-06-20",
+        "endDate": "2019-06-23"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2022,
+        "edition": 23,
+        "notes": "Held as the Gnaoua Festival Tour, a touring format"
+      },
+      {
+        "year": 2023,
+        "edition": 24,
+        "startDate": "2023-06-22",
+        "endDate": "2023-06-24"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.festival-gnaoua.net/",
+        "title": "Gnaoua Festival official website",
+        "type": "website"
+      }
+    ]
+  }
+}

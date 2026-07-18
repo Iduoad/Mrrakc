@@ -1,0 +1,54 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/theater",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "theater",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Afulay Forum of Amazigh Theater",
+    "id": "afulay-amazigh-theater-forum",
+    "description": "Forum in Tiznit dedicated to Amazigh-language theater, showcasing plays and theatrical creation in Tamazight, encouraging its use on stage and building bridges between researchers, practitioners and young theater amateurs.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tiznit"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ]
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "startDate": "2021-11-26",
+        "endDate": "2021-12-02",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

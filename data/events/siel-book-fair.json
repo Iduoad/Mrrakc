@@ -1,0 +1,72 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/book",
+  "metadata": {
+    "tags": [
+      "books",
+      "publishing",
+      "literature",
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "International Book and Publishing Fair (SIEL)",
+    "id": "siel-book-fair",
+    "description": "Morocco's largest book fair, gathering publishers, authors and institutions from Morocco and abroad. Hosted in Casablanca for decades, the salon moved to Rabat at the OLM Souissi grounds, drawing hundreds of thousands of visitors with signings, round tables and a vast book market.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4,
+        5
+      ],
+      "typicalDurationDays": 11,
+      "note": "Held in spring, between mid-April and mid-May depending on the year"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "General entry",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 29,
+        "year": 2024,
+        "startDate": "2024-05-09",
+        "endDate": "2024-05-19"
+      },
+      {
+        "edition": 30,
+        "year": 2025,
+        "startDate": "2025-04-17",
+        "endDate": "2025-04-27"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-05-01",
+        "endDate": "2026-05-10"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://siel.ma/",
+        "title": "SIEL official website",
+        "type": "website"
+      }
+    ],
+    "comments": [
+      "Held in Casablanca until 2020; hosted in Rabat since 2022."
+    ]
+  }
+}

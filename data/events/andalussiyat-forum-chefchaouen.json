@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "andalusi",
+      "oud",
+      "music",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Andalussiyat Forum of Chefchaouen",
+    "id": "andalussiyat-forum-chefchaouen",
+    "description": "Annual gathering in Chefchaouen dedicated to Andalusi musical arts, with a strong focus on the oud. It bridges heritage and contemporary practice and introduces young audiences to the different schools of the instrument.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/chefchaouen"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "late",
+      "note": "Usually held around 26-28 June"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 35,
+        "notes": "Held as a virtual edition"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

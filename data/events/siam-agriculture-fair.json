@@ -1,0 +1,71 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/agriculture",
+  "metadata": {
+    "tags": [
+      "agriculture",
+      "livestock",
+      "food",
+      "meknes"
+    ]
+  },
+  "spec": {
+    "name": "International Agricultural Fair of Morocco (SIAM)",
+    "id": "siam-agriculture-fair",
+    "description": "Africa's largest agricultural fair, held in Meknes since 2006. Farmers, cooperatives, agri-businesses and international delegations gather around themed pavilions for machinery, livestock, regional products and water management, with a different country of honor each year.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/meknes"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 7,
+      "note": "Late April; first days reserved for professionals before opening to the general public"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "General public entry",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 16,
+        "year": 2024,
+        "startDate": "2024-04-22",
+        "endDate": "2024-04-28"
+      },
+      {
+        "edition": 17,
+        "year": 2025,
+        "startDate": "2025-04-21",
+        "endDate": "2025-04-27"
+      },
+      {
+        "edition": 18,
+        "year": 2026,
+        "startDate": "2026-04-20",
+        "endDate": "2026-04-28",
+        "notes": "Theme: sustainability of animal production and food sovereignty"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.salon-agriculture.ma/",
+        "title": "SIAM official website",
+        "type": "website"
+      }
+    ]
+  }
+}

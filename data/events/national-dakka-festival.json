@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "dakka",
+      "percussion",
+      "souss",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "National Festival of Dakka and Rhythms",
+    "id": "national-dakka-festival",
+    "description": "National festival in Taroudant celebrating dakka, a collective percussion and chant art historically tied to craftsmen's guilds, famous in its Roudani (Taroudant) and Marrakchi forms. Researchers trace the origins of the art to Taroudant itself.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taroudant"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 14,
+        "startDate": "2021-07-02",
+        "endDate": "2021-07-04",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "showcase",
+      "music",
+      "africa",
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Visa For Music",
+    "id": "visa-for-music",
+    "description": "Africa and Middle East professional music market and showcase festival, held in Rabat since 2014. Artists from across Africa and the Arab world perform showcases for programmers and the public, alongside conferences and training for music professionals.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 11,
+        "startDate": "2024-11-20",
+        "endDate": "2024-11-23"
+      },
+      {
+        "year": 2025,
+        "edition": 12,
+        "startDate": "2025-11-19",
+        "endDate": "2025-11-22"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://visaformusic.com/",
+        "title": "Visa For Music official website",
+        "type": "website"
+      }
+    ]
+  }
+}

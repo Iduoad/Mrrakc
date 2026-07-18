@@ -1,0 +1,51 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "dates",
+      "harvest",
+      "oasis",
+      "tafilalet"
+    ]
+  },
+  "spec": {
+    "name": "Erfoud Date Festival",
+    "id": "erfoud-date-festival",
+    "description": "Harvest festival held in Erfoud, in the Tafilalet oasis, since 1940, celebrating the date harvest with a date market, folk performances, camel races and the crowning of the date queen.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/errachidia"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ],
+    "comments": [
+      "Held since 1940 at the end of the date harvest season."
+    ]
+  }
+}

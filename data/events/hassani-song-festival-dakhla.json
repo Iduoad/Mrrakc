@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "hassani",
+      "music",
+      "sahara",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "National Hassani Song Festival",
+    "id": "hassani-song-festival-dakhla",
+    "description": "National festival in Dakhla celebrating the Hassani song, rich in rhythm and poetry and carried by traditional instruments such as the tbal, tidinit and neifara, as an annual meeting for celebrating and renewing Hassani culture.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/oued-ed-dahab"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 15,
+        "startDate": "2021-11-18",
+        "endDate": "2021-11-20"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

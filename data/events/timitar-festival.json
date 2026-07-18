@@ -1,0 +1,55 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "music",
+      "agadir"
+    ]
+  },
+  "spec": {
+    "name": "Timitar Festival",
+    "id": "timitar-festival",
+    "description": "Festival of Amazigh music and world music held in Agadir since 2004 under the motto 'a festival of signs', hosting rways and Amazigh groups alongside international artists on large open-air stages.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2019,
+        "edition": 16,
+        "startDate": "2019-07-04",
+        "endDate": "2019-07-06"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.festivaltimitar.ma/",
+        "title": "Timitar Festival official website",
+        "type": "website"
+      }
+    ]
+  }
+}

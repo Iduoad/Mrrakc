@@ -1,0 +1,63 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "film",
+      "women",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "International Women's Film Festival of Salé",
+    "id": "festival-international-film-femmes-sale",
+    "description": "Prestigious annual festival celebrating women filmmakers and films centered on women's perspectives. Founded in 2004, it screens documentaries, features and shorts from across the globe in Salé's venues.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "typicalDurationDays": 6,
+      "note": "Late September to early October"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Concert/screening tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 17,
+        "startDate": "2024-09-23",
+        "endDate": "2024-09-28"
+      },
+      {
+        "year": 2025,
+        "edition": 18,
+        "startDate": "2025-09-22",
+        "endDate": "2025-09-27"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.fiffs.ma/",
+        "title": "FIFFS official website",
+        "type": "website"
+      }
+    ]
+  }
+}

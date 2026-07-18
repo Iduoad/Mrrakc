@@ -67,3 +67,12 @@ jobs:
             exit 1
           }
           echo "✅ Maps validation passed"
+
+      - name: Validate Events Data
+        run: |
+          echo "🎪 Validating events data..."
+          boon schema/events.json data/events/*.json || {
+            echo "❌ Events validation failed"
+            exit 1
+          }
+          echo "✅ Events validation passed"

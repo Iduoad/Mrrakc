@@ -1,0 +1,55 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "electronic",
+      "music",
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "MOGA Festival",
+    "id": "moga-essaouira",
+    "description": "Boutique electronic music festival on the Atlantic coast of Essaouira, blending international and Moroccan DJs with art and wellness programming. A free city program precedes the main ticketed weekend outside town.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/essaouira"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "early",
+      "typicalDurationDays": 5,
+      "note": "Main festival days in early October, with free city events just before"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "MOGA OFF city program",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "MOGA IN festival pass",
+          "modality": "pass",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://www.mogafestival.com/",
+        "title": "MOGA Festival official website",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/visual-arts",
+  "metadata": {
+    "tags": [
+      "comics",
+      "visual-arts",
+      "international",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "International Comics Forum of Tetouan",
+    "id": "international-comics-forum-tetouan",
+    "description": "International forum of comics and drawn strips (bande dessinee) in Tetouan, supporting Moroccan and African comic artists in partnership with the National Institute of Fine Arts, and positioning Tetouan as a capital of the ninth art in Morocco.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tetouan"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ]
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 14
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

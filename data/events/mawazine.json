@@ -1,0 +1,90 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "music",
+      "international",
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Mawazine - Rhythms of the World",
+    "id": "mawazine",
+    "description": "One of the largest music festivals in the world, held in Rabat since 2001. International pop, rock and Arab stars share the bill with Moroccan artists across several stages, drawing millions of spectators.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat",
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        6
+      ],
+      "typicalDurationDays": 9
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Free public stages",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Paying stages day ticket",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Festival pass",
+          "modality": "pass",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2019,
+        "edition": 18,
+        "startDate": "2019-06-21",
+        "endDate": "2019-06-29"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2023,
+        "edition": 19,
+        "startDate": "2023-06-22",
+        "endDate": "2023-07-01"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mawazine.ma/",
+        "title": "Mawazine official website",
+        "type": "website"
+      }
+    ]
+  }
+}

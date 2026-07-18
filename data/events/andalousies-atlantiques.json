@@ -1,0 +1,51 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "andalusi",
+      "judeo-moroccan",
+      "music",
+      "essaouira"
+    ]
+  },
+  "spec": {
+    "name": "Festival des Andalousies Atlantiques",
+    "id": "andalousies-atlantiques",
+    "description": "Festival in Essaouira celebrating the shared Judeo-Arab-Andalusian musical heritage of Morocco, founded in 2003. Andalusi orchestras, chgouri and matrouz singers and flamenco artists perform together, with morning forums on memory and coexistence at the Bayt Dakira heritage house.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/essaouira"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "late",
+      "typicalDurationDays": 4,
+      "note": "Late October, sometimes running into early November"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "edition": 20,
+        "startDate": "2025-10-30",
+        "endDate": "2025-11-02"
+      }
+    ]
+  }
+}

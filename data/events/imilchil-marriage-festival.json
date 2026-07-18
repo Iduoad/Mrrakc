@@ -1,0 +1,51 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/cultural",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "moussem",
+      "high-atlas",
+      "ait-hadiddou"
+    ]
+  },
+  "spec": {
+    "name": "Imilchil Marriage Moussem",
+    "id": "imilchil-marriage-festival",
+    "description": "Moussem of the Ait Hadiddou tribes near Imilchil in the High Atlas, famed as the 'marriage festival' where couples traditionally meet and conclude engagements, alongside a large seasonal market, music and dance.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/midelt"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ],
+    "comments": [
+      "Linked to the legend of the Isli and Tislit lakes."
+    ]
+  }
+}

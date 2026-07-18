@@ -1,0 +1,42 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "almonds",
+      "harvest",
+      "anti-atlas",
+      "amazigh"
+    ]
+  },
+  "spec": {
+    "name": "Tafraoute Almond Blossom Festival",
+    "id": "tafraoute-almond-blossom-festival",
+    "description": "Celebration of the almond bloom in Tafraoute, the heart of Morocco's almond country in the Anti-Atlas. Amazigh music and dance, local crafts and almond specialties mark the short window when the valleys turn white and pink.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tiznit"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "mid",
+      "note": "Timing follows the almond bloom, which shifts with the weather each year"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    }
+  }
+}

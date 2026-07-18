@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "malhun",
+      "sung-poetry",
+      "tafilalet",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Sijilmassa Forum of Malhun Art",
+    "id": "sijilmassa-malhun-forum",
+    "description": "Forum in Errachidia celebrating malhun, the Moroccan sung-poetry art that weaves classical and colloquial Arabic into qasidas of praise, love, nature and satire, honoring its living masters and supporting active troupes.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/errachidia"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "typicalDurationDays": 5
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 26,
+        "startDate": "2021-05-18",
+        "endDate": "2021-05-22",
+        "notes": "Held as a virtual edition"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

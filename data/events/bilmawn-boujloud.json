@@ -1,0 +1,43 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/cultural",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "carnival",
+      "boujloud",
+      "souss"
+    ]
+  },
+  "spec": {
+    "name": "Bilmawn Boujloud",
+    "id": "bilmawn-boujloud",
+    "description": "Amazigh carnival of the Souss, held in the days following Eid al-Adha. Young men dressed in the sacrificed sheep and goat skins, with horns and painted faces, parade and dance through the streets of Inezgane, Dcheira, Agadir and surrounding towns to the rhythm of drums.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane",
+        "province/inezgane-ait-melloul"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "hijri",
+      "hijriMonth": 12,
+      "hijriDay": 11,
+      "observance": "eid-al-adha",
+      "typicalDurationDays": 5,
+      "note": "Begins in the days after Eid al-Adha (10 Dhu al-Hijjah) and lasts three to seven days"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    }
+  }
+}

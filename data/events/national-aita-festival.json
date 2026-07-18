@@ -1,0 +1,55 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "aita",
+      "sung-poetry",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "National Aita Festival",
+    "id": "national-aita-festival",
+    "description": "National festival in Safi devoted to aita, the rural sung-poetry art born in Morocco's Atlantic plains, classified by researchers into nine regional styles including Hasbaouia, Mersaouia and Zaeria. The festival documents and celebrates this living heritage.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/safi"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 20,
+        "startDate": "2021-07-15",
+        "endDate": "2021-07-18"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

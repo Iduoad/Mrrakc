@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/arts",
+  "metadata": {
+    "tags": [
+      "circus",
+      "street-arts",
+      "performance",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "Karacena",
+    "id": "karacena",
+    "description": "Biennial circus arts and street performance festival in Salé and Rabat since 2006. Troupes from across the world gather for acrobatics, juggling, theater and experimental performances in the streets and at venues.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "biennial",
+      "type": "gregorian",
+      "months": [
+        8,
+        9
+      ],
+      "note": "Held every two years in late summer; Salé and Rabat host jointly"
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 10,
+        "startDate": "2024-08-21",
+        "endDate": "2024-09-07"
+      }
+    ]
+  }
+}

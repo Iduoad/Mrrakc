@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mrrakc Events Schema",
+  "description": "Schema for recurring cultural events (festivals, moussems) in Mrrakc",
+  "type": "object",
+  "required": ["kind"],
+  "allOf": [
+    {
+      "$ref": "base.json"
+    }
+  ],
+  "properties": {
+    "kind": {
+      "type": "string",
+      "description": "Category and type of event in format 'category/kind'",
+      "$ref": "enums/event-kinds.json"
+    },
+    "spec": {
+      "type": "object",
+      "required": ["name", "id", "description", "status", "host", "recurrence"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Event name in English/Latin script"
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "description": "URL-friendly version of name in kebab-case"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Description of the event"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "discontinued", "unknown"],
+          "description": "Whether the event is still being held"
+        },
+        "host": {
+          "type": "object",
+          "required": ["provinces"],
+          "properties": {
+            "provinces": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string",
+                "pattern": "^province/[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": "References to the province(s) usually hosting the event; first entry is the primary host"
+            },
+            "places": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^places/[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*$"
+              },
+              "description": "References to venue places in the dataset, when they exist"
+            }
+          }
+        },
+        "recurrence": {
+          "$ref": "components/recurrence.json",
+          "description": "When the event usually happens each cycle"
+        },
+        "admission": {
+          "type": "object",
+          "required": ["options"],
+          "properties": {
+            "options": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "object",
+                "required": ["title", "modality", "audience", "entranceFee"],
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "description": "Label explaining the admission option"
+                  },
+                  "modality": {
+                    "type": "string",
+                    "description": "Payment or access modality",
+                    "enum": [
+                      "ticket",
+                      "pass",
+                      "membership",
+                      "donation",
+                      "free",
+                      "consumption"
+                    ]
+                  },
+                  "audience": {
+                    "type": "string",
+                    "description": "Target audience for this admission option",
+                    "enum": [
+                      "all",
+                      "locals",
+                      "tourists",
+                      "children",
+                      "muslims",
+                      "students"
+                    ]
+                  },
+                  "entranceFee": {
+                    "type": "number",
+                    "minimum": -1,
+                    "description": "Fee amount in MAD (or -1 if not applicable)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "editions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["year"],
+            "properties": {
+              "edition": {
+                "type": "integer",
+                "minimum": 1,
+                "description": "Ordinal number of the edition, if known"
+              },
+              "year": {
+                "type": "integer",
+                "minimum": 1800,
+                "maximum": 2100,
+                "description": "Gregorian year of the edition"
+              },
+              "status": {
+                "type": "string",
+                "enum": ["held", "cancelled"],
+                "default": "held",
+                "description": "Whether the edition took place; 'cancelled' marks skipped years (e.g. COVID)"
+              },
+              "startDate": {
+                "type": "string",
+                "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+                "description": "Start date, as precise as known: YYYY, YYYY-MM or YYYY-MM-DD"
+              },
+              "endDate": {
+                "type": "string",
+                "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+                "description": "End date, as precise as known: YYYY, YYYY-MM or YYYY-MM-DD"
+              },
+              "provinces": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "string",
+                  "pattern": "^province/[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "description": "Province(s) of this edition, if different from the host provinces"
+              },
+              "places": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^places/[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*$"
+                },
+                "description": "Venue places used by this edition, when they exist in the dataset"
+              },
+              "notes": {
+                "type": "string",
+                "description": "Free-text notes about this edition"
+              }
+            }
+          },
+          "description": "Known past editions in chronological order; the last edition is derived as the entry with the highest year"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "components/link.json"
+          }
+        },
+        "comments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Free comments about the event"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import fs from 'node:fs';
+import path from 'node:path';
+import AgendaCalendar from '../../components/react/AgendaCalendar';
+import { admissionSummary } from '../../utils/recurrence';
+import { hijriToGregorianMonth } from '../../utils/hijri';
+import type { AgendaEventDTO } from '../../types/agenda';
+
+const [events, provinces, places] = await Promise.all([
+  getCollection('events'),
+  getCollection('provinces'),
+  getCollection('places'),
+]);
+
+const provinceName = (ref: string) => {
+  const slug = ref.replace('province/', '');
+  return provinces.find(p => p.data.spec.id === slug)?.data.spec.name ?? slug;
+};
+
+// Province boundary centroids from the shared geojson, as a build-time
+// fallback for provinces that have no place files yet.
+const geojson = JSON.parse(fs.readFileSync(
+  path.resolve(process.cwd(), '../../scripts/mappings/provinces.geojson'), 'utf8'
+));
+const provinceCentroids = new Map<string, { latitude: number; longitude: number }>();
+for (const feature of geojson.features) {
+  const id = feature.properties?.province_id;
+  if (!id) continue;
+  const vertices: [number, number][] = [];
+  const collect = (coords: any) => {
+    if (typeof coords[0] === 'number') vertices.push(coords as [number, number]);
+    else coords.forEach(collect);
+  };
+  collect(feature.geometry.coordinates);
+  provinceCentroids.set(id, {
+    latitude: vertices.reduce((s, v) => s + v[1], 0) / vertices.length,
+    longitude: vertices.reduce((s, v) => s + v[0], 0) / vertices.length,
+  });
+}
+
+// Venue coordinates when the event lists venues, otherwise the centroid of the
+// primary host province's places, otherwise the province boundary centroid.
+const resolveCoords = (host: { provinces: string[]; places?: string[] }) => {
+  const venueId = host.places?.[0]?.replace('places/', '');
+  if (venueId) {
+    const venue = places.find(p => p.id === venueId);
+    if (venue) {
+      const { latitude, longitude } = venue.data.spec.location;
+      return { latitude, longitude, locationSource: 'venue' as const };
+    }
+  }
+  const provincePlaces = places.filter(p => p.data.spec.location.province === host.provinces[0]);
+  if (provincePlaces.length > 0) {
+    return {
+      latitude: provincePlaces.reduce((s, p) => s + p.data.spec.location.latitude, 0) / provincePlaces.length,
+      longitude: provincePlaces.reduce((s, p) => s + p.data.spec.location.longitude, 0) / provincePlaces.length,
+      locationSource: 'province' as const,
+    };
+  }
+  const centroid = provinceCentroids.get(host.provinces[0]);
+  return centroid ? { ...centroid, locationSource: 'province' as const } : {};
+};
+
+const dtos: AgendaEventDTO[] = events.map(({ data }) => ({
+  id: data.spec.id,
+  name: data.spec.name,
+  kind: data.kind,
+  tags: data.metadata?.tags ?? [],
+  status: data.spec.status,
+  provinces: data.spec.host.provinces.map(ref => ({
+    slug: ref.replace('province/', ''),
+    name: provinceName(ref),
+  })),
+  recurrence: data.spec.recurrence,
+  approxMonth: data.spec.recurrence.type === 'hijri'
+    ? hijriToGregorianMonth(data.spec.recurrence.hijriMonth ?? 1, data.spec.recurrence.hijriDay ?? 15).month
+    : undefined,
+  admission: admissionSummary(data.spec.admission?.options),
+  excerpt: data.spec.description.length > 200
+    ? data.spec.description.slice(0, 200).replace(/\s+\S*$/, '') + '…'
+    : data.spec.description,
+  ...resolveCoords(data.spec.host),
+}));
+---
+
+<BaseLayout title="Agenda" description="A year-round calendar of Morocco's recurring cultural events — festivals, moussems, and celebrations across the country.">
+  <main class="w-full max-w-7xl mx-auto px-4 pt-32 pb-20">
+    <header class="mb-12 text-center">
+      <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100 mb-4">Agenda</h1>
+      <p class="text-lg text-charcoal-light dark:text-stone-400 max-w-2xl mx-auto">
+        Morocco's festivals and moussems through the year. Some follow the Gregorian calendar, others the Islamic one or the seasons — those are placed in their approximate month.
+      </p>
+    </header>
+
+    <AgendaCalendar client:load events={dtos} />
+  </main>
+</BaseLayout>

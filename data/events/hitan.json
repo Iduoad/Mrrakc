@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/spring",
+  "metadata": {
+    "tags": [
+      "spring",
+      "cultural",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "Hitan Festival",
+    "id": "hitan",
+    "description": "Spring festival in Salé celebrating the season with cultural performances, workshops and community gatherings.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "mid",
+      "note": "Spring season, mid-May"
+    }
+  }
+}

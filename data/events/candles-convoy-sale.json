@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/religious",
+  "metadata": {
+    "tags": [
+      "spiritual",
+      "procession",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "Candles Convoy of Salé",
+    "id": "candles-convoy-sale",
+    "description": "Spiritual procession in Salé honoring Sufi saints and Islamic traditions with candlelit ceremony and community participation.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "irregular",
+      "note": "Timing determined locally each year"
+    }
+  }
+}

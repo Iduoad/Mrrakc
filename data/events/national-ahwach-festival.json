@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "ahwach",
+      "dance",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "National Ahwach Festival",
+    "id": "national-ahwach-festival",
+    "description": "National festival in Ouarzazate dedicated to ahwach, the collective sung dance of the High and Anti-Atlas performed by men and women in traditional tribal dress. Troupes from across southern Morocco gather to perform and pass the art on.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouarzazate"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 9,
+        "startDate": "2021-07-09",
+        "endDate": "2021-07-12",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

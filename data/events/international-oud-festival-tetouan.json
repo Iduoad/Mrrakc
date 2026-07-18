@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "oud",
+      "music",
+      "international",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "International Oud Festival of Tetouan",
+    "id": "international-oud-festival-tetouan",
+    "description": "International festival in Tetouan celebrating the oud, the central instrument of Arab music, with masters invited from across the Arab world. It connects authenticity and modernity and opens the instrument's repertoire to young audiences.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tetouan"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 22,
+        "startDate": "2021-06-27",
+        "endDate": "2021-06-29",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

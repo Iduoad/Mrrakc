@@ -1,0 +1,28 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "sufi",
+      "classical-music",
+      "andalusi",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "Maqamat",
+    "id": "maqamat",
+    "description": "Festival of classical Moroccan Sufi and Andalusian music traditions, featuring qasidas, maqamat and spiritual musical performances in Salé's historic spaces.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "irregular",
+      "note": "Specific dates announced annually"
+    }
+  }
+}

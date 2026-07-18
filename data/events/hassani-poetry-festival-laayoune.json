@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/poetry",
+  "metadata": {
+    "tags": [
+      "hassani",
+      "poetry",
+      "sahara",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Hassani Bedouin Poetry Festival",
+    "id": "hassani-poetry-festival-laayoune",
+    "description": "Festival in Laayoune dedicated to the Hassani qasida, the Bedouin sung-poetry tradition of the Moroccan Sahara, transmitted orally in the Hassaniya dialect with its own poetic meters.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/laayoune"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 3,
+        "startDate": "2021-10-29",
+        "endDate": "2021-10-31",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

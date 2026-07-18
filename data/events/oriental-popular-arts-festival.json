@@ -1,0 +1,58 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "oriental",
+      "reggada",
+      "alaoui",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Oriental Popular Arts Festival",
+    "id": "oriental-popular-arts-festival",
+    "description": "Festival of the popular arts of Morocco's Oriental region, carried by troupes who inherited the repertoire orally: nhari dance, laarfa, alaoui, mengouchi and reggada, accompanied by regional instruments such as the kallal, zamar and gasba.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/berkane",
+        "province/oujda-angad"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "note": "Alternates between Berkane and Oujda"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 8,
+        "startDate": "2021-12-02",
+        "endDate": "2021-12-04",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

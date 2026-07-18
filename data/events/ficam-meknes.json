@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "animation",
+      "cinema",
+      "film",
+      "meknes"
+    ]
+  },
+  "spec": {
+    "name": "International Animated Film Festival of Meknes",
+    "id": "ficam-meknes",
+    "description": "FICAM, the Meknes international festival of animated cinema, held since 2004 with the Institut Francais. Screenings for families and the public, professional competitions and masterclasses make it the reference event for animation in Africa and the Arab world.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/meknes"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "typicalDurationDays": 6
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "edition": 24,
+        "startDate": "2026-05-15",
+        "endDate": "2026-05-20"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://ficam.ma/",
+        "title": "FICAM official website",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Event Kinds Enumeration",
+  "description": "List of valid recurring event kinds in Mrrakc",
+  "type": "string",
+  "enum": [
+    "festival/music",
+    "festival/traditional-arts",
+    "festival/poetry",
+    "festival/theater",
+    "festival/film",
+    "festival/visual-arts",
+    "festival/harvest",
+    "festival/heritage",
+    "festival/gastronomy",
+    "moussem/religious",
+    "moussem/cultural",
+    "fair/book",
+    "fair/agriculture"
+  ]
+}

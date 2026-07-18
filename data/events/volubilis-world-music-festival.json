@@ -1,0 +1,60 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "world-music",
+      "volubilis",
+      "unesco",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Volubilis International Festival of Traditional World Music",
+    "id": "volubilis-world-music-festival",
+    "description": "International festival of traditional world music staged in the Roman archaeological site of Volubilis, a UNESCO World Heritage site, and in the squares of Meknes. It hosts musical cultures from around the world in a dialogue of civilizations.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/meknes"
+      ],
+      "places": [
+        "places/meknes/volubilis-museum"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2019,
+        "edition": 20,
+        "startDate": "2019-08-23",
+        "endDate": "2019-08-26",
+        "notes": "Held at Volubilis and Place Lahdim, Meknes"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

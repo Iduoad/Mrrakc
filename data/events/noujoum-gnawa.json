@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "gnawa",
+      "music",
+      "casablanca"
+    ]
+  },
+  "spec": {
+    "name": "Noujoum Gnawa Festival",
+    "id": "noujoum-gnawa",
+    "description": "International gnawa music festival in Casablanca celebrating Morocco's ancestral gnawa tradition. Artists from across the world perform the hypnotic rhythms of guembri and qraqeb at Place des Nations Unies.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8,
+        9
+      ],
+      "note": "Late August to late September"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Concert/screening tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 12,
+        "startDate": "2024-09-26",
+        "endDate": "2024-09-28"
+      },
+      {
+        "year": 2025,
+        "edition": 13,
+        "startDate": "2025-08-21",
+        "endDate": "2025-08-23"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://noujoumgnaoua.com/",
+        "title": "Noujoum Gnawa Festival",
+        "type": "website"
+      }
+    ]
+  }
+}

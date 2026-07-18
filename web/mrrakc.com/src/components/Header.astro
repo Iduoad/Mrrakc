@@ -30,6 +30,10 @@ const { transparent = false } = Astro.props;
                 "text-sm font-medium transition-colors",
                 transparent ? "hover:text-stone-200 drop-shadow-sm" : "hover:text-terra"
             ]}>Maps</a>
+            <a href="/agenda" class:list={[
+                "text-sm font-medium transition-colors",
+                transparent ? "hover:text-stone-200 drop-shadow-sm" : "hover:text-terra"
+            ]}>Agenda</a>
             <a href="/plans" class:list={[
                 "text-sm font-medium transition-colors",
                 transparent ? "hover:text-stone-200 drop-shadow-sm" : "hover:text-terra"
@@ -79,6 +83,7 @@ const { transparent = false } = Astro.props;
         <div id="mobile-menu" class="fixed inset-0 bg-sand dark:bg-[#1a1a1a] z-40 transform translate-x-full transition-transform duration-300 md:hidden flex flex-col justify-center items-center gap-8 opacity-0 pointer-events-none">
             <a href="/provinces" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Provinces</a>
             <a href="/maps" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Maps</a>
+            <a href="/agenda" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Agenda</a>
             <a href="/plans" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Plans</a>
             <a href="/blog" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Blog</a>
             <a href="/games" class="text-2xl font-serif font-bold text-charcoal dark:text-stone-100 hover:text-terra transition-colors">Games</a>

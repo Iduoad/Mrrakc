@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "ahidous",
+      "dance",
+      "middle-atlas",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "National Ahidous Festival",
+    "id": "national-ahidous-festival",
+    "description": "National festival dedicated to Ahidous, the collective sung dance of the Amazigh tribes of the Middle Atlas, performed jointly by men and women to the rhythm of the bendir. Troupes from across the region perform and compete. Historically associated with Ain Leuh, in Ifrane province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ifrane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "part": "early",
+      "typicalDurationDays": 3,
+      "note": "Historically held in summer in Ain Leuh; the 20th edition took place in early December"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Open-air performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 20,
+        "year": 2021,
+        "startDate": "2021-12-03",
+        "endDate": "2021-12-05",
+        "provinces": [
+          "province/ifrane"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

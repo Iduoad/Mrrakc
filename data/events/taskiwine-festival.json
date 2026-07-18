@@ -1,0 +1,58 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "taskiwine",
+      "dance",
+      "unesco",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Taskiwine Festival",
+    "id": "taskiwine-festival",
+    "description": "Festival in Taroudant safeguarding taskiwine, a martial dance of the western High Atlas combining ornate rhythm and shoulder-quivering movement, inscribed by UNESCO on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taroudant"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 1,
+        "startDate": "2021-10-22",
+        "endDate": "2021-10-24",
+        "notes": "First edition, held virtually"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

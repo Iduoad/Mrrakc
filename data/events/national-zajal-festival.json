@@ -1,0 +1,57 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/poetry",
+  "metadata": {
+    "tags": [
+      "zajal",
+      "poetry",
+      "darija",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "National Zajal Festival",
+    "id": "national-zajal-festival",
+    "description": "National festival in Benslimane celebrating zajal, poetry composed in Moroccan colloquial Arabic (darija), as a pillar of the national linguistic identity and of the country's intangible heritage.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/benslimane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 14,
+        "startDate": "2021-11-18",
+        "endDate": "2021-11-20",
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

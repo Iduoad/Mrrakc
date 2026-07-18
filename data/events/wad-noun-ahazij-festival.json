@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "hassani",
+      "kadra",
+      "sahara",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Ahazij Wad Noun Festival",
+    "id": "wad-noun-ahazij-festival",
+    "description": "Festival in Guelmim dedicated to the Hassani heritage of the Wad Noun region and its trilogy of kadra, harma and ganga, sung-dance arts expressing the Saharan people's bond with their environment.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/guelmim"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 4,
+        "startDate": "2021-10-14",
+        "endDate": "2021-10-17"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

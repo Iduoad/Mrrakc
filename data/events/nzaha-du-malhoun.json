@@ -1,0 +1,51 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "malhoun",
+      "poetry",
+      "music",
+      "sale"
+    ]
+  },
+  "spec": {
+    "name": "N'zaha du Malhoun",
+    "id": "nzaha-du-malhoun",
+    "description": "National days celebrating Malhoun, a UNESCO-recognized Moroccan poetic-musical form combining sung poetry with traditional instruments. Recitations, concerts, and discussions honor this secular Moroccan art tradition.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "typicalDurationDays": 4,
+      "note": "Mid-June"
+    },
+    "editions": [
+      {
+        "year": 2023,
+        "edition": 10
+      },
+      {
+        "year": 2024,
+        "edition": 11,
+        "startDate": "2024-06-12",
+        "endDate": "2024-06-15"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.maroc.ma/",
+        "title": "Morocco.ma",
+        "type": "website"
+      }
+    ]
+  }
+}

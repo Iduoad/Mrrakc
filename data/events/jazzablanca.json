@@ -1,0 +1,76 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "jazz",
+      "music",
+      "casablanca",
+      "international"
+    ]
+  },
+  "spec": {
+    "name": "Jazzablanca",
+    "id": "jazzablanca",
+    "description": "Casablanca's international jazz, soul and funk festival, held at Anfa Park since 2006. Alongside the two ticketed stages, a free stage brings concerts to the Arab League Park in the city center.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6,
+        7
+      ],
+      "typicalDurationDays": 10,
+      "note": "Early July in recent editions, spread over two weekends"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Free stage at the Arab League Park",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Anfa Park stages day ticket",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Festival pass",
+          "modality": "pass",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 17,
+        "startDate": "2024-06-06",
+        "endDate": "2024-06-08"
+      },
+      {
+        "year": 2025,
+        "edition": 18,
+        "startDate": "2025-07-03",
+        "endDate": "2025-07-12"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.jazzablanca.com/",
+        "title": "Jazzablanca official website",
+        "type": "website"
+      }
+    ]
+  }
+}

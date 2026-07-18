@@ -1,0 +1,52 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/cultural",
+  "metadata": {
+    "tags": [
+      "hassani",
+      "nomad",
+      "unesco",
+      "sahara"
+    ]
+  },
+  "spec": {
+    "name": "Tan-Tan Moussem",
+    "id": "tan-tan-moussem",
+    "description": "Annual gathering of Saharan nomadic tribes in Tan-Tan, featuring camel markets, tbourida, Hassani poetry and music, traditional games and crafts. Proclaimed by UNESCO a Masterpiece of the Oral and Intangible Heritage of Humanity and inscribed on the Representative List in 2008.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tan-tan"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        6
+      ],
+      "note": "Originally tied to the seasonal gathering of nomadic tribes; modern editions are usually held in May or June"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ],
+    "comments": [
+      "Revived in 2004 after being banned in 1979."
+    ]
+  }
+}

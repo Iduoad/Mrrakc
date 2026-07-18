@@ -1,0 +1,311 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import MiniMap from '../../components/MiniMap.astro';
+import { ExternalLink, CalendarDays, Moon, Leaf, HelpCircle, MapPin, Repeat, Clock, Ticket } from 'lucide-react';
+import MarkdownRenderer from '../../components/react/MarkdownRenderer';
+import { formatRecurrence, formatEditionDates } from '../../utils/recurrence';
+
+export async function getStaticPaths() {
+  const [events, provinces] = await Promise.all([
+    getCollection('events'),
+    getCollection('provinces'),
+  ]);
+  return events.map(event => {
+    const hostProvinces = event.data.spec.host.provinces.map(ref => {
+      const slug = ref.replace('province/', '');
+      return { slug, name: provinces.find(p => p.data.spec.id === slug)?.data.spec.name ?? slug };
+    });
+    return {
+      params: { id: event.data.spec.id },
+      props: { event, hostProvinces },
+    };
+  });
+}
+
+const { event, hostProvinces } = Astro.props;
+const { spec, kind, metadata } = event.data;
+const typeIcons = { gregorian: CalendarDays, hijri: Moon, seasonal: Leaf, irregular: HelpCircle };
+const typeColors = {
+  gregorian: 'text-terra',
+  hijri: 'text-ocean',
+  seasonal: 'text-green-700 dark:text-green-400',
+  irregular: 'text-charcoal-light dark:text-stone-500',
+};
+const TypeIcon = typeIcons[spec.recurrence.type];
+
+const statusStyles = {
+  active: 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400',
+  discontinued: 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400',
+  unknown: 'bg-clay/20 text-charcoal-light dark:bg-charcoal-light/30 dark:text-stone-400',
+};
+
+const sortedEditions = spec.editions ? [...spec.editions].sort((a, b) => b.year - a.year) : [];
+const venueRefs = (spec.host.places ?? []).map(ref => {
+  const [, prov, place] = ref.split('/');
+  return { prov, place, label: place.replace(/-/g, ' ') };
+});
+const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? false;
+---
+
+<BaseLayout title={`${spec.name} - Agenda`} description={spec.description}>
+  <script type="application/ld+json" is:inline set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": spec.name,
+    "description": spec.description,
+    "eventStatus": spec.status === 'active' ? 'https://schema.org/EventScheduled' : 'https://schema.org/EventCancelled',
+    "isAccessibleForFree": isFree,
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": hostProvinces.map(p => p.name).join(', '),
+        "addressCountry": "MA"
+      }
+    }
+  })} />
+  <main class="w-full max-w-6xl mx-auto px-4 pt-32 pb-20">
+    <div class="mb-6">
+      <a href="/agenda" class="text-sm text-terra-dark hover:underline mb-2 inline-block">&larr; Back to Agenda</a>
+    </div>
+
+    <header class="mb-10">
+      <div class="flex flex-wrap items-center gap-3 mb-4">
+        <span class="px-3 py-1 text-sm font-bold uppercase tracking-wider text-white bg-terra rounded-full">
+          {kind.split('/').join(': ').replace(/-/g, ' ')}
+        </span>
+        {spec.status !== 'active' && (
+          <span class={`px-3 py-1 text-sm font-bold rounded-full ${statusStyles[spec.status]}`}>
+            {spec.status}
+          </span>
+        )}
+        {metadata?.tags?.map(tag => (
+          <span class="px-3 py-1 text-sm font-medium text-charcoal-light bg-clay/20 dark:text-stone-300 dark:bg-charcoal-light/30 rounded-full">
+            #{tag}
+          </span>
+        ))}
+      </div>
+      <h1 class="text-4xl md:text-6xl font-serif font-bold text-charcoal dark:text-stone-100 mb-4 leading-tight">
+        {spec.name}
+      </h1>
+      <p class="flex items-center gap-2 text-lg text-charcoal-light dark:text-stone-400">
+        <TypeIcon size={20} className={typeColors[spec.recurrence.type]} />
+        <span>{formatRecurrence(spec.recurrence)}</span>
+      </p>
+    </header>
+
+    <section class="border border-clay/20 dark:border-charcoal-light rounded-2xl p-6 md:p-10 bg-white dark:bg-charcoal shadow-sm mb-12">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+      {/* Left Column: Details */}
+      <div class="lg:col-span-2 space-y-10">
+
+        {/* Description */}
+        <MarkdownRenderer
+          content={spec.description}
+          className="text-lg md:text-xl text-charcoal-light dark:text-stone-300"
+        />
+
+        {/* Editions Timeline */}
+        {sortedEditions.length > 0 && (
+          <section>
+            <h2 class="font-serif font-bold text-2xl text-charcoal dark:text-stone-100 mb-6 flex items-center gap-2">
+              <Clock size={24} className="text-terra" /> Past Editions
+            </h2>
+            <div class="relative border-l-2 border-terra/20 ml-3 space-y-8 py-2">
+              {sortedEditions.map(edition => (
+                <div class={`relative pl-8 ${edition.status === 'cancelled' ? 'opacity-70' : ''}`}>
+                  <div class={`absolute -left-[9px] top-1 w-4 h-4 rounded-full border-4 border-white dark:border-charcoal ${edition.status === 'cancelled' ? 'bg-red-400' : 'bg-terra'}`}></div>
+                  <span class="text-sm font-bold text-terra-dark mb-1 block">{edition.year}</span>
+                  <h3 class="text-lg font-bold text-charcoal dark:text-stone-100 mb-1 flex items-center gap-2">
+                    {edition.edition ? `Edition ${edition.edition}` : 'Edition'}
+                    {edition.status === 'cancelled' && (
+                      <span class="px-2 py-0.5 text-xs font-bold rounded bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400">Cancelled</span>
+                    )}
+                  </h3>
+                  {formatEditionDates(edition.startDate, edition.endDate) && (
+                    <p class="text-charcoal-light dark:text-stone-400">{formatEditionDates(edition.startDate, edition.endDate)}</p>
+                  )}
+                  {edition.provinces && edition.provinces.length > 0 && (
+                    <p class="text-sm text-charcoal-light dark:text-stone-400">
+                      Hosted in {edition.provinces.map((ref, i) => (
+                        <>
+                          {i > 0 && ', '}
+                          <a href={`/provinces/${ref.replace('province/', '')}`} class="text-terra-dark hover:underline capitalize">{ref.replace('province/', '').replace(/-/g, ' ')}</a>
+                        </>
+                      ))}
+                    </p>
+                  )}
+                  {edition.notes && (
+                    <p class="text-sm italic text-charcoal-light dark:text-stone-400 mt-1">{edition.notes}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Comments */}
+        {spec.comments && spec.comments.length > 0 && (
+          <section class="space-y-2">
+            {spec.comments.map(comment => (
+              <p class="text-sm text-charcoal/80 dark:text-stone-400 italic bg-clay/10 dark:bg-charcoal-light/10 p-3 rounded">
+                "{comment}"
+              </p>
+            ))}
+          </section>
+        )}
+
+      </div>
+
+      {/* Right Column: Sidebar Info */}
+      <aside class="space-y-6">
+
+        {/* Key Info Card */}
+        <div class="bg-clay/10 dark:bg-charcoal-light/10 rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light">
+          <h3 class="font-serif font-bold text-lg text-charcoal dark:text-stone-100 mb-4">Key Information</h3>
+
+          <div class="space-y-4">
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Host{hostProvinces.length > 1 ? 's' : ''}</span>
+              <ul class="space-y-1">
+                {hostProvinces.map(province => (
+                  <li>
+                    <a href={`/provinces/${province.slug}`} class="flex items-center gap-2 text-sm font-bold text-terra-dark hover:underline">
+                      <MapPin size={16} className="text-terra shrink-0" />
+                      {province.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {venueRefs.length > 0 && (
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Venues</span>
+                <ul class="space-y-1">
+                  {venueRefs.map(venue => (
+                    <li>
+                      <a href={`/provinces/${venue.prov}/${venue.place}`} class="text-sm text-terra-dark hover:underline capitalize">
+                        {venue.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">When</span>
+              <div class="flex items-start gap-2 text-charcoal dark:text-stone-200">
+                <TypeIcon size={16} className={`mt-0.5 shrink-0 ${typeColors[spec.recurrence.type]}`} />
+                <span class="text-sm font-bold">{formatRecurrence(spec.recurrence)}</span>
+              </div>
+              {spec.recurrence.type === 'hijri' && (
+                <p class="text-xs text-charcoal-light dark:text-stone-400 mt-1">Follows the Islamic calendar — Gregorian dates shift ~11 days earlier each year.</p>
+              )}
+              {spec.recurrence.note && (
+                <p class="text-xs italic text-charcoal-light dark:text-stone-400 mt-1">{spec.recurrence.note}</p>
+              )}
+              {spec.recurrence.urls && spec.recurrence.urls.length > 0 && (
+                <ul class="mt-2 space-y-1">
+                  {spec.recurrence.urls.map(link => (
+                    <li>
+                      <a href={link.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-1.5 text-xs text-terra-dark dark:text-terra hover:underline">
+                        <ExternalLink size={12} />
+                        <span class="line-clamp-1">{link.title ?? link.url}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Frequency</span>
+              <div class="flex items-center gap-2 text-charcoal dark:text-stone-200 font-bold text-sm">
+                <Repeat size={16} className="text-terra" />
+                <span class="capitalize">{spec.recurrence.frequency}</span>
+              </div>
+            </div>
+
+            {spec.recurrence.typicalDurationDays && (
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Typical Duration</span>
+                <div class="flex items-center gap-2 text-charcoal dark:text-stone-200 font-bold text-sm">
+                  <Clock size={16} className="text-terra" />
+                  <span>{spec.recurrence.typicalDurationDays} day{spec.recurrence.typicalDurationDays > 1 ? 's' : ''}</span>
+                </div>
+              </div>
+            )}
+
+            <div>
+              <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Status</span>
+              <span class={`inline-block font-bold px-2 py-0.5 rounded text-sm capitalize ${statusStyles[spec.status]}`}>
+                {spec.status}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Admission */}
+        {spec.admission && (
+          <div class="bg-white dark:bg-charcoal rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light shadow-sm">
+            <h3 class="font-serif font-bold text-lg text-charcoal dark:text-stone-100 mb-4 flex items-center gap-2">
+              <Ticket size={18} className="text-terra" /> Admission
+            </h3>
+            <div class="space-y-3">
+              {spec.admission.options.map(opt => (
+                <div class="flex justify-between items-start text-sm gap-2">
+                  <div>
+                    <span class="text-charcoal dark:text-stone-200 block">{opt.title}</span>
+                    <span class="text-xs text-charcoal-light dark:text-stone-400 capitalize">{opt.modality} · {opt.audience}</span>
+                  </div>
+                  <span class="font-bold text-terra shrink-0">
+                    {opt.entranceFee === 0 ? 'Free' : opt.entranceFee === -1 ? 'Variable' : `${opt.entranceFee} MAD`}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* External Links */}
+        {spec.links && spec.links.length > 0 && (
+          <div class="bg-white dark:bg-charcoal rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light shadow-sm">
+            <h3 class="font-serif font-bold text-lg text-charcoal dark:text-stone-100 mb-4">Learn More</h3>
+            <ul class="space-y-2">
+              {spec.links.map(link => (
+                <li>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-terra-dark dark:text-terra hover:underline group">
+                    <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
+                    <span class="line-clamp-1">{link.title}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+      </aside>
+      </div>
+
+      {venueRefs.length > 0 && (
+        <>
+          <div class="w-full flex items-center gap-4 my-10">
+            <div class="h-px bg-clay/20 dark:bg-charcoal-light flex-grow"></div>
+            <span class="text-terra text-xl">✦</span>
+            <div class="h-px bg-clay/20 dark:bg-charcoal-light flex-grow"></div>
+          </div>
+
+          <h2 class="font-serif font-bold text-xl text-charcoal dark:text-stone-100 flex items-center gap-2 mb-6">
+            <MapPin size={20} className="text-terra" /> Location
+          </h2>
+          <div class="h-[350px] rounded-2xl overflow-hidden border border-clay/20 dark:border-charcoal-light shadow-sm">
+            <MiniMap ids={venueRefs.map(v => `${v.prov}/${v.place}`)} simple={true} className="h-full w-full" />
+          </div>
+        </>
+      )}
+    </section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,38 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "beach",
+      "music",
+      "summer"
+    ]
+  },
+  "spec": {
+    "name": "Festival des Plages",
+    "id": "festival-plages-maroc-telecom",
+    "description": "Beach music festival sponsored by Maroc Telecom, bringing live performances and entertainment to Morocco's coastal towns during the summer season.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8
+      ],
+      "note": "Summer months, exact location varies by year"
+    },
+    "links": [
+      {
+        "url": "https://www.maroctelecom.ma/",
+        "title": "Maroc Telecom",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "jazz",
+      "music",
+      "tangier",
+      "international"
+    ]
+  },
+  "spec": {
+    "name": "Tanjazz",
+    "id": "tanjazz",
+    "description": "Tangier's jazz festival, bringing international jazz, soul and world music to heritage venues across the medina, kasbah and seafront since 2000. Most concerts are ticketed, with some free events in public spaces.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Concert tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "Festival pass",
+          "modality": "pass",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "status": "cancelled",
+        "notes": "Edition postponed by the organizers to consolidate support and partnerships"
+      },
+      {
+        "year": 2026,
+        "edition": 23,
+        "startDate": "2026-09-18",
+        "endDate": "2026-09-20",
+        "notes": "Announced comeback edition"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/tanjazzfestival/",
+        "title": "Tanjazz on Facebook",
+        "type": "website"
+      }
+    ]
+  }
+}

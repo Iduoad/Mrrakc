@@ -1,0 +1,49 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "apples",
+      "harvest",
+      "atlas",
+      "midelt"
+    ]
+  },
+  "spec": {
+    "name": "Midelt Apple Festival",
+    "id": "midelt-apple-festival",
+    "description": "Harvest festival of the apple in Midelt, at the foot of the Ayachi massif between the Middle and High Atlas. Parades, concerts of traditional music and exhibitions of local produce celebrate the region's orchards.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/midelt"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "early",
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2022,
+        "startDate": "2022-10-06",
+        "endDate": "2022-10-09"
+      }
+    ]
+  }
+}

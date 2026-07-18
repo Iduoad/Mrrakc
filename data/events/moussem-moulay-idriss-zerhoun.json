@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/religious",
+  "metadata": {
+    "tags": [
+      "moussem",
+      "sufi",
+      "zerhoun",
+      "pilgrimage"
+    ]
+  },
+  "spec": {
+    "name": "Moussem of Moulay Idriss Zerhoun",
+    "id": "moussem-moulay-idriss-zerhoun",
+    "description": "Morocco's largest religious moussem, honoring Moulay Idriss I, founder of the first Moroccan Islamic dynasty, at his mausoleum in the holy town of Moulay Idriss Zerhoun. Sufi brotherhoods process through the town with prayers, fantasia and markets, a tradition instituted in the Marinid era.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/meknes"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "note": "Held in late summer; exact dates are set locally each year"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    }
+  }
+}

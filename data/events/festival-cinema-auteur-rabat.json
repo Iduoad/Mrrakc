@@ -1,0 +1,27 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "independent-film",
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "International Auteur Cinema Festival of Rabat",
+    "id": "festival-cinema-auteur-rabat",
+    "description": "Festival dedicated to author-driven, independent cinema from around the world. Screenings, retrospectives and filmmaker discussions take place in Rabat's cultural venues.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "irregular",
+      "note": "Dates and schedule vary by year"
+    }
+  }
+}

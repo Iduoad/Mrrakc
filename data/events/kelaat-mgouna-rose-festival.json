@@ -1,0 +1,50 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "roses",
+      "harvest",
+      "dades",
+      "amazigh"
+    ]
+  },
+  "spec": {
+    "name": "Rose Festival of Kelaat M'Gouna",
+    "id": "kelaat-mgouna-rose-festival",
+    "description": "Harvest festival of the Damask rose in the Valley of Roses around Kelaat M'Gouna, held since the 1960s. The town celebrates the rose harvest with parades, ahwach performances, a rose-products souk and the crowning of the Rose Queen.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tinghir"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "early",
+      "typicalDurationDays": 4,
+      "note": "Dates track the rose harvest and are confirmed a few weeks ahead"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05-06",
+        "endDate": "2026-05-09"
+      }
+    ]
+  }
+}

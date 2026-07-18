@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Recurrence Schema",
+  "description": "Approximate yearly recurrence pattern of a recurring event",
+  "type": "object",
+  "required": ["frequency", "type"],
+  "properties": {
+    "frequency": {
+      "type": "string",
+      "enum": ["annual", "biennial", "irregular"],
+      "description": "How often the event is held"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["gregorian", "hijri", "seasonal", "irregular"],
+      "description": "Calendar system or pattern anchoring the recurrence"
+    },
+    "typicalDurationDays": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Typical length of the event in days, if known"
+    },
+    "note": {
+      "type": "string",
+      "description": "Free-text clarification of the recurrence (e.g. 'last two weeks of July', 'dates vary by edition')"
+    },
+    "urls": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Link supporting the schedule information; can be anything (program, press release, announcement...)"
+          },
+          "title": {
+            "type": "string",
+            "description": "Short label for the link (e.g. 'Official program', 'Press release')"
+          }
+        }
+      },
+      "description": "Links documenting when the event takes place (programs, press releases, announcements...)"
+    }
+  },
+  "oneOf": [
+    {
+      "required": ["months"],
+      "properties": {
+        "type": { "const": "gregorian" },
+        "months": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 12,
+          "items": { "type": "integer", "minimum": 1, "maximum": 12 },
+          "description": "Gregorian month number(s), 1-12, in which the event usually takes place"
+        },
+        "part": {
+          "type": "string",
+          "enum": ["early", "mid", "late", "first-half", "second-half", "full"],
+          "description": "Approximate part of the month (or of the month range) when the event happens"
+        }
+      }
+    },
+    {
+      "required": ["hijriMonth"],
+      "properties": {
+        "type": { "const": "hijri" },
+        "hijriMonth": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 12,
+          "description": "Hijri month number, 1 (Muharram) to 12 (Dhu al-Hijjah). Gregorian dates drift ~11 days earlier each year"
+        },
+        "hijriDay": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Hijri day of month anchoring the event, if it is tied to a specific day"
+        },
+        "observance": {
+          "type": "string",
+          "enum": [
+            "ramadan",
+            "eid-al-fitr",
+            "eid-al-adha",
+            "mawlid",
+            "ashura",
+            "hijri-new-year"
+          ],
+          "description": "Named Islamic observance the event is attached to, if any"
+        }
+      }
+    },
+    {
+      "required": ["season"],
+      "properties": {
+        "type": { "const": "seasonal" },
+        "season": {
+          "type": "string",
+          "enum": ["spring", "summer", "autumn", "winter"],
+          "description": "Season in which the event usually takes place"
+        }
+      }
+    },
+    {
+      "required": ["note"],
+      "properties": {
+        "type": { "const": "irregular" }
+      }
+    }
+  ]
+}

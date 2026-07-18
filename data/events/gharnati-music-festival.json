@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "gharnati",
+      "andalusi",
+      "music",
+      "ministry-of-culture"
+    ]
+  },
+  "spec": {
+    "name": "Gharnati Music Festival",
+    "id": "gharnati-music-festival",
+    "description": "Festival celebrating Gharnati music, an Andalusi musical tradition rooted in medieval Granada and preserved in Oujda and Tlemcen. It aims to keep this refined repertoire alive by showcasing masters and encouraging young talents from conservatories.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/oujda-angad"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "typicalDurationDays": 4
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2021,
+        "edition": 28,
+        "startDate": "2021-06-10",
+        "endDate": "2021-06-13"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.mjcc.gov.ma/",
+        "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      }
+    ]
+  }
+}

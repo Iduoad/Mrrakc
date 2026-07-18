@@ -1,0 +1,59 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "sufi",
+      "spirituality",
+      "fez",
+      "heritage"
+    ]
+  },
+  "spec": {
+    "name": "Fes Festival of Sufi Culture",
+    "id": "fes-festival-of-sufi-culture",
+    "description": "Festival exploring Sufi culture and its artistic expressions through samaa concerts, conferences, exhibitions and workshops, gathering scholars and Sufi brotherhoods from Morocco and abroad in the spiritual capital Fez.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "irregular",
+      "note": "Held annually but the month has varied between spring and autumn in recent editions"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 16,
+        "startDate": "2024-04-20",
+        "endDate": "2024-04-27"
+      },
+      {
+        "year": 2025,
+        "edition": 17,
+        "startDate": "2025-10-18",
+        "endDate": "2025-10-25"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://festivalculturesoufie.com/",
+        "title": "Fes Festival of Sufi Culture official website",
+        "type": "website"
+      }
+    ]
+  }
+}

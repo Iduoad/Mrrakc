@@ -1,0 +1,31 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "music",
+      "cultural",
+      "luso-african",
+      "el-jadida"
+    ]
+  },
+  "spec": {
+    "name": "Sete Sóis Sete Luas",
+    "id": "sete-sois-sete-luas",
+    "description": "Festival celebrating Luso-African musical and cultural heritage in El Jadida, connecting Portuguese and North African traditions. The name 'Seven Suns Seven Moons' reflects the blend of cultures and artistic expressions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/el-jadida"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "note": "October"
+    }
+  }
+}
