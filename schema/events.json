@@ -165,6 +165,13 @@
                 },
                 "description": "Venue places used by this edition, when they exist in the dataset"
               },
+              "links": {
+                "type": "array",
+                "items": {
+                  "$ref": "components/link.json"
+                },
+                "description": "Links specific to this edition, such as press releases, programs or recaps"
+              },
               "notes": {
                 "type": "string",
                 "description": "Free-text notes about this edition"
