@@ -4,6 +4,10 @@ import type { Plugin, Connect } from 'vite';
 
 // Repo layout: this app lives at web/build.mrrakc.com, the dataset at data/places.
 const DATA_DIR = path.resolve(import.meta.dirname, '../../data/places');
+// Plans (itineraries) live in a flat data/plans directory.
+const PLANS_DIR = path.resolve(import.meta.dirname, '../../data/plans');
+// People referenced by plan steps live in a flat data/people directory.
+const PEOPLE_DIR = path.resolve(import.meta.dirname, '../../data/people');
 
 type Req = Connect.IncomingMessage;
 type Res = import('node:http').ServerResponse;
@@ -68,6 +72,107 @@ async function listPlaces(province: string) {
   return { places, errors };
 }
 
+// Load a lightweight view of every place across all provinces. Used by the
+// plans editor to render markers and power the place picker.
+async function listAllPlaces() {
+  const entries = await fs.readdir(DATA_DIR, { withFileTypes: true });
+  const places: unknown[] = [];
+  const errors: { file: string; error: string }[] = [];
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    const province = entry.name;
+    const provinceDir = path.join(DATA_DIR, province);
+    const files = await fs.readdir(provinceDir);
+    for (const f of files) {
+      if (!f.endsWith('.json')) continue;
+      const rel = `${province}/${f}`;
+      try {
+        const raw = await fs.readFile(path.join(provinceDir, f), 'utf8');
+        const parsed = JSON.parse(raw) as {
+          kind?: string;
+          spec?: {
+            name?: string;
+            id?: string;
+            location?: { latitude?: number; longitude?: number; province?: string };
+          };
+        };
+        const id = parsed.spec?.id || f.replace(/\.json$/, '');
+        // Trim to just what the editor's map + picker need.
+        places.push({
+          ref: `places/${province}/${id}`,
+          kind: parsed.kind,
+          spec: {
+            name: parsed.spec?.name,
+            id,
+            location: {
+              latitude: parsed.spec?.location?.latitude,
+              longitude: parsed.spec?.location?.longitude,
+              province: parsed.spec?.location?.province || `province/${province}`,
+            },
+          },
+        });
+      } catch (e) {
+        errors.push({ file: rel, error: (e as Error).message });
+      }
+    }
+  }
+  return { places, errors };
+}
+
+// Resolve a plan id to an absolute file path, guarding against escapes.
+function resolvePlanFile(id: string): string | null {
+  if (!id) return null;
+  if (!/^[a-z0-9-]+$/.test(id)) return null;
+  const file = path.resolve(PLANS_DIR, `${id}.json`);
+  if (file !== path.join(PLANS_DIR, `${id}.json`)) return null;
+  if (!file.startsWith(PLANS_DIR + path.sep)) return null;
+  return file;
+}
+
+async function listPlans() {
+  const plans: { plan: unknown; file: string }[] = [];
+  const errors: { file: string; error: string }[] = [];
+  let files: string[] = [];
+  try {
+    files = await fs.readdir(PLANS_DIR);
+  } catch {
+    return { plans, errors };
+  }
+  for (const f of files) {
+    if (!f.endsWith('.json')) continue;
+    try {
+      const raw = await fs.readFile(path.join(PLANS_DIR, f), 'utf8');
+      plans.push({ plan: JSON.parse(raw), file: f });
+    } catch (e) {
+      errors.push({ file: f, error: (e as Error).message });
+    }
+  }
+  return { plans, errors };
+}
+
+async function listPeople() {
+  const people: { id: string; name: string }[] = [];
+  let files: string[] = [];
+  try {
+    files = await fs.readdir(PEOPLE_DIR);
+  } catch {
+    return { people };
+  }
+  for (const f of files) {
+    if (!f.endsWith('.json')) continue;
+    try {
+      const raw = await fs.readFile(path.join(PEOPLE_DIR, f), 'utf8');
+      const parsed = JSON.parse(raw) as { spec?: { id?: string; name?: string } };
+      const id = parsed.spec?.id || f.replace(/\.json$/, '');
+      people.push({ id, name: parsed.spec?.name || id });
+    } catch {
+      // skip unparseable person files
+    }
+  }
+  people.sort((a, b) => a.name.localeCompare(b.name));
+  return { people };
+}
+
 /**
  * Dev-only filesystem API for the local place editor. Registered via
  * configureServer so it exists only on `vite dev` and never in a production
@@ -123,6 +228,51 @@ export function placesFsPlugin(): Plugin {
             const id = url.searchParams.get('id') || '';
             const file = resolvePlaceFile(province, id);
             if (!file) return sendJson(res, 400, { error: 'invalid province/id' });
+            await fs.rm(file, { force: true });
+            return sendJson(res, 200, { ok: true });
+          }
+
+          // --- Plans -----------------------------------------------------
+
+          // Lightweight list of every place, for the plan editor's map + picker.
+          if (route === '/places/all' && req.method === 'GET') {
+            return sendJson(res, 200, await listAllPlaces());
+          }
+
+          if (route === '/people' && req.method === 'GET') {
+            return sendJson(res, 200, await listPeople());
+          }
+
+          if (route === '/plans' && req.method === 'GET') {
+            return sendJson(res, 200, await listPlans());
+          }
+
+          if (route === '/plans' && req.method === 'PUT') {
+            const body = JSON.parse(await readBody(req));
+            const { id, plan, prevId } = body as {
+              id: string; plan: unknown; prevId?: string;
+            };
+            const file = resolvePlanFile(id);
+            if (!file || !plan) {
+              return sendJson(res, 400, { error: 'invalid id/plan' });
+            }
+            await fs.mkdir(path.dirname(file), { recursive: true });
+            await fs.writeFile(file, JSON.stringify(plan, null, 2) + '\n', 'utf8');
+
+            // Rename: remove the old file if the id changed.
+            if (prevId && prevId !== id) {
+              const oldFile = resolvePlanFile(prevId);
+              if (oldFile && oldFile !== file) {
+                await fs.rm(oldFile, { force: true });
+              }
+            }
+            return sendJson(res, 200, { ok: true, file: `${id}.json` });
+          }
+
+          if (route === '/plans' && req.method === 'DELETE') {
+            const id = url.searchParams.get('id') || '';
+            const file = resolvePlanFile(id);
+            if (!file) return sendJson(res, 400, { error: 'invalid id' });
             await fs.rm(file, { force: true });
             return sendJson(res, 200, { ok: true });
           }

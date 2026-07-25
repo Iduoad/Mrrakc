@@ -1,4 +1,4 @@
-import type { Place } from '../data/schema';
+import type { Place, Plan } from '../data/schema';
 
 // Thin client for the dev-only filesystem API (see vite-plugin-places-fs.ts).
 
@@ -9,6 +9,23 @@ export interface ProvinceInfo {
 
 export interface LoadedPlace {
   place: Place;
+  file: string;
+}
+
+// Lightweight place record returned by /api/places/all — just what the plan
+// editor needs to render a marker and reference the place.
+export interface PlaceRef {
+  ref: string; // places/<province>/<id>
+  kind: string;
+  spec: {
+    name: string;
+    id: string;
+    location: { latitude: number; longitude: number; province: string };
+  };
+}
+
+export interface LoadedPlan {
+  plan: Plan;
   file: string;
 }
 
@@ -50,5 +67,46 @@ export async function deletePlace(province: string, id: string): Promise<void> {
       `/api/places?province=${encodeURIComponent(province)}&id=${encodeURIComponent(id)}`,
       { method: 'DELETE' },
     ),
+  );
+}
+
+// --- Plans -----------------------------------------------------------------
+
+export async function fetchAllPlaces(): Promise<{
+  places: PlaceRef[];
+  errors: { file: string; error: string }[];
+}> {
+  return json(await fetch('/api/places/all'));
+}
+
+export interface PersonRef {
+  id: string;
+  name: string;
+}
+
+export async function fetchPeople(): Promise<{ people: PersonRef[] }> {
+  return json(await fetch('/api/people'));
+}
+
+export async function fetchPlans(): Promise<{
+  plans: LoadedPlan[];
+  errors: { file: string; error: string }[];
+}> {
+  return json(await fetch('/api/plans'));
+}
+
+export async function savePlan(plan: Plan, prevId?: string): Promise<void> {
+  await json(
+    await fetch('/api/plans', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: plan.spec.id, plan, prevId }),
+    }),
+  );
+}
+
+export async function deletePlan(id: string): Promise<void> {
+  await json(
+    await fetch(`/api/plans?id=${encodeURIComponent(id)}`, { method: 'DELETE' }),
   );
 }

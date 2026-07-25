@@ -38,18 +38,20 @@ function placementsFor(event: AgendaEventDTO): Placement[] | null {
 
 function EventEntry({ event, approx, onClick }: { event: AgendaEventDTO; approx: boolean; onClick: () => void }) {
     const TypeIcon = TYPE_ICONS[event.recurrence.type];
+    const inactive = event.status !== 'active';
     return (
         <button
             onClick={onClick}
-            className="w-full flex items-start gap-2 text-left px-2 py-1.5 rounded-lg hover:bg-clay/10 dark:hover:bg-charcoal-light/10 transition-colors"
+            className={`w-full flex items-start gap-2 text-left px-2 py-1.5 rounded-lg hover:bg-clay/10 dark:hover:bg-charcoal-light/10 transition-colors ${inactive ? 'opacity-60' : ''}`}
         >
             <TypeIcon size={14} className={`mt-0.5 shrink-0 ${TYPE_COLORS[event.recurrence.type]}`} />
             <span className="min-w-0 flex-grow">
-                <span className="block text-sm font-medium text-charcoal dark:text-stone-200 truncate">
+                <span className={`block text-sm font-medium text-charcoal dark:text-stone-200 truncate ${inactive ? 'line-through decoration-charcoal-light/60' : ''}`}>
                     {event.name}
                 </span>
                 <span className="block text-xs text-charcoal-light dark:text-stone-500 truncate">
                     {event.provinces.map(p => p.name).join(' · ')}
+                    {inactive && <span className="capitalize"> · {event.status}</span>}
                 </span>
             </span>
             {approx && (
@@ -168,6 +170,11 @@ export default function AgendaCalendar({ events }: Props) {
                 <span className="inline-flex items-center gap-1">
                     <span className="font-bold">≈</span> approximate month
                 </span>
+                {events.some(e => e.status !== 'active') && (
+                    <span className="inline-flex items-center gap-1">
+                        <span className="line-through decoration-charcoal-light/60">Aa</span> discontinued
+                    </span>
+                )}
             </div>
 
             {viewMode === 'map' && (

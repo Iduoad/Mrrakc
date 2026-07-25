@@ -74,6 +74,7 @@ export default function AgendaMap({ events, activeEventId, onSelect }: Props) {
                     {pins.map(({ event, latitude, longitude }) => {
                         const TypeIcon = TYPE_ICONS[event.recurrence.type];
                         const selected = event.id === activeEventId;
+                        const inactive = event.status !== 'active';
                         return (
                             <Marker
                                 key={event.id}
@@ -86,8 +87,8 @@ export default function AgendaMap({ events, activeEventId, onSelect }: Props) {
                                 }}
                             >
                                 <div
-                                    className={`cursor-pointer transition-transform duration-200 hover:scale-110 ${selected ? 'z-10' : 'z-0'}`}
-                                    title={`${event.name} — ${event.provinces.map(p => p.name).join(', ')}${event.locationSource === 'province' ? ' (province)' : ''}`}
+                                    className={`cursor-pointer transition-transform duration-200 hover:scale-110 ${selected ? 'z-10' : 'z-0'} ${inactive ? 'opacity-50 grayscale' : ''}`}
+                                    title={`${event.name} — ${event.provinces.map(p => p.name).join(', ')}${event.locationSource === 'province' ? ' (province)' : ''}${inactive ? ` (${event.status})` : ''}`}
                                 >
                                     <div className={`p-1.5 rounded-full border shadow-md transition-colors duration-300 ${selected
                                         ? 'bg-terra border-white text-white scale-125'

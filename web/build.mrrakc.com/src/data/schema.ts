@@ -165,6 +165,88 @@ export const PlaceSchema = z.object({
   }).optional(),
 });
 
+// ---------------------------------------------------------------------------
+// Plans (itineraries / "Blanat") — mirrors schema/plans.json
+// ---------------------------------------------------------------------------
+
+export const STEP_TYPES = ["waypoint", "activity", "break", "overnight"] as const;
+
+export const TRANSPORT_MODES = [
+  "Walking", "Taxi", "Shared Taxi", "Bus", "Mini Bus", "Plane", "Mule", "Train",
+] as const;
+
+export const DURATION_UNITS = ["minutes", "hours", "days"] as const;
+
+export const PLAN_DIFFICULTIES = ["easy", "medium", "hard", "expert"] as const;
+
+// The dataset uses a few different plan kinds; offer the common ones but allow
+// any string so legacy records round-trip.
+export const PLAN_KINDS = [
+  "plans/itinerary", "plans/trek", "plans/food-tour", "plans/road-trip",
+  "plans/day-trip", "plans/tour", "plans/cultural-tour",
+] as const;
+
+// A place reference inside a step: places/<province>/<id>
+const PLACE_REF = /^places\/[a-z0-9-]+\/[a-z0-9-]+$/;
+const PEOPLE_REF = /^people\/[a-z0-9-]+$/;
+
+export interface PlanStep {
+  title: string;
+  description?: string;
+  type: (typeof STEP_TYPES)[number];
+  placeIds?: string[];
+  people?: { id: string; role: string }[];
+  optional?: boolean;
+  transportToNext?: {
+    mode: (typeof TRANSPORT_MODES)[number];
+    durationMin: number;
+    advice?: string;
+  };
+  subSteps?: PlanStep[];
+}
+
+export const PlanStepSchema: z.ZodType<PlanStep> = z.lazy(() =>
+  z.object({
+    title: z.string().min(1, "Step title is required"),
+    description: z.string().optional(),
+    type: z.enum(STEP_TYPES),
+    placeIds: z.array(z.string().regex(PLACE_REF, "Must be places/<province>/<id>")).optional(),
+    people: z.array(z.object({
+      id: z.string().regex(PEOPLE_REF, "Must be people/<id>"),
+      role: z.string(),
+    })).optional(),
+    optional: z.boolean().optional(),
+    transportToNext: z.object({
+      mode: z.enum(TRANSPORT_MODES),
+      durationMin: z.number().int().min(0),
+      advice: z.string().optional(),
+    }).optional(),
+    subSteps: z.array(PlanStepSchema).optional(),
+  }),
+);
+
+export const PlanSchema = z.object({
+  version: z.literal("mrrakc/v0"),
+  kind: z.string().min(1, "Kind is required"),
+  metadata: z.object({
+    tags: z.array(z.string()),
+  }).optional(),
+  spec: z.object({
+    id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "ID must be kebab-case"),
+    title: z.string().min(1, "Title is required"),
+    description: z.string().optional(),
+    pubDate: z.string().optional(),
+    estimatedDuration: z.object({
+      value: z.number().min(0),
+      unit: z.enum(DURATION_UNITS),
+    }),
+    difficulty: z.enum(PLAN_DIFFICULTIES),
+    steps: z.array(PlanStepSchema),
+  }),
+});
+
+export type Plan = z.infer<typeof PlanSchema>;
+
 // Relaxed schema for the local editor: existing dataset files often have an
 // empty timePeriods array and placeholder descriptions, which the strict
 // PlaceSchema rejects. This lets legacy records be saved after minor edits

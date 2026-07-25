@@ -185,6 +185,11 @@ const events = defineCollection({
                 endDate: z.string().optional(),
                 provinces: z.array(z.string()).optional(),
                 places: z.array(z.string()).optional(),
+                links: z.array(z.object({
+                    url: z.string(),
+                    type: z.string(),
+                    title: z.string(),
+                })).optional(),
                 notes: z.string().optional(),
             })).optional(),
             links: z.array(z.object({

@@ -283,18 +283,18 @@ export const MapComponent: React.FC<Props> = ({
         className="w-full h-full"
       >
         {addedPlaces.map((place, index) => (
-          <AdvancedMarker 
+          <AdvancedMarker
             key={`${place.spec.id}-${index}`}
-            position={{ 
-              lat: place.spec.location.latitude, 
-              lng: place.spec.location.longitude 
+            position={{
+              lat: place.spec.location.latitude,
+              lng: place.spec.location.longitude
             }}
             onClick={() => setInfoWindowData({ index, place })}
           >
-            <Pin 
-              background={getCategoryColor(place.kind)} 
-              glyphColor={'#FFF'} 
-              borderColor={'rgba(0,0,0,0.1)'} 
+            <Pin
+              background={getCategoryColor(place.kind)}
+              glyphColor={'#FFF'}
+              borderColor={'rgba(0,0,0,0.1)'}
             />
           </AdvancedMarker>
         ))}

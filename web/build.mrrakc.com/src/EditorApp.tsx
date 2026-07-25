@@ -13,7 +13,7 @@ import {
   type ProvinceInfo,
 } from './utils/editorApi';
 import type { Place } from './data/schema';
-import { X, MapPin, Search, ArrowLeft, RefreshCw, MapPinned } from 'lucide-react';
+import { X, MapPin, Search, ArrowLeft, RefreshCw, MapPinned, Route } from 'lucide-react';
 
 const API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY || '';
 
@@ -276,6 +276,14 @@ const EditorApp: React.FC = () => {
               <span className="text-[9px] font-bold uppercase tracking-widest text-charcoal-light dark:text-stone-500 leading-none mb-1">Places</span>
               <span className="text-xl font-serif font-black text-terra leading-none">{places.length}</span>
             </button>
+            <div className="h-6 w-px bg-clay dark:bg-stone-800 mx-1"></div>
+            <a
+              href="?editor=plans"
+              className="flex items-center gap-2 px-3 py-2 text-terra hover:bg-clay/10 rounded-xl transition-colors text-xs font-bold"
+              title="Open the plans (itinerary) editor"
+            >
+              <Route size={16} /> Plans
+            </a>
           </div>
         </main>
 
