@@ -1,4 +1,4 @@
-import type { Place, Plan } from '../data/schema';
+import type { Place, Plan, Event } from '../data/schema';
 
 // Thin client for the dev-only filesystem API (see vite-plugin-places-fs.ts).
 
@@ -108,5 +108,44 @@ export async function savePlan(plan: Plan, prevId?: string): Promise<void> {
 export async function deletePlan(id: string): Promise<void> {
   await json(
     await fetch(`/api/plans?id=${encodeURIComponent(id)}`, { method: 'DELETE' }),
+  );
+}
+
+// --- Events ----------------------------------------------------------------
+
+export interface ProvinceRef {
+  id: string;
+  name: string;
+}
+
+export interface LoadedEvent {
+  event: Event;
+  file: string;
+}
+
+export async function fetchProvincesAll(): Promise<{ provinces: ProvinceRef[] }> {
+  return json(await fetch('/api/provinces-all'));
+}
+
+export async function fetchEvents(): Promise<{
+  events: LoadedEvent[];
+  errors: { file: string; error: string }[];
+}> {
+  return json(await fetch('/api/events'));
+}
+
+export async function saveEvent(event: Event, prevId?: string): Promise<void> {
+  await json(
+    await fetch('/api/events', {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: event.spec.id, event, prevId }),
+    }),
+  );
+}
+
+export async function deleteEvent(id: string): Promise<void> {
+  await json(
+    await fetch(`/api/events?id=${encodeURIComponent(id)}`, { method: 'DELETE' }),
   );
 }

@@ -259,3 +259,99 @@ export const PlaceEditSchema = PlaceSchema.extend({
 });
 
 export type Place = z.infer<typeof PlaceSchema>;
+
+// ---------------------------------------------------------------------------
+// Events (festivals / moussems) — mirrors schema/events.json
+//
+// Intentionally lenient: recurrence branch fields are all optional and most
+// spec sub-objects are optional, so partial/legacy records round-trip. The
+// strict JSON Schema (schema/events.json) + `boon` remains the authority.
+// ---------------------------------------------------------------------------
+
+export const EVENT_KINDS = [
+  "festival/music", "festival/traditional-arts", "festival/poetry", "festival/theater",
+  "festival/film", "festival/visual-arts", "festival/harvest", "festival/heritage",
+  "festival/gastronomy", "moussem/religious", "moussem/cultural", "fair/book", "fair/agriculture",
+] as const;
+
+export const EVENT_STATUS = ["active", "discontinued", "unknown"] as const;
+
+export const RECURRENCE_FREQUENCIES = ["annual", "biennial", "irregular"] as const;
+export const RECURRENCE_TYPES = ["gregorian", "hijri", "seasonal", "irregular"] as const;
+export const RECURRENCE_PARTS = ["early", "mid", "late", "first-half", "second-half", "full"] as const;
+export const OBSERVANCES = ["ramadan", "eid-al-fitr", "eid-al-adha", "mawlid", "ashura", "hijri-new-year"] as const;
+export const SEASONS = ["spring", "summer", "autumn", "winter"] as const;
+
+export const EVENT_ADMISSION_MODALITY = ["ticket", "pass", "membership", "donation", "free", "consumption"] as const;
+export const LINK_TYPES = ["article", "video", "image", "movie", "website", "book", "social", "map", "program"] as const;
+
+export const EDITION_STATUS = ["held", "cancelled"] as const;
+
+const PROVINCE_REF = /^province\/[a-z0-9-]+$/;
+const EVENT_PLACE_REF = /^places\/[a-z0-9-]+\/[a-z0-9-]+$/;
+
+export const EventLinkSchema = z.object({
+  url: z.string().url("Must be a URL"),
+  title: z.string().min(1, "Link title is required"),
+  type: z.enum(LINK_TYPES),
+});
+
+export const EditionSchema = z.object({
+  edition: z.number().int().min(1).optional(),
+  year: z.number().int().min(1800).max(2100),
+  status: z.enum(EDITION_STATUS).optional(),
+  startDate: z.string().optional(),
+  endDate: z.string().optional(),
+  provinces: z.array(z.string().regex(PROVINCE_REF, "Must be province/<slug>")).optional(),
+  places: z.array(z.string().regex(EVENT_PLACE_REF, "Must be places/<province>/<id>")).optional(),
+  links: z.array(EventLinkSchema).optional(),
+  notes: z.string().optional(),
+});
+
+export const EventSchema = z.object({
+  version: z.literal("mrrakc/v0"),
+  kind: z.enum(EVENT_KINDS),
+  metadata: z.object({ tags: z.array(z.string()) }).optional(),
+  spec: z.object({
+    name: z.string().min(1, "Name is required"),
+    id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "ID must be kebab-case"),
+    description: z.string().min(1, "Description is required"),
+    status: z.enum(EVENT_STATUS),
+    host: z.object({
+      provinces: z.array(z.string().regex(PROVINCE_REF, "Must be province/<slug>"))
+        .min(1, "At least one host province is required"),
+      places: z.array(z.string().regex(EVENT_PLACE_REF, "Must be places/<province>/<id>")).optional(),
+    }),
+    recurrence: z.object({
+      frequency: z.enum(RECURRENCE_FREQUENCIES),
+      type: z.enum(RECURRENCE_TYPES),
+      typicalDurationDays: z.number().min(0).optional(),
+      note: z.string().optional(),
+      urls: z.array(z.object({ url: z.string(), title: z.string().optional() })).optional(),
+      // gregorian
+      months: z.array(z.number().int().min(1).max(12)).optional(),
+      part: z.enum(RECURRENCE_PARTS).optional(),
+      // hijri
+      hijriMonth: z.number().int().min(1).max(12).optional(),
+      hijriDay: z.number().int().min(1).max(30).optional(),
+      observance: z.enum(OBSERVANCES).optional(),
+      // seasonal
+      season: z.enum(SEASONS).optional(),
+    }),
+    admission: z.object({
+      options: z.array(z.object({
+        title: z.string().min(1, "Admission title is required"),
+        modality: z.enum(EVENT_ADMISSION_MODALITY),
+        audience: z.enum(AUDIENCE),
+        entranceFee: z.number().min(-1),
+      })).min(1),
+    }).optional(),
+    editions: z.array(EditionSchema).optional(),
+    links: z.array(EventLinkSchema).optional(),
+    comments: z.array(z.string()).optional(),
+  }),
+});
+
+export type Event = z.infer<typeof EventSchema>;
+export type Edition = z.infer<typeof EditionSchema>;
+export type EventLink = z.infer<typeof EventLinkSchema>;

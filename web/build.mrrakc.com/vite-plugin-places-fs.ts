@@ -8,6 +8,10 @@ const DATA_DIR = path.resolve(import.meta.dirname, '../../data/places');
 const PLANS_DIR = path.resolve(import.meta.dirname, '../../data/plans');
 // People referenced by plan steps live in a flat data/people directory.
 const PEOPLE_DIR = path.resolve(import.meta.dirname, '../../data/people');
+// Events (festivals, moussems) live in a flat data/events directory.
+const EVENTS_DIR = path.resolve(import.meta.dirname, '../../data/events');
+// Provinces live in a flat data/provinces directory (needed for the host picker).
+const PROVINCES_DIR = path.resolve(import.meta.dirname, '../../data/provinces');
 
 type Req = Connect.IncomingMessage;
 type Res = import('node:http').ServerResponse;
@@ -173,6 +177,63 @@ async function listPeople() {
   return { people };
 }
 
+// --- Events ----------------------------------------------------------------
+
+// Resolve an event id to an absolute file path, guarding against escapes.
+function resolveEventFile(id: string): string | null {
+  if (!id) return null;
+  if (!/^[a-z0-9-]+$/.test(id)) return null;
+  const file = path.resolve(EVENTS_DIR, `${id}.json`);
+  if (file !== path.join(EVENTS_DIR, `${id}.json`)) return null;
+  if (!file.startsWith(EVENTS_DIR + path.sep)) return null;
+  return file;
+}
+
+async function listEvents() {
+  const events: { event: unknown; file: string }[] = [];
+  const errors: { file: string; error: string }[] = [];
+  let files: string[] = [];
+  try {
+    files = await fs.readdir(EVENTS_DIR);
+  } catch {
+    return { events, errors };
+  }
+  for (const f of files) {
+    if (!f.endsWith('.json')) continue;
+    try {
+      const raw = await fs.readFile(path.join(EVENTS_DIR, f), 'utf8');
+      events.push({ event: JSON.parse(raw), file: f });
+    } catch (e) {
+      errors.push({ file: f, error: (e as Error).message });
+    }
+  }
+  return { events, errors };
+}
+
+// Lightweight province list ({id, name}) for the event host picker.
+async function listProvincesAll() {
+  const provinces: { id: string; name: string }[] = [];
+  let files: string[] = [];
+  try {
+    files = await fs.readdir(PROVINCES_DIR);
+  } catch {
+    return { provinces };
+  }
+  for (const f of files) {
+    if (!f.endsWith('.json')) continue;
+    try {
+      const raw = await fs.readFile(path.join(PROVINCES_DIR, f), 'utf8');
+      const parsed = JSON.parse(raw) as { spec?: { id?: string; name?: string } };
+      const id = parsed.spec?.id || f.replace(/\.json$/, '');
+      provinces.push({ id, name: parsed.spec?.name || id });
+    } catch {
+      // skip unparseable province files
+    }
+  }
+  provinces.sort((a, b) => a.name.localeCompare(b.name));
+  return { provinces };
+}
+
 /**
  * Dev-only filesystem API for the local place editor. Registered via
  * configureServer so it exists only on `vite dev` and never in a production
@@ -272,6 +333,47 @@ export function placesFsPlugin(): Plugin {
           if (route === '/plans' && req.method === 'DELETE') {
             const id = url.searchParams.get('id') || '';
             const file = resolvePlanFile(id);
+            if (!file) return sendJson(res, 400, { error: 'invalid id' });
+            await fs.rm(file, { force: true });
+            return sendJson(res, 200, { ok: true });
+          }
+
+          // --- Events ----------------------------------------------------
+
+          // Province list ({id, name}) for the event host picker.
+          if (route === '/provinces-all' && req.method === 'GET') {
+            return sendJson(res, 200, await listProvincesAll());
+          }
+
+          if (route === '/events' && req.method === 'GET') {
+            return sendJson(res, 200, await listEvents());
+          }
+
+          if (route === '/events' && req.method === 'PUT') {
+            const body = JSON.parse(await readBody(req));
+            const { id, event, prevId } = body as {
+              id: string; event: unknown; prevId?: string;
+            };
+            const file = resolveEventFile(id);
+            if (!file || !event) {
+              return sendJson(res, 400, { error: 'invalid id/event' });
+            }
+            await fs.mkdir(path.dirname(file), { recursive: true });
+            await fs.writeFile(file, JSON.stringify(event, null, 2) + '\n', 'utf8');
+
+            // Rename: remove the old file if the id changed.
+            if (prevId && prevId !== id) {
+              const oldFile = resolveEventFile(prevId);
+              if (oldFile && oldFile !== file) {
+                await fs.rm(oldFile, { force: true });
+              }
+            }
+            return sendJson(res, 200, { ok: true, file: `${id}.json` });
+          }
+
+          if (route === '/events' && req.method === 'DELETE') {
+            const id = url.searchParams.get('id') || '';
+            const file = resolveEventFile(id);
             if (!file) return sendJson(res, 400, { error: 'invalid id' });
             await fs.rm(file, { force: true });
             return sendJson(res, 200, { ok: true });
