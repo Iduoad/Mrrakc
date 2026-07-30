@@ -22,6 +22,134 @@
       "frequency": "annual",
       "type": "irregular",
       "note": "Dates and schedule vary by year"
-    }
+    },
+    "editions": [
+      {
+        "edition": 16,
+        "year": 2010,
+        "startDate": "2010-06-18",
+        "endDate": "2010-06-26"
+      },
+      {
+        "edition": 17,
+        "year": 2011,
+        "startDate": "2011-06-24",
+        "endDate": "2011-07-02"
+      },
+      {
+        "edition": 18,
+        "year": 2012,
+        "startDate": "2012-06-22",
+        "endDate": "2012-06-30"
+      },
+      {
+        "edition": 19,
+        "year": 2013,
+        "startDate": "2013-09-27",
+        "endDate": "2013-10-05"
+      },
+      {
+        "edition": 20,
+        "year": 2014,
+        "startDate": "2014-10-24",
+        "endDate": "2014-11-01"
+      },
+      {
+        "year": 2015,
+        "status": "cancelled"
+      },
+      {
+        "edition": 21,
+        "year": 2016,
+        "startDate": "2016-01-29",
+        "endDate": "2016-02-05"
+      },
+      {
+        "edition": 22,
+        "year": 2017,
+        "startDate": "2017-10-27",
+        "endDate": "2017-11-04"
+      },
+      {
+        "edition": 23,
+        "year": 2018,
+        "startDate": "2018-11-16",
+        "endDate": "2018-11-24"
+      },
+      {
+        "edition": 24,
+        "year": 2019,
+        "startDate": "2019-11-16",
+        "endDate": "2019-11-22"
+      },
+      {
+        "edition": 25,
+        "year": 2020,
+        "startDate": "2020-10-23",
+        "endDate": "2020-10-31"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 27,
+        "year": 2022,
+        "startDate": "2022-11-17",
+        "endDate": "2022-11-24",
+        "links": [
+          {
+            "url": "https://www.festivalrabat.ma/2022/11/15/programme-ficar-2022/",
+            "title": "2022 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 26,
+        "year": 2022,
+        "startDate": "2022-02-12",
+        "endDate": "2022-02-18"
+      },
+      {
+        "edition": 28,
+        "year": 2023,
+        "startDate": "2023-11-10",
+        "endDate": "2023-11-17",
+        "links": [
+          {
+            "url": "https://www.festivalrabat.ma/2023/",
+            "title": "2023 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 29,
+        "year": 2024,
+        "startDate": "2024-11-08",
+        "endDate": "2024-11-16",
+        "links": [
+          {
+            "url": "https://www.festivalrabat.ma/wp-content/uploads/2024/11/FICAR-Programme-par-jour-2024.pdf",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 30,
+        "year": 2025,
+        "startDate": "2025-11-08",
+        "endDate": "2025-11-14",
+        "links": [
+          {
+            "url": "https://www.eficar.ma/static/Ficar_Programme.pdf",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ]
   }
 }

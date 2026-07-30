@@ -36,16 +36,124 @@
     },
     "editions": [
       {
+        "edition": 4,
+        "year": 2010,
+        "startDate": "2010-04-17",
+        "endDate": "2010-04-24"
+      },
+      {
+        "edition": 5,
+        "year": 2011,
+        "startDate": "2011-04-16",
+        "endDate": "2011-04-23"
+      },
+      {
+        "edition": 6,
+        "year": 2012,
+        "startDate": "2012-04-12",
+        "endDate": "2012-04-14"
+      },
+      {
+        "edition": 7,
+        "year": 2013,
+        "startDate": "2013-04-13",
+        "endDate": "2013-04-20"
+      },
+      {
+        "edition": 8,
+        "year": 2014,
+        "startDate": "2014-04-12",
+        "endDate": "2014-04-19"
+      },
+      {
+        "edition": 9,
+        "year": 2015,
+        "startDate": "2015-04-18",
+        "endDate": "2015-04-25"
+      },
+      {
+        "year": 2016,
+        "status": "cancelled"
+      },
+      {
+        "edition": 10,
+        "year": 2017,
+        "startDate": "2017-10-14",
+        "endDate": "2017-10-21"
+      },
+      {
+        "edition": 11,
+        "year": 2018,
+        "startDate": "2018-10-20",
+        "endDate": "2018-10-27"
+      },
+      {
+        "edition": 12,
+        "year": 2019,
+        "startDate": "2019-10-19",
+        "endDate": "2019-10-26"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 15,
+        "year": 2022,
+        "startDate": "2022-10-22",
+        "endDate": "2022-10-29",
+        "links": [
+          {
+            "url": "https://festivalculturesoufie.com/14eme-edition-du-festival-de-fes-de-la-culture-soufie/",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
         "year": 2024,
         "edition": 16,
         "startDate": "2024-04-20",
-        "endDate": "2024-04-27"
+        "endDate": "2024-04-27",
+        "links": [
+          {
+            "url": "https://festivalculturesoufie.com/wp-content/uploads/2024/09/PRG-IND-FR6-ANG.pdf",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
       },
       {
         "year": 2025,
         "edition": 17,
         "startDate": "2025-10-18",
-        "endDate": "2025-10-25"
+        "endDate": "2025-10-25",
+        "links": [
+          {
+            "url": "https://festivalculturesoufie.com/wp-content/uploads/2025/10/Catalogue-du-programme-detaille-disponible-en-cliquant-ici-2.pdf",
+            "title": "2025 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://maroc.ma/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%A7%D8%B3-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%B9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9-%D8%B9%D8%B4%D8%B1%D8%A9-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%B5%D9%88%D9%81%D9%8A%D8%A9-%D8%AD%D9%83%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85-%D9%85%D9%86-18-%D8%A5%D9%84%D9%89-25-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-2025",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2026,
+        "startDate": "2026-10-17",
+        "endDate": "2026-10-24"
       }
     ],
     "links": [

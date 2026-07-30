@@ -37,10 +37,53 @@
     },
     "editions": [
       {
+        "edition": 2,
+        "year": 2019,
+        "startDate": "2019-10-10",
+        "endDate": "2019-10-16",
+        "links": [
+          {
+            "url": "https://azulpress.ma/%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%B9%D9%86-%D9%81%D8%AA%D8%AD-%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AA%D8%B1%D8%B4%D9%8A%D8%AD-%D9%84%D9%84%D9%85%D8%B4%D8%A7%D8%B1%D9%83%D8%A9-%D9%81%D9%8A-%D9%85%D9%84/",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "startDate": "2021-11-26",
         "endDate": "2021-12-02",
-        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic",
+        "edition": 3,
+        "links": [
+          {
+            "url": "https://madar21.com/37911.html",
+            "title": "2021 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2022,
+        "startDate": "2022-11-18",
+        "endDate": "2022-11-21",
+        "links": [
+          {
+            "url": "https://www.instagram.com/p/Ck0fvJXN6M4/",
+            "title": "2022 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://mjcc.gov.ma/ar/%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A3%D9%81%D9%88%D9%84%D8%A7%D9%8A-%D9%84%D9%84%D9%85%D8%B3%D8%B1%D8%AD-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D8%B2%D9%8A%D8%BA%D9%8A-%D8%A7%D9%84%D8%AF%D9%88%D8%B1/",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

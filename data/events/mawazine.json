@@ -34,7 +34,7 @@
           "title": "Free public stages",
           "modality": "free",
           "audience": "all",
-          "entranceFee": -1
+          "entranceFee": 0
         },
         {
           "title": "Paying stages day ticket",
@@ -52,10 +52,161 @@
     },
     "editions": [
       {
+        "year": 2008,
+        "edition": 7,
+        "startDate": "2008-05-16",
+        "endDate": "2008-05-24",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20080607120734/http://www.festivalmawazine.ma/",
+            "title": "2008 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "edition": 8,
+        "startDate": "2009-05-15",
+        "endDate": "2009-05-23",
+        "notes": "A stampede at a free closing concert on 24 May 2009 killed 11 people.",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20090618043752/http://www.festivalmawazine.ma/fr/programme.html",
+            "title": "2009 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2010,
+        "edition": 9,
+        "startDate": "2010-05-21",
+        "endDate": "2010-05-29",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20100611194145/http://www.festivalmawazine.ma/fr/programme-2010/concerts.html",
+            "title": "2010 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "edition": 10,
+        "startDate": "2011-05-20",
+        "endDate": "2011-05-28",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20110625144634/http://www.festivalmawazine.ma/fr/programme-2011/concerts.html",
+            "title": "2011 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "edition": 11,
+        "startDate": "2012-05-18",
+        "endDate": "2012-05-26",
+        "links": [
+          {
+            "url": "https://friendsofmorocco.org/Docs/Mawazine.pdf",
+            "title": "2012 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "startDate": "2013-05-24",
+        "endDate": "2013-06-01",
+        "edition": 12,
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20130521144028/http://www.festivalmawazine.ma/fr/programme/concerts.html",
+            "title": "2013 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-05-30",
+        "endDate": "2014-06-07",
+        "edition": 13,
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20140603131012/http://www.festivalmawazine.ma/shows",
+            "title": "2014 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "edition": 14,
+        "startDate": "2015-05-29",
+        "endDate": "2015-06-06",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20150701205659/http://www.festivalmawazine.ma/shows",
+            "title": "2015 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "edition": 15,
+        "startDate": "2016-05-20",
+        "endDate": "2016-05-28",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20160613031019/http://www.festivalmawazine.ma/shows",
+            "title": "2016 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "edition": 16,
+        "startDate": "2017-05-12",
+        "endDate": "2017-05-20",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20170915205110/http://www.festivalmawazine.ma/16-ans-de-festival/programme/",
+            "title": "2017 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "edition": 17,
+        "startDate": "2018-06-22",
+        "endDate": "2018-06-30",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20180704214112/http://www.festivalmawazine.ma/en/programme-2018/",
+            "title": "2018 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
         "year": 2019,
         "edition": 18,
         "startDate": "2019-06-21",
-        "endDate": "2019-06-29"
+        "endDate": "2019-06-29",
+        "links": [
+          {
+            "url": "https://www.mawazine.ma/wp-content/uploads/2019/06/18-00810-FM19-GUIDE_.pdf",
+            "title": "2019 programme guide",
+            "type": "program"
+          }
+        ]
       },
       {
         "year": 2020,
@@ -74,9 +225,47 @@
       },
       {
         "year": 2023,
-        "edition": 19,
         "startDate": "2023-06-22",
         "endDate": "2023-07-01"
+      },
+      {
+        "year": 2024,
+        "edition": 19,
+        "startDate": "2024-06-21",
+        "endDate": "2024-06-29",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20250304004054/https://mawazine.ma/fr/edition-2024/programme/",
+            "title": "2024 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "edition": 20,
+        "startDate": "2025-06-20",
+        "endDate": "2025-06-28",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20250828145433/https://mawazine.ma/fr/edition-2025/programme/",
+            "title": "2025 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "edition": 21,
+        "startDate": "2026-06-19",
+        "endDate": "2026-06-27",
+        "links": [
+          {
+            "url": "https://mawazine.ma/fr/edition-2026/programme",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

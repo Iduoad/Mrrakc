@@ -39,11 +39,127 @@
     },
     "editions": [
       {
+        "edition": 1,
+        "year": 2019,
+        "startDate": "2019-05-17",
+        "endDate": "2019-05-19",
+        "links": [
+          {
+            "url": "https://fr.hespress.com/69940-laayoune-accueille-le-1er-festival-regional-du-poeme-bedouin-hassani.html",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 1,
+        "year": 2020,
+        "startDate": "2020-11-20",
+        "endDate": "2020-11-22",
+        "links": [
+          {
+            "url": "https://albayane.press.ma/laayoune-le-2e-festival-du-poeme-bedouin-hassani.html",
+            "title": "2020 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.yabiladi.com/articles/details/101855/deuxieme-edition-festival-poeme-bedouin-hassani.html",
+            "title": "2020 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2021,
         "edition": 3,
         "startDate": "2021-10-29",
         "endDate": "2021-10-31",
         "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      },
+      {
+        "edition": 2,
+        "year": 2021,
+        "startDate": "2021-10-29",
+        "endDate": "2021-10-31",
+        "links": [
+          {
+            "url": "https://hadatcom.com/189602/",
+            "title": "2021 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.alyaoum7.ma/19365.html",
+            "title": "2021 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2022,
+        "startDate": "2022-11-11",
+        "endDate": "2022-11-13",
+        "links": [
+          {
+            "url": "https://www.achamilapress.com/2022/11/09/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-04-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF/",
+            "title": "2022 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://anaharnews.com/?p=95299",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2023,
+        "startDate": "2023-12-15",
+        "endDate": "2023-12-17",
+        "links": [
+          {
+            "url": "https://www.achpress.com/?p=340107",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2024,
+        "startDate": "2024-12-06",
+        "endDate": "2024-12-08",
+        "links": [
+          {
+            "url": "https://www.facebook.com/100090796989266/posts/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D8%AF%D8%A9-%D8%A7%D9%84%D8%A8%D8%AF%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D8%AD%D8%AA%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D8%B1-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D8%AA%D9%87-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9%D8%A7%D9%84%D8%AE%D8%A8%D8%B1-24-%D8%AA%D8%AD/526100613759834/",
+            "title": "2024 announcement",
+            "type": "social"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2025,
+        "startDate": "2025-11-14",
+        "endDate": "2025-11-16",
+        "links": [
+          {
+            "url": "https://www.facebook.com/photo?fbid=122102453739112843&set=pcb.122102457771112843",
+            "title": "2025 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://sahara1.net/2025/11/15/%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%82%D8%B5%D9%8A/",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://ar.le360.ma/culture/RIILN37CPNBO5NRI4BEFOUNP4Q/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

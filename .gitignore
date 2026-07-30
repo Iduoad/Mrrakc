@@ -1,1 +1,11 @@
 .tmp
+
+# Backfill sources are working material ("fuel"), not committed artifacts.
+# Keep manifest.json (the citation); ignore pasted text and binaries.
+# For a URL-less source whose text is the only provenance, `git add -f` it.
+sources/**/*.txt
+sources/**/*.md
+sources/**/*.pdf
+sources/**/*.png
+sources/**/*.jpg
+sources/**/*.jpeg

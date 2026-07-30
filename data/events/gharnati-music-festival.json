@@ -39,10 +39,120 @@
     },
     "editions": [
       {
+        "edition": 19,
+        "year": 2010,
+        "startDate": "2010-06-27",
+        "endDate": "2010-06-30"
+      },
+      {
+        "edition": 20,
+        "year": 2011,
+        "startDate": "2011-06-23",
+        "endDate": "2011-06-26"
+      },
+      {
+        "edition": 21,
+        "year": 2012
+      },
+      {
+        "edition": 22,
+        "year": 2013,
+        "startDate": "2013-07-18",
+        "endDate": "2013-07-21"
+      },
+      {
+        "edition": 23,
+        "year": 2014,
+        "startDate": "2014-07-11",
+        "endDate": "2014-07-14"
+      },
+      {
+        "edition": 24,
+        "year": 2015,
+        "startDate": "2015-07-09",
+        "endDate": "2015-07-12"
+      },
+      {
+        "year": 2016,
+        "status": "cancelled"
+      },
+      {
+        "edition": 25,
+        "year": 2017,
+        "startDate": "2017-06-08",
+        "endDate": "2017-06-11"
+      },
+      {
+        "edition": 26,
+        "year": 2018,
+        "startDate": "2018-11-24",
+        "endDate": "2018-11-26"
+      },
+      {
+        "edition": 27,
+        "year": 2019,
+        "startDate": "2019-06-28",
+        "endDate": "2019-07-01"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 28,
         "startDate": "2021-06-10",
-        "endDate": "2021-06-13"
+        "endDate": "2021-06-13",
+        "status": "cancelled"
+      },
+      {
+        "edition": 29,
+        "year": 2022,
+        "startDate": "2022-06-17"
+      },
+      {
+        "edition": 30,
+        "year": 2023,
+        "startDate": "2023-05-11"
+      },
+      {
+        "edition": 31,
+        "year": 2024,
+        "startDate": "2024-05-16",
+        "endDate": "2024-05-19",
+        "links": [
+          {
+            "url": "https://2m.ma/ar/news/%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-31-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%B7%D8%B1%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-%D8%A8%D9%88%D8%AC%D8%AF%D8%A9-%D9%85%D9%86-16-%D8%A5%D9%84%D9%89-19-%D9%85%D8%A7%D9%8A-20240513",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 32,
+        "year": 2025,
+        "startDate": "2025-05-25",
+        "endDate": "2025-05-28",
+        "links": [
+          {
+            "url": "https://web.facebook.com/dir.culturel.oriental/photos/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-32-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%B7%D8%B1%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85-%D8%AA%D8%AD%D8%AA-%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9-%D9%84%D8%B5%D8%A7%D8%AD%D8%A8-%D8%A7%D9%84%D8%AC%D9%84%D8%A7%D9%84%D8%A9/1007581894835382/?_rdc=1&_rdr",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 33,
+        "year": 2026,
+        "startDate": "2026-04-09",
+        "endDate": "2026-04-11",
+        "links": [
+          {
+            "url": "https://web.facebook.com/61584721408054/posts/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-33-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%B7%D8%B1%D8%A8-%D8%A7%D9%84%D8%BA%D8%B1%D9%86%D8%A7%D8%B7%D9%8A-%D9%84%D8%B9%D8%A7%D9%85-2026/122124819609157380/?_rdc=1&_rdr",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

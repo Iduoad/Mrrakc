@@ -139,6 +139,18 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
                   {edition.notes && (
                     <p class="text-sm italic text-charcoal-light dark:text-stone-400 mt-1">{edition.notes}</p>
                   )}
+                  {edition.links && edition.links.length > 0 && (
+                    <ul class="mt-2 flex flex-wrap gap-x-4 gap-y-1">
+                      {edition.links.map(link => (
+                        <li>
+                          <a href={link.url} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-terra-dark dark:text-terra hover:underline group">
+                            <ExternalLink size={14} className="group-hover:scale-110 transition-transform" />
+                            <span>{link.title}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               ))}
             </div>

@@ -41,10 +41,96 @@
     },
     "editions": [
       {
+        "edition": 17,
+        "year": 2020,
+        "startDate": "2020-12-14",
+        "endDate": "2020-12-16",
+        "links": [
+          {
+            "url": "https://www.youtube.com/watch?v=g80Dps4HMTQ",
+            "title": "2020 video",
+            "type": "video"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=TtzRFXJloDg",
+            "title": "2020 video",
+            "type": "video"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=3LIHCyJwCjw",
+            "title": "2020 video",
+            "type": "video"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=7hod-SF0u3Q",
+            "title": "2020 video",
+            "type": "video"
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 18,
+        "year": 2022,
+        "startDate": "2022-10-27",
+        "endDate": "2022-10-30",
+        "links": [
+          {
+            "url": "https://lobservateur.info/article/104183/culture/musique/andalousies-atlantiques-dessaouira-le-bonheur-detre-ensemble",
+            "title": "2022 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://www.medi1news.com/fr/article/264491.html",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "status": "cancelled",
+        "links": [
+          {
+            "url": "https://fr.le360.ma/culture/essaouira-report-de-la-19eme-edition-du-festival-des-andalousies-atlantiques_YFJKGXDNKFFIBDZVVKBVVOET3M/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2024,
+        "startDate": "2024-10-31",
+        "endDate": "2024-11-02",
+        "links": [
+          {
+            "url": "https://fr.le360.ma/culture/essaouira-le-19eme-festival-des-andalousies-atlantiques-souvre-le-jeudi-31-octobre_FGT5ZHA2DFEC5DGB5EREXB7HJM/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2025,
         "edition": 20,
         "startDate": "2025-10-30",
-        "endDate": "2025-11-02"
+        "endDate": "2025-11-02",
+        "links": [
+          {
+            "url": "https://www.facebook.com/dpmjcc.essaouira/posts/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%84%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D8%B4%D8%B1%D9%88%D9%86%D9%85%D9%86-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D8%A5%D9%84%D9%89-2-%D9%86%D9%88%D9%86%D8%A8%D8%B1-2025-%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%B1%D8%A9%D8%AA%D8%B3/122324409470003399/",
+            "title": "2025 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://www.mcg24.com/79483-%D8%A7%D9%84%D8%B5%D9%88%D9%8A%D8%B1%D8%A9-%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-18-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%84%D8%B3%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%D9%8A%D8%A9",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
       }
     ]
   }

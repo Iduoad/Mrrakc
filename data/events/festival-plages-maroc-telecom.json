@@ -33,6 +33,141 @@
         "title": "Maroc Telecom",
         "type": "website"
       }
+    ],
+    "editions": [
+      {
+        "edition": 9,
+        "year": 2010,
+        "startDate": "2010-07-20",
+        "endDate": "2010-08-21"
+      },
+      {
+        "edition": 10,
+        "year": 2011,
+        "startDate": "2011-07-20",
+        "endDate": "2011-08-21"
+      },
+      {
+        "edition": 11,
+        "year": 2012,
+        "startDate": "2012-07-20",
+        "endDate": "2012-08-21"
+      },
+      {
+        "edition": 12,
+        "year": 2013,
+        "startDate": "2013-07-20",
+        "endDate": "2013-08-21"
+      },
+      {
+        "edition": 13,
+        "year": 2014,
+        "startDate": "2014-07-20",
+        "endDate": "2014-08-21"
+      },
+      {
+        "edition": 14,
+        "year": 2015,
+        "startDate": "2015-07-18",
+        "endDate": "2015-08-21"
+      },
+      {
+        "edition": 15,
+        "year": 2016,
+        "startDate": "2016-07-15",
+        "endDate": "2016-08-21"
+      },
+      {
+        "edition": 16,
+        "year": 2017,
+        "startDate": "2017-07-14",
+        "endDate": "2017-08-21"
+      },
+      {
+        "edition": 17,
+        "year": 2018,
+        "startDate": "2018-07-20",
+        "endDate": "2018-08-21"
+      },
+      {
+        "edition": 18,
+        "year": 2019,
+        "startDate": "2019-07-12",
+        "endDate": "2019-08-22"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 18,
+        "year": 2022,
+        "startDate": "2022-07-15",
+        "endDate": "2022-08-21",
+        "links": [
+          {
+            "url": "https://amp.medi1news.com/fr/article/159173.html",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2023,
+        "startDate": "2023-07-14",
+        "endDate": "2023-08-21",
+        "links": [
+          {
+            "url": "https://snrtnews.com/fr/article/19e-edition-du-festival-des-plages-de-maroc-telecom-10-millions-de-festivaliers-82683",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 20,
+        "year": 2024,
+        "startDate": "2024-07-13",
+        "endDate": "2024-08-21",
+        "links": [
+          {
+            "url": "https://www.iam.ma/w/groupe-maroc-telecom/cooptation-d-un-nouveau-membre-au-conseil-de-surveillance-et-renouvellement-du-mandat-des-membres-du-directoire-de-maroc-telecom2",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 21,
+        "year": 2025,
+        "startDate": "2025-07-15",
+        "endDate": "2025-08-21",
+        "links": [
+          {
+            "url": "https://www.iam.ma/w/maroc-telecom-lance-la-21%E1%B5%89-%C3%A9dition-du-festival-des-plages-21-ans-de-musique-de-proximit%C3%A9-et-d-impact-social",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 22,
+        "year": 2026,
+        "startDate": "2026-07-20",
+        "endDate": "2026-08-21",
+        "links": [
+          {
+            "url": "https://www.iam.ma/w/maroc-telecom-lance-la-21%E1%B5%89-%C3%A9dition-du-festival-des-plages-21-ans-de-musique-de-proximit%C3%A9-et-d-impact-social-copier-",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
     ]
   }
 }

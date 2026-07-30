@@ -23,6 +23,59 @@
       "frequency": "annual",
       "type": "irregular",
       "note": "Exact dates announced per edition"
-    }
+    },
+    "editions": [
+      {
+        "edition": 5,
+        "year": 2014,
+        "startDate": "2014-11-01",
+        "endDate": "2014-11-30"
+      },
+      {
+        "edition": 6,
+        "year": 2015,
+        "startDate": "2015-04-01",
+        "endDate": "2015-05-31"
+      },
+      {
+        "edition": 8,
+        "year": 2017,
+        "startDate": "2017-04-01",
+        "endDate": "2017-04-30"
+      },
+      {
+        "edition": 9,
+        "year": 2019,
+        "startDate": "2019-07-18",
+        "endDate": "2019-07-21"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 10,
+        "year": 2025,
+        "startDate": "2025-08-22",
+        "endDate": "2025-08-24"
+      },
+      {
+        "edition": 11,
+        "year": 2026,
+        "startDate": "2026-07-28",
+        "endDate": "2026-07-31",
+        "links": [
+          {
+            "url": "https://www.instagram.com/p/DabRSFExCDr/",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -27,6 +27,129 @@
     },
     "comments": [
       "This festival is no longer regularly organized"
+    ],
+    "editions": [
+      {
+        "edition": 4,
+        "year": 2010,
+        "startDate": "2010-08-25",
+        "endDate": "2010-09-01",
+        "links": [
+          {
+            "url": "https://www.aladabia.net/article-4872-",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2011,
+        "startDate": "2011-08-16",
+        "endDate": "2011-08-21",
+        "links": [
+          {
+            "url": "https://www.arrabita.ma/%D9%81%D8%B6%D8%A7%D8%A6%D9%84-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D9%81%D9%8A-%D8%B1%D8%AD%D8%A7%D8%A8-%D9%85%D8%B1%D9%8A%D8%B3%D8%A9-%D8%B3%D9%84%D9%88%D8%A7%D9%86/",
+            "title": "2011 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2012,
+        "startDate": "2012-08-01",
+        "endDate": "2012-08-31",
+        "links": [
+          {
+            "url": "https://bayanealyaoume.press.ma/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D9%84%D9%85%D8%B1%D9%8A%D8%B3%D8%A9-%D8%A8%D8%B3%D9%84%D8%A7-%D9%8A%D9%83%D8%B1%D9%85-%D8%A7%D9%84%D9%81%D9%86%D8%A7%D9%86-%D8%B9/.html",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2013,
+        "startDate": "2013-07-23",
+        "endDate": "2013-07-27",
+        "links": [
+          {
+            "url": "https://howiyapress.com/33-2/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2014,
+        "links": [
+          {
+            "url": "https://www.akhbarona.com/",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2015,
+        "startDate": "2015-07-02",
+        "endDate": "2015-07-04",
+        "links": [
+          {
+            "url": "https://www.akhbarona.com/divers/128050.html",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2016,
+        "startDate": "2016-06-23",
+        "endDate": "2016-06-26"
+      },
+      {
+        "edition": 11,
+        "year": 2017,
+        "startDate": "2017-06-16",
+        "endDate": "2017-06-18",
+        "links": [
+          {
+            "url": "https://alassima24.ma/?p=15302",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2018,
+        "startDate": "2018-05-25",
+        "endDate": "2018-06-01",
+        "links": [
+          {
+            "url": "https://www.villedesale.ma/2018/06/05/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B1%D9%85%D8%B6%D8%A7%D9%86-%D9%84%D9%85%D8%B1%D9%8A%D8%B3%D8%A9-%D9%85%D9%84%D8%AA%D9%82%D9%89-%D8%A7%D9%84%D9%81%D9%86%D9%88%D9%86-%D9%8A%D8%AA%D9%88/",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2019,
+        "startDate": "2019-05-01",
+        "endDate": "2019-05-26",
+        "links": [
+          {
+            "url": "https://www.villedesale.ma/2019/05/29/%D8%A5%D8%B3%D8%AF%D8%A7%D9%84-%D8%A7%D9%84%D8%B3%D8%AA%D8%A7%D8%B1-%D8%B9%D9%84%D9%89-%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%A8%D8%A7%D8%A8-%D9%84%D9%85%D8%B1%D9%8A%D8%B3%D8%A9-%D9%81%D9%8A-%D8%AD%D9%81/",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      }
     ]
   }
 }

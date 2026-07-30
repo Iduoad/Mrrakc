@@ -52,10 +52,271 @@
     },
     "editions": [
       {
+        "edition": 16,
+        "year": 2010,
+        "startDate": "2010-06-04",
+        "endDate": "2010-06-12",
+        "links": [
+          {
+            "url": "https://www.ccme.org.ma/fr/actualites/9216",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2011,
+        "startDate": "2011-06-03",
+        "endDate": "2011-06-12",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-musiques-sacrees-fes-2011.html",
+            "title": "2011 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2012,
+        "startDate": "2012-06-08",
+        "endDate": "2012-06-16",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-fes-musiques-sacrees-2012.html",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2013,
+        "startDate": "2013-06-07",
+        "endDate": "2013-06-15",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20130904163245/http://www.fesfestival.com/2013/fr/fes.php?id_rub=15",
+            "title": "2013 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://fr.le360.ma/culture/19eme-edition-du-festival-des-musiques-sacrees-de-fes-le-programme-3574/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 20,
+        "year": 2014,
+        "startDate": "2014-06-13",
+        "endDate": "2014-06-21",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20140630182240/http://www.fesfestival.com/programme/",
+            "title": "2014 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://aujourdhui.ma/culture/20eme-festival-de-fes-des-musiques-sacrees-du-monde-109267",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 21,
+        "year": 2015,
+        "startDate": "2015-05-22",
+        "endDate": "2015-05-30",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20150624065214/http://fesfestival.com/schedule",
+            "title": "2015 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://www.e-taqafa.ma/fr/node/463",
+            "title": "2015 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://medias24.com/2015/04/15/21e-edition-du-festival-de-fes-des-musiques-sacrees-tout-le-programme/",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 22,
+        "year": 2016,
+        "startDate": "2016-05-06",
+        "endDate": "2016-05-14",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20160529022540/http://fesfestival.com/2016/programmation-par-jour/",
+            "title": "2016 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://medias24.com/2016/03/17/les-temps-forts-du-22e-festival-des-musiques-sacrees-de-fes/",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 23,
+        "year": 2017,
+        "startDate": "2017-05-12",
+        "endDate": "2017-05-20",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20170528232212/http://fesfestival.com/2017/programmation-par-jour/",
+            "title": "2017 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://aujourdhui.ma/culture/la-23eme-edition-se-tiendra-du-12-au-20-mai-le-festival-des-musiques-sacrees-de-fes-rendra-hommage-a-leau",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 24,
+        "year": 2018,
+        "startDate": "2018-06-22",
+        "endDate": "2018-06-30",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20190722201448/https://fesfestival.com/2018/en/programmation-par-jour/",
+            "title": "2018 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://www.rythmes-croises.org/festival-de-fes-des-musiques-sacrees-du-monde-24e-edition-du-22-au-30-juin-2018/",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2019,
         "edition": 25,
         "startDate": "2019-06-14",
-        "endDate": "2019-06-22"
+        "endDate": "2019-06-22",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20190723045015/https://fesfestival.com/2019/fr/programmation-par-jour/",
+            "title": "2019 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://medias24.com/2019/04/16/la-25e-edition-du-festival-des-musiques-sacrees-du-monde-du-14-au-22-juin-a-fes/",
+            "title": "2019 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.leconomiste.com/article/1043743-festival-des-musiques-sacrees",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 26,
+        "year": 2022,
+        "startDate": "2022-06-09",
+        "endDate": "2022-06-12",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20220704002135/http://fesfestival.com/2020/programmation-par-jour/",
+            "title": "2022 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://www.lecourrierdelatlas.com/26e-edition-du-festival-de-fes-des-musiques-sacrees-du-monde/",
+            "title": "2022 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://femmesdumaroc.com/actualite/le-festival-de-fes-des-musiques-sacrees-du-monde-de-retour-pour-une-26e-edition-61266",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "status": "cancelled",
+        "links": [
+          {
+            "url": "https://medias24.com/2023/09/10/la-fondation-esprit-de-fes-annonce-le-report-de-son-festival/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ],
+        "notes": "Postponned with solidarity with Haouz earthquack"
+      },
+      {
+        "edition": 27,
+        "year": 2024,
+        "startDate": "2024-05-24",
+        "endDate": "2024-06-01",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20240619072301/https://fesfestival.com/2024/programmation-par-jour/",
+            "title": "2024 programme (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://if-maroc.org/meknes/evenements/27e-edition-du-festival-de-fes-des-musiques-sacrees-du-monde/",
+            "title": "2024 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://aujourdhui.ma/culture/27eme-festival-de-fes-des-musiques-sacrees-du-monde-louverture-marquee-par-le-spectacle-ziyriab-ou-la-cinquieme-corde",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 28,
+        "year": 2025,
+        "startDate": "2025-05-16",
+        "endDate": "2025-05-24",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20250513152204/https://fesfestival.com/2025/programme-2025-date-fr/",
+            "title": "2025 programme (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 29,
+        "year": 2026,
+        "startDate": "2026-06-04",
+        "endDate": "2026-06-07",
+        "links": [
+          {
+            "url": "https://fesfestival.com/2026-/programme/",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

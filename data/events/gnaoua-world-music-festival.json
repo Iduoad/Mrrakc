@@ -45,6 +45,60 @@
     },
     "editions": [
       {
+        "edition": 13,
+        "year": 2010,
+        "startDate": "2010-06-24",
+        "endDate": "2010-06-27"
+      },
+      {
+        "edition": 14,
+        "year": 2011,
+        "startDate": "2011-06-23",
+        "endDate": "2011-06-26"
+      },
+      {
+        "edition": 15,
+        "year": 2012,
+        "startDate": "2012-06-14",
+        "endDate": "2012-06-17"
+      },
+      {
+        "edition": 16,
+        "year": 2013,
+        "startDate": "2013-06-13",
+        "endDate": "2013-06-16"
+      },
+      {
+        "edition": 17,
+        "year": 2014,
+        "startDate": "2014-06-12",
+        "endDate": "2014-06-15"
+      },
+      {
+        "edition": 18,
+        "year": 2015,
+        "startDate": "2015-05-14",
+        "endDate": "2015-05-17"
+      },
+      {
+        "edition": 19,
+        "year": 2016,
+        "startDate": "2016-05-12",
+        "endDate": "2016-05-15"
+      },
+      {
+        "edition": 20,
+        "year": 2017,
+        "startDate": "2017-06-29",
+        "endDate": "2017-07-02"
+      },
+      {
+        "edition": 21,
+        "year": 2018,
+        "startDate": "2018-06-21",
+        "endDate": "2018-06-24"
+      },
+      {
         "year": 2019,
         "edition": 22,
         "startDate": "2019-06-20",
@@ -56,15 +110,74 @@
         "notes": "Cancelled due to the COVID-19 pandemic"
       },
       {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
         "year": 2022,
         "edition": 23,
-        "notes": "Held as the Gnaoua Festival Tour, a touring format"
+        "notes": "Held as the Gnaoua Festival Tour, a touring format",
+        "startDate": "2022-06-03",
+        "endDate": "2022-06-04",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20220703173041/https://tour.festival-gnaoua.net/wp-content/themes/c1612_gnaouatour_t4m/static/files/programme-generale.pdf",
+            "title": "2022 programme (archived)",
+            "type": "program"
+          }
+        ]
       },
       {
         "year": 2023,
         "edition": 24,
         "startDate": "2023-06-22",
-        "endDate": "2023-06-24"
+        "endDate": "2023-06-24",
+        "links": [
+          {
+            "url": "https://ledesk.ma/culture/une-exceptionnelle-24eme-edition-du-festival-gnaoua-et-musiques-du-monde-dessaouira/",
+            "title": "2023 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 25,
+        "year": 2024,
+        "startDate": "2024-06-27",
+        "endDate": "2024-06-29",
+        "links": [
+          {
+            "url": "https://www.festival-gnaoua.net/wp-content/uploads/2024/06/VFR-Programme-Complet-A4-1.pdf",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 26,
+        "year": 2025,
+        "startDate": "2025-06-19",
+        "endDate": "2025-06-21",
+        "links": [
+          {
+            "url": "https://www.festival-gnaoua.net/en/program-edition-2025/",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 27,
+        "year": 2026,
+        "startDate": "2026-06-25",
+        "endDate": "2026-06-27",
+        "links": [
+          {
+            "url": "https://www.festival-gnaoua.net/fr/programme",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

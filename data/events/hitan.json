@@ -33,7 +33,14 @@
         "edition": 1,
         "year": 2025,
         "startDate": "2025-05-19",
-        "endDate": "2025-05-28"
+        "endDate": "2025-05-28",
+        "links": [
+          {
+            "url": "https://www.villedesale.ma/index.php/fr/actualites/2437-organisation-d-une-conference-de-presse-pour-presenter-la-premiere-edition-du-festival-hitan-a-sale",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

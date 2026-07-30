@@ -38,8 +38,113 @@
     },
     "editions": [
       {
+        "edition": 8,
+        "year": 2014,
+        "startDate": "2014-04-24",
+        "endDate": "2014-04-26"
+      },
+      {
+        "edition": 9,
+        "year": 2015
+      },
+      {
+        "edition": 10,
+        "year": 2016,
+        "startDate": "2016-05-10",
+        "endDate": "2016-05-14"
+      },
+      {
+        "edition": 11,
+        "year": 2017,
+        "startDate": "2017-05-10",
+        "endDate": "2017-05-14"
+      },
+      {
+        "edition": 12,
+        "year": 2018,
+        "startDate": "2018-05-02",
+        "endDate": "2018-05-06"
+      },
+      {
+        "edition": 13,
+        "year": 2019,
+        "startDate": "2019-04-23",
+        "endDate": "2019-04-27"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
-        "edition": 14
+        "edition": 14,
+        "startDate": "2021-10-25",
+        "endDate": "2021-10-30"
+      },
+      {
+        "edition": 15,
+        "year": 2022,
+        "startDate": "2022-05-23",
+        "endDate": "2022-05-28",
+        "links": [
+          {
+            "url": "https://www.facebook.com/FIBaDeT/posts/pfbid02RZN2nNBGnRRs47WYrLM7McenDooLA36R3zoaqbVSGKJQA6KrZndtuSkXXYHWKeiWl",
+            "title": "2022 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 16,
+        "year": 2023,
+        "startDate": "2023-05-09",
+        "endDate": "2023-05-13",
+        "links": [
+          {
+            "url": "https://www.facebook.com/FIBaDeT/posts/pfbid02SQqSdQiHB65pSFP7YNJDGwymK7oBg4c72h1jAHnaYN2PSxdfbGJD8zHetHY9T6sgl",
+            "title": "2023 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2024,
+        "startDate": "2024-05-27",
+        "endDate": "2024-06-01",
+        "links": [
+          {
+            "url": "https://www.facebook.com/FIBaDeT/posts/pfbid023wrEx9L6xVfk4vDMuFS2kvKRsQUG4CbB6eN2BSw3XQdo9vTpNTEqkkjNUaUQBBJUl",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2025,
+        "startDate": "2025-05-12",
+        "endDate": "2025-05-17",
+        "links": [
+          {
+            "url": "https://www.facebook.com/FIBaDeT/posts/pfbid0ChExNCNHS8sP9EznX7QtYZbqsQx3xW6qS1x1giLw85FsX64DRZVMmV83gSVSNnYXl",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2026,
+        "startDate": "2026-05-17",
+        "endDate": "2026-05-22",
+        "links": [
+          {
+            "url": "https://www.facebook.com/FIBaDeT/posts/pfbid02uXF4FRPMqkNgHur9R8HEth2oPF8recZxs22vUiP5YfD88WpHqja2mwQmJQyyP6kol",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

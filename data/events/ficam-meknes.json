@@ -39,10 +39,190 @@
     },
     "editions": [
       {
+        "edition": 10,
+        "year": 2010,
+        "startDate": "2010-05-06",
+        "endDate": "2010-05-14"
+      },
+      {
+        "edition": 11,
+        "year": 2011,
+        "startDate": "2011-04-15",
+        "endDate": "2011-04-20"
+      },
+      {
+        "year": 2012,
+        "startDate": "2012-03-22",
+        "endDate": "2012-03-27"
+      },
+      {
+        "edition": 12,
+        "year": 2013,
+        "startDate": "2013-03-22",
+        "endDate": "2013-03-27",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2013.pdf",
+            "title": "2013 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2014,
+        "startDate": "2014-03-21",
+        "endDate": "2014-03-26",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2014.pdf",
+            "title": "2014 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2015,
+        "startDate": "2015-03-20",
+        "endDate": "2015-03-25",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2015.pdf",
+            "title": "2015 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2016,
+        "startDate": "2016-03-25",
+        "endDate": "2016-03-30",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2016.pdf",
+            "title": "2016 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 16,
+        "year": 2017,
+        "startDate": "2017-03-17",
+        "endDate": "2017-03-22",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2017.pdf",
+            "title": "2017 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2018,
+        "startDate": "2018-03-16",
+        "endDate": "2018-03-21",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2018.pdf",
+            "title": "2018 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2019,
+        "startDate": "2019-03-22",
+        "endDate": "2019-03-27",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/Brochure-Scolaire-2019.pdf",
+            "title": "2019 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 20,
+        "year": 2022,
+        "startDate": "2022-05-06",
+        "endDate": "2022-05-11",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2022/12/Ficam-2022.pdf",
+            "title": "2022 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 21,
+        "year": 2023,
+        "startDate": "2023-03-03",
+        "endDate": "2023-03-08",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2023/02/BROCHURE-FICAM-2023-LAST.pdf",
+            "title": "2023 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 22,
+        "year": 2024,
+        "startDate": "2024-05-10",
+        "endDate": "2024-05-15",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2024/05/BROCHURE-FICAM-2024-1.pdf",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 23,
+        "year": 2025,
+        "startDate": "2025-05-16",
+        "endDate": "2025-05-21",
+        "links": [
+          {
+            "url": "https://ficam.ma/wp-content/uploads/2025/05/BROCHURE-FICAM-2025.pdf",
+            "title": "2025 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://if-maroc.org/rabat/evenements/ficam-2025-le-programme-a-rabat/#/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2026,
         "edition": 24,
         "startDate": "2026-05-15",
-        "endDate": "2026-05-20"
+        "endDate": "2026-05-20",
+        "links": [
+          {
+            "url": "https://ficam.ma/programme/",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

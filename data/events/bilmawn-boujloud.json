@@ -38,6 +38,59 @@
           "entranceFee": -1
         }
       ]
-    }
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2023,
+        "startDate": "2023-07-20",
+        "endDate": "2023-07-23",
+        "links": [
+          {
+            "url": "https://www.instagram.com/p/Cugm5mhMOhB/?hl=en",
+            "title": "2023 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2024,
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-03",
+        "links": [
+          {
+            "url": "https://www.instagram.com/p/C8pgUUgMdjd/",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "status": "cancelled",
+        "links": [
+          {
+            "url": "https://www.hespress.com/%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D9%85%D9%88%D8%B9%D8%AF-%D9%83%D8%B1%D9%86%D9%81%D8%A7%D9%84-%D8%A8%D9%8A%D9%84%D9%85%D8%A7%D9%88%D9%86-%D8%A8%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D8%B1-1571459.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ],
+        "notes": "Canceled due to ongoing works in its route on Mohammed V Street and Al Amal Square."
+      },
+      {
+        "edition": 3,
+        "year": 2026,
+        "startDate": "2026-06-05",
+        "endDate": "2026-06-18",
+        "links": [
+          {
+            "url": "https://www.instagram.com/p/DZF3Bj9DEji/",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ]
   }
 }

@@ -39,10 +39,76 @@
     },
     "editions": [
       {
+        "edition": 11,
+        "year": 2015,
+        "startDate": "2015-11-18",
+        "endDate": "2015-11-20"
+      },
+      {
+        "year": 2016,
+        "status": "cancelled"
+      },
+      {
+        "edition": 12,
+        "year": 2017,
+        "startDate": "2017-11-17",
+        "endDate": "2017-11-19"
+      },
+      {
+        "edition": 13,
+        "year": 2018,
+        "startDate": "2018-11-02",
+        "endDate": "2018-11-04",
+        "links": [
+          {
+            "url": "https://www.facebook.com/D.R.CULTURE.DAKHLA.OUED.EDDAHAB/posts/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%B3%D9%87%D8%B1%D8%A7%D8%AA-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D8%BA%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%86%D9%8A%D8%A9-%D8%A8%D8%B3%D8%A7%D8%AD%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A-%D8%A8%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D8%A9-%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-13/287914618730971/",
+            "title": "2018 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2019,
+        "startDate": "2019-07-25",
+        "endDate": "2019-07-27"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 15,
         "startDate": "2021-11-18",
         "endDate": "2021-11-20"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled"
+      },
+      {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
+        "edition": 16,
+        "year": 2024,
+        "startDate": "2024-07-26",
+        "endDate": "2024-07-28"
+      },
+      {
+        "edition": 17,
+        "year": 2025,
+        "startDate": "2025-11-03",
+        "endDate": "2025-11-05",
+        "links": [
+          {
+            "url": "https://www.facebook.com/la.ville.de.dakhla.au.sahara.marocain/posts/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A7%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84%D8%A3%D8%BA%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D8%AA%D9%87-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9-%D8%B9%D8%B4%D8%B1%D8%A9-%D8%A8%D9%84%D8%A4%D9%84%D8%A4%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D8%A1-%D8%A7%D9%84%D9%85/836791805715061/",
+            "title": "2025 announcement",
+            "type": "social"
+          }
+        ]
       }
     ],
     "links": [

@@ -46,6 +46,169 @@
     ],
     "comments": [
       "Held since 1940 at the end of the date harvest season."
+    ],
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2010,
+        "startDate": "2010-09-30",
+        "endDate": "2010-10-03",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/economie/telex-lonmt-actif-au-benelux-73084",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2011,
+        "startDate": "2011-10-27",
+        "endDate": "2011-10-30"
+      },
+      {
+        "edition": 3,
+        "year": 2012,
+        "startDate": "2012-11-08",
+        "endDate": "2012-11-11"
+      },
+      {
+        "edition": 4,
+        "year": 2013,
+        "startDate": "2013-10-31",
+        "endDate": "2013-11-03",
+        "links": [
+          {
+            "url": "https://medias24.com/2013/10/31/erfoud-le-salon-international-des-dattes-ouvre-ses-portes/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2014,
+        "startDate": "2014-10-30",
+        "endDate": "2014-11-02",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/economie/erfoud-les-dattes-du-maroc-font-leur-salon-international-113899",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2015,
+        "startDate": "2015-10-29",
+        "endDate": "2015-11-01",
+        "links": [
+          {
+            "url": "https://www.agrimaroc.ma/6e-edition-du-salon-international-des-dattes-a-erfoud/",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2016,
+        "startDate": "2016-10-27",
+        "endDate": "2016-10-30"
+      },
+      {
+        "edition": 8,
+        "year": 2017,
+        "startDate": "2017-10-26",
+        "endDate": "2017-10-29",
+        "links": [
+          {
+            "url": "https://medias24.com/2017/10/25/arfoud-accueille-son-8e-salon-des-dattes/",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2018,
+        "startDate": "2018-10-25",
+        "endDate": "2018-10-28"
+      },
+      {
+        "edition": 10,
+        "year": 2019,
+        "startDate": "2019-10-24",
+        "endDate": "2019-10-27"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 11,
+        "year": 2022,
+        "startDate": "2022-10-27",
+        "endDate": "2022-10-30"
+      },
+      {
+        "edition": 12,
+        "year": 2023,
+        "startDate": "2023-10-03",
+        "endDate": "2023-10-08",
+        "links": [
+          {
+            "url": "https://lematin.ma/economie/le-12eme-salon-international-des-dattes-au-maroc-ouvre-ses-portes-a-erfoud/194167",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2024,
+        "startDate": "2024-10-29",
+        "endDate": "2024-11-03",
+        "links": [
+          {
+            "url": "https://lematin.ma/economie/le-salon-international-des-dattes-2024-revient-du-29-octobre-au-3-novembre/246060",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2025,
+        "startDate": "2025-10-29",
+        "endDate": "2025-11-02",
+        "links": [
+          {
+            "url": "https://www.sidattes.ma/wp-content/uploads/2018/10/plan-2025.jpg",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2026,
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-25",
+        "links": [
+          {
+            "url": "https://mesloisirs.ma/evenements/festival-erfoud-dattes-2026",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
     ]
   }
 }

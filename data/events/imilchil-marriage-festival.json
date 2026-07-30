@@ -46,6 +46,102 @@
     ],
     "comments": [
       "Linked to the legend of the Isli and Tislit lakes."
+    ],
+    "editions": [
+      {
+        "edition": 7,
+        "year": 2010,
+        "startDate": "2010-09-23",
+        "endDate": "2010-09-25"
+      },
+      {
+        "edition": 8,
+        "year": 2011,
+        "startDate": "2011-09-15",
+        "endDate": "2011-09-17"
+      },
+      {
+        "edition": 9,
+        "year": 2012,
+        "startDate": "2012-09-13",
+        "endDate": "2012-09-15"
+      },
+      {
+        "edition": 10,
+        "year": 2013,
+        "startDate": "2013-09-20",
+        "endDate": "2013-09-22"
+      },
+      {
+        "edition": 11,
+        "year": 2014,
+        "startDate": "2014-09-18",
+        "endDate": "2014-09-20"
+      },
+      {
+        "edition": 12,
+        "year": 2015
+      },
+      {
+        "edition": 13,
+        "year": 2016,
+        "startDate": "2016-09-22",
+        "endDate": "2016-09-24"
+      },
+      {
+        "edition": 14,
+        "year": 2017,
+        "startDate": "2017-09-22",
+        "endDate": "2017-09-24"
+      },
+      {
+        "edition": 15,
+        "year": 2018,
+        "startDate": "2018-09-21",
+        "endDate": "2018-09-23"
+      },
+      {
+        "edition": 16,
+        "year": 2019,
+        "startDate": "2019-09-20",
+        "endDate": "2019-09-22"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 17,
+        "year": 2022,
+        "startDate": "2022-09-22",
+        "endDate": "2022-09-24"
+      },
+      {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
+        "edition": 18,
+        "year": 2024,
+        "startDate": "2024-09-19",
+        "endDate": "2024-09-21"
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-09-18",
+        "endDate": "2025-09-20",
+        "links": [
+          {
+            "url": "https://www.facebook.com/Imilchill/photos/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%A8%D8%A9-%D8%A8%D8%A5%D9%85%D9%84%D8%B4%D9%8A%D9%84-%D9%88%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D8%A7%D9%84%D8%A3%D8%B9%D8%A7%D9%84%D9%8A-%D9%81%D9%83%D9%88%D9%86%D9%88%D8%A7-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%88%D8%B9%D8%AF-%D9%8A%D9%88%D9%85/1339049754253144/",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      }
     ]
   }
 }

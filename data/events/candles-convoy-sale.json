@@ -22,6 +22,86 @@
       "frequency": "annual",
       "type": "irregular",
       "note": "Timing determined locally each year"
-    }
+    },
+    "editions": [
+      {
+        "year": 2010,
+        "startDate": "2010-02-25",
+        "endDate": "2010-03-03"
+      },
+      {
+        "year": 2011,
+        "startDate": "2011-02-15",
+        "endDate": "2011-02-21"
+      },
+      {
+        "year": 2012,
+        "startDate": "2012-02-04",
+        "endDate": "2012-02-10"
+      },
+      {
+        "year": 2013,
+        "startDate": "2013-01-23",
+        "endDate": "2013-01-29"
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-01-13",
+        "endDate": "2014-01-19"
+      },
+      {
+        "year": 2015,
+        "startDate": "2015-12-23",
+        "endDate": "2015-12-29"
+      },
+      {
+        "year": 2016,
+        "startDate": "2016-12-11",
+        "endDate": "2016-12-17"
+      },
+      {
+        "year": 2017,
+        "startDate": "2017-11-30",
+        "endDate": "2017-12-06"
+      },
+      {
+        "year": 2018,
+        "startDate": "2018-11-19",
+        "endDate": "2018-11-25"
+      },
+      {
+        "year": 2019,
+        "startDate": "2019-11-09",
+        "endDate": "2019-11-15"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "year": 2022,
+        "startDate": "2022-10-08",
+        "endDate": "2022-10-14"
+      },
+      {
+        "year": 2023,
+        "startDate": "2023-09-27",
+        "endDate": "2023-10-03"
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-09-15",
+        "endDate": "2024-09-21"
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-09-04",
+        "endDate": "2025-09-10"
+      }
+    ]
   }
 }
