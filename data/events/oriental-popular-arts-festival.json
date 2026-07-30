@@ -40,11 +40,54 @@
     },
     "editions": [
       {
+        "edition": 5,
+        "year": 2018
+      },
+      {
+        "edition": 7,
+        "year": 2019,
+        "startDate": "2019-08-30",
+        "endDate": "2019-09-01"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 8,
         "startDate": "2021-12-02",
         "endDate": "2021-12-04",
-        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic",
+        "status": "cancelled"
+      },
+      {
+        "edition": 9,
+        "year": 2022,
+        "startDate": "2022-08-26",
+        "endDate": "2022-08-28"
+      },
+      {
+        "edition": 10,
+        "year": 2023
+      },
+      {
+        "edition": 11,
+        "year": 2024,
+        "startDate": "2024-07-18",
+        "endDate": "2024-07-20"
+      },
+      {
+        "edition": 12,
+        "year": 2025,
+        "startDate": "2025-07-17",
+        "endDate": "2025-07-19"
+      },
+      {
+        "edition": 13,
+        "year": 2026,
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-25"
       }
     ],
     "links": [

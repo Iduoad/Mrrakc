@@ -30,14 +30,146 @@
     },
     "editions": [
       {
+        "edition": 1,
+        "year": 2013,
+        "links": [
+          {
+            "url": "https://aljazeera.net/arts/2013/%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86-%D8%A8%D8%B3%D9%84%D8%A7-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2014,
+        "links": [
+          {
+            "url": "https://www.hespress.com/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86-%D8%A8%D8%B3%D9%84%D8%A7-%D9%8A%D8%AD%D8%AA%D9%81%D9%8A-87265.html",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2015,
+        "links": [
+          {
+            "url": "https://villedesale.ma/ar/%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86-%D8%A8%D8%B3%D9%84%D8%A7/",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2016,
+        "startDate": "2016-05-19",
+        "endDate": "2016-05-22",
+        "links": [
+          {
+            "url": "https://www.hespress.com/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86-%D8%A8%D8%B3%D9%84%D8%A7-%D9%8A%D8%AD%D8%AA%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D8%AD%D8%A7-174154.html",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2017,
+        "startDate": "2017-05-11",
+        "endDate": "2017-05-14",
+        "links": [
+          {
+            "url": "https://www.maghress.com/alittihad/578279",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2018,
+        "startDate": "2018-05-03",
+        "endDate": "2018-05-06",
+        "links": [
+          {
+            "url": "https://www.mapnews.ma/ar/actualites/%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9/%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D9%84%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86-%D8%A8%D8%B3%D9%84%D8%A7",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2019,
+        "startDate": "2019-04-25",
+        "endDate": "2019-04-28",
+        "links": [
+          {
+            "url": "https://www.maroc.ma/ar/actualites/%D8%B3%D9%84%D8%A7-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 8,
+        "year": 2022,
+        "startDate": "2022-06-02",
+        "endDate": "2022-06-05",
+        "links": [
+          {
+            "url": "https://maprabat.ma/ar/article/%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9/%D8%B3%D9%84%D8%A7-%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%85%D9%86%D8%A9-%D9%84%D9%80%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2023,
         "edition": 10
+      },
+      {
+        "edition": 9,
+        "year": 2023,
+        "startDate": "2023-07-20",
+        "endDate": "2023-07-23",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2023/journees-nationales-nzaha-malhoun-organisees-sale-20-23-juillet/391910.html",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
       },
       {
         "year": 2024,
         "edition": 11,
         "startDate": "2024-06-12",
         "endDate": "2024-06-15"
+      },
+      {
+        "edition": 10,
+        "year": 2024,
+        "startDate": "2024-06-06",
+        "endDate": "2024-06-09",
+        "links": [
+          {
+            "url": "https://villedesale.ma/fr/la-10eme-edition-des-journees-nationales-de-nzaha-du-malhoun-a-sale/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

@@ -37,6 +37,136 @@
           "entranceFee": -1
         }
       ]
-    }
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2009,
+        "startDate": "2009-02-19",
+        "endDate": "2009-02-20",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2010/Festival-des-amandiers_Tafraout-le-terroir-d-avenir/127921.html",
+            "title": "2009 program",
+            "type": "program"
+          },
+          {
+            "url": "https://aujourdhui.ma/regions/tafraout-premiere-edition-du-festival-des-amandiers-62423",
+            "title": "2009 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://tafraout.canalblog.com/archives/2009/03/03/12798254.html",
+            "title": "2009 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2010,
+        "startDate": "2010-01-29",
+        "endDate": "2010-01-30",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20220707164020/https://libe.ma/Tafraout-Deuxieme-edition-du-Festival-des-amandiers_a8033.html",
+            "title": "2010 coverage (archived)",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "status": "cancelled"
+      },
+      {
+        "year": 2012,
+        "status": "cancelled"
+      },
+      {
+        "edition": 3,
+        "year": 2013,
+        "startDate": "2013-03-08",
+        "endDate": "2013-03-10",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/economie/des-projets-d-envergure-en-marge-du-3eme-festival-des-amandiers-dar-louz-pour-valoriser-les-amandiers-101621",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2014,
+        "startDate": "2014-02-28",
+        "endDate": "2014-03-02",
+        "links": [
+          {
+            "url": "https://www.facebook.com/100066583996134/posts/600303150057482/",
+            "title": "2014 program",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2015,
+        "startDate": "2015-03-06",
+        "endDate": "2015-03-08",
+        "links": [
+          {
+            "url": "https://amadalamazigh.press.ma/06-08-2015/",
+            "title": "2015 program",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2016,
+        "startDate": "2016-03-04",
+        "endDate": "2016-03-06",
+        "links": [
+          {
+            "url": "https://azulpress.ma/%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%84%D9%88%D8%B2-%D8%A8%D8%AA/",
+            "title": "2016 program",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2017,
+        "startDate": "2017-03-08",
+        "endDate": "2017-03-12",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20170706084150/http://www.festivalamandiers.ma/programme.html",
+            "title": "2017 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2018,
+        "startDate": "2018-03-14",
+        "endDate": "2018-03-17",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20200215121056/http://www.festivalamandiers.ma/programme.html",
+            "title": "2018 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2019,
+        "startDate": "2019-02-28",
+        "endDate": "2019-03-03"
+      }
+    ]
   }
 }

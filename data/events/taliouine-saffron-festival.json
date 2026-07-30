@@ -38,6 +38,105 @@
           "entranceFee": -1
         }
       ]
-    }
+    },
+    "editions": [
+      {
+        "edition": 4,
+        "year": 2010,
+        "startDate": "2010-10-01",
+        "endDate": "2010-10-31"
+      },
+      {
+        "edition": 5,
+        "year": 2011,
+        "startDate": "2011-10-20",
+        "endDate": "2011-10-23"
+      },
+      {
+        "edition": 6,
+        "year": 2012,
+        "startDate": "2012-11-29",
+        "endDate": "2012-12-02"
+      },
+      {
+        "edition": 7,
+        "year": 2013,
+        "startDate": "2013-11-08",
+        "endDate": "2013-11-11"
+      },
+      {
+        "edition": 8,
+        "year": 2014,
+        "startDate": "2014-11-07",
+        "endDate": "2014-11-09"
+      },
+      {
+        "edition": 9,
+        "year": 2015,
+        "startDate": "2015-11-06",
+        "endDate": "2015-11-08"
+      },
+      {
+        "edition": 10,
+        "year": 2016,
+        "startDate": "2016-11-03",
+        "endDate": "2016-11-06"
+      },
+      {
+        "edition": 11,
+        "year": 2017,
+        "startDate": "2017-10-30",
+        "endDate": "2017-11-05"
+      },
+      {
+        "edition": 12,
+        "year": 2018,
+        "startDate": "2018-11-02",
+        "endDate": "2018-11-04"
+      },
+      {
+        "edition": 13,
+        "year": 2019,
+        "startDate": "2019-11-01",
+        "endDate": "2019-11-03"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 14,
+        "year": 2022,
+        "startDate": "2022-11-25",
+        "endDate": "2022-11-27"
+      },
+      {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
+        "edition": 15,
+        "year": 2024,
+        "startDate": "2024-11-07",
+        "endDate": "2024-11-10"
+      },
+      {
+        "edition": 16,
+        "year": 2025,
+        "startDate": "2025-11-20",
+        "endDate": "2025-11-23",
+        "links": [
+          {
+            "url": "https://www.agrimaroc.ma/taliouine-celebre-la-16%E1%B5%89-edition-du-festival-international-du-safran/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ]
   }
 }

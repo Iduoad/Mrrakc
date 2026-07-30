@@ -39,16 +39,97 @@
     },
     "editions": [
       {
+        "edition": 1,
+        "year": 2014,
+        "startDate": "2014-11-12",
+        "endDate": "2014-11-15"
+      },
+      {
+        "edition": 2,
+        "year": 2015,
+        "startDate": "2015-11-11",
+        "endDate": "2015-11-14"
+      },
+      {
+        "edition": 3,
+        "year": 2016,
+        "startDate": "2016-11-16",
+        "endDate": "2016-11-19"
+      },
+      {
+        "edition": 4,
+        "year": 2017,
+        "startDate": "2017-11-22",
+        "endDate": "2017-11-25"
+      },
+      {
+        "edition": 5,
+        "year": 2018,
+        "startDate": "2018-11-21",
+        "endDate": "2018-11-24"
+      },
+      {
+        "edition": 6,
+        "year": 2019,
+        "startDate": "2019-11-20",
+        "endDate": "2019-11-23"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 9,
+        "year": 2022,
+        "startDate": "2022-11-16",
+        "endDate": "2022-11-19"
+      },
+      {
+        "edition": 10,
+        "year": 2023,
+        "startDate": "2023-11-22",
+        "endDate": "2023-11-25"
+      },
+      {
         "year": 2024,
         "edition": 11,
         "startDate": "2024-11-20",
-        "endDate": "2024-11-23"
+        "endDate": "2024-11-23",
+        "links": [
+          {
+            "url": "https://www.artsconnectafrica.org/visa-for-music-festival-2024-holds-in-rabat-morocco/",
+            "title": "2024 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.wanaut.com/evenement/visa-for-music-2024-showcases-live-stages-after-stage-114488/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
       },
       {
         "year": 2025,
         "edition": 12,
         "startDate": "2025-11-19",
         "endDate": "2025-11-22"
+      },
+      {
+        "edition": 13,
+        "year": 2026,
+        "startDate": "2026-11-18",
+        "endDate": "2026-11-21",
+        "links": [
+          {
+            "url": "https://ar.wikipedia.org/wiki/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86_%D8%AA%D8%A3%D8%B4%D9%8A%D8%B1%D8%A9_%D9%84%D9%84%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [
@@ -56,6 +137,11 @@
         "url": "https://visaformusic.com/",
         "title": "Visa For Music official website",
         "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Visa_for_Music",
+        "title": "Wikipedia",
+        "type": "article"
       }
     ]
   }

@@ -40,11 +40,71 @@
     },
     "editions": [
       {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 1,
         "startDate": "2021-10-22",
         "endDate": "2021-10-24",
-        "notes": "First edition, held virtually"
+        "notes": "First edition, held virtually",
+        "links": [
+          {
+            "url": "https://ritajepress.com/news3983.html",
+            "title": "2021 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2022,
+        "startDate": "2022-08-12",
+        "endDate": "2022-08-14",
+        "links": [
+          {
+            "url": "https://mjcc.gov.ma/fr/2022/08/11/taroudant-2eme-edition-du-festival-national-de-taskiouine/",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2023,
+        "startDate": "2023-12-13",
+        "endDate": "2023-12-15",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/taroudant-abrite-la-3eme-edition-du-festival-taskiwin",
+            "title": "2023 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://fr.le360.ma/culture/festival-taskiwin-a-taroudant-une-3eme-edition-sous-le-signe-de-la-sauvegarde-dun-patrimoine_4Q6Y24Y7RZH5TN4RZXH3L3Z354/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2024,
+        "startDate": "2024-06-28",
+        "endDate": "2024-06-30",
+        "links": [
+          {
+            "url": "https://www.2m.ma/fr/news/taroudant-4eme-edition-du-festival-national-de-taskiwine-du-28-au-30-juin-2024-20240629",
+            "title": "2024 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.lodj.ma/Taroudant-cloture-de-la-4eme-edition-du-Festival-Taskiouine_a43132.html",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

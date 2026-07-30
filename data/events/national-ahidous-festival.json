@@ -42,12 +42,210 @@
     },
     "editions": [
       {
+        "edition": 10,
+        "year": 2010,
+        "startDate": "2010-07-16",
+        "endDate": "2010-07-18"
+      },
+      {
+        "edition": 11,
+        "year": 2011,
+        "startDate": "2011-07-02",
+        "endDate": "2011-07-04",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2011/ain-leuh_la-11e-edition-du-festival-national-d-ahidous/153000.html",
+            "title": "2011 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2012,
+        "startDate": "2012-06-01",
+        "endDate": "2012-06-03",
+        "links": [
+          {
+            "url": "https://www.communesmaroc.com/actualites/ain-leuh-abrite-le-festival-national-d-ahidous",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2013,
+        "startDate": "2013-08-17",
+        "endDate": "2013-08-19",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2013/ain-leuh_la-13e-edition-du-festival-national-d-ahidous/186000.html",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2014,
+        "startDate": "2014-08-15",
+        "endDate": "2014-08-17",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2014/ain-leuh_la-14e-edition-du-festival-national-d-ahidous/207000.html",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2015,
+        "startDate": "2015-08-08",
+        "endDate": "2015-08-10",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2015/ain-leuh_la-15e-edition-du-festival-national-d-ahidous/229000.html",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 16,
+        "year": 2016,
+        "startDate": "2016-08-12",
+        "endDate": "2016-08-14",
+        "links": [
+          {
+            "url": "https://journals.openedition.org/etudesafricaines/19213",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2017,
+        "startDate": "2017-08-25",
+        "endDate": "2017-08-27",
+        "links": [
+          {
+            "url": "https://www.region-fes-meknes.ma/fr/17eme-edition-du-festival-national-dahidous/",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2018,
+        "startDate": "2018-07-28",
+        "endDate": "2018-07-30",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/festival-national-dahidous-la-18eme-edition-a-ain-leuh",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2019,
+        "startDate": "2019-07-26",
+        "endDate": "2019-07-28",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/ain-leuh-accueille-la-19eme-edition-du-festival-national-dahidous",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "edition": 20,
         "year": 2021,
         "startDate": "2021-12-03",
         "endDate": "2021-12-05",
         "provinces": [
           "province/ifrane"
+        ],
+        "status": "cancelled"
+      },
+      {
+        "edition": 21,
+        "year": 2022,
+        "startDate": "2022-08-05",
+        "endDate": "2022-08-07",
+        "links": [
+          {
+            "url": "https://snrtnews.com/article/ain-leuh-21eme-edition-festival-national-ahidous",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 22,
+        "year": 2023,
+        "startDate": "2023-08-04",
+        "endDate": "2023-08-06",
+        "links": [
+          {
+            "url": "https://lematin.ma/culture/ain-leuh-la-22e-edition-du-festival-national-d-ahidous/392000.html",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 23,
+        "year": 2024,
+        "startDate": "2024-07-12",
+        "endDate": "2024-07-14",
+        "links": [
+          {
+            "url": "https://le360.ma/culture/retour-en-images-sur-le-festival-national-dahidous-a-ain-leuh-118833",
+            "title": "2024 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://premiumtravelnews.com/cloture-en-beaute-du-23eme-festival-dahidous-a-ain-leuh/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 24,
+        "year": 2025,
+        "startDate": "2025-07-18",
+        "endDate": "2025-07-20",
+        "links": [
+          {
+            "url": "https://www.levert.ma/ain-leuh-la-24eme-edition-du-festival-national-dahidous/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 25,
+        "year": 2026,
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-25",
+        "links": [
+          {
+            "url": "https://amazighworldnews.com/ain-leuh-hosts-moroccos-25th-national-ahidous-festival/",
+            "title": "2026 coverage",
+            "type": "article"
+          }
         ]
       }
     ],

@@ -47,6 +47,167 @@
     ],
     "comments": [
       "Revived in 2004 after being banned in 1979."
+    ],
+    "editions": [
+      {
+        "edition": 7,
+        "year": 2010,
+        "startDate": "2010-12-08",
+        "endDate": "2010-12-13",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2010/7e-edition-du-Moussem-de-Tan-Tan_Cloture-en-apotheose/143527.html",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "status": "cancelled"
+      },
+      {
+        "edition": 8,
+        "year": 2012,
+        "startDate": "2012-03-21",
+        "endDate": "2012-03-26",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2012/Festival_La-8e-edition-du-Moussem-de-Tan-Tan-du-21-au-26-mars/164052.html",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2013,
+        "startDate": "2013-09-04",
+        "endDate": "2013-09-09",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/la-9eme-edition-du-moussem-de-tan-tan-du-4-au-9-septembre-prochain-104443",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2014,
+        "startDate": "2014-06-04",
+        "endDate": "2014-06-09",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2014/10e-edition-du-moussem-de-tan-tan_les-emirats-arabes-unis-invites-d-honneur/202685.html",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2015,
+        "startDate": "2015-05-23",
+        "endDate": "2015-05-27",
+        "links": [
+          {
+            "url": "https://www.portailsudmaroc.com/actualite/11181/11eme-edition-du-moussem-de-tan-tan-du-23-au-27-mai",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2016,
+        "startDate": "2016-05-13",
+        "endDate": "2016-05-18",
+        "links": [
+          {
+            "url": "https://le360.ma/societe/la-12e-edition-du-moussem-de-tan-tan-du-13-au-18-mai-71171/",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2017,
+        "startDate": "2017-05-05",
+        "endDate": "2017-05-10",
+        "links": [
+          {
+            "url": "https://www.moroccoworldnews.com/2017/04/214304/13th-edition-moussem-tan-tan-held-may-5-10",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2018,
+        "startDate": "2018-07-04",
+        "endDate": "2018-07-09",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2018/14e-edition-moussem-tan-tan-4-9-juillet/294711.html",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2019,
+        "startDate": "2019-06-14",
+        "endDate": "2019-06-19",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2019/15e-edition-moussem-tan-tan-14-19-juin/317578.html",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled"
+      },
+      {
+        "edition": 16,
+        "year": 2023,
+        "startDate": "2023-07-07",
+        "endDate": "2023-07-12",
+        "links": [
+          {
+            "url": "https://medias24.com/2023/07/07/le-moussem-de-tan-tan-de-retour-du-7-au-12-juillet/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2024,
+        "startDate": "2024-06-26",
+        "endDate": "2024-06-30",
+        "links": [
+          {
+            "url": "https://fr.hespress.com/374665-la-17e-edition-du-moussem-de-tan-tan-du-26-au-30-juin-2024.html",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      }
     ]
   }
 }

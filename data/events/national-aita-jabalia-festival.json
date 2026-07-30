@@ -39,11 +39,191 @@
     },
     "editions": [
       {
+        "edition": 1,
+        "year": 2012,
+        "startDate": "2012-08-03",
+        "endDate": "2012-08-05",
+        "links": [
+          {
+            "url": "https://bayanealyaoume.press.ma/festival-national-de-l-aita-jabalia-a-taounate/",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2013,
+        "startDate": "2013-06-14",
+        "endDate": "2013-06-16",
+        "links": [
+          {
+            "url": "https://assahraa.ma/journal/2013/06/14/festival-national-des-arts-de-l-aita-jabalia-a-taounate",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2014,
+        "startDate": "2014-06-20",
+        "endDate": "2014-06-22",
+        "links": [
+          {
+            "url": "https://www.barlamane.com/fr/festival-national-des-arts-de-laita-jabalia-a-taounate/",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2015,
+        "startDate": "2015-08-01",
+        "endDate": "2015-08-03",
+        "links": [
+          {
+            "url": "https://taounate.net/2145",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2016,
+        "startDate": "2016-07-15",
+        "endDate": "2016-07-17",
+        "links": [
+          {
+            "url": "https://taounate.net/3241",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2017,
+        "startDate": "2017-07-22",
+        "endDate": "2017-07-24",
+        "links": [
+          {
+            "url": "https://albayane.press.ma/la-6eme-edition-du-festival-national-des-arts-de-laita-jabalia-a-taounate.html",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2018,
+        "startDate": "2018-07-12",
+        "endDate": "2018-07-14",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2018/festival-national-arts-laita-jabalia-taounate/297241.html",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2019,
+        "startDate": "2019-06-15",
+        "endDate": "2019-06-17",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2019/festival-national-arts-laita-jabalia-taounate/317540.html",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 9,
         "startDate": "2021-10-28",
         "endDate": "2021-10-31",
-        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+        "notes": "Rescheduled from the usual period due to the COVID-19 pandemic",
+        "links": [
+          {
+            "url": "https://www.laverite.ma/culture/taounate-la-9e-edition-du-festival-national-des-arts-de-laita-jabalia-virtuellement/",
+            "title": "2021 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2022,
+        "startDate": "2022-06-10",
+        "endDate": "2022-06-12",
+        "links": [
+          {
+            "url": "https://taounate.net/14101",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2023,
+        "startDate": "2023-06-15",
+        "endDate": "2023-06-17",
+        "links": [
+          {
+            "url": "https://le360.ma/societe/festival-national-des-arts-de-laita-jabalia-une-11eme-edition-riche-en-couleurs-a-taounate_4RJWK2M2L5HY5N4V3Q4M6Z5X2Y/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2024,
+        "startDate": "2024-05-23",
+        "endDate": "2024-05-25",
+        "links": [
+          {
+            "url": "https://www.maptv.ma/ar/culture/%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84-12-%D9%84%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84%D9%81%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D9%8A%D8%B7%D8%A9/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2025,
+        "startDate": "2025-05-22",
+        "endDate": "2025-05-24",
+        "links": [
+          {
+            "url": "https://www.lodj.ma/Taounate-abrite-le-13eme-Festival-national-des-arts-de-l-Aita-Jabalia_a103859.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2026,
+        "startDate": "2026-06-12",
+        "endDate": "2026-06-14",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/taounate-celebre-la-14eme-edition-du-festival-national-des-arts-de-laita-jabalia",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

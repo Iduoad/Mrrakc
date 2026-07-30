@@ -41,9 +41,180 @@
     },
     "editions": [
       {
+        "edition": 48,
+        "year": 2010,
+        "startDate": "2010-05-07",
+        "endDate": "2010-05-09",
+        "links": [
+          {
+            "url": "https://voyageforum.com/discussion/festival-roses-kelaat-m-gouna-d3368297/",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 49,
+        "year": 2011,
+        "links": [
+          {
+            "url": "https://www.kelaat-mgouna.com",
+            "title": "2011 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 50,
+        "year": 2012,
+        "startDate": "2012-05-10",
+        "endDate": "2012-05-13"
+      },
+      {
+        "edition": 51,
+        "year": 2013,
+        "startDate": "2013-05-09",
+        "endDate": "2013-05-12",
+        "links": [
+          {
+            "url": "https://www.agripeche.com/51eme-edition-du-festival-des-roses-a-kelaat-mgouna/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 52,
+        "year": 2014,
+        "startDate": "2014-05-22",
+        "endDate": "2014-05-25",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2014/kelaat-m-gouna_le-festival-des-roses-du-22-au-25-mai/202636.html",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 53,
+        "year": 2015,
+        "startDate": "2015-05-07",
+        "endDate": "2015-05-10",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2015/la-53e-edition-du-festival-des-roses/223788.html",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 54,
+        "year": 2016,
+        "startDate": "2016-05-12",
+        "endDate": "2016-05-15",
+        "links": [
+          {
+            "url": "https://www.communesmaroc.com",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 55,
+        "year": 2017,
+        "startDate": "2017-05-11",
+        "endDate": "2017-05-14"
+      },
+      {
+        "edition": 56,
+        "year": 2018,
+        "startDate": "2018-05-10",
+        "endDate": "2018-05-13",
+        "links": [
+          {
+            "url": "https://www.agripeche.com",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 57,
+        "year": 2019,
+        "startDate": "2019-04-24",
+        "endDate": "2019-04-28",
+        "links": [
+          {
+            "url": "https://www.infostourismemaroc.com",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled"
+      },
+      {
+        "edition": 58,
+        "year": 2023,
+        "startDate": "2023-04-26",
+        "endDate": "2023-04-29",
+        "links": [
+          {
+            "url": "https://www.e-taqafa.ma",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 59,
+        "year": 2024,
+        "startDate": "2024-05-03",
+        "endDate": "2024-05-06"
+      },
+      {
+        "edition": 60,
+        "year": 2025,
+        "startDate": "2025-05-05",
+        "endDate": "2025-05-08",
+        "links": [
+          {
+            "url": "https://www.agrimaroc.ma/salon-international-rose-parfum-2025/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2026,
         "startDate": "2026-05-06",
-        "endDate": "2026-05-09"
+        "endDate": "2026-05-09",
+        "edition": 61
+      }
+    ],
+    "links": [
+      {
+        "url": "https://fr.le360.ma",
+        "title": "coverage",
+        "type": "article"
+      },
+      {
+        "url": "https://www.tourismetinghir.com",
+        "title": "coverage",
+        "type": "article"
       }
     ]
   }

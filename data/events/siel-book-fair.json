@@ -41,6 +41,88 @@
     },
     "editions": [
       {
+        "edition": 16,
+        "year": 2010,
+        "startDate": "2010-02-12",
+        "endDate": "2010-02-21"
+      },
+      {
+        "edition": 17,
+        "year": 2011,
+        "startDate": "2011-02-11",
+        "endDate": "2011-02-20"
+      },
+      {
+        "edition": 18,
+        "year": 2012,
+        "startDate": "2012-02-09",
+        "endDate": "2012-02-19"
+      },
+      {
+        "edition": 19,
+        "year": 2013,
+        "startDate": "2013-03-29",
+        "endDate": "2013-04-07"
+      },
+      {
+        "edition": 20,
+        "year": 2014,
+        "startDate": "2014-02-13",
+        "endDate": "2014-02-23"
+      },
+      {
+        "edition": 21,
+        "year": 2015,
+        "startDate": "2015-02-13",
+        "endDate": "2015-02-22"
+      },
+      {
+        "edition": 22,
+        "year": 2016,
+        "startDate": "2016-02-12",
+        "endDate": "2016-02-21"
+      },
+      {
+        "edition": 23,
+        "year": 2017,
+        "startDate": "2017-02-09",
+        "endDate": "2017-02-19"
+      },
+      {
+        "edition": 24,
+        "year": 2018,
+        "startDate": "2018-02-08",
+        "endDate": "2018-02-18"
+      },
+      {
+        "edition": 25,
+        "year": 2019,
+        "startDate": "2019-02-07",
+        "endDate": "2019-02-17"
+      },
+      {
+        "edition": 26,
+        "year": 2020,
+        "startDate": "2020-02-06",
+        "endDate": "2020-02-16"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 27,
+        "year": 2022,
+        "startDate": "2022-06-03",
+        "endDate": "2022-06-12"
+      },
+      {
+        "edition": 28,
+        "year": 2023,
+        "startDate": "2023-06-01",
+        "endDate": "2023-06-11"
+      },
+      {
         "edition": 29,
         "year": 2024,
         "startDate": "2024-05-09",
@@ -55,7 +137,8 @@
       {
         "year": 2026,
         "startDate": "2026-05-01",
-        "endDate": "2026-05-10"
+        "endDate": "2026-05-10",
+        "edition": 31
       }
     ],
     "links": [

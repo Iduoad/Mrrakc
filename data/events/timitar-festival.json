@@ -38,10 +38,208 @@
     },
     "editions": [
       {
+        "edition": 7,
+        "year": 2010,
+        "startDate": "2010-07-07",
+        "endDate": "2010-07-10",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-timitar-2010.html",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2011,
+        "startDate": "2011-06-22",
+        "endDate": "2011-06-25",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-timitar-agadir-2011.html",
+            "title": "2011 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2012,
+        "startDate": "2012-06-27",
+        "endDate": "2012-06-30",
+        "links": [
+          {
+            "url": "https://telquel.ma/2012/06/13/agadir-accueille-la-9eme-edition-du-festival-timitar_200",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2013,
+        "startDate": "2013-06-26",
+        "endDate": "2013-06-29"
+      },
+      {
+        "edition": 11,
+        "year": 2014,
+        "startDate": "2014-06-18",
+        "endDate": "2014-06-21",
+        "links": [
+          {
+            "url": "https://communesmaroc.com/festival/festival-timitar/11",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2015,
+        "startDate": "2015-07-22",
+        "endDate": "2015-07-25",
+        "links": [
+          {
+            "url": "https://www.leguidedesfestivals.com/index.php?fest=12952",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2016,
+        "startDate": "2016-07-13",
+        "endDate": "2016-07-16"
+      },
+      {
+        "edition": 14,
+        "year": 2017,
+        "startDate": "2017-07-05",
+        "endDate": "2017-07-08",
+        "links": [
+          {
+            "url": "https://medias24.com/2017/06/16/la-14e-edition-du-festival-timitar-du-5-au-8-juillet-a-agadir/",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2018,
+        "startDate": "2018-07-04",
+        "endDate": "2018-07-07",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2018/festival-timitar-souffle-quinzieme-bougie/295328.html",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2019,
         "edition": 16,
         "startDate": "2019-07-04",
-        "endDate": "2019-07-06"
+        "endDate": "2019-07-06",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-timitar-agadir,56965.html",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 17,
+        "year": 2022,
+        "startDate": "2022-07-15",
+        "endDate": "2022-07-16",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2022/festival-timitar-retour-agadir-15-16-juillet/378125.html",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2023,
+        "startDate": "2023-09-07",
+        "endDate": "2023-09-09",
+        "links": [
+          {
+            "url": "https://leseco.ma/maroc/festival-timitar-la-18e-edition-se-tiendra-en-septembre-prochain.html",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2024,
+        "startDate": "2024-07-04",
+        "endDate": "2024-07-07",
+        "links": [
+          {
+            "url": "https://medias24.com/2024/05/18/festival-timitar-19e-edition-du-4-au-7-juillet-a-agadir/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 20,
+        "year": 2025,
+        "startDate": "2025-12-17",
+        "endDate": "2025-12-19",
+        "links": [
+          {
+            "url": "https://medias24.com/2025/12/12/agadir-la-20%E1%B5%89-edition-du-festival-timitar-programmee-du-17-au-19-decembre-2025-programme-1595133/",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://africa24tv.com/event/20eme-edition-du-festival-timitar-dagadir/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 21,
+        "year": 2026,
+        "startDate": "2026-07-23",
+        "endDate": "2026-07-25",
+        "links": [
+          {
+            "url": "https://www.instagram.com/p/DayS_zIRsiy/?hl=en",
+            "title": "2026 program",
+            "type": "program"
+          },
+          {
+            "url": "https://maroc.ma/fr/actualites/agadir-la-21e-edition-du-festival-timitar-du-23-au-25-juillet",
+            "title": "2026 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://medias24.com/2026/07/08/timitar-2026-najat-atabou-ragheb-alama-oudaden-agadir-deroule-sa-programmation-1718359/",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [
@@ -49,6 +247,11 @@
         "url": "https://www.festivaltimitar.ma/",
         "title": "Timitar Festival official website",
         "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Festival_Timitar",
+        "title": "Wikipedia",
+        "type": "article"
       }
     ]
   }

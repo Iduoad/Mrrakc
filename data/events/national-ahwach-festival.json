@@ -39,11 +39,81 @@
     },
     "editions": [
       {
+        "edition": 1,
+        "year": 2012,
+        "startDate": "2012-10-19",
+        "endDate": "2012-10-21"
+      },
+      {
+        "edition": 2,
+        "year": 2013,
+        "startDate": "2013-11-15",
+        "endDate": "2013-11-17"
+      },
+      {
+        "edition": 3,
+        "year": 2014,
+        "startDate": "2014-08-08",
+        "endDate": "2014-08-10"
+      },
+      {
+        "edition": 4,
+        "year": 2015,
+        "startDate": "2015-08-10",
+        "endDate": "2015-08-12"
+      },
+      {
+        "edition": 5,
+        "year": 2016,
+        "startDate": "2016-08-11",
+        "endDate": "2016-08-13"
+      },
+      {
+        "edition": 6,
+        "year": 2017,
+        "startDate": "2017-08-10",
+        "endDate": "2017-08-12"
+      },
+      {
+        "edition": 7,
+        "year": 2018,
+        "startDate": "2018-08-10",
+        "endDate": "2018-08-12"
+      },
+      {
+        "edition": 8,
+        "year": 2019,
+        "startDate": "2019-06-27",
+        "endDate": "2019-06-29"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 9,
         "startDate": "2021-07-09",
         "endDate": "2021-07-12",
         "notes": "Rescheduled from the usual period due to the COVID-19 pandemic"
+      },
+      {
+        "edition": 10,
+        "year": 2022,
+        "startDate": "2022-06-10",
+        "endDate": "2022-06-12"
+      },
+      {
+        "edition": 11,
+        "year": 2023,
+        "startDate": "2023-05-12",
+        "endDate": "2023-05-14"
+      },
+      {
+        "edition": 12,
+        "year": 2024,
+        "startDate": "2024-05-24",
+        "endDate": "2024-05-26"
       }
     ],
     "links": [

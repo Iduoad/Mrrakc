@@ -40,9 +40,67 @@
     },
     "editions": [
       {
+        "year": 2012,
+        "startDate": "2012-09-27",
+        "endDate": "2012-09-29"
+      },
+      {
+        "year": 2013,
+        "startDate": "2013-10-04",
+        "endDate": "2013-10-06"
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-10-23",
+        "endDate": "2014-10-25"
+      },
+      {
+        "year": 2015,
+        "status": "cancelled"
+      },
+      {
+        "year": 2016,
+        "status": "cancelled"
+      },
+      {
+        "year": 2017,
+        "status": "cancelled"
+      },
+      {
+        "year": 2018,
+        "status": "cancelled"
+      },
+      {
+        "edition": 1,
+        "year": 2019,
+        "startDate": "2019-10-10",
+        "endDate": "2019-10-13"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
         "year": 2022,
         "startDate": "2022-10-06",
-        "endDate": "2022-10-09"
+        "endDate": "2022-10-09",
+        "edition": 2
+      },
+      {
+        "edition": 3,
+        "year": 2023,
+        "startDate": "2023-10-10",
+        "endDate": "2023-10-14"
+      },
+      {
+        "edition": 4,
+        "year": 2024,
+        "startDate": "2024-10-16",
+        "endDate": "2024-10-19"
       }
     ]
   }

@@ -42,6 +42,235 @@
         "year": 1920,
         "edition": 1,
         "notes": "First edition"
+      },
+      {
+        "edition": 90,
+        "year": 2010,
+        "startDate": "2010-06-17",
+        "endDate": "2010-06-20",
+        "links": [
+          {
+            "url": "https://www.bladi.net/miss-cerisettes-2010.html",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 91,
+        "year": 2011,
+        "startDate": "2011-06-16",
+        "endDate": "2011-06-19",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2011/Sefrou_La-91e-edition-du-Festival-des-cerises-du-16-au-19-juin/152341.html",
+            "title": "2011 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.paperblog.fr/4537166/festival-des-cerises-de-sefrou-la-91e-edition/",
+            "title": "2011 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 92,
+        "year": 2012,
+        "startDate": "2012-06-14",
+        "endDate": "2012-06-17",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-cerises-sefrou-2012.html",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 93,
+        "year": 2013,
+        "startDate": "2013-06-20",
+        "endDate": "2013-06-23",
+        "links": [
+          {
+            "url": "https://www.bladi.net/festival-cerises-sefrou,35431.html",
+            "title": "2013 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://lereporter.ma/societe/miss-cerisette-2013-sefrou-a-elu-sa-reine/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 94,
+        "year": 2014,
+        "startDate": "2014-06-19",
+        "endDate": "2014-06-22",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2014/sefrou_la-94e-edition-du-festival-des-cerises-du-19-au-22-juin/204273.html",
+            "title": "2014 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://aujourdhui.ma/culture/une-94eme-edition-du-19-au-22-juin-a-sefrou-la-fete-aux-cerises-111195",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 95,
+        "year": 2015,
+        "startDate": "2015-06-04",
+        "endDate": "2015-06-07",
+        "links": [
+          {
+            "url": "https://medias24.com/2015/05/27/la-95e-edition-du-festival-des-cerises-de-sefrou-du-4-au-7-juin/",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 96,
+        "year": 2016,
+        "startDate": "2016-05-26",
+        "endDate": "2016-05-29",
+        "links": [
+          {
+            "url": "https://www.communesmaroc.com/actualite/sefrou-au-rythme-de-la-96e-edition-du-festival-des-cerises-10141",
+            "title": "2016 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.medi1news.com/fr/article/66046/Sefrou-c%C3%A9l%C3%A8bre-la-96%C3%A8me-%C3%A9dition-du-Festival-des-cerises",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 97,
+        "year": 2017,
+        "startDate": "2017-07-06",
+        "endDate": "2017-07-09",
+        "links": [
+          {
+            "url": "https://medias24.com/2017/07/04/festival-des-cerises-de-sefrou-du-6-au-9-juillet/",
+            "title": "2017 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://lematin.ma/express/2017/97e-edition-du-festival-des-cerises-de-sefrou/274719.html",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 98,
+        "year": 2018,
+        "startDate": "2018-06-28",
+        "endDate": "2018-07-01",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2018/plus-400-000-visiteurs-attendus-98e-edition/295115.html",
+            "title": "2018 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.agrimaroc.ma/festival-cerises-sefrou-agricole/",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 99,
+        "year": 2019,
+        "startDate": "2019-06-13",
+        "endDate": "2019-06-16",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/sefrou-la-99eme-edition-du-festival-des-cerises-du-13-au-16-juin",
+            "title": "2019 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://mjtnews.com/2019/06/13/festival-des-cerises-a-sefrou/",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled"
+      },
+      {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
+        "edition": 100,
+        "year": 2024,
+        "startDate": "2024-06-06",
+        "endDate": "2024-06-09",
+        "links": [
+          {
+            "url": "https://lematin.ma/societe/la-100e-edition-du-festival-des-cerises-de-sefrou-du-6-au-9-juin/227546",
+            "title": "2024 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.xylm-asso.fr/festival-des-cerises-a-sefrou",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 101,
+        "year": 2025,
+        "startDate": "2025-06-11",
+        "endDate": "2025-06-14",
+        "links": [
+          {
+            "url": "https://medias24.com/2025/06/10/sefrou-celebre-la-101%E1%B5%89-edition-du-festival-des-cerises-du-11-au-14-juin/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 102,
+        "year": 2026,
+        "startDate": "2026-06-24",
+        "endDate": "2026-06-27",
+        "links": [
+          {
+            "url": "https://www.facebook.com/61559601612548/posts/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A-%D9%88%D8%A7%D9%84%D9%81%D9%86%D9%8A-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AD%D8%A8-%D8%A7%D9%84%D9%85%D9%84%D9%88%D9%83-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-102%D8%B5%D9%81%D8%B1%D9%88-%D8%A3%D9%8A%D8%A7%D9%85-24-25-26-27-%D9%8A%D9%88%D9%86%D9%8A%D9%88-/122214976826320053/"
+            "title": "2026 program"
+          },
+          {
+            "url": "https://www.facebook.com/100084554676754/posts/%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%B5%D9%81%D8%B1%D9%88-%D8%B9%D9%84%D9%89-%D9%85%D9%88%D8%B9%D8%AF-%D9%85%D8%B9-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AD%D8%A8-%D8%A7%D9%84%D9%85%D9%84%D9%88%D9%83-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D8%AA%D9%87-%D8%A7%D9%84%D9%80102-%D9%88%D8%B0%D9%84%D9%83-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%AF%D8%A9/925330536962094/",
+            "title": "2026 announcement",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

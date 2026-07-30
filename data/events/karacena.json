@@ -30,10 +30,110 @@
     },
     "editions": [
       {
+        "edition": 3,
+        "year": 2010,
+        "startDate": "2010-07-21",
+        "endDate": "2010-07-27",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/arts-du-cirque-et-du-voyage-karacena-investit-les-rues-de-sale-74404",
+            "title": "2010 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://lematin.ma/express/2010/Karacena-2010_Le-cirque-a-ciel-ouvert/136709.html",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2012,
+        "startDate": "2012-06-30",
+        "endDate": "2012-07-07",
+        "links": [
+          {
+            "url": "https://fr.wikipedia.org/wiki/Karacena",
+            "title": "2012 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2014,
+        "startDate": "2014-08-21",
+        "endDate": "2014-08-31",
+        "links": [
+          {
+            "url": "https://espace-maroc.com/maroc/culture/karacena-2014-biennale-des-arts-du-cirque-et-du-voyage.html",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2016,
+        "startDate": "2016-08-18",
+        "endDate": "2016-08-28",
+        "links": [
+          {
+            "url": "https://www.morocco-guide.com/events/karacena-festival/",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2018,
+        "startDate": "2018-08-27",
+        "endDate": "2018-09-02",
+        "links": [
+          {
+            "url": "https://www.plurielle.ma/lifestyle/sorties/biennale-karacena-sale-entre-en-piste/",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "edition": 9,
+        "year": 2022,
+        "startDate": "2022-08-21",
+        "endDate": "2022-09-21",
+        "links": [
+          {
+            "url": "https://albayane.press.ma/biennale-karacena-des-arts-du-cirque-et-du-voyage-une-9e-edition-qui-seduit.html",
+            "title": "2022 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.arabnews.fr/node/275326/culture",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2024,
         "edition": 10,
         "startDate": "2024-08-21",
-        "endDate": "2024-09-07"
+        "endDate": "2024-09-07",
+        "links": [
+          {
+            "url": "https://karacena.art/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
       }
     ]
   }

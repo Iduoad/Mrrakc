@@ -39,16 +39,307 @@
     },
     "editions": [
       {
+        "edition": 6,
+        "year": 2004,
+        "startDate": "2004-05-28",
+        "endDate": "2004-05-30",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20050602001645/http://www.boulevard.ma/2004.htm",
+            "title": "2004 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2005,
+        "startDate": "2005-06-02",
+        "endDate": "2005-06-05",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20050602024320/http://www.boulevard.ma/program/progsomm.htm",
+            "title": "2005 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2006,
+        "startDate": "2006-06-01",
+        "endDate": "2006-06-04",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20060717192013/http://www.boulevard.ma/progra06.htm",
+            "title": "2006 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2007,
+        "startDate": "2007-05-31",
+        "endDate": "2007-06-03",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20070712044750/http://www.boulevard.ma/prog2007.php",
+            "title": "2007 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2008,
+        "startDate": "2008-06-19",
+        "endDate": "2008-06-22",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20081221082326/http://www.boulevard.ma/Communique_10ans_30mai.pdf",
+            "title": "2008 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2009,
+        "status": "cancelled"
+      },
+      {
+        "edition": 11,
+        "year": 2010,
+        "startDate": "2010-05-13",
+        "endDate": "2010-05-16",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20100601204854/http://www.boulevard.ma/ProgrammeBd2010.pdf",
+            "title": "2010 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://albayane.press.ma/12e-edition-du-festival-des-musiques-urbaines-lboulevard.html",
+            "title": "2010 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://aujourdhui.ma/culture/la-11eme-edition-du-lboulevard-est-de-retour-au-coc-70453",
+            "title": "2010 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2011,
+        "status": "cancelled",
+        "notes": "Festival was canceled due to financial issues."
+      },
+      {
+        "year": 2012,
+        "status": "cancelled",
+        "notes": "Festival was canceled for the second year due to financial issues"
+      },
+      {
+        "edition": 14,
+        "year": 2013,
+        "startDate": "2013-09-19",
+        "endDate": "2013-09-22",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20140719120247/http://boulevard.ma/l-boulevard-2013/l-boulevard-2013/",
+            "title": "2013 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://lematin.ma/express/2013/festival_retour-de-l-boulevard--avec-la-14e-edition-du-tremplin-/186981.html",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2014,
+        "startDate": "2014-09-19",
+        "endDate": "2014-09-28",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20141216020942/http://www.boulevard.ma/l-boulevard-2014-1/programme",
+            "title": "2014 program (archived)",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 16,
+        "year": 2015,
+        "startDate": "2015-09-11",
+        "endDate": "2015-09-20",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20150810074648/http://boulevard.ma/news/l-boulevard-2015/",
+            "title": "2015 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://lematin.ma/express/2015/la-16eme-edition-de-l-boulevard-promet-des-nouveautes/230198.html",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "status": "cancelled",
+        "notes": "Festival was canceled for the second year due to financial issues"
+      },
+      {
+        "edition": 17,
+        "year": 2017,
+        "startDate": "2017-09-15",
+        "endDate": "2017-09-24",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20170922133644/http://2017.boulevard.ma/",
+            "title": "2017 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://www.barlamane.com/fr/festival-lboulevard-revient-17eme-edition/",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2018,
+        "startDate": "2018-09-14",
+        "endDate": "2018-09-23",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20190710131050/http://boulevard.ma/2018/wp-content/uploads/2018/09/LIVRET%20PROGRAMME%20BVD18.pdf",
+            "title": "2018 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://fr.le360.ma/culture/lboulevard-2018-une-edition-en-hommage-a-tonton-amale-samie-174828/",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2019,
+        "startDate": "2019-09-13",
+        "endDate": "2019-09-22",
+        "links": [
+          {
+            "url": "https://web.archive.org/web/20191015033537/http://boulevard.ma/2018/",
+            "title": "2019 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://wecasablanca.com/agenda/festival-l-boulevard",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 20,
+        "year": 2022,
+        "startDate": "2022-09-23",
+        "endDate": "2022-10-02",
+        "links": [
+          {
+            "url": "https://2022.boulevard.ma/programme",
+            "title": "2022 program",
+            "type": "program"
+          },
+          {
+            "url": "https://medias24.com/2022/09/20/la-20e-edition-du-festival-lboulevard-a-casablanca-du-23-septembre-au-2-octobre/",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 21,
+        "year": 2023,
+        "startDate": "2023-11-16",
+        "endDate": "2023-11-19",
+        "links": [
+          {
+            "url": "https://2023.boulevard.ma/programme",
+            "title": "2023 program",
+            "type": "program"
+          },
+          {
+            "url": "https://2023.boulevard.ma/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2024,
         "edition": 22,
         "startDate": "2024-09-12",
-        "endDate": "2024-09-15"
+        "endDate": "2024-09-15",
+        "links": [
+          {
+            "url": "https://2024.boulevard.ma/programme",
+            "title": "2024 program",
+            "type": "program"
+          },
+          {
+            "url": "https://2024.boulevard.ma/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
       },
       {
         "year": 2025,
         "edition": 23,
         "startDate": "2025-09-18",
-        "endDate": "2025-09-21"
+        "endDate": "2025-09-21",
+        "links": [
+          {
+            "url": "https://2025.boulevard.ma/programme/",
+            "title": "2025 program",
+            "type": "program"
+          },
+          {
+            "url": "https://2025.boulevard.ma/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 24,
+        "year": 2026,
+        "startDate": "2026-09-17",
+        "endDate": "2026-09-20",
+        "links": [
+          {
+            "url": "https://lematin.ma/culture/la-24e-edition-de-lboulevard-prevue-du-17-au-20-septembre-a-casablanca/346593",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

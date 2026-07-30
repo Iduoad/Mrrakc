@@ -39,10 +39,54 @@
     },
     "editions": [
       {
+        "edition": 1,
+        "year": 2017,
+        "startDate": "2017-12-12",
+        "endDate": "2017-12-14",
+        "links": [
+          {
+            "url": "https://machahid.info/culture/festival-ahazij-oued-noun-1ere-edition",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2018,
+        "startDate": "2018-11-06",
+        "endDate": "2018-11-08",
+        "links": [
+          {
+            "url": "https://baytte.com/culture/festival-ahazij-oued-noun-2018",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2019,
+        "startDate": "2019-10-18",
+        "endDate": "2019-10-20",
+        "links": [
+          {
+            "url": "https://agendatouristique.ma/evenements/festival-ahazij-oued-noun-2019",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
         "year": 2021,
         "edition": 4,
         "startDate": "2021-10-14",
-        "endDate": "2021-10-17"
+        "endDate": "2021-10-17",
+        "status": "cancelled"
       }
     ],
     "links": [

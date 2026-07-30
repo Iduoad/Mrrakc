@@ -43,27 +43,13 @@
         "edition": 4,
         "year": 2010,
         "startDate": "2010-09-20",
-        "endDate": "2010-09-25",
-        "links": [
-          {
-            "url": "https://fr.wikipedia.org/wiki/Festival_international_du_film_de_femmes_de_Sal%C3%A9",
-            "title": "2010 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2010-09-25"
       },
       {
         "edition": 5,
         "year": 2011,
         "startDate": "2011-09-19",
-        "endDate": "2011-09-24",
-        "links": [
-          {
-            "url": "https://fr.wikipedia.org/wiki/Festival_international_du_film_de_femmes_de_Sal%C3%A9",
-            "title": "2011 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2011-09-24"
       },
       {
         "edition": 6,
@@ -75,14 +61,7 @@
         "edition": 7,
         "year": 2013,
         "startDate": "2013-09-23",
-        "endDate": "2013-09-28",
-        "links": [
-          {
-            "url": "https://fr.wikipedia.org/wiki/Festival_international_du_film_de_femmes_de_Sal%C3%A9",
-            "title": "2013 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2013-09-28"
       },
       {
         "edition": 8,
@@ -104,7 +83,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/10e/cp.pdf",
-            "title": "2016 programme",
+            "title": "2016 program",
             "type": "program"
           }
         ]
@@ -117,7 +96,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/11e/cp.pdf",
-            "title": "2017 programme",
+            "title": "2017 program",
             "type": "program"
           }
         ]
@@ -130,7 +109,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/12e/programme.pdf",
-            "title": "2018 programme",
+            "title": "2018 program",
             "type": "program"
           }
         ]
@@ -143,7 +122,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/13e/catalogue.pdf",
-            "title": "2019 programme",
+            "title": "2019 program",
             "type": "program"
           }
         ]
@@ -160,7 +139,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/14e/programme.pdf",
-            "title": "2021 programme",
+            "title": "2021 program",
             "type": "program"
           }
         ]
@@ -173,7 +152,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/15e/programme.pdf",
-            "title": "2022 programme",
+            "title": "2022 program",
             "type": "program"
           }
         ]
@@ -186,7 +165,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/16e/programme.pdf",
-            "title": "2023 programme",
+            "title": "2023 program",
             "type": "program"
           }
         ]
@@ -199,7 +178,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/17e/programme.pdf",
-            "title": "2024 programme",
+            "title": "2024 program",
             "type": "program"
           }
         ]
@@ -212,7 +191,7 @@
         "links": [
           {
             "url": "https://fiffs.ma/docs/18e/programme.pdf",
-            "title": "2025 programme",
+            "title": "2025 program",
             "type": "program"
           },
           {
@@ -230,7 +209,7 @@
         "links": [
           {
             "url": "https://www.fiffs.ma/images/archives/docs/13e/catalogue.pdf",
-            "title": "2026 programme",
+            "title": "2026 program",
             "type": "program"
           }
         ]
@@ -241,6 +220,11 @@
         "url": "https://www.fiffs.ma/",
         "title": "FIFFS official website",
         "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Festival_international_du_film_de_femmes_de_Sal%C3%A9",
+        "title": "Wikipedia",
+        "type": "article"
       }
     ]
   }

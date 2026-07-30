@@ -45,6 +45,97 @@
     },
     "editions": [
       {
+        "edition": 11,
+        "year": 2010,
+        "startDate": "2010-09-22",
+        "endDate": "2010-09-26"
+      },
+      {
+        "edition": 12,
+        "year": 2011,
+        "startDate": "2011-09-21",
+        "endDate": "2011-09-25"
+      },
+      {
+        "edition": 13,
+        "year": 2012,
+        "startDate": "2012-09-19",
+        "endDate": "2012-09-23"
+      },
+      {
+        "edition": 14,
+        "year": 2013,
+        "startDate": "2013-09-18",
+        "endDate": "2013-09-22"
+      },
+      {
+        "edition": 15,
+        "year": 2014,
+        "startDate": "2014-09-10",
+        "endDate": "2014-09-14"
+      },
+      {
+        "edition": 16,
+        "year": 2015,
+        "startDate": "2015-09-09",
+        "endDate": "2015-09-13"
+      },
+      {
+        "edition": 17,
+        "year": 2016,
+        "startDate": "2016-09-22",
+        "endDate": "2016-09-25"
+      },
+      {
+        "edition": 18,
+        "year": 2017,
+        "startDate": "2017-09-14",
+        "endDate": "2017-09-17"
+      },
+      {
+        "edition": 19,
+        "year": 2018,
+        "startDate": "2018-09-20",
+        "endDate": "2018-09-23"
+      },
+      {
+        "edition": 20,
+        "year": 2019,
+        "startDate": "2019-09-15",
+        "endDate": "2019-09-22"
+      },
+      {
+        "year": 2020,
+        "status": "cancelled"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 21,
+        "year": 2022,
+        "startDate": "2022-09-22",
+        "endDate": "2022-09-24"
+      },
+      {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
+        "edition": 22,
+        "year": 2024,
+        "startDate": "2024-09-19",
+        "endDate": "2024-09-22",
+        "links": [
+          {
+            "url": "https://tanjazz.org/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
         "year": 2025,
         "status": "cancelled",
         "notes": "Edition postponed by the organizers to consolidate support and partnerships"
@@ -62,6 +153,16 @@
         "url": "https://www.facebook.com/tanjazzfestival/",
         "title": "Tanjazz on Facebook",
         "type": "website"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tanjazz",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Tanjazz",
+        "title": "Wikipedia",
+        "type": "article"
       }
     ]
   }
