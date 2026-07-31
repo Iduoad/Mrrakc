@@ -105,7 +105,12 @@
         "status": "cancelled"
       },
       {
-        "edition": 9,
+        "edition": 8,
+        "year": 2021,
+        "status": "cancelled"
+      },
+      {
+        "edition": 8,
         "year": 2022,
         "startDate": "2022-08-21",
         "endDate": "2022-09-21",
@@ -124,14 +129,27 @@
       },
       {
         "year": 2024,
-        "edition": 10,
+        "edition": 9,
         "startDate": "2024-08-21",
         "endDate": "2024-09-07",
         "links": [
           {
-            "url": "https://karacena.art/",
-            "title": "2024 coverage",
-            "type": "article"
+            "url": "https://web.archive.org/web/20251106215615/https://www.karacena.art/programme",
+            "title": "2024 program",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "edition": 10,
+        "startDate": "2026-08-21",
+        "endDate": "2026-08-31",
+        "links": [
+          {
+            "url": "https://karacena.art/programme",
+            "title": "2026 program",
+            "type": "program"
           }
         ]
       }

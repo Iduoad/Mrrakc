@@ -48,25 +48,26 @@
         "links": [
           {
             "url": "https://www.youtube.com/watch?v=g80Dps4HMTQ",
-            "title": "2020 video",
+            "title": "2020 live performance 1",
             "type": "video"
           },
           {
             "url": "https://www.youtube.com/watch?v=TtzRFXJloDg",
-            "title": "2020 video",
+            "title": "2020 live performance 2",
             "type": "video"
           },
           {
             "url": "https://www.youtube.com/watch?v=3LIHCyJwCjw",
-            "title": "2020 video",
+            "title": "2020 live performance 3",
             "type": "video"
           },
           {
             "url": "https://www.youtube.com/watch?v=7hod-SF0u3Q",
-            "title": "2020 video",
+            "title": "2020 live performance 4",
             "type": "video"
           }
         ]
+        "notes": "The festival happened online due to COVID-19 Pandemic.",
       },
       {
         "year": 2021,
