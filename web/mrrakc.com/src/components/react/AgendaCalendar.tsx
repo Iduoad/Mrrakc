@@ -117,7 +117,7 @@ export default function AgendaCalendar({ events }: Props) {
     const toggle = (setter: React.Dispatch<React.SetStateAction<string[]>>) => (value: string) =>
         setter(prev => prev.includes(value) ? prev.filter(v => v !== value) : [...prev, value]);
 
-    const activeFilterCount = selectedKinds.length + selectedProvinces.length + selectedTypes.length;
+    const activeFilterCount = selectedKinds.length + selectedProvinces.length + selectedTypes.length + (upcomingOnly ? 1 : 0);
 
     const filteredEvents = useMemo(() => events.filter(e =>
         (showInactive || e.status === 'active') &&
@@ -172,24 +172,6 @@ export default function AgendaCalendar({ events }: Props) {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-2">
-                    {upcomingCount > 0 && (
-                        <button
-                            onClick={() => setUpcomingOnly(v => !v)}
-                            aria-pressed={upcomingOnly}
-                            title="Show only events with an upcoming edition"
-                            className={`inline-flex items-center gap-2 px-3 py-2 text-sm font-medium border rounded-xl transition-colors ${upcomingOnly
-                                ? 'bg-emerald-600 text-white border-emerald-600'
-                                : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light dark:text-stone-400 hover:border-emerald-500/50'
-                                }`}
-                        >
-                            <CalendarClock size={16} className={upcomingOnly ? '' : 'text-emerald-600 dark:text-emerald-400'} />
-                            <span className="hidden sm:inline">New editions</span>
-                            <span className={`text-xs font-bold rounded-full px-1.5 py-0.5 min-w-5 ${upcomingOnly ? 'bg-white/25 text-white' : 'bg-clay/20 dark:bg-charcoal-light/40'}`}>
-                                {upcomingCount}
-                            </span>
-                        </button>
-                    )}
-
                     {inactiveCount > 0 && (
                         <button
                             onClick={() => setShowInactive(v => !v)}
@@ -323,16 +305,21 @@ export default function AgendaCalendar({ events }: Props) {
                 availableProvinces={availableProvinces}
                 availableTypes={availableTypes}
                 provinceLabels={provinceLabels}
+                hasUpcoming={upcomingCount > 0}
+                upcomingCount={upcomingCount}
                 selectedKinds={selectedKinds}
                 selectedProvinces={selectedProvinces}
                 selectedTypes={selectedTypes}
+                upcomingOnly={upcomingOnly}
                 onKindChange={toggle(setSelectedKinds)}
                 onProvinceChange={toggle(setSelectedProvinces)}
                 onTypeChange={toggle(setSelectedTypes)}
+                onUpcomingChange={() => setUpcomingOnly(v => !v)}
                 onClearFilters={() => {
                     setSelectedKinds([]);
                     setSelectedProvinces([]);
                     setSelectedTypes([]);
+                    setUpcomingOnly(false);
                 }}
             />
 

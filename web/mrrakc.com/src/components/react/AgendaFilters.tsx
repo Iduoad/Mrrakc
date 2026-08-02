@@ -1,4 +1,4 @@
-import { X } from 'lucide-react';
+import { X, CalendarClock } from 'lucide-react';
 import { TYPE_ICONS, TYPE_COLORS } from './EventModal';
 import type { RecurrenceType } from '../../utils/recurrence';
 
@@ -10,14 +10,18 @@ interface Props {
     availableProvinces: string[];
     availableTypes: RecurrenceType[];
     provinceLabels: Record<string, string>;
+    hasUpcoming: boolean;
+    upcomingCount: number;
 
     selectedKinds: string[];
     selectedProvinces: string[];
     selectedTypes: string[];
+    upcomingOnly: boolean;
 
     onKindChange: (kind: string) => void;
     onProvinceChange: (province: string) => void;
     onTypeChange: (type: string) => void;
+    onUpcomingChange: () => void;
     onClearFilters: () => void;
 }
 
@@ -28,19 +32,24 @@ export default function AgendaFilters({
     availableProvinces,
     availableTypes,
     provinceLabels,
+    hasUpcoming,
+    upcomingCount,
     selectedKinds,
     selectedProvinces,
     selectedTypes,
+    upcomingOnly,
     onKindChange,
     onProvinceChange,
     onTypeChange,
+    onUpcomingChange,
     onClearFilters,
 }: Props) {
     if (!isOpen) return null;
 
     const hasActiveFilters = selectedKinds.length > 0 ||
         selectedProvinces.length > 0 ||
-        selectedTypes.length > 0;
+        selectedTypes.length > 0 ||
+        upcomingOnly;
 
     const chipClass = (selected: boolean) =>
         `px-3 py-1 text-xs rounded-full border transition-all duration-200 ${selected
@@ -64,6 +73,23 @@ export default function AgendaFilters({
 
                 {/* Content */}
                 <div className="p-6 overflow-y-auto custom-scrollbar">
+                    {hasUpcoming && (
+                        <div className="mb-6">
+                            <h4 className="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 mb-2">Upcoming</h4>
+                            <button
+                                onClick={onUpcomingChange}
+                                aria-pressed={upcomingOnly}
+                                className={`inline-flex items-center gap-1.5 ${chipClass(upcomingOnly)}`}
+                            >
+                                <CalendarClock size={12} className={upcomingOnly ? '' : 'text-emerald-600 dark:text-emerald-400'} />
+                                <span>Upcoming editions only</span>
+                                <span className={`text-[10px] font-bold rounded-full px-1.5 ${upcomingOnly ? 'bg-white/25' : 'bg-clay/20 dark:bg-charcoal-light/40'}`}>
+                                    {upcomingCount}
+                                </span>
+                            </button>
+                        </div>
+                    )}
+
                     <div className="mb-6">
                         <h4 className="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 mb-2">Kind</h4>
                         <div className="flex flex-wrap gap-2">
