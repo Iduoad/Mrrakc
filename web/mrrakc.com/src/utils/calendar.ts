@@ -121,25 +121,9 @@ function pad(n: number): string {
     return String(n).padStart(2, '0');
 }
 
-/** A Date → `YYYYMMDD` (all-day VALUE=DATE form). */
-export function toICSDate(d: Date): string {
+/** A Date → `YYYYMMDD` (all-day date form, used for Google Calendar ranges). */
+function toICSDate(d: Date): string {
     return `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}`;
-}
-
-function icsStamp(d: Date): string {
-    return (
-        `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}` +
-        `T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}${pad(d.getUTCSeconds())}Z`
-    );
-}
-
-// RFC 5545 text escaping.
-function icsEscape(s: string): string {
-    return s
-        .replace(/\\/g, '\\\\')
-        .replace(/;/g, '\\;')
-        .replace(/,/g, '\\,')
-        .replace(/\r?\n/g, '\\n');
 }
 
 /** Inclusive start + exclusive end (all-day) for an item, or null if undatable. */
@@ -156,35 +140,6 @@ function locationOf(it: CalItem): string {
     return it.provinces.length ? `${it.provinces.join(', ')}, Morocco` : 'Morocco';
 }
 
-/** Build a VCALENDAR with one all-day VEVENT per (datable) item. */
-export function buildICS(items: CalItem[]): string {
-    const lines: string[] = [
-        'BEGIN:VCALENDAR',
-        'VERSION:2.0',
-        'PRODID:-//Mrrakc//Agenda//EN',
-        'CALSCALE:GREGORIAN',
-    ];
-    const stamp = icsStamp(new Date());
-    for (const it of items) {
-        const range = itemRange(it);
-        if (!range) continue;
-        lines.push(
-            'BEGIN:VEVENT',
-            `UID:${it.id}-${it.year}@mrrakc.com`,
-            `DTSTAMP:${stamp}`,
-            `DTSTART;VALUE=DATE:${toICSDate(range.start)}`,
-            `DTEND;VALUE=DATE:${toICSDate(range.dtEnd)}`,
-            `SUMMARY:${icsEscape(it.name)}`,
-            `LOCATION:${icsEscape(locationOf(it))}`,
-            `URL:${SITE}/agenda/${it.id}`,
-            `DESCRIPTION:${icsEscape(`More: ${SITE}/agenda/${it.id}`)}`,
-            'END:VEVENT',
-        );
-    }
-    lines.push('END:VCALENDAR');
-    return lines.join('\r\n') + '\r\n';
-}
-
 /** A Google Calendar "create event" URL for a single all-day item. */
 export function googleCalendarUrl(it: CalItem): string {
     const range = itemRange(it);
@@ -197,17 +152,4 @@ export function googleCalendarUrl(it: CalItem): string {
         location: locationOf(it),
     });
     return `https://calendar.google.com/calendar/render?${params.toString()}`;
-}
-
-/** Trigger a client-side download of an .ics string. */
-export function downloadICS(filename: string, ics: string): void {
-    const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
 }

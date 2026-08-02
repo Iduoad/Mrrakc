@@ -1,24 +1,12 @@
 import { lazy, Suspense, useMemo, useState } from 'react';
-import { SlidersHorizontal, HelpCircle, CalendarDays, Map as MapIcon, CalendarClock, CalendarPlus, Eye } from 'lucide-react';
+import { SlidersHorizontal, HelpCircle, CalendarDays, Map as MapIcon, CalendarClock, Eye } from 'lucide-react';
 import type { AgendaEventDTO } from '../../types/agenda';
 import { MONTH_NAMES, SEASON_MONTHS, formatEditionDates, type RecurrenceType } from '../../utils/recurrence';
-import { pickNextEdition, buildICS, downloadICS, type CalItem } from '../../utils/calendar';
+import { pickNextEdition } from '../../utils/calendar';
 import EventModal, { TYPE_ICONS, TYPE_COLORS } from './EventModal';
 import AgendaFilters from './AgendaFilters';
 
 type NextEdition = ReturnType<typeof pickNextEdition>;
-
-function toCalItem(event: AgendaEventDTO, next: NonNullable<NextEdition>): CalItem {
-    return {
-        id: event.id,
-        name: event.name,
-        provinces: event.provinces.map(p => p.name),
-        year: next.year,
-        edition: next.edition,
-        startDate: next.startDate,
-        endDate: next.endDate,
-    };
-}
 
 // Map libraries are heavy; only fetch them when the map view is opened.
 const AgendaMap = lazy(() => import('./AgendaMap'));
@@ -91,6 +79,7 @@ export default function AgendaCalendar({ events }: Props) {
     const [selectedProvinces, setSelectedProvinces] = useState<string[]>([]);
     const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
     const [showInactive, setShowInactive] = useState(false);
+    const [upcomingOnly, setUpcomingOnly] = useState(false);
     const [filtersOpen, setFiltersOpen] = useState(false);
     const [activeEvent, setActiveEvent] = useState<AgendaEventDTO | null>(null);
 
@@ -102,6 +91,10 @@ export default function AgendaCalendar({ events }: Props) {
         [events, now]
     );
     const inactiveCount = useMemo(() => events.filter(e => e.status !== 'active').length, [events]);
+    const upcomingCount = useMemo(
+        () => events.reduce((n, e) => n + (nextByEvent.get(e.id) ? 1 : 0), 0),
+        [events, nextByEvent]
+    );
 
     const availableKinds = useMemo(
         () => [...new Set(events.map(e => e.kind))].sort(),
@@ -128,25 +121,11 @@ export default function AgendaCalendar({ events }: Props) {
 
     const filteredEvents = useMemo(() => events.filter(e =>
         (showInactive || e.status === 'active') &&
+        (!upcomingOnly || Boolean(nextByEvent.get(e.id))) &&
         (selectedKinds.length === 0 || selectedKinds.includes(e.kind)) &&
         (selectedProvinces.length === 0 || e.provinces.some(p => selectedProvinces.includes(p.slug))) &&
         (selectedTypes.length === 0 || selectedTypes.includes(e.recurrence.type))
-    ), [events, showInactive, selectedKinds, selectedProvinces, selectedTypes]);
-
-    // Visible events that have a concrete upcoming date → exportable to calendar.
-    const exportItems = useMemo(() => {
-        const items: CalItem[] = [];
-        for (const e of filteredEvents) {
-            const next = nextByEvent.get(e.id);
-            if (next) items.push(toCalItem(e, next));
-        }
-        return items;
-    }, [filteredEvents, nextByEvent]);
-
-    const handleExportAll = () => {
-        if (exportItems.length === 0) return;
-        downloadICS('mrrakc-agenda.ics', buildICS(exportItems));
-    };
+    ), [events, showInactive, upcomingOnly, nextByEvent, selectedKinds, selectedProvinces, selectedTypes]);
 
     const { buckets, noFixedDates } = useMemo(() => {
         const buckets: { event: AgendaEventDTO; approx: boolean }[][] = Array.from({ length: 12 }, () => []);
@@ -193,6 +172,24 @@ export default function AgendaCalendar({ events }: Props) {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-2">
+                    {upcomingCount > 0 && (
+                        <button
+                            onClick={() => setUpcomingOnly(v => !v)}
+                            aria-pressed={upcomingOnly}
+                            title="Show only events with an upcoming edition"
+                            className={`inline-flex items-center gap-2 px-3 py-2 text-sm font-medium border rounded-xl transition-colors ${upcomingOnly
+                                ? 'bg-emerald-600 text-white border-emerald-600'
+                                : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light dark:text-stone-400 hover:border-emerald-500/50'
+                                }`}
+                        >
+                            <CalendarClock size={16} className={upcomingOnly ? '' : 'text-emerald-600 dark:text-emerald-400'} />
+                            <span className="hidden sm:inline">New editions</span>
+                            <span className={`text-xs font-bold rounded-full px-1.5 py-0.5 min-w-5 ${upcomingOnly ? 'bg-white/25 text-white' : 'bg-clay/20 dark:bg-charcoal-light/40'}`}>
+                                {upcomingCount}
+                            </span>
+                        </button>
+                    )}
+
                     {inactiveCount > 0 && (
                         <button
                             onClick={() => setShowInactive(v => !v)}
@@ -210,24 +207,6 @@ export default function AgendaCalendar({ events }: Props) {
                             </span>
                         </button>
                     )}
-
-                    <button
-                        onClick={handleExportAll}
-                        disabled={exportItems.length === 0}
-                        title={exportItems.length === 0 ? 'No upcoming dated events to export' : `Download ${exportItems.length} upcoming event${exportItems.length > 1 ? 's' : ''} as .ics`}
-                        className={`inline-flex items-center gap-2 px-4 py-2 text-sm font-medium border rounded-xl transition-colors ${exportItems.length === 0
-                            ? 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light/50 dark:text-stone-600 cursor-not-allowed'
-                            : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal dark:text-stone-200 hover:border-terra/50'
-                            }`}
-                    >
-                        <CalendarPlus size={16} />
-                        <span className="hidden sm:inline">Add all</span>
-                        {exportItems.length > 0 && (
-                            <span className="bg-emerald-600/10 text-emerald-700 dark:text-emerald-400 text-xs font-bold rounded-full px-1.5 py-0.5 min-w-5">
-                                {exportItems.length}
-                            </span>
-                        )}
-                    </button>
 
                     <button
                         onClick={() => setFiltersOpen(true)}
@@ -258,7 +237,7 @@ export default function AgendaCalendar({ events }: Props) {
                 <span className="inline-flex items-center gap-1">
                     <span className="font-bold">≈</span> approximate month
                 </span>
-                {exportItems.length > 0 && (
+                {upcomingCount > 0 && (
                     <span className="inline-flex items-center gap-1">
                         <CalendarClock size={12} className="text-emerald-600 dark:text-emerald-400" /> upcoming edition
                     </span>

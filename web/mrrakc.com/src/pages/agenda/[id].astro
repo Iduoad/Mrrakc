@@ -200,7 +200,7 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
         {/* Add to calendar (only when an upcoming edition exists) */}
         {calItem && (
           <div data-calbtn data-start={calItem.startDate} data-end={calItem.endDate ?? calItem.startDate}>
-            <AddToCalendarButton client:visible item={calItem} />
+            <AddToCalendarButton item={calItem} />
             <p class="mt-2 text-xs text-charcoal-light dark:text-stone-400 flex items-center gap-1.5">
               <span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
               Next edition: {formatEditionDates(calItem.startDate, calItem.endDate) ?? calItem.year}
