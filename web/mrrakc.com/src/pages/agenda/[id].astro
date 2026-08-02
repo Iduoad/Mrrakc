@@ -4,7 +4,9 @@ import { getCollection } from 'astro:content';
 import MiniMap from '../../components/MiniMap.astro';
 import { ExternalLink, CalendarDays, Moon, Leaf, HelpCircle, MapPin, Repeat, Clock, Ticket } from 'lucide-react';
 import MarkdownRenderer from '../../components/react/MarkdownRenderer';
+import AddToCalendarButton from '../../components/react/AddToCalendarButton';
 import { formatRecurrence, formatEditionDates } from '../../utils/recurrence';
+import { stillOpenEditions, pickNextEdition } from '../../utils/calendar';
 
 export async function getStaticPaths() {
   const [events, provinces] = await Promise.all([
@@ -41,6 +43,21 @@ const statusStyles = {
 };
 
 const sortedEditions = spec.editions ? [...spec.editions].sort((a, b) => b.year - a.year) : [];
+
+// Soonest still-open edition (build-time seed). An inline script re-checks this
+// against the visitor's date so the "Upcoming" badge and the add-to-calendar
+// button stay correct between deploys.
+const buildNow = new Date();
+const nextEd = pickNextEdition(stillOpenEditions(spec.editions, buildNow), buildNow);
+const calItem = nextEd ? {
+  id: spec.id,
+  name: spec.name,
+  provinces: hostProvinces.map(p => p.name),
+  year: nextEd.year,
+  edition: nextEd.edition,
+  startDate: nextEd.startDate,
+  endDate: nextEd.endDate,
+} : null;
 const venueRefs = (spec.host.places ?? []).map(ref => {
   const [, prov, place] = ref.split('/');
   return { prov, place, label: place.replace(/-/g, ' ') };
@@ -110,18 +127,25 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
         {sortedEditions.length > 0 && (
           <section>
             <h2 class="font-serif font-bold text-2xl text-charcoal dark:text-stone-100 mb-6 flex items-center gap-2">
-              <Clock size={24} className="text-terra" /> Past Editions
+              <Clock size={24} className="text-terra" /> Editions
             </h2>
             <div class="relative border-l-2 border-terra/20 ml-3 space-y-8 py-2">
               {sortedEditions.map(edition => (
-                <div class={`relative pl-8 ${edition.status === 'cancelled' ? 'opacity-70' : ''}`}>
-                  <div class={`absolute -left-[9px] top-1 w-4 h-4 rounded-full border-4 border-white dark:border-charcoal ${edition.status === 'cancelled' ? 'bg-red-400' : 'bg-terra'}`}></div>
+                <div
+                  class={`relative pl-8 ${edition.status === 'cancelled' ? 'opacity-70' : ''}`}
+                  data-edition
+                  data-start={edition.startDate ?? ''}
+                  data-end={edition.endDate ?? edition.startDate ?? ''}
+                  data-cancelled={edition.status === 'cancelled' ? 'true' : 'false'}
+                >
+                  <div data-dot class={`absolute -left-[9px] top-1 w-4 h-4 rounded-full border-4 border-white dark:border-charcoal ${edition.status === 'cancelled' ? 'bg-red-400' : 'bg-terra'}`}></div>
                   <span class="text-sm font-bold text-terra-dark mb-1 block">{edition.year}</span>
                   <h3 class="text-lg font-bold text-charcoal dark:text-stone-100 mb-1 flex items-center gap-2">
                     {edition.edition ? `Edition ${edition.edition}` : 'Edition'}
                     {edition.status === 'cancelled' && (
                       <span class="px-2 py-0.5 text-xs font-bold rounded bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400">Cancelled</span>
                     )}
+                    <span data-upcoming-badge hidden class="px-2 py-0.5 text-xs font-bold rounded bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-400">Upcoming</span>
                   </h3>
                   {formatEditionDates(edition.startDate, edition.endDate) && (
                     <p class="text-charcoal-light dark:text-stone-400">{formatEditionDates(edition.startDate, edition.endDate)}</p>
@@ -172,6 +196,17 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
 
       {/* Right Column: Sidebar Info */}
       <aside class="space-y-6">
+
+        {/* Add to calendar (only when an upcoming edition exists) */}
+        {calItem && (
+          <div data-calbtn data-start={calItem.startDate} data-end={calItem.endDate ?? calItem.startDate}>
+            <AddToCalendarButton client:visible item={calItem} />
+            <p class="mt-2 text-xs text-charcoal-light dark:text-stone-400 flex items-center gap-1.5">
+              <span class="inline-block w-2 h-2 rounded-full bg-emerald-500"></span>
+              Next edition: {formatEditionDates(calItem.startDate, calItem.endDate) ?? calItem.year}
+            </p>
+          </div>
+        )}
 
         {/* Key Info Card */}
         <div class="bg-clay/10 dark:bg-charcoal-light/10 rounded-2xl p-6 border border-clay/20 dark:border-charcoal-light">
@@ -320,4 +355,44 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
       )}
     </section>
   </main>
+
+  {/* Runtime pass: mark the soonest still-upcoming edition and drop a stale
+      add-to-calendar button, so both stay correct against the visitor's date. */}
+  <script is:inline>
+    (function () {
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+      function parse(s, end) {
+        if (!s) return null;
+        const parts = s.split('-');
+        const y = parseInt(parts[0], 10);
+        const m = parts[1] ? parseInt(parts[1], 10) : 0;
+        const d = parts[2] ? parseInt(parts[2], 10) : 0;
+        if (Number.isNaN(y) || !m) return null;
+        if (d) return new Date(y, m - 1, d);
+        return end ? new Date(y, m, 0) : new Date(y, m - 1, 1);
+      }
+      const items = Array.prototype.slice.call(document.querySelectorAll('[data-edition]'));
+      let best = null, bestStart = Infinity;
+      for (const el of items) {
+        if (el.dataset.cancelled === 'true') continue;
+        const start = parse(el.dataset.start, false);
+        if (!start) continue;
+        const end = parse(el.dataset.end, true) || start;
+        if (end < today) continue;
+        if (start.getTime() < bestStart) { bestStart = start.getTime(); best = el; }
+      }
+      if (best) {
+        const badge = best.querySelector('[data-upcoming-badge]');
+        if (badge) badge.removeAttribute('hidden');
+        const dot = best.querySelector('[data-dot]');
+        if (dot) { dot.classList.remove('bg-terra'); dot.classList.add('bg-emerald-500'); }
+      }
+      const calWrap = document.querySelector('[data-calbtn]');
+      if (calWrap) {
+        const end = parse(calWrap.dataset.end, true) || parse(calWrap.dataset.start, false);
+        if (!end || end < today) calWrap.setAttribute('hidden', '');
+      }
+    })();
+  </script>
 </BaseLayout>

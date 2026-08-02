@@ -1,7 +1,9 @@
 import { useEffect } from 'react';
-import { X, MapPin, Ticket, CalendarDays, Moon, Leaf, HelpCircle } from 'lucide-react';
+import { X, MapPin, Ticket, CalendarDays, Moon, Leaf, HelpCircle, CalendarClock } from 'lucide-react';
 import type { AgendaEventDTO } from '../../types/agenda';
-import { formatRecurrence } from '../../utils/recurrence';
+import { formatRecurrence, formatEditionDates } from '../../utils/recurrence';
+import { pickNextEdition } from '../../utils/calendar';
+import AddToCalendarButton from './AddToCalendarButton';
 
 interface Props {
     event: AgendaEventDTO | null;
@@ -36,6 +38,20 @@ export default function EventModal({ event, onClose }: Props) {
 
     const TypeIcon = TYPE_ICONS[event.recurrence.type];
     const approximate = event.recurrence.type === 'hijri' || event.recurrence.type === 'seasonal';
+
+    const next = pickNextEdition(event.futureEditions, new Date());
+    const upcoming = next ? (formatEditionDates(next.startDate, next.endDate) ?? String(next.year)) : undefined;
+    const calItem = next
+        ? {
+            id: event.id,
+            name: event.name,
+            provinces: event.provinces.map(p => p.name),
+            year: next.year,
+            edition: next.edition,
+            startDate: next.startDate,
+            endDate: next.endDate,
+        }
+        : null;
 
     return (
         <div
@@ -84,6 +100,12 @@ export default function EventModal({ event, onClose }: Props) {
                                 ≈ shown under an approximate Gregorian month
                             </p>
                         )}
+                        {upcoming && (
+                            <p className="flex items-center gap-2 text-sm font-medium text-emerald-700 dark:text-emerald-400">
+                                <CalendarClock size={14} className="shrink-0" />
+                                Next edition: {upcoming}
+                            </p>
+                        )}
                         {event.admission && (
                             <p className="flex items-center gap-2 text-sm text-charcoal dark:text-stone-200">
                                 <Ticket size={14} className="text-terra shrink-0" />
@@ -108,7 +130,8 @@ export default function EventModal({ event, onClose }: Props) {
                 </div>
 
                 {/* Footer */}
-                <div className="p-4 border-t border-clay/10 dark:border-charcoal-light/10 flex justify-end items-center bg-clay/5 dark:bg-charcoal-light/5">
+                <div className="p-4 border-t border-clay/10 dark:border-charcoal-light/10 flex flex-wrap justify-end items-center gap-3 bg-clay/5 dark:bg-charcoal-light/5">
+                    {calItem && <AddToCalendarButton item={calItem} />}
                     <a
                         href={`/agenda/${event.id}`}
                         className="px-6 py-2 bg-terra text-white text-sm font-bold rounded-xl hover:bg-terra-dark transition-colors shadow-md hover:shadow-lg"

@@ -1,4 +1,5 @@
 import type { Recurrence } from '../utils/recurrence';
+import type { EditionLite } from '../utils/calendar';
 
 export interface AgendaEventDTO {
     id: string;
@@ -9,6 +10,10 @@ export interface AgendaEventDTO {
     /** Host province(s); first entry is the primary host. */
     provinces: { slug: string; name: string }[];
     recurrence: Recurrence;
+    /** Still-open editions (held, end date ≥ build date), dates only. The
+     *  browser computes the "next" one from these against the visitor's real
+     *  date, so the upcoming cue never goes stale between deploys. */
+    futureEditions?: EditionLite[];
     /** For hijri events: approximate Gregorian month (1-12) of the next
      *  occurrence, computed at build time from the build date. */
     approxMonth?: number;

@@ -6,7 +6,12 @@ import path from 'node:path';
 import AgendaCalendar from '../../components/react/AgendaCalendar';
 import { admissionSummary } from '../../utils/recurrence';
 import { hijriToGregorianMonth } from '../../utils/hijri';
+import { stillOpenEditions } from '../../utils/calendar';
 import type { AgendaEventDTO } from '../../types/agenda';
+
+// Trim editions to the still-open ones at build time; the browser picks the
+// "next" one from these against the visitor's date (see AgendaEventDTO).
+const buildNow = new Date();
 
 const [events, provinces, places] = await Promise.all([
   getCollection('events'),
@@ -74,6 +79,7 @@ const dtos: AgendaEventDTO[] = events.map(({ data }) => ({
     name: provinceName(ref),
   })),
   recurrence: data.spec.recurrence,
+  futureEditions: stillOpenEditions(data.spec.editions, buildNow),
   approxMonth: data.spec.recurrence.type === 'hijri'
     ? hijriToGregorianMonth(data.spec.recurrence.hijriMonth ?? 1, data.spec.recurrence.hijriDay ?? 15).month
     : undefined,
