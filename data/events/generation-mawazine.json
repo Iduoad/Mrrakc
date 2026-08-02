@@ -1,0 +1,90 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "music",
+      "competition",
+      "young-talent",
+      "rap",
+      "rabat"
+    ]
+  },
+  "spec": {
+    "name": "Génération Mawazine",
+    "id": "generation-mawazine",
+    "description": "National music competition run by the Maroc-Cultures association (the organizers of Mawazine) to discover young Moroccan talent in rap, hip-hop, electro and fusion. Open to musicians aged 13-33, it holds auditions across several cities (Rabat, Casablanca, Fès, Marrakech) from January to April, with semifinals and finals in Rabat. Documented editions run from 2006 to 2013.",
+    "status": "unknown",
+    "host": {
+      "provinces": [
+        "province/rabat",
+        "province/casablanca",
+        "province/fez",
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3,
+        4
+      ],
+      "note": "Auditions January-April across four cities; finals in Rabat"
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2006,
+        "notes": "Winner: Tiraline (fusion)"
+      },
+      {
+        "edition": 2,
+        "year": 2007,
+        "notes": "Winners: Hakmin (rap), Mayara Band (fusion)"
+      },
+      {
+        "edition": 3,
+        "year": 2008,
+        "notes": "Winners: Tigresse Flow (rap), Sakadoya (rock), Taghrast (fusion)"
+      },
+      {
+        "edition": 4,
+        "year": 2009,
+        "notes": "Winners: Dirty Faces (rap), Chemical Bliss (rock), Settafusion (fusion)"
+      },
+      {
+        "edition": 5,
+        "year": 2010,
+        "notes": "Winners: Az Flow (rap), Funk Atlas (electro), Africa United (fusion)"
+      },
+      {
+        "edition": 6,
+        "year": 2011,
+        "notes": "Winners: Rwapa Crew (rap), Awson (electro), Babel (fusion)"
+      },
+      {
+        "edition": 7,
+        "year": 2012,
+        "notes": "Winner: Melimane"
+      },
+      {
+        "edition": 8,
+        "year": 2013,
+        "notes": "Winner: The Basement"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://generationmawazine.ma/",
+        "title": "Génération Mawazine official website",
+        "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/G%C3%A9n%C3%A9ration_Mawazine",
+        "title": "Wikipedia",
+        "type": "article"
+      }
+    ]
+  }
+}

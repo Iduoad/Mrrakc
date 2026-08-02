@@ -1,0 +1,94 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/theater",
+  "metadata": {
+    "tags": [
+      "theater",
+      "national",
+      "competition",
+      "tetouan"
+    ]
+  },
+  "spec": {
+    "name": "National Theater Festival",
+    "id": "national-theater-festival",
+    "description": "Morocco's national theater festival, organized by the Ministry of Youth, Culture and Communication, awarding the National Theater Prize across categories (writing, directing, scenography, acting). It has rotated between host cities over its history; recent editions have been held in Tetouan.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tetouan"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "note": "Host city has rotated over the editions; recent editions held in Tetouan"
+    },
+    "editions": [
+      {
+        "edition": 22,
+        "year": 2022,
+        "startDate": "2022-12-03",
+        "endDate": "2022-12-10",
+        "provinces": [
+          "province/tetouan"
+        ],
+        "notes": "Held in Tetouan"
+      },
+      {
+        "edition": 23,
+        "year": 2023,
+        "startDate": "2023-12-08",
+        "endDate": "2023-12-15",
+        "provinces": [
+          "province/tetouan"
+        ],
+        "notes": "Held in Tetouan",
+        "links": [
+          {
+            "url": "https://fntm.ma/2023/ouverture.html",
+            "title": "2023 edition",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "edition": 24,
+        "year": 2024,
+        "startDate": "2024-11-22",
+        "endDate": "2024-11-29",
+        "provinces": [
+          "province/tetouan"
+        ],
+        "notes": "Held in Tetouan"
+      },
+      {
+        "edition": 25,
+        "year": 2025,
+        "startDate": "2025-11-14",
+        "endDate": "2025-11-21",
+        "provinces": [
+          "province/tetouan"
+        ],
+        "notes": "Held in Tetouan at the Teatro Cine Español and other venues",
+        "links": [
+          {
+            "url": "https://mjcc.gov.ma/ar/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AE%D8%A7%D9%85%D8%B3%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D8%B4%D8%B1/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/FestivalNationaletheartre/",
+        "title": "Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

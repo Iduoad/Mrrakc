@@ -1,0 +1,72 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/theater",
+  "metadata": {
+    "tags": [
+      "theater",
+      "children",
+      "young-public",
+      "taza",
+      "international"
+    ]
+  },
+  "spec": {
+    "name": "International Festival of Theater for Young Audiences (Taza)",
+    "id": "international-children-theater-festival-taza",
+    "description": "International theater festival for children and young audiences held in Taza since 1999, organized by the Ministry of Culture with the city and region, bringing together theater companies from Morocco and abroad for performances, workshops and encounters. Usually held in late April.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taza"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "note": "Founded 1999; usually held in late April. Edition ordinals differ across sources."
+    },
+    "editions": [
+      {
+        "year": 2019,
+        "startDate": "2019-04-25",
+        "endDate": "2019-04-27"
+      },
+      {
+        "edition": 24,
+        "year": 2025,
+        "startDate": "2025-11",
+        "notes": "24th edition, held in November 2025",
+        "links": [
+          {
+            "url": "https://madar21.com/387494.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 25,
+        "year": 2026,
+        "startDate": "2026-04-27",
+        "endDate": "2026-04-30",
+        "links": [
+          {
+            "url": "https://www.facebook.com/F.I.T.J.P.TAZA/posts/pfbid02t77pgik9E2nwQ6GUPoaguedNQzjnWGpDymE33cayFr2w2TUvF55ThnCPjjcFtFcjl",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/F.I.T.J.P.TAZA/",
+        "title": "Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

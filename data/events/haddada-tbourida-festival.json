@@ -1,0 +1,46 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "tbourida",
+      "fantasia",
+      "equestrian",
+      "kenitra",
+      "heritage"
+    ]
+  },
+  "spec": {
+    "name": "Haddada Tbourida Festival",
+    "id": "haddada-tbourida-festival",
+    "description": "Festival of tbourida (fantasia, the Moroccan equestrian performance art) held in Al Haddada, in the Kenitra province, gathering horse troupes (sorba) for competitions and heritage celebrations.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/kenitra"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ]
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-08-06",
+        "endDate": "2026-08-09",
+        "links": [
+          {
+            "url": "https://www.facebook.com/Abdellah.lamjalled.livee/photos/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AD%D8%AF%D8%A7%D8%AF%D8%A9-%D8%A5%D9%82%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D9%82%D9%86%D9%8A%D8%B7%D8%B1%D8%A9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D9%8A%D9%88%D9%85-6789-%D8%B4%D9%87%D8%B1-%D8%BA%D8%B4%D8%AA-%D9%85%D8%B1%D8%AD%D8%A8%D8%A7-%D8%A8%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D8%B9-%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE-%D8%A7%D9%84%D8%AA%D8%B3%D8%AC/1608295770904891/",
+            "title": "2026 announcement",
+            "type": "social"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

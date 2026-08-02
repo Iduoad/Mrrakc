@@ -1,0 +1,136 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/religious",
+  "metadata": {
+    "tags": [
+      "sufism",
+      "spirituality",
+      "conference",
+      "madagh",
+      "berkane"
+    ]
+  },
+  "spec": {
+    "name": "World Meeting of Sufism (Rencontre Mondiale du Soufisme)",
+    "id": "world-sufism-meeting-madagh",
+    "description": "The Rencontre Mondiale du Soufisme is an academic and spiritual gathering held in Madagh, near Berkane, organized by the Qadiriyya Boutchichiyya Sufi order and the Al Moultaqa Foundation under royal patronage. It brings together scholars, spiritual leaders and international guests for conferences and debates on a different Sufism-related theme each year.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/berkane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "typicalDurationDays": 4,
+      "note": "Dates vary year to year, historically clustering between September and December; some editions are timed near Mawlid al-Nabawi."
+    },
+    "editions": [
+      {
+        "edition": 12,
+        "year": 2017,
+        "startDate": "2017-11-28",
+        "endDate": "2017-12-01",
+        "notes": "Theme: 'Sufism and spiritual diplomacy: cultural, developmental and civilizational dimensions'."
+      },
+      {
+        "edition": 13,
+        "year": 2018,
+        "startDate": "2018-11-18",
+        "notes": "Theme: 'Sufi culture and the universal common: for values of dialogue and rapprochement'.",
+        "links": [
+          {
+            "url": "https://www.mapexpress.ma/actualite/societe-et-regions/ouverture-13eme-rencontre-mondiale-du-soufisme-madagh-commun-universel-en-debat/",
+            "title": "13th edition coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2019,
+        "startDate": "2019-11-06",
+        "notes": "Theme: 'Sufism and development, the spiritual dimension and the building of Man'.",
+        "links": [
+          {
+            "url": "https://lematin.ma/journal/2019/madagh-abrite-14e-rencontre-mondiale-soufisme/326041.html",
+            "title": "14th edition coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 16,
+        "year": 2021,
+        "startDate": "2021-10-18",
+        "endDate": "2021-10-22",
+        "notes": "Theme: 'Sufism and human values: from the local to the universal'. Held in hybrid mode (in-person and online), timed near Mawlid al-Nabawi.",
+        "links": [
+          {
+            "url": "https://www.mapoujda.ma/fr/la-16eme-rencontre-mondiale-du-soufisme-du-18-au-22-octobre/",
+            "title": "16th edition coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2022,
+        "startDate": "2022-10-05",
+        "endDate": "2022-10-10",
+        "notes": "Theme: 'Sufism and action, from individual reform to societal construction'."
+      },
+      {
+        "edition": 18,
+        "year": 2023,
+        "startDate": "2023-09-23",
+        "notes": "Theme: 'Sufism: religious and civic values for global citizenship'.",
+        "links": [
+          {
+            "url": "https://fr.le360.ma/societe/madagh-la-solidarite-des-marocains-au-coeur-de-la-18eme-rencontre-mondiale-du-soufisme_VAJPH7DOJBHUTJQU7QCHCGVCQM/",
+            "title": "18th edition coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2024,
+        "startDate": "2024-09-11",
+        "endDate": "2024-09-16",
+        "notes": "Theme: 'Sufism and the future of values in the era of artificial intelligence'.",
+        "links": [
+          {
+            "url": "https://rencontremondialedusoufisme.com/",
+            "title": "19th edition programme",
+            "type": "program"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://rencontremondialedusoufisme.com/",
+        "title": "Rencontre Mondiale du Soufisme official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/RencontreMondialeSoufisme/",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://www.instagram.com/rencontremondialedusoufisme",
+        "title": "Instagram",
+        "type": "social"
+      }
+    ]
+  }
+}

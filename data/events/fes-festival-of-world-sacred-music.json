@@ -324,6 +324,11 @@
         "url": "https://fesfestival.com/",
         "title": "Fes Festival official website",
         "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/fezfestival_officielle/",
+        "title": "Instagram",
+        "type": "social"
       }
     ]
   }

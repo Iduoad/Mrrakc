@@ -1,0 +1,104 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "film",
+      "mediterranean",
+      "tetouan"
+    ]
+  },
+  "spec": {
+    "name": "Tetouan Mediterranean Film Festival",
+    "id": "tetouan-mediterranean-film-festival",
+    "description": "International film festival founded in 1985 by the Association of Friends of Cinema of Tetouan (Amis de Cinéma de Tétouan), dedicated to promoting the cinematographies of Mediterranean countries through a feature-film competition, tributes, workshops and professional meetings.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tetouan"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "typicalDurationDays": 8,
+      "note": "Historically held in March; the 2024 edition moved to late April/early May and the 2025 edition to late October/early November"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Screenings",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 28,
+        "year": 2023,
+        "startDate": "2023-03-03",
+        "endDate": "2023-03-10",
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2023/festival-cine-mediterrane-tetouan-28e-edition-studieuse/387225.html",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 29,
+        "year": 2024,
+        "startDate": "2024-04-27",
+        "endDate": "2024-05-04",
+        "links": [
+          {
+            "url": "https://www.africine.org/critique/coup-denvoi-de-la-29eme-edition-du-festival-du-cinema-mediterraneen-de-tetouan/16035",
+            "title": "2024 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://festivaltetouan.org/en/officiel-programme-of-the-29th-edition-from-april-27th-to-mai-4th-2024/",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 30,
+        "year": 2025,
+        "startDate": "2025-10-25",
+        "endDate": "2025-11-01",
+        "links": [
+          {
+            "url": "https://www.africine.org/index.php/critique/fcmt-2025-maroc-la-messe-du-cinema-mediterraneen-de-tetouan-est-de-retour-en-force/16554",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://festivaltetouan.org/en/front-page/",
+        "title": "Tetouan Mediterranean Film Festival official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/FICMT/",
+        "title": "Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

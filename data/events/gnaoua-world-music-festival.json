@@ -185,6 +185,11 @@
         "url": "https://www.festival-gnaoua.net/",
         "title": "Gnaoua Festival official website",
         "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/gnaouafestival/",
+        "title": "Instagram",
+        "type": "social"
       }
     ]
   }

@@ -1,0 +1,63 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "music",
+      "summer",
+      "rabat",
+      "oudayas"
+    ]
+  },
+  "spec": {
+    "name": "Oudaya Summer Festival",
+    "id": "oudaya-summer-festival",
+    "description": "Summer music and arts festival held on the Bouregreg corniche in Rabat, organized by the Ministry of Youth, Culture and Communication and the National Music Council around the Throne Day celebrations. Features Moroccan and international artists across several musical genres.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "note": "Late July, around Throne Day"
+    },
+    "editions": [
+      {
+        "edition": 11,
+        "year": 2023,
+        "startDate": "2023-07-27",
+        "endDate": "2023-07-30"
+      },
+      {
+        "edition": 12,
+        "year": 2024,
+        "startDate": "2024-07"
+      },
+      {
+        "edition": 13,
+        "year": 2025,
+        "startDate": "2025-07-27",
+        "endDate": "2025-07-30",
+        "links": [
+          {
+            "url": "https://maroc.ma/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B5%D9%8A%D9%81-%D8%A7%D9%84%D8%A7%D9%88%D8%AF%D8%A7%D9%8A%D8%A9-%D9%81%D9%8A-%D8%AF%D9%88%D8%B1%D8%AA%D9%87-%D8%A7%D9%84-13-%D9%85%D9%86-27-%D8%A7%D9%84%D9%89-30-%D9%8A%D9%88%D9%84%D9%8A%D9%88%D8%B2",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.facebook.com/61559601612548/posts/-%D9%85%D9%86-27-%D8%AD%D8%AA%D9%89-%D9%84%D9%8030-%D9%8A%D9%88%D9%84%D9%8A%D9%88%D8%B2-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B5%D9%8A%D9%81-%D8%A7%D9%84%D8%A3%D9%88%D8%AF%D8%A7%D9%8A%D8%A9-%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A8%D9%82%D9%88%D8%A9-%D9%81%D9%83%D9%88%D8%B1%D9%86%D9%8A%D8%B4-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-/122178810680320053/",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

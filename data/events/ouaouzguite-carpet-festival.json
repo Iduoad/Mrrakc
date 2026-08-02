@@ -1,0 +1,85 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "crafts",
+      "carpet",
+      "weaving",
+      "ouaouzguite",
+      "amazigh",
+      "women",
+      "taznakht"
+    ]
+  },
+  "spec": {
+    "name": "Ouaouzguite Carpet Festival",
+    "id": "ouaouzguite-carpet-festival",
+    "description": "Annual festival in Taznakht celebrating the Ouaouzguite (Ouzguiti) carpet, a heritage textile hand-woven from local wool and naturally dyed by women of the Aït Ouaouzguite tribes, with exhibition and sales space for cooperatives, workshops and cultural programming.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouarzazate"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4,
+        10,
+        11
+      ],
+      "typicalDurationDays": 5,
+      "note": "Dates have varied by edition: held in April in 2019, October in 2017, and November in 2024."
+    },
+    "editions": [
+      {
+        "edition": 5,
+        "year": 2017,
+        "startDate": "2017-10-06",
+        "endDate": "2017-10-11",
+        "links": [
+          {
+            "url": "https://www.mapexpress.ma/actualite/societe-et-regions/la-5e-edition-du-festival-du-tapis-ouzguiti-prevue-du-6-au-11-courant-a-taznakhte/",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2019,
+        "startDate": "2019-04",
+        "notes": "Held over a weekend in late April 2019; exact day not confirmed.",
+        "links": [
+          {
+            "url": "https://fr.hespress.com/60615-lancement-a-taznakhte-du-6eme-festival-du-tapis-ouzguiti.html",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2024,
+        "startDate": "2024-11-20",
+        "endDate": "2024-11-24",
+        "links": [
+          {
+            "url": "https://www.lebrief.ma/ammor-et-essaadi-inaugurent-la-7e-edition-du-festival-du-tapis-ouaouzguite-a-taznakht-212080",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://ouarzazateevents.com/index.php/en/events/zerbia",
+        "title": "Ouarzazate Events - Ouaouzguite Carpet Festival",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -230,6 +230,11 @@
         "url": "https://ficam.ma/",
         "title": "FICAM official website",
         "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/ficamofficiel",
+        "title": "Instagram",
+        "type": "social"
       }
     ]
   }

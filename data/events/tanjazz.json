@@ -163,6 +163,16 @@
         "url": "https://fr.wikipedia.org/wiki/Tanjazz",
         "title": "Wikipedia",
         "type": "article"
+      },
+      {
+        "url": "https://tanjazz.org/festival/",
+        "title": "Tanjazz official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/tanjazzofficiel",
+        "title": "Instagram",
+        "type": "social"
       }
     ]
   }

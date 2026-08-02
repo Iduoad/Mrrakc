@@ -1,0 +1,92 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "hassani",
+      "sahara",
+      "heritage",
+      "rabat",
+      "national-forum"
+    ]
+  },
+  "spec": {
+    "name": "Hassani Culture Tent Forum",
+    "id": "hassani-culture-tent-forum",
+    "description": "Annual gathering organized by the National Forum for Hassani Heritage (Al Muntada al-Watani lil-Turath al-Hassani) in Rabat, showcasing Hassani (Saharan) poetry, music and traditional 'khaimas' (tents), paired with academic lectures on Hassani identity and Morocco's African depth.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        10,
+        11,
+        12
+      ],
+      "typicalDurationDays": 3,
+      "note": "Organized in Rabat by the National Forum for Hassani Heritage; exact month has varied by year (May 2022, October 2023, November 2024, December 2025)"
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2022,
+        "startDate": "2022-05-30",
+        "endDate": "2022-05-31",
+        "notes": "Held at Bahnini Hall, Rabat; coincided with celebrations of Rabat as Islamic World Capital of Culture 2022 and the Crown Prince's birthday",
+        "links": [
+          {
+            "url": "https://www.maroc24.com/57174-%D8%AE%D9%8A%D9%85%D8%A9-%D8%A7%D9%84%D8%A3%D8%AF%D8%A8-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%86%D9%8A-2022-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7-%D8%AA%D8%AD/",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "notes": "A 2nd edition was reported by multiple outlets around October 2023, but no fetchable page confirming exact dates was found; flagged for follow-up verification.",
+        "edition": 2
+      },
+      {
+        "edition": 3,
+        "year": 2024,
+        "startDate": "2024-11-25",
+        "endDate": "2024-11-27",
+        "notes": "Held at Morocco's National Library and Mohammed V National Theatre, Rabat, under the theme 'The new development model in service of Hassani culture and its African depth'; honorary partner Mali",
+        "links": [
+          {
+            "url": "https://www.arabtelegraph.com/?p=215424",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2025,
+        "startDate": "2025-12-04",
+        "endDate": "2025-12-06",
+        "notes": "Held at Morocco's National Library, Rabat, under the theme '50 years since the Green March... Hassani culture at the forefront of national constants'; guest of honor Senegal",
+        "links": [
+          {
+            "url": "https://www.mcg24.com/199941-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AE%D9%8A%D9%85-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%86%D9%8A%D8%A9-%D9%8A%D8%AD%D8%AA%D9%81%D9%8A-%D8%A8%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B1%D8%A8%D8%A7%D8%B7",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/p/%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AF%D9%89-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%84%D9%84%D8%AA%D8%B1%D8%A7%D8%AB-%D8%A7%D9%84%D8%AD%D8%B3%D8%A7%D9%86%D9%8A-61568478242420/",
+        "title": "National Forum for Hassani Heritage on Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

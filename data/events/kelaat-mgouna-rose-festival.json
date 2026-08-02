@@ -215,6 +215,16 @@
         "url": "https://www.tourismetinghir.com",
         "title": "coverage",
         "type": "article"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/F%C3%AAte_des_Roses",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://www.kelaat-mgouna.com/festival-des-roses.asp",
+        "title": "Fête des Roses (unofficial site)",
+        "type": "website"
       }
     ]
   }

@@ -120,6 +120,11 @@
         "url": "https://fr.wikipedia.org/wiki/Festival_Sete_S%C3%B3is_Sete_Luas",
         "title": "Wikipedia",
         "type": "article"
+      },
+      {
+        "url": "https://festival7sois.eu/",
+        "title": "Sete Sóis Sete Luas official website",
+        "type": "website"
       }
     ]
   }

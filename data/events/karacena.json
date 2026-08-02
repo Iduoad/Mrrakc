@@ -153,6 +153,18 @@
           }
         ]
       }
+    ],
+    "links": [
+      {
+        "url": "https://www.instagram.com/enc_shemsy/",
+        "title": "Instagram (Shemsy, organizer)",
+        "type": "social"
+      },
+      {
+        "url": "https://karacena.art/",
+        "title": "Karacena official website",
+        "type": "website"
+      }
     ]
   }
 }

@@ -1,0 +1,68 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "almond",
+      "agriculture",
+      "terroir",
+      "taza",
+      "aknoul"
+    ]
+  },
+  "spec": {
+    "name": "Festival de l'Amandier d'Aknoul",
+    "id": "aknoul-almond-festival",
+    "description": "Agricultural and cultural festival in Aknoul (Taza province) celebrating the region's almond harvest, where cooperatives, farmers and processors from across Morocco showcase local products alongside conferences, workshops and cultural performances promoting the almond sector's economic and environmental role.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taza"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "typicalDurationDays": 3,
+      "note": "Historically organized in November; the festival went on hiatus and its 9th edition (2025) marked a return after a multi-year gap"
+    },
+    "editions": [
+      {
+        "edition": 8,
+        "year": 2019,
+        "startDate": "2019-11-21",
+        "notes": "Theme: 'the almond tree, a lever for job creation in rural areas'; organized by the National Agricultural Advisory Office with regional agriculture officials, ~100 participants",
+        "links": [
+          {
+            "url": "https://fr.hespress.com/109680-aknoul-coup-denvoi-du-8e-festival-de-lamande.html",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2025,
+        "startDate": "2025-11-15",
+        "endDate": "2025-11-17",
+        "notes": "Returned after a multi-year absence; theme 'The almond tree, ally of climate resilience and territorial heritage preservation'; 64+ exhibitors/cooperatives from seven regions, launch of a digital platform for local products",
+        "links": [
+          {
+            "url": "https://lopinion.ma/fr/regions/aknoul--coup-denvoi-de-la-9e-edition-du-festival-de-lamandier_a37876",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://fr.mcg24.com/40373.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

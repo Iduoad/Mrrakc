@@ -150,6 +150,18 @@
           }
         ]
       }
+    ],
+    "links": [
+      {
+        "url": "https://www.festivalrabat.ma/",
+        "title": "International Auteur Cinema Festival of Rabat official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/festivalderabat/",
+        "title": "Instagram",
+        "type": "social"
+      }
     ]
   }
 }

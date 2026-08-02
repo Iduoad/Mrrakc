@@ -1,0 +1,64 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "maghreb",
+      "film",
+      "oujda"
+    ]
+  },
+  "spec": {
+    "name": "Festival Maghrébin du Film d'Oujda",
+    "id": "maghrebin-film-festival-oujda",
+    "description": "International Maghreb film festival held in Oujda, showcasing North African feature and short films in competition. Supported by the Centre Cinématographique Marocain (CCM), it is one of the oriental region's main cinema events.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/oujda-angad"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10,
+        11
+      ],
+      "note": "Dates vary by edition (October or November)"
+    },
+    "editions": [
+      {
+        "edition": 16,
+        "year": 2026,
+        "startDate": "2026-10-16",
+        "endDate": "2026-10-21",
+        "links": [
+          {
+            "url": "https://festivalmaghrebinfilm.ma/programme",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://festivalmaghrebinfilm.ma/",
+        "title": "Festival Maghrébin du Film d'Oujda official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/fmfoujda/",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Festival_maghr%C3%A9bin_du_film_Oujda",
+        "title": "Wikipedia",
+        "type": "article"
+      }
+    ]
+  }
+}

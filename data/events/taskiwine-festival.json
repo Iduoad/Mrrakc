@@ -105,12 +105,35 @@
             "type": "article"
           }
         ]
+      },
+      {
+        "edition": 5,
+        "year": 2025,
+        "startDate": "2025-10-16",
+        "endDate": "2025-10-18",
+        "links": [
+          {
+            "url": "https://www.facebook.com/CentreSMDCulture/posts/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D9%84%D9%84%D8%AF%D9%88%D8%B1%D8%A95-%D9%85%D9%86-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AA%D8%A7%D8%B3%D9%83%D9%88%D9%8A%D9%86-2025-%D8%A8%D8%AA%D8%A7%D8%B1%D9%88%D8%AF%D8%A7%D9%86%D8%AA/1360856542753008/",
+            "title": "2025 Programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [
       {
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Taskiwin",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://ich.unesco.org/en/USL/taskiwin-martial-dance-of-the-western-high-atlas-01256",
+        "title": "UNESCO Intangible Cultural Heritage",
         "type": "website"
       }
     ]

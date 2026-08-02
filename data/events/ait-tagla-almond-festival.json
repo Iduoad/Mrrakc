@@ -1,0 +1,62 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/harvest",
+  "metadata": {
+    "tags": [
+      "almond",
+      "agriculture",
+      "terroir",
+      "tbourida",
+      "azilal"
+    ]
+  },
+  "spec": {
+    "name": "Festival de l'Amande d'Aït Tagla",
+    "id": "ait-tagla-almond-festival",
+    "description": "Annual harvest festival in the rural commune of Aït Tagla (Azilal province, Middle Atlas) valorizing the local almond sector, combining tbourida equestrian displays, a local-products pavilion, folkloric performances and workshops for farmers and cooperatives.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "typicalDurationDays": 3
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2024,
+        "startDate": "2024-09-17",
+        "endDate": "2024-09-19",
+        "notes": "Theme: 'Traditional tbourida, an ancestral heritage'; organized with the Ait Tagla territorial collectivity and the union of Ait Tagla tbourida associations; 46 tbourida groups",
+        "links": [
+          {
+            "url": "https://pressmedias.ma/?p=2365",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2025,
+        "startDate": "2025-09-03",
+        "notes": "Organized in partnership with the commune of Ait Tagla (president Khalid Ejlaydy) and the Béni Mellal-Khénifra regional council; coincided with Eid Al Mawlid celebrations",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/culture/la-2e-edition-du-festival-de-lamande-dait-tagla-vient-de-demarrer-pour-la-valorisation-de-la-filiere-de-lamande",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

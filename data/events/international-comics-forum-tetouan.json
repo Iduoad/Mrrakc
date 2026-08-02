@@ -152,6 +152,21 @@
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
         "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/FIBaDeT",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://www.instagram.com/Fibd_tetouan",
+        "title": "Instagram",
+        "type": "social"
+      },
+      {
+        "url": "https://chouflabd.blogspot.com/",
+        "title": "Chouf L'BD blog",
+        "type": "website"
       }
     ]
   }

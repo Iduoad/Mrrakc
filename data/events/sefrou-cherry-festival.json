@@ -279,6 +279,21 @@
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
         "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Festival_des_cerises_de_Sefrou",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://ich.unesco.org/fr/RL/le-festival-des-cerises-de-sefrou-00641",
+        "title": "UNESCO Intangible Cultural Heritage",
+        "type": "website"
+      },
+      {
+        "url": "http://www.sefrou.ma/index.php?option=com_content&view=article&id=242:le-communique-de-presse-du-festival-des-cerises-de-la-ville-de-sefrou-edition-101-annee-2025&catid=9&Itemid=121",
+        "title": "2025 press release (edition 101)",
+        "type": "article"
       }
     ],
     "comments": [

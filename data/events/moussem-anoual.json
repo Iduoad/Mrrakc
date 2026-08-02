@@ -1,0 +1,55 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/cultural",
+  "metadata": {
+    "tags": [
+      "rif",
+      "anoual",
+      "moussem",
+      "cultural"
+    ]
+  },
+  "spec": {
+    "name": "Moussem Anoual (Cultural Tent)",
+    "id": "moussem-anoual",
+    "description": "Cultural moussem and gathering (khaïma / tent) held at Anoual, in the commune of Bouchaoun, Figuig province. A recent event: a first edition opened in September 2025 and a second edition was announced for July 2026.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/figuig"
+      ]
+    },
+    "recurrence": {
+      "frequency": "irregular",
+      "type": "irregular",
+      "note": "Dates vary; 1st edition opened 26 September 2025, 2nd edition announced for 26 July 2026"
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2025,
+        "startDate": "2025-09-26",
+        "links": [
+          {
+            "url": "https://www.facebook.com/groups/3989263607780334/posts/37479002528379678/",
+            "title": "2025 announcement",
+            "type": "social"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2026,
+        "startDate": "2026-07-26",
+        "links": [
+          {
+            "url": "https://www.facebook.com/watch/?v=1412438697064812",
+            "title": "2026 announcement",
+            "type": "video"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

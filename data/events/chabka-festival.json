@@ -76,6 +76,13 @@
           }
         ]
       }
+    ],
+    "links": [
+      {
+        "url": "https://www.instagram.com/festival_chabka/",
+        "title": "Instagram",
+        "type": "social"
+      }
     ]
   }
 }

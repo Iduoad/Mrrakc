@@ -1,0 +1,49 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "andalusian",
+      "malhun",
+      "gharnati",
+      "heritage",
+      "taza"
+    ]
+  },
+  "spec": {
+    "name": "Taza Heritage Music Festival",
+    "id": "taza-heritage-music-festival",
+    "description": "Festival in Taza dedicated to preserving Moroccan traditional musical heritage, programming Andalusian art, Malhun and Gharnati ensembles from across the country alongside a permanent heritage exhibition and an artistic competition.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taza"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "typicalDurationDays": 3
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2025,
+        "startDate": "2025-06-20",
+        "endDate": "2025-06-22",
+        "notes": "Held at Taza Al-Olia Theater; organized by the Regional Directorate of the Ministry of Youth, Culture and Communication (Culture Department) in Taza with the Zaydan Association for Andalusian Song and Authentic Art",
+        "links": [
+          {
+            "url": "https://nachra.ma/%D8%A7%D9%86%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%88%D9%84%D9%89-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AA%D8%A7%D8%B2%D8%A9-%D9%84%D9%84%D9%85/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

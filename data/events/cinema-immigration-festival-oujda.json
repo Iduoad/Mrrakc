@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "immigration",
+      "film",
+      "oujda"
+    ]
+  },
+  "spec": {
+    "name": "Festival International Cinéma et Immigration d'Oujda",
+    "id": "cinema-immigration-festival-oujda",
+    "description": "International film festival in Oujda dedicated to cinema exploring migration and immigration, with a competition of feature and short films alongside tributes and panel discussions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/oujda-angad"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "note": "Dates have varied by edition (held between August and November)"
+    },
+    "editions": [
+      {
+        "edition": 13,
+        "year": 2025,
+        "startDate": "2025-11",
+        "notes": "13th edition held in November 2025"
+      },
+      {
+        "edition": 14,
+        "year": 2026,
+        "notes": "Announced 14th edition; dates not yet confirmed from a fetched source"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/FMCIOujda/",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://www.instagram.com/festivalcinemaimigrationoujda/",
+        "title": "Instagram",
+        "type": "social"
+      }
+    ]
+  }
+}

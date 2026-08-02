@@ -1,0 +1,108 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "ahwach",
+      "amazigh",
+      "environment",
+      "ifrane",
+      "middle-atlas"
+    ]
+  },
+  "spec": {
+    "name": "Festival International d'Ifrane (Les Chants des Cèdres)",
+    "id": "festival-ifrane",
+    "description": "Annual multi-day festival in Ifrane organized by the Forum Ifrane pour la Culture et le Développement association, mixing Moroccan popular, Amazigh and Ahwach music with environmental-awareness programming (cedar forests, water resources) and sports tournaments; its closing 'Symphonie Ahidous' performance is a festival signature.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ifrane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8
+      ],
+      "typicalDurationDays": 4
+    },
+    "editions": [
+      {
+        "edition": 5,
+        "year": 2023,
+        "startDate": "2023-08-18",
+        "endDate": "2023-08-21",
+        "notes": "Theme 'the Forest, National Heritage'; included a national conference on forest fires and sports tournaments",
+        "links": [
+          {
+            "url": "https://premiumtravelnews.com/2023/08/09/5eme-edition-du-festival-difrane-18-21-aout-2023/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2024,
+        "startDate": "2024-08-20",
+        "endDate": "2024-08-24",
+        "notes": "Featured Najat Atabou, Hatim Ammour and Maitre Gims; first 'Village of Local Products'; attracted close to one million visitors",
+        "links": [
+          {
+            "url": "https://fr.allafrica.com/stories/202408260145.html",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2025,
+        "startDate": "2025-07-23",
+        "endDate": "2025-07-26",
+        "notes": "Theme 'water, source of life and development challenge'; Ahwach troupes plus Zina Daoudia, Ahouzar and Yamna El Amrani; national cooking competition on trout dishes",
+        "links": [
+          {
+            "url": "https://2m.ma/fr/news/La-7%C3%A8-%C3%A9dition-du-Festival-International-d-Ifrane-du-23-au-26-juillet-20250628",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2026,
+        "startDate": "2026-07-25",
+        "endDate": "2026-07-28",
+        "notes": "Theme centered on sustainable development of Ifrane National Park; 100% Moroccan lineup spanning modern song, popular heritage, Amazigh music and rap; closed with the 'Symphonie Ahidous'",
+        "links": [
+          {
+            "url": "https://www.festivalifrane.ma/#programme",
+            "title": "2026 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://premiumtravelnews.com/2026/07/14/8eme-edition-du-festival-international-difrane-25-28-juillet-2026/",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.youtube.com/@FestivalIfrane/streams",
+        "title": "Festival Ifrane on YouTube",
+        "type": "social"
+      },
+      {
+        "url": "https://www.festivalifrane.ma/#programme",
+        "title": "Festival International d'Ifrane (Les Chants des Cèdres) official website",
+        "type": "website"
+      }
+    ]
+  }
+}

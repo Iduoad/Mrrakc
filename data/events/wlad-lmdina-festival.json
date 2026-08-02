@@ -1,0 +1,68 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "sufi",
+      "traditional-arts",
+      "larache",
+      "youth"
+    ]
+  },
+  "spec": {
+    "name": "Festival Wlad Lmdina",
+    "id": "wlad-lmdina-festival",
+    "description": "Annual festival in Larache organized by the Qitar Al-Moustaqbal association, combining Sufi singing, traditional and contemporary music performances with seminars and workshops on visual arts, photography, cinema and artistic animation, aiming to boost Larache's cultural life.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/larache"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8
+      ],
+      "typicalDurationDays": 5
+    },
+    "editions": [
+      {
+        "edition": 3,
+        "year": 2025,
+        "startDate": "2025-07-26",
+        "endDate": "2025-07-31",
+        "notes": "Theme 'Larache, beacon of creativity and cultural diversity'",
+        "links": [
+          {
+            "url": "https://larachenews.com/199909.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2026,
+        "startDate": "2026-07-28",
+        "endDate": "2026-08-01",
+        "notes": "Theme 'Larache, living memory and inexhaustible creativity'; logo unveiled featuring an oud, plectrum and book; performers include singer Nizar and choirs Nasim al-Ibda, Al-Nwares and Al-Nasem",
+        "links": [
+          {
+            "url": "https://nan.media/%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D9%88%D9%84%D8%A7%D8%AF-%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D8%A6%D8%B4-%D9%8A%D8%AD%D8%AA%D9%81%D9%8A-%D8%A8/",
+            "title": "2026 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://larachenews.com/216104.html",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

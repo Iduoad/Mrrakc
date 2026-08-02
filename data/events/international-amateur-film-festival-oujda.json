@@ -1,0 +1,93 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "film",
+      "amateur",
+      "oujda"
+    ]
+  },
+  "spec": {
+    "name": "Festival International du Film Amateur d'Oujda",
+    "id": "international-amateur-film-festival-oujda",
+    "description": "Festival International du Film Amateur d'Oujda (FIFAO), organized by the Association Message d'Art pour le développement et la créativité, screens amateur short films from Morocco and abroad and hosts workshops on screenwriting, directing and photography. It has usually run in December, though its 2022 edition shifted to November; no editions have been confirmed since 2022.",
+    "status": "unknown",
+    "host": {
+      "provinces": [
+        "province/oujda-angad"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11,
+        12
+      ],
+      "note": "No confirmed edition found after 2022; current activity status is uncertain."
+    },
+    "editions": [
+      {
+        "edition": 6,
+        "year": 2020,
+        "startDate": "2020-12-23",
+        "endDate": "2020-12-27",
+        "notes": "Held in fully virtual format due to COVID-19.",
+        "links": [
+          {
+            "url": "https://www.oriental.ma/event/festival-international-du-film-amateur-doujda-format-virtuel/",
+            "title": "6th edition programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2021,
+        "startDate": "2021-12-20",
+        "endDate": "2021-12-25",
+        "notes": "Held in hybrid (in-person and remote) format.",
+        "links": [
+          {
+            "url": "http://cinematunisien.com/blog/2020/12/27/maroc-festival-international-du-film-amateur-doujda-fifao/",
+            "title": "6th and 7th edition coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2022,
+        "startDate": "2022-11-21",
+        "endDate": "2022-11-26",
+        "notes": "Return to in-person format at the Théâtre Mohammed VI after two consecutive digital editions.",
+        "links": [
+          {
+            "url": "https://atlasinfo.fr/oujda-fairplay-remporte-le-grand-prix-du-8eme-festival-international-du-film-amateur.html",
+            "title": "2022 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://lematin.ma/express/2022/festival-film-amateur-oujda-hommage-lactrice-sanaa-bahaj/383558.html",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.oriental.ma/event/festival-international-du-film-amateur-doujda-format-virtuel-2/",
+        "title": "Agence de l'Oriental event page",
+        "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/festivalfilmoujda/",
+        "title": "Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

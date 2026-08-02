@@ -1,0 +1,127 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "sufi",
+      "aissawa",
+      "heritage",
+      "meknes",
+      "spiritual"
+    ]
+  },
+  "spec": {
+    "name": "Festival Aissaoua Meknes (Maqamat wa Iqa'at Alamiya)",
+    "id": "aissaoua-meknes-festival",
+    "description": "Annual festival in Meknes celebrating the Aissawa Sufi brotherhood's musical and spiritual heritage, held under royal patronage with dozens of Aissawa troupes performing at historic sites across the city, alongside artistic evenings and heritage exhibitions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/meknes"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "typicalDurationDays": 4,
+      "note": "Organized by the Meknes Association for Cultures with the Fès-Meknès regional council, under royal patronage"
+    },
+    "editions": [
+      {
+        "edition": 3,
+        "year": 2013,
+        "startDate": "2013-11-27",
+        "endDate": "2013-11-30",
+        "links": [
+          {
+            "url": "https://www.meknespress.com/articles/details/3101/",
+            "title": "2013 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2014,
+        "startDate": "2014-12-17",
+        "endDate": "2014-12-20",
+        "notes": "The festival then went dormant for several years before being revived in 2025",
+        "links": [
+          {
+            "url": "https://www.hespress.com/%D9%85%D9%83%D9%86%D8%A7%D8%B3-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B9%D9%8A-199066.html",
+            "title": "2014 announcement",
+            "type": "article"
+          },
+          {
+            "url": "https://www.meknespress.com/articles/details/6047/",
+            "title": "2014 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2025,
+        "startDate": "2025-07-23",
+        "endDate": "2025-07-26",
+        "notes": "Theme 'Meknes, land of Sufism'; performances at Bab Mansour esplanade, Lakora square and Fqih Mohammed Manouni hall; 35 Aissawa troupes",
+        "links": [
+          {
+            "url": "https://2026.festivalissawa.ma/%d8%a7%d9%84%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac/",
+            "title": "2025 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://sadaalmaghrib.com/?p=35567",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2026,
+        "startDate": "2026-07-22",
+        "endDate": "2026-07-25",
+        "notes": "Theme 'Sufism and the unity of the Moroccan Kingdom'; over 55 Aissawa brotherhoods from across the kingdom; venues included Bab Mansour square, Sahrij Souani cistern, Lakora square and the Sidi Ben Aissa (Cheikh Al-Kamil) shrine",
+        "links": [
+          {
+            "url": "https://festivalissawa.ma/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC/",
+            "title": "2026 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://aljarida.ma/%D9%85%D9%83%D9%86%D8%A7%D8%B3-%D8%AA%D8%AA%D8%A3%D9%84%D9%82-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B9%D9%8A%D8%B3%D8%A7%D9%88%D8%A9-2026-%D9%8A%D8%AE%D8%AA%D8%AA%D9%85-%D8%AF%D9%88%D8%B1%D8%AA/",
+            "title": "2026 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.bilwadeh.com/%D9%85%D9%83%D9%86%D8%A7%D8%B3-%D8%AA%D8%AE%D8%AA%D8%AA%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3%D8%A9-%D9%85%D9%86-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B9%D9%8A%D8%B3%D8%A7%D9%88%D8%A9-%D9%85%D9%82%D8%A7%D9%85%D8%A7%D8%AA-%D9%88%D8%A5%D9%8A%D9%82%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://festivalissawa.ma/",
+        "title": "Festival Aissaoua official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/festivalissawa/",
+        "title": "Instagram",
+        "type": "social"
+      },
+      {
+        "url": "https://www.youtube.com/@festivalissawa",
+        "title": "YouTube channel",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "moussem/religious",
+  "metadata": {
+    "tags": [
+      "sufi",
+      "samaa",
+      "spiritual-music",
+      "heritage",
+      "marrakesh"
+    ]
+  },
+  "spec": {
+    "name": "Samaa Marrakech (Rencontres et Musique Soufie)",
+    "id": "samaa-marrakech",
+    "description": "Annual gathering in Marrakech's medina dedicated to Sufi 'samaa' listening sessions and spiritual music, organized by the Meniya Marrakech heritage association under royal patronage, combining academic seminars on heritage cities with musical performances at historic landmarks.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10,
+        11
+      ],
+      "typicalDurationDays": 4,
+      "note": "Organized by Jamiat Maniyat Marrakech (association for preserving Moroccan heritage)"
+    },
+    "editions": [
+      {
+        "edition": 12,
+        "year": 2023,
+        "startDate": "2023-10-19",
+        "endDate": "2023-10-22",
+        "notes": "Theme 'Enter it in peace, Amen'; seminar on the present and future of Morocco's historic cities and a lecture on 'Eastern Marrakech'",
+        "links": [
+          {
+            "url": "https://teleplus.ma/%D8%A5%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-12-%D9%85%D9%86-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%B3%D9%85%D8%A7%D8%B9/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2024,
+        "startDate": "2024-12-25",
+        "endDate": "2024-12-27",
+        "notes": "Initially planned for October 30 - November 3, 2024 as part of Marrakech's 'Islamic World Capital of Culture 2024' celebrations; postponed by organizers and finally held December 25-27, 2024",
+        "links": [
+          {
+            "url": "https://aampp.ma/accueil/samaa-marrakech/samaa-marrakech-13eme-edition-2024/",
+            "title": "2024 edition (organizer)",
+            "type": "program"
+          },
+          {
+            "url": "https://medialive.ma/%D8%AA%D8%A3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%8413-%D9%84%D9%85%D9%88%D8%B3%D9%85%D9%8A%D8%A9-%D8%B3%D9%85%D8%A7%D8%B9-%D9%85%D8%B1%D8%A7%D9%83%D8%B4-%D9%84%D9%84%D9%82/",
+            "title": "2024 postponement announcement",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2025,
+        "startDate": "2025-12-04",
+        "endDate": "2025-12-07",
+        "links": [
+          {
+            "url": "https://aampp.ma/accueil/samaa-marrakech/samaa-marrakech-14eme-edition/",
+            "title": "2025 edition (organizer)",
+            "type": "program"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://aampp.ma/accueil/samaa-marrakech/",
+        "title": "AAMPP – Samaa Marrakech",
+        "type": "website"
+      }
+    ]
+  }
+}

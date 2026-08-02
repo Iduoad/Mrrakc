@@ -43,6 +43,21 @@
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
         "type": "website"
+      },
+      {
+        "url": "https://ar.wikipedia.org/wiki/%D9%85%D9%88%D8%B3%D9%85_%D8%B7%D8%A7%D9%86%D8%B7%D8%A7%D9%86",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://rgon.ma/ar/%D9%85%D9%88%D8%B3%D9%85-%D8%B7%D8%A7%D9%86%D8%B7%D8%A7%D9%86/",
+        "title": "coverage",
+        "type": "article"
+      },
+      {
+        "url": "https://www.facebook.com/MOUSEMTANTAN/",
+        "title": "Facebook",
+        "type": "social"
       }
     ],
     "comments": [
@@ -204,6 +219,32 @@
           {
             "url": "https://fr.hespress.com/374665-la-17e-edition-du-moussem-de-tan-tan-du-26-au-30-juin-2024.html",
             "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2025,
+        "startDate": "2025-05-14",
+        "endDate": "2025-05-18",
+        "links": [
+          {
+            "url": "https://www.facebook.com/yassine.gorfti/posts/-%D9%85%D9%88%D8%B3%D9%85-%D8%B7%D8%A7%D9%86%D8%B7%D8%A7%D9%86-moussem-de-tan-tan%D9%8A%D9%86%D8%B8%D9%85-%D8%B3%D9%86%D9%88%D9%8A%D8%A7-%D9%81%D9%8A-%D8%B4%D9%87%D8%B1-%D9%85%D8%A7%D9%8A-%D8%A3%D9%82%D9%8A%D9%85%D8%AA-%D8%A7%D9%84%D9%86%D8%B3%D8%AE%D8%A9-18-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%AA%D8%B1%D8%A9-%D9%85/26672784008992493/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 19,
+        "year": 2026,
+        "startDate": "2026-10-31",
+        "endDate": "2026-11-03",
+        "links": [
+          {
+            "url": "https://saharaaplus.com/?p=23406",
+            "title": "2026 postponing announcement",
             "type": "article"
           }
         ]

@@ -114,6 +114,35 @@
         "year": 2025,
         "startDate": "2025-08-08",
         "endDate": "2025-08-16"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-08-07",
+        "endDate": "2026-08-14",
+        "links": [
+          {
+            "url": "https://www.moussemmoulayabdellah.com/en/schedule2026",
+            "title": "2026 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moussemmoulayabdellah.com/en",
+        "title": "Moussem of Moulay Abdellah Amghar official website",
+        "type": "website"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Moulay_Abdallah_Amghar",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://www.instagram.com/moussem_moulay_abdellah",
+        "title": "Instagram",
+        "type": "social"
       }
     ]
   }

@@ -1,0 +1,52 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "metadata": {
+    "tags": [
+      "surf",
+      "boardsports",
+      "expo",
+      "taghazout",
+      "agadir"
+    ]
+  },
+  "spec": {
+    "name": "Taghazout Surf Expo",
+    "id": "taghazout-surf-expo",
+    "description": "International surf and board-sports expo held at Anchor Point in Taghazout Bay (Agadir-Ida-Ou-Tanane), gathering brands, shapers and the surf industry alongside contests, talks and music. Billed as a hub for the Moroccan and international surf scene.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "note": "Usually late October"
+    },
+    "editions": [
+      {
+        "year": 2023,
+        "startDate": "2023-10-26",
+        "endDate": "2023-10-29"
+      },
+      {
+        "edition": 5,
+        "year": 2026,
+        "startDate": "2026-10-22",
+        "endDate": "2026-10-25"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://taghazoutsurfexpo.com/",
+        "title": "Taghazout Surf Expo official website",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -139,6 +139,11 @@
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
         "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/dekka.rythmes/",
+        "title": "Facebook",
+        "type": "social"
       }
     ]
   }

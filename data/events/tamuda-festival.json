@@ -1,0 +1,53 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "concerts",
+      "beach",
+      "summer",
+      "fnideq",
+      "tetouan"
+    ]
+  },
+  "spec": {
+    "name": "Tamuda Festival",
+    "id": "tamuda-festival",
+    "description": "Summer concert festival held on Plage Rifiyine in Fnideq, bringing Moroccan and international artists to the beachfront over multiple nights.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "note": "Only one edition (2026) has been confirmed via ticketing platforms; whether this is a long-running annual event or a newly launched concert series could not be verified from fetched sources - flagged for follow-up."
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-08-14",
+        "endDate": "2026-08-23",
+        "notes": "Multiple concert dates at Plage Rifiyine, Fnideq, including RIM'K, Khaled, and Gims & Draganov; edition number not confirmed",
+        "links": [
+          {
+            "url": "https://events.ma/tamuda-festival",
+            "title": "2026 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://www.ticket.ma/ticket/festival-tamuda/4342/khaled-fnideq-2026",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": []
+  }
+}

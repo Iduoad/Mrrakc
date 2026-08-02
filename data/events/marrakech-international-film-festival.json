@@ -244,6 +244,11 @@
         "url": "https://marrakech-festival.com/",
         "title": "Marrakech International Film Festival official website",
         "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/marrakechfilmfestival/?hl=en",
+        "title": "Instagram",
+        "type": "social"
       }
     ]
   }

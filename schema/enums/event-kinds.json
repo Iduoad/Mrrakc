@@ -1,21 +1,30 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Event Kinds Enumeration",
-  "description": "List of valid recurring event kinds in Mrrakc",
+  "description": "Valid recurring event kinds in Mrrakc, as 'category/type'. Categories: festival (cultural celebrations), moussem (religious/seasonal gatherings), fair (trade/showcase events), forum (conferences/meetings), sport (athletic events).",
   "type": "string",
   "enum": [
     "festival/music",
     "festival/traditional-arts",
+    "festival/dance",
     "festival/poetry",
     "festival/theater",
     "festival/film",
     "festival/visual-arts",
+    "festival/street-arts",
+    "festival/comedy",
     "festival/harvest",
     "festival/heritage",
     "festival/gastronomy",
     "moussem/religious",
     "moussem/cultural",
     "fair/book",
-    "fair/agriculture"
+    "fair/agriculture",
+    "fair/crafts",
+    "fair/expo",
+    "forum/cultural",
+    "forum/academic",
+    "sport/marathon",
+    "sport/race"
   ]
 }

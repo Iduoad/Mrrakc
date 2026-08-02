@@ -131,9 +131,14 @@
     ],
     "links": [
       {
-        "url": "https://www.mjcc.gov.ma/",
-        "title": "Ministry of Youth, Culture and Communication",
+        "url": "https://fnap.ma/",
+        "title": "FNAP official website",
         "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/fnap_marrakech/",
+        "title": "instagram page",
+        "type": "social"
       },
       {
         "url": "https://fr.wikipedia.org/wiki/Festival_national_des_arts_populaires_de_Marrakech",

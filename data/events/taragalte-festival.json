@@ -1,0 +1,72 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "desert",
+      "nomad",
+      "world-music",
+      "sahara",
+      "mhamid",
+      "draa"
+    ]
+  },
+  "spec": {
+    "name": "Festival Taragalte",
+    "id": "taragalte-festival",
+    "description": "Desert world-music and nomad-culture festival held at M'hamid El Ghizlane in the Draa valley (Zagora province), on the edge of the Sahara. Founded in 2009, it celebrates Saharan music, arts, crafts and nomadic traditions, and promotes cross-Saharan cultural exchange.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10,
+        11
+      ],
+      "note": "Usually late October / early November"
+    },
+    "editions": [
+      {
+        "edition": 13,
+        "year": 2024,
+        "startDate": "2024-11-01",
+        "endDate": "2024-11-03",
+        "links": [
+          {
+            "url": "https://maroc-hebdo.com/article/13eme-edition-festival-taragalte-1er-3-novembre-2024",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-10-30",
+        "endDate": "2025-11-02",
+        "notes": "Edition ordinal unconfirmed (press listings conflict with the 2024 13th-edition count)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.taragalte.org/en/",
+        "title": "Festival Taragalte official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/festival_taragalte/",
+        "title": "Instagram",
+        "type": "social"
+      },
+      {
+        "url": "https://www.facebook.com/Taragalte/",
+        "title": "Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

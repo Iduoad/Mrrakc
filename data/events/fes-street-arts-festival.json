@@ -1,0 +1,46 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/street-arts",
+  "metadata": {
+    "tags": [
+      "street-arts",
+      "circus",
+      "storytelling",
+      "urban-arts",
+      "fez"
+    ]
+  },
+  "spec": {
+    "name": "National Street Arts Festival (Fès)",
+    "id": "fes-street-arts-festival",
+    "description": "National festival of street arts held in Fès and organized by the Ministry of Youth, Culture and Communication, showcasing circus arts, storytelling (halqa), traditional performance, street theater and contemporary urban arts across public venues of the city.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "irregular",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "note": "Cadence and dates vary: 2nd edition July 2015, 5th edition in May, 9th edition December 2025"
+    },
+    "editions": [
+      {
+        "edition": 2,
+        "year": 2015,
+        "startDate": "2015-07"
+      },
+      {
+        "edition": 9,
+        "year": 2025,
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-27"
+      }
+    ],
+    "links": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "film",
+      "national",
+      "ccm",
+      "tangier"
+    ]
+  },
+  "spec": {
+    "name": "Festival National du Film de Tanger",
+    "id": "festival-national-film-tanger",
+    "description": "Morocco's national film festival, created in 1982 and organized by the Centre Cinématographique Marocain (CCM) to showcase Moroccan feature films, documentaries and short films in competition. First held in Rabat, the festival has been hosted in Tangier since its 8th edition (2005) and has run there continuously and annually since its 11th edition (2010).",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "typicalDurationDays": 9
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Screenings",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 23,
+        "year": 2023,
+        "startDate": "2023-10-27",
+        "endDate": "2023-11-04",
+        "notes": "Postponed from originally announced October 6-14 dates",
+        "links": [
+          {
+            "url": "https://lematin.ma/culture/festival-du-film-de-tanger-la-23e-edition-du-27-octobre-au-4-novembre/193291",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 24,
+        "year": 2024,
+        "startDate": "2024-10-18",
+        "endDate": "2024-10-26",
+        "links": [
+          {
+            "url": "https://www.mapexpress.ma/actualite/culture-et-medias/tanger-ouverture-en-apotheose-24e-edition-du-festival-national-du-film/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 25,
+        "year": 2025,
+        "startDate": "2025-10-17",
+        "endDate": "2025-10-25",
+        "links": [
+          {
+            "url": "https://www.mapexpress.ma/actualite/culture-et-medias/25e-festival-national-du-film-du-17-au-25-octobre-prochain-tanger/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 26,
+        "year": 2026,
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-31",
+        "links": [
+          {
+            "url": "https://fnf.ma/docs/programme.pdf",
+            "title": "2026 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://telquel.ma/instant-t/2026/05/04/la-26e-edition-du-festival-national-du-film-a-tanger-du-23-au-31-octobre-prochain_1987612/",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ccm.ma/fnf/",
+        "title": "Festival National du Film official website (CCM)",
+        "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Festival_national_du_film",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://fnf.ma/",
+        "title": "Festival National du Film de Tanger official website",
+        "type": "website"
+      }
+    ]
+  }
+}

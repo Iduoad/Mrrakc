@@ -1,0 +1,83 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "film",
+      "short-film",
+      "documentary",
+      "guelmim"
+    ]
+  },
+  "spec": {
+    "name": "Oued Noun Film Festival",
+    "id": "oued-noun-film-festival",
+    "description": "Short-film and documentary festival held in Guelmim and organized by the Association of Young Creators of Guelmim (Association des Jeunes Créateurs de Guelmim), awarding the International Oued Noun Prize for Best Short Film, the International Oued Noun Prize for Documentary Short Films and the National Oued Noun Prize for Short Film.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/guelmim"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2,
+        6,
+        12
+      ],
+      "note": "Timing has varied across editions (June 2019, February 2021, December 2025)"
+    },
+    "editions": [
+      {
+        "edition": 8,
+        "year": 2019,
+        "startDate": "2019-06-19",
+        "endDate": "2019-06-23",
+        "links": [
+          {
+            "url": "https://www.filmexport.ma/en/actualites/19_8e-edition-du-Festival-Oued-Noun-Du-Cinema-de-Guelmim-du-19-au-23-juin-2019",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2021,
+        "startDate": "2021-02-26",
+        "endDate": "2021-02-28",
+        "notes": "Held online due to the Covid-19 pandemic",
+        "links": [
+          {
+            "url": "https://www.mapnews.ma/en/actualites/culture/guelmim-online-9th-oued-noun-film-festival-kicks",
+            "title": "2021 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2025,
+        "startDate": "2025-12-25",
+        "endDate": "2025-12-26",
+        "links": [
+          {
+            "url": "https://fr.albalad.ma/films-et-jurys-de-la-11eme-edition-du-festival-cinema-de-oued-noun-a-guelmim/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/FestivalGuelmimDuCinema/",
+        "title": "Festival Oued Noun du Cinéma on Facebook",
+        "type": "social"
+      }
+    ]
+  }
+}

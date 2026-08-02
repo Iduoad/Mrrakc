@@ -1,0 +1,108 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/heritage",
+  "metadata": {
+    "tags": [
+      "tiznit",
+      "silver",
+      "jewellery",
+      "crafts",
+      "amazigh"
+    ]
+  },
+  "spec": {
+    "name": "Timizar Silver Festival",
+    "id": "timizar-silver-festival",
+    "description": "Annual festival in Tiznit, Morocco's historic silver capital, celebrating silversmithing and jewellery craftsmanship through professional exhibitions, live artisan demonstrations, scientific seminars and evening concerts, organized by the Timizart Association.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tiznit"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8
+      ],
+      "typicalDurationDays": 6
+    },
+    "editions": [
+      {
+        "edition": 6,
+        "year": 2015,
+        "startDate": "2015-08-13",
+        "endDate": "2015-08-17",
+        "links": [
+          {
+            "url": "http://riadzany.blogspot.com/2015/08/tiznits-silver-festival-2015.html",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2023,
+        "startDate": "2023-08-23",
+        "endDate": "2023-08-28",
+        "links": [
+          {
+            "url": "https://www.odco.gov.ma/timizart-silver-festival-11th-edition-inaugurated-by-the-general-director-of-odco/?lang=en",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2024,
+        "startDate": "2024-07-24",
+        "endDate": "2024-07-29",
+        "links": [
+          {
+            "url": "https://cp-tiznit.ma/%D8%AD%D9%81%D9%84-%D8%A7%D8%AE%D8%AA%D8%AA%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-12-%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AA%D9%8A%D9%85%D9%8A%D8%B2%D8%A7%D8%B1-%D9%84%D9%84%D9%81/",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2025,
+        "startDate": "2025-07-15",
+        "endDate": "2025-07-20",
+        "links": [
+          {
+            "url": "https://unveilingmorocco.com/2025/07/08/tiznits-timizart-festival-a-must-visit-for-craft-lovers/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2026,
+        "startDate": "2026-07-15",
+        "endDate": "2026-07-20",
+        "notes": "Held under royal patronage, theme \"Silversmithing: identity, creativity and development\".",
+        "links": [
+          {
+            "url": "https://www.flach24.com/archives/82818",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://sdrtourisme-sm.ma/en/actualites/timizar-silver-festival-tiznit/",
+        "title": "Souss-Massa Regional Tourism Development Company - Timizar Silver Festival",
+        "type": "article"
+      }
+    ]
+  }
+}

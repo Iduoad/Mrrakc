@@ -42,6 +42,11 @@
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
         "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Moussem_d%27Imilchil",
+        "title": "Wikipedia",
+        "type": "article"
       }
     ],
     "comments": [

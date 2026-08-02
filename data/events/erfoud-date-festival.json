@@ -42,6 +42,16 @@
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
         "type": "website"
+      },
+      {
+        "url": "https://www.youtube.com/channel/UCb68XhqhDj9BSeqF61jsQQg",
+        "title": "YouTube channel",
+        "type": "social"
+      },
+      {
+        "url": "https://www.sidattes.ma/fr/",
+        "title": "SIDATTES official website",
+        "type": "website"
       }
     ],
     "comments": [

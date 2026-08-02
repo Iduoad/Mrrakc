@@ -1,0 +1,124 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "rai",
+      "music",
+      "oujda",
+      "international"
+    ]
+  },
+  "spec": {
+    "name": "Festival International du Raï d'Oujda",
+    "id": "international-rai-festival-oujda",
+    "description": "Festival International du Raï, launched in 2007 in Oujda by the Association Oujda Arts under royal patronage, gathers Moroccan and international raï artists for open-air concerts near the city's Stade d'Honneur. It went on hiatus after its 2020 edition was cancelled for COVID-19 and returned in 2025.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/oujda-angad"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "typicalDurationDays": 4,
+      "note": "Paused after the 2020 edition was cancelled for COVID-19; resumed in 2025."
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2007,
+        "startDate": "2007-07-19",
+        "endDate": "2007-07-22"
+      },
+      {
+        "edition": 2,
+        "year": 2008,
+        "startDate": "2008-07-22",
+        "endDate": "2008-07-26"
+      },
+      {
+        "edition": 5,
+        "year": 2011,
+        "startDate": "2011-07-21",
+        "endDate": "2011-07-23",
+        "links": [
+          {
+            "url": "https://www.oriental.ma/event/5eme-edition-du-festival-international-du-rai/",
+            "title": "5th edition programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2016,
+        "startDate": "2016-07-16",
+        "endDate": "2016-07-23"
+      },
+      {
+        "edition": 11,
+        "year": 2017,
+        "startDate": "2017-07-15",
+        "endDate": "2017-07-22"
+      },
+      {
+        "edition": 14,
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Scheduled for July 23-25, 2020 but cancelled due to COVID-19 restrictions on large gatherings."
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-07-24",
+        "endDate": "2025-07-26",
+        "notes": "Return after a multi-year hiatus.",
+        "links": [
+          {
+            "url": "https://www.mapexpress.ma/actualite/culture-et-medias/oujda-au-rythme-du-festival-international-du-rai/",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-07-22",
+        "endDate": "2026-07-25",
+        "links": [
+          {
+            "url": "https://femmesdumaroc.com/inspiration/culture/le-festival-du-rai-de-loriental-revient-pour-une-nouvelle-edition",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.oriental.ma/event/festival-international-du-rai-doujda/",
+        "title": "Agence de l'Oriental event page",
+        "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Festival_international_du_ra%C3%AF",
+        "title": "Wikipedia",
+        "type": "article"
+      },
+      {
+        "url": "https://www.facebook.com/festivalraioujda/",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://www.instagram.com/festival.rai.oriental/",
+        "title": "Instagram",
+        "type": "social"
+      }
+    ]
+  }
+}

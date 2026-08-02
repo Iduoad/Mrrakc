@@ -1,0 +1,148 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "metadata": {
+    "tags": [
+      "amazigh",
+      "rural-arts",
+      "tafraout",
+      "ammeln",
+      "souss",
+      "tiznit"
+    ]
+  },
+  "spec": {
+    "name": "Tifawine Festival",
+    "id": "tifawine-festival",
+    "description": "Rural arts festival held annually in Tafraout and the Ammeln valley (Anti-Atlas), organized by the Association Festival Tifawine to promote Amazigh culture and village life through concerts, the Rural University of Mohammed Khaïr-Eddine, a friendship football league, agricultural product exhibits and a national Tifinagh competition.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tiznit"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8,
+        10
+      ],
+      "typicalDurationDays": 4,
+      "note": "Dates have shifted between July, August and October across editions; the 2023 edition moved from summer to October, but recent editions (2024-2026) have returned to early-to-mid August."
+    },
+    "editions": [
+      {
+        "edition": 10,
+        "year": 2015,
+        "startDate": "2015-08-06",
+        "endDate": "2015-08-09",
+        "links": [
+          {
+            "url": "https://amazighworldnews.com/tafraout-hosts-the-10th-edition-of-tifawin-festival-on-aug-6-9/",
+            "title": "2015 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2017,
+        "startDate": "2017-07-12",
+        "endDate": "2017-07-16",
+        "links": [
+          {
+            "url": "https://cmgp-cas.com/2017/07/12/sponsoring-de-la-12eme-edition-du-festival-tifawin-de-tafraout/",
+            "title": "2017 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2018,
+        "startDate": "2018-08-15",
+        "endDate": "2018-08-19",
+        "links": [
+          {
+            "url": "https://portailsudmaroc.com/actualite/11918/festival-tifawine-de-tafraout-hymne-lart-en-milieu-rural",
+            "title": "2018 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2023,
+        "startDate": "2023-10-18",
+        "endDate": "2023-10-21",
+        "notes": "Edition rescheduled from its original summer slot to October.",
+        "links": [
+          {
+            "url": "https://amadalamazigh.press.ma/%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%AA%D9%88%D9%82%D9%8A%D8%AA-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AA%D9%8A%D9%81%D8%A7%D9%88%D9%8A%D9%86-%D8%AA%D8%A7%D9%81%D8%B1%D8%A7%D9%88%D8%AA/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 16,
+        "year": 2024,
+        "startDate": "2024-08-15",
+        "endDate": "2024-08-18",
+        "links": [
+          {
+            "url": "https://festivaltifawine.ma/",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 17,
+        "year": 2025,
+        "startDate": "2025-08-07",
+        "endDate": "2025-08-17",
+        "links": [
+          {
+            "url": "https://www.maroculturel.com/articles/festival-tifawine-2025-tafraout",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 18,
+        "year": 2026,
+        "startDate": "2026-08-06",
+        "endDate": "2026-08-09",
+        "notes": "Held under the theme \"Al-Intisar lil-Qarya\" (Victory for the Village).",
+        "links": [
+          {
+            "url": "https://amadalamazigh.press.ma/%D8%AA%D8%A7%D9%81%D8%B1%D8%A7%D9%88%D8%AA-%D9%88%D8%A3%D9%85%D9%84%D9%86-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%8018-%D9%85%D9%86-%D9%85%D9%87/",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://festivaltifawine.ma/",
+        "title": "Festival Tifawine official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.facebook.com/TifawinFestival/",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://www.instagram.com/tifawinfestival/?hl=ar",
+        "title": "Instagram",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -102,6 +102,13 @@
         "startDate": "2025-09-04",
         "endDate": "2025-09-10"
       }
+    ],
+    "links": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Candles_Convoy_of_Sal%C3%A9",
+        "title": "Wikipedia",
+        "type": "article"
+      }
     ]
   }
 }

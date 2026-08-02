@@ -25,7 +25,7 @@
       "months": [
         6
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 2
     },
     "admission": {
       "options": [
@@ -113,13 +113,38 @@
         "edition": 12,
         "year": 2024,
         "startDate": "2024-05-24",
-        "endDate": "2024-05-26"
+        "endDate": "2024-05-26",
+        "links": [
+          {
+            "url": "https://ouarzazateevents.com/index.php/en/events/national-ahwach-festival",
+            "title": "Event Programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2025,
+        "startDate": "2025-10-23",
+        "endDate": "2025-10-25",
+        "links": [
+          {
+            "url": "https://ouarzazateevents.com/index.php/en/events/ahwach",
+            "title": "Event Programme",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [
       {
         "url": "https://www.mjcc.gov.ma/",
         "title": "Ministry of Youth, Culture and Communication",
+        "type": "website"
+      },
+      {
+        "url": "https://ouarzazateevents.com/index.php/en",
+        "title": "Ouarzazate Events",
         "type": "website"
       }
     ]

@@ -1,0 +1,110 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "aita",
+      "marsaouia",
+      "sung-poetry",
+      "casablanca-settat"
+    ]
+  },
+  "spec": {
+    "name": "Festival de l'Aïta Marsaouia",
+    "id": "festival-aita-marsaouia",
+    "description": "Regional festival celebrating Aïta Marsaouia, the coastal Doukkala-Abda style of aita sung-poetry, organized by the Casablanca-Settat Regional Council together with the Ministry of Youth, Culture and Communication. It tours several cities of the Casablanca-Settat region each edition, combining public performances, tributes to pioneering artists, study days and exhibitions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca",
+        "province/settat",
+        "province/sidi-bennour",
+        "province/el-jadida",
+        "province/mediouna",
+        "province/berrechid",
+        "province/mohammedia"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8
+      ],
+      "typicalDurationDays": 15,
+      "note": "Touring festival held across several cities of the Casablanca-Settat region; exact host cities vary by edition"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Public performances",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2024,
+        "startDate": "2024-07-12",
+        "endDate": "2024-07-27",
+        "notes": "Held in Oualidia (Sidi Bennour province), Settat and Casablanca; dedicated to Bouchaib El Bidaoui",
+        "links": [
+          {
+            "url": "https://www.mapnews.ma/fr/actualites/culture/le-1er-festival-de-la%C3%AFta-marsaouia-du-12-au-27-juillet-dans-trois-villes-de-la",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2025,
+        "startDate": "2025-07-18",
+        "endDate": "2025-08-02",
+        "notes": "Held in El Jadida, Mediouna and Casablanca, themed \"Fidélité à la mémoire, ouverture sur l'avenir\"",
+        "links": [
+          {
+            "url": "https://www.maroc.ma/fr/actualites/la-2-edition-du-festival-de-laita-marsaouia-du-18-juillet-au-2-aout-el-jadida-mediouna-et-casablanca",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://fr.allafrica.com/stories/202508040577.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2026,
+        "startDate": "2026-07-17",
+        "endDate": "2026-07-31",
+        "provinces": [
+          "province/berrechid",
+          "province/casablanca",
+          "province/mohammedia"
+        ],
+        "notes": "Held in Berrechid, Casablanca and Mohammedia",
+        "links": [
+          {
+            "url": "https://www.lodj.ma/Berrechid-cloture-la-premiere-etape-de-la-3e-edition-du-Festival-de-l-Aita-Marsaouia_a179794.html",
+            "title": "2026 coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://culturama.ma/en/content/mediterranean_festival/festival-aita-marsaouia",
+        "title": "Culturama festival page",
+        "type": "article"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "music",
+      "taghazout",
+      "agadir",
+      "beach",
+      "summer"
+    ]
+  },
+  "spec": {
+    "name": "TaghaMusic Festival",
+    "id": "taghamusic-festival",
+    "description": "Summer beachfront music festival at Taghazout Bay, part of the resort's Summer Vibes season, featuring Moroccan and international artists across pop, R&B, Afrobeat and traditional genres over three evenings facing the Atlantic.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7,
+        8
+      ],
+      "typicalDurationDays": 3
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Concert tickets",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 3,
+        "year": 2025,
+        "startDate": "2025-07-25",
+        "endDate": "2025-07-27",
+        "links": [
+          {
+            "url": "https://www.taghazoutbay.ma/en/evenements/taghamusic-festival-25-26-27-juillet-2025-taghazout-bay",
+            "title": "2025 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2026,
+        "startDate": "2026-08-14",
+        "endDate": "2026-08-16",
+        "links": [
+          {
+            "url": "https://www.infomagazine.ma/maroc/taghazout-bay-accelere-pour-seduire-les-touristes-toute-lannee-16168-2026/",
+            "title": "2026 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://events.ma/taghamusic/boudchart-15-08-26",
+            "title": "2026 ticketing",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.taghazoutbay.ma/en/evenements/taghamusic-festival",
+        "title": "Taghazout Bay - TaghaMusic Festival",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/film",
+  "metadata": {
+    "tags": [
+      "cinema",
+      "film",
+      "memory",
+      "human-rights",
+      "nador"
+    ]
+  },
+  "spec": {
+    "name": "Festival International de Cinéma et Mémoire Commune (FICMEC)",
+    "id": "ficmec-nador",
+    "description": "Festival International de Cinéma et Mémoire Commune (FICMEC), organized in Nador by the Centre de la Mémoire Commune pour la Démocratie et la Paix, uses film screenings, conferences and workshops to advance transitional justice, human rights and peacebuilding. Each edition explores a distinct theme related to collective memory.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nador"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "typicalDurationDays": 6,
+      "note": "Usually held in October or November; the 2023 edition was postponed to mid-December after the Al Haouz earthquake."
+    },
+    "editions": [
+      {
+        "edition": 9,
+        "year": 2020,
+        "startDate": "2020-12-14",
+        "endDate": "2020-12-19",
+        "notes": "Theme: cinema and memory between Morocco and Latin America in times of pandemic.",
+        "links": [
+          {
+            "url": "https://www.oriental.ma/event/festival-international-de-cinema-et-memoire-commune/",
+            "title": "9th edition programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2023,
+        "startDate": "2023-12-11",
+        "endDate": "2023-12-17",
+        "notes": "Originally scheduled for October 23-28, 2023 (theme: 'Remigration and Memory'), postponed to December after the Al Haouz earthquake. China was guest country of honour.",
+        "links": [
+          {
+            "url": "https://www.medi1news.com/fr/article/294495.html",
+            "title": "2023 postponement coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 13,
+        "year": 2024,
+        "startDate": "2024-11-06",
+        "endDate": "2024-11-10",
+        "notes": "Theme: 'La mémoire du ciel et de la terre' (Memory of Sky and Earth), with films from 17 countries.",
+        "links": [
+          {
+            "url": "https://fr.hespress.com/394818-nador-a-lheure-de-son-13e-festival-international-de-cinema-et-memoire-commune.html",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2025,
+        "startDate": "2025-11-15",
+        "endDate": "2025-11-20",
+        "notes": "Theme: 'Mémoire de la paix' (Memory of Peace), held to mark the 50th anniversary of the Green March.",
+        "links": [
+          {
+            "url": "https://www.atalayar.com/en/articulo/culture/nador-international-film-and-shared-memory-festival-memory-of-peace/20251019100000219462.html",
+            "title": "2025 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2026,
+        "startDate": "2026-10-30",
+        "endDate": "2026-11-04",
+        "notes": "Theme: 'La mémoire de l'avenir' (Memory of the Future).",
+        "links": [
+          {
+            "url": "https://festivalcinemanador.com/wp-content/uploads/2026/07/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A_%D8%AF%D8%A7%D8%A6%D8%B1%D8%A9_%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8_%D9%85%D9%86_%D8%A3%D8%AC%D9%84_%D8%A7%D9%84%D8%B3%D9%84%D9%85-3.pdf",
+            "title": "2026 programme (Arabic)",
+            "type": "program"
+          },
+          {
+            "url": "https://festivalcinemanador.com/wp-content/uploads/2026/07/V3-FR-Programme_operationnel_Cercle_des_jeunes_pour_la_paix_FR.pdf",
+            "title": "2026 programme (French)",
+            "type": "program"
+          },
+          {
+            "url": "https://fr.allafrica.com/stories/202604170511.html",
+            "title": "2026 announcement",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://festivalcinemanador.com/",
+        "title": "FICMEC official website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.instagram.com/ficmec_nador/",
+        "title": "Instagram",
+        "type": "social"
+      },
+      {
+        "url": "https://www.facebook.com/festivalcinemanador/",
+        "title": "Facebook",
+        "type": "social"
+      },
+      {
+        "url": "https://www.oriental.ma/event/festival-international-de-cinema-et-memoire-commune/",
+        "title": "Agence de l'Oriental event page",
+        "type": "website"
+      }
+    ]
+  }
+}

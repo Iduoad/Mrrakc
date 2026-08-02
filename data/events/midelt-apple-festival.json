@@ -101,6 +101,19 @@
         "year": 2024,
         "startDate": "2024-10-16",
         "endDate": "2024-10-19"
+      },
+      {
+        "edition": 5,
+        "year": 2025,
+        "startDate": "2025-10-15",
+        "endDate": "2025-10-19",
+        "links": [
+          {
+            "url": "https://www.agri-mag.com/2025/10/16/5eme-edition-du-salon-national-de-la-pomme-a-midelt/",
+            "type": "article",
+            "title": "News coverage"
+          }
+        ]
       }
     ]
   }
