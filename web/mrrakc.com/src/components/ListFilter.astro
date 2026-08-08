@@ -1,0 +1,210 @@
+---
+// A search box, sort control and chip group that filter an already-rendered list.
+//
+// The lists this drives (up to 418 place cards) are server-rendered with their
+// descriptions run through markdown, so re-rendering them in a client island
+// would mean shipping all that content twice. Instead the cards stay static and
+// this only toggles `hidden` on them and reorders them, keyed off data attributes.
+//
+// Each filterable card must carry:
+//   data-filter-item  data-filter-name="<lowercased name>"  data-<facetKey>="<value>"
+// plus data-sort-num="<number>" when a numeric sort option is offered. The page
+// should also render a hidden `data-filter-empty` block for the no-matches state.
+
+interface Facet {
+    value: string;
+    label: string;
+    count: number;
+}
+
+interface SortOption {
+    label: string;
+    /** `name` reads data-filter-name, `num` reads data-sort-num. */
+    by: 'name' | 'num';
+    dir: 'asc' | 'desc';
+}
+
+interface Props {
+    /** Suffix of the data attribute on each card that the chips filter on. */
+    facetKey: string;
+    facets: Facet[];
+    facetLabel: string;
+    searchPlaceholder: string;
+    /** Result-counter noun, [singular, plural]. */
+    noun: [string, string];
+    total: number;
+    /** Cycled by the sort button. The first entry must match the order the page
+     *  server-renders its cards in, since the button starts on it. */
+    sortOptions?: SortOption[];
+}
+
+const { facetKey, facets, facetLabel, searchPlaceholder, noun, total, sortOptions = [] } = Astro.props;
+
+// Handed to the script so it can restyle chips; written out literally here so
+// Tailwind sees both states while scanning source.
+const chipOn = 'bg-terra text-white border-terra';
+const chipOff = 'bg-white dark:bg-charcoal text-charcoal dark:text-stone-300 border-clay/20 dark:border-charcoal-light hover:border-terra/50';
+---
+
+<div
+  class="mb-8"
+  data-list-filter={facetKey}
+  data-chip-on={chipOn}
+  data-chip-off={chipOff}
+  data-noun-one={noun[0]}
+  data-noun-many={noun[1]}
+  data-sort-options={sortOptions.length > 0 ? JSON.stringify(sortOptions) : undefined}
+>
+  <div class="flex flex-wrap items-center gap-3">
+    <div class="relative flex-1 min-w-[15rem]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="absolute left-4 top-1/2 -translate-y-1/2 text-charcoal-light dark:text-stone-500 pointer-events-none">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+      </svg>
+      <input
+        type="search"
+        data-filter-search
+        aria-label={searchPlaceholder}
+        placeholder={searchPlaceholder}
+        class="w-full pl-10 pr-4 py-2.5 text-sm bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-full text-charcoal dark:text-stone-200 placeholder:text-charcoal-light/70 dark:placeholder:text-stone-500 focus:outline-none focus:border-terra/60 transition-colors"
+      />
+    </div>
+
+    {sortOptions.length > 1 && (
+      <button
+        type="button"
+        data-filter-sort
+        aria-label="Change sort order"
+        class="shrink-0 px-5 py-2.5 text-sm font-medium bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-full text-charcoal dark:text-stone-200 hover:border-terra/50 transition-colors"
+      >
+        {sortOptions[0].label}
+      </button>
+    )}
+
+    <p class="shrink-0 text-sm text-charcoal-light dark:text-stone-400">
+      <span data-filter-count>{total}</span> {total === 1 ? noun[0] : noun[1]}
+    </p>
+
+    <button
+      type="button"
+      data-filter-clear
+      hidden
+      class="shrink-0 text-sm font-medium text-terra hover:underline"
+    >
+      Clear
+    </button>
+  </div>
+
+  {facets.length > 1 && (
+    <div class="mt-4">
+      <h4 class="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 mb-2">{facetLabel}</h4>
+      <div class="flex flex-wrap gap-2">
+        {facets.map(facet => (
+          <button
+            type="button"
+            data-filter-chip
+            data-value={facet.value}
+            aria-pressed="false"
+            class={`inline-flex items-center gap-1.5 px-3 py-1 text-xs rounded-full border transition-all duration-200 capitalize ${chipOff}`}
+          >
+            <span>{facet.label}</span>
+            <span class="text-[10px] font-bold rounded-full px-1.5 bg-clay/20 dark:bg-charcoal-light/40">{facet.count}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  )}
+</div>
+
+<script>
+  interface SortOption {
+    label: string;
+    by: 'name' | 'num';
+    dir: 'asc' | 'desc';
+  }
+
+  const root = document.querySelector<HTMLElement>('[data-list-filter]');
+
+  if (root) {
+    const facetKey = root.dataset.listFilter!;
+    const onClasses = root.dataset.chipOn!.split(' ');
+    const offClasses = root.dataset.chipOff!.split(' ');
+    const [nounOne, nounMany] = [root.dataset.nounOne!, root.dataset.nounMany!];
+
+    const chips = [...root.querySelectorAll<HTMLButtonElement>('[data-filter-chip]')];
+    const search = root.querySelector<HTMLInputElement>('[data-filter-search]');
+    const sortBtn = root.querySelector<HTMLButtonElement>('[data-filter-sort]');
+    const clear = root.querySelector<HTMLButtonElement>('[data-filter-clear]');
+    const countEl = root.querySelector<HTMLElement>('[data-filter-count]');
+    const items = [...document.querySelectorAll<HTMLElement>('[data-filter-item]')];
+    const emptyEl = document.querySelector<HTMLElement>('[data-filter-empty]');
+
+    const selected = new Set<string>();
+
+    const styleChip = (chip: HTMLButtonElement, on: boolean) => {
+      chip.setAttribute('aria-pressed', String(on));
+      chip.classList.remove(...(on ? offClasses : onClasses));
+      chip.classList.add(...(on ? onClasses : offClasses));
+    };
+
+    const apply = () => {
+      const query = (search?.value ?? '').trim().toLowerCase();
+      let shown = 0;
+
+      for (const item of items) {
+        const matchesFacet = selected.size === 0 || selected.has(item.dataset[facetKey] ?? '');
+        const matchesQuery = query === '' || (item.dataset.filterName ?? '').includes(query);
+        const show = matchesFacet && matchesQuery;
+        item.classList.toggle('hidden', !show);
+        if (show) shown++;
+      }
+
+      if (countEl) countEl.textContent = String(shown);
+      const nounEl = countEl?.nextSibling;
+      if (nounEl) nounEl.textContent = ` ${shown === 1 ? nounOne : nounMany}`;
+      emptyEl?.toggleAttribute('hidden', shown > 0);
+      clear?.toggleAttribute('hidden', selected.size === 0 && query === '');
+    };
+
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        const value = chip.dataset.value!;
+        if (selected.has(value)) selected.delete(value);
+        else selected.add(value);
+        styleChip(chip, selected.has(value));
+        apply();
+      });
+    }
+
+    search?.addEventListener('input', apply);
+
+    clear?.addEventListener('click', () => {
+      selected.clear();
+      for (const chip of chips) styleChip(chip, false);
+      if (search) search.value = '';
+      apply();
+    });
+
+    // Sorting reorders the cards in place; their hidden state is untouched, so it
+    // composes with whatever filters are active.
+    if (sortBtn && root.dataset.sortOptions) {
+      const options: SortOption[] = JSON.parse(root.dataset.sortOptions);
+      const grid = items[0]?.parentElement;
+      let index = 0;
+
+      sortBtn.addEventListener('click', () => {
+        index = (index + 1) % options.length;
+        const option = options[index];
+        sortBtn.textContent = option.label;
+
+        const sorted = [...items].sort((a, b) => {
+          const cmp = option.by === 'num'
+            ? Number(a.dataset.sortNum ?? 0) - Number(b.dataset.sortNum ?? 0)
+            : (a.dataset.filterName ?? '').localeCompare(b.dataset.filterName ?? '');
+          return option.dir === 'desc' ? -cmp : cmp;
+        });
+        for (const item of sorted) grid?.appendChild(item);
+      });
+    }
+  }
+</script>

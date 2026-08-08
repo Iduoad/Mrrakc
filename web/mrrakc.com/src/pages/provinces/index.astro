@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import ListFilter from '../../components/ListFilter.astro';
 
 const provinces = await getCollection('provinces');
 const places = await getCollection('places');
@@ -23,6 +24,16 @@ provinces.sort((a, b) => {
   
   return a.data.spec.name.localeCompare(b.data.spec.name);
 });
+
+// Region is the one facet that meaningfully splits 75 provinces (12 regions).
+const regionCounts = new Map<string, number>();
+for (const province of provinces) {
+  const region = province.data.spec.region;
+  if (region) regionCounts.set(region, (regionCounts.get(region) ?? 0) + 1);
+}
+const regions = [...regionCounts.entries()]
+  .sort((a, b) => a[0].localeCompare(b[0]))
+  .map(([value, count]) => ({ value, label: value, count }));
 ---
 
 <BaseLayout title="Provinces of Morocco" description="Explore the diverse provinces of Morocco.">
@@ -34,9 +45,30 @@ provinces.sort((a, b) => {
       </p>
     </header>
 
+    <ListFilter
+      facetKey="region"
+      facets={regions}
+      facetLabel="Region"
+      searchPlaceholder="Search provinces…"
+      noun={['province', 'provinces']}
+      total={provinces.length}
+      sortOptions={[
+        { label: 'Most places', by: 'num', dir: 'desc' },
+        { label: 'A–Z', by: 'name', dir: 'asc' },
+        { label: 'Z–A', by: 'name', dir: 'desc' },
+      ]}
+    />
+
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       {provinces.map(province => (
-        <a href={`/provinces/${province.data.spec.id}`} class="group relative overflow-hidden bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
+        <a
+          href={`/provinces/${province.data.spec.id}`}
+          data-filter-item
+          data-region={province.data.spec.region}
+          data-filter-name={province.data.spec.name.toLowerCase()}
+          data-sort-num={placesCount[province.data.spec.id] || 0}
+          class="group relative overflow-hidden bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col h-full"
+        >
           <div class="absolute top-0 right-0 w-24 h-24 bg-terra/5 rounded-bl-full -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
           
           <div class="p-6 relative z-10 flex flex-col h-full justify-between">
@@ -61,6 +93,10 @@ provinces.sort((a, b) => {
           </div>
         </a>
       ))}
+    </div>
+
+    <div data-filter-empty hidden class="text-center py-12 bg-clay/5 dark:bg-charcoal-light/5 rounded-2xl border border-dashed border-clay/20 dark:border-charcoal-light/20">
+      <p class="text-charcoal-light dark:text-stone-400 italic">No provinces match these filters.</p>
     </div>
   </main>
 </BaseLayout>

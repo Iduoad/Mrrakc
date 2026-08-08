@@ -2,6 +2,7 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import MarkdownRenderer from '../../../components/react/MarkdownRenderer';
+import ListFilter from '../../../components/ListFilter.astro';
 
 export async function getStaticPaths() {
   const provinces = await getCollection('provinces');
@@ -23,6 +24,18 @@ const provincePlaces = places.filter(place =>
 
 // Sort places by name
 provincePlaces.sort((a, b) => a.data.spec.name.localeCompare(b.data.spec.name));
+
+// `kind` is "<category>/<subtype>". Casablanca alone has 63 distinct subtypes,
+// which is far too many chips to scan, so the filter works on the category.
+const categoryOf = (kind: string) => kind.split('/')[0];
+const categoryCounts = new Map<string, number>();
+for (const place of provincePlaces) {
+  const category = categoryOf(place.data.kind);
+  categoryCounts.set(category, (categoryCounts.get(category) ?? 0) + 1);
+}
+const categories = [...categoryCounts.entries()]
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+  .map(([value, count]) => ({ value, label: value.replace(/-/g, ' '), count }));
 ---
 
 <BaseLayout title={`${province.name} - Places`} description={`Explore places in ${province.name}`}>
@@ -30,13 +43,33 @@ provincePlaces.sort((a, b) => a.data.spec.name.localeCompare(b.data.spec.name));
     <div class="mb-8">
       <a href="/provinces" class="text-sm text-terra-dark hover:underline mb-2 inline-block">&larr; Back to Provinces</a>
       <h1 class="text-4xl md:text-5xl font-serif font-bold text-charcoal dark:text-stone-100">{province.name}</h1>
-      <p class="text-charcoal-light dark:text-stone-400 mt-2">{provincePlaces.length} places found</p>
     </div>
+
+    {provincePlaces.length > 0 && (
+      <ListFilter
+        facetKey="category"
+        facets={categories}
+        facetLabel="Category"
+        searchPlaceholder="Search places…"
+        noun={['place', 'places']}
+        total={provincePlaces.length}
+        sortOptions={[
+          { label: 'A–Z', by: 'name', dir: 'asc' },
+          { label: 'Z–A', by: 'name', dir: 'desc' },
+        ]}
+      />
+    )}
 
     {provincePlaces.length > 0 ? (
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {provincePlaces.map(place => (
-          <a href={`/provinces/${province.id}/${place.data.spec.id}`} class="group block p-6 bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
+          <a
+            href={`/provinces/${province.id}/${place.data.spec.id}`}
+            data-filter-item
+            data-category={categoryOf(place.data.kind)}
+            data-filter-name={place.data.spec.name.toLowerCase()}
+            class="group block p-6 bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl hover:shadow-xl transition-all duration-300 hover:-translate-y-1 h-full flex flex-col"
+          >
             <div class="flex items-start justify-between mb-4">
               <span class="inline-block px-2 py-1 text-xs font-bold uppercase tracking-wider text-terra-dark dark:text-terra bg-terra/10 rounded-md">
                 {place.data.kind.split('/').pop()?.replace('-', ' ')}
@@ -61,5 +94,9 @@ provincePlaces.sort((a, b) => a.data.spec.name.localeCompare(b.data.spec.name));
         <p class="text-charcoal-light dark:text-stone-400 italic">No places found in this province yet.</p>
       </div>
     )}
+
+    <div data-filter-empty hidden class="text-center py-12 bg-clay/5 dark:bg-charcoal-light/5 rounded-2xl border border-dashed border-clay/20 dark:border-charcoal-light/20">
+      <p class="text-charcoal-light dark:text-stone-400 italic">No places match these filters.</p>
+    </div>
   </main>
 </BaseLayout>
