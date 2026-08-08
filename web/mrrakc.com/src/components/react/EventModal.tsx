@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { X, MapPin, Ticket, CalendarDays, Moon, Leaf, HelpCircle, CalendarClock } from 'lucide-react';
 import type { AgendaEventDTO } from '../../types/agenda';
-import { formatRecurrence, formatEditionDates } from '../../utils/recurrence';
+import { formatRecurrence, formatEditionDates, formatMonthsProse } from '../../utils/recurrence';
 import { pickNextEdition } from '../../utils/calendar';
 import AddToCalendarButton from './AddToCalendarButton';
 
@@ -93,11 +93,16 @@ export default function EventModal({ event, onClose }: Props) {
                         </p>
                         <p className="flex items-center gap-2 text-sm text-charcoal dark:text-stone-200">
                             <TypeIcon size={14} className={`shrink-0 ${TYPE_COLORS[event.recurrence.type]}`} />
-                            {formatRecurrence(event.recurrence)}
+                            {formatRecurrence(event.recurrence, event.placement?.months)}
                         </p>
                         {approximate && (
                             <p className="text-xs text-charcoal-light dark:text-stone-500 pl-6">
                                 ≈ shown under an approximate Gregorian month
+                            </p>
+                        )}
+                        {event.otherMonths && event.otherMonths.length > 0 && (
+                            <p className="text-xs text-charcoal-light dark:text-stone-500 pl-6">
+                                Past editions have also fallen in {formatMonthsProse(event.otherMonths)}.
                             </p>
                         )}
                         {upcoming && (

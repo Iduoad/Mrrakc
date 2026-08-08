@@ -1,5 +1,5 @@
 import type { Recurrence } from '../utils/recurrence';
-import type { EditionLite } from '../utils/calendar';
+import type { EditionLite, Placement } from '../utils/calendar';
 
 export interface AgendaEventDTO {
     id: string;
@@ -14,6 +14,13 @@ export interface AgendaEventDTO {
      *  browser computes the "next" one from these against the visitor's real
      *  date, so the upcoming cue never goes stale between deploys. */
     futureEditions?: EditionLite[];
+    /** Grid placement, derived at build time from the latest held, dated edition
+     *  (gregorian only). `months[0]` is the start month; any later entry is that
+     *  same run continuing, not a second occurrence. */
+    placement?: Placement;
+    /** Months in `recurrence.months` the placement doesn't cover — past editions
+     *  that fell elsewhere. Rendered as prose, never on the grid. */
+    otherMonths?: number[];
     /** For hijri events: approximate Gregorian month (1-12) of the next
      *  occurrence, computed at build time from the build date. */
     approxMonth?: number;

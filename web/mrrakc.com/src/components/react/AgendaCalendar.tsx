@@ -1,4 +1,4 @@
-import { lazy, Suspense, useMemo, useState } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { SlidersHorizontal, HelpCircle, CalendarDays, Map as MapIcon, CalendarClock, Eye } from 'lucide-react';
 import type { AgendaEventDTO } from '../../types/agenda';
 import { MONTH_NAMES, SEASON_MONTHS, formatEditionDates, type RecurrenceType } from '../../utils/recurrence';
@@ -18,39 +18,69 @@ interface Props {
 interface Placement {
     monthIndex: number;
     approx: boolean;
+    /** This month is the tail of a run that started in an earlier one, not a
+     *  separate occurrence. */
+    continuation: boolean;
 }
 
-const PART_ORDER: Record<string, number> = {
-    'early': 0, 'first-half': 1, 'mid': 2, 'full': 3, 'second-half': 4, 'late': 5,
+/** Nominal day-of-month for events described only by a part of the month. */
+const PART_DAY: Record<string, number> = {
+    'early': 5, 'first-half': 8, 'mid': 15, 'full': 15, 'second-half': 22, 'late': 25,
 };
 
 function placementsFor(event: AgendaEventDTO): Placement[] | null {
     const rec = event.recurrence;
     switch (rec.type) {
-        case 'gregorian':
-            return (rec.months ?? []).map(m => ({ monthIndex: m - 1, approx: false }));
+        case 'gregorian': {
+            // Months of the latest real edition (see derivePlacement); the first is
+            // where the run starts, the rest are it continuing. Only an edition
+            // describes one continuous run — the recurrence fallback is a list of
+            // months the event might use, so none of those is a continuation.
+            const span = event.placement?.source === 'edition';
+            return (event.placement?.months ?? rec.months ?? [])
+                .map((m, i) => ({ monthIndex: m - 1, approx: false, continuation: span && i > 0 }));
+        }
         case 'hijri':
             // Approximate Gregorian month computed at build time (drifts ~11 days/year).
-            return event.approxMonth ? [{ monthIndex: event.approxMonth - 1, approx: true }] : null;
+            return event.approxMonth
+                ? [{ monthIndex: event.approxMonth - 1, approx: true, continuation: false }]
+                : null;
         case 'seasonal':
-            return (SEASON_MONTHS[rec.season ?? 'summer'] ?? []).map(m => ({ monthIndex: m - 1, approx: true }));
+            // Three months means "somewhere in this season" — not one long run.
+            return (SEASON_MONTHS[rec.season ?? 'summer'] ?? [])
+                .map(m => ({ monthIndex: m - 1, approx: true, continuation: false }));
         case 'irregular':
             return null;
     }
 }
 
-function EventEntry({ event, approx, next, onClick }: { event: AgendaEventDTO; approx: boolean; next: NextEdition; onClick: () => void }) {
+/** Sort key within a month: continuations first, then by the day the event starts. */
+function dayKey(event: AgendaEventDTO, continuation: boolean): number {
+    if (continuation) return 0;
+    return event.placement?.startDay ?? PART_DAY[event.recurrence.part ?? 'full'] ?? 15;
+}
+
+function EventEntry({ event, approx, continuation, next, onClick }: {
+    event: AgendaEventDTO;
+    approx: boolean;
+    continuation?: boolean;
+    next: NextEdition;
+    onClick: () => void;
+}) {
     const TypeIcon = TYPE_ICONS[event.recurrence.type];
     const inactive = event.status !== 'active';
     const upcoming = next ? (formatEditionDates(next.startDate, next.endDate) ?? String(next.year)) : undefined;
+    const from = continuation ? MONTH_NAMES[(event.placement?.months?.[0] ?? 1) - 1] : undefined;
     return (
         <button
             onClick={onClick}
-            className={`w-full flex items-start gap-2 text-left px-2 py-1.5 rounded-lg hover:bg-clay/10 dark:hover:bg-charcoal-light/10 transition-colors ${inactive ? 'opacity-60' : ''}`}
+            title={from ? `Continues from ${from}` : undefined}
+            className={`w-full flex items-start gap-2 text-left px-2 py-1.5 rounded-lg hover:bg-clay/10 dark:hover:bg-charcoal-light/10 transition-colors ${inactive ? 'opacity-60' : continuation ? 'opacity-70' : ''}`}
         >
             <TypeIcon size={14} className={`mt-0.5 shrink-0 ${TYPE_COLORS[event.recurrence.type]}`} />
             <span className="min-w-0 flex-grow">
                 <span className={`block text-sm font-medium text-charcoal dark:text-stone-200 truncate ${inactive ? 'line-through decoration-charcoal-light/60' : ''}`}>
+                    {continuation && <span className="text-charcoal-light dark:text-stone-500">→ </span>}
                     {event.name}
                 </span>
                 <span className="block text-xs text-charcoal-light dark:text-stone-500 truncate">
@@ -82,6 +112,17 @@ export default function AgendaCalendar({ events }: Props) {
     const [upcomingOnly, setUpcomingOnly] = useState(false);
     const [filtersOpen, setFiltersOpen] = useState(false);
     const [activeEvent, setActiveEvent] = useState<AgendaEventDTO | null>(null);
+
+    // Returning from an event's detail page restores this island from the
+    // back/forward cache with its state intact — close the modal so Back lands
+    // on the list, not the modal it was opened from.
+    useEffect(() => {
+        const onPageShow = (e: PageTransitionEvent) => {
+            if (e.persisted) setActiveEvent(null);
+        };
+        window.addEventListener('pageshow', onPageShow);
+        return () => window.removeEventListener('pageshow', onPageShow);
+    }, []);
 
     // "Next" edition is computed in the browser against the real current date,
     // so the upcoming cue stays correct between deploys (see AgendaEventDTO).
@@ -127,28 +168,30 @@ export default function AgendaCalendar({ events }: Props) {
         (selectedTypes.length === 0 || selectedTypes.includes(e.recurrence.type))
     ), [events, showInactive, upcomingOnly, nextByEvent, selectedKinds, selectedProvinces, selectedTypes]);
 
-    const { buckets, noFixedDates } = useMemo(() => {
-        const buckets: { event: AgendaEventDTO; approx: boolean }[][] = Array.from({ length: 12 }, () => []);
+    const { buckets, noFixedDates, hasContinuation } = useMemo(() => {
+        const buckets: { event: AgendaEventDTO; approx: boolean; continuation: boolean }[][] =
+            Array.from({ length: 12 }, () => []);
         const noFixedDates: AgendaEventDTO[] = [];
+        let hasContinuation = false;
         for (const event of filteredEvents) {
             const placements = placementsFor(event);
             if (!placements) {
                 noFixedDates.push(event);
                 continue;
             }
-            for (const { monthIndex, approx } of placements) {
-                buckets[monthIndex].push({ event, approx });
+            for (const { monthIndex, approx, continuation } of placements) {
+                buckets[monthIndex].push({ event, approx, continuation });
+                hasContinuation ||= continuation;
             }
         }
         for (const bucket of buckets) {
-            bucket.sort((a, b) => {
-                const pa = PART_ORDER[a.event.recurrence.part ?? 'full'] ?? 3;
-                const pb = PART_ORDER[b.event.recurrence.part ?? 'full'] ?? 3;
-                return pa - pb || a.event.name.localeCompare(b.event.name);
-            });
+            bucket.sort((a, b) =>
+                dayKey(a.event, a.continuation) - dayKey(b.event, b.continuation)
+                || a.event.name.localeCompare(b.event.name)
+            );
         }
         noFixedDates.sort((a, b) => a.name.localeCompare(b.name));
-        return { buckets, noFixedDates };
+        return { buckets, noFixedDates, hasContinuation };
     }, [filteredEvents]);
 
     return (
@@ -219,6 +262,11 @@ export default function AgendaCalendar({ events }: Props) {
                 <span className="inline-flex items-center gap-1">
                     <span className="font-bold">≈</span> approximate month
                 </span>
+                {hasContinuation && (
+                    <span className="inline-flex items-center gap-1">
+                        <span className="font-bold">→</span> continues from previous month
+                    </span>
+                )}
                 {upcomingCount > 0 && (
                     <span className="inline-flex items-center gap-1">
                         <CalendarClock size={12} className="text-emerald-600 dark:text-emerald-400" /> upcoming edition
@@ -260,11 +308,12 @@ export default function AgendaCalendar({ events }: Props) {
                         </div>
                         {buckets[i].length > 0 ? (
                             <div className="space-y-0.5 -mx-2">
-                                {buckets[i].map(({ event, approx }) => (
+                                {buckets[i].map(({ event, approx, continuation }) => (
                                     <EventEntry
                                         key={event.id}
                                         event={event}
                                         approx={approx}
+                                        continuation={continuation}
                                         next={nextByEvent.get(event.id) ?? null}
                                         onClick={() => setActiveEvent(event)}
                                     />

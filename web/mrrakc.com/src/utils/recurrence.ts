@@ -56,14 +56,44 @@ const FREQUENCY_LABELS: Record<string, string> = {
     'irregular': 'Irregular',
 };
 
-export function formatRecurrence(rec: Recurrence): string {
+/**
+ * Month numbers as prose. Contiguous stretches render as a range, gaps as a list,
+ * so a drifting event reads "July–August, October" rather than the range
+ * "July–October" it has never actually occupied.
+ */
+export function formatMonths(months: number[]): string {
+    const sorted = [...new Set(months)].sort((a, b) => a - b);
+    const runs: number[][] = [];
+    for (const m of sorted) {
+        const last = runs[runs.length - 1];
+        if (last && m === last[last.length - 1] + 1) last.push(m);
+        else runs.push([m]);
+    }
+    return runs
+        .map(run => run.length > 1
+            ? `${MONTH_NAMES[run[0] - 1]}–${MONTH_NAMES[run[run.length - 1] - 1]}`
+            : MONTH_NAMES[run[0] - 1])
+        .join(', ');
+}
+
+/** `formatMonths` for running text: "July, October" → "July and October". */
+export function formatMonthsProse(months: number[]): string {
+    const s = formatMonths(months);
+    const i = s.lastIndexOf(', ');
+    return i === -1 ? s : `${s.slice(0, i)} and ${s.slice(i + 2)}`;
+}
+
+/**
+ * `monthsOverride` lets callers render the months an event actually uses now
+ * (see `derivePlacement`) instead of the historical union in `rec.months`.
+ */
+export function formatRecurrence(rec: Recurrence, monthsOverride?: number[]): string {
     const freq = FREQUENCY_LABELS[rec.frequency] ?? rec.frequency;
     let anchor = '';
 
     switch (rec.type) {
         case 'gregorian': {
-            const names = (rec.months ?? []).map(m => MONTH_NAMES[m - 1]);
-            const range = names.length > 1 ? `${names[0]}–${names[names.length - 1]}` : (names[0] ?? '');
+            const range = formatMonths(monthsOverride ?? rec.months ?? []);
             const part = rec.part ? PART_LABELS[rec.part] : '';
             anchor = part ? `${part} ${range}` : range;
             break;

@@ -117,6 +117,108 @@ export function stillOpenEditions(
     return out;
 }
 
+/** An edition as it appears in the dataset, for build-time placement work. */
+interface EditionRaw {
+    year: number;
+    edition?: number;
+    startDate?: string;
+    endDate?: string;
+    status?: string;
+}
+
+/** Editions that actually happened (or are still scheduled) and carry a usable date. */
+function datedHeldEditions(editions: EditionRaw[] | undefined): EditionRaw[] {
+    if (!editions) return [];
+    return editions.filter(e => {
+        if (e.status && e.status !== 'held') return false; // cancelled / postponed
+        const p = parseEditionDate(e.startDate);
+        return Boolean(p && p.m); // needs >= YYYY-MM
+    });
+}
+
+/**
+ * Every calendar month a single edition's run touches, in chronological order —
+ * so `[0]` is always the start month. A run crossing December wraps into the
+ * next year correctly. Returns `[]` when the start is not at least `YYYY-MM`.
+ */
+export function editionSpanMonths(startDate?: string, endDate?: string): number[] {
+    const start = parseEditionDate(startDate);
+    if (!start || !start.m) return [];
+    const end = parseEditionDate(endDate);
+    const endY = end && end.m ? end.y : start.y;
+    const endM = end && end.m ? end.m : start.m;
+
+    const months: number[] = [];
+    let y = start.y;
+    let m = start.m;
+    // Guard against reversed or malformed ranges: a run never spans a full year.
+    while ((y < endY || (y === endY && m <= endM)) && months.length < 12) {
+        months.push(m);
+        m += 1;
+        if (m > 12) {
+            m = 1;
+            y += 1;
+        }
+    }
+    return months.length ? months : [start.m];
+}
+
+/** Where an event sits on the month grid, and what that placement was derived from. */
+export interface Placement {
+    /** Months the event occupies; `[0]` is the start, the rest are continuations. */
+    months: number[];
+    /** Day-of-month the anchoring edition starts on, when known — used to order
+     *  entries within a month. */
+    startDay?: number;
+    source: 'edition' | 'recurrence';
+}
+
+/**
+ * Pick the months an event should occupy on the calendar grid.
+ *
+ * `recurrence.months` is the union of every month the event has *ever* used, so a
+ * festival that drifted over the years shows up in all of them at once. The
+ * chronologically latest held edition — which may well be an upcoming one — is a
+ * far better answer: it collapses drift to the month the event actually uses now,
+ * while still spanning two months when a single run genuinely crosses a boundary.
+ *
+ * Falls back to `recurrence.months` for events with no dated editions.
+ */
+export function derivePlacement(
+    months: number[] | undefined,
+    editions: EditionRaw[] | undefined,
+): Placement {
+    const dated = datedHeldEditions(editions);
+    if (dated.length === 0) {
+        return { months: months ?? [], source: 'recurrence' };
+    }
+    const latest = dated.reduce((a, b) => (a.startDate! > b.startDate! ? a : b));
+    const span = editionSpanMonths(latest.startDate, latest.endDate);
+    if (span.length === 0) {
+        return { months: months ?? [], source: 'recurrence' };
+    }
+    const day = parseEditionDate(latest.startDate)?.d;
+    return { months: span, startDay: day || undefined, source: 'edition' };
+}
+
+/**
+ * A placement plus the months the event used in the past but no longer does, for
+ * the "past editions have also fallen in…" note.
+ *
+ * Gregorian only: hijri events drift ~11 days a year, so a past edition's
+ * Gregorian month actively misleads (they keep their computed `approxMonth`),
+ * and seasonal / irregular events have no edition-driven month to begin with.
+ */
+export function gregorianPlacement(
+    recurrence: { type: string; months?: number[] },
+    editions: EditionRaw[] | undefined,
+): { placement?: Placement; otherMonths?: number[] } {
+    if (recurrence.type !== 'gregorian') return {};
+    const placement = derivePlacement(recurrence.months, editions);
+    const other = (recurrence.months ?? []).filter(m => !placement.months.includes(m));
+    return { placement, otherMonths: other.length > 0 ? other : undefined };
+}
+
 function pad(n: number): string {
     return String(n).padStart(2, '0');
 }
