@@ -23,23 +23,17 @@ interface Placement {
     continuation: boolean;
 }
 
-/** Nominal day-of-month for events described only by a part of the month. */
-const PART_DAY: Record<string, number> = {
-    'early': 5, 'first-half': 8, 'mid': 15, 'full': 15, 'second-half': 22, 'late': 25,
+const PART_ORDER: Record<string, number> = {
+    'early': 0, 'first-half': 1, 'mid': 2, 'full': 3, 'second-half': 4, 'late': 5,
 };
 
 function placementsFor(event: AgendaEventDTO): Placement[] | null {
     const rec = event.recurrence;
     switch (rec.type) {
-        case 'gregorian': {
-            // Months of the latest real edition (see derivePlacement); the first is
-            // where the run starts, the rest are it continuing. Only an edition
-            // describes one continuous run — the recurrence fallback is a list of
-            // months the event might use, so none of those is a continuation.
-            const span = event.placement?.source === 'edition';
-            return (event.placement?.months ?? rec.months ?? [])
-                .map((m, i) => ({ monthIndex: m - 1, approx: false, continuation: span && i > 0 }));
-        }
+        case 'gregorian':
+            // Several months means one run spanning them: the first is where the
+            // event starts, the rest are it continuing.
+            return (rec.months ?? []).map((m, i) => ({ monthIndex: m - 1, approx: false, continuation: i > 0 }));
         case 'hijri':
             // Approximate Gregorian month computed at build time (drifts ~11 days/year).
             return event.approxMonth
@@ -54,12 +48,6 @@ function placementsFor(event: AgendaEventDTO): Placement[] | null {
     }
 }
 
-/** Sort key within a month: continuations first, then by the day the event starts. */
-function dayKey(event: AgendaEventDTO, continuation: boolean): number {
-    if (continuation) return 0;
-    return event.placement?.startDay ?? PART_DAY[event.recurrence.part ?? 'full'] ?? 15;
-}
-
 function EventEntry({ event, approx, continuation, next, onClick }: {
     event: AgendaEventDTO;
     approx: boolean;
@@ -70,7 +58,7 @@ function EventEntry({ event, approx, continuation, next, onClick }: {
     const TypeIcon = TYPE_ICONS[event.recurrence.type];
     const inactive = event.status !== 'active';
     const upcoming = next ? (formatEditionDates(next.startDate, next.endDate) ?? String(next.year)) : undefined;
-    const from = continuation ? MONTH_NAMES[(event.placement?.months?.[0] ?? 1) - 1] : undefined;
+    const from = continuation ? MONTH_NAMES[(event.recurrence.months?.[0] ?? 1) - 1] : undefined;
     return (
         <button
             onClick={onClick}
@@ -185,10 +173,12 @@ export default function AgendaCalendar({ events }: Props) {
             }
         }
         for (const bucket of buckets) {
-            bucket.sort((a, b) =>
-                dayKey(a.event, a.continuation) - dayKey(b.event, b.continuation)
-                || a.event.name.localeCompare(b.event.name)
-            );
+            // A continuation was already under way when the month began, so it
+            // sorts ahead of everything starting in it.
+            const rank = (x: typeof bucket[number]) => x.continuation
+                ? -1
+                : PART_ORDER[x.event.recurrence.part ?? 'full'] ?? 3;
+            bucket.sort((a, b) => rank(a) - rank(b) || a.event.name.localeCompare(b.event.name));
         }
         noFixedDates.sort((a, b) => a.name.localeCompare(b.name));
         return { buckets, noFixedDates, hasContinuation };

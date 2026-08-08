@@ -6,7 +6,7 @@ import path from 'node:path';
 import AgendaCalendar from '../../components/react/AgendaCalendar';
 import { admissionSummary } from '../../utils/recurrence';
 import { hijriToGregorianMonth } from '../../utils/hijri';
-import { stillOpenEditions, gregorianPlacement } from '../../utils/calendar';
+import { stillOpenEditions } from '../../utils/calendar';
 import type { AgendaEventDTO } from '../../types/agenda';
 
 // Trim editions to the still-open ones at build time; the browser picks the
@@ -68,20 +68,6 @@ const resolveCoords = (host: { provinces: string[]; places?: string[] }) => {
   return centroid ? { ...centroid, locationSource: 'province' as const } : {};
 };
 
-// Grid placement comes from the event's latest real edition rather than
-// recurrence.months (the union of every month it has ever used) — see
-// derivePlacement. Where the two disagree the months field has gone stale, which
-// is a data bug worth surfacing at build time.
-const staleMonths: string[] = [];
-const placementFor = (spec: { id: string; recurrence: { type: string; months?: number[] }; editions?: any[] }) => {
-  const { placement, otherMonths } = gregorianPlacement(spec.recurrence, spec.editions);
-  const declared = spec.recurrence.months ?? [];
-  if (placement?.source === 'edition' && placement.months.some(m => !declared.includes(m))) {
-    staleMonths.push(`  ${spec.id}: months [${declared}] → latest edition [${placement.months}]`);
-  }
-  return { placement, otherMonths };
-};
-
 const dtos: AgendaEventDTO[] = events.map(({ data }) => ({
   id: data.spec.id,
   name: data.spec.name,
@@ -94,7 +80,6 @@ const dtos: AgendaEventDTO[] = events.map(({ data }) => ({
   })),
   recurrence: data.spec.recurrence,
   futureEditions: stillOpenEditions(data.spec.editions, buildNow),
-  ...placementFor(data.spec),
   approxMonth: data.spec.recurrence.type === 'hijri'
     ? hijriToGregorianMonth(data.spec.recurrence.hijriMonth ?? 1, data.spec.recurrence.hijriDay ?? 15).month
     : undefined,
@@ -104,13 +89,6 @@ const dtos: AgendaEventDTO[] = events.map(({ data }) => ({
     : data.spec.description,
   ...resolveCoords(data.spec.host),
 }));
-
-if (staleMonths.length > 0) {
-  console.warn(
-    `[agenda] ${staleMonths.length} event(s) whose recurrence.months no longer match their latest edition:\n`
-    + staleMonths.join('\n')
-  );
-}
 ---
 
 <BaseLayout title="Agenda" description="A year-round calendar of Morocco's recurring cultural events — festivals, moussems, and celebrations across the country.">

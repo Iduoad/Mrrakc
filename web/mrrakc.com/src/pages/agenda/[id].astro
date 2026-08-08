@@ -5,8 +5,8 @@ import MiniMap from '../../components/MiniMap.astro';
 import { ExternalLink, CalendarDays, Moon, Leaf, HelpCircle, MapPin, Repeat, Clock, Ticket } from 'lucide-react';
 import MarkdownRenderer from '../../components/react/MarkdownRenderer';
 import AddToCalendarButton from '../../components/react/AddToCalendarButton';
-import { formatRecurrence, formatEditionDates, formatMonthsProse } from '../../utils/recurrence';
-import { stillOpenEditions, pickNextEdition, gregorianPlacement } from '../../utils/calendar';
+import { formatRecurrence, formatEditionDates } from '../../utils/recurrence';
+import { stillOpenEditions, pickNextEdition } from '../../utils/calendar';
 
 export async function getStaticPaths() {
   const [events, provinces] = await Promise.all([
@@ -43,10 +43,6 @@ const statusStyles = {
 };
 
 const sortedEditions = spec.editions ? [...spec.editions].sort((a, b) => b.year - a.year) : [];
-
-// The months the event actually uses now, from its latest edition — recurrence.months
-// is the union of every month it has ever used (see derivePlacement).
-const { placement, otherMonths } = gregorianPlacement(spec.recurrence, spec.editions);
 
 // Soonest still-open edition (build-time seed). An inline script re-checks this
 // against the visitor's date so the "Upcoming" badge and the add-to-calendar
@@ -112,7 +108,7 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
       </h1>
       <p class="flex items-center gap-2 text-lg text-charcoal-light dark:text-stone-400">
         <TypeIcon size={20} className={typeColors[spec.recurrence.type]} />
-        <span>{formatRecurrence(spec.recurrence, placement?.months)}</span>
+        <span>{formatRecurrence(spec.recurrence)}</span>
       </p>
     </header>
 
@@ -250,13 +246,8 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
               <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">When</span>
               <div class="flex items-start gap-2 text-charcoal dark:text-stone-200">
                 <TypeIcon size={16} className={`mt-0.5 shrink-0 ${typeColors[spec.recurrence.type]}`} />
-                <span class="text-sm font-bold">{formatRecurrence(spec.recurrence, placement?.months)}</span>
+                <span class="text-sm font-bold">{formatRecurrence(spec.recurrence)}</span>
               </div>
-              {otherMonths && otherMonths.length > 0 && (
-                <p class="text-xs text-charcoal-light dark:text-stone-400 mt-1">
-                  Past editions have also fallen in {formatMonthsProse(otherMonths)}.
-                </p>
-              )}
               {spec.recurrence.type === 'hijri' && (
                 <p class="text-xs text-charcoal-light dark:text-stone-400 mt-1">Follows the Islamic calendar — Gregorian dates shift ~11 days earlier each year.</p>
               )}
