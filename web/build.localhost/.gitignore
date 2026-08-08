@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+
+node_modules
+dist
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Caches and Temp
+.temp/
+.tmp/
+*.tsbuildinfo
+
+# Env variants
+.env
+.env.*
+!.env.example
+
+# Copied from scripts/mappings at predev
+public/provinces.geojson

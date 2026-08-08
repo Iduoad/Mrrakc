@@ -9,3 +9,9 @@ sources/**/*.pdf
 sources/**/*.png
 sources/**/*.jpg
 sources/**/*.jpeg
+
+# Drafts of events that are not in data/events/ yet, written by the New Event
+# tool in web/build.localhost. Unlike sources/events/_<id>-editions.json (the
+# committed citation for an existing event), these are a personal to-research
+# queue and are ignored wholesale.
+sources/new-events/
