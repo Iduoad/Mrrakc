@@ -21,10 +21,13 @@
     },
     "recurrence": {
       "frequency": "annual",
-      "type": "hijri",
-      "hijriMonth": 3,
-      "observance": "mawlid",
-      "note": "Traditionally tied to the weeks around Mawlid; exact Gregorian dates drift each year and are announced close to the event"
+      "type": "gregorian",
+      "note": "Held in Summer",
+      "months": [
+        8
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 8
     },
     "admission": {
       "options": [

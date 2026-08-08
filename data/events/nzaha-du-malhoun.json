@@ -26,7 +26,8 @@
         6
       ],
       "typicalDurationDays": 4,
-      "note": "Mid-June"
+      "note": "Mid-June",
+      "part": "first-half"
     },
     "editions": [
       {
@@ -129,15 +130,11 @@
         "endDate": "2022-06-05",
         "links": [
           {
-            "url": "https://maprabat.ma/ar/article/%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9/%D8%B3%D9%84%D8%A7-%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%85%D9%86%D8%A9-%D9%84%D9%80%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86",
+            "url": "https://medialive.ma/%D8%B3%D9%84%D8%A7-%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%85%D9%86%D8%A9-%D9%84%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7/",
             "title": "2022 coverage",
             "type": "article"
           }
         ]
-      },
-      {
-        "year": 2023,
-        "edition": 10
       },
       {
         "edition": 9,
@@ -153,20 +150,27 @@
         ]
       },
       {
-        "year": 2024,
-        "edition": 11,
-        "startDate": "2024-06-12",
-        "endDate": "2024-06-15"
-      },
-      {
         "edition": 10,
         "year": 2024,
         "startDate": "2024-06-06",
         "endDate": "2024-06-09",
         "links": [
           {
-            "url": "https://villedesale.ma/fr/la-10eme-edition-des-journees-nationales-de-nzaha-du-malhoun-a-sale/",
-            "title": "2024 coverage",
+            "url": "https://www.villedesale.ma/2024/06/06/%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D8%B4%D8%B1%D8%A9-%D8%A7%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84/",
+            "title": "2024 programme",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2025,
+        "startDate": "2025-06-12",
+        "endDate": "2025-06-15",
+        "links": [
+          {
+            "url": "https://maroc.ma/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%B3%D9%84%D8%A7-%D8%AA%D8%AD%D8%AA%D8%B6%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9-%D8%B9%D8%B4%D8%B1-%D9%84%D9%84%D8%A3%D9%8A%D8%A7%D9%85-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%86%D8%B2%D9%87%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D8%AD%D9%88%D9%86-%D9%85%D9%86-12-%D8%A5%D9%84%D9%89-15-%D9%8A%D9%88%D9%86%D9%8A%D9%88-%D8%A7%D9%84%D8%AC%D8%A7%D8%B1%D9%8A",
+            "title": "2025 announcement",
             "type": "article"
           }
         ]

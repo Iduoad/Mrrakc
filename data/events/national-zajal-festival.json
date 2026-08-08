@@ -25,7 +25,9 @@
       "months": [
         12
       ],
-      "typicalDurationDays": 3
+      "typicalDurationDays": 4,
+      "part": "second-half",
+      "note": "Used to be held in Spring. Moved to the end of the year."
     },
     "admission": {
       "options": [

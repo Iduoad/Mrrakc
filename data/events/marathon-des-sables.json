@@ -16,7 +16,9 @@
       "type": "gregorian",
       "months": [
         4
-      ]
+      ],
+      "typicalDurationDays": 11,
+      "part": "first-half"
     },
     "links": [
       {

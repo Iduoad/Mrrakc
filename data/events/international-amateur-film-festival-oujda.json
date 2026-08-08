@@ -25,7 +25,9 @@
       "months": [
         11
       ],
-      "note": "No confirmed edition found after 2022; current activity status is uncertain."
+      "note": "No confirmed edition found after 2022; current activity status is uncertain.",
+      "part": "late",
+      "typicalDurationDays": 6
     },
     "editions": [
       {

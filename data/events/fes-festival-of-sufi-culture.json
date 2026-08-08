@@ -21,8 +21,13 @@
     },
     "recurrence": {
       "frequency": "annual",
-      "type": "irregular",
-      "note": "Held annually but the month has varied between spring and autumn in recent editions"
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "second-half",
+      "note": "Used to be held in April",
+      "typicalDurationDays": 8
     },
     "admission": {
       "options": [

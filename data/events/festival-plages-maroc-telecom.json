@@ -22,9 +22,12 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        7
+        7,
+        8
       ],
-      "note": "Summer months, exact location varies by year"
+      "note": "Summer months, exact location varies by year",
+      "part": "full",
+      "typicalDurationDays": 35
     },
     "links": [
       {

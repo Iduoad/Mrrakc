@@ -25,7 +25,9 @@
       "months": [
         11
       ],
-      "note": "Host city has rotated over the editions; recent editions held in Tetouan"
+      "note": "Host city has rotated over the editions; recent editions held in Tetouan",
+      "typicalDurationDays": 8,
+      "part": "second-half"
     },
     "editions": [
       {

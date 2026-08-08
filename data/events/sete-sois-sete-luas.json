@@ -23,9 +23,11 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        6
+        6,
+        7
       ],
-      "note": "October"
+      "note": "Spans multiple months in Summer accross multiple cities in Morocco",
+      "typicalDurationDays": 12
     },
     "editions": [
       {
@@ -85,8 +87,15 @@
       {
         "edition": 27,
         "year": 2019,
-        "startDate": "2019-07-01",
-        "endDate": "2019-07-31"
+        "startDate": "2019-04-15",
+        "endDate": "2019-07-09",
+        "links": [
+          {
+            "url": "https://festival7sois.eu/category/festival-2019",
+            "title": "2019 program",
+            "type": "program"
+          }
+        ]
       },
       {
         "year": 2020,
@@ -99,20 +108,41 @@
       {
         "edition": 30,
         "year": 2022,
-        "startDate": "2022-06-30",
-        "endDate": "2022-07-04"
+        "startDate": "2022-06-28",
+        "endDate": "2022-07-05",
+        "links": [
+          {
+            "url": "https://festival7sois.eu/category/festival-2022",
+            "title": "2022 program",
+            "type": "program"
+          }
+        ]
       },
       {
         "edition": 31,
         "year": 2023,
-        "startDate": "2023-07-03",
-        "endDate": "2023-07-09"
+        "startDate": "2023-06-24",
+        "endDate": "2023-07-07",
+        "links": [
+          {
+            "url": "https://festival7sois.eu/category/festival-2023",
+            "title": "2023 program",
+            "type": "program"
+          }
+        ]
       },
       {
         "edition": 32,
         "year": 2024,
         "startDate": "2024-06-27",
-        "endDate": "2024-06-28"
+        "endDate": "2024-07-08",
+        "links": [
+          {
+            "url": "https://festival7sois.eu/category/festival-2024",
+            "title": "2024 program",
+            "type": "program"
+          }
+        ]
       }
     ],
     "links": [

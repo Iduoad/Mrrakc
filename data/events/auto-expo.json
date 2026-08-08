@@ -2,7 +2,7 @@
   "version": "mrrakc/v0",
   "kind": "fair/expo",
   "spec": {
-    "name": "Auto Expo",
+    "name": "Auto Expo of Hybrid and Electrical Vehicles",
     "id": "auto-expo",
     "description": "Auto Expo is a major biennial automotive fair in Morocco, showcasing cars and more recently hybrid and electric vehicles, organized by the Association of Vehicle Importers in Morocco (AIVAM).",
     "status": "active",
@@ -15,8 +15,11 @@
       "frequency": "biennial",
       "type": "gregorian",
       "months": [
-        5
-      ]
+        9
+      ],
+      "typicalDurationDays": 11,
+      "part": "late",
+      "note": "Old version was held in Spring. The new version of even moved to September."
     },
     "editions": [
       {
@@ -62,7 +65,7 @@
         "links": [
           {
             "url": "https://fr.le360.ma/economie/auto-expo-2016-top-depart-71701/",
-            "title": "Auto Expo 2016 : Top d\u00e9part",
+            "title": "Auto Expo 2016 : Top départ",
             "type": "article"
           }
         ]
@@ -74,8 +77,13 @@
         "links": [
           {
             "url": "https://industries.ma/auto-expo-2018-les-nouveautes-et-les-attentes/",
-            "title": "Auto Expo 2018: Les nouveaut\u00e9s et les attentes",
+            "title": "Auto Expo 2018: Les nouveautes et les attentes",
             "type": "article"
+          },
+          {
+            "url": "https://www.aivam.ma/fr/auto-expo-2018",
+            "title": "Auto Expo 2018 official page",
+            "type": "website"
           }
         ]
       },
@@ -85,19 +93,33 @@
         "notes": "Cancelled due to the COVID-19 pandemic"
       },
       {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
         "year": 2022,
         "status": "cancelled",
         "notes": "Cancelled due to consecutive postponements and market conditions following the pandemic"
       },
       {
+        "year": 2023,
+        "status": "cancelled"
+      },
+      {
+        "year": 2024,
+        "status": "cancelled"
+      },
+      {
+        "edition": 1,
         "year": 2025,
         "startDate": "2025-09-18",
         "endDate": "2025-09-28",
-        "notes": "Edition specifically dedicated to hybrid and electric vehicles",
+        "notes": "Converted to hybrid and electric vehicles auto expo (1st edition)",
         "links": [
           {
-            "url": "https://leguideauto.ma/aivam-auto-expo-2025-vehicules-hybrides-et-electriques",
-            "title": "AIVAM : AUTO EXPO 2025 V\u00e9hicules Hybrides et Electriques",
+            "url": "https://www.leguideauto.ma/special-auto-expo/l-actualite-auto-expo/auto-expo-2025-le-salon-dedie-au-vehicule-hybride-et-electrique/pWjDUr8dga",
+            "title": "AIVAM : AUTO EXPO 2025 Véhicules Hybrides et Electriques",
             "type": "article"
           }
         ]

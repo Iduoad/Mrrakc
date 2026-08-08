@@ -25,7 +25,9 @@
       "months": [
         5
       ],
-      "typicalDurationDays": 3
+      "typicalDurationDays": 3,
+      "part": "first-half",
+      "note": "Used to be held July or September. Moved to may in last edition."
     },
     "admission": {
       "options": [

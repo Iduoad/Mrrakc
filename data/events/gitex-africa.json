@@ -17,7 +17,8 @@
       "months": [
         4
       ],
-      "typicalDurationDays": 3
+      "typicalDurationDays": 3,
+      "part": "first-half"
     },
     "links": [
       {

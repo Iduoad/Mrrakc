@@ -23,7 +23,10 @@
       "type": "gregorian",
       "months": [
         11
-      ]
+      ],
+      "part": "late",
+      "typicalDurationDays": 4,
+      "note": "Held in Autumn"
     },
     "admission": {
       "options": [

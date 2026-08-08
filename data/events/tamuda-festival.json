@@ -26,7 +26,9 @@
       "months": [
         8
       ],
-      "note": "Only one edition (2026) has been confirmed via ticketing platforms; whether this is a long-running annual event or a newly launched concert series could not be verified from fetched sources - flagged for follow-up."
+      "note": "Only one edition (2026) has been confirmed via ticketing platforms; whether this is a long-running annual event or a newly launched concert series could not be verified from fetched sources - flagged for follow-up.",
+      "part": "mid",
+      "typicalDurationDays": 10
     },
     "editions": [
       {

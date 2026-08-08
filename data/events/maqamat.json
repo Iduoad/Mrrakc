@@ -22,7 +22,8 @@
     "recurrence": {
       "frequency": "annual",
       "type": "irregular",
-      "note": "Specific dates announced annually"
+      "note": "Specific dates announced annually",
+      "typicalDurationDays": 7
     },
     "editions": [
       {

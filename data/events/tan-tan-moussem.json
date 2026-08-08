@@ -25,7 +25,9 @@
       "months": [
         10
       ],
-      "note": "Originally tied to the seasonal gathering of nomadic tribes; modern editions are usually held in May or June"
+      "note": "Originally tied to the seasonal gathering of nomadic tribes; Last edition was held in October instead of early Summer (May, June, July)",
+      "part": "late",
+      "typicalDurationDays": 4
     },
     "admission": {
       "options": [

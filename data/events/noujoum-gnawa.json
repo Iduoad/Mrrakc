@@ -24,7 +24,9 @@
       "months": [
         7
       ],
-      "note": "Late August to late September"
+      "note": "Late July to late September",
+      "part": "early",
+      "typicalDurationDays": 3
     },
     "admission": {
       "options": [
@@ -85,13 +87,31 @@
         "status": "cancelled"
       },
       {
+        "year": 2022,
+        "edition": 10,
+        "startDate": "2022-08-18",
+        "endDate": "2022-08-21",
+        "links": [
+          {
+            "url": "https://web.facebook.com/photo/?fbid=5035952693118380",
+            "title": "2022 announcement",
+            "type": "social"
+          }
+        ]
+      },
+      {
         "edition": 11,
         "year": 2023,
         "startDate": "2023-08-16",
         "endDate": "2023-08-20",
         "links": [
           {
-            "url": "https://fr.le360.ma/culture/casablanca-onzieme-edition-du-festival-noujoum-gnaoua-du-16-au-20-aout",
+            "url": "https://web.facebook.com/photo.php?fbid=787049090092086",
+            "title": "2023 Program",
+            "type": "program"
+          },
+          {
+            "url": "https://fr.le360.ma/culture/festival-les-stars-de-la-musique-gnaoua-a-casablanca_BYPNPISW2FEG5KUQIT2LY5OVFQ/",
             "title": "2023 coverage",
             "type": "article"
           }
@@ -104,6 +124,11 @@
         "endDate": "2024-09-28",
         "links": [
           {
+            "url": "https://web.facebook.com/photo.php?fbid=1104335128363479",
+            "title": "2024 Program",
+            "type": "program"
+          },
+          {
             "url": "https://lematin.ma/culture/douzieme-edition-du-festival-international-noujoum-gnaoua/232490",
             "title": "2024 coverage",
             "type": "article"
@@ -114,7 +139,14 @@
         "year": 2025,
         "edition": 13,
         "startDate": "2025-08-21",
-        "endDate": "2025-08-23"
+        "endDate": "2025-08-23",
+        "links": [
+          {
+            "url": "https://web.facebook.com/photo.php?fbid=1383474787116177",
+            "title": "2025 Program",
+            "type": "program"
+          }
+        ]
       },
       {
         "edition": 14,

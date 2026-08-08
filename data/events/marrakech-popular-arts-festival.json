@@ -24,7 +24,9 @@
       "months": [
         7
       ],
-      "note": "Recent editions have shifted between late June and July"
+      "note": "Recent editions have shifted between late June and July",
+      "part": "early",
+      "typicalDurationDays": 5
     },
     "admission": {
       "options": [

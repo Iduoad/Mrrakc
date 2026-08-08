@@ -25,7 +25,8 @@
       "months": [
         10
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 4,
+      "part": "first-half"
     },
     "admission": {
       "options": [

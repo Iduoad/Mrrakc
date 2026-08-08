@@ -15,10 +15,12 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        9
+        9,
+        10
       ],
       "part": "early",
-      "typicalDurationDays": 5
+      "typicalDurationDays": 5,
+      "note": "Held in late September, early October."
     },
     "editions": [
       {

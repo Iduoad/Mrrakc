@@ -25,7 +25,9 @@
       "months": [
         8
       ],
-      "note": "Held in late summer; exact dates are set locally each year"
+      "note": "Held in late summer; exact dates are set locally each year",
+      "typicalDurationDays": 8,
+      "part": "first-half"
     },
     "admission": {
       "options": [
@@ -152,6 +154,30 @@
           {
             "url": "https://media15.ma/57820",
             "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-08-06",
+        "endDate": "2025-08-16",
+        "links": [
+          {
+            "url": "https://web.facebook.com/photo?fbid=1169326641905573",
+            "title": "2025 program",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-08-06",
+        "endDate": "2026-08-13",
+        "links": [
+          {
+            "url": "https://web.facebook.com/zrahnadumonde/posts/-%D8%A5%D8%B9%D9%84%D8%A7%D9%86-%D8%A5%D9%84%D9%89-%D9%83%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D9%85%D9%87%D8%AA%D9%85%D9%8A%D9%86-%D9%85%D9%88%D8%B3%D9%85-%D9%85%D9%88%D9%84%D8%A7%D9%8A-%D8%A5%D8%AF%D8%B1%D9%8A%D8%B3-%D8%B2%D8%B1%D9%87%D9%88%D9%86-2026-%D9%85%D9%88%D8%B3%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D8%AE%D9%85/1405819111567129/?_rdc=1&_rdr",
+            "title": "2026 announcement",
             "type": "article"
           }
         ]

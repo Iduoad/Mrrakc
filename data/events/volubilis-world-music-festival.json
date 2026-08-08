@@ -26,9 +26,11 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
+        5,
         7
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 4,
+      "note": "Usually it is held in July. Moved to May in the latest edition."
     },
     "admission": {
       "options": [

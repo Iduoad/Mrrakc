@@ -17,7 +17,9 @@
       "months": [
         8
       ],
-      "part": "late"
+      "part": "late",
+      "note": "Usually held in late August, early September.",
+      "typicalDurationDays": 4
     },
     "admission": {
       "options": [

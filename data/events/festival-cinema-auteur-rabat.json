@@ -20,8 +20,13 @@
     },
     "recurrence": {
       "frequency": "annual",
-      "type": "irregular",
-      "note": "Dates and schedule vary by year"
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "first-half",
+      "note": "Held in Automn and sometimes in early Winter",
+      "typicalDurationDays": 11
     },
     "editions": [
       {

@@ -25,7 +25,9 @@
       "type": "gregorian",
       "months": [
         5
-      ]
+      ],
+      "typicalDurationDays": 2,
+      "part": "first-half"
     },
     "editions": [
       {

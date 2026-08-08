@@ -25,7 +25,8 @@
       "months": [
         11
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 4,
+      "part": "mid"
     },
     "admission": {
       "options": [

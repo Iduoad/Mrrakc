@@ -24,7 +24,8 @@
       "months": [
         7
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 4,
+      "part": "second-half"
     },
     "admission": {
       "options": [

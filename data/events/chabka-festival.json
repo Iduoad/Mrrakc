@@ -21,8 +21,13 @@
     },
     "recurrence": {
       "frequency": "annual",
-      "type": "irregular",
-      "note": "Exact dates announced per edition"
+      "type": "gregorian",
+      "note": "Held in Summer from Late July to early August.",
+      "typicalDurationDays": 3,
+      "months": [
+        7
+      ],
+      "part": "late"
     },
     "editions": [
       {
@@ -66,7 +71,7 @@
       {
         "edition": 11,
         "year": 2026,
-        "startDate": "2026-07-28",
+        "startDate": "2026-07-29",
         "endDate": "2026-07-31",
         "links": [
           {

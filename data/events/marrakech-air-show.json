@@ -15,9 +15,10 @@
       "frequency": "biennial",
       "type": "gregorian",
       "months": [
-        4,
         10
-      ]
+      ],
+      "typicalDurationDays": 4,
+      "note": "Used to be held in April. Moved to October in 2018."
     },
     "editions": [
       {

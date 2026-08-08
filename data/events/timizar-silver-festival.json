@@ -26,7 +26,8 @@
       "months": [
         7
       ],
-      "typicalDurationDays": 6
+      "typicalDurationDays": 6,
+      "part": "second-half"
     },
     "editions": [
       {

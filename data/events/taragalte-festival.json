@@ -25,9 +25,12 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        10
+        10,
+        11
       ],
-      "note": "Usually late October / early November"
+      "note": "Usually late October / early November",
+      "typicalDurationDays": 4,
+      "part": "early"
     },
     "editions": [
       {
@@ -47,7 +50,18 @@
         "year": 2025,
         "startDate": "2025-10-30",
         "endDate": "2025-11-02",
-        "notes": "Edition ordinal unconfirmed (press listings conflict with the 2024 13th-edition count)"
+        "links": [
+          {
+            "url": "https://web.facebook.com/photo/?fbid=1354364996046893",
+            "title": "2025 program",
+            "type": "program"
+          },
+          {
+            "url": "https://web.facebook.com/Taragalte/posts/-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AA%D8%A7%D8%B1%D8%A7%D9%83%D8%A7%D9%84%D8%AA-2025-%D9%81%D8%AA%D8%AD-%D8%A8%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D9%85%D8%A7%D8%AF-%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D9%81%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9%D9%85%D9%86-30-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-%D8%AD%D8%AA%D9%89-2-/1296070345209692/?_rdc=1&_rdr",
+            "title": "2025 announcement",
+            "type": "article"
+          }
+        ]
       }
     ],
     "links": [

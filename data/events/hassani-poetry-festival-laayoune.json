@@ -25,7 +25,9 @@
       "months": [
         11
       ],
-      "typicalDurationDays": 3
+      "typicalDurationDays": 3,
+      "note": "Held in Autumn, in October, November and December",
+      "part": "mid"
     },
     "admission": {
       "options": [

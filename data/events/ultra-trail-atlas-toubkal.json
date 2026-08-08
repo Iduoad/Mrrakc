@@ -17,7 +17,8 @@
       "months": [
         10
       ],
-      "part": "early"
+      "part": "early",
+      "typicalDurationDays": 5
     },
     "editions": [
       {

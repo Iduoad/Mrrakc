@@ -23,10 +23,11 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        2
+        4
       ],
-      "part": "mid",
-      "note": "Timing follows the almond bloom, which shifts with the weather each year"
+      "part": "first-half",
+      "note": "Timing follows the almond bloom, which shifts with the weather each year. Moved from February to April in the last versions.",
+      "typicalDurationDays": 4
     },
     "admission": {
       "options": [
@@ -165,7 +166,71 @@
         "edition": 9,
         "year": 2019,
         "startDate": "2019-02-28",
-        "endDate": "2019-03-03"
+        "endDate": "2019-03-03",
+        "links": [
+          {
+            "url": "https://www.agrimaroc.ma/tiznit-akhannouch/",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Scheduled for March 5–8, cancelled two days before opening due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 state of health emergency"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled"
+      },
+      {
+        "edition": 10,
+        "year": 2023,
+        "startDate": "2023-03-09",
+        "endDate": "2023-03-12",
+        "links": [
+          {
+            "url": "https://www.agrimaroc.ma/akhannouch-amandiers-tafraout/",
+            "title": "2023 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.agrimaroc.ma/souss-massa-ouverture-du-festival-de-lamandier-a-tafraoute/",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2024,
+        "startDate": "2024-02-23",
+        "endDate": "2024-02-25",
+        "links": [
+          {
+            "url": "https://www.agrimaroc.ma/11eme-edition-du-festival-des-amandiers-de-tafraout-du-23-au-25-fevrier-prochain/",
+            "title": "2024 program",
+            "type": "program"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2025,
+        "startDate": "2025-04-10",
+        "endDate": "2025-04-13"
+      },
+      {
+        "edition": 13,
+        "year": 2026,
+        "startDate": "2026-04-09",
+        "endDate": "2026-04-12"
       }
     ]
   }

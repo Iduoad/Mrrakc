@@ -22,7 +22,8 @@
     "recurrence": {
       "frequency": "annual",
       "type": "irregular",
-      "note": "New festival; 1st edition August 2025, 2nd edition May 2026"
+      "note": "New festival; 1st edition August 2025, 2nd edition May 2026",
+      "typicalDurationDays": 2
     },
     "editions": [
       {

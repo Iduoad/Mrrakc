@@ -25,7 +25,9 @@
       "months": [
         4
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 4,
+      "part": "mid",
+      "note": "Held in Spring (April, May)"
     },
     "admission": {
       "options": [

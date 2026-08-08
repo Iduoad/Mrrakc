@@ -23,7 +23,8 @@
       "type": "hijri",
       "hijriMonth": 9,
       "observance": "ramadan",
-      "note": "Held during Ramadan (9th Islamic month); Gregorian dates shift ~11 days earlier each year"
+      "note": "Held during Ramadan (9th Islamic month); Gregorian dates shift ~11 days earlier each year",
+      "typicalDurationDays": 6
     },
     "comments": [
       "This festival is no longer regularly organized"

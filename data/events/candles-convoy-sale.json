@@ -20,8 +20,12 @@
     },
     "recurrence": {
       "frequency": "annual",
-      "type": "irregular",
-      "note": "Timing determined locally each year"
+      "type": "hijri",
+      "note": "Timing determined locally each year",
+      "hijriMonth": 3,
+      "hijriDay": 12,
+      "observance": "mawlid",
+      "typicalDurationDays": 7
     },
     "editions": [
       {

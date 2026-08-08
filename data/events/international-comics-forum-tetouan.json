@@ -24,7 +24,9 @@
       "type": "gregorian",
       "months": [
         5
-      ]
+      ],
+      "typicalDurationDays": 6,
+      "part": "full"
     },
     "admission": {
       "options": [

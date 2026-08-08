@@ -26,7 +26,8 @@
       "months": [
         4
       ],
-      "note": "Founded 1999; usually held in late April. Edition ordinals differ across sources."
+      "note": "Founded 1999; usually held in late April. Edition ordinals differ across sources.",
+      "typicalDurationDays": 4
     },
     "editions": [
       {

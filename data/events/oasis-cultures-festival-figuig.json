@@ -24,7 +24,9 @@
       "months": [
         12
       ],
-      "typicalDurationDays": 3
+      "typicalDurationDays": 3,
+      "part": "late",
+      "note": "Last versions moved to December instead of Spring"
     },
     "admission": {
       "options": [

@@ -26,7 +26,9 @@
       "months": [
         12
       ],
-      "note": "Timing has varied across editions (June 2019, February 2021, December 2025)"
+      "note": "Timing has varied across editions (June 2019, February 2021, December 2025)",
+      "part": "late",
+      "typicalDurationDays": 2
     },
     "editions": [
       {

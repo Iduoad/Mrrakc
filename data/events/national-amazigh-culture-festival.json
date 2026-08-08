@@ -25,7 +25,9 @@
       "type": "gregorian",
       "months": [
         7
-      ]
+      ],
+      "typicalDurationDays": 3,
+      "part": "early"
     },
     "editions": [
       {

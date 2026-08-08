@@ -25,7 +25,9 @@
       "months": [
         5
       ],
-      "typicalDurationDays": 6
+      "typicalDurationDays": 6,
+      "part": "second-half",
+      "note": "Used to be held in March. Starting from 2024, it is held in May."
     },
     "admission": {
       "options": [

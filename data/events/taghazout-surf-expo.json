@@ -26,7 +26,9 @@
       "months": [
         10
       ],
-      "note": "Usually late October"
+      "note": "Usually late October",
+      "typicalDurationDays": 4,
+      "part": "late"
     },
     "editions": [
       {

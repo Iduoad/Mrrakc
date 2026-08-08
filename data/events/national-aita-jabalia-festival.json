@@ -25,7 +25,9 @@
       "months": [
         6
       ],
-      "typicalDurationDays": 4
+      "typicalDurationDays": 3,
+      "part": "first-half",
+      "note": "Held in early Summer (May, June)"
     },
     "admission": {
       "options": [
