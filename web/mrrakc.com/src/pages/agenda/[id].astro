@@ -44,6 +44,15 @@ const statusStyles = {
 
 const sortedEditions = spec.editions ? [...spec.editions].sort((a, b) => b.year - a.year) : [];
 
+// The edition ordinal is often unrecorded, which used to leave the heading as a
+// bare "Edition". The year identifies the run just as well — but only for one
+// that was actually held; labelling a cancelled entry "Edition 2025" would read
+// as an edition that took place.
+const editionLabel = (e: { edition?: number; year: number; status?: string }) =>
+  e.edition ? `Edition ${e.edition}`
+    : e.status === 'cancelled' ? 'Edition'
+      : `Edition ${e.year}`;
+
 // Soonest still-open edition (build-time seed). An inline script re-checks this
 // against the visitor's date so the "Upcoming" badge and the add-to-calendar
 // button stay correct between deploys.
@@ -141,7 +150,7 @@ const isFree = spec.admission?.options.every(o => o.modality === 'free') ?? fals
                   <div data-dot class={`absolute -left-[9px] top-1 w-4 h-4 rounded-full border-4 border-white dark:border-charcoal ${edition.status === 'cancelled' ? 'bg-red-400' : 'bg-terra'}`}></div>
                   <span class="text-sm font-bold text-terra-dark mb-1 block">{edition.year}</span>
                   <h3 class="text-lg font-bold text-charcoal dark:text-stone-100 mb-1 flex items-center gap-2">
-                    {edition.edition ? `Edition ${edition.edition}` : 'Edition'}
+                    {editionLabel(edition)}
                     {edition.status === 'cancelled' && (
                       <span class="px-2 py-0.5 text-xs font-bold rounded bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400">Cancelled</span>
                     )}
