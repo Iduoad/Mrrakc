@@ -24,8 +24,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        7,
-        8
+        7
       ],
       "typicalDurationDays": 6
     },

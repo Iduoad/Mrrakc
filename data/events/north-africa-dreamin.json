@@ -1,0 +1,110 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "metadata": {
+    "tags": [
+      "tech",
+      "salesforce",
+      "conference",
+      "casablanca"
+    ]
+  },
+  "spec": {
+    "name": "North Africa Dreamin'",
+    "id": "north-africa-dreamin",
+    "description": "A prominent community-led Salesforce conference in Casablanca, bringing together the Salesforce community in the Africa and MENA region for sessions, workshops, and networking.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 1
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "General Admission",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2019,
+        "startDate": "2019-10-19",
+        "endDate": "2019-10-19",
+        "links": [
+          {
+            "url": "https://northafricadreamin.com",
+            "title": "2019 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "startDate": "2022-10-22",
+        "endDate": "2022-10-22",
+        "links": [
+          {
+            "url": "https://ldaeurope.com",
+            "title": "2022 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "startDate": "2023-10-21",
+        "endDate": "2023-10-21",
+        "links": [
+          {
+            "url": "https://varianceinfotech.com",
+            "title": "2023 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-10-19",
+        "endDate": "2024-10-19",
+        "links": [
+          {
+            "url": "https://trailblazercommunitygroups.com",
+            "title": "2024 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-11-22",
+        "endDate": "2025-11-22"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-10-24",
+        "endDate": "2026-10-24"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://northafricadreamin.com",
+        "title": "North Africa Dreamin' official website",
+        "type": "website"
+      }
+    ]
+  }
+}

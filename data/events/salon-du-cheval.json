@@ -1,0 +1,246 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "name": "Salon du Cheval d'El Jadida",
+    "id": "salon-du-cheval",
+    "description": "The largest equestrian event in Africa, featuring Tbourida championships, Morocco Royal Tour show jumping, and exhibitions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/el-jadida"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "mid",
+      "typicalDurationDays": 6,
+      "urls": [
+        {
+          "url": "https://www.salonducheval.ma/",
+          "title": "Official Website"
+        }
+      ]
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "General Admission",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 3,
+        "year": 2010,
+        "status": "held",
+        "startDate": "2010-10-19",
+        "endDate": "2010-10-24",
+        "links": [
+          {
+            "url": "https://lematin.ma/",
+            "title": "Le Matin Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2011,
+        "status": "held",
+        "startDate": "2011-10-19",
+        "endDate": "2011-10-23",
+        "links": [
+          {
+            "url": "https://lematin.ma/",
+            "title": "Le Matin Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 5,
+        "year": 2012,
+        "status": "held",
+        "startDate": "2012-10-17",
+        "endDate": "2012-10-21",
+        "links": [
+          {
+            "url": "https://lematin.ma/",
+            "title": "Le Matin Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 6,
+        "year": 2013,
+        "status": "held",
+        "startDate": "2013-10-01",
+        "endDate": "2013-10-06",
+        "links": [
+          {
+            "url": "https://medias24.com/",
+            "title": "Medias24 Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 7,
+        "year": 2014,
+        "status": "held",
+        "startDate": "2014-10-21",
+        "endDate": "2014-10-26",
+        "links": [
+          {
+            "url": "https://medias24.com/",
+            "title": "Medias24 Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 8,
+        "year": 2015,
+        "status": "held",
+        "startDate": "2015-10-13",
+        "endDate": "2015-10-18",
+        "links": [
+          {
+            "url": "https://fr.le360.ma/sports/equitation-le-haras-del-jadida-remis-a-neuf-54359",
+            "title": "Le360 Article",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 9,
+        "year": 2016,
+        "status": "held",
+        "startDate": "2016-10-11",
+        "endDate": "2016-10-16",
+        "links": [
+          {
+            "url": "https://sorec.ma/",
+            "title": "SOREC Announcement",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2017,
+        "status": "held",
+        "startDate": "2017-10-16",
+        "endDate": "2017-10-22",
+        "links": [
+          {
+            "url": "https://arabhorse.com/",
+            "title": "Arabhorse Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 11,
+        "year": 2018,
+        "status": "held",
+        "startDate": "2018-10-16",
+        "endDate": "2018-10-21",
+        "links": [
+          {
+            "url": "http://www.leseco.ma/toutes-les-videos/70749-salon-du-cheval-d-el-jadida-au-menu-de-la-11e-edition.html",
+            "title": "LesEco Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 12,
+        "year": 2019,
+        "status": "held",
+        "startDate": "2019-10-15",
+        "endDate": "2019-10-20",
+        "links": [
+          {
+            "url": "https://hespress.com/",
+            "title": "Hespress Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic."
+      },
+      {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic."
+      },
+      {
+        "edition": 13,
+        "year": 2022,
+        "status": "held",
+        "startDate": "2022-10-18",
+        "endDate": "2022-10-23",
+        "links": [
+          {
+            "url": "https://telquel.ma/",
+            "title": "Telquel Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 14,
+        "year": 2023,
+        "status": "held",
+        "startDate": "2023-10-17",
+        "endDate": "2023-10-22",
+        "links": [
+          {
+            "url": "https://medias24.com/",
+            "title": "Medias24 Coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 15,
+        "year": 2024,
+        "status": "held",
+        "startDate": "2024-10-01",
+        "endDate": "2024-10-06",
+        "links": [
+          {
+            "url": "https://telquel.ma/",
+            "title": "Telquel Coverage",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.salonducheval.ma/",
+        "title": "Official Website",
+        "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Salon_international_du_cheval_d%27El_Jadida",
+        "title": "Wikipedia Article",
+        "type": "article"
+      }
+    ]
+  }
+}

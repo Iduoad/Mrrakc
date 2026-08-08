@@ -1,0 +1,78 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Agafay Full Moon Run",
+    "id": "agafay-full-moon-run",
+    "description": "A 12 km trail running event held annually in the Agafay Desert during the holy month of Ramadan, allowing runners to break their fast together with an iftar before starting the run at night under the light of the full moon.",
+    "status": "discontinued",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "hijri",
+      "hijriMonth": 9,
+      "observance": "ramadan",
+      "typicalDurationDays": 1
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Registration",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2015,
+        "startDate": "2015-07-05",
+        "endDate": "2015-07-05",
+        "links": [
+          {
+            "url": "https://www.racesplitter.com/races/FDD7EFCEE",
+            "title": "2015 timing page",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2016,
+        "startDate": "2016-06-20",
+        "endDate": "2016-06-20",
+        "links": [
+          {
+            "url": "https://web.facebook.com/NomadsRun/photos/gm.173879146346915/1056847451061594/",
+            "title": "2016 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://alicemorrison.co.uk/the-agafay-full-moon-run/",
+            "title": "2016 coverage",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2017,
+        "startDate": "2017-06-10",
+        "endDate": "2017-06-10",
+        "links": [
+          {
+            "url": "https://www.vivre-marrakech.com/news/3eme-edition-du-full-moon-run-dans-le-desert-d-agafay-a-marrakech-n1254.html",
+            "title": "2017 programme",
+            "type": "program"
+          }
+        ]
+      }
+    ]
+  }
+}

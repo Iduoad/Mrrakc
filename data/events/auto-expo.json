@@ -1,0 +1,114 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "name": "Auto Expo",
+    "id": "auto-expo",
+    "description": "Auto Expo is a major biennial automotive fair in Morocco, showcasing cars and more recently hybrid and electric vehicles, organized by the Association of Vehicle Importers in Morocco (AIVAM).",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "biennial",
+      "type": "gregorian",
+      "months": [
+        5
+      ]
+    },
+    "editions": [
+      {
+        "year": 2010,
+        "startDate": "2010-05-13",
+        "endDate": "2010-05-24",
+        "links": [
+          {
+            "url": "https://aujourdhui.ma/automobile/lauto-expo-2010-ouvre-ses-portes-73235",
+            "title": "L'Auto Expo 2010 ouvre ses portes",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "startDate": "2012-05-18",
+        "endDate": "2012-05-27",
+        "links": [
+          {
+            "url": "https://wandaloo.com/autonews/auto-expo-2012-un-salon-prometteur-qui-s-annonce/214.html",
+            "title": "Auto Expo 2012 : Un salon prometteur",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-05-08",
+        "endDate": "2014-05-18",
+        "links": [
+          {
+            "url": "https://lereporter.ma/economie/auto-expo-2014/",
+            "title": "Auto Expo 2014",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "startDate": "2016-05-12",
+        "endDate": "2016-05-22",
+        "links": [
+          {
+            "url": "https://fr.le360.ma/economie/auto-expo-2016-top-depart-71701/",
+            "title": "Auto Expo 2016 : Top d\u00e9part",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "startDate": "2018-04-10",
+        "endDate": "2018-04-22",
+        "links": [
+          {
+            "url": "https://industries.ma/auto-expo-2018-les-nouveautes-et-les-attentes/",
+            "title": "Auto Expo 2018: Les nouveaut\u00e9s et les attentes",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled",
+        "notes": "Cancelled due to consecutive postponements and market conditions following the pandemic"
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-09-18",
+        "endDate": "2025-09-28",
+        "notes": "Edition specifically dedicated to hybrid and electric vehicles",
+        "links": [
+          {
+            "url": "https://leguideauto.ma/aivam-auto-expo-2025-vehicules-hybrides-et-electriques",
+            "title": "AIVAM : AUTO EXPO 2025 V\u00e9hicules Hybrides et Electriques",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.aivam.ma",
+        "title": "AIVAM Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

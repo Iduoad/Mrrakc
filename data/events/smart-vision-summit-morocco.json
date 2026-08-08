@@ -1,0 +1,66 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "metadata": {
+    "tags": [
+      "fintech",
+      "artificial-intelligence",
+      "finance",
+      "tech"
+    ]
+  },
+  "spec": {
+    "name": "Smart Vision Summit Morocco",
+    "id": "smart-vision-summit-morocco",
+    "description": "A summit to promote artificial intelligence and fintech culture within finance, business, and global financial markets, bridging connections between MENA, Europe, and Africa.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "typicalDurationDays": 2
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "General Admission",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2026,
+        "startDate": "2026-10-30",
+        "endDate": "2026-10-31",
+        "provinces": [
+          "province/marrakech"
+        ],
+        "links": [
+          {
+            "url": "https://10times.com/smart-vision-summit-morocco",
+            "title": "2026 Event Listing",
+            "type": "article"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://smartvisionsummit.com/",
+        "title": "Smart Vision Summit official website",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Marrakech International Marathon",
+    "id": "marrakech-international-marathon",
+    "description": "The Marrakech International Marathon is an annual marathon hosted in Marrakech, Morocco, traditionally held in late January.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        1
+      ],
+      "part": "late"
+    },
+    "editions": [
+      {
+        "year": 2010,
+        "startDate": "2010-01-31",
+        "status": "held"
+      },
+      {
+        "year": 2011,
+        "startDate": "2011-01-30",
+        "status": "held"
+      },
+      {
+        "year": 2012,
+        "startDate": "2012-01-29",
+        "status": "held"
+      },
+      {
+        "year": 2013,
+        "startDate": "2013-01-27",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.mybestruns.com/",
+            "title": "My Best Runs 2013",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-01-26",
+        "status": "held"
+      },
+      {
+        "year": 2015,
+        "startDate": "2015-01-25",
+        "status": "held"
+      },
+      {
+        "year": 2016,
+        "startDate": "2016-01-31",
+        "status": "held"
+      },
+      {
+        "year": 2017,
+        "startDate": "2017-01-29",
+        "status": "held"
+      },
+      {
+        "year": 2018,
+        "startDate": "2018-01-28",
+        "status": "held"
+      },
+      {
+        "year": 2019,
+        "startDate": "2019-01-27",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.mybestruns.com/",
+            "title": "My Best Runs 2019",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "startDate": "2020-01-26",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Marrakech_Marathon",
+            "title": "Wikipedia",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic"
+      },
+      {
+        "year": 2022,
+        "startDate": "2022-05-15",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://aims-worldrunning.org/",
+            "title": "AIMS 2022",
+            "type": "website"
+          }
+        ],
+        "notes": "Held in May due to external circumstances"
+      },
+      {
+        "year": 2023,
+        "startDate": "2023-01-29",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://aims-worldrunning.org/",
+            "title": "AIMS 2023",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-01-28",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://aims-worldrunning.org/",
+            "title": "AIMS 2024",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-01-26",
+        "status": "held"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-01-25",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://gomarathon.run/",
+            "title": "Go Marathon 2026",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "http://www.marrakechmarathon.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

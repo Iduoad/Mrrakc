@@ -1,0 +1,147 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "spec": {
+    "name": "Oasis Festival",
+    "id": "oasis-festival",
+    "description": "A premier electronic music festival held in Morocco, blending international acts with the local culture and landscapes.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "part": "mid",
+      "typicalDurationDays": 3,
+      "note": "Typically held in mid-September over a weekend.",
+      "urls": [
+        {
+          "url": "https://theoasisfest.com/",
+          "title": "Official website"
+        }
+      ]
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Festival Pass",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "year": 2015,
+        "startDate": "2015-09-11",
+        "endDate": "2015-09-13",
+        "links": [
+          {
+            "url": "https://theoasisfest.com/",
+            "title": "Oasis Festival",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "startDate": "2016-09-16",
+        "endDate": "2016-09-18",
+        "links": [
+          {
+            "url": "https://theoasisfest.com/",
+            "title": "Oasis Festival",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "startDate": "2017-09",
+        "endDate": "2017-09",
+        "links": [
+          {
+            "url": "https://theoasisfest.com/",
+            "title": "Oasis Festival",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "startDate": "2018-09-13",
+        "endDate": "2018-09-15",
+        "links": [
+          {
+            "url": "https://theoasisfest.com/",
+            "title": "Oasis Festival",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "startDate": "2019-09-13",
+        "endDate": "2019-09-15",
+        "links": [
+          {
+            "url": "https://theoasisfest.com/",
+            "title": "Oasis Festival",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic"
+      },
+      {
+        "year": 2022,
+        "status": "held",
+        "provinces": [
+          "province/dakhla-oued-ed-dahab"
+        ],
+        "notes": "Held as 'Oasis: Into the Wild' in Dakhla"
+      },
+      {
+        "year": 2023,
+        "startDate": "2023-10-27",
+        "endDate": "2023-10-29",
+        "provinces": [
+          "province/ouarzazate"
+        ],
+        "notes": "Held as 'Oasis: Into the Wild' in Ouarzazate"
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-09-06",
+        "endDate": "2024-09-08",
+        "notes": "Return to The Source, Marrakech"
+      },
+      {
+        "year": 2025,
+        "status": "cancelled"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://theoasisfest.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

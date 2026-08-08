@@ -1,0 +1,88 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "name": "GITEX AFRICA",
+    "id": "gitex-africa",
+    "description": "GITEX Africa is an annual technology and startup event held in Marrakech, Morocco.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "typicalDurationDays": 3
+    },
+    "links": [
+      {
+        "url": "https://gitexafrica.com",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ],
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2023,
+        "status": "held",
+        "startDate": "2023-05-31",
+        "endDate": "2023-06-02",
+        "links": [
+          {
+            "url": "https://en.wikipedia.org/wiki/GITEX_Africa",
+            "title": "Wikipedia Article",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2024,
+        "status": "held",
+        "startDate": "2024-05-29",
+        "endDate": "2024-05-31",
+        "links": [
+          {
+            "url": "https://gitexafrica.com/2024-highlights",
+            "title": "2024 Edition",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2025,
+        "status": "held",
+        "startDate": "2025-04-14",
+        "endDate": "2025-04-16",
+        "links": [
+          {
+            "url": "https://amic.org.ma/event/gitex-africa-2025",
+            "title": "2025 Edition Information",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2026,
+        "status": "held",
+        "startDate": "2026-04-07",
+        "endDate": "2026-04-09",
+        "links": [
+          {
+            "url": "https://mmsp.gov.ma/event/gitex-africa-2026",
+            "title": "2026 Edition Announcement",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  }
+}

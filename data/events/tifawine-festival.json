@@ -25,9 +25,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        7,
-        8,
-        10
+        8
       ],
       "typicalDurationDays": 4,
       "note": "Dates have shifted between July, August and October across editions; the 2023 edition moved from summer to October, but recent editions (2024-2026) have returned to early-to-mid August."

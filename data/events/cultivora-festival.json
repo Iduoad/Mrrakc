@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "spec": {
+    "name": "Cultivora Festival",
+    "id": "cultivora-festival",
+    "description": "An electronic music festival and permanent cultural event project based in Marrakech, created by the team behind the Oasis Festival.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 3,
+      "note": "Takes place mid-November."
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Festival Ticket",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://cultivora.com",
+        "title": "Cultivora Official Website",
+        "type": "website"
+      }
+    ],
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11-13",
+        "endDate": "2026-11-15",
+        "links": [
+          {
+            "url": "https://festivalabroad.com",
+            "title": "2026 Listing",
+            "type": "article"
+          }
+        ]
+      }
+    ]
+  }
+}

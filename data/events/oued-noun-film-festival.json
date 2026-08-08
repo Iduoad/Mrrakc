@@ -24,8 +24,6 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        2,
-        6,
         12
       ],
       "note": "Timing has varied across editions (June 2019, February 2021, December 2025)"
@@ -55,6 +53,24 @@
             "url": "https://www.mapnews.ma/en/actualites/culture/guelmim-online-9th-oued-noun-film-festival-kicks",
             "title": "2021 coverage",
             "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 10,
+        "year": 2024,
+        "startDate": "2024-12-26",
+        "endDate": "2024-12-29",
+        "links": [
+          {
+            "url": "https://web.facebook.com/maryama.jabbour/posts/pfbid02Qj6cocG6X8mRdEV3xUXNzWCaQvuwnP91c76QZx94ey6umg8hFjD8bQ1PAdK8xu9Zl",
+            "title": "2025 programme",
+            "type": "program"
+          },
+          {
+            "url": "https://web.facebook.com/FestivalGuelmimDuCinema/mentions/",
+            "title": "Facebook page",
+            "type": "social"
           }
         ]
       },

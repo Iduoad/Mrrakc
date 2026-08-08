@@ -24,10 +24,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        9,
-        10,
-        11,
-        12
+        9
       ],
       "typicalDurationDays": 4,
       "note": "Dates vary year to year, historically clustering between September and December; some editions are timed near Mawlid al-Nabawi."

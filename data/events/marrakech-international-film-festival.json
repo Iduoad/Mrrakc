@@ -23,8 +23,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        11,
-        12
+        11
       ],
       "typicalDurationDays": 9,
       "note": "Usually starts in late November and runs into early December"

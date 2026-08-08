@@ -1,0 +1,256 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "name": "Devoxx Morocco",
+    "id": "devoxx-morocco",
+    "description": "A major international conference for developers in Morocco, originally founded as JMaghreb before joining the Devoxx family in 2015.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-outanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "period": "fall",
+      "type": "gregorian",
+      "months": [
+        11
+      ]
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Standard Pass",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://devoxx.ma/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ],
+    "editions": [
+      {
+        "year": 2012,
+        "startDate": "2012-11",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "notes": "Inaugural edition under the name JMaghreb",
+        "links": [
+          {
+            "url": "https://therollingnotes.com/",
+            "title": "JMaghreb 2012",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2013,
+        "startDate": "2013-11-05",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "notes": "Second edition of JMaghreb",
+        "links": [
+          {
+            "url": "https://agilejava.eu/",
+            "title": "JMaghreb 2013",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-11-04",
+        "endDate": "2014-11-06",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "notes": "Third edition of JMaghreb",
+        "links": [
+          {
+            "url": "https://howiyapress.com/",
+            "title": "JMaghreb 2014",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2015,
+        "startDate": "2015-11-16",
+        "endDate": "2015-11-18",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "notes": "First edition under the name Devoxx Morocco",
+        "links": [
+          {
+            "url": "https://moroccoworldnews.com/",
+            "title": "Devoxx Morocco 2015",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "startDate": "2016-11-16",
+        "endDate": "2016-11-18",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "links": [
+          {
+            "url": "https://industries.ma/",
+            "title": "Devoxx Morocco 2016",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2017,
+        "startDate": "2017-11-14",
+        "endDate": "2017-11-16",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.ma/",
+            "title": "Devoxx Morocco 2017",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "startDate": "2018-11-27",
+        "endDate": "2018-11-29",
+        "provinces": [
+          "province/marrakech"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.ma/",
+            "title": "Devoxx Morocco 2018",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2019,
+        "startDate": "2019-11-12",
+        "endDate": "2019-11-14",
+        "provinces": [
+          "province/agadir-ida-outanane"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.com/",
+            "title": "Devoxx Morocco 2019",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2021,
+        "startDate": "2021-09-29",
+        "endDate": "2021-10-01",
+        "links": [
+          {
+            "url": "https://en.wikipedia.org/wiki/Devoxx",
+            "title": "Devoxx Morocco 2021",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2022,
+        "startDate": "2022-10-04",
+        "endDate": "2022-10-06",
+        "provinces": [
+          "province/agadir-ida-outanane"
+        ],
+        "links": [
+          {
+            "url": "https://gospeak.io/",
+            "title": "Devoxx Morocco 2022",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2023,
+        "startDate": "2023-10-11",
+        "endDate": "2023-10-13",
+        "provinces": [
+          "province/agadir-ida-outanane"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.com/",
+            "title": "Devoxx Morocco 2023",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-10-02",
+        "endDate": "2024-10-04",
+        "provinces": [
+          "province/agadir-ida-outanane"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.com/",
+            "title": "Devoxx Morocco 2024",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-11-12",
+        "endDate": "2025-11-14",
+        "provinces": [
+          "province/marrakech"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.com/",
+            "title": "Devoxx Morocco 2025",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-11-04",
+        "endDate": "2026-11-05",
+        "provinces": [
+          "province/casablanca"
+        ],
+        "links": [
+          {
+            "url": "https://devoxx.ma/",
+            "title": "Devoxx Morocco 2026",
+            "type": "article"
+          }
+        ]
+      }
+    ]
+  }
+}

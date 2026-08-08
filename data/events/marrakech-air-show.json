@@ -1,0 +1,133 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "name": "Marrakech Air Show",
+    "id": "marrakech-air-show",
+    "description": "The Marrakech Air Show is a biennial aerospace and defense exhibition held at the Royal Moroccan Air Force Base in Marrakech.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "biennial",
+      "type": "gregorian",
+      "months": [
+        4,
+        10
+      ]
+    },
+    "editions": [
+      {
+        "year": 2010,
+        "startDate": "2010-01-27",
+        "endDate": "2010-01-30",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.karo-aviation.nl/reports/2010/marrakech.htm",
+            "title": "Karo Aviation 2010 Report",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2012,
+        "startDate": "2012-04-04",
+        "endDate": "2012-04-07",
+        "status": "held",
+        "links": [
+          {
+            "url": "http://www.aeronautique.ma/Aeroexpo-Marrakech-2012-La-3eme-edition-le-4-au-7-Avril-2012_a2444.html",
+            "title": "Aeronautique MA 2012 Press Release",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2014,
+        "startDate": "2014-04-23",
+        "endDate": "2014-04-26",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.nsalons.com/marrakech-air-show/",
+            "title": "Nsalons 2014 Dates",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2016,
+        "startDate": "2016-04-27",
+        "endDate": "2016-04-30",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.nsalons.com/marrakech-air-show/",
+            "title": "Nsalons 2016 Dates",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2018,
+        "startDate": "2018-10-24",
+        "endDate": "2018-10-27",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.mcinet.gov.ma/fr/content/le-marrakech-air-show-2018-s%E2%80%99ouvre-sur-des-perspectives-prometteuses-pour-l%E2%80%99a%C3%A9ronautique",
+            "title": "Ministry 2018 Press Release",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to the COVID-19 pandemic"
+      },
+      {
+        "year": 2022,
+        "status": "cancelled",
+        "notes": "No edition held due to scheduling gaps"
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-10-30",
+        "endDate": "2024-11-02",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.marrakechairshow2026.com/",
+            "title": "Marrakech Air Show 2024 Info",
+            "type": "website"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-10-07",
+        "endDate": "2026-10-10",
+        "status": "held",
+        "links": [
+          {
+            "url": "https://www.marrakechairshow2026.com/",
+            "title": "Marrakech Air Show 2026 Info",
+            "type": "website"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.marrakechairshow2026.com/",
+        "title": "Marrakech Air Show Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

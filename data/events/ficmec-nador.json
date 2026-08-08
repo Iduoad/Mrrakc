@@ -24,9 +24,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        10,
-        11,
-        12
+        10
       ],
       "typicalDurationDays": 6,
       "note": "Usually held in October or November; the 2023 edition was postponed to mid-December after the Al Haouz earthquake."

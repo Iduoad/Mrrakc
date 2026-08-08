@@ -23,11 +23,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        3,
-        4,
-        5,
-        10,
-        11
+        10
       ],
       "typicalDurationDays": 8,
       "note": "Historically held in March; the 2024 edition moved to late April/early May and the 2025 edition to late October/early November"

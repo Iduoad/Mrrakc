@@ -1,0 +1,113 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/music",
+  "spec": {
+    "name": "Atlas Electronic Festival",
+    "id": "atlas-electronic-festival",
+    "description": "Boutique electronic music and arts festival held at the Villa Janna ecolodge in Marrakech.",
+    "status": "discontinued",
+    "host": {
+      "provinces": [
+        "province/marrakech"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "part": "late"
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "Festival Pass",
+          "modality": "ticket",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2016,
+        "status": "held",
+        "startDate": "2016-09-01",
+        "endDate": "2016-09-04",
+        "links": [
+          {
+            "url": "https://ra.co/events/831610",
+            "title": "Resident Advisor Event 2016",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 2,
+        "year": 2017,
+        "status": "held",
+        "startDate": "2017-08-24",
+        "endDate": "2017-08-27",
+        "links": [
+          {
+            "url": "https://xlr8r.com/news/atlas-electronic-festival-announces-2017-dates/",
+            "title": "XLR8R 2017 Announcement",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 3,
+        "year": 2018,
+        "status": "held",
+        "startDate": "2018-08-30",
+        "endDate": "2018-09-02",
+        "links": [
+          {
+            "url": "https://akuphone.com/en/news/2018-08-30-atlas-electronic-festival",
+            "title": "Akuphone 2018 Review",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "edition": 4,
+        "year": 2019,
+        "status": "held",
+        "startDate": "2019-08-29",
+        "endDate": "2019-09-02",
+        "links": [
+          {
+            "url": "https://leseco.ma/maroc/marrakech-accueille-la-4e-edition-du-festival-atlas-electronic.html",
+            "title": "LesEco 2019 Announcement",
+            "type": "article"
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic"
+      },
+      {
+        "year": 2021,
+        "status": "cancelled",
+        "notes": "Cancelled due to COVID-19 pandemic"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://atlas-electronic.com/",
+        "title": "Official Website",
+        "type": "website"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Atlas_Electronic_Festival",
+        "title": "Wikipedia Page",
+        "type": "website"
+      }
+    ]
+  }
+}

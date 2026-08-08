@@ -22,8 +22,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        7,
-        8
+        7
       ],
       "note": "Summer months, exact location varies by year"
     },

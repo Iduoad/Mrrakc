@@ -25,8 +25,7 @@
       "frequency": "annual",
       "type": "gregorian",
       "months": [
-        10,
-        11
+        10
       ],
       "note": "Usually late October / early November"
     },
