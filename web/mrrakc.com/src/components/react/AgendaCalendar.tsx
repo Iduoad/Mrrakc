@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
-import { SlidersHorizontal, HelpCircle, CalendarDays, Map as MapIcon, CalendarClock, Eye } from 'lucide-react';
+import { SlidersHorizontal, HelpCircle, CalendarDays, Map as MapIcon, CalendarClock } from 'lucide-react';
 import type { AgendaEventDTO } from '../../types/agenda';
 import { MONTH_NAMES, SEASON_MONTHS, formatEditionDates, type RecurrenceType } from '../../utils/recurrence';
 import { pickNextEdition } from '../../utils/calendar';
@@ -26,6 +26,17 @@ interface Placement {
 const PART_ORDER: Record<string, number> = {
     'early': 0, 'first-half': 1, 'mid': 2, 'full': 3, 'second-half': 4, 'late': 5,
 };
+
+export type EventStatus = AgendaEventDTO['status'];
+
+/** Most-alive first, which is also the order the chips read in. */
+export const STATUS_ORDER: EventStatus[] = ['active', 'unknown', 'discontinued'];
+
+/** Unknown events may well still run, so they show; discontinued ones won't. */
+export const DEFAULT_STATUSES: EventStatus[] = ['active', 'unknown'];
+
+const sameStatuses = (a: EventStatus[], b: EventStatus[]) =>
+    a.length === b.length && STATUS_ORDER.every(s => a.includes(s) === b.includes(s));
 
 function placementsFor(event: AgendaEventDTO): Placement[] | null {
     const rec = event.recurrence;
@@ -96,7 +107,7 @@ export default function AgendaCalendar({ events }: Props) {
     const [selectedKinds, setSelectedKinds] = useState<string[]>([]);
     const [selectedProvinces, setSelectedProvinces] = useState<string[]>([]);
     const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
-    const [showInactive, setShowInactive] = useState(false);
+    const [selectedStatuses, setSelectedStatuses] = useState<EventStatus[]>(DEFAULT_STATUSES);
     const [upcomingOnly, setUpcomingOnly] = useState(false);
     const [filtersOpen, setFiltersOpen] = useState(false);
     const [activeEvent, setActiveEvent] = useState<AgendaEventDTO | null>(null);
@@ -119,7 +130,15 @@ export default function AgendaCalendar({ events }: Props) {
         () => new Map(events.map(e => [e.id, pickNextEdition(e.futureEditions, now)] as const)),
         [events, now]
     );
-    const inactiveCount = useMemo(() => events.filter(e => e.status !== 'active').length, [events]);
+    const statusCounts = useMemo(() => {
+        const counts = {} as Record<EventStatus, number>;
+        for (const e of events) counts[e.status] = (counts[e.status] ?? 0) + 1;
+        return counts;
+    }, [events]);
+    const availableStatuses = useMemo(
+        () => STATUS_ORDER.filter(s => statusCounts[s] > 0),
+        [statusCounts]
+    );
     const upcomingCount = useMemo(
         () => events.reduce((n, e) => n + (nextByEvent.get(e.id) ? 1 : 0), 0),
         [events, nextByEvent]
@@ -143,18 +162,22 @@ export default function AgendaCalendar({ events }: Props) {
         [events]
     );
 
-    const toggle = (setter: React.Dispatch<React.SetStateAction<string[]>>) => (value: string) =>
+    const toggle = <T extends string>(setter: React.Dispatch<React.SetStateAction<T[]>>) => (value: T) =>
         setter(prev => prev.includes(value) ? prev.filter(v => v !== value) : [...prev, value]);
 
-    const activeFilterCount = selectedKinds.length + selectedProvinces.length + selectedTypes.length + (upcomingOnly ? 1 : 0);
+    // Status starts pre-selected rather than empty, so it counts as a filter only
+    // once it differs from that default.
+    const statusFiltered = !sameStatuses(selectedStatuses, DEFAULT_STATUSES);
+    const activeFilterCount = selectedKinds.length + selectedProvinces.length + selectedTypes.length
+        + (upcomingOnly ? 1 : 0) + (statusFiltered ? 1 : 0);
 
     const filteredEvents = useMemo(() => events.filter(e =>
-        (showInactive || e.status === 'active') &&
+        selectedStatuses.includes(e.status) &&
         (!upcomingOnly || Boolean(nextByEvent.get(e.id))) &&
         (selectedKinds.length === 0 || selectedKinds.includes(e.kind)) &&
         (selectedProvinces.length === 0 || e.provinces.some(p => selectedProvinces.includes(p.slug))) &&
         (selectedTypes.length === 0 || selectedTypes.includes(e.recurrence.type))
-    ), [events, showInactive, upcomingOnly, nextByEvent, selectedKinds, selectedProvinces, selectedTypes]);
+    ), [events, selectedStatuses, upcomingOnly, nextByEvent, selectedKinds, selectedProvinces, selectedTypes]);
 
     const { buckets, noFixedDates, hasContinuation } = useMemo(() => {
         const buckets: { event: AgendaEventDTO; approx: boolean; continuation: boolean }[][] =
@@ -205,24 +228,6 @@ export default function AgendaCalendar({ events }: Props) {
                 </div>
 
                 <div className="flex flex-wrap items-center gap-2">
-                    {inactiveCount > 0 && (
-                        <button
-                            onClick={() => setShowInactive(v => !v)}
-                            aria-pressed={showInactive}
-                            title="Show discontinued & unknown events"
-                            className={`inline-flex items-center gap-2 px-3 py-2 text-sm font-medium border rounded-xl transition-colors ${showInactive
-                                ? 'bg-terra text-white border-terra'
-                                : 'bg-white dark:bg-charcoal border-clay/20 dark:border-charcoal-light text-charcoal-light dark:text-stone-400 hover:border-terra/50'
-                                }`}
-                        >
-                            <Eye size={16} />
-                            <span className="hidden sm:inline">Inactive</span>
-                            <span className={`text-xs font-bold rounded-full px-1.5 py-0.5 min-w-5 ${showInactive ? 'bg-white/25 text-white' : 'bg-clay/20 dark:bg-charcoal-light/40'}`}>
-                                {inactiveCount}
-                            </span>
-                        </button>
-                    )}
-
                     <button
                         onClick={() => setFiltersOpen(true)}
                         className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-xl hover:border-terra/50 text-charcoal dark:text-stone-200 transition-colors"
@@ -262,9 +267,10 @@ export default function AgendaCalendar({ events }: Props) {
                         <CalendarClock size={12} className="text-emerald-600 dark:text-emerald-400" /> upcoming edition
                     </span>
                 )}
-                {showInactive && inactiveCount > 0 && (
+                {selectedStatuses.some(s => s !== 'active') && (
                     <span className="inline-flex items-center gap-1">
-                        <span className="line-through decoration-charcoal-light/60">Aa</span> discontinued / unknown
+                        <span className="line-through decoration-charcoal-light/60">Aa</span>
+                        {selectedStatuses.filter(s => s !== 'active').join(' / ')}
                     </span>
                 )}
             </div>
@@ -344,20 +350,26 @@ export default function AgendaCalendar({ events }: Props) {
                 availableProvinces={availableProvinces}
                 availableTypes={availableTypes}
                 provinceLabels={provinceLabels}
+                availableStatuses={availableStatuses}
+                statusCounts={statusCounts}
                 hasUpcoming={upcomingCount > 0}
                 upcomingCount={upcomingCount}
                 selectedKinds={selectedKinds}
                 selectedProvinces={selectedProvinces}
                 selectedTypes={selectedTypes}
+                selectedStatuses={selectedStatuses}
                 upcomingOnly={upcomingOnly}
+                statusFiltered={statusFiltered}
                 onKindChange={toggle(setSelectedKinds)}
                 onProvinceChange={toggle(setSelectedProvinces)}
                 onTypeChange={toggle(setSelectedTypes)}
+                onStatusChange={toggle(setSelectedStatuses)}
                 onUpcomingChange={() => setUpcomingOnly(v => !v)}
                 onClearFilters={() => {
                     setSelectedKinds([]);
                     setSelectedProvinces([]);
                     setSelectedTypes([]);
+                    setSelectedStatuses(DEFAULT_STATUSES);
                     setUpcomingOnly(false);
                 }}
             />

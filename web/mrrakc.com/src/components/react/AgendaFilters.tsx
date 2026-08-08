@@ -1,5 +1,6 @@
 import { X, CalendarClock } from 'lucide-react';
 import { TYPE_ICONS, TYPE_COLORS } from './EventModal';
+import type { EventStatus } from './AgendaCalendar';
 import type { RecurrenceType } from '../../utils/recurrence';
 
 interface Props {
@@ -9,21 +10,33 @@ interface Props {
     availableKinds: string[];
     availableProvinces: string[];
     availableTypes: RecurrenceType[];
+    availableStatuses: EventStatus[];
     provinceLabels: Record<string, string>;
+    statusCounts: Record<EventStatus, number>;
     hasUpcoming: boolean;
     upcomingCount: number;
 
     selectedKinds: string[];
     selectedProvinces: string[];
     selectedTypes: string[];
+    selectedStatuses: EventStatus[];
     upcomingOnly: boolean;
+    /** Whether the status selection differs from the default. */
+    statusFiltered: boolean;
 
     onKindChange: (kind: string) => void;
     onProvinceChange: (province: string) => void;
     onTypeChange: (type: string) => void;
+    onStatusChange: (status: EventStatus) => void;
     onUpcomingChange: () => void;
     onClearFilters: () => void;
 }
+
+const STATUS_HINTS: Record<EventStatus, string> = {
+    active: 'Still running',
+    unknown: 'No recent edition found — may still run',
+    discontinued: 'No longer held',
+};
 
 export default function AgendaFilters({
     isOpen,
@@ -31,16 +44,21 @@ export default function AgendaFilters({
     availableKinds,
     availableProvinces,
     availableTypes,
+    availableStatuses,
     provinceLabels,
+    statusCounts,
     hasUpcoming,
     upcomingCount,
     selectedKinds,
     selectedProvinces,
     selectedTypes,
+    selectedStatuses,
     upcomingOnly,
+    statusFiltered,
     onKindChange,
     onProvinceChange,
     onTypeChange,
+    onStatusChange,
     onUpcomingChange,
     onClearFilters,
 }: Props) {
@@ -49,7 +67,8 @@ export default function AgendaFilters({
     const hasActiveFilters = selectedKinds.length > 0 ||
         selectedProvinces.length > 0 ||
         selectedTypes.length > 0 ||
-        upcomingOnly;
+        upcomingOnly ||
+        statusFiltered;
 
     const chipClass = (selected: boolean) =>
         `px-3 py-1 text-xs rounded-full border transition-all duration-200 ${selected
@@ -73,6 +92,32 @@ export default function AgendaFilters({
 
                 {/* Content */}
                 <div className="p-6 overflow-y-auto custom-scrollbar">
+                    <div className="mb-6">
+                        <h4 className="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 mb-2">Status</h4>
+                        <div className="flex flex-wrap gap-2">
+                            {availableStatuses.map(status => {
+                                const selected = selectedStatuses.includes(status);
+                                return (
+                                    <button
+                                        key={status}
+                                        onClick={() => onStatusChange(status)}
+                                        aria-pressed={selected}
+                                        title={STATUS_HINTS[status]}
+                                        className={`inline-flex items-center gap-1.5 ${chipClass(selected)}`}
+                                    >
+                                        <span className="capitalize">{status}</span>
+                                        <span className={`text-[10px] font-bold rounded-full px-1.5 ${selected ? 'bg-white/25' : 'bg-clay/20 dark:bg-charcoal-light/40'}`}>
+                                            {statusCounts[status]}
+                                        </span>
+                                    </button>
+                                );
+                            })}
+                        </div>
+                        {selectedStatuses.length === 0 && (
+                            <p className="mt-2 text-xs text-terra">Pick at least one status — nothing matches right now.</p>
+                        )}
+                    </div>
+
                     {hasUpcoming && (
                         <div className="mb-6">
                             <h4 className="text-xs font-bold uppercase tracking-wider text-charcoal-light dark:text-stone-500 mb-2">Upcoming</h4>
