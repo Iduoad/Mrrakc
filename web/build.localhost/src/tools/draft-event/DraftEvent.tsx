@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { AlertTriangle, FilePlus2, RotateCcw, Save, Search, Trash2 } from 'lucide-react';
+import { AlertTriangle, FilePlus2, RotateCcw, Save, Search, Trash2, Wand2 } from 'lucide-react';
 import Loading from '../../components/Loading';
 import ProvincePicker from '../../components/ProvincePicker';
 import { SelectInput, TextArea, TextInput } from '../../components/fields';
 import { ToastContainer, type NotificationType } from '../../components/Notification';
 import { deleteEventDraft, fetchEventDrafts, fetchEvents, saveEventDraft } from '../../utils/api';
 import { EVENT_KINDS, EVENT_STATUS } from '../../data/schema';
+import PromptModal from './PromptModal';
 import {
   cleanDraft, isValidId, migrateDraft, newDraft, PLACEHOLDERS, slugify, stageOf,
   STAGE_HINT, STAGE_LABEL, STAGES, type EventDraft, type Stage,
@@ -44,6 +45,7 @@ export default function DraftEvent() {
   const [isSaving, setSaving] = useState(false);
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState<Filter>('all');
+  const [isPrompting, setPrompting] = useState(false);
 
   const [notifications, setNotifications] = useState<
     { id: string; message: string; type: NotificationType }[]
@@ -174,12 +176,22 @@ export default function DraftEvent() {
       {/* Draft list */}
       <aside className="flex w-[300px] shrink-0 flex-col border-r border-clay bg-white dark:border-stone-800 dark:bg-stone-900">
         <div className="space-y-3 border-b border-clay p-4 dark:border-stone-800">
-          <button
-            onClick={create}
-            className="flex w-full items-center justify-center gap-1.5 rounded-xl bg-terra px-4 py-2 text-xs font-bold text-white transition-colors hover:bg-terra-dark"
-          >
-            <FilePlus2 size={14} /> New draft
-          </button>
+          <div className="flex gap-2">
+            <button
+              onClick={create}
+              className="flex flex-1 items-center justify-center gap-1.5 rounded-xl bg-terra px-4 py-2 text-xs font-bold text-white transition-colors hover:bg-terra-dark"
+            >
+              <FilePlus2 size={14} /> New draft
+            </button>
+            <button
+              onClick={() => setPrompting(true)}
+              disabled={!visible.length}
+              title="Generate a prompt handing these drafts to a research agent"
+              className="flex items-center gap-1.5 rounded-xl border border-clay px-3 py-2 text-xs font-bold text-charcoal-light transition-colors hover:bg-clay/20 disabled:opacity-40 dark:border-stone-700 dark:text-stone-400 dark:hover:bg-stone-800"
+            >
+              <Wand2 size={14} /> Prompt
+            </button>
+          </div>
           <div className="relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-400" size={16} />
             <input
@@ -412,6 +424,14 @@ export default function DraftEvent() {
           </div>
         )}
       </main>
+
+      {isPrompting && (
+        <PromptModal
+          candidates={visible}
+          onClose={() => setPrompting(false)}
+          notify={notify}
+        />
+      )}
 
       <ToastContainer notifications={notifications} removeNotification={dismiss} />
     </div>

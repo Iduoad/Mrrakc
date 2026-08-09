@@ -17,7 +17,7 @@ bun run dev                  # http://localhost:5180
 ```
 
 Most tools rewrite a JSON file under `data/`, so keep an eye on `git status`
-and review the diff before committing. The exception is New Event, which writes
+and review the diff before committing. The exception is Draft Event, which writes
 to the gitignored `sources/new-events/`.
 
 ## Layout
@@ -56,7 +56,7 @@ The two events authoring tools are deliberately a pair, split by whether the
 facts have been checked yet:
 
 ```
-Draft Event ──▶ (research pass: the `create-event` skill) ──▶ Event Editor
+Draft Event ──▶ (research pass: the `mrrakc-create-event` skill) ──▶ Event Editor
 sources/new-events/<id>.json                                  data/events/<id>.json
 prose, unverified                                             structured, schema-complete
 ```
@@ -149,8 +149,19 @@ opened, so nothing is stranded.
 `sources/new-events/` is gitignored wholesale — it is a personal to-research
 queue, not a citation, and a draft is disposable once the dataset entry exists.
 
-The research pass itself is the `create-event` skill
-(`.claude/skills/create-event/`): it picks a draft up from here, researches the
+**Prompt** generates the message that hands a batch of drafts to an agent, and
+shows it in a modal to copy. It lists the drafts currently in view, ticked by
+default only where the stage is `draft`; an already-added one can still be
+included, and says so in its own line so the agent enriches the record rather
+than rewriting it. The text is editable before copying.
+
+The prompt is deliberately thin — names, draft paths, and which skill to load.
+How to research an event lives in the skill, and what is known about each event
+lives in its draft; restating either here would only hand the agent a second,
+staler copy to disagree with.
+
+The research pass itself is the `mrrakc-create-event` skill
+(`.claude/skills/mrrakc-create-event/`): it picks a draft up from here, researches the
 editions year by year, writes `data/events/<id>.json`, validates it with `boon`
 plus its own house-rule linter, and sets the draft's stage to `added`. The same
 skill handles an event with no draft at all, and enriching the editions of one
@@ -203,7 +214,7 @@ What it looks at (`src/tools/recurrence-review/analyze.ts`):
   info when the note names other months that do match, since those notes are
   usually describing dates that vary.
 - **Edition hygiene** — unparseable or reversed dates, duplicate years, and
-  gaps that suggest missing editions (see the `create-event` skill).
+  gaps that suggest missing editions (see the `mrrakc-create-event` skill).
 
 The thresholds are named constants at the top of the findings section; they
 were tuned against the current 110 events to keep warnings worth reading.
