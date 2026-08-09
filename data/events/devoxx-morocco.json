@@ -8,7 +8,7 @@
     "status": "active",
     "host": {
       "provinces": [
-        "province/agadir-ida-outanane"
+        "province/agadir-ida-ou-tanane"
       ]
     },
     "recurrence": {
@@ -114,7 +114,7 @@
         "startDate": "2018-11-27",
         "endDate": "2018-11-29",
         "provinces": [
-          "province/marrakech"
+          "province/marrakesh"
         ],
         "links": [
           {
@@ -130,7 +130,7 @@
         "startDate": "2019-11-12",
         "endDate": "2019-11-14",
         "provinces": [
-          "province/agadir-ida-outanane"
+          "province/agadir-ida-ou-tanane"
         ],
         "links": [
           {
@@ -156,7 +156,7 @@
         "startDate": "2022-10-04",
         "endDate": "2022-10-06",
         "provinces": [
-          "province/agadir-ida-outanane"
+          "province/agadir-ida-ou-tanane"
         ],
         "links": [
           {
@@ -172,7 +172,7 @@
         "startDate": "2023-10-11",
         "endDate": "2023-10-13",
         "provinces": [
-          "province/agadir-ida-outanane"
+          "province/agadir-ida-ou-tanane"
         ],
         "links": [
           {
@@ -188,7 +188,7 @@
         "startDate": "2024-10-02",
         "endDate": "2024-10-04",
         "provinces": [
-          "province/agadir-ida-outanane"
+          "province/agadir-ida-ou-tanane"
         ],
         "links": []
       },
@@ -198,7 +198,7 @@
         "startDate": "2025-11-12",
         "endDate": "2025-11-14",
         "provinces": [
-          "province/marrakech"
+          "province/marrakesh"
         ],
         "links": []
       },

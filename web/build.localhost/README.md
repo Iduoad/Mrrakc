@@ -56,9 +56,9 @@ The two events authoring tools are deliberately a pair, split by whether the
 facts have been checked yet:
 
 ```
-Draft Event ──▶ (research pass: an agent, the backfill scripts) ──▶ Event Editor
-sources/new-events/<id>.json                                        data/events/<id>.json
-prose, unverified                                                   structured, schema-complete
+Draft Event ──▶ (research pass: the `create-event` skill) ──▶ Event Editor
+sources/new-events/<id>.json                                  data/events/<id>.json
+prose, unverified                                             structured, schema-complete
 ```
 
 ### Event Editor
@@ -147,11 +147,14 @@ fully-structured version of this tool are folded into the prose shape when
 opened, so nothing is stranded.
 
 `sources/new-events/` is gitignored wholesale — it is a personal to-research
-queue, not a citation. That is deliberately unlike `sources/events/_<id>-editions.json`,
-which *is* committed as the provenance for an event already in the dataset. For
-transcribing editions into an event that already exists, that pipeline
-(`scripts/backfill/`, the `backfill-editions` skill) is still the right road;
-Draft Event is for events the dataset has never heard of.
+queue, not a citation, and a draft is disposable once the dataset entry exists.
+
+The research pass itself is the `create-event` skill
+(`.claude/skills/create-event/`): it picks a draft up from here, researches the
+editions year by year, writes `data/events/<id>.json`, validates it with `boon`
+plus its own house-rule linter, and sets the draft's stage to `added`. The same
+skill handles an event with no draft at all, and enriching the editions of one
+already in the dataset.
 
 ### Recurrence Review
 
@@ -200,7 +203,7 @@ What it looks at (`src/tools/recurrence-review/analyze.ts`):
   info when the note names other months that do match, since those notes are
   usually describing dates that vary.
 - **Edition hygiene** — unparseable or reversed dates, duplicate years, and
-  gaps that suggest missing editions (see the `backfill-editions` skill).
+  gaps that suggest missing editions (see the `create-event` skill).
 
 The thresholds are named constants at the top of the findings section; they
 were tuned against the current 110 events to keep warnings worth reading.
