@@ -5,7 +5,7 @@
     "name": "Oasis Festival",
     "id": "oasis-festival",
     "description": "A premier electronic music festival held in Morocco, blending international acts with the local culture and landscapes.",
-    "status": "active",
+    "status": "unknown",
     "host": {
       "provinces": [
         "province/marrakech"

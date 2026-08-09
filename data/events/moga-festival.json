@@ -1,10 +1,17 @@
 {
   "version": "mrrakc/v0",
   "kind": "festival/music",
+  "metadata": {
+    "tags": [
+      "electronic",
+      "music",
+      "essaouira"
+    ]
+  },
   "spec": {
     "name": "MOGA Festival",
     "id": "moga-festival",
-    "description": "A boutique electronic music, art, and wellness festival held annually in Essaouira, bridging international electronic music with traditional Moroccan culture.",
+    "description": "A boutique electronic music, art, and wellness festival held annually on the Atlantic coast of Essaouira, blending international and Moroccan DJs with traditional Moroccan culture. A free city program (MOGA OFF) precedes the main ticketed festival weekend (MOGA IN).",
     "status": "active",
     "host": {
       "provinces": [
@@ -20,8 +27,36 @@
       ],
       "part": "early",
       "typicalDurationDays": 5,
-      "note": "Held in late September, early October."
+      "note": "Main festival days in late September/early October, with free city events just before."
     },
+    "admission": {
+      "options": [
+        {
+          "title": "MOGA OFF city program",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": -1
+        },
+        {
+          "title": "MOGA IN festival pass",
+          "modality": "pass",
+          "audience": "all",
+          "entranceFee": -1
+        }
+      ]
+    },
+    "links": [
+      {
+        "url": "https://mogafestival.com/",
+        "title": "Official Website",
+        "type": "website"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Moga_Festival",
+        "title": "Wikipedia",
+        "type": "article"
+      }
+    ],
     "editions": [
       {
         "year": 2016,
@@ -31,9 +66,9 @@
         "endDate": "2016-10-16",
         "links": [
           {
-            "url": "https://medias24.com/2016/10/14/moga-festival-debuts",
-            "title": "MOGA Festival 2016 Edition",
-            "type": "article"
+            "url": "https://web.facebook.com/events/essaouira/moga-essaouira-morocco-14-15-16-october-2016/1615967072060160/?_rdc=1&_rdr",
+            "title": "MOGA Festival first Edition",
+            "type": "program"
           }
         ]
       },
@@ -50,6 +85,11 @@
         "endDate": "2018-10-14",
         "links": [
           {
+            "url": "https://www.jambase.com/festival/moga-festival-2018",
+            "title": "2018 Program",
+            "type": "program"
+          },
+          {
             "url": "https://consonews.ma/2018/moga",
             "title": "MOGA Festival 2018",
             "type": "article"
@@ -57,12 +97,17 @@
         ]
       },
       {
-        "year": 2019,
         "edition": 3,
+        "year": 2019,
         "status": "held",
         "startDate": "2019-10-11",
         "endDate": "2019-10-13",
         "links": [
+          {
+            "url": "https://pan-african-music.com/moga-2019/",
+            "title": "2019 coverage",
+            "type": "article"
+          },
           {
             "url": "https://yonder.fr/2019/moga",
             "title": "MOGA Festival 2019",
@@ -78,7 +123,14 @@
       {
         "year": 2021,
         "status": "cancelled",
-        "notes": "Hiatus due to the COVID-19 pandemic."
+        "notes": "Hiatus due to the COVID-19 pandemic. This year's edition was hold in Portugal."
+        "links": [
+          {
+            "url": "https://lematin.ma/express/2021/moga-festival-edition-portugal-attendant-retour-maroc/368414.html",
+            "title": "Moga 2021 held in Portugal",
+            "type": "article"
+          }
+        ]
       },
       {
         "year": 2022,
@@ -88,6 +140,11 @@
         "endDate": "2022-10-02",
         "links": [
           {
+            "url": "https://web.facebook.com/events/h%C3%B4tel-le-golf-dessaouira-spa/moga-festival-essaouira-sep-28th-to-oct-2nd-2022/669636837378279/?_rdc=1&_rdr",
+            "title": "2022 program",
+            "type": "program"
+          },
+          {
             "url": "https://fstvl.io/2022/moga",
             "title": "MOGA Festival 2022",
             "type": "website"
@@ -95,12 +152,17 @@
         ]
       },
       {
-        "year": 2023,
         "edition": 5,
+        "year": 2023,
         "status": "held",
         "startDate": "2023-10-04",
         "endDate": "2023-10-08",
         "links": [
+          {
+            "url": "https://fr.ra.co/events/1744839",
+            "title": "2023 program",
+            "type": "program"
+          },
           {
             "url": "https://fstvl.io/2023/moga",
             "title": "MOGA Festival 2023",
@@ -109,8 +171,8 @@
         ]
       },
       {
+        "edition": 5,
         "year": 2024,
-        "edition": 6,
         "status": "held",
         "startDate": "2024-10-02",
         "endDate": "2024-10-06",
@@ -119,12 +181,17 @@
             "url": "https://fstvl.io/2024/moga",
             "title": "MOGA Festival 2024",
             "type": "website"
+          },
+          {
+            "url": "https://medias24.com/2024/08/06/moga-festival-devoile-ses-tetes-daffiche/",
+            "title": "2024 coverage",
+            "type": "article"
           }
         ]
       },
       {
         "year": 2025,
-        "edition": 7,
+        "edition": 6,
         "status": "held",
         "startDate": "2025-10-01",
         "endDate": "2025-10-05",
@@ -133,12 +200,32 @@
             "url": "https://tidar.ma/2025/moga",
             "title": "MOGA Festival 2025",
             "type": "article"
+          },
+          {
+            "url": "https://web.archive.org/web/20250530175020/https://mogafestival.com/",
+            "title": "2025 program (archived)",
+            "type": "program"
+          },
+          {
+            "url": "https://www.maroc-hebdo.com/article/le-moga-festival-de-retour-a-essaouira-du-1-au-5-octobre-2025",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://leguide.ma/event/le-moga-festival-a-essaouira-2025/",
+            "title": "2025 coverage",
+            "type": "article"
+          },
+          {
+            "url": "https://www.lesiteinfo.com/maroc/653948-moga-festival-2025-le-programme-devoile.html",
+            "title": "2025 coverage",
+            "type": "article"
           }
         ]
       },
       {
         "year": 2026,
-        "edition": 8,
+        "edition": 7,
         "status": "held",
         "startDate": "2026-09-30",
         "endDate": "2026-10-04",
@@ -147,15 +234,13 @@
             "url": "https://mogafestival.com/2026",
             "title": "MOGA Festival 2026 (10th Anniversary)",
             "type": "website"
+          },
+          {
+            "url": "https://www.mogafestival.com/program?event=essaouira",
+            "title": "2026 program",
+            "type": "program"
           }
         ]
-      }
-    ],
-    "links": [
-      {
-        "url": "https://mogafestival.com/",
-        "title": "Official Website",
-        "type": "website"
       }
     ]
   }

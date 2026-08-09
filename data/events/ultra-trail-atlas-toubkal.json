@@ -22,6 +22,7 @@
     },
     "editions": [
       {
+        "edition": 1,
         "year": 2010,
         "startDate": "2010",
         "status": "held",
@@ -34,6 +35,7 @@
         ]
       },
       {
+        "edition": 2,
         "year": 2011,
         "startDate": "2011-10-06",
         "status": "held",
@@ -46,6 +48,7 @@
         ]
       },
       {
+        "edition": 3,
         "year": 2012,
         "startDate": "2012-10-05",
         "status": "held",
@@ -58,6 +61,7 @@
         ]
       },
       {
+        "edition": 4,
         "year": 2013,
         "startDate": "2013-10-03",
         "status": "held",
@@ -70,6 +74,7 @@
         ]
       },
       {
+        "edition": 5,
         "year": 2014,
         "startDate": "2014-10",
         "status": "held",
@@ -82,6 +87,7 @@
         ]
       },
       {
+        "edition": 6,
         "year": 2015,
         "startDate": "2015-09-29",
         "endDate": "2015-10-03",
@@ -95,6 +101,7 @@
         ]
       },
       {
+        "edition": 7,
         "year": 2016,
         "startDate": "2016-09-29",
         "endDate": "2016-10-03",
@@ -108,6 +115,7 @@
         ]
       },
       {
+        "edition": 8,
         "year": 2017,
         "startDate": "2017-10-01",
         "endDate": "2017-10-08",
@@ -121,6 +129,7 @@
         ]
       },
       {
+        "edition": 9,
         "year": 2018,
         "startDate": "2018-10-04",
         "endDate": "2018-10-08",
@@ -134,6 +143,7 @@
         ]
       },
       {
+        "edition": 10,
         "year": 2019,
         "startDate": "2019-10-03",
         "status": "held",
@@ -170,6 +180,7 @@
         ]
       },
       {
+        "edition": 11,
         "year": 2022,
         "startDate": "2022-10-06",
         "endDate": "2022-10-10",
@@ -183,6 +194,7 @@
         ]
       },
       {
+        "edition": 12,
         "year": 2023,
         "startDate": "2023-10-05",
         "status": "held",
@@ -193,6 +205,21 @@
             "type": "website"
           }
         ]
+      },
+      {
+        "edition": 13,
+        "year": 2024,
+        "startDate": "2024-10-03",
+        "endDate": "2024-10-07",
+        "status": "held"
+      },
+      {
+        "edition": 14,
+        "year": 2025,
+        "startDate": "2025-10-02",
+        "endDate": "2025-10-06",
+        "status": "cancelled",
+        "notes": "Cancelled due to insufficient participants."
       }
     ],
     "links": [

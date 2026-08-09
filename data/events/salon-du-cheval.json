@@ -18,13 +18,7 @@
         10
       ],
       "part": "mid",
-      "typicalDurationDays": 6,
-      "urls": [
-        {
-          "url": "https://www.salonducheval.ma/",
-          "title": "Official Website"
-        }
-      ]
+      "typicalDurationDays": 6
     },
     "admission": {
       "options": [
@@ -43,13 +37,7 @@
         "status": "held",
         "startDate": "2010-10-19",
         "endDate": "2010-10-24",
-        "links": [
-          {
-            "url": "https://lematin.ma/",
-            "title": "Le Matin Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 4,
@@ -57,13 +45,7 @@
         "status": "held",
         "startDate": "2011-10-19",
         "endDate": "2011-10-23",
-        "links": [
-          {
-            "url": "https://lematin.ma/",
-            "title": "Le Matin Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 5,
@@ -71,13 +53,7 @@
         "status": "held",
         "startDate": "2012-10-17",
         "endDate": "2012-10-21",
-        "links": [
-          {
-            "url": "https://lematin.ma/",
-            "title": "Le Matin Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 6,
@@ -85,13 +61,7 @@
         "status": "held",
         "startDate": "2013-10-01",
         "endDate": "2013-10-06",
-        "links": [
-          {
-            "url": "https://medias24.com/",
-            "title": "Medias24 Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 7,
@@ -99,13 +69,7 @@
         "status": "held",
         "startDate": "2014-10-21",
         "endDate": "2014-10-26",
-        "links": [
-          {
-            "url": "https://medias24.com/",
-            "title": "Medias24 Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 8,
@@ -113,13 +77,7 @@
         "status": "held",
         "startDate": "2015-10-13",
         "endDate": "2015-10-18",
-        "links": [
-          {
-            "url": "https://fr.le360.ma/sports/equitation-le-haras-del-jadida-remis-a-neuf-54359",
-            "title": "Le360 Article",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 9,
@@ -127,13 +85,7 @@
         "status": "held",
         "startDate": "2016-10-11",
         "endDate": "2016-10-16",
-        "links": [
-          {
-            "url": "https://sorec.ma/",
-            "title": "SOREC Announcement",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 10,
@@ -141,13 +93,7 @@
         "status": "held",
         "startDate": "2017-10-16",
         "endDate": "2017-10-22",
-        "links": [
-          {
-            "url": "https://arabhorse.com/",
-            "title": "Arabhorse Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 11,
@@ -155,13 +101,7 @@
         "status": "held",
         "startDate": "2018-10-16",
         "endDate": "2018-10-21",
-        "links": [
-          {
-            "url": "http://www.leseco.ma/toutes-les-videos/70749-salon-du-cheval-d-el-jadida-au-menu-de-la-11e-edition.html",
-            "title": "LesEco Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 12,
@@ -169,13 +109,7 @@
         "status": "held",
         "startDate": "2019-10-15",
         "endDate": "2019-10-20",
-        "links": [
-          {
-            "url": "https://hespress.com/",
-            "title": "Hespress Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "year": 2020,
@@ -193,13 +127,7 @@
         "status": "held",
         "startDate": "2022-10-18",
         "endDate": "2022-10-23",
-        "links": [
-          {
-            "url": "https://telquel.ma/",
-            "title": "Telquel Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 14,
@@ -207,13 +135,7 @@
         "status": "held",
         "startDate": "2023-10-17",
         "endDate": "2023-10-22",
-        "links": [
-          {
-            "url": "https://medias24.com/",
-            "title": "Medias24 Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
       },
       {
         "edition": 15,
@@ -221,13 +143,21 @@
         "status": "held",
         "startDate": "2024-10-01",
         "endDate": "2024-10-06",
-        "links": [
-          {
-            "url": "https://telquel.ma/",
-            "title": "Telquel Coverage",
-            "type": "article"
-          }
-        ]
+        "links": []
+      },
+      {
+        "edition": 16,
+        "year": 2025,
+        "status": "held",
+        "startDate": "2025-09-30",
+        "endDate": "2025-10-05"
+      },
+      {
+        "edition": 17,
+        "year": 2025,
+        "status": "held",
+        "startDate": "2025-10-13",
+        "endDate": "2025-10-18"
       }
     ],
     "links": [

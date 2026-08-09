@@ -21,23 +21,31 @@
     },
     "editions": [
       {
+        "edition": 21,
         "year": 2010,
         "startDate": "2010-01-31",
+        "endDate": "2010-01-31",
         "status": "held"
       },
       {
+        "edition": 22,
         "year": 2011,
         "startDate": "2011-01-30",
+        "endDate": "2011-01-30",
         "status": "held"
       },
       {
+        "edition": 23,
         "year": 2012,
         "startDate": "2012-01-29",
+        "endDate": "2012-01-29",
         "status": "held"
       },
       {
+        "edition": 24,
         "year": 2013,
         "startDate": "2013-01-27",
+        "endDate": "2013-01-27",
         "status": "held",
         "links": [
           {
@@ -48,33 +56,45 @@
         ]
       },
       {
+        "edition": 25,
         "year": 2014,
         "startDate": "2014-01-26",
+        "endDate": "2014-01-26",
         "status": "held"
       },
       {
+        "edition": 26,
         "year": 2015,
         "startDate": "2015-01-25",
+        "endDate": "2015-01-25",
         "status": "held"
       },
       {
+        "edition": 27,
         "year": 2016,
         "startDate": "2016-01-31",
+        "endDate": "2016-01-31",
         "status": "held"
       },
       {
+        "edition": 28,
         "year": 2017,
         "startDate": "2017-01-29",
+        "endDate": "2017-01-29",
         "status": "held"
       },
       {
+        "edition": 29,
         "year": 2018,
         "startDate": "2018-01-28",
+        "endDate": "2018-01-28",
         "status": "held"
       },
       {
+        "edition": 30,
         "year": 2019,
         "startDate": "2019-01-27",
+        "endDate": "2019-01-27",
         "status": "held",
         "links": [
           {
@@ -85,8 +105,10 @@
         ]
       },
       {
+        "edition": 31,
         "year": 2020,
         "startDate": "2020-01-26",
+        "endDate": "2020-01-26",
         "status": "held",
         "links": [
           {
@@ -102,8 +124,10 @@
         "notes": "Cancelled due to COVID-19 pandemic"
       },
       {
+        "edition": 32,
         "year": 2022,
         "startDate": "2022-05-15",
+        "endDate": "2022-05-15",
         "status": "held",
         "links": [
           {
@@ -115,8 +139,10 @@
         "notes": "Held in May due to external circumstances"
       },
       {
+        "edition": 33,
         "year": 2023,
         "startDate": "2023-01-29",
+        "endDate": "2023-01-29",
         "status": "held",
         "links": [
           {
@@ -127,8 +153,10 @@
         ]
       },
       {
+        "edition": 34,
         "year": 2024,
         "startDate": "2024-01-28",
+        "endDate": "2024-01-28",
         "status": "held",
         "links": [
           {
@@ -139,13 +167,17 @@
         ]
       },
       {
+        "edition": 35,
         "year": 2025,
         "startDate": "2025-01-26",
+        "endDate": "2025-01-26",
         "status": "held"
       },
       {
+        "edition": 36,
         "year": 2026,
         "startDate": "2026-01-25",
+        "endDate": "2026-01-25",
         "status": "held",
         "links": [
           {
@@ -154,6 +186,13 @@
             "type": "website"
           }
         ]
+      },
+      {
+        "edition": 37,
+        "year": 2027,
+        "startDate": "2027-01-31",
+        "endDate": "2027-01-31",
+        "status": "held"
       }
     ],
     "links": [
