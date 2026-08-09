@@ -46,14 +46,7 @@
         "year": 2013,
         "startDate": "2013-01-27",
         "endDate": "2013-01-27",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://www.mybestruns.com/",
-            "title": "My Best Runs 2013",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 25,
@@ -95,14 +88,7 @@
         "year": 2019,
         "startDate": "2019-01-27",
         "endDate": "2019-01-27",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://www.mybestruns.com/",
-            "title": "My Best Runs 2019",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 31,
@@ -129,13 +115,6 @@
         "startDate": "2022-05-15",
         "endDate": "2022-05-15",
         "status": "held",
-        "links": [
-          {
-            "url": "https://aims-worldrunning.org/",
-            "title": "AIMS 2022",
-            "type": "website"
-          }
-        ],
         "notes": "Held in May due to external circumstances"
       },
       {
@@ -143,28 +122,14 @@
         "year": 2023,
         "startDate": "2023-01-29",
         "endDate": "2023-01-29",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://aims-worldrunning.org/",
-            "title": "AIMS 2023",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 34,
         "year": 2024,
         "startDate": "2024-01-28",
         "endDate": "2024-01-28",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://aims-worldrunning.org/",
-            "title": "AIMS 2024",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 35,
@@ -178,14 +143,7 @@
         "year": 2026,
         "startDate": "2026-01-25",
         "endDate": "2026-01-25",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://gomarathon.run/",
-            "title": "Go Marathon 2026",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 37,

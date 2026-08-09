@@ -1,0 +1,61 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "name": "M-Auto expo",
+    "id": "m-auto",
+    "description": "An automotive exhibition organized by M-Automotiv in Casablanca. It features multi-brand new and used vehicles, as well as dedicated e-tech and hybrid model editions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "irregular",
+      "type": "irregular",
+      "typicalDurationDays": 23,
+      "note": "Multiple themed exhibitions held at different times throughout the year."
+    },
+    "admission": {
+      "options": [
+        {
+          "title": "General Admission",
+          "modality": "free",
+          "audience": "all",
+          "entranceFee": 0
+        }
+      ]
+    },
+    "links": [],
+    "editions": [
+      {
+        "edition": 1,
+        "year": 2024,
+        "startDate": "2024-03-15",
+        "endDate": "2024-04-06",
+        "notes": "First edition, held during Ramadan",
+        "links": [
+          {
+            "url": "https://www.leguideauto.ma/le-mag/l-actualite/m-automotiv-fait-son-m-auto-expo-2024/9DaGk76rdV",
+            "type": "article",
+            "title": "2024 coverage"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "startDate": "2024-06-28",
+        "endDate": "2024-07-31",
+        "notes": "Salon M-Auto Expo E-tech",
+        "links": [
+          {
+            "url": "https://fr.le360.ma/economie/automobile-m-automotiv-lance-le-salon-m-auto-expo-e-tech_7JXX2XWZ3BCK3C3L7N2N4N6P4M/",
+            "type": "article",
+            "title": "2024 E-tech coverage"
+          }
+        ]
+      }
+    ]
+  }
+}

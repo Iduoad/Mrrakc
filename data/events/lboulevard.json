@@ -285,11 +285,6 @@
             "url": "https://2023.boulevard.ma/programme",
             "title": "2023 program",
             "type": "program"
-          },
-          {
-            "url": "https://2023.boulevard.ma/",
-            "title": "2023 coverage",
-            "type": "article"
           }
         ]
       },
@@ -303,11 +298,6 @@
             "url": "https://2024.boulevard.ma/programme",
             "title": "2024 program",
             "type": "program"
-          },
-          {
-            "url": "https://2024.boulevard.ma/",
-            "title": "2024 coverage",
-            "type": "article"
           }
         ]
       },
@@ -321,11 +311,6 @@
             "url": "https://2025.boulevard.ma/programme/",
             "title": "2025 program",
             "type": "program"
-          },
-          {
-            "url": "https://2025.boulevard.ma/",
-            "title": "2025 coverage",
-            "type": "article"
           }
         ]
       },

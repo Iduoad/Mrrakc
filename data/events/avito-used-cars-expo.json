@@ -1,0 +1,55 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "fair/expo",
+  "spec": {
+    "id": "avito-used-cars-expo",
+    "name": "Avito used cars expo",
+    "description": "A major used car exhibition organized by Avito Group in Casablanca, Morocco. Established in 2023, the event brings together buyers, dealers, financing and insurance professionals.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "irregular",
+      "note": "The event has historically been held in different months ranging from April to July.",
+      "typicalDurationDays": 10
+    },
+    "links": [
+      {
+        "url": "https://expo-auto.avito.ma/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ],
+    "editions": [
+      {
+        "year": 2023,
+        "edition": 1,
+        "startDate": "2023-06-09",
+        "endDate": "2023-06-18"
+      },
+      {
+        "year": 2024,
+        "edition": 2,
+        "startDate": "2024-07-01",
+        "endDate": "2024-07-07",
+        "note": "3rd edition was skipped or held during the same year"
+      },
+      {
+        "year": 2025,
+        "edition": 4,
+        "startDate": "2025-05-09",
+        "endDate": "2025-05-18"
+      },
+      {
+        "year": 2026,
+        "edition": 5,
+        "startDate": "2026-04-24",
+        "endDate": "2026-05-03"
+      }
+    ]
+  }
+}

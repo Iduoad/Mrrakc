@@ -55,14 +55,7 @@
       },
       {
         "edition": 49,
-        "year": 2011,
-        "links": [
-          {
-            "url": "https://www.kelaat-mgouna.com",
-            "title": "2011 coverage",
-            "type": "article"
-          }
-        ]
+        "year": 2011
       },
       {
         "edition": 50,
@@ -113,14 +106,7 @@
         "edition": 54,
         "year": 2016,
         "startDate": "2016-05-12",
-        "endDate": "2016-05-15",
-        "links": [
-          {
-            "url": "https://www.communesmaroc.com",
-            "title": "2016 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2016-05-15"
       },
       {
         "edition": 55,
@@ -132,27 +118,13 @@
         "edition": 56,
         "year": 2018,
         "startDate": "2018-05-10",
-        "endDate": "2018-05-13",
-        "links": [
-          {
-            "url": "https://www.agripeche.com",
-            "title": "2018 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2018-05-13"
       },
       {
         "edition": 57,
         "year": 2019,
         "startDate": "2019-04-24",
-        "endDate": "2019-04-28",
-        "links": [
-          {
-            "url": "https://www.infostourismemaroc.com",
-            "title": "2019 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2019-04-28"
       },
       {
         "year": 2020,
@@ -170,14 +142,7 @@
         "edition": 58,
         "year": 2023,
         "startDate": "2023-04-26",
-        "endDate": "2023-04-29",
-        "links": [
-          {
-            "url": "https://www.e-taqafa.ma",
-            "title": "2023 coverage",
-            "type": "article"
-          }
-        ]
+        "endDate": "2023-04-29"
       },
       {
         "edition": 59,

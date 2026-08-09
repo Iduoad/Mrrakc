@@ -25,186 +25,88 @@
         "edition": 1,
         "year": 2010,
         "startDate": "2010",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "UTAT 2010 Info",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 2,
         "year": 2011,
         "startDate": "2011-10-06",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://itra.run/",
-            "title": "ITRA UTAT 2011",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 3,
         "year": 2012,
         "startDate": "2012-10-05",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2012",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 4,
         "year": 2013,
         "startDate": "2013-10-03",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://utmb.world/",
-            "title": "UTMB UTAT 2013",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 5,
         "year": 2014,
         "startDate": "2014-10",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2014",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 6,
         "year": 2015,
         "startDate": "2015-09-29",
         "endDate": "2015-10-03",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2015",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 7,
         "year": 2016,
         "startDate": "2016-09-29",
         "endDate": "2016-10-03",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2016",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 8,
         "year": 2017,
         "startDate": "2017-10-01",
         "endDate": "2017-10-08",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://itra.run/",
-            "title": "ITRA UTAT 2017",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 9,
         "year": 2018,
         "startDate": "2018-10-04",
         "endDate": "2018-10-08",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2018",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 10,
         "year": 2019,
         "startDate": "2019-10-03",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2019",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "year": 2020,
         "status": "cancelled",
-        "notes": "Cancelled due to COVID-19.",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2020 Cancellation",
-            "type": "website"
-          }
-        ]
+        "notes": "Cancelled due to COVID-19."
       },
       {
         "year": 2021,
         "status": "cancelled",
-        "notes": "Cancelled due to COVID-19.",
-        "links": [
-          {
-            "url": "https://runraid.fr/",
-            "title": "Runraid UTAT 2021 Cancellation",
-            "type": "website"
-          }
-        ]
+        "notes": "Cancelled due to COVID-19."
       },
       {
         "edition": 11,
         "year": 2022,
         "startDate": "2022-10-06",
         "endDate": "2022-10-10",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://itra.run/",
-            "title": "ITRA UTAT 2022",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 12,
         "year": 2023,
         "startDate": "2023-10-05",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://trailrunner.com/",
-            "title": "Trailrunner UTAT 2023",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "edition": 13,

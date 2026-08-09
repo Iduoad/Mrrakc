@@ -1,0 +1,78 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "festival/traditional-arts",
+  "spec": {
+    "id": "international-festival-of-the-sahara",
+    "name": "International Festival of the Sahara",
+    "description": "مهرجان الصحراء الدولي is an annual cultural festival in Agadir celebrating Saharan and Amazigh heritage. Organized by the National Forum for Sahara Youth, it features traditional equestrian shows (Tbourida), Saharan music, poetry, and crafts to strengthen cultural ties between the Souss region and the Moroccan Sahara.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "type": "gregorian",
+      "frequency": "annual",
+      "months": [7],
+      "part": "late",
+      "typicalDurationDays": 4
+    },
+    "links": [],
+    "editions": [
+      {
+        "year": 2016,
+        "edition": 2,
+        "startDate": "2016-08-18",
+        "endDate": "2016-08-20"
+      },
+      {
+        "year": 2017,
+        "edition": 3
+      },
+      {
+        "year": 2018,
+        "edition": 4,
+        "startDate": "2018-08-05",
+        "endDate": "2018-08-05"
+      },
+      {
+        "year": 2019,
+        "edition": 5,
+        "startDate": "2019-07-24",
+        "endDate": "2019-07-28"
+      },
+      {
+        "year": 2022,
+        "edition": 6,
+        "startDate": "2022-08-17",
+        "endDate": "2022-08-21"
+      },
+      {
+        "year": 2023,
+        "edition": 7,
+        "startDate": "2023-08-10",
+        "endDate": "2023-08-14"
+      },
+      {
+        "year": 2025,
+        "edition": 9,
+        "startDate": "2025-08-01",
+        "endDate": "2025-08-04"
+      },
+      {
+        "year": 2026,
+        "edition": 10,
+        "startDate": "2026-07-16",
+        "endDate": "2026-07-19",
+        "links": [
+          {
+            "url": "https://web.facebook.com/jaridatahdatawrir/posts/pfbid0sh6arUMnyNDcoWzVU4tLnbPR5y4WrRkCFxp3HWcAoKTMCkxEwvm6N76eiJJwmLDbl",
+            "title": "2026 program",
+            "type": "program"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Nour Rallye Raid",
+    "id": "nour-rallye-raid",
+    "description": "A 100% women's solidarity rally raid in the Moroccan desert. Launched in 2024 by Hanane Amraoui, the event emphasizes navigation, orientation, and social initiatives for local communities.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/errachidia"
+      ]
+    },
+    "recurrence": {
+      "frequency": "irregular",
+      "type": "irregular",
+      "note": "Runs multiple sessions per year (e.g. spring and autumn)."
+    },
+    "links": [
+      {
+        "type": "website",
+        "url": "https://mautomotiv-raidnour.com",
+        "title": "Official Website"
+      },
+      {
+        "type": "social",
+        "url": "https://www.instagram.com/nourrallyeraid/",
+        "title": "Instagram Page"
+      }
+    ],
+    "editions": [
+      {
+        "year": 2024,
+        "edition": 1,
+        "startDate": "2024-04-15",
+        "endDate": "2024-04-18",
+        "links": [
+          {
+            "type": "article",
+            "url": "https://lematin.ma/sports/nour-rallye-raid-course-solidaire-a-merzouga-pour-toutes-les-africaines/220960",
+            "title": "2024 coverage"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "startDate": "2025-02-18",
+        "endDate": "2025-02-21"
+      },
+      {
+        "year": 2025,
+        "edition": 2,
+        "startDate": "2025-11-23",
+        "endDate": "2025-11-27",
+        "links": [
+          {
+            "type": "article",
+            "url": "https://lobservateur.info/article/116492/auto/m-automotiv-nour-rallye-raid-2025-une-aventure-feminine-100-marocaine-qui-a-fait-vibrer-le-sud",
+            "title": "2025 coverage"
+          }
+        ]
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-04-04",
+        "endDate": "2026-04-08"
+      },
+      {
+        "year": 2026,
+        "edition": 3,
+        "startDate": "2026-10-27",
+        "endDate": "2026-10-31",
+        "links": [
+          {
+            "type": "program",
+            "url": "https://mautomotiv-raidnour.com/event-venues-2/",
+            "title": "2026 programme"
+          }
+        ]
+      }
+    ]
+  }
+}

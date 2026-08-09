@@ -51,27 +51,13 @@
         "year": 2014,
         "startDate": "2014-04-23",
         "endDate": "2014-04-26",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://www.nsalons.com/marrakech-air-show/",
-            "title": "Nsalons 2014 Dates",
-            "type": "article"
-          }
-        ]
+        "status": "held"
       },
       {
         "year": 2016,
         "startDate": "2016-04-27",
         "endDate": "2016-04-30",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://www.nsalons.com/marrakech-air-show/",
-            "title": "Nsalons 2016 Dates",
-            "type": "article"
-          }
-        ]
+        "status": "held"
       },
       {
         "year": 2018,
@@ -100,33 +86,24 @@
         "year": 2024,
         "startDate": "2024-10-30",
         "endDate": "2024-11-02",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://www.marrakechairshow2026.com/",
-            "title": "Marrakech Air Show 2024 Info",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       },
       {
         "year": 2026,
         "startDate": "2026-10-07",
         "endDate": "2026-10-10",
-        "status": "held",
-        "links": [
-          {
-            "url": "https://www.marrakechairshow2026.com/",
-            "title": "Marrakech Air Show 2026 Info",
-            "type": "website"
-          }
-        ]
+        "status": "held"
       }
     ],
     "links": [
       {
         "url": "https://www.marrakechairshow2026.com/",
         "title": "Marrakech Air Show Official Website",
+        "type": "website"
+      },
+      {
+        "url": "https://www.nsalons.com/marrakech-air-show/",
+        "title": "Nsalons event page",
         "type": "website"
       }
     ]

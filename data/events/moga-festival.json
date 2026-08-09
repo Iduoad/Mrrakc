@@ -152,6 +152,7 @@
         ]
       },
       {
+        "edition": 5,
         "year": 2023,
         "status": "held",
         "startDate": "2023-10-04",
@@ -170,7 +171,7 @@
         ]
       },
       {
-        "edition": 5,
+        "edition": 6,
         "year": 2024,
         "status": "held",
         "startDate": "2024-10-02",
@@ -190,7 +191,7 @@
       },
       {
         "year": 2025,
-        "edition": 6,
+        "edition": 7,
         "status": "held",
         "startDate": "2025-10-01",
         "endDate": "2025-10-05",
@@ -223,8 +224,8 @@
         ]
       },
       {
+        "edition": 8,
         "year": 2026,
-        "edition": 7,
         "status": "held",
         "startDate": "2026-09-30",
         "endDate": "2026-10-04",
