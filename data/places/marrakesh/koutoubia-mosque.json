@@ -4,24 +4,101 @@
   "spec": {
     "name": "Koutoubia Mosque",
     "id": "koutoubia-mosque",
-    "description": "No description available",
+    "description": "The Koutoubia Mosque is the largest mosque in Marrakech and one of the city's most recognizable monuments. It was established after the Almohad conquest of Marrakech in the 12th century under the caliph Abd al-Mu'min. A second mosque was subsequently constructed beside the first, forming the Koutoubia that survives today. Its celebrated minaret, completed during the reign of Ya'qub al-Mansur, became an influential model for later western Islamic architecture, including the Hassan Tower in Rabat and the Giralda in Seville. The mosque takes its name from the booksellers, or kutubiyyin, who historically occupied the surrounding area.",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.99362,
       "latitude": 31.623721,
-      "altitude": 0.0
+      "altitude": 466
     },
+
     "access": {
-      "type": "public",
+      "type": "religious",
       "status": "open",
-      "options": []
+      "options": [
+        {
+          "title": "Exterior and gardens",
+          "entranceFee": 0
+        },
+
+        {
+          "title": "Mosque interior",
+
+          "entranceFee": -1
+        }
+      ],
+
+      "comment": "The exterior and surrounding gardens can be visited freely. The mosque remains an active place of worship. Interior access is generally reserved for Muslims, and visitors should respect prayer times and religious practices."
     },
-    "timePeriods": [],
-    "people": [],
-    "timeline": [],
-    "links": [],
+
+    "timePeriods": ["Almohad dynasty"],
+
+    "people": [
+      {
+        "id": "person/abd-al-mumin",
+
+        "relationship": [
+          "Almohad caliph who commissioned the Koutoubia Mosque complex after the conquest of Marrakech"
+        ]
+      },
+
+      {
+        "id": "person/yaqub-al-mansur",
+
+        "relationship": [
+          "Almohad caliph associated with the completion of the Koutoubia minaret"
+        ]
+      }
+    ],
+
+    "timeline": [
+      {
+        "date": "1147-01-01",
+
+        "title": "Almohad conquest of Marrakech",
+
+        "description": "The Almohads under Abd al-Mu'min conquered Marrakech, beginning a major transformation of the city's religious and monumental architecture."
+      },
+
+      {
+        "date": "1148-01-01",
+
+        "title": "First Koutoubia Mosque",
+
+        "description": "Abd al-Mu'min commissioned the first Koutoubia Mosque shortly after the Almohad conquest of Marrakech."
+      },
+
+      {
+        "date": "1158-01-01",
+
+        "title": "Construction of the second mosque",
+
+        "description": "A second mosque was constructed beside the first. This later building forms the principal Koutoubia Mosque that survives today."
+      },
+
+      {
+        "date": "1195-01-01",
+
+        "title": "Completion of the minaret",
+
+        "description": "The monumental minaret was completed during the reign of the Almohad caliph Ya'qub al-Mansur and became a major model for later Islamic architecture in Morocco and al-Andalus."
+      }
+    ],
+
+    "links": [
+      {
+        "url": "https://whc.unesco.org/en/list/331/",
+
+        "title": "UNESCO - Medina of Marrakesh",
+
+        "type": "website"
+      }
+    ],
+
     "activities": [],
+
     "items": [],
+
     "comments": []
   }
 }

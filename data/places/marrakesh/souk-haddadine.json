@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "spec": {
+    "name": "Souk Haddadine",
+    "id": "souk-haddadine",
+    "description": "The traditional blacksmiths' and metalworkers' souk of Marrakech. The district remains associated with metal craftsmanship, including lanterns, decorative ironwork and other handmade objects.",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.988,
+      "latitude": 31.6309,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=Souk+Haddadine+Marrakech",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

@@ -4,24 +4,126 @@
   "spec": {
     "name": "El Badi Palace",
     "id": "el-badi-palace",
-    "description": "No description available",
+    "description": "El Badi Palace is a monumental Saadian palace in the Kasbah of Marrakech. It was commissioned by Sultan Ahmad al-Mansur following the Saadian victory over Portugal at the Battle of the Three Kings in 1578. Designed as a symbol of royal power and wealth, the palace was built with luxurious materials including marble, carved stucco, cedar wood and imported decorative elements. Its vast central courtyard was organized around a large reflecting pool, gardens and richly decorated pavilions. After the decline of the Saadian dynasty, much of the palace was dismantled under the Alaouite sultan Moulay Ismail and its valuable materials were reused in other royal projects. Today, its monumental ruins preserve the scale and organization of one of the most ambitious palaces of Saadian Morocco.",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.985862,
       "latitude": 31.618236,
-      "altitude": 0.0
+      "altitude": 465
     },
+
     "access": {
       "type": "public",
+
       "status": "open",
-      "options": []
+
+      "options": [
+        {
+          "title": "Moroccan adult",
+
+          "entranceFee": 30
+        },
+
+        {
+          "title": "Moroccan child (7–13)",
+
+          "entranceFee": 10
+        },
+
+        {
+          "title": "Foreign adult",
+
+          "entranceFee": 100
+        },
+
+        {
+          "title": "Foreign child (7–13)",
+
+          "entranceFee": 30
+        }
+      ],
+
+      "comment": "Admission fees and opening conditions may change. Moroccan nationals can benefit from free admission on Fridays and on the first day of national and religious holidays under the Ministry of Culture's monument admission policy."
     },
-    "timePeriods": [],
-    "people": [],
-    "timeline": [],
-    "links": [],
+
+    "timePeriods": ["Saadian dynasty", "Alaouite dynasty"],
+
+    "people": [
+      {
+        "id": "person/ahmad-al-mansur",
+
+        "relationship": [
+          "Saadian sultan who commissioned El Badi Palace",
+
+          "Used the palace as an expression of Saadian royal power and prestige"
+        ]
+      },
+
+      {
+        "id": "person/moulay-ismail",
+
+        "relationship": [
+          "Alaouite sultan under whose reign much of the palace was dismantled and its materials reused"
+        ]
+      }
+    ],
+
+    "timeline": [
+      {
+        "date": "1578-01-01",
+
+        "title": "Construction begins",
+
+        "description": "Sultan Ahmad al-Mansur began the construction of El Badi Palace after the Saadian victory at the Battle of the Three Kings."
+      },
+
+      {
+        "date": "1593-01-01",
+
+        "title": "Major palace construction",
+
+        "description": "By the end of the 16th century, El Badi had developed into an elaborate royal complex centered on a vast courtyard with pools, gardens and monumental pavilions."
+      },
+
+      {
+        "date": "1603-01-01",
+
+        "title": "Death of Ahmad al-Mansur",
+
+        "description": "Ahmad al-Mansur died in 1603. The Saadian state subsequently entered a period of political division and decline."
+      },
+
+      {
+        "date": "1696-01-01",
+
+        "title": "Dismantling of the palace",
+
+        "description": "During the reign of the Alaouite sultan Moulay Ismail, much of El Badi Palace was stripped of its valuable decorative materials, many of which were reused in other royal construction projects."
+      }
+    ],
+
+    "links": [
+      {
+        "url": "https://whc.unesco.org/en/list/331/",
+
+        "title": "UNESCO - Medina of Marrakesh",
+
+        "type": "website"
+      },
+
+      {
+        "url": "https://e-services.minculture.gov.ma/en/tickets/palais-badii",
+
+        "title": "Moroccan Ministry of Culture - Tickets",
+
+        "type": "website"
+      }
+    ],
+
     "activities": [],
+
     "items": [],
+
     "comments": []
   }
 }

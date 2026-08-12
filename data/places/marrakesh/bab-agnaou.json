@@ -4,24 +4,74 @@
   "spec": {
     "name": "Bab Agnaou",
     "id": "bab-agnaou",
-    "description": "No description available",
+    "description": "Bab Agnaou is one of the most important historic gates of Marrakech and a major example of Almohad monumental architecture. Built in the late 12th century during the reign of the Almohad caliph Ya'qub al-Mansur, it served as the principal ceremonial entrance to the royal Kasbah. Unlike many defensive gates in the city walls, Bab Agnaou had an important representative and symbolic role. Its stone façade is distinguished by a large horseshoe arch surrounded by carved geometric and vegetal decoration and a Quranic inscription.",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.990717,
       "latitude": 31.61756,
-      "altitude": 0.0
+      "altitude": 465
     },
+
     "access": {
       "type": "public",
+
       "status": "open",
-      "options": []
+
+      "options": [
+        {
+          "title": "Public access",
+
+          "entranceFee": 0
+        }
+      ],
+
+      "comment": "Bab Agnaou is a public historic gate and can be viewed and passed through freely."
     },
-    "timePeriods": [],
-    "people": [],
-    "timeline": [],
-    "links": [],
+
+    "timePeriods": ["Almohad dynasty"],
+
+    "people": [
+      {
+        "id": "person/yaqub-al-mansur",
+
+        "relationship": [
+          "Almohad caliph who commissioned the royal Kasbah and under whose reign Bab Agnaou was constructed"
+        ]
+      }
+    ],
+
+    "timeline": [
+      {
+        "date": "1185-01-01",
+
+        "title": "Construction of the Almohad Kasbah",
+
+        "description": "Ya'qub al-Mansur began developing a new royal Kasbah in the southern part of Marrakech during his reign."
+      },
+
+      {
+        "date": "1190-01-01",
+
+        "title": "Construction of Bab Agnaou",
+
+        "description": "Bab Agnaou was constructed around the late 1180s or 1190 as the monumental public entrance to the new Almohad royal Kasbah."
+      }
+    ],
+
+    "links": [
+      {
+        "url": "https://whc.unesco.org/en/list/331/",
+
+        "title": "UNESCO - Medina of Marrakesh",
+
+        "type": "website"
+      }
+    ],
+
     "activities": [],
+
     "items": [],
+
     "comments": []
   }
 }
