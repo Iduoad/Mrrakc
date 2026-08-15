@@ -4,22 +4,77 @@
   "spec": {
     "name": "Medresa Ben Youssef",
     "id": "medresa-ben-youssef",
-    "description": "No description available",
+    "description": "The Medresa Ben Youssef is one of Marrakech's most important historic monuments and one of the finest examples of Saadian architecture. It served as an important center of Islamic learning and is known for its large central courtyard, carved stucco, cedar woodwork, marble and traditional zellige decoration.",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.986276,
       "latitude": 31.632054,
-      "altitude": 0.0
+      "altitude": 465
     },
     "access": {
       "type": "public",
       "status": "open",
-      "options": []
+      "options": [
+        {
+          "title": "Moroccan adult",
+          "entranceFee": 20
+        },
+        {
+          "title": "Foreign adult",
+          "entranceFee": 50
+        },
+        {
+          "title": "Child under 12",
+          "entranceFee": 10
+        },
+        {
+          "title": "Group",
+          "entranceFee": 30
+        }
+      ],
+      "comment": "Opening hours and entrance fees may change. Check the official website before visiting."
     },
-    "timePeriods": [],
-    "people": [],
-    "timeline": [],
-    "links": [],
+    "timePeriods": ["Saadian dynasty"],
+    "people": [
+      {
+        "id": "person/abdallah-al-ghalib",
+        "relationship": ["Sultan"]
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1565-01-01",
+        "title": "Saadian construction",
+        "description": "The current medresa was completed during the reign of the Saadian sultan Abdallah al-Ghalib."
+      },
+      {
+        "date": "1960-01-01",
+        "title": "End of educational use",
+        "description": "The medresa ceased functioning as a religious college."
+      },
+      {
+        "date": "1982-01-01",
+        "title": "Opened as a historic monument",
+        "description": "Following restoration work, the medresa became accessible to visitors as a historic monument."
+      },
+      {
+        "date": "2018-01-01",
+        "title": "Major restoration",
+        "description": "The monument closed for an extensive restoration and conservation program."
+      },
+      {
+        "date": "2022-01-01",
+        "title": "Reopened to visitors",
+        "description": "The restored Medresa Ben Youssef reopened to the public."
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.medersabenyoussef.ma/en/",
+        "title": "Official Medresa Ben Youssef Website",
+        "type": "website"
+      }
+    ],
     "activities": [],
     "items": [],
     "comments": []

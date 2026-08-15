@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "spec": {
+    "name": "Souk Semmarine",
+    "id": "souk-semmarine",
+    "description": "One of the main commercial arteries of Marrakech's Medina, Souk Semmarine connects the central souk network with Jemaa el-Fna. It is known for carpets, textiles, leather goods, lanterns, spices and traditional Moroccan crafts.",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.988085,
+      "latitude": 31.628028,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=Souk+Semmarine+Marrakech",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

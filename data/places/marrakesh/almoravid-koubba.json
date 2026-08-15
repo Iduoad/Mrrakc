@@ -4,24 +4,99 @@
   "spec": {
     "name": "Almoravid Koubba",
     "id": "almoravid-koubba",
-    "description": "No description available",
+    "description": "The Almoravid Koubba is one of the oldest surviving monuments in Marrakech and a rare example of Almoravid architecture. Built in the early 12th century during the reign of Ali ibn Yusuf, it was probably part of the original Ben Youssef Mosque complex and served as a pavilion for ritual ablutions. The monument is especially notable for its carved dome, geometric and vegetal decoration, Arabic inscriptions and early examples of muqarnas ornamentation.",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.98715,
       "latitude": 31.631423,
-      "altitude": 0.0
+      "altitude": 466
     },
+
     "access": {
       "type": "public",
+
       "status": "open",
-      "options": []
+
+      "options": [
+        {
+          "title": "Foreign adult",
+
+          "entranceFee": 100
+        },
+        {
+          "title": "Moroccan adult",
+
+          "entranceFee": 30
+        },
+
+        {
+          "title": "Moroccan child (7–13)",
+
+          "entranceFee": 10
+        }
+      ],
+
+      "comment": "Free entry is available to Moroccan nationals every Friday and on the first day of national and religious holidays. Admission conditions and prices may change."
     },
-    "timePeriods": [],
-    "people": [],
-    "timeline": [],
-    "links": [],
+
+    "timePeriods": ["Almoravid dynasty"],
+
+    "people": [
+      {
+        "id": "person/ali-ibn-yusuf",
+
+        "relationship": ["Ruler"]
+      }
+    ],
+
+    "timeline": [
+      {
+        "date": "1125-01-01",
+
+        "title": "Construction during the Almoravid period",
+
+        "description": "The Koubba was built during the reign of the Almoravid ruler Ali ibn Yusuf, probably as part of the nearby Ben Youssef Mosque complex."
+      },
+
+      {
+        "date": "1147-01-01",
+
+        "title": "Almohad conquest of Marrakech",
+
+        "description": "The Almohads conquered Marrakech and many Almoravid religious buildings were destroyed or substantially altered. The Koubba survived."
+      },
+
+      {
+        "date": "1947-01-01",
+
+        "title": "Rediscovery documented",
+
+        "description": "The existence of the buried monument was documented by scholars after centuries of accumulated construction and rising ground levels had concealed much of the structure."
+      },
+
+      {
+        "date": "1950-01-01",
+
+        "title": "Archaeological excavation",
+
+        "description": "Archaeological investigations uncovered the monument and surrounding remains, including water installations associated with its original function."
+      }
+    ],
+
+    "links": [
+      {
+        "url": "https://e-services.minculture.gov.ma/en/tickets/coupole-almoravides",
+
+        "title": "Moroccan Ministry of Culture - Tickets",
+
+        "type": "website"
+      }
+    ],
+
     "activities": [],
+
     "items": [],
+
     "comments": []
   }
 }

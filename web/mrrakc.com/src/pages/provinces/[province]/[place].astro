@@ -127,7 +127,7 @@ const formatDate = (dateStr: string) => {
               </div>
             )}
 
-            {spec.location.altitude && (
+            {spec.location.altitude !== undefined && spec.location.altitude !== null && (
               <div>
                 <span class="text-xs font-bold uppercase tracking-wider text-charcoal/80 dark:text-stone-300 block mb-1">Altitude</span>
                 <div class="flex items-center gap-2 text-charcoal dark:text-stone-200 font-bold">

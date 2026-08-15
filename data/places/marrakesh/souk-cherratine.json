@@ -1,0 +1,33 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "shopping/market",
+  "spec": {
+    "name": "Souk Cherratine",
+    "id": "souk-cherratine",
+    "description": "A traditional artisan souk in Marrakech's Medina historically associated with leatherworkers. It forms part of the dense market network south of the Ben Youssef district.",
+    "location": {
+      "province": "province/marrakesh",
+      "longitude": -7.9876,
+      "latitude": 31.631,
+      "altitude": 0.0
+    },
+    "access": {
+      "type": "public",
+      "status": "open",
+      "options": []
+    },
+    "timePeriods": [],
+    "people": [],
+    "timeline": [],
+    "links": [
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=Souk+Cherratine+Marrakech",
+        "title": "Google Maps",
+        "type": "map"
+      }
+    ],
+    "activities": [],
+    "items": [],
+    "comments": []
+  }
+}

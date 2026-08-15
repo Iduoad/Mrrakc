@@ -4,30 +4,126 @@
   "spec": {
     "name": "Bahia Palace",
     "id": "bahia-palace",
-    "description": "No description available",
+    "description": "Bahia Palace is one of Marrakech's most important 19th-century palaces and a major example of Moroccan architecture from the Alaouite period. Construction began under Si Moussa, a powerful grand vizier, and the palace was later greatly expanded by his son Ahmed ben Moussa, known as Ba Ahmed. The complex developed gradually into an extensive residence organized around courtyards, gardens and richly decorated rooms. Its architecture features traditional zellige tilework, carved and painted cedar ceilings, sculpted stucco and marble. The palace reflects the wealth and political influence of Morocco's grand viziers during the late 19th century.",
     "location": {
       "province": "province/marrakesh",
       "longitude": -7.981969,
       "latitude": 31.621707,
-      "altitude": 0.0
+      "altitude": 472
     },
+
     "access": {
       "type": "public",
+
       "status": "open",
-      "options": []
+
+      "options": [
+        {
+          "title": "Moroccan adult",
+
+          "entranceFee": 30
+        },
+
+        {
+          "title": "Moroccan child (7–13)",
+
+          "entranceFee": 10
+        },
+
+        {
+          "title": "Foreign adult",
+
+          "entranceFee": 100
+        },
+
+        {
+          "title": "Foreign child (7–13)",
+
+          "entranceFee": 30
+        }
+      ],
+
+      "comment": "Admission fees and opening conditions may change. Check current official visitor information before visiting."
     },
-    "timePeriods": [],
-    "people": [],
-    "timeline": [],
-    "links": [
+
+    "timePeriods": ["Alaouite dynasty", "19th century"],
+
+    "people": [
       {
-        "url": "https://maps.google.com/?cid=9410376181104082907",
-        "title": "https://maps.google.com/?cid=9410376181104082907",
-        "type": "map"
+        "id": "person/si-moussa",
+
+        "relationship": ["Grand Vizier"]
+      },
+
+      {
+        "id": "person/ahmed-ben-moussa",
+
+        "relationship": ["Grand Vizier"]
+      },
+
+      {
+        "id": "person/mohammed-al-makki",
+
+        "relationship": ["Architect"]
       }
     ],
+
+    "timeline": [
+      {
+        "date": "1866-01-01",
+
+        "title": "Construction begins",
+
+        "description": "Construction of Bahia Palace began under Si Moussa, who served as a powerful grand vizier in Morocco."
+      },
+
+      {
+        "date": "1894-01-01",
+
+        "title": "Expansion under Ba Ahmed",
+
+        "description": "Ahmed ben Moussa, known as Ba Ahmed, became grand vizier and substantially expanded the palace, adding new courtyards, residences, gardens and richly decorated spaces."
+      },
+
+      {
+        "date": "1900-01-01",
+
+        "title": "Death of Ba Ahmed",
+
+        "description": "Ba Ahmed died in 1900, marking the end of the principal period of expansion that gave Bahia Palace much of its present form."
+      },
+
+      {
+        "date": "1912-01-01",
+
+        "title": "French Protectorate period",
+
+        "description": "During the French Protectorate, parts of Bahia Palace were used by the French administration and as a residence for senior officials."
+      }
+    ],
+
+    "links": [
+      {
+        "url": "https://whc.unesco.org/en/list/331/",
+
+        "title": "UNESCO - Medina of Marrakesh",
+
+        "type": "website"
+      },
+
+      {
+        "url": "https://e-services.minculture.gov.ma/en/tickets/palais-bahia",
+
+        "title": "Moroccan Ministry of Culture - Tickets",
+
+        "type": "website"
+      }
+    ],
+
     "activities": [],
+
     "items": [],
+
     "comments": []
   }
 }

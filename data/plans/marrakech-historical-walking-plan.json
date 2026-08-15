@@ -1,0 +1,96 @@
+{
+  "kind": "plans/cultural",
+  "version": "mrrakc/v0",
+  "spec": {
+    "id": "marrakech-historic-monuments-one-day",
+    "title": "Historic Marrakech in One Day",
+    "description": "Explore Marrakech's essential historical monuments on a one-day walking route through the Medina, from its Almoravid origins and Almohad landmarks to the palaces and royal monuments of the Saadian and Alaouite periods.",
+    "estimatedDuration": {
+      "value": 1,
+      "unit": "days"
+    },
+    "difficulty": "easy",
+    "steps": [
+      {
+        "title": "Start at Madrasa Ben Youssef ",
+        "description": "Begin the morning in the historic heart of the Medina at Madrasa Ben Youssef . Explore its central courtyard, student rooms, carved cedar, stucco decoration and zellige craftsmanship.",
+        "type": "waypoint",
+        "placeIds": ["places/marrakesh/medresa-ben-youssef"]
+      },
+      {
+        "title": "Discover the Almoravid Koubba",
+        "description": "Walk to the nearby Almoravid Koubba, one of the rare surviving monuments from the Almoravid period and an important link to the origins of Marrakech.",
+        "type": "activity",
+        "placeIds": ["places/marrakesh/almoravid-koubba"]
+      },
+      {
+        "title": "Walk Through the Historic Souks",
+        "description": "Continue south through the Medina's traditional souks. Observe workshops, narrow streets, fondouks and traditional commercial life while heading toward Jemaa el-Fna.",
+        "type": "activity",
+        "placeIds": [
+          "places/marrakesh/marrakech-souks",
+          "places/marrakesh/souk-cherratine",
+          "places/marrakesh/souk-haddadine",
+          "places/marrakesh/rahba-kedima-square",
+          "places/marrakesh/souk-semmarine"
+        ]
+      },
+      {
+        "title": "Arrive at Jemaa el-Fnaa Square",
+        "description": "Reach Marrakech's historic central square. Use the morning visit to understand its position between the souks, Koutoubia and the southern Medina before returning later when the square becomes more animated.",
+        "type": "waypoint",
+        "placeIds": ["places/marrakesh/jemaa-el-fnaa-square"]
+      },
+      {
+        "title": "Visit the Koutoubia Mosque",
+        "description": "Walk to Marrakech's most recognizable monument. Admire the 12th-century Almohad minaret and explore the surrounding gardens and exterior of the mosque.",
+        "type": "activity",
+        "placeIds": ["places/marrakesh/koutoubia-mosque"]
+      },
+      {
+        "title": "Pass Through Bab Agnaou",
+        "description": "Continue toward the Kasbah and stop at Bab Agnaou, the monumental Almohad gateway that historically provided ceremonial access to Marrakech's royal Kasbah.",
+        "type": "waypoint",
+        "placeIds": ["places/marrakesh/bab-agnaou"]
+      },
+      {
+        "title": "Explore the Saadian Tombs",
+        "description": "Visit the royal necropolis of the Saadian dynasty. Explore the decorated mausoleums, gardens and the celebrated Chamber of the Twelve Columns.",
+        "type": "activity",
+        "placeIds": ["places/marrakesh/saadian-tombs"]
+      },
+      {
+        "title": "Lunch in the Kasbah",
+        "description": "Take a lunch break around the Kasbah before continuing to the palaces of southern Marrakech.",
+        "type": "break",
+        "placeIds": ["places/marrakesh/kasbah-of-marrakech"]
+      },
+      {
+        "title": "Explore El Badi Palace",
+        "description": "Explore the monumental ruins of the palace commissioned by Saadian Sultan Ahmad al-Mansur. Walk through its vast courtyard, sunken gardens and surviving structures while learning about the power of Saadian Marrakech.",
+        "type": "activity",
+        "placeIds": ["places/marrakesh/el-badi-palace"]
+      },
+      {
+        "title": "Visit Bahia Palace",
+        "description": "Continue to Bahia Palace, a major example of 19th-century Moroccan palace architecture. Explore its courtyards, gardens, painted cedar ceilings, carved plaster and richly decorated reception rooms.",
+        "type": "activity",
+        "placeIds": ["places/marrakesh/bahia-palace"]
+      },
+      {
+        "title": "Return Through the Medina",
+        "description": "Walk north through the Medina toward Jemaa el-Fna, passing traditional streets and shops as the atmosphere changes toward the evening.",
+        "type": "waypoint",
+        "placeIds": [
+          "places/marrakesh/el-mellah",
+          "places/marrakesh/tinsmiths-square"
+        ]
+      },
+      {
+        "title": "End the Day at Jemaa el-Fna",
+        "description": "Finish the historical route at Jemaa el-Fna in the late afternoon or evening, when food stalls, performers and crowds transform the historic square into one of Marrakech's defining cultural experiences.",
+        "type": "activity"
+      }
+    ]
+  }
+}
