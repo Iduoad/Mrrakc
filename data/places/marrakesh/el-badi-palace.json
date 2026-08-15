@@ -11,113 +11,84 @@
       "latitude": 31.618236,
       "altitude": 465
     },
-
     "access": {
       "type": "public",
-
       "status": "open",
-
       "options": [
         {
           "title": "Moroccan adult",
-
+          "modality": "ticket",
+          "audience": "locals",
           "entranceFee": 30
         },
-
         {
           "title": "Moroccan child (7–13)",
-
+          "modality": "ticket",
+          "audience": "children",
           "entranceFee": 10
         },
-
         {
           "title": "Foreign adult",
-
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 100
         },
-
         {
           "title": "Foreign child (7–13)",
-
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 30
         }
       ],
-
       "comment": "Admission fees and opening conditions may change. Moroccan nationals can benefit from free admission on Fridays and on the first day of national and religious holidays under the Ministry of Culture's monument admission policy."
     },
-
     "timePeriods": ["Saadian dynasty", "Alaouite dynasty"],
-
     "people": [
       {
-        "id": "person/ahmad-al-mansur",
-
+        "id": "people/ahmad-al-mansur",
         "relationship": ["Sultan"]
       },
-
       {
-        "id": "person/moulay-ismail",
-
+        "id": "people/moulay-ismail",
         "relationship": ["Sultan"]
       }
     ],
-
     "timeline": [
       {
         "date": "1578-01-01",
-
         "title": "Construction begins",
-
         "description": "Sultan Ahmad al-Mansur began the construction of El Badi Palace after the Saadian victory at the Battle of the Three Kings."
       },
-
       {
         "date": "1593-01-01",
-
         "title": "Major palace construction",
-
         "description": "By the end of the 16th century, El Badi had developed into an elaborate royal complex centered on a vast courtyard with pools, gardens and monumental pavilions."
       },
-
       {
         "date": "1603-01-01",
-
         "title": "Death of Ahmad al-Mansur",
-
         "description": "Ahmad al-Mansur died in 1603. The Saadian state subsequently entered a period of political division and decline."
       },
-
       {
         "date": "1696-01-01",
-
         "title": "Dismantling of the palace",
-
         "description": "During the reign of the Alaouite sultan Moulay Ismail, much of El Badi Palace was stripped of its valuable decorative materials, many of which were reused in other royal construction projects."
       }
     ],
-
     "links": [
       {
         "url": "https://whc.unesco.org/en/list/331/",
-
         "title": "UNESCO - Medina of Marrakesh",
-
         "type": "website"
       },
-
       {
         "url": "https://e-services.minculture.gov.ma/en/tickets/palais-badii",
-
         "title": "Moroccan Ministry of Culture - Tickets",
-
         "type": "website"
       }
     ],
-
     "activities": [],
-
     "items": [],
-
     "comments": []
   }
 }

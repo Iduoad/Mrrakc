@@ -11,119 +11,88 @@
       "latitude": 31.621707,
       "altitude": 472
     },
-
     "access": {
       "type": "public",
-
       "status": "open",
-
       "options": [
         {
           "title": "Moroccan adult",
-
+          "modality": "ticket",
+          "audience": "locals",
           "entranceFee": 30
         },
-
         {
           "title": "Moroccan child (7–13)",
-
+          "modality": "ticket",
+          "audience": "children",
           "entranceFee": 10
         },
-
         {
           "title": "Foreign adult",
-
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 100
         },
-
         {
           "title": "Foreign child (7–13)",
-
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 30
         }
       ],
-
       "comment": "Admission fees and opening conditions may change. Check current official visitor information before visiting."
     },
-
     "timePeriods": ["Alaouite dynasty", "19th century"],
-
     "people": [
       {
-        "id": "person/si-moussa",
-
+        "id": "people/si-moussa",
         "relationship": ["Grand Vizier"]
       },
-
       {
-        "id": "person/ahmed-ben-moussa",
-
+        "id": "people/ahmed-ben-moussa",
         "relationship": ["Grand Vizier"]
       },
-
       {
-        "id": "person/mohammed-al-makki",
-
+        "id": "people/mohammed-al-makki",
         "relationship": ["Architect"]
       }
     ],
-
     "timeline": [
       {
         "date": "1866-01-01",
-
         "title": "Construction begins",
-
         "description": "Construction of Bahia Palace began under Si Moussa, who served as a powerful grand vizier in Morocco."
       },
-
       {
         "date": "1894-01-01",
-
         "title": "Expansion under Ba Ahmed",
-
         "description": "Ahmed ben Moussa, known as Ba Ahmed, became grand vizier and substantially expanded the palace, adding new courtyards, residences, gardens and richly decorated spaces."
       },
-
       {
         "date": "1900-01-01",
-
         "title": "Death of Ba Ahmed",
-
         "description": "Ba Ahmed died in 1900, marking the end of the principal period of expansion that gave Bahia Palace much of its present form."
       },
-
       {
         "date": "1912-01-01",
-
         "title": "French Protectorate period",
-
         "description": "During the French Protectorate, parts of Bahia Palace were used by the French administration and as a residence for senior officials."
       }
     ],
-
     "links": [
       {
         "url": "https://whc.unesco.org/en/list/331/",
-
         "title": "UNESCO - Medina of Marrakesh",
-
         "type": "website"
       },
-
       {
         "url": "https://e-services.minculture.gov.ma/en/tickets/palais-bahia",
-
         "title": "Moroccan Ministry of Culture - Tickets",
-
         "type": "website"
       }
     ],
-
     "activities": [],
-
     "items": [],
-
     "comments": []
   }
 }

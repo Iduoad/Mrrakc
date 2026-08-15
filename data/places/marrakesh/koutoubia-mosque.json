@@ -11,90 +11,67 @@
       "latitude": 31.623721,
       "altitude": 466
     },
-
     "access": {
-      "type": "religious",
+      "type": "public",
       "status": "open",
       "options": [
         {
           "title": "Exterior and gardens",
+          "modality": "free",
+          "audience": "all",
           "entranceFee": 0
         },
-
         {
           "title": "Mosque interior",
-
-          "entranceFee": -1
+          "modality": "free",
+          "audience": "muslims",
+          "entranceFee": 0
         }
       ],
-
       "comment": "The exterior and surrounding gardens can be visited freely. The mosque remains an active place of worship. Interior access is generally reserved for Muslims, and visitors should respect prayer times and religious practices."
     },
-
     "timePeriods": ["Almohad dynasty"],
-
     "people": [
       {
-        "id": "person/abd-al-mumin",
-
+        "id": "people/abd-al-mumin",
         "relationship": ["Caliph"]
       },
-
       {
-        "id": "person/yaqub-al-mansur",
-
+        "id": "people/yaqub-al-mansur",
         "relationship": ["Caliph"]
       }
     ],
-
     "timeline": [
       {
         "date": "1147-01-01",
-
         "title": "Almohad conquest of Marrakech",
-
         "description": "The Almohads under Abd al-Mu'min conquered Marrakech, beginning a major transformation of the city's religious and monumental architecture."
       },
-
       {
         "date": "1148-01-01",
-
         "title": "First Koutoubia Mosque",
-
         "description": "Abd al-Mu'min commissioned the first Koutoubia Mosque shortly after the Almohad conquest of Marrakech."
       },
-
       {
         "date": "1158-01-01",
-
         "title": "Construction of the second mosque",
-
         "description": "A second mosque was constructed beside the first. This later building forms the principal Koutoubia Mosque that survives today."
       },
-
       {
         "date": "1195-01-01",
-
         "title": "Completion of the minaret",
-
         "description": "The monumental minaret was completed during the reign of the Almohad caliph Ya'qub al-Mansur and became a major model for later Islamic architecture in Morocco and al-Andalus."
       }
     ],
-
     "links": [
       {
         "url": "https://whc.unesco.org/en/list/331/",
-
         "title": "UNESCO - Medina of Marrakesh",
-
         "type": "website"
       }
     ],
-
     "activities": [],
-
     "items": [],
-
     "comments": []
   }
 }

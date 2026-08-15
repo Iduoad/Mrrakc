@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "mrrakc/v0",
     "kind": "plan/itinerary",
     "spec": {
         "id": "casablanca-art-deco",
@@ -17,7 +17,7 @@
                 "optional": true,
                 "type": "waypoint",
                 "placeIds": [
-                    "casablanca/sacred-heart-cathedral"
+                    "places/casablanca/sacred-heart-cathedral"
                 ],
                 "transportToNext": {
                     "mode": "Bus",
@@ -31,9 +31,9 @@
                 "optional": true,
                 "type": "waypoint",
                 "placeIds": [
-                    "casablanca/mohammed-v-square",
-                    "casablanca/wilaya-of-grande-casablanca-building",
-                    "casablanca/justice-palace-building"
+                    "places/casablanca/mohammed-v-square",
+                    "places/casablanca/wilaya-of-grande-casablanca-building",
+                    "places/casablanca/justice-palace-building"
                 ],
                 "transportToNext": {
                     "mode": "Train",
@@ -45,7 +45,7 @@
                 "description": "Admire the intricate details of this heritage building.",
                 "type": "waypoint",
                 "placeIds": [
-                    "casablanca/central-post-building"
+                    "places/casablanca/central-post-building"
                 ],
                 "transportToNext": {
                     "mode": "Plane",
@@ -57,7 +57,7 @@
                 "description": "One of the oldest and most beautiful cinemas in Casablanca.",
                 "type": "activity",
                 "placeIds": [
-                    "casablanca/rialto-cinema"
+                    "places/casablanca/rialto-cinema"
                 ],
                 "transportToNext": {
                     "mode": "Walking",
@@ -70,7 +70,7 @@
                 "type": "break",
                 "optional": true,
                 "placeIds": [
-                    "casablanca/petit-poucet-restaurant"
+                    "places/casablanca/petit-poucet-restaurant"
                 ]
             }
         ]

@@ -10,8 +10,14 @@ sources/**/*.png
 sources/**/*.jpg
 sources/**/*.jpeg
 
-# Drafts of events that are not in data/events/ yet, written by the New Event
+# Drafts of events that are not in data/events/ yet, written by the Draft Event
 # tool in web/build.localhost. Unlike sources/events/_<id>-editions.json (the
 # committed citation for an existing event), these are a personal to-research
 # queue and are ignored wholesale.
 sources/new-events/
+
+# agent skill install state — `npx skills add` vendors a copy of this repo's
+# own skills/ back into .agents/; the canonical source is skills/
+.agents/
+.claude/
+skills-lock.json

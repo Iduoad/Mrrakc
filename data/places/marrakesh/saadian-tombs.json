@@ -11,112 +11,84 @@
       "latitude": 31.617283,
       "altitude": 465
     },
-
     "access": {
       "type": "public",
-
       "status": "open",
-
       "options": [
         {
           "title": "Moroccan adult",
-
+          "modality": "ticket",
+          "audience": "locals",
           "entranceFee": 30
         },
-
         {
           "title": "Moroccan child (7–13)",
-
+          "modality": "ticket",
+          "audience": "children",
           "entranceFee": 10
         },
-
         {
           "title": "Foreign adult",
-
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 100
         },
-
         {
           "title": "Foreign child (7–13)",
-
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 30
         }
       ],
-
       "comment": "Admission fees and opening conditions may change. Moroccan nationals can benefit from free admission on Fridays and on the first day of national and religious holidays under the Ministry of Culture's monument admission policy."
     },
-
     "timePeriods": ["Saadian dynasty"],
-
     "people": [
       {
-        "id": "person/ahmad-al-mansur",
-
+        "id": "people/ahmad-al-mansur",
         "relationship": ["sultan"]
       },
-
       {
-        "id": "person/muhammad-al-shaykh",
-
+        "id": "people/muhammad-al-shaykh",
         "relationship": ["Sultan", "Founder"]
       }
     ],
-
     "timeline": [
       {
         "date": "1557-01-01",
-
         "title": "Burial of Muhammad al-Shaykh",
-
         "description": "The Saadian ruler Muhammad al-Shaykh was buried at the site, establishing an important royal burial presence in the Kasbah."
       },
-
       {
         "date": "1578-01-01",
-
         "title": "Reign of Ahmad al-Mansur",
-
         "description": "Ahmad al-Mansur became sultan and subsequently developed the necropolis into an elaborate royal funerary complex."
       },
-
       {
         "date": "1603-01-01",
-
         "title": "Burial of Ahmad al-Mansur",
-
         "description": "Sultan Ahmad al-Mansur was buried in the monumental mausoleum he had developed for the Saadian royal family."
       },
-
       {
         "date": "1917-01-01",
-
         "title": "Modern rediscovery",
-
         "description": "The Saadian Tombs were brought to wider modern attention during the French Protectorate period and subsequently studied and restored."
       }
     ],
-
     "links": [
       {
         "url": "https://whc.unesco.org/en/list/331/",
-
         "title": "UNESCO - Medina of Marrakesh",
-
         "type": "website"
       },
       {
         "url": "https://e-services.minculture.gov.ma/en/tickets/tombeaux-saadiens",
-
         "title": "Moroccan Ministry of Culture - Tickets",
-
         "type": "website"
       }
     ],
-
     "activities": [],
-
     "items": [],
-
     "comments": []
   }
 }

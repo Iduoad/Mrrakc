@@ -17,18 +17,26 @@
       "options": [
         {
           "title": "Moroccan adult",
+          "modality": "ticket",
+          "audience": "locals",
           "entranceFee": 20
         },
         {
           "title": "Foreign adult",
+          "modality": "ticket",
+          "audience": "tourists",
           "entranceFee": 50
         },
         {
           "title": "Child under 12",
+          "modality": "ticket",
+          "audience": "children",
           "entranceFee": 10
         },
         {
           "title": "Group",
+          "modality": "ticket",
+          "audience": "group",
           "entranceFee": 30
         }
       ],
@@ -37,7 +45,7 @@
     "timePeriods": ["Saadian dynasty"],
     "people": [
       {
-        "id": "person/abdallah-al-ghalib",
+        "id": "people/abdallah-al-ghalib",
         "relationship": ["Sultan"]
       }
     ],

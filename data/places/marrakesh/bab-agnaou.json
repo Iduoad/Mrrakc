@@ -11,65 +11,47 @@
       "latitude": 31.61756,
       "altitude": 465
     },
-
     "access": {
       "type": "public",
-
       "status": "open",
-
       "options": [
         {
           "title": "Public access",
-
+          "modality": "free",
+          "audience": "all",
           "entranceFee": 0
         }
       ],
-
       "comment": "Bab Agnaou is a public historic gate and can be viewed and passed through freely."
     },
-
     "timePeriods": ["Almohad dynasty"],
-
     "people": [
       {
-        "id": "person/yaqub-al-mansur",
-
+        "id": "people/yaqub-al-mansur",
         "relationship": ["Caliph"]
       }
     ],
-
     "timeline": [
       {
         "date": "1185-01-01",
-
         "title": "Construction of the Almohad Kasbah",
-
         "description": "Ya'qub al-Mansur began developing a new royal Kasbah in the southern part of Marrakech during his reign."
       },
-
       {
         "date": "1190-01-01",
-
         "title": "Construction of Bab Agnaou",
-
         "description": "Bab Agnaou was constructed around the late 1180s or 1190 as the monumental public entrance to the new Almohad royal Kasbah."
       }
     ],
-
     "links": [
       {
         "url": "https://whc.unesco.org/en/list/331/",
-
         "title": "UNESCO - Medina of Marrakesh",
-
         "type": "website"
       }
     ],
-
     "activities": [],
-
     "items": [],
-
     "comments": []
   }
 }

@@ -11,112 +11,77 @@
       "latitude": 31.625952,
       "altitude": 0
     },
-
     "access": {
       "type": "public",
-
       "status": "open",
-
       "options": [
         {
           "title": "Public access",
-
+          "modality": "free",
+          "audience": "all",
           "entranceFee": 0
         }
       ],
-
       "comment": "The square is a public space and can be accessed freely. The atmosphere changes throughout the day, with food stalls and traditional performances becoming especially active in the late afternoon and evening."
     },
-
     "timePeriods": [
       "Almoravid dynasty",
-
       "Almohad dynasty",
-
       "Saadian dynasty",
-
       "Modern period"
     ],
-
     "people": [
       {
-        "id": "person/yusuf-ibn-tashfin",
+        "id": "people/yusuf-ibn-tashfin",
         "relationship": ["Founder"]
       }
     ],
-
     "timeline": [
       {
         "date": "1070-01-01",
-
         "title": "Origins of Marrakech",
-
         "description": "Marrakech was founded during the Almoravid period. An important open space developed near the city's early palace and market areas, forming the historical origins of the square."
       },
-
       {
         "date": "1147-01-01",
-
         "title": "Almohad period",
-
         "description": "Following the Almohad conquest of Marrakech, the surrounding urban landscape changed significantly, but the large public space continued to serve the city."
       },
-
       {
         "date": "1600-01-01",
-
         "title": "Jemaa el-Fnaa name appears in historical records",
-
         "description": "Historical sources from around the Saadian period record the name associated with Jemaa el-Fnaa. The precise origin and meaning of the name remain debated."
       },
-
       {
         "date": "1922-01-01",
-
         "title": "Protected cultural space",
-
         "description": "Measures were introduced to protect Jemaa el-Fnaa and preserve its distinctive cultural and artistic character."
       },
-
       {
         "date": "2001-01-01",
-
         "title": "UNESCO recognition",
-
         "description": "UNESCO proclaimed the cultural space of Jemaa el-Fnaa as a Masterpiece of the Oral and Intangible Heritage of Humanity."
       },
-
       {
         "date": "2008-01-01",
-
         "title": "Intangible Cultural Heritage",
-
         "description": "The cultural space of Jemaa el-Fnaa was incorporated into UNESCO's Representative List of the Intangible Cultural Heritage of Humanity."
       }
     ],
-
     "links": [
       {
         "url": "https://ich.unesco.org/en/RL/cultural-space-of-jemaa-el-fna-square-00014",
-
         "title": "UNESCO - Cultural Space of Jemaa el-Fnaa Square",
-
         "type": "website"
       },
-
       {
         "url": "https://whc.unesco.org/en/list/331/",
-
         "title": "UNESCO - Medina of Marrakesh",
-
         "type": "website"
       }
     ],
-
     "activities": [],
-
     "items": [],
-
     "comments": []
   }
 }
