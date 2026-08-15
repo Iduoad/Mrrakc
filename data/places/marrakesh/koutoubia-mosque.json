@@ -37,17 +37,13 @@
       {
         "id": "person/abd-al-mumin",
 
-        "relationship": [
-          "Almohad caliph who commissioned the Koutoubia Mosque complex after the conquest of Marrakech"
-        ]
+        "relationship": ["Caliph"]
       },
 
       {
         "id": "person/yaqub-al-mansur",
 
-        "relationship": [
-          "Almohad caliph associated with the completion of the Koutoubia minaret"
-        ]
+        "relationship": ["Caliph"]
       }
     ],
 

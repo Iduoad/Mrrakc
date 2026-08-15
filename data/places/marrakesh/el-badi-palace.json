@@ -52,19 +52,13 @@
       {
         "id": "person/ahmad-al-mansur",
 
-        "relationship": [
-          "Saadian sultan who commissioned El Badi Palace",
-
-          "Used the palace as an expression of Saadian royal power and prestige"
-        ]
+        "relationship": ["Sultan"]
       },
 
       {
         "id": "person/moulay-ismail",
 
-        "relationship": [
-          "Alaouite sultan under whose reign much of the palace was dismantled and its materials reused"
-        ]
+        "relationship": ["Sultan"]
       }
     ],
 

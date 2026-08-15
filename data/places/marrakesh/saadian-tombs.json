@@ -52,19 +52,13 @@
       {
         "id": "person/ahmad-al-mansur",
 
-        "relationship": [
-          "Saadian sultan who greatly expanded and embellished the royal necropolis",
-
-          "Buried within the mausoleum complex"
-        ]
+        "relationship": ["sultan"]
       },
 
       {
         "id": "person/muhammad-al-shaykh",
 
-        "relationship": [
-          "Founder of the Saadian dynasty whose tomb is part of the necropolis"
-        ]
+        "relationship": ["Sultan", "Founder"]
       }
     ],
 

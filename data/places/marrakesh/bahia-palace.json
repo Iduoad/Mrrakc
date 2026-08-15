@@ -52,25 +52,19 @@
       {
         "id": "person/si-moussa",
 
-        "relationship": [
-          "Grand vizier who initiated the construction of Bahia Palace"
-        ]
+        "relationship": ["Grand Vizier"]
       },
 
       {
         "id": "person/ahmed-ben-moussa",
 
-        "relationship": [
-          "Grand vizier known as Ba Ahmed who greatly expanded and embellished the palace"
-        ]
+        "relationship": ["Grand Vizier"]
       },
 
       {
         "id": "person/mohammed-al-makki",
 
-        "relationship": [
-          "Architect and master builder associated with the construction and development of Bahia Palace"
-        ]
+        "relationship": ["Architect"]
       }
     ],
 
