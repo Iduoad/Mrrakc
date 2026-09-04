@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Free Kids Run Bouskoura",
+    "id": "free-kids-run-bouskoura",
+    "description": "Youth and family trail running event in the Bouskoura forest encouraging physical fitness and nature sports among children.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 5Km, 3Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/freekidsrun/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

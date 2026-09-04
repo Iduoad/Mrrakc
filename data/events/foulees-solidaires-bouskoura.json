@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Les Foulées Solidaires de Bouskoura",
+    "id": "foulees-solidaires-bouskoura",
+    "description": "Solidarity charity race in the Bouskoura forest encouraging social inclusion and athletic participation.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-09",
+        "endDate": "2026-09",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/fouleessolidairesbouskoura/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

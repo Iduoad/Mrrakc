@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course sur Route de Safi",
+    "id": "course-sur-route-safi",
+    "description": "10km coastal road race in the historic pottery and sardine port city of Safi.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/safi"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursesafi/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail de Fnideq",
+    "id": "trail-de-fnideq",
+    "description": "Coastal mountain trail climbing above the Mediterranean waters and green ridges around Fnideq.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 20Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailfnideq/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "DakhlaRun",
+    "id": "dakhlarun",
+    "description": "Southernmost stage of CityRun Morocco, taking runners along the pristine lagoon and ocean waters of the Dakhla peninsula.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/oued-ed-dahab"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "part": "mid",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-12",
+        "endDate": "2026-12",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/dakhlarun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

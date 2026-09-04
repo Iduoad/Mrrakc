@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "MarrakechRun",
+    "id": "marrakechrun",
+    "description": "The Marrakech edition of the CityRun Morocco network, gathering runners of all abilities across the Ochre City's historic ramparts and palm gardens.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 6Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/marrakechrun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

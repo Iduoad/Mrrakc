@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Atlas SwimRun Bin El Ouidane",
+    "id": "atlas-swimrun-bin-el-ouidane",
+    "description": "Alternating open-water swimming and mountain trail running event in and around Lake Bin El Ouidane in the High Atlas.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        9
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-09",
+        "endDate": "2026-09",
+        "status": "held",
+        "notes": "Distances: 15Km, 8Km run / 3Km, 1.2Km swim"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.atlasswimrun.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

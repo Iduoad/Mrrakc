@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Sahara Trail Zagora",
+    "id": "sahara-trail-zagora",
+    "description": "Three-stage desert endurance trail across the sands, palms, and dunes of Zagora and M'Hamid El Ghizlane.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "early",
+      "typicalDurationDays": 3
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 30Km, 52Km, 24Km (3 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.saharatrailzagora.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

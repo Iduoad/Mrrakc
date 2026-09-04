@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Solidarity Race Bouskoura",
+    "id": "solidarity-race-bouskoura",
+    "description": "Charitable nature running race organized in the Bouskoura eucalyptus forest near Casablanca supporting social causes.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-11",
+        "endDate": "2025-11",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/solidarityrace/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Run 4 Her Casablanca",
+    "id": "run-4-her-casablanca",
+    "description": "Empowerment women's road race in Casablanca promoting active lifestyle, health, and gender equality in sports.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.run4her.ma/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

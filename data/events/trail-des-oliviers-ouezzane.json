@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail des Oliviers d'Ouezzane",
+    "id": "trail-des-oliviers-ouezzane",
+    "description": "Autumn trail run weaving through century-old olive groves and hills in the spiritual city of Ouezzane during olive harvesting season.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouezzane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 25Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/traildesoliviersouezzane/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

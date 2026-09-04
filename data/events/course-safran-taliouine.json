@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course du Safran de Taliouine",
+    "id": "course-safran-taliouine",
+    "description": "10km road race held in Taliouine, the capital of Moroccan saffron in the Anti-Atlas, celebrating the annual Saffron harvest.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taroudant"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-11",
+        "endDate": "2025-11",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/festivalsafran/",
+        "title": "Festival du Safran",
+        "type": "social"
+      }
+    ]
+  }
+}

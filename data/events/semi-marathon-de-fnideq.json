@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Semi-Marathon de Fnideq",
+    "id": "semi-marathon-de-fnideq",
+    "description": "Coastal half marathon and 10km road race held along the Mediterranean corniche of Fnideq near the Strait of Gibraltar.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        1
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-01",
+        "endDate": "2026-01",
+        "status": "held",
+        "notes": "Distances: 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/semimarathonfnideq/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail des Cerises d'Aïn Leuh",
+    "id": "trail-des-cerises-ain-leuh",
+    "description": "Middle Atlas mountain trail running celebrating the cherry blossom and harvest around Ain Leuh and Lake Afennourir in Ifrane.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ifrane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        7
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 25Km, 15Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 25Km, 15Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/traildescerises/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

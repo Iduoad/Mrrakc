@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Lacathon Challenge Tit Mellil",
+    "id": "lacathon-challenge-tit-mellil",
+    "description": "Lakeside challenge and cross-country race surrounding the Oued El Maleh reservoir lake near Tit Mellil.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/mediouna"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km, 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/lacathonchallenge/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

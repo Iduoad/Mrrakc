@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Iferkhan Taroudant",
+    "id": "trail-iferkhan-taroudant",
+    "description": "Mountain trail running race across the Anti-Atlas foothills of Commune El Faid in Taroudant province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taroudant"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailiferkhan/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

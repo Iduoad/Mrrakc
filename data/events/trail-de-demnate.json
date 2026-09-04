@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail de Demnate",
+    "id": "trail-de-demnate",
+    "description": "Scenic trail race passing by the natural stone bridge of Imi n'Ifri and olive orchards of Demnate in Azilal.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 26Km, 12Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/traildemnate/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

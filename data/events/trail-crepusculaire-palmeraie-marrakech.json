@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Crépusculaire de la Palmeraie de Marrakech",
+    "id": "trail-crepusculaire-palmeraie-marrakech",
+    "description": "Sunset and twilight trail run through the centuries-old palm oasis of Marrakech Palmeraie.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailcrepusculaire/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

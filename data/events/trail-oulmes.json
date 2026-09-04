@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail d'Oulmès",
+    "id": "trail-oulmes",
+    "description": "High-plateau mountain trail race through the natural springs and cedar-clad forests of Oulmès in Khemisset province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/khemisset"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 20Km, 3Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailoulmes/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

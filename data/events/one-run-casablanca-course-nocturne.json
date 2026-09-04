@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "One Run Casablanca Course Nocturne",
+    "id": "one-run-casablanca-course-nocturne",
+    "description": "Festive night road race featuring neon illuminations and music starting around Parc Murdoch in Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 21Km, 10Km, 5Km, 1Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/onerunmaroc/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

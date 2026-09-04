@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail To Be Alive Zagora",
+    "id": "trail-to-be-alive-zagora",
+    "description": "Multi-stage 200km desert ultra-trail running event across the Saharan dunes and arid plateaus of the Zagora province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 4
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 200Km (4 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.trailtobealive.fr/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

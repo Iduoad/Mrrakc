@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Les Foulées d'Anfa",
+    "id": "foulees-d-anfa",
+    "description": "Fast urban 10km and 5km road competition inside Casablanca Finance City and Anfa Park.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/fouleesdanfa/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

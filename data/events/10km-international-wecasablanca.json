@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "10Km International WeCasablanca",
+    "id": "10km-international-wecasablanca",
+    "description": "Official 10km urban road race organized by the territorial brand WeCasablanca and Casablanca Events & Animation starting from Twin Center.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.wecasablanca.com/",
+        "title": "WeCasablanca",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Pro Run Tanger Free Zone",
+    "id": "pro-run-tanger-free-zone",
+    "description": "10km corporate road race organized inside the Tanger Free Zone industrial hub for corporate teams and athletic competitors.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.tangerfreezone.com/",
+        "title": "Tanger Free Zone",
+        "type": "website"
+      }
+    ]
+  }
+}

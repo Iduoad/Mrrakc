@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Acacia Trail Tazarine",
+    "id": "acacia-trail-tazarine",
+    "description": "Four-stage 110km desert ultra-trail running across the volcanic massifs and acacia trees of Jbel Saghro in Zagora province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "mid",
+      "typicalDurationDays": 4
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 110Km (4 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/acaciatrail/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

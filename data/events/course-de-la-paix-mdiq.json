@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de la Paix de M'diq",
+    "id": "course-de-la-paix-mdiq",
+    "description": "Peace-themed 10km coastal road race along the seaside bay and marina of M'diq on the Mediterranean coast.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursedelapaixmdiq/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

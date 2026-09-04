@@ -3,11 +3,13 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "prebuild": "bun scripts/build_maps.ts",
-    "dev": "bun run prebuild && astro dev",
-    "build": "bun run prebuild && astro build",
+    "prebuild": "node scripts/build_maps.ts",
+    "dev": "npm run prebuild && astro dev",
+    "build": "npm run prebuild && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test": "node scripts/test.mjs",
+    "lint": "node scripts/lint.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",

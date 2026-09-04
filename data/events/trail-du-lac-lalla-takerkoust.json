@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail du Lac Lalla Takerkoust",
+    "id": "trail-du-lac-lalla-takerkoust",
+    "description": "Trail marathon, half marathon, and 10km race taking place around Lake Lalla Takerkoust overlooking the High Atlas mountain range.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/al-haouz"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 42Km, 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.trailmaroc.com/",
+        "title": "Trail Maroc",
+        "type": "website"
+      }
+    ]
+  }
+}

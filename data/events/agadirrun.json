@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "AgadirRun",
+    "id": "agadirrun",
+    "description": "Coastal city festival of the CityRun movement uniting runners along Agadir's sweeping Atlantic bay and Marina.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/agadirrun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

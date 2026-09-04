@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Marathon International de Rabat",
+    "id": "marathon-international-de-rabat",
+    "description": "Official capital marathon of Morocco organized under the patronage of the Royal Moroccan Athletics Federation (FRMA), passing Hassan Tower, Chellah, and the Bouregreg river.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 42Km, 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.rabatmarathon.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

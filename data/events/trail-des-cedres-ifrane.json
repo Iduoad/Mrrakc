@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail des Cèdres d'Ifrane",
+    "id": "trail-des-cedres-ifrane",
+    "description": "Iconic mountain trail marathon navigating the majestic atlas cedar forests and extinct volcanic craters of Ifrane National Park.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ifrane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        6
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 42Km, 32Km, 26Km"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-05",
+        "endDate": "2027-05",
+        "status": "held",
+        "notes": "Distances: 42Km, 32Km, 26Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.traildescedres.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail des Gorges et des Oasis de Tinghir",
+    "id": "trail-des-gorges-et-des-oasis-tinghir",
+    "description": "Spectacular canyon trail running across the limestone walls of Todgha Gorges and surrounding palm oases in Tinghir.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tinghir"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 16Km, 12Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailtinghir/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

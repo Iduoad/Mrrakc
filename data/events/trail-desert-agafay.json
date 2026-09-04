@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail Desert Agafay",
+    "id": "trail-desert-agafay",
+    "description": "Premier desert trail running festival across the stony dunes and lunar hills of the Agafay Desert near Marrakech, featuring distances from 10km to ultra-marathon.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "late",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-11",
+        "endDate": "2025-11",
+        "status": "held",
+        "notes": "Distances: 42Km, 23Km, 11Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 81Km, 60Km, 42Km, 21Km, 15Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.trailagafay.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

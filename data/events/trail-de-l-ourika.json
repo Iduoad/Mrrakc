@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail de l'Ourika",
+    "id": "trail-de-l-ourika",
+    "description": "High Atlas mountain trail race winding through the Ourika Valley, walnut groves, and traditional stone villages.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/al-haouz"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 23Km, 17Km, 9Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.trailmaroc.com/",
+        "title": "Trail Maroc",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Semi-Marathon de Tamesna",
+    "id": "semi-marathon-de-tamesna",
+    "description": "Annual 21km and 10km road race held in the planned modern city of Tamesna south of Rabat.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/skhirate-temara"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/semitamesna/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

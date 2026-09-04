@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course sur Route 5Km de Hay Mohammadi",
+    "id": "course-sur-route-5km-hay-mohammadi",
+    "description": "Popular 5km community sprint and road race in Hay Mohammadi, Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursehaymohammadi/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

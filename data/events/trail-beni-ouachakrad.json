@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Beni Ouachakrad",
+    "id": "trail-beni-ouachakrad",
+    "description": "Nature trail race exploring the mountainous rural terrain and countryside of Beni Ouachakrad near Berkane.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/berkane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-12",
+        "endDate": "2025-12",
+        "status": "held",
+        "notes": "Distances: 12Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailbeniouachakrad/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

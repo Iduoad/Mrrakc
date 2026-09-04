@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course sur Route de Deroua",
+    "id": "course-sur-route-deroua",
+    "description": "6km road race held in Deroua in Berrechid province near Mohammed V Airport.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/berrechid"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 6Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursederoua/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

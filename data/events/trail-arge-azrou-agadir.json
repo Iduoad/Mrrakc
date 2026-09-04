@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Arge Azrou Agadir",
+    "id": "trail-arge-azrou-agadir",
+    "description": "Souss foothills trail run starting at Douar Arge in Azrou near Agadir.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 10Km, 7Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailarge/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

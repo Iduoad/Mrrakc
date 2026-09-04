@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Marathon Spirituel de Fès",
+    "id": "marathon-spirituel-fes",
+    "description": "Historic full marathon, half marathon, and 10km race tracing spiritual and cultural routes around the ancient imperial city of Fez.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2,
+        4
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 42Km, 21Km, 10Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 42Km, 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/marathonspirituelfes/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail d'Amizmiz",
+    "id": "trail-amizmiz",
+    "description": "Ultra-trail and mountain marathon traversing pine forests, canyons, and Berber villages around Amizmiz in the Atlas.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/al-haouz"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "early",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 90Km, 62Km, 42Km, 20Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.trailamizmiz.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

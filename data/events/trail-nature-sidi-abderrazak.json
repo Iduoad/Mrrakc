@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Nature de Sidi Abderrazak",
+    "id": "trail-nature-sidi-abderrazak",
+    "description": "15km summer trail across the rural valleys and agricultural slopes of Sidi Abderrazak near Tiflet.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/khemisset"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 15Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailnaturesidiabderrazak/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

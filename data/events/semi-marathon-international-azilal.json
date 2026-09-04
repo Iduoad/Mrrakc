@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Semi-Marathon International d'Azilal",
+    "id": "semi-marathon-international-azilal",
+    "description": "International half marathon held in Azilal across the scenic geological landscapes of the UNESCO M'Goun Geopark.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-11",
+        "endDate": "2025-11",
+        "status": "held",
+        "notes": "Distances: 21Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.geoparc-mgoun.ma/",
+        "title": "Géoparc M'Goun",
+        "type": "website"
+      }
+    ]
+  }
+}

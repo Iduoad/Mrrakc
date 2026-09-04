@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course sur Route de Dcheira",
+    "id": "course-sur-route-dcheira",
+    "description": "Annual 10km road race in Dcheira El Jihadia in Greater Agadir, bringing together elite and amateur runners from the Souss-Massa region.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/inezgane-ait-melloul"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        1
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-01",
+        "endDate": "2026-01",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-01",
+        "endDate": "2027-01",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursedcheira/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

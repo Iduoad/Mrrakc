@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "CasablancaRun",
+    "id": "casablancarun",
+    "description": "Major community running festival by CityRun Morocco uniting thousands of participants and running crews across the city of Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2,
+        4
+      ],
+      "part": "early",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 15Km, 12Km, 9Km, 6Km, 3Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/casablancarun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

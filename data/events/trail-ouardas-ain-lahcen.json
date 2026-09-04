@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Ouardas Aïn Lahcen",
+    "id": "trail-ouardas-ain-lahcen",
+    "description": "Mountain trail race exploring the northern Rif mountain ridges, pine woods, and valleys of Ain Lahcen near Tetouan.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tetouan"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 20Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailouardas/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

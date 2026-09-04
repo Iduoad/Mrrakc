@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trans Atlas Marathon",
+    "id": "trans-atlas-marathon",
+    "description": "Multi-stage mountain ultra-marathon founded by Mohamad Ahansal, traversing 160km through the central High Atlas and Berber villages of Ait Bouguemez.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 6
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 160Km, 80Km (4 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.transatlasmarathon.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

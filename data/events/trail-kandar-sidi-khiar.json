@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Kandar Sidi Khiar",
+    "id": "trail-kandar-sidi-khiar",
+    "description": "Middle Atlas trail race around Jbel Kandar and the cherry orchards of Sidi Khiar in Sefrou province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sefrou"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 25Km, 12Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailkandar/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course sur Route de Sidi Bettache",
+    "id": "course-sur-route-sidi-bettache",
+    "description": "10km rural road race in the cork-oak region of Sidi Bettache in Benslimane province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/benslimane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        6
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursesidibettache/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "RabatRun",
+    "id": "rabatrun",
+    "description": "Capital city gathering of the CityRun Morocco community, tracing routes through Foret Ibnou Sina and historical monuments of Rabat.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 6Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/rabatrun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

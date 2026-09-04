@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Asilah Race",
+    "id": "asilah-race",
+    "description": "5km coastal art and heritage run winding past the mural-painted walls of Asilah's Atlantic medina.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/asilahrace/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Eco Trail Morocco",
+    "id": "eco-trail-morocco",
+    "description": "Multi-stage ecological desert trail race held around the historic kasbahs, palm groves, and desert film sets of Ouarzazate.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouarzazate"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4,
+        5,
+        10
+      ],
+      "part": "late",
+      "typicalDurationDays": 3
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 70Km (3 etapes) / 30Km (3 etapes)"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 70Km (3 etapes) / 30Km (3 etapes)"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-10",
+        "endDate": "2026-10",
+        "status": "held",
+        "notes": "Distances: 70Km (3 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ecotrailmorocco.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

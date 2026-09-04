@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Féminine de Harhoura",
+    "id": "course-feminine-harhoura",
+    "description": "Annual coastal women's road race organized along the sandy beaches and corniche of Harhoura near Rabat.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/skhirate-temara"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursefeminineharhoura/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

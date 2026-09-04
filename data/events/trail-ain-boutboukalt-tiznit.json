@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Aïn Boutboukalt Tiznit",
+    "id": "trail-ain-boutboukalt-tiznit",
+    "description": "Anti-Atlas trail race crossing the argan hills of Ait Boutboukalt in Tiznit province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tiznit"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 13Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailboutboukalt/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Internationale de Médiouna",
+    "id": "course-internationale-mediouna",
+    "description": "10km international road race organized in the historic market town of Médiouna south of Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/mediouna"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursemediouna/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}
