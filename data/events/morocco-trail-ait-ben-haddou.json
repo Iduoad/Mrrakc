@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Morocco Trail Aït Ben Haddou",
+    "id": "morocco-trail-ait-ben-haddou",
+    "description": "Trail running event set against the world-famous UNESCO fortified ksar of Ait Ben Haddou and the Ounila Valley.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouarzazate"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3,
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 30Km, 10Km"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-03",
+        "endDate": "2027-03",
+        "status": "held",
+        "notes": "Distances: 50Km, 30Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/moroccotrailaitbenhaddou/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

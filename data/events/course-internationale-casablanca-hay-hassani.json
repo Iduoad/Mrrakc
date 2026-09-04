@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Internationale de Casablanca - Hay Hassani",
+    "id": "course-internationale-casablanca-hay-hassani",
+    "description": "Fast 10km and 5km international road competition held through the wide avenues of Hay Hassani in Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2,
+        3
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-03",
+        "endDate": "2027-03",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursehayhassani/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

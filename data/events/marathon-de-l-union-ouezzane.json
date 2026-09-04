@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Marathon de l'Union d'Ouezzane",
+    "id": "marathon-de-l-union-ouezzane",
+    "description": "Multi-stage road and trail event through the historic spiritual city of Ouezzane and surrounding olive groves.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouezzane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "early",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 25Km, 10Km / 28Km, 34Km, 26Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/marathondelunion/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

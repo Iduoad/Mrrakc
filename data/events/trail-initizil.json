@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Initizil",
+    "id": "trail-initizil",
+    "description": "Two-stage technical mountain trail around the high-altitude Berber hamlet of Initizil in the Azilal Atlas.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "mid",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 24Km, 16Km (2 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailinitizil/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

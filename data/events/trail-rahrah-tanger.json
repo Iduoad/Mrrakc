@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Rahrah Tanger",
+    "id": "trail-rahrah-tanger",
+    "description": "11km coastal forest trail traversing Rahrah forest with panoramic views over the Atlantic Ocean and Cape Spartel in Tangier.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 11Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailrahrah/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

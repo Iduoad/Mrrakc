@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course des Sables du Défi de Sidi Rbat",
+    "id": "course-des-sables-du-defi-sidi-rbat",
+    "description": "Beach and coastal dune 10km challenge inside the Souss-Massa National Park at Sidi Rbat.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/chtouka-ait-baha"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-08",
+        "endDate": "2026-08",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursedessables/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

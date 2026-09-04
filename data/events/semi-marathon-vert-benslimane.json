@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Semi-Marathon Vert de Benslimane",
+    "id": "semi-marathon-vert-benslimane",
+    "description": "Scenic green half marathon celebrated for its forested course winding through the cork-oak woodlands of Benslimane.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/benslimane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        1
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-01",
+        "endDate": "2026-01",
+        "status": "held",
+        "notes": "Distances: 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/semimarathonvertbenslimane/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

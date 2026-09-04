@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Chefchaouen Talassemtane",
+    "id": "trail-chefchaouen-talassemtane",
+    "description": "Multi-stage mountain ultra-trail race across Talassemtane National Park and the Blue Pearl city of Chefchaouen, through Moroccan fir forests and limestone gorges.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/chefchaouen"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "mid",
+      "typicalDurationDays": 3
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 82Km (3 etapes), 46Km (2 etapes), 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailtalassemtane/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

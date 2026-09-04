@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Morocco Backyard Ultra",
+    "id": "morocco-backyard-ultra",
+    "description": "Moroccan edition of the worldwide Backyard Ultra format held in Maamora forest near Salé, where runners must complete a 6.706 km loop every hour until only one remains.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2,
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 6.7Km loop"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 6.7Km loop"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.backyardultra.com/",
+        "title": "Backyard Ultra Global",
+        "type": "website"
+      }
+    ]
+  }
+}

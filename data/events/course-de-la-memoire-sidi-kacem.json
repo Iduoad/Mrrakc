@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de la Mémoire de Sidi Kacem",
+    "id": "course-de-la-memoire-sidi-kacem",
+    "description": "Historical commemorative race in Douar Slim in the Gharb region honoring Moroccan athletic champions.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sidi-kacem"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km, 2Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursesidikacem/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

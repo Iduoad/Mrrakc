@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Les 15Km de Bouskoura",
+    "id": "15km-de-bouskoura",
+    "description": "One of Morocco's most popular green races, drawing thousands of participants to Bouskoura forest each year.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.15kmbouskoura.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

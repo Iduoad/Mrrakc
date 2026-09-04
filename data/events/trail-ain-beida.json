@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Aïn Beïda",
+    "id": "trail-ain-beida",
+    "description": "Trail running event through the rolling hills, olive groves, and rural countryside of Ain Beida near Fez.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3,
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "status": "held",
+        "notes": "Distances: 20Km, 11Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 20Km, 11Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailainbeida/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

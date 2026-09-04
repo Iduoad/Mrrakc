@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Internationale de Hay Mohammadi",
+    "id": "course-internationale-hay-mohammadi",
+    "description": "Popular 10km road race through the historic working-class and cultural quarter of Hay Mohammadi in Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        1,
+        2
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-01",
+        "endDate": "2027-01",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursehaymohammadi/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

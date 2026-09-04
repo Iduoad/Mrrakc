@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de Bab en Bab de Fès",
+    "id": "course-de-bab-en-bab-fes",
+    "description": "Cultural 10km heritage race connecting the monumental gates (Babs) of Fez's UNESCO World Heritage medina.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/babenbabfes/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

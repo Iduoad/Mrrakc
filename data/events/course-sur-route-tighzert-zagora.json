@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course sur Route de Tighzert Zagora",
+    "id": "course-sur-route-tighzert-zagora",
+    "description": "Community desert road race in Douar Tighzert Tamena along the palm oases of the Draa Valley.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/zagorarun/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

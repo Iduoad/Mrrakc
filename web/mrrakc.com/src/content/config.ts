@@ -1,13 +1,16 @@
 import { defineCollection, z } from 'astro:content';
 // Force reload content
 import { glob } from 'astro/loaders';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import path from 'path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const placesDataPath = path.resolve(__dirname, '../../../../data/places');
-const provincesDataPath = path.resolve(__dirname, '../../../../data/provinces');
-const eventsDataPath = path.resolve(__dirname, '../../../../data/events');
+const placesDataPath = pathToFileURL(path.resolve(__dirname, '../../../../data/places')).href;
+const provincesDataPath = pathToFileURL(path.resolve(__dirname, '../../../../data/provinces')).href;
+const eventsDataPath = pathToFileURL(path.resolve(__dirname, '../../../../data/events')).href;
+const mapsDataPath = pathToFileURL(path.resolve(__dirname, 'maps')).href;
+const gamesDataPath = pathToFileURL(path.resolve(__dirname, 'games')).href;
+const plansDataPath = pathToFileURL(path.resolve(__dirname, 'plans')).href;
 
 const blog = defineCollection({
     type: 'content',
@@ -93,7 +96,7 @@ const provinces = defineCollection({
 });
 
 const maps = defineCollection({
-    loader: glob({ pattern: "**/*.md", base: path.resolve(__dirname, 'maps') }),
+    loader: glob({ pattern: "**/*.md", base: mapsDataPath }),
     schema: ({ image }) => z.object({
         title: z.string().optional(),
         description: z.string().optional(),
@@ -108,7 +111,7 @@ const maps = defineCollection({
 });
 
 const games = defineCollection({
-    loader: glob({ pattern: "**/*.{md,mdx}", base: path.resolve(__dirname, 'games') }),
+    loader: glob({ pattern: "**/*.{md,mdx}", base: gamesDataPath }),
     schema: ({ image }) => z.object({
         title: z.string(),
         description: z.string().optional(),
@@ -126,7 +129,7 @@ const games = defineCollection({
 });
 
 const plans = defineCollection({
-    loader: glob({ pattern: "**/*.md", base: path.resolve(__dirname, 'plans') }),
+    loader: glob({ pattern: "**/*.md", base: plansDataPath }),
     schema: ({ image }) => z.object({
         planId: z.string().optional(),
         title: z.string().optional(),

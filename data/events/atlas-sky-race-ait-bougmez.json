@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Atlas Sky Race Ait Bougmez",
+    "id": "atlas-sky-race-ait-bougmez",
+    "description": "Skyrunning mountain marathon race along the high crests and passes of the Happy Valley of Ait Bouguemez.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 46Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/atlasskyrace/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

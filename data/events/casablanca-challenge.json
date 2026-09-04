@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Casablanca Challenge",
+    "id": "casablanca-challenge",
+    "description": "Multi-stage urban road race series touring various districts and prefectures of Greater Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3,
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/casablancachallenge/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

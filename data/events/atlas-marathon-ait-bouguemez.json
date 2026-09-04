@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Atlas Marathon Aït Bouguemez",
+    "id": "atlas-marathon-ait-bouguemez",
+    "description": "High-altitude trail marathon in the Happy Valley of Ait Bouguemez beneath Mount Mgoun.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/azilal"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-10",
+        "endDate": "2026-10",
+        "status": "held",
+        "notes": "Distances: 42Km, 27Km, 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.atlasmarathon.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

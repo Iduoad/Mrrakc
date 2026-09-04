@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Green Challenge Casa Nearshore",
+    "id": "green-challenge-casa-nearshore",
+    "description": "Corporate 8km obstacle course race with 12 fitness challenges in the Casa Nearshore business park in Casablanca.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 8Km (12 Obstacles)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.greenchallenge.ma/",
+        "title": "Green Challenge",
+        "type": "website"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Ultra X Morocco",
+    "id": "ultra-x-morocco",
+    "description": "International multi-stage ultra-marathon organized by the Ultra X World Series in the arid wilderness, gorges, and kasbahs around Ouarzazate.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouarzazate"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 50Km, 110Km (2 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ultra-x.co/morocco/",
+        "title": "Ultra X Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

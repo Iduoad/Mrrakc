@@ -102,8 +102,79 @@ function EventEntry({ event, approx, continuation, next, onClick }: {
     );
 }
 
+const EVENTS_PER_MONTH_LIMIT = 6;
+
+interface MonthCardProps {
+    monthName: string;
+    entries: { event: AgendaEventDTO; approx: boolean; continuation: boolean }[];
+    nextByEvent: Map<string, NextEdition>;
+    selectedCategory: string;
+    onSelectEvent: (event: AgendaEventDTO) => void;
+}
+
+function MonthCard({
+    monthName,
+    entries,
+    nextByEvent,
+    selectedCategory,
+    onSelectEvent,
+}: MonthCardProps) {
+    const [expanded, setExpanded] = useState(false);
+
+    // Reset expansion state when category filter changes
+    useEffect(() => {
+        setExpanded(false);
+    }, [selectedCategory]);
+
+    const totalCount = entries.length;
+    const hasMore = totalCount > EVENTS_PER_MONTH_LIMIT;
+    const visibleEntries = expanded || !hasMore ? entries : entries.slice(0, EVENTS_PER_MONTH_LIMIT);
+    const remainingCount = totalCount - EVENTS_PER_MONTH_LIMIT;
+
+    return (
+        <div className="bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl p-4 flex flex-col justify-between">
+            <div>
+                <div className="flex items-center justify-between mb-2">
+                    <h3 className="font-serif font-bold text-charcoal dark:text-stone-100">{monthName}</h3>
+                    {totalCount > 0 && (
+                        <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-clay/10 dark:bg-charcoal-light/40 text-charcoal-light dark:text-stone-400">
+                            {totalCount}
+                        </span>
+                    )}
+                </div>
+                {totalCount > 0 ? (
+                    <div className="space-y-0.5 -mx-2">
+                        {visibleEntries.map(({ event, approx, continuation }) => (
+                            <EventEntry
+                                key={event.id}
+                                event={event}
+                                approx={approx}
+                                continuation={continuation}
+                                next={nextByEvent.get(event.id) ?? null}
+                                onClick={() => onSelectEvent(event)}
+                            />
+                        ))}
+                    </div>
+                ) : (
+                    <p className="text-xs text-charcoal-light/60 dark:text-stone-600">No events</p>
+                )}
+            </div>
+
+            {hasMore && (
+                <button
+                    onClick={() => setExpanded(v => !v)}
+                    className="mt-3 w-full py-1.5 px-3 text-xs font-medium rounded-xl text-charcoal-light dark:text-stone-400 hover:text-terra dark:hover:text-terra border border-clay/20 dark:border-charcoal-light hover:border-terra/50 hover:bg-clay/5 dark:hover:bg-charcoal-light/30 transition-all text-center"
+                >
+                    {expanded ? 'Show less' : `+ ${remainingCount} more in ${monthName}`}
+                </button>
+            )}
+        </div>
+    );
+}
+
 export default function AgendaCalendar({ events }: Props) {
     const [viewMode, setViewMode] = useState<'calendar' | 'map'>('calendar');
+    const [selectedCategory, setSelectedCategory] = useState<string>('all');
     const [selectedKinds, setSelectedKinds] = useState<string[]>([]);
     const [selectedProvinces, setSelectedProvinces] = useState<string[]>([]);
     const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
@@ -111,6 +182,35 @@ export default function AgendaCalendar({ events }: Props) {
     const [upcomingOnly, setUpcomingOnly] = useState(false);
     const [filtersOpen, setFiltersOpen] = useState(false);
     const [activeEvent, setActiveEvent] = useState<AgendaEventDTO | null>(null);
+
+    // Sync selectedCategory with ?category= URL query param on mount and popstate
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        const params = new URLSearchParams(window.location.search);
+        const cat = params.get('category');
+        if (cat) {
+            setSelectedCategory(cat.toLowerCase());
+        }
+        const onPopState = () => {
+            const p = new URLSearchParams(window.location.search);
+            setSelectedCategory(p.get('category')?.toLowerCase() || 'all');
+        };
+        window.addEventListener('popstate', onPopState);
+        return () => window.removeEventListener('popstate', onPopState);
+    }, []);
+
+    const handleCategoryChange = (cat: string) => {
+        setSelectedCategory(cat);
+        if (typeof window !== 'undefined') {
+            const url = new URL(window.location.href);
+            if (cat === 'all') {
+                url.searchParams.delete('category');
+            } else {
+                url.searchParams.set('category', cat);
+            }
+            window.history.replaceState({}, '', url.toString());
+        }
+    };
 
     // Returning from an event's detail page restores this island from the
     // back/forward cache with its state intact — close the modal so Back lands
@@ -144,6 +244,24 @@ export default function AgendaCalendar({ events }: Props) {
         [events, nextByEvent]
     );
 
+    const availableCategories = useMemo(() => {
+        const cats = new Set<string>();
+        for (const e of events) {
+            const top = e.kind.split('/')[0];
+            if (top) cats.add(top);
+        }
+        return Array.from(cats).sort();
+    }, [events]);
+
+    const categoryCounts = useMemo(() => {
+        const counts: Record<string, number> = { all: events.length };
+        for (const e of events) {
+            const top = e.kind.split('/')[0];
+            counts[top] = (counts[top] ?? 0) + 1;
+        }
+        return counts;
+    }, [events]);
+
     const availableKinds = useMemo(
         () => [...new Set(events.map(e => e.kind))].sort(),
         [events]
@@ -168,16 +286,21 @@ export default function AgendaCalendar({ events }: Props) {
     // Status starts pre-selected rather than empty, so it counts as a filter only
     // once it differs from that default.
     const statusFiltered = !sameStatuses(selectedStatuses, DEFAULT_STATUSES);
-    const activeFilterCount = selectedKinds.length + selectedProvinces.length + selectedTypes.length
+    const activeFilterCount = (selectedCategory !== 'all' ? 1 : 0) + selectedKinds.length + selectedProvinces.length + selectedTypes.length
         + (upcomingOnly ? 1 : 0) + (statusFiltered ? 1 : 0);
 
-    const filteredEvents = useMemo(() => events.filter(e =>
-        selectedStatuses.includes(e.status) &&
-        (!upcomingOnly || Boolean(nextByEvent.get(e.id))) &&
-        (selectedKinds.length === 0 || selectedKinds.includes(e.kind)) &&
-        (selectedProvinces.length === 0 || e.provinces.some(p => selectedProvinces.includes(p.slug))) &&
-        (selectedTypes.length === 0 || selectedTypes.includes(e.recurrence.type))
-    ), [events, selectedStatuses, upcomingOnly, nextByEvent, selectedKinds, selectedProvinces, selectedTypes]);
+    const filteredEvents = useMemo(() => events.filter(e => {
+        const topLevelCat = e.kind.split('/')[0];
+        const categoryMatches = selectedCategory === 'all' || topLevelCat === selectedCategory || e.kind.startsWith(selectedCategory + '/');
+        return (
+            categoryMatches &&
+            selectedStatuses.includes(e.status) &&
+            (!upcomingOnly || Boolean(nextByEvent.get(e.id))) &&
+            (selectedKinds.length === 0 || selectedKinds.includes(e.kind)) &&
+            (selectedProvinces.length === 0 || e.provinces.some(p => selectedProvinces.includes(p.slug))) &&
+            (selectedTypes.length === 0 || selectedTypes.includes(e.recurrence.type))
+        );
+    }), [events, selectedCategory, selectedStatuses, upcomingOnly, nextByEvent, selectedKinds, selectedProvinces, selectedTypes]);
 
     const { buckets, noFixedDates, hasContinuation } = useMemo(() => {
         const buckets: { event: AgendaEventDTO; approx: boolean; continuation: boolean }[][] =
@@ -275,6 +398,46 @@ export default function AgendaCalendar({ events }: Props) {
                 )}
             </div>
 
+            {/* Category Filter Bar */}
+            <div className="flex flex-wrap items-center gap-2 mb-6">
+                <button
+                    onClick={() => handleCategoryChange('all')}
+                    className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide border transition-all duration-200 ${selectedCategory === 'all'
+                        ? 'bg-terra text-white border-terra shadow-sm'
+                        : 'bg-white dark:bg-charcoal text-charcoal-light dark:text-stone-300 border-clay/20 dark:border-charcoal-light hover:border-terra/50 hover:text-terra'
+                    }`}
+                >
+                    <span>All</span>
+                    <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${selectedCategory === 'all'
+                        ? 'bg-white/20 text-white font-bold'
+                        : 'bg-clay/10 dark:bg-charcoal-light/30 text-charcoal-light dark:text-stone-400'
+                    }`}>
+                        {categoryCounts['all'] ?? events.length}
+                    </span>
+                </button>
+                {availableCategories.map(cat => {
+                    const isSelected = selectedCategory === cat;
+                    return (
+                        <button
+                            key={cat}
+                            onClick={() => handleCategoryChange(cat)}
+                            className={`inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wide capitalize border transition-all duration-200 ${isSelected
+                                ? 'bg-terra text-white border-terra shadow-sm'
+                                : 'bg-white dark:bg-charcoal text-charcoal-light dark:text-stone-300 border-clay/20 dark:border-charcoal-light hover:border-terra/50 hover:text-terra'
+                            }`}
+                        >
+                            <span>{cat}</span>
+                            <span className={`text-[10px] px-1.5 py-0.5 rounded-full ${isSelected
+                                ? 'bg-white/20 text-white font-bold'
+                                : 'bg-clay/10 dark:bg-charcoal-light/30 text-charcoal-light dark:text-stone-400'
+                            }`}>
+                                {categoryCounts[cat] ?? 0}
+                            </span>
+                        </button>
+                    );
+                })}
+            </div>
+
             {viewMode === 'map' && (
                 <Suspense fallback={
                     <div className="h-[70vh] rounded-2xl border border-clay/20 dark:border-charcoal-light flex items-center justify-center text-charcoal-light dark:text-stone-400">
@@ -290,44 +453,30 @@ export default function AgendaCalendar({ events }: Props) {
             )}
 
             {/* Month grid */}
-            <div className={viewMode === 'calendar' ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4' : 'hidden'}>
+            <div className={viewMode === 'calendar' ? 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 items-start' : 'hidden'}>
                 {MONTH_NAMES.map((monthName, i) => (
-                    <div
+                    <MonthCard
                         key={monthName}
-                        className="bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl p-4"
-                    >
-                        <div className="flex items-baseline justify-between mb-2">
-                            <h3 className="font-serif font-bold text-charcoal dark:text-stone-100">{monthName}</h3>
-                            {buckets[i].length > 0 && (
-                                <span className="text-xs text-charcoal-light dark:text-stone-500">{buckets[i].length}</span>
-                            )}
-                        </div>
-                        {buckets[i].length > 0 ? (
-                            <div className="space-y-0.5 -mx-2">
-                                {buckets[i].map(({ event, approx, continuation }) => (
-                                    <EventEntry
-                                        key={event.id}
-                                        event={event}
-                                        approx={approx}
-                                        continuation={continuation}
-                                        next={nextByEvent.get(event.id) ?? null}
-                                        onClick={() => setActiveEvent(event)}
-                                    />
-                                ))}
-                            </div>
-                        ) : (
-                            <p className="text-xs text-charcoal-light/60 dark:text-stone-600">No events</p>
-                        )}
-                    </div>
+                        monthName={monthName}
+                        entries={buckets[i]}
+                        nextByEvent={nextByEvent}
+                        selectedCategory={selectedCategory}
+                        onSelectEvent={setActiveEvent}
+                    />
                 ))}
             </div>
 
             {/* No fixed dates strip */}
             {viewMode === 'calendar' && noFixedDates.length > 0 && (
                 <div className="mt-4 bg-white dark:bg-charcoal border border-clay/20 dark:border-charcoal-light rounded-2xl p-4">
-                    <div className="flex items-center gap-2 mb-2">
-                        <HelpCircle size={16} className={TYPE_COLORS.irregular} />
-                        <h3 className="font-serif font-bold text-charcoal dark:text-stone-100">No fixed dates</h3>
+                    <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center gap-2">
+                            <HelpCircle size={16} className={TYPE_COLORS.irregular} />
+                            <h3 className="font-serif font-bold text-charcoal dark:text-stone-100">No fixed dates</h3>
+                        </div>
+                        <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-clay/10 dark:bg-charcoal-light/40 text-charcoal-light dark:text-stone-400">
+                            {noFixedDates.length}
+                        </span>
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 -mx-2">
                         {noFixedDates.map(event => (
@@ -366,6 +515,7 @@ export default function AgendaCalendar({ events }: Props) {
                 onStatusChange={toggle(setSelectedStatuses)}
                 onUpcomingChange={() => setUpcomingOnly(v => !v)}
                 onClearFilters={() => {
+                    handleCategoryChange('all');
                     setSelectedKinds([]);
                     setSelectedProvinces([]);
                     setSelectedTypes([]);

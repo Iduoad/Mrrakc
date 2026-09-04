@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Al Haoud Sidi Bennour",
+    "id": "course-al-haoud-sidi-bennour",
+    "description": "Grassroots 5km rural road race held in Douar Haoud in Sidi Bennour province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sidi-bennour"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursealhaoud/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

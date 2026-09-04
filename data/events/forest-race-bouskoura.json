@@ -1,0 +1,41 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Forest Race Bouskoura",
+    "id": "forest-race-bouskoura",
+    "description": "Trail and cross-country race across the paths of Bouskoura forest, closing out the autumn running season.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11,
+        12
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-12",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/forestracecasablanca/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

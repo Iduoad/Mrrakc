@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail Acacia M'Ssid",
+    "id": "trail-acacia-mssid",
+    "description": "Desert marathon and multi-distance trail event through the arid acacia plateaus around M'Ssid in Tinghir province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tinghir"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 42Km, 20Km, 10Km, 3Km, 2Km, 1Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailacacia/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

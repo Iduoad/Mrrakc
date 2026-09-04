@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Semi-Marathon International de Tamansourt",
+    "id": "semi-marathon-international-tamansourt",
+    "description": "International road race held in the satellite city of Tamansourt north of Marrakech, featuring 21km and 10km events.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/marrakesh"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-12",
+        "endDate": "2025-12",
+        "status": "held",
+        "notes": "Distances: 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/semimarathontamansourt/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

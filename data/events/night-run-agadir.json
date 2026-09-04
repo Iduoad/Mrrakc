@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Night Run Agadir",
+    "id": "night-run-agadir",
+    "description": "Festive night run illuminated along the beachside promenade and Place Al Wahda in Agadir.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-10",
+        "endDate": "2026-10",
+        "status": "held",
+        "notes": "Distances: 6Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/nightrunagadir/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de Moulay Abdellah",
+    "id": "course-de-moulay-abdellah",
+    "description": "Coastal 15km road race along the Atlantic littoral to the historical ribat of Moulay Abdellah Amghar in El Jadida province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/el-jadida"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 15Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursemoulayabdellah/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

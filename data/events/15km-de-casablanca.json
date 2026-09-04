@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Les 15Km de Casablanca",
+    "id": "15km-de-casablanca",
+    "description": "Classic 15km road race through Casablanca's southwestern avenues, bridging long and middle distance racing.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 15Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/15kmcasablanca/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

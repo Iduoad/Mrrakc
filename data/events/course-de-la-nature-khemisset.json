@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de la Nature de Khémisset",
+    "id": "course-de-la-nature-khemisset",
+    "description": "15km nature running race organized around Dayet Roumi lake and the Zemmour countryside in Khemisset.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/khemisset"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 15Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursenaturekhemisset/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

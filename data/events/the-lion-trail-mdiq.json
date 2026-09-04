@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "The Lion Trail M'diq",
+    "id": "the-lion-trail-mdiq",
+    "description": "Trail half marathon climbing Cabo Negro and the coastal hills overlooking the Mediterranean Sea at M'diq.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 21Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/theliontrail/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

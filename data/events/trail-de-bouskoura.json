@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail de Bouskoura",
+    "id": "trail-de-bouskoura",
+    "description": "Spring nature trail running race through the eucalyptus paths and singletracks of Bouskoura forest.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 17Km, 6Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailbouskoura/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

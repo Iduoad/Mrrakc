@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Ironman 70.3 Agadir",
+    "id": "ironman-70-3-agadir",
+    "description": "World-class Middle Distance triathlon event featuring a 1.9km ocean swim in Agadir Bay, 90km bike ride, and 21.1km half marathon along the palm-lined corniche.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/agadir-ida-ou-tanane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-10",
+        "endDate": "2026-10",
+        "status": "held",
+        "notes": "Distances: Triathlon"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.ironman.com/im703-agadir",
+        "title": "Ironman Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

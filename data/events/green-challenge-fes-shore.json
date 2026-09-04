@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Green Challenge Fès Shore",
+    "id": "green-challenge-fes-shore",
+    "description": "Corporate 5km green obstacle and fitness run held at the Fès Shore technology park in Fez.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.fesshore.ma/",
+        "title": "Fès Shore",
+        "type": "website"
+      }
+    ]
+  }
+}

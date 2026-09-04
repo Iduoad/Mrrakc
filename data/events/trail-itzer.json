@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail d'Itzer",
+    "id": "trail-itzer",
+    "description": "Mountain trail and ultra-trail running event traversing the cedar forests of the Middle Atlas around Itzer and Lac Sidi Ali in Midelt province.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/midelt"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5,
+        11
+      ],
+      "part": "mid",
+      "typicalDurationDays": 3
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-11",
+        "endDate": "2025-11",
+        "status": "held",
+        "notes": "Distances: 42Km, 21Km, 10Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 100Km (3 etapes), 56Km (2 etapes), 21Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/itzertrail/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

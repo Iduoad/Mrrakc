@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "FesRun",
+    "id": "fesrun",
+    "description": "The Fez stage of the national CityRun movement, featuring cultural running courses around the ancient imperial capital.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/fez"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        10
+      ],
+      "part": "mid",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-10",
+        "endDate": "2026-10",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 6Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/fesrun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

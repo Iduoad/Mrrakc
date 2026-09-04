@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Semi-Marathon de Meknès",
+    "id": "semi-marathon-de-meknes",
+    "description": "Imperial city half marathon passing Bab Mansour, the royal granaries, and Place Lahdim in Meknès.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/meknes"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 21Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/semimarathonmeknes/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

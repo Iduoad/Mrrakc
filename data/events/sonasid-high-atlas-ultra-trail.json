@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Sonasid High Atlas Ultra Trail",
+    "id": "sonasid-high-atlas-ultra-trail",
+    "description": "High-altitude alpine ultra-trail competition supported by Sonasid connecting Imlil, Ouirgane, and the Toubkal National Park.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/al-haouz"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 120Km, 80Km, 60Km, 44Km, 21Km, 10Km, 3.8Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/sonasidtrail/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

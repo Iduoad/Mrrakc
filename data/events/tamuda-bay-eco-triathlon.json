@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Tamuda Bay Eco Triathlon",
+    "id": "tamuda-bay-eco-triathlon",
+    "description": "Eco-friendly triathlon event featuring open water Mediterranean swimming, cycling, and seaside running between M'diq and Martil.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: Triathlon"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.tamudabayecomarathon.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

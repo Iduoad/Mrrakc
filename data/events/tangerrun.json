@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "TangerRun",
+    "id": "tangerrun",
+    "description": "Major gathering of northern running clubs organized across Tangier's corniche and Gibraltar strait viewpoints by CityRun Morocco.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 2
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.moroccorun.com/tangerrun",
+        "title": "CityRun Morocco",
+        "type": "website"
+      }
+    ]
+  }
+}

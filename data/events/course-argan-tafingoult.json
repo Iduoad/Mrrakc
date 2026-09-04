@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de l'Argan de Tafingoult",
+    "id": "course-argan-tafingoult",
+    "description": "Ecological road and trail race through the UNESCO Arganeraie biosphere reserve around Tafingoult in Taroudant.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/taroudant"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 6Km, 4Km, 1.5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/argantafingoult/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Féminine de la Victoire de Rabat",
+    "id": "course-feminine-de-la-victoire-rabat",
+    "description": "Prestigious annual women's race founded by Olympic champion Nawal El Moutawakel along Avenue de la Victoire in Rabat.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursefemininedelavictoire/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

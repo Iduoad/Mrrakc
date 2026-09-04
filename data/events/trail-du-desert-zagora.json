@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail du Désert de Zagora",
+    "id": "trail-du-desert-zagora",
+    "description": "Desert nature trail hosted around Kasbah Ait Isfoul near Zagora on the fringe of the Moroccan Sahara.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 10Km, 2Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/traildudesertzagora/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

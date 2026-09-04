@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Master Ifrane",
+    "id": "trail-master-ifrane",
+    "description": "Winter trail challenge through the snowy cedar groves and high alpine ridges of Ifrane National Park.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ifrane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-12",
+        "endDate": "2025-12",
+        "status": "held",
+        "notes": "Distances: 21Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.trailmaroc.com/",
+        "title": "Trail Maroc",
+        "type": "website"
+      }
+    ]
+  }
+}

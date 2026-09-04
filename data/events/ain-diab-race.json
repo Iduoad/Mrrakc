@@ -1,0 +1,47 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Aïn Diab Race",
+    "id": "ain-diab-race",
+    "description": "Scenic Atlantic road race along the Ain Diab corniche in Casablanca, featuring 15km, 10km, and 5km formats.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/casablanca"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      },
+      {
+        "year": 2027,
+        "startDate": "2027-04",
+        "endDate": "2027-04",
+        "status": "held",
+        "notes": "Distances: 15Km, 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/aindiabrace/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

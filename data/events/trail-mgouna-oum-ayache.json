@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/marathon",
+  "spec": {
+    "name": "Trail Mgouna Oum Ayache",
+    "id": "trail-mgouna-oum-ayache",
+    "description": "Mountain trail marathon across the Valley of the Roses and gorges of Kelaat M'gouna and Oum Ayache in Tinghir.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tinghir"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 42Km, 25Km, 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailmgouna/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

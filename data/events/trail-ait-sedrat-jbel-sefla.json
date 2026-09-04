@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Aït Sedrat Jbel Sefla",
+    "id": "trail-ait-sedrat-jbel-sefla",
+    "description": "High mountain trail race weaving through the red clay canyons and Dades Valley gorges of Ait Sedrate Jbel El Soufla.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tinghir"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        5
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-05",
+        "endDate": "2026-05",
+        "status": "held",
+        "notes": "Distances: 20Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailaitsedrat/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Duathlon Triumpher's Tangier",
+    "id": "duathlon-triumphers-tangier",
+    "description": "Multi-sport run-bike-run duathlon event along the seaside corniche of Gzennaia in Tangier.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/tangier-assilah"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-08",
+        "endDate": "2026-08",
+        "status": "held",
+        "notes": "Distances: Duathlon"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/triumpherstangier/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Rota Run Bouskoura",
+    "id": "rota-run-bouskoura",
+    "description": "Charity nature run organized by the Rotary Club in the Bouskoura forest supporting community health and education programs.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/nouaceur"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        12
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2025,
+        "startDate": "2025-12",
+        "endDate": "2025-12",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.rotary-maroc.org/",
+        "title": "Rotary Maroc",
+        "type": "website"
+      }
+    ]
+  }
+}

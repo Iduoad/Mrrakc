@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "10Km International de Laâyoune",
+    "id": "10km-international-de-laayoune",
+    "description": "International 10km road race held in Laâyoune through Place El Mechouar and wide Saharan boulevards.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/laayoune"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/10kmlaayoune/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

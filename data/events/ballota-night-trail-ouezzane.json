@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Ballota Night Trail Ouezzane",
+    "id": "ballota-night-trail-ouezzane",
+    "description": "Summer night trail run under headlamps traversing the olive groves and historic hills of Ouezzane.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouezzane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 10Km Nocturne"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/ballotanighttrail/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Canicross de Benslimane",
+    "id": "canicross-de-benslimane",
+    "description": "Specialized running competition where human runners race alongside their dogs through Benslimane forest trails.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/benslimane"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        6
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-06",
+        "endDate": "2026-06",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/canicrossmaroc/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

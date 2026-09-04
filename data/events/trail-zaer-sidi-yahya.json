@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Zaër de Sidi Yahya Zaër",
+    "id": "trail-zaer-sidi-yahya",
+    "description": "Nature cross-country race through the cork-oak valleys and agricultural countryside of the Zaër region in Sidi Yahya Zaër.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/skhirate-temara"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 20Km, 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailzaer/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

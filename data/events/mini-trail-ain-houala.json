@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Mini Trail Aïn Houala",
+    "id": "mini-trail-ain-houala",
+    "description": "Community cross-country and trail race held in the rural agricultural landscapes of Ain Houala near Salé.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/sale"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km, 3Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailainhouala/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

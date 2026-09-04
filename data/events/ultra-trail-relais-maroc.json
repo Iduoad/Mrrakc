@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Ultra Trail Relais Maroc",
+    "id": "ultra-trail-relais-maroc",
+    "description": "103km team relay and solo endurance ultra-trail through the desert valleys, palm oases, and kasbahs around Ouarzazate.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/ouarzazate"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        4
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 103Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/ultratrailrelaismaroc/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

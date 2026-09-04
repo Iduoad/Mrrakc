@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Grand Trail de la Vallée du Draa",
+    "id": "grand-trail-vallee-du-draa",
+    "description": "Legendary 5-stage 180km desert adventure running along the ancient caravan routes, kasbahs, and oasis palm groves of the Draa Valley.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/zagora"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        11
+      ],
+      "part": "first-half",
+      "typicalDurationDays": 5
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-11",
+        "endDate": "2026-11",
+        "status": "held",
+        "notes": "Distances: 180Km (5 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/grandtrailvalleedudraa/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

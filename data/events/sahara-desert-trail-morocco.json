@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Sahara Desert Trail Morocco",
+    "id": "sahara-desert-trail-morocco",
+    "description": "Five-stage desert trail running expedition over 140km across the Erg Chebbi sand dunes and desert flats of Merzouga.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/errachidia"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "early",
+      "typicalDurationDays": 5
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held",
+        "notes": "Distances: 22Km, 28Km, 34Km, 28Km, 20Km (5 etapes)"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.saharadeserttrail.com/",
+        "title": "Official Website",
+        "type": "website"
+      }
+    ]
+  }
+}

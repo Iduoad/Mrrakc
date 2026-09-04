@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Trail Nocturne Jbel Zemzem Fnideq",
+    "id": "trail-nocturne-jbel-zemzem-fnideq",
+    "description": "Summer night trail run climbing Jbel Zemzem above the Mediterranean coast at Fnideq.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/m-diq-fnideq"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        8
+      ],
+      "part": "early",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-08",
+        "endDate": "2026-08",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/trailjbelzemzem/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Al Irfane Rabat",
+    "id": "course-al-irfane-rabat",
+    "description": "Campus road running race staged in the academic city of Madinat Al Irfane in Rabat, organized for students and university faculty.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/rabat"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        2
+      ],
+      "part": "mid",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-02",
+        "endDate": "2026-02",
+        "status": "held"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.um5.ac.ma/",
+        "title": "Université Mohammed V",
+        "type": "website"
+      }
+    ]
+  }
+}

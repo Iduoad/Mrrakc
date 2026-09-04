@@ -1,0 +1,48 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course de Mohammedia",
+    "id": "course-de-mohammedia",
+    "description": "Annual 10km and 5km road competition running through Parc Prince Moulay El Hassan and coastal boulevards of Mohammedia.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/mohammedia"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        3,
+        4
+      ],
+      "part": "second-half",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-03",
+        "endDate": "2026-03",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      },
+      {
+        "year": 2026,
+        "startDate": "2026-04",
+        "endDate": "2026-04",
+        "status": "held",
+        "notes": "Distances: 10Km, 5Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/coursemohammedia/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}

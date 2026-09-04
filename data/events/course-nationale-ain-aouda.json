@@ -1,0 +1,40 @@
+{
+  "version": "mrrakc/v0",
+  "kind": "sport/race",
+  "spec": {
+    "name": "Course Nationale d'Aïn Aouda",
+    "id": "course-nationale-ain-aouda",
+    "description": "10km national road race held in Ain Aouda, bringing together elite and amateur runners from the Rabat-Salé-Kénitra region.",
+    "status": "active",
+    "host": {
+      "provinces": [
+        "province/skhirate-temara"
+      ]
+    },
+    "recurrence": {
+      "frequency": "annual",
+      "type": "gregorian",
+      "months": [
+        7
+      ],
+      "part": "late",
+      "typicalDurationDays": 1
+    },
+    "editions": [
+      {
+        "year": 2026,
+        "startDate": "2026-07",
+        "endDate": "2026-07",
+        "status": "held",
+        "notes": "Distances: 10Km"
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.facebook.com/courseainaouda/",
+        "title": "Official Page",
+        "type": "social"
+      }
+    ]
+  }
+}
